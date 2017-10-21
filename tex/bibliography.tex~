@@ -1,0 +1,11 @@
+\documentclass[../thesis.tex]{subfiles}
+
+\renewcommand{\bibname}{Whatever floats your boat}
+
+\begin{document}
+
+\bibliographystyle{tex/IEEEtran}
+
+\bibliography{tex/references}
+
+\end{document}

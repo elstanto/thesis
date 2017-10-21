@@ -1,0 +1,41 @@
+\documentclass[../thesis/thesis.tex]{subfiles}
+\begin{document}
+
+\chapter*{Declaration of Authorship}
+I confirm that the submitted work is my own work and that I have clearly identified and fully acknowledged all material that is entitled to be attributed to others (whether published or unpublished) using the referencing system set out in the programme handbook. I agree that the University may submit my work to means of checking this, such as the plagiarism detection service Turnitin UK. I confirm that I understand that assessed work that has been shown to have been plagiarised will be penalised.
+\\[12pt]
+The authors confirm that data underlying the findings are available without restriction.
+Details of the data and how to request access are available from the University of Surrey
+publications repository at http://epubs.surrey.ac.uk/blahTBD
+\\[48pt]
+\noindent\begin{tabular}{ll}
+\makebox[2in]{\hrulefill} & \makebox[2in]{\hrulefill} \\ Laurence Stant (Author) & Date \\
+\end{tabular}
+
+\chapter*{}
+\emph{``What error drives our eyes and ears amiss? Until I know this sure uncertainty I'll entertain the offered fallacy."}
+\begin{flushright}
+William Shakespeare, The Comedy of Errors
+\end{flushright}
+\vspace{1cm}
+\emph{``That's right!" shouted Vroomfondel, ``we demand rigidly defined areas of doubt and uncertainty!"}
+\begin{flushright}
+Douglas Adams, The Hitchikers Guide to the Galaxy
+\end{flushright}
+
+\chapter*{Abstract}
+Abstract goes here
+
+\chapter*{Research Outcomes}
+\begin{refsection}
+\section*{Publications}
+\nocite{Stant_2016_Coll, Stant_2016, Stant_2017}
+\printbibliography
+\end{refsection}
+\chapter*{Acknowledgements}
+I want to thank...
+
+
+
+\tableofcontents
+\end{document}

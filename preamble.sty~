@@ -1,0 +1,15 @@
+\ProvidesPackage{preamble}
+
+\usepackage{subfiles}
+\usepackage[style=ieee]{biblatex}
+\addbibresource{references.bib}
+
+\AtBeginDocument{%
+}
+
+\AtEndDocument{%
+    \printbibliography
+}
+
+\newcommand{\onlyinsubfile}[1]{#1}
+\newcommand{\notinsubfile}[1]{}

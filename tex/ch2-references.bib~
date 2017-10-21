@@ -1,0 +1,37 @@
+% Encoding: UTF-8
+
+@Article{Stant_2016,
+  author    = {L.T. Stant and P.H. Aaen and N.M. Ridler},
+  title     = {Comparing methods for evaluating measurement uncertainty given in the {JCGM} `Evaluation of Measurement Data' documents},
+  journal   = {Measurement},
+  year      = {2016},
+  volume    = {94},
+  pages     = {847--851},
+  month     = {dec},
+  doi       = {10.1016/j.measurement.2016.08.015},
+  publisher = {Elsevier {BV}},
+}
+
+@Article{Stant_2017,
+  author    = {L.T. Stant and P.H. Aaen and N.M. Ridler},
+  title     = {Evaluating residual errors in waveguide {VNAs} from microwave to submillimetre-wave frequencies},
+  journal   = {{IET} Microwaves, Antennas {\&} Propagation},
+  year      = {2017},
+  volume    = {11},
+  number    = {3},
+  pages     = {324--329},
+  month     = {feb},
+  doi       = {10.1049/iet-map.2016.0455},
+  publisher = {Institution of Engineering and Technology ({IET})},
+}
+
+@InProceedings{Stant_2016_Coll,
+  author    = {L.T. Stant and N.M. Ridler and P.H. Aaen},
+  title     = {Evaluating residual errors in waveguide network analysers from microwave to submillimetre-wave frequencies},
+  booktitle = {{IET} Colloquium on Millimetre-Wave and Terahertz Engineering [amp ] Technology 2016},
+  year      = {2016},
+  publisher = {Institution of Engineering and Technology ({IET})},
+  doi       = {10.1049/ic.2016.0016},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

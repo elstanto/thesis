@@ -1,0 +1,9 @@
+[0] Config.pm:354> INFO - This is Biber 2.7
+[0] Config.pm:357> INFO - Logfile is 'cover.blg'
+[70] biber:303> INFO - === Sat May 20, 2017, 16:07:41
+[112] Biber.pm:359> INFO - Reading 'cover.bcf'
+[174] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[179] Utils.pm:164> WARN - The file 'cover.bcf' does not contain any citations!
+[184] bbl.pm:608> INFO - Writing 'cover.bbl' with encoding 'ascii'
+[184] bbl.pm:712> INFO - Output to cover.bbl
+[184] Biber.pm:109> INFO - WARNINGS: 1

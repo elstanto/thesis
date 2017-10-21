@@ -1,0 +1,38 @@
+[0] Config.pm:354> INFO - This is Biber 2.7
+[0] Config.pm:357> INFO - Logfile is 'thesis.blg'
+[23] biber:303> INFO - === Mon May 22, 2017, 11:57:37
+[37] Biber.pm:359> INFO - Reading 'thesis.bcf'
+[96] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[97] Biber.pm:835> INFO - Found 3 citekeys in bib section 1
+[97] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[97] Biber.pm:835> INFO - Found 2 citekeys in bib section 2
+[97] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[97] Biber.pm:835> INFO - Found 1 citekeys in bib section 3
+[97] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[122] Biber.pm:3670> INFO - Processing section 1
+[132] Biber.pm:3840> INFO - Looking for bibtex format file '../references.bib' for section 1
+[133] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[137] bibtex.pm:1292> INFO - Found BibTeX data source '../references.bib'
+[140] Utils.pm:164> WARN - month field 'dec' in entry 'Stant_2016' is not an integer - this will probably not sort properly.
+[141] Utils.pm:164> WARN - month field 'feb' in entry 'Stant_2017' is not an integer - this will probably not sort properly.
+[149] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[149] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[149] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
+[149] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[151] Biber.pm:3670> INFO - Processing section 2
+[151] Biber.pm:3840> INFO - Looking for bibtex format file '../references.bib' for section 2
+[153] Utils.pm:164> WARN - month field 'dec' in entry 'Stant_2016' is not an integer - this will probably not sort properly.
+[160] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[160] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[160] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
+[160] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[161] Biber.pm:3670> INFO - Processing section 3
+[162] Biber.pm:3840> INFO - Looking for bibtex format file '../references.bib' for section 3
+[163] Utils.pm:164> WARN - month field 'feb' in entry 'Stant_2017' is not an integer - this will probably not sort properly.
+[170] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[170] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[170] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
+[170] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[171] bbl.pm:608> INFO - Writing 'thesis.bbl' with encoding 'ascii'
+[172] bbl.pm:712> INFO - Output to thesis.bbl
+[172] Biber.pm:109> INFO - WARNINGS: 4
