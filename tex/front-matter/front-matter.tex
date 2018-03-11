@@ -1,6 +1,9 @@
 \documentclass[../thesis/thesis.tex]{subfiles}
 \begin{document}
 
+\cleardoublepage
+\setcounter{page}{1}
+
 \chapter*{Declaration of Authorship}
 I confirm that the submitted work is my own work and that I have clearly identified and fully acknowledged all material that is entitled to be attributed to others (whether published or unpublished) using the referencing system set out in the programme handbook. I agree that the University may submit my work to means of checking this, such as the plagiarism detection service Turnitin UK. I confirm that I understand that assessed work that has been shown to have been plagiarised will be penalised.
 \\[12pt]
@@ -35,7 +38,16 @@ Abstract goes here
 \chapter*{Acknowledgements}
 I want to thank...
 
-
-
 \tableofcontents
+\addtocontents{toc}{~\hfill\textbf{Page}\par}
+
+\cleardoublepage
+\begingroup
+\thispagestyle{empty}
+\patchcmd{\chapter}{plain}{empty}{}{}
+\listoffigures
+\addtocontents{toc}{\contentsline{chapter}{\listfigurename}{}}
+\endgroup
+\cleardoublepage
+
 \end{document}

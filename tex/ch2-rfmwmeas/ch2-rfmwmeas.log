@@ -1,14 +1,15 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.5.17)  20 MAY 2017 18:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630) (preloaded format=pdflatex 2018.3.11)  11 MAR 2018 18:18
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**front-matter.tex
-(./front-matter.tex
-LaTeX2e <2017/01/01> patch level 3
-Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/subfiles/subfiles.cls
+**./ch2-rfmwmeas.tex
+(ch2-rfmwmeas.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 72 language(s) loaded.
+
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfiles\subfiles.
+cls"
 Document Class: subfiles 2012/05/23 Federico Garcia
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.sty
+"
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks14
 \verbatim@line=\toks15
@@ -16,9 +17,9 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 )
 Preamble taken from file `../thesis/thesis.tex'
 (../thesis/thesis.tex
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/book.cls
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\book.cls"
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\bk10.clo"
 File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -33,33 +34,42 @@ File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (../preamble.sty
+)
+(../preamble.sty
 
 LaTeX Warning: You have requested package `../preamble',
                but the package provides `preamble'.
 
 Package: preamble 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/subfiles/subfiles.sty
+
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfiles\subfiles.
+sty"
 Package: subfiles 2012/05/23 Federico Garcia
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
+sty"
+Package: biblatex 2018/03/04 v3.11 programmable bibliographies (PK/MW)
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexc
+mds.sty"
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
+rr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluate
+x.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
+.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
+ty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -67,43 +77,48 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.
+sty"
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count88
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
+y"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
+.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetke
+ys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmd
+s.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/logreq/logreq.sty
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count89
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/logreq/logreq.def
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+)) ("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
+"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+) ("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xstring\xstring.st
+y"
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xstring\xstring.
+tex"
 \@xs@message=\write3
 \integerpart=\count90
 \decimalpart=\count91
@@ -132,7 +147,7 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \c@refsegment=\count111
 \c@maxextratitle=\count112
 \c@maxextratitleyear=\count113
-\c@maxextrayear=\count114
+\c@maxextradate=\count114
 \c@maxextraalpha=\count115
 \c@abbrvpenalty=\count116
 \c@highnamepenalty=\count117
@@ -164,7 +179,10 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/blx-dm.def)
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-dm.de
+f"
+File: blx-dm.def 2018/03/04 v3.11 biblatex localization (PK/MW)
+)
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
@@ -233,68 +251,86 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedpublisher=\count194
 \c@language=\count195
 \c@savedlanguage=\count196
-\c@pageref=\count197
-\c@savedpageref=\count198
+\c@origlanguage=\count197
+\c@savedoriglanguage=\count198
+\c@pageref=\count199
+\c@savedpageref=\count266
 \shorthandwidth=\skip51
 \shortjournalwidth=\skip52
 \shortserieswidth=\skip53
 \shorttitlewidth=\skip54
 \shortauthorwidth=\skip55
 \shorteditorwidth=\skip56
+\locallabelnumberwidth=\skip57
+\locallabelalphawidth=\skip58
+\localshorthandwidth=\skip59
+\localshortjournalwidth=\skip60
+\localshortserieswidth=\skip61
+\localshorttitlewidth=\skip62
+\localshortauthorwidth=\skip63
+\localshorteditorwidth=\skip64
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-compa
+t.def"
+File: blx-compat.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count199
-\c@textcitetotal=\count266
-\c@textcitemaxnames=\count267
-\c@biburlnumpenalty=\count268
-\c@biburlucpenalty=\count269
-\c@biburllcpenalty=\count270
-\c@smartand=\count271
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
+def"
+File: biblatex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+\c@textcitecount=\count267
+\c@textcitetotal=\count268
+\c@textcitemaxnames=\count269
+\c@biburlnumpenalty=\count270
+\c@biburlucpenalty=\count271
+\c@biburllcpenalty=\count272
+\c@smartand=\count273
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-ieee\ieee
+.bbx"
 File: ieee.bbx 2017/03/27 v1.2d biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
-File: numeric-comp.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\numer
+ic-comp.bbx"
+File: numeric-comp.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\numer
+ic.bbx"
+File: numeric.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count272
-\c@bbx:relatedtotal=\count273
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\stand
+ard.bbx"
+File: standard.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count274
+\c@bbx:relatedtotal=\count275
 ))))
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-ieee\ieee
+.cbx"
 File: ieee.cbx 2017/03/27 v1.2d biblatex citation style
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
-File: numeric-comp.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
-\c@cbx@tempcnta=\count274
-\c@cbx@tempcntb=\count275
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\cbx\numer
+ic-comp.cbx"
+File: numeric-comp.cbx 2018/03/04 v3.11 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count276
+\c@cbx@tempcntb=\count277
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -313,41 +349,58 @@ Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.cfg
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
+cfg"
 File: biblatex.cfg 
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
+sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
+sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graph
+ics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-\Gread@gobject=\count276
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdfte
+x.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
+)
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titlesec\titlesec.
+sty"
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box26
+\beforetitleunit=\skip65
+\aftertitleunit=\skip66
+\ttl@plus=\dimen105
+\ttl@minus=\dimen106
+\ttl@toksa=\toks17
+\titlewidth=\dimen107
+\titlewidthlast=\dimen108
+\titlewidthfirst=\dimen109
 ))
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\engli
+sh.lbx"
+File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 )
-\@quotelevel=\count277
-\@quotereset=\count278
-))
-(./front-matter.aux)
-\openout1 = `front-matter.aux'.
+\@quotelevel=\count278
+\@quotereset=\count279
+)) (ch2-rfmwmeas.aux)
+\openout1 = `ch2-rfmwmeas.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
@@ -365,95 +418,78 @@ Package biblatex Info: No input encoding detected.
 (biblatex)             Assuming 'ascii'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'ascii'.
-\openout4 = `front-matter.bcf'.
+\openout4 = `ch2-rfmwmeas.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'front-matter.bbl' found.
- (./front-matter.bbl)
+Package biblatex Info: ... file 'ch2-rfmwmeas.bbl' not found.
+
+No file ch2-rfmwmeas.bbl.
 Package biblatex Info: Reference section=0 on input line 2.
 Package biblatex Info: Reference segment=0 on input line 2.
 
-(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
+ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count279
-\scratchdimen=\dimen105
-\scratchbox=\box26
-\nofMPsegments=\count280
-\nofMParguments=\count281
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count282
-\MPscratchDim=\dimen106
-\MPnumerator=\count283
-\makeMPintoPDFobject=\count284
-\everyMPtoPDFconversion=\toks18
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+\scratchcounter=\count280
+\scratchdimen=\dimen110
+\scratchbox=\box27
+\nofMPsegments=\count281
+\nofMParguments=\count282
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count283
+\MPscratchDim=\dimen111
+\MPnumerator=\count284
+\makeMPintoPDFobject=\count285
+\everyMPtoPDFconversion=\toks19
+)
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
+base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.st
+y"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefin
+ekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
+)
+Chapter 1.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 11.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 11.
-
-Overfull \hbox (12.69522pt too wide) in paragraph at lines 5--14
-\OT1/cmr/m/n/10 Uni-ver-sity of Sur-rey pub-li-ca-tions repos-i-tory at http://
-epubs.surrey.ac.uk/blahTBD 
+Overfull \hbox (16.55304pt too wide) in paragraph at lines 3--3
+|[]\OT1/cmr/bx/n/20.74 Radio Fre-quency and Mi-cro-wave
  []
 
 [1
 
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2
-
-] [3
-
-] [4
-
-] [5
-
-] (./front-matter.toc)
-\tf@toc=\write5
-\openout5 = `front-matter.toc'.
-
- [6
-
-] (./front-matter.aux)
-Package logreq Info: Writing requests to 'front-matter.run.xml'.
-\openout1 = `front-matter.run.xml'.
+{C:/Users/helgr/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(ch2-rfmwmeas.aux)
+Package logreq Info: Writing requests to 'ch2-rfmwmeas.run.xml'.
+\openout1 = `ch2-rfmwmeas.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 7831 strings out of 493013
- 137628 string characters out of 6133328
- 555266 words of memory out of 5000000
- 11303 multiletter control sequences out of 15000+600000
- 4592 words of font info for 17 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 51i,7n,34p,922b,700s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on front-matter.pdf (6 pages, 50359 bytes).
+ 8332 strings out of 493339
+ 148691 string characters out of 3130663
+ 553085 words of memory out of 3000000
+ 11800 multiletter control sequences out of 15000+200000
+ 5465 words of font info for 20 fonts, out of 3000000 for 9000
+ 1127 hyphenation exceptions out of 8191
+ 52i,4n,35p,924b,744s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/helgr/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb><C:/Users/helgr/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb>
+Output written on ch2-rfmwmeas.pdf (1 page, 24216 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
+ 14 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

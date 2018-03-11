@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.8 $
+% $ biblatex bbl format version 2.9 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,7 +18,7 @@
 
 
 \refsection{1}
-  \sortlist[entry]{none/global/}
+  \datalist[entry]{none/global//global/global}
     \entry{Stant_2016_Coll}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=6ff9819fe8e84453f16bbc72eb6e563b}{%
@@ -43,10 +43,12 @@
       }
       \strng{namehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{fullhash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{bibnamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{authorbibnamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{authornamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{authorfullhash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{{IET} Colloquium on Millimetre-Wave and Terahertz Engineering [amp ] Technology 2016}
@@ -79,10 +81,12 @@
       }
       \strng{namehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{fullhash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{bibnamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{authorbibnamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{authornamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{authorfullhash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Measurement}
@@ -120,10 +124,12 @@
       }
       \strng{namehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{fullhash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{bibnamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{authorbibnamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{authornamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{authorfullhash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{{IET} Microwaves, Antennas {\&} Propagation}
@@ -138,11 +144,11 @@
       \verb 10.1049/iet-map.2016.0455
       \endverb
     \endentry
-  \endsortlist
+  \enddatalist
 \endrefsection
 
 \refsection{2}
-  \sortlist[entry]{none/global/}
+  \datalist[entry]{none/global//global/global}
     \entry{Stant_2016_Coll}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=6ff9819fe8e84453f16bbc72eb6e563b}{%
@@ -167,10 +173,12 @@
       }
       \strng{namehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{fullhash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{bibnamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{authorbibnamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{authornamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{authorfullhash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{{IET} Colloquium on Millimetre-Wave and Terahertz Engineering [amp ] Technology 2016}
@@ -203,10 +211,12 @@
       }
       \strng{namehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{fullhash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{bibnamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{authorbibnamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{authornamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{authorfullhash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Measurement}
@@ -220,11 +230,11 @@
       \verb 10.1016/j.measurement.2016.08.015
       \endverb
     \endentry
-  \endsortlist
+  \enddatalist
 \endrefsection
 
 \refsection{3}
-  \sortlist[entry]{none/global/}
+  \datalist[entry]{none/global//global/global}
     \entry{Stant_2017}{article}{}
       \name{author}{3}{}{%
         {{hash=6ff9819fe8e84453f16bbc72eb6e563b}{%
@@ -249,10 +259,12 @@
       }
       \strng{namehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{fullhash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{bibnamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{authorbibnamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{authornamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{authorfullhash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{{IET} Microwaves, Antennas {\&} Propagation}
@@ -267,7 +279,7 @@
       \verb 10.1049/iet-map.2016.0455
       \endverb
     \endentry
-  \endsortlist
+  \enddatalist
 \endrefsection
 \endinput
 

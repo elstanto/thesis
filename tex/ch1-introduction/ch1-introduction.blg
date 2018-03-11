@@ -1,19 +1,20 @@
-[0] Config.pm:354> INFO - This is Biber 2.7
-[0] Config.pm:357> INFO - Logfile is 'ch1-introduction.blg'
-[24] biber:303> INFO - === Sat May 20, 2017, 15:54:20
-[39] Biber.pm:359> INFO - Reading 'ch1-introduction.bcf'
-[100] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[100] Biber.pm:835> INFO - Found 2 citekeys in bib section 1
-[100] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[115] Biber.pm:3670> INFO - Processing section 1
-[125] Biber.pm:3840> INFO - Looking for bibtex format file '../references.bib' for section 1
-[130] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[147] bibtex.pm:1292> INFO - Found BibTeX data source '../references.bib'
-[150] Utils.pm:164> WARN - month field 'dec' in entry 'Stant_2016' is not an integer - this will probably not sort properly.
-[157] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[157] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[157] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
-[157] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
-[159] bbl.pm:608> INFO - Writing 'ch1-introduction.bbl' with encoding 'ascii'
-[160] bbl.pm:712> INFO - Output to ch1-introduction.bbl
-[160] Biber.pm:109> INFO - WARNINGS: 1
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'ch1-introduction.blg'
+[44] biber-MSWIN32:313> INFO - === 
+[132] Biber.pm:371> INFO - Reading 'ch1-introduction.bcf'
+[251] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[251] Biber.pm:857> INFO - Found 2 citekeys in bib section 1
+[252] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[283] Biber.pm:3976> INFO - Processing section 1
+[302] Biber.pm:4136> INFO - Looking for bibtex format file '../references.bib' for section 1
+[304] bibtex.pm:1454> INFO - Reading ascii input as UTF-8
+[313] bibtex.pm:1500> INFO - LaTeX decoding ...
+[326] bibtex.pm:1316> INFO - Found BibTeX data source '../references.bib'
+[343] Utils.pm:193> WARN - month field 'dec' in entry 'Stant_2016' is not an integer - this will probably not sort properly.
+[362] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[362] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[362] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[362] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[365] bbl.pm:617> INFO - Writing 'ch1-introduction.bbl' with encoding 'ascii'
+[366] bbl.pm:720> INFO - Output to ch1-introduction.bbl
+[372] Biber.pm:110> INFO - WARNINGS: 1

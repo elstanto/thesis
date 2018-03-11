@@ -1,9 +1,0 @@
-[0] Config.pm:354> INFO - This is Biber 2.7
-[0] Config.pm:357> INFO - Logfile is 'front-matter.blg'
-[35] biber:303> INFO - === Sat May 20, 2017, 17:09:29
-[70] Biber.pm:359> INFO - Reading 'front-matter.bcf'
-[127] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
-[132] Utils.pm:164> WARN - The file 'front-matter.bcf' does not contain any citations!
-[137] bbl.pm:608> INFO - Writing 'front-matter.bbl' with encoding 'ascii'
-[137] bbl.pm:712> INFO - Output to front-matter.bbl
-[137] Biber.pm:109> INFO - WARNINGS: 1
