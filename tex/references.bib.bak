@@ -24,7 +24,7 @@
 @Article{Stant_2017,
   author    = {L.T. Stant and P.H. Aaen and N.M. Ridler},
   title     = {Evaluating residual errors in waveguide {VNAs} from microwave to submillimetre-wave frequencies},
-  journal   = {{IET} Microwaves, Antennas {\&} Propagation},
+  journal   = {{IET} Microwaves, Antennas \& Propagation},
   year      = {2017},
   volume    = {11},
   number    = {3},
@@ -32,6 +32,27 @@
   month     = {feb},
   doi       = {10.1049/iet-map.2016.0455},
   publisher = {Institution of Engineering and Technology ({IET})},
+}
+
+@Article{Stant_2018,
+  author  = {L.T. Stant and D.E. Root and N.M. Ridler and P.H. Aaen},
+  title   = {Uncertainty evaluation of predicted optimum load match using X-parameters of microwave amplifiers},
+  journal = {IEEE Microwave and Wireless Components Letters},
+  year    = {2018},
+}
+
+@Article{Votsi_2018,
+  author  = {H. Votsi and L.T. Stant and N.M. Ridler and P.H. Aaen},
+  title   = {Uncertainty evaluation of an active interferometric method for measuring extreme impedance on-wafer devices},
+  journal = {IEEE Transactions on Microwave Theory and Techniques},
+  year    = {2018},
+}
+
+@Article{Stant_2018_TMTT,
+  author  = {L.T. Stant and M.J. Salter and N.M. Ridler and D.F. Williams and P.H. Aaen},
+  title   = {Propagating Measurement Uncertainty to Microwave Amplifier Nonlinear Behavioural Models},
+  journal = {IEEE Transactions on Microwave Theory and Techniques},
+  year    = {2018},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

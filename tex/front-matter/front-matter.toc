@@ -1,0 +1,7 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\nobreakspace {}\hfill \textbf {Page}\par 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Figures}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Tables}{8}

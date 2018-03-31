@@ -32,22 +32,32 @@ Abstract goes here
 \chapter*{Research Outcomes}
 \begin{refsection}
 \section*{Publications}
-\nocite{Stant_2016_Coll, Stant_2016, Stant_2017}
+\nocite{Votsi_2018, Stant_2018, Stant_2018_TMTT, Stant_2017, Stant_2016, Stant_2016_Coll}
 \printbibliography[heading=none]
 \end{refsection}
 \chapter*{Acknowledgements}
 I want to thank...
 
+\newpage
 \tableofcontents
 \addtocontents{toc}{~\hfill\textbf{Page}\par}
 
-\cleardoublepage
-\begingroup
-\thispagestyle{empty}
-\patchcmd{\chapter}{plain}{empty}{}{}
+\newpage
+\addcontentsline{toc}{chapter}{\listfigurename}
 \listoffigures
-\addtocontents{toc}{\contentsline{chapter}{\listfigurename}{}}
-\endgroup
-\cleardoublepage
+\newpage
+\addcontentsline{toc}{chapter}{\listtablename}
+\listoftables
+
+%\clearpage
+%\begingroup
+%\thispagestyle{empty}
+%\patchcmd{\chapter}{plain}{empty}{}{}
+%\listoffigures
+%\addtocontents{toc}{\contentsline{chapter}{\listfigurename}{}}
+%\listoftables
+%\addtocontents{toc}{\contentsline{chapter}{\listtablename}{}}
+%\endgroup
+%\clearpage
 
 \end{document}

@@ -15,7 +15,7 @@
 @InProceedings{Stant_2016_Coll,
   author    = {L.T. Stant and P.H. Aaen and N.M. Ridler},
   title     = {Evaluating residual errors in waveguide network analysers from microwave to submillimetre-wave frequencies},
-  booktitle = {{IET} Colloquium on Millimetre-Wave and Terahertz Engineering [amp ] Technology 2016},
+  booktitle = {{IET} Colloquium on Millimetre-Wave and Terahertz Engineering \& Technology 2016},
   year      = {2016},
   publisher = {Institution of Engineering and Technology ({IET})},
   doi       = {10.1049/ic.2016.0016},

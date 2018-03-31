@@ -1,0 +1,21 @@
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'front-matter.blg'
+[41] biber-MSWIN32:313> INFO - === 
+[79] Biber.pm:371> INFO - Reading 'front-matter.bcf'
+[201] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[201] Biber.pm:857> INFO - Found 6 citekeys in bib section 1
+[201] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[233] Biber.pm:3976> INFO - Processing section 1
+[252] Biber.pm:4136> INFO - Looking for bibtex format file '../references.bib' for section 1
+[253] bibtex.pm:1454> INFO - Reading ascii input as UTF-8
+[255] bibtex.pm:1500> INFO - LaTeX decoding ...
+[270] bibtex.pm:1316> INFO - Found BibTeX data source '../references.bib'
+[307] Utils.pm:193> WARN - month field 'feb' in entry 'Stant_2017' is not an integer - this will probably not sort properly.
+[315] Utils.pm:193> WARN - month field 'dec' in entry 'Stant_2016' is not an integer - this will probably not sort properly.
+[344] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[345] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[345] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[345] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[351] bbl.pm:617> INFO - Writing 'front-matter.bbl' with encoding 'ascii'
+[355] bbl.pm:720> INFO - Output to front-matter.bbl
+[359] Biber.pm:110> INFO - WARNINGS: 2
