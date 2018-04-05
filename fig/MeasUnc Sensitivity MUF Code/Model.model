@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Model FileName="C:\Users\helgr\thesis\fig\MeasUnc Sensitivity MUF Code\Model.model" CreationTime="05/04/2018 18:28:38" AssemblyVersion="1.0.1.32897" UserName="helgr">
+  <MenuStripItems>
+    <SelectResultsDirectoryToolStripMenuItem Enabled="True" Checked="False" />
+    <RunCalculationsInParallel Enabled="True" Checked="False" />
+    <CalibrateToolStripMenuItem Enabled="True" Checked="False" />
+  </MenuStripItems>
+  <MenuStripTextBoxes>
+    <ResultsDirectory Enabled="True" Text="C:\Users\helgr\thesis\fig\MeasUnc Sensitivity MUF Code\Model_model_Results" />
+    <NumberMonteCarloSimulations Enabled="True" Text="100" />
+    <StartFrequency Enabled="True" Text="1" />
+    <StopFrequency Enabled="True" Text="5" />
+    <StepFrequency Enabled="True" Text="0.01" />
+    <EpsEffR Enabled="True" Text="1" />
+    <EpsEffI Enabled="True" Text="0" />
+  </MenuStripTextBoxes>
+  <MenuStripComboBoxes />
+  <Controls>
+    <DifferentialModel ControlType="System.Windows.Forms.CheckBox" ControlText="Only include variation of this model from its mean in the analysis." FullName="Me_TableLayoutPanel1_DifferentialModel" Enabled="True" Visible="True" Checked="False" />
+    <ModelOrigin ControlType="System.Windows.Forms.ComboBox" ControlText="User" FullName="Me_TableLayoutPanel1_GroupBox2_ModelOrigin" Enabled="True" Visible="False" SelectedIndex="0" Count="1">
+      <Item Index="0" Text="User" />
+    </ModelOrigin>
+    <ModelType ControlType="System.Windows.Forms.ComboBox" ControlText="Dummy User Model" FullName="Me_TableLayoutPanel1_GroupBox2_ModelType" Enabled="True" Visible="True" SelectedIndex="0" Count="1">
+      <Item Index="0" Text="Dummy User Model" />
+    </ModelType>
+    <ModelName ControlType="System.Windows.Forms.TextBox" ControlText="Dummy" FullName="Me_TableLayoutPanel1_GroupBox2_ModelName" Enabled="True" Visible="True" />
+    <ModelGroup ControlType="System.Windows.Forms.ComboBox" ControlText="User models" FullName="Me_TableLayoutPanel1_GroupBox2_ModelGroup" Enabled="True" Visible="True" SelectedIndex="10" Count="11">
+      <Item Index="0" Text="Generic" />
+      <Item Index="1" Text="Coaxial transmission lines" />
+      <Item Index="2" Text="Rectangular waveguide" />
+      <Item Index="3" Text="Microstrip" />
+      <Item Index="4" Text="Coplanar waveguide" />
+      <Item Index="5" Text="Cables" />
+      <Item Index="6" Text="Coupling" />
+      <Item Index="7" Text="Antennas" />
+      <Item Index="8" Text="Noise" />
+      <Item Index="9" Text="Operators" />
+      <Item Index="10" Text="User models" />
+    </ModelGroup>
+    <ModelDescription ControlType="System.Windows.Forms.TextBox" ControlText="Software templates are available for writing new models. Writing new models is not difficult, and all the software needed is free. Start by creating a user model for yourself. Once your code is tested, send it to Dylan for possible inclusion in the next release.&#xD;&#xA;&#xD;&#xA;Look in the help files for more information." FullName="Me_TableLayoutPanel1_GroupBox3_ModelDescription" Enabled="True" Visible="True" />
+    <DescriptionTextBox ControlType="System.Windows.Forms.TextBox" ControlText="" FullName="Me_TableLayoutPanel1_GroupBox4_DescriptionTextBox" Enabled="True" Visible="True" />
+    <ModelMechanisms ControlType="CustomFormControls.FLV_FixedDetailsList" ControlText="List of the mechanisms used in the model" FullName="Me_TableLayoutPanel1_GroupBox1_Panel4_ModelMechanisms" Enabled="True" Visible="True" Count="3">
+      <Item Index="0" Text="Input quantity 1" Count="3">
+        <SubItem Index="0" Text="Input quantity 1" />
+        <SubItem Index="1" Text="C:\Users\helgr\thesis\fig\MeasUnc Sensitivity MUF Code\Input quantity 1.parameter" />
+        <SubItem Index="2" Text="2 " />
+      </Item>
+      <Item Index="1" Text="Input quantity 2" Count="3">
+        <SubItem Index="0" Text="Input quantity 2" />
+        <SubItem Index="1" Text="C:\Users\helgr\thesis\fig\MeasUnc Sensitivity MUF Code\Input quantity 2.parameter" />
+        <SubItem Index="2" Text="50 " />
+      </Item>
+      <Item Index="2" Text="Input quantity 3" Count="3">
+        <SubItem Index="0" Text="Input quantity 3" />
+        <SubItem Index="1" Text="C:\Users\helgr\thesis\fig\MeasUnc Sensitivity MUF Code\Input quantity 3.parameter" />
+        <SubItem Index="2" Text="3 " />
+      </Item>
+    </ModelMechanisms>
+  </Controls>
+</Model>

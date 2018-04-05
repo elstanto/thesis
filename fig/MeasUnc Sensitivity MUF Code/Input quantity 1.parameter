@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Parameter FileName="C:\Users\helgr\thesis\fig\MeasUnc Sensitivity MUF Code\Input quantity 1.parameter" CreationTime="05/04/2018 18:12:34" AssemblyVersion="1.0.1.22404" UserName="helgr">
+  <MenuStripItems>
+    <OverrideUniqueName Enabled="True" Checked="False" />
+  </MenuStripItems>
+  <MenuStripTextBoxes>
+    <UpperGaussianLimit Enabled="True" Text="3.0" />
+    <LowerGaussianLimit Enabled="True" Text="3.0" />
+    <SensitivityAnalysisScaleFactor Enabled="True" Text="1.0" />
+  </MenuStripTextBoxes>
+  <MenuStripComboBoxes />
+  <Controls>
+    <MakeMeRandom ControlType="System.Windows.Forms.CheckBox" ControlText="Parameter varies randomly between calibrations" FullName="Me_MakeMeRandom" Enabled="True" Visible="True" Checked="False" />
+    <AllowCalAlgToVary ControlType="System.Windows.Forms.CheckBox" ControlText="Ask calibration algorithm to optimize me" FullName="Me_AllowCalAlgToVary" Enabled="True" Visible="True" Checked="False" />
+    <StandardUncertainty ControlType="System.Windows.Forms.Label" ControlText="Standard Uncertainty: 0.2" FullName="Me_StandardUncertainty" Enabled="True" Visible="True" />
+    <MechanismName ControlType="System.Windows.Forms.TextBox" ControlText="C:\Users\helgr\thesis\fig\MeasUnc Sensitivity MUF Code\Input quantity 1.parameter" FullName="Me_MechanismName" Enabled="True" Visible="False" />
+    <DistributionType ControlType="System.Windows.Forms.ComboBox" ControlText="Gaussian" FullName="Me_GroupBox3_DistributionType" Enabled="True" Visible="True" SelectedIndex="3" Count="6">
+      <Item Index="0" Text="Rectangular" />
+      <Item Index="1" Text="Arc-sine" />
+      <Item Index="2" Text="Bernoulli (binary)" />
+      <Item Index="3" Text="Gaussian" />
+      <Item Index="4" Text="2-D Uniform-Distribution Radius" />
+      <Item Index="5" Text="2-D Gaussian-Distribution Radius" />
+    </DistributionType>
+    <DistributionLimits ControlType="System.Windows.Forms.TextBox" ControlText="0.2" FullName="Me_GroupBox3_DistributionLimits" Enabled="True" Visible="True" />
+    <Units ControlType="System.Windows.Forms.ComboBox" ControlText="" FullName="Me_GroupBox2_Units" Enabled="True" Visible="True" SelectedIndex="-1" Count="15">
+      <Item Index="0" Text="Unitless" />
+      <Item Index="1" Text="cm" />
+      <Item Index="2" Text="mm" />
+      <Item Index="3" Text="um" />
+      <Item Index="4" Text="GHz" />
+      <Item Index="5" Text="pF" />
+      <Item Index="6" Text="nH" />
+      <Item Index="7" Text="ohm" />
+      <Item Index="8" Text="mho" />
+      <Item Index="9" Text="pF/cm" />
+      <Item Index="10" Text="ns" />
+      <Item Index="11" Text="ps" />
+      <Item Index="12" Text="mV" />
+      <Item Index="13" Text="mA" />
+      <Item Index="14" Text="mW" />
+    </Units>
+    <MechanismValue ControlType="System.Windows.Forms.TextBox" ControlText="2" FullName="Me_GroupBox2_MechanismValue" Enabled="True" Visible="True" />
+    <DescriptiveName ControlType="System.Windows.Forms.TextBox" ControlText="Input quantity 1" FullName="Me_GroupBox1_DescriptiveName" Enabled="True" Visible="True" />
+  </Controls>
+</Parameter>
