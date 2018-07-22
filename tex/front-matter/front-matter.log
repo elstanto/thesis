@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630) (preloaded format=pdflatex 2018.3.11)  12 MAR 2018 17:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630) (preloaded format=pdflatex 2018.3.11)  15 JUN 2018 14:04
 entering extended mode
 **./front-matter.tex
 (front-matter.tex
@@ -594,10 +594,10 @@ Package logreq Info: Writing requests to 'front-matter.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 9357 strings out of 493339
- 164735 string characters out of 3130663
- 669335 words of memory out of 3000000
- 12790 multiletter control sequences out of 15000+200000
+ 9360 strings out of 493339
+ 164840 string characters out of 3130663
+ 670387 words of memory out of 3000000
+ 12793 multiletter control sequences out of 15000+200000
  5675 words of font info for 21 fonts, out of 3000000 for 9000
  1127 hyphenation exceptions out of 8191
  52i,7n,47p,943b,1204s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -609,7 +609,7 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/helgr/AppData/L
 ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/he
 lgr/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 >
-Output written on front-matter.pdf (8 pages, 96872 bytes).
+Output written on front-matter.pdf (8 pages, 97178 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

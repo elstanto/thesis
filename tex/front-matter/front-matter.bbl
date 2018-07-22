@@ -52,8 +52,8 @@
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
-      \field{title}{Uncertainty evaluation of an active interferometric method for measuring extreme impedance on-wafer devices}
+      \field{journaltitle}{IET Microwaves Antennas Propag.}
+      \field{title}{Microwave Impedance Characterization Platform for Extreme Impedance Devices}
       \field{year}{2018}
     \endentry
     \entry{Stant_2018}{article}{}
@@ -89,8 +89,49 @@
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Microwave and Wireless Components Letters}
+      \field{journaltitle}{IEEE Microw. Wireless Compon. Lett.}
       \field{title}{Uncertainty evaluation of predicted optimum load match using X-parameters of microwave amplifiers}
+      \field{year}{2018}
+    \endentry
+    \entry{Salter_2018}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=c2e995bb06c6176561e261c2ac6e1ac4}{%
+           family={Salter},
+           familyi={S\bibinitperiod},
+           given={M.J},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6ff9819fe8e84453f16bbc72eb6e563b}{%
+           family={Stant},
+           familyi={S\bibinitperiod},
+           given={L.T.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d883f8f68eceadaa782646f404541fcc}{%
+           family={Buisman},
+           familyi={B\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=93dc64fc14b5073d924fb9e95d474801}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Brive}%
+      }
+      \strng{namehash}{e670718597fc67fc4a402846e15c7fc4}
+      \strng{fullhash}{e4ffefdfc57f8c79bc11411e59b3dae9}
+      \strng{bibnamehash}{e4ffefdfc57f8c79bc11411e59b3dae9}
+      \strng{authorbibnamehash}{e4ffefdfc57f8c79bc11411e59b3dae9}
+      \strng{authornamehash}{e670718597fc67fc4a402846e15c7fc4}
+      \strng{authorfullhash}{e4ffefdfc57f8c79bc11411e59b3dae9}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2011 Workshop on Integrated Nonlinear Microwave and Millimetre-Wave Circuits}
+      \field{month}{7}
+      \field{title}{An Inter-Laboratory Comparison of {NVNA} Measurements}
       \field{year}{2018}
     \endentry
     \entry{Stant_2018_TMTT}{article}{}
@@ -127,11 +168,11 @@
       \strng{authorbibnamehash}{3903f9cc289f83bf9fd841e92f179816}
       \strng{authornamehash}{3497761306197a6e36f73d122c62b8c0}
       \strng{authorfullhash}{3903f9cc289f83bf9fd841e92f179816}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
+      \field{journaltitle}{IEEE Trans. Microw. Theory Techn.}
       \field{title}{Propagating Measurement Uncertainty to Microwave Amplifier Nonlinear Behavioural Models}
       \field{year}{2018}
     \endentry
@@ -163,11 +204,11 @@
       \strng{authorbibnamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{authornamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{authorfullhash}{3a9f4547a55f2042eaa64f38f6c0058a}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{{IET} Microwaves, Antennas {\&} Propagation}
+      \field{journaltitle}{IET Microwaves Antennas Propag.}
       \field{month}{2}
       \field{number}{3}
       \field{title}{Evaluating residual errors in waveguide {VNAs} from microwave to submillimetre-wave frequencies}
@@ -206,8 +247,8 @@
       \strng{authorbibnamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{authornamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{authorfullhash}{3a9f4547a55f2042eaa64f38f6c0058a}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Measurement}
@@ -249,11 +290,11 @@
       \strng{authorbibnamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{authornamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{authorfullhash}{3a9f4547a55f2042eaa64f38f6c0058a}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{{IET} Colloquium on Millimetre-Wave and Terahertz Engineering [amp ] Technology 2016}
+      \field{booktitle}{IET Colloquium on Millimetre-Wave and Terahertz Engineering \& Technology 2016}
       \field{title}{Evaluating residual errors in waveguide network analysers from microwave to submillimetre-wave frequencies}
       \field{year}{2016}
       \verb{doi}
