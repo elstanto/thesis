@@ -1,0 +1,20 @@
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'ch2-rfmwmeas.blg'
+[71] biber-MSWIN32:313> INFO - === 
+[161] Biber.pm:371> INFO - Reading 'ch2-rfmwmeas.bcf'
+[286] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[286] Biber.pm:857> INFO - Found 2 citekeys in bib section 1
+[286] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[319] Biber.pm:3976> INFO - Processing section 1
+[394] Biber.pm:4136> INFO - Looking for bibtex format file '../references.bib' for section 1
+[396] bibtex.pm:1454> INFO - Reading ascii input as UTF-8
+[401] bibtex.pm:1500> INFO - LaTeX decoding ...
+[422] bibtex.pm:1316> INFO - Found BibTeX data source '../references.bib'
+[440] Utils.pm:193> WARN - month field 'dec' in entry 'Stant_2016' is not an integer - this will probably not sort properly.
+[462] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[462] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[462] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[462] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[464] bbl.pm:617> INFO - Writing 'ch2-rfmwmeas.bbl' with encoding 'ascii'
+[466] bbl.pm:720> INFO - Output to ch2-rfmwmeas.bbl
+[471] Biber.pm:110> INFO - WARNINGS: 1

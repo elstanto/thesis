@@ -1,0 +1,3 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+DEFINE thesis_plots_lib thesis_plots_lib
+ASSIGN thesis_plots_lib libMode shared
