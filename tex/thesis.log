@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630) (preloaded format=pdflatex 2018.3.11)  12 MAR 2018 17:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630) (preloaded format=pdflatex 2018.3.11)  2 JAN 2019 20:21
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -22,11 +22,7 @@ File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(../preamble.sty
-
-LaTeX Warning: You have requested package `../preamble',
-               but the package provides `preamble'.
-
+(preamble.sty
 Package: preamble 
 
 ("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfiles\subfiles.
@@ -425,10 +421,81 @@ s
 \f@nch@O@erf=\skip73
 \f@nch@O@olf=\skip74
 \f@nch@O@orf=\skip75
+)
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
+y"
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip76
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
+y"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen118
 ))
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen119
+)
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count281
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count282
+\leftroot@=\count283
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count284
+\DOTSCASE@=\count285
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen120
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count286
+\c@MaxMatrixCols=\count287
+\dotsspace@=\muskip11
+\c@parentequation=\count288
+\dspbrk@lvl=\count289
+\tag@help=\toks20
+\row@=\count290
+\column@=\count291
+\maxfields@=\count292
+\andhelp@=\toks21
+\eqnshift@=\dimen121
+\alignsep@=\dimen122
+\tagshift@=\dimen123
+\tagwidth@=\dimen124
+\totwidth@=\dimen125
+\lineht@=\dimen126
+\@envbody=\toks22
+\multlinegap=\skip77
+\multlinetaggap=\skip78
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) ("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\bm.sty"
+Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
+)) ("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lipsum\lipsum.s
+ty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count281
+\c@lips@count=\count293
 )
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -437,8 +504,8 @@ Package biblatex Info: ... file 'english.lbx' found.
 sh.lbx"
 File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 )
-\@quotelevel=\count282
-\@quotereset=\count283
+\@quotelevel=\count294
+\@quotereset=\count295
  (thesis.aux)
 \openout1 = `thesis.aux'.
 
@@ -469,17 +536,17 @@ Package biblatex Info: Reference segment=0 on input line 6.
 ("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
 ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count284
-\scratchdimen=\dimen118
-\scratchbox=\box27
-\nofMPsegments=\count285
-\nofMParguments=\count286
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count287
-\MPscratchDim=\dimen119
-\MPnumerator=\count288
-\makeMPintoPDFobject=\count289
-\everyMPtoPDFconversion=\toks20
+\scratchcounter=\count296
+\scratchdimen=\dimen127
+\scratchbox=\box29
+\nofMPsegments=\count297
+\nofMParguments=\count298
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count299
+\MPscratchDim=\dimen128
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
+\everyMPtoPDFconversion=\toks25
 )
 ("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
 base.sty"
@@ -534,24 +601,19 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(../cover/cover.tex
-<../../fig/University_of_Surrey_coat_of_arms.pdf, id=1, 128.48pt x 162.6075pt>
-File: ../../fig/University_of_Surrey_coat_of_arms.pdf Graphic file (type pdf)
-<use ../../fig/University_of_Surrey_coat_of_arms.pdf>
-Package pdftex.def Info: ../../fig/University_of_Surrey_coat_of_arms.pdf  used 
-on input line 18.
+(cover/cover.tex
+<../fig/University_of_Surrey_coat_of_arms.pdf, id=1, 128.48pt x 162.6075pt>
+File: ../fig/University_of_Surrey_coat_of_arms.pdf Graphic file (type pdf)
+<use ../fig/University_of_Surrey_coat_of_arms.pdf>
+Package pdftex.def Info: ../fig/University_of_Surrey_coat_of_arms.pdf  used on 
+input line 18.
 (pdftex.def)             Requested size: 125.47737pt x 158.81088pt.
  [1
 
 
-{C:/Users/helgr/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <../../fig/U
-niversity_of_Surrey_coat_of_arms.pdf>])
-(../front-matter/front-matter.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 14.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 14.
- [1
+{C:/Users/helgr/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <../fig/Univ
+ersity_of_Surrey_coat_of_arms.pdf>])
+(front-matter/front-matter.tex [1
 
 
 
@@ -560,15 +622,34 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ] [3
 
 ]
-\blx@maxsegment@1=\count290
-\blx@sectionciteorder@1=\count291
+\blx@maxsegment@1=\count302
+\blx@sectionciteorder@1=\count303
 Package biblatex Info: Reference section=1 on input line 33.
 Package biblatex Info: Setting label 'refsection:1' on input line 33.
 
-Overfull \hbox (25.47263pt too wide) in paragraph at lines 36--36
-[]\OT1/cmr/m/n/10 ||, ``Eva-lu-a-ting re-si-dual er-rors in wa-veg-uide net-wor
-k ana-ly-sers from mi-cro-wave to submillimetre-
- []
+
+LaTeX Warning: Citation 'Votsi_2018' undefined on input line 35.
+
+
+LaTeX Warning: Citation 'Stant_2018' undefined on input line 35.
+
+
+LaTeX Warning: Citation 'Salter_2018' undefined on input line 35.
+
+
+LaTeX Warning: Citation 'Stant_2018_TMTT' undefined on input line 35.
+
+
+LaTeX Warning: Citation 'Stant_2017' undefined on input line 35.
+
+
+LaTeX Warning: Citation 'Stant_2016' undefined on input line 35.
+
+
+LaTeX Warning: Citation 'Stant_2016_Coll' undefined on input line 35.
+
+
+LaTeX Warning: Empty bibliography on input line 36.
 
 Package biblatex Info: Reference section=0 on input line 37.
 [4
@@ -581,7 +662,9 @@ Package biblatex Info: Reference section=0 on input line 37.
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
- [8] (thesis.lof)
+ [8] (thesis.lof
+\blx@sectionciteorder@3=\count304
+)
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
@@ -596,93 +679,234 @@ Package biblatex Info: Reference section=0 on input line 37.
 ] [1
 
 ]
-(../ch1-introduction/ch1-introduction.tex
-\blx@maxsegment@2=\count292
-\blx@sectionciteorder@2=\count293
+(ch1-introduction/ch1-introduction.tex
+\blx@maxsegment@2=\count305
+\blx@sectionciteorder@2=\count306
 Package biblatex Info: Reference section=2 on input line 3.
 Package biblatex Info: Setting label 'refsection:2' on input line 3.
  [2]
 Chapter 1.
-[3
 
-]
+LaTeX Warning: Citation 'Stant_2016_Coll' on page 3 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'Stant_2016' on page 3 undefined on input line 9.
+
+
+LaTeX Warning: Empty bibliography on input line 11.
+
 Package biblatex Info: Reference section=0 on input line 12.
-) (../ch2-rfmwmeas/ch2-rfmwmeas.tex
-\blx@maxsegment@3=\count294
-\blx@sectionciteorder@3=\count295
-Package biblatex Info: Reference section=3 on input line 3.
-Package biblatex Info: Setting label 'refsection:3' on input line 3.
- [4
+) (ch2-rfmwmeas/ch2-rfmwmeas.tex
+\blx@maxsegment@3=\count307
+\blx@sectionciteorder@3=\count308
+Package biblatex Info: Reference section=3 on input line 6.
+Package biblatex Info: Setting label 'refsection:3' on input line 6.
+ [3
 
 ]
 Chapter 2.
-[5
+[4
 
 ]
-Overfull \vbox (18.20016pt too high) has occurred while \output is active []
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
 
 
-[6]
-Package biblatex Info: Reference section=0 on input line 21.
-) (../ch3-measunc/ch3-measunc.tex
-\blx@maxsegment@4=\count296
-\blx@sectionciteorder@4=\count297
-Package biblatex Info: Reference section=4 on input line 3.
-Package biblatex Info: Setting label 'refsection:4' on input line 3.
- [7
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 22.54448pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-]
+[5]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+ [6]
+<fig/ch2/ch2_filter.png, id=305, 597.6729pt x 421.3341pt>
+File: fig/ch2/ch2_filter.png Graphic file (type png)
+<use fig/ch2/ch2_filter.png>
+Package pdftex.def Info: fig/ch2/ch2_filter.png  used on input line 71.
+(pdftex.def)             Requested size: 334.60422pt x 235.88762pt.
+<fig/ch2/ch2_s2p.png, id=307, 581.92406pt x 94.85437pt>
+File: fig/ch2/ch2_s2p.png Graphic file (type png)
+<use fig/ch2/ch2_s2p.png>
+Package pdftex.def Info: fig/ch2/ch2_s2p.png  used on input line 78.
+(pdftex.def)             Requested size: 418.25368pt x 68.17639pt.
+ [7 <./fig/ch2/ch2_filter.png>] [8 <./fig/ch2/ch2_s2p.png>]
+<fig/ch2/ch2_comp.png, id=317, 356.0803pt x 331.99031pt>
+File: fig/ch2/ch2_comp.png Graphic file (type png)
+<use fig/ch2/ch2_comp.png>
+Package pdftex.def Info: fig/ch2/ch2_comp.png  used on input line 136.
+(pdftex.def)             Requested size: 167.2989pt x 155.97974pt.
+ [9]
+<fig/ch2/ch2_im3.png, id=321, 597.23125pt x 294.09875pt>
+File: fig/ch2/ch2_im3.png Graphic file (type png)
+<use fig/ch2/ch2_im3.png>
+Package pdftex.def Info: fig/ch2/ch2_im3.png  used on input line 154.
+(pdftex.def)             Requested size: 334.60422pt x 164.77046pt.
+
+
+LaTeX Warning: Citation 'Hall2013' on page 10 undefined on input line 155.
+
+
+LaTeX Warning: Citation 'Hall2013' on page 10 undefined on input line 155.
+
+[10 <./fig/ch2/ch2_comp.png (PNG copy)>] [11 <./fig/ch2/ch2_im3.png>]
+<fig/ch2/ch2_refl.png, id=329, 1063.72406pt x 274.02374pt>
+File: fig/ch2/ch2_refl.png Graphic file (type png)
+<use fig/ch2/ch2_refl.png>
+Package pdftex.def Info: fig/ch2/ch2_refl.png  used on input line 173.
+(pdftex.def)             Requested size: 334.60422pt x 86.19667pt.
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+ [12 <./fig/ch2/ch2_refl.png>]
+<fig/ch2/ch2_vna.png, id=334, 205.2468pt x 125.7498pt>
+File: fig/ch2/ch2_vna.png Graphic file (type png)
+<use fig/ch2/ch2_vna.png>
+Package pdftex.def Info: fig/ch2/ch2_vna.png  used on input line 184.
+(pdftex.def)             Requested size: 334.60422pt x 205.02983pt.
+
+
+LaTeX Warning: Citation 'Root2013' on page 13 undefined on input line 185.
+
+
+LaTeX Warning: Citation 'Root2013' on page 13 undefined on input line 185.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[13] [14 <./fig/ch2/ch2_vna.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 203.
+
+
+("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 203.
+
+[15]
+<fig/ch2/ch2_8term.png, id=346, 615.4995pt x 148.8762pt>
+File: fig/ch2/ch2_8term.png Graphic file (type png)
+<use fig/ch2/ch2_8term.png>
+Package pdftex.def Info: fig/ch2/ch2_8term.png  used on input line 214.
+(pdftex.def)             Requested size: 418.25368pt x 101.17087pt.
+
+
+LaTeX Warning: Citation 'Stant_2016_Coll' on page 16 undefined on input line 22
+6.
+
+
+LaTeX Warning: Citation 'Stant_2016' on page 16 undefined on input line 226.
+
+
+LaTeX Warning: Empty bibliography on input line 228.
+
+Package biblatex Info: Reference section=0 on input line 229.
+) (ch3-measunc/ch3-measunc.tex
+\blx@maxsegment@4=\count309
+\blx@sectionciteorder@4=\count310
+Package biblatex Info: Reference section=4 on input line 5.
+Package biblatex Info: Setting label 'refsection:4' on input line 5.
+ [16 <./fig/ch2/ch2_8term.png>]
 Chapter 3.
-[8
+[17
 
 ]
-Package biblatex Info: Reference section=0 on input line 19.
-) (../ch4-vnaunc/ch4-vnaunc.tex
-\blx@maxsegment@5=\count298
-\blx@sectionciteorder@5=\count299
+<ch3-measunc/figs/cubit.jpg, id=354, 1027.84pt x 770.88pt>
+File: ch3-measunc/figs/cubit.jpg Graphic file (type jpg)
+<use ch3-measunc/figs/cubit.jpg>
+Package pdftex.def Info: ch3-measunc/figs/cubit.jpg  used on input line 17.
+(pdftex.def)             Requested size: 334.60422pt x 250.95648pt.
+ [18 <./ch3-measunc/figs/cubit.jpg>] [19] [20] [21]
+
+LaTeX Warning: Citation 'Stant_2017' on page 22 undefined on input line 69.
+
+
+LaTeX Warning: Empty bibliography on input line 71.
+
+Package biblatex Info: Reference section=0 on input line 72.
+) (ch4-vnaunc/ch4-vnaunc.tex
+\blx@maxsegment@5=\count311
+\blx@sectionciteorder@5=\count312
 Package biblatex Info: Reference section=5 on input line 3.
 Package biblatex Info: Setting label 'refsection:5' on input line 3.
- [9
-
-]
+ [22] [23]
 Chapter 4.
 
 Overfull \hbox (0.33437pt too wide) in paragraph at lines 4--4
 |[]\OT1/cmr/bx/n/20.74 Evaluating Un-cer-tainty in Vec-tor Net-
  []
 
-[10
+
+LaTeX Warning: Citation 'Stant_2016_Coll' on page 24 undefined on input line 28
+.
+
+
+LaTeX Warning: Citation 'Stant_2016' on page 24 undefined on input line 28.
+
+
+LaTeX Warning: Empty bibliography on input line 30.
+
+Package biblatex Info: Reference section=0 on input line 31.
+) (ch5-nlbmunc/ch5-nlbmunc.tex
+\blx@maxsegment@6=\count313
+\blx@sectionciteorder@6=\count314
+Package biblatex Info: Reference section=6 on input line 3.
+Package biblatex Info: Setting label 'refsection:6' on input line 3.
+ [24
 
 ]
 Overfull \vbox (338.27222pt too high) has occurred while \output is active []
 
 
-[11]
-Package biblatex Info: Reference section=0 on input line 31.
-) (../ch5-nlbmunc/ch5-nlbmunc.tex
-\blx@maxsegment@6=\count300
-\blx@sectionciteorder@6=\count301
-Package biblatex Info: Reference section=6 on input line 3.
-Package biblatex Info: Setting label 'refsection:6' on input line 3.
- [12
-
-]
+[25]
 Chapter 5.
 
 Overfull \hbox (11.7462pt too wide) in paragraph at lines 4--4
 |[]\OT1/cmr/bx/n/20.74 Propagating Me-a-su-re-ment Un-cer-tainty
  []
 
-[13
 
-]
+LaTeX Warning: Citation 'Stant_2016_Coll' on page 26 undefined on input line 12
+.
+
+
+LaTeX Warning: Citation 'Stant_2016' on page 26 undefined on input line 12.
+
+
+LaTeX Warning: Empty bibliography on input line 14.
+
 Package biblatex Info: Reference section=0 on input line 15.
-) (../ch6-applications/ch6-applications.tex
-\blx@maxsegment@7=\count302
-\blx@sectionciteorder@7=\count303
+) (ch6-applications/ch6-applications.tex
+\blx@maxsegment@7=\count315
+\blx@sectionciteorder@7=\count316
 Package biblatex Info: Reference section=7 on input line 3.
 Package biblatex Info: Setting label 'refsection:7' on input line 3.
- [14
+ [26
 
 ]
 Chapter 6.
@@ -691,57 +915,80 @@ Overfull \hbox (11.5518pt too wide) in paragraph at lines 4--4
 \OT1/cmr/bx/n/20.74 ral Mo-dels In-cor-po-ra-ting Me-a-su-re-ment
  []
 
-[15
+[27
 
 ]
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 22.54448pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+LaTeX Warning: Citation 'Stant_2016_Coll' on page 28 undefined on input line 9.
 
-[16] [17]
+
+
+LaTeX Warning: Citation 'Stant_2016' on page 28 undefined on input line 9.
+
+
+LaTeX Warning: Empty bibliography on input line 11.
+
 Package biblatex Info: Reference section=0 on input line 12.
-) (../ch7-conclusions/ch7-conclusions.tex
-\blx@maxsegment@8=\count304
-\blx@sectionciteorder@8=\count305
+) (ch7-conclusions/ch7-conclusions.tex
+\blx@maxsegment@8=\count317
+\blx@sectionciteorder@8=\count318
 Package biblatex Info: Reference section=8 on input line 3.
 Package biblatex Info: Setting label 'refsection:8' on input line 3.
- [18
-
-]
+ [28] [29]
 Chapter 7.
-[19
 
-]
+LaTeX Warning: Citation 'Stant_2016_Coll' on page 30 undefined on input line 6.
+
+
+
+LaTeX Warning: Citation 'Stant_2016' on page 30 undefined on input line 6.
+
+
+LaTeX Warning: Empty bibliography on input line 8.
+
 Package biblatex Info: Reference section=0 on input line 9.
-) [20
+) [30
 
 ] (thesis.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                thesis
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 9528 strings out of 493339
- 169130 string characters out of 3130663
- 675842 words of memory out of 3000000
- 12921 multiletter control sequences out of 15000+200000
- 6280 words of font info for 23 fonts, out of 3000000 for 9000
+ 10198 strings out of 493339
+ 175275 string characters out of 3130663
+ 689332 words of memory out of 3000000
+ 13552 multiletter control sequences out of 15000+200000
+ 8714 words of font info for 31 fonts, out of 3000000 for 9000
  1127 hyphenation exceptions out of 8191
- 46i,10n,46p,897b,1357s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,11n,45p,2303b,1029s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/helgr/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb><C:/Users/helgr/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb><C:/Users/helgr/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/helgr/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/helgr/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/hel
-gr/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-<C:/Users/helgr/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmtt10.pfb>
-Output written on thesis.pdf (31 pages, 257718 bytes).
+onts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/helgr/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/helgr/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/hel
+gr/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb
+><C:/Users/helgr/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr10.pfb><C:/Users/helgr/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb><C:/Users/helgr/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/helgr/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/helgr/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/helgr/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Use
+rs/helgr/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti1
+0.pfb>
+Output written on thesis.pdf (41 pages, 824057 bytes).
 PDF statistics:
- 367 PDF objects out of 1000 (max. 8388607)
+ 439 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

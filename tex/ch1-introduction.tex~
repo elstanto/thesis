@@ -1,6 +1,0 @@
-\documentclass[../thesis.tex]{subfiles}
-\begin{document}
-Testing, testing\cite{Stant_2016_Coll, Stant_2016}.
-\onlyinsubfile{\bibliographystyle{tex/IEEEtran}}
-\printbibliography
-\end{document}

@@ -1,0 +1,19 @@
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'ch3-measunc.blg'
+[49] biber-MSWIN32:313> INFO - === 
+[87] Biber.pm:371> INFO - Reading 'ch3-measunc.bcf'
+[219] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[219] Biber.pm:857> INFO - Found 2 citekeys in bib section 1
+[219] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[256] Biber.pm:3976> INFO - Processing section 1
+[277] Biber.pm:4136> INFO - Looking for bibtex format file '../references.bib' for section 1
+[282] bibtex.pm:1500> INFO - LaTeX decoding ...
+[300] bibtex.pm:1316> INFO - Found BibTeX data source '../references.bib'
+[312] Utils.pm:193> WARN - month field 'feb' in entry 'Stant_2017' is not an integer - this will probably not sort properly.
+[331] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[331] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[331] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[331] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[342] bbl.pm:617> INFO - Writing 'ch3-measunc.bbl' with encoding 'UTF-8'
+[343] bbl.pm:720> INFO - Output to ch3-measunc.bbl
+[344] Biber.pm:110> INFO - WARNINGS: 1

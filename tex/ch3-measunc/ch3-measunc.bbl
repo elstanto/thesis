@@ -1,0 +1,81 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{none/global//global/global}
+    \entry{UKAS}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{month}{1}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb http://www.ukas.com/about/our-role/
+      \endverb
+      \verb{url}
+      \verb http://www.ukas.com/about/our-role/
+      \endverb
+    \endentry
+    \entry{Stant_2017}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6ff9819fe8e84453f16bbc72eb6e563b}{%
+           family={Stant},
+           familyi={S\bibinitperiod},
+           given={L.T.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=cb038ad26a5233006f02e4ca59031e1a}{%
+           family={Aaen},
+           familyi={A\bibinitperiod},
+           given={P.H.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=16824790ca6ea8b51a96b5c59586b87d}{%
+           family={Ridler},
+           familyi={R\bibinitperiod},
+           given={N.M.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Institution of Engineering}%
+        {Technology ({IET})}%
+      }
+      \strng{namehash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{fullhash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{bibnamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{authorbibnamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{authornamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{authorfullhash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IET Microwaves Antennas Propag.}
+      \field{month}{2}
+      \field{number}{3}
+      \field{title}{Evaluating residual errors in waveguide {VNAs} from microwave to submillimetre-wave frequencies}
+      \field{volume}{11}
+      \field{year}{2017}
+      \field{pages}{324\bibrangedash 329}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1049/iet-map.2016.0455
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -4,11 +4,11 @@
   <bcf:options component="biber" type="global">
     <bcf:option type="singlevalued">
       <bcf:key>output_encoding</bcf:key>
-      <bcf:value>ascii</bcf:value>
+      <bcf:value>utf8</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>input_encoding</bcf:key>
-      <bcf:value>ascii</bcf:value>
+      <bcf:value>utf8</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>debug</bcf:key>
@@ -1981,12 +1981,8 @@
     <bcf:datasource type="file" datatype="bibtex">../references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="1">
-    <bcf:citekey order="1">Hall2013</bcf:citekey>
-    <bcf:citekey order="2">Hall2013</bcf:citekey>
-    <bcf:citekey order="3">Root2013</bcf:citekey>
-    <bcf:citekey order="4">Root2013</bcf:citekey>
-    <bcf:citekey order="5">Stant_2016_Coll</bcf:citekey>
-    <bcf:citekey order="5">Stant_2016</bcf:citekey>
+    <bcf:citekey order="1">UKAS</bcf:citekey>
+    <bcf:citekey order="2">Stant_2017</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

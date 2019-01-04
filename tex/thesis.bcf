@@ -1983,10 +1983,11 @@
   <bcf:section number="1">
     <bcf:citekey order="1">Votsi_2018</bcf:citekey>
     <bcf:citekey order="2">Stant_2018</bcf:citekey>
-    <bcf:citekey order="3">Stant_2018_TMTT</bcf:citekey>
-    <bcf:citekey order="4">Stant_2017</bcf:citekey>
-    <bcf:citekey order="5">Stant_2016</bcf:citekey>
-    <bcf:citekey order="6">Stant_2016_Coll</bcf:citekey>
+    <bcf:citekey order="3">Salter_2018</bcf:citekey>
+    <bcf:citekey order="4">Stant_2018_TMTT</bcf:citekey>
+    <bcf:citekey order="5">Stant_2017</bcf:citekey>
+    <bcf:citekey order="6">Stant_2016</bcf:citekey>
+    <bcf:citekey order="7">Stant_2016_Coll</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
@@ -2007,8 +2008,12 @@
     <bcf:datasource type="file" datatype="bibtex">../references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="3">
-    <bcf:citekey order="1">Stant_2016_Coll</bcf:citekey>
-    <bcf:citekey order="1">Stant_2016</bcf:citekey>
+    <bcf:citekey order="1">Hall2013</bcf:citekey>
+    <bcf:citekey order="2">Hall2013</bcf:citekey>
+    <bcf:citekey order="3">Root2013</bcf:citekey>
+    <bcf:citekey order="4">Root2013</bcf:citekey>
+    <bcf:citekey order="5">Stant_2016_Coll</bcf:citekey>
+    <bcf:citekey order="5">Stant_2016</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
