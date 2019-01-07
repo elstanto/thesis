@@ -7,8 +7,9 @@
   year      = {2016},
   volume    = {94},
   pages     = {847--851},
-  month     = {dec},
+  month     = dec,
   doi       = {10.1016/j.measurement.2016.08.015},
+  groups    = {Ch 3: Measurement Uncertainty},
   publisher = {Elsevier {BV}},
 }
 
@@ -29,7 +30,7 @@
   volume    = {11},
   number    = {3},
   pages     = {324--329},
-  month     = {feb},
+  month     = feb,
   doi       = {10.1049/iet-map.2016.0455},
   publisher = {Institution of Engineering and Technology ({IET})},
 }
@@ -41,18 +42,12 @@
   year    = {2018},
 }
 
-@Article{Votsi_2018,
-  author  = {H. Votsi and L.T. Stant and N.M. Ridler and P.H. Aaen},
-  title   = {Microwave Impedance Characterization Platform for Extreme Impedance Devices},
-  journal = {IET Microwaves Antennas Propag.},
-  year    = {2018},
-}
-
 @Article{Stant_2018_TMTT,
   author  = {L.T. Stant and M.J. Salter and N.M. Ridler and D.F. Williams and P.H. Aaen},
   title   = {Propagating Measurement Uncertainty to Microwave Amplifier Nonlinear Behavioural Models},
   journal = {IEEE Trans. Microw. Theory Techn.},
   year    = {2018},
+  month   = nov,
 }
 
 @Conference{Salter_2018,
@@ -64,4 +59,234 @@
   month     = jul,
 }
 
+@Online{UKAS,
+  url     = {http://www.ukas.com/about/our-role/},
+  urldate = {2019-01-07},
+  title   = {Our role},
+  author  = {UKAS},
+  groups  = {Ch 3: Measurement Uncertainty},
+}
+
+@Online{SI,
+  url     = {http://www.bipm.org/utils/common/pdf/si-brochure-draft-2016b.pdf},
+  urldate = {2019-01-07},
+  title   = {Draft of the ninth {SI} brochure},
+  author  = {BIPM},
+  date    = {2016-11-10},
+  groups  = {Ch 3: Measurement Uncertainty},
+}
+
+@Misc{GUM_1993,
+  author  = {{International Organization for Standardization}},
+  title   = {Guide to the Expression of Uncertainty in Measurement},
+  year    = {1993},
+  note    = {1st ed.},
+  address = {Geneva},
+  groups  = {Ch 3: Measurement Uncertainty},
+  isbn    = {92-67-10188-9},
+}
+
+@Misc{GUM_2008,
+  author = {{BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP and OIML}},
+  title  = {{Guide to the Expression of Uncertainty in Measurement JCGM 100:2008 (GUM 1995 with minor corrections)}},
+  year   = {2008},
+  groups = {Ch 3: Measurement Uncertainty},
+  url    = {http://www.bipm.org/utils/common/documents/jcgm/JCGM 100 2008 E.pdf},
+}
+
+@Misc{VIM,
+  author = {{BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP and OIML}},
+  title  = {{International Vocabulary of Metrology Basic and General Concepts and Associated Terms (VIM) JCGM 200:2012}},
+  year   = {2012},
+  groups = {Ch 3: Measurement Uncertainty},
+  url    = {http://www.bipm.org/utils/common/documents/jcgm/JCGM 200 2012.pdf},
+}
+
+@Misc{GUM_S1,
+  author = {{BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP and OIML}},
+  title  = {{Supplement 1 to the “Guide to the Expression of Uncertainty in Measurement" – Propagation of distributions using a Monte Carlo method JCGM 101:2008}},
+  year   = {2008},
+  groups = {Ch 3: Measurement Uncertainty},
+  url    = {http://www.bipm.org/utils/common/documents/jcgm/JCGM 101 2008 E.pdf},
+}
+
+@Misc{GUM_S2,
+  author = {{BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP and OIML}},
+  title  = {{Supplement 2 to the “Guide to the Expression of Uncertainty in Measurement" – Extension to any number of output quantities JCGM 102:2011}},
+  year   = {2011},
+  groups = {Ch 3: Measurement Uncertainty},
+  url    = {http://www.bipm.org/utils/common/documents/jcgm/JCGM 102 2011 E.pdf},
+}
+
+@Article{Metropolis_1949,
+  author    = {Nicholas Metropolis and S. Ulam},
+  title     = {The Monte Carlo Method},
+  journal   = {Journal of the American Statistical Association},
+  year      = {1949},
+  volume    = {44},
+  number    = {247},
+  pages     = {335--341},
+  month     = sep,
+  doi       = {10.2307/2280232},
+  groups    = {Ch 3: Measurement Uncertainty},
+  publisher = {Informa {UK} Limited},
+}
+
+@Article{Neyman_1937,
+  author    = {J. Neyman},
+  title     = {Outline of a Theory of Statistical Estimation Based on the Classical Theory of Probability},
+  journal   = {Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences},
+  year      = {1937},
+  volume    = {236},
+  number    = {767},
+  pages     = {333--380},
+  month     = aug,
+  doi       = {10.1098/rsta.1937.0005},
+  groups    = {Ch 3: Measurement Uncertainty},
+  publisher = {The Royal Society},
+}
+
+@Book{Rubin_2009,
+  title     = {Bayesian Data Analysis: Second Edition (Chapman \& Hall/CRC Texts in Statistical Science Book 60)},
+  publisher = {CRC Press},
+  year      = {2009},
+  author    = {Donald B. Rubin},
+  isbn      = {9781135439361},
+  groups    = {Ch 3: Measurement Uncertainty},
+  url       = {https://www.amazon.com/Bayesian-Data-Analysis-Chapman-Statistical-ebook/dp/B000S1LVYK?SubscriptionId=AKIAIOBINVZYXZQZ2U3A&tag=chimbori05-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B000S1LVYK},
+}
+
+@Article{White_2016,
+  author    = {D R White},
+  title     = {In pursuit of a fit-for-purpose uncertainty guide},
+  journal   = {Metrologia},
+  year      = {2016},
+  volume    = {53},
+  number    = {4},
+  pages     = {S107--S124},
+  month     = jun,
+  doi       = {10.1088/0026-1394/53/4/s107},
+  groups    = {Ch 3: Measurement Uncertainty},
+  publisher = {{IOP} Publishing},
+}
+
+@Article{Kacker_2003,
+  author    = {R Kacker and A Jones},
+  title     = {On use of Bayesian statistics to make the Guide to the Expression of Uncertainty in Measurement consistent},
+  journal   = {Metrologia},
+  year      = {2003},
+  volume    = {40},
+  number    = {5},
+  pages     = {235--248},
+  month     = sep,
+  doi       = {10.1088/0026-1394/40/5/305},
+  groups    = {Ch 3: Measurement Uncertainty},
+  publisher = {{IOP} Publishing},
+}
+
+@Article{Kacker_2005,
+  author    = {Raghu N Kacker},
+  title     = {Bayesian alternative to the {ISO}-{GUM}{\textquotesingle}s use of the Welch{\textendash}Satterthwaite formula},
+  journal   = {Metrologia},
+  year      = {2005},
+  volume    = {43},
+  number    = {1},
+  pages     = {1--11},
+  month     = nov,
+  doi       = {10.1088/0026-1394/43/1/001},
+  groups    = {Ch 3: Measurement Uncertainty},
+  publisher = {{IOP} Publishing},
+}
+
+@Article{Kyriazis_2008,
+  author    = {G A Kyriazis},
+  title     = {Comparison of {GUM} Supplement 1 and Bayesian analysis using a simple linear calibration model},
+  journal   = {Metrologia},
+  year      = {2008},
+  volume    = {45},
+  number    = {2},
+  pages     = {L9--L11},
+  month     = mar,
+  doi       = {10.1088/0026-1394/45/2/n02},
+  groups    = {Ch 3: Measurement Uncertainty},
+  publisher = {{IOP} Publishing},
+}
+
+@Article{Elster_2007,
+  author    = {Clemens Elster and Wolfgang Wöger and Maurice G Cox},
+  title     = {Draft {GUM} Supplement 1 and Bayesian analysis},
+  journal   = {Metrologia},
+  year      = {2007},
+  volume    = {44},
+  number    = {3},
+  pages     = {L31--L32},
+  month     = may,
+  doi       = {10.1088/0026-1394/44/3/n03},
+  groups    = {Ch 3: Measurement Uncertainty},
+  publisher = {{IOP} Publishing},
+}
+
+@Article{Cox_2017,
+  author    = {M Cox and K Shirono},
+  title     = {Informative Bayesian Type A uncertainty evaluation, especially applicable to a small number of observations},
+  journal   = {Metrologia},
+  year      = {2017},
+  volume    = {54},
+  number    = {5},
+  pages     = {642--652},
+  month     = aug,
+  doi       = {10.1088/1681-7575/aa787f},
+  groups    = {Ch 3: Measurement Uncertainty},
+  publisher = {{IOP} Publishing},
+}
+
+@Article{Kacker_2006,
+  author    = {Raghu Kacker and Blaza Toman and Ding Huang},
+  title     = {Comparison of {ISO}-{GUM}, draft {GUM} Supplement 1 and Bayesian statistics using simple linear calibration},
+  journal   = {Metrologia},
+  year      = {2006},
+  volume    = {43},
+  number    = {4},
+  pages     = {S167--S177},
+  month     = aug,
+  doi       = {10.1088/0026-1394/43/4/s02},
+  groups    = {Ch 3: Measurement Uncertainty},
+  publisher = {{IOP} Publishing},
+}
+
+@Article{Bich_2014,
+  author    = {Walter Bich},
+  title     = {Revision of the `Guide to the Expression of Uncertainty in Measurement'. Why and how},
+  journal   = {Metrologia},
+  year      = {2014},
+  volume    = {51},
+  number    = {4},
+  pages     = {S155--S158},
+  month     = jul,
+  doi       = {10.1088/0026-1394/51/4/s155},
+  groups    = {Ch 3: Measurement Uncertainty},
+  publisher = {{IOP} Publishing},
+}
+
+@Article{Klauenberg_2012,
+  author    = {Katy Klauenberg and Clemens Elster},
+  title     = {The multivariate normal mean – sensitivity of its objective Bayesian estimates},
+  journal   = {Metrologia},
+  year      = {2012},
+  volume    = {49},
+  number    = {3},
+  pages     = {395--400},
+  month     = {apr},
+  doi       = {10.1088/0026-1394/49/3/395},
+  groups    = {Ch 3: Measurement Uncertainty},
+  publisher = {{IOP} Publishing},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
+
+@Comment{jabref-meta: grouping:
+0 AllEntriesGroup:;
+1 StaticGroup:Ch 3: Measurement Uncertainty\;0\;1\;\;\;\;;
+}
+
+@Comment{jabref-entrytype: Online: req[url;urldate;title] opt[author;organization;date]}

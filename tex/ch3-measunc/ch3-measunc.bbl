@@ -20,10 +20,26 @@
 \refsection{1}
   \datalist[entry]{none/global//global/global}
     \entry{UKAS}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3de771850e16ddd1ab7b4270cd70cad7}{%
+           family={UKAS},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{3de771850e16ddd1ab7b4270cd70cad7}
+      \strng{fullhash}{3de771850e16ddd1ab7b4270cd70cad7}
+      \strng{bibnamehash}{3de771850e16ddd1ab7b4270cd70cad7}
+      \strng{authorbibnamehash}{3de771850e16ddd1ab7b4270cd70cad7}
+      \strng{authornamehash}{3de771850e16ddd1ab7b4270cd70cad7}
+      \strng{authorfullhash}{3de771850e16ddd1ab7b4270cd70cad7}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
-      \field{month}{1}
-      \field{year}{2019}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Our role}
+      \field{urlday}{7}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb http://www.ukas.com/about/our-role/
       \endverb
@@ -31,7 +47,376 @@
       \verb http://www.ukas.com/about/our-role/
       \endverb
     \endentry
-    \entry{Stant_2017}{article}{}
+    \entry{SI}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8273d570dfbe37dc3f8fb6a4b4ee718e}{%
+           family={BIPM},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{8273d570dfbe37dc3f8fb6a4b4ee718e}
+      \strng{fullhash}{8273d570dfbe37dc3f8fb6a4b4ee718e}
+      \strng{bibnamehash}{8273d570dfbe37dc3f8fb6a4b4ee718e}
+      \strng{authorbibnamehash}{8273d570dfbe37dc3f8fb6a4b4ee718e}
+      \strng{authornamehash}{8273d570dfbe37dc3f8fb6a4b4ee718e}
+      \strng{authorfullhash}{8273d570dfbe37dc3f8fb6a4b4ee718e}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{month}{11}
+      \field{title}{Draft of the ninth {SI} brochure}
+      \field{urlday}{7}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.bipm.org/utils/common/pdf/si-brochure-draft-2016b.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.bipm.org/utils/common/pdf/si-brochure-draft-2016b.pdf
+      \endverb
+    \endentry
+    \entry{GUM_1993}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c5f376e5f1d5a3451b37fef1431aad6a}{%
+           family={{International Organization for Standardization}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \strng{namehash}{c5f376e5f1d5a3451b37fef1431aad6a}
+      \strng{fullhash}{c5f376e5f1d5a3451b37fef1431aad6a}
+      \strng{bibnamehash}{c5f376e5f1d5a3451b37fef1431aad6a}
+      \strng{authorbibnamehash}{c5f376e5f1d5a3451b37fef1431aad6a}
+      \strng{authornamehash}{c5f376e5f1d5a3451b37fef1431aad6a}
+      \strng{authorfullhash}{c5f376e5f1d5a3451b37fef1431aad6a}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{92-67-10188-9}
+      \field{note}{1st ed.}
+      \field{title}{Guide to the Expression of Uncertainty in Measurement}
+      \field{year}{1993}
+    \endentry
+    \entry{GUM_2008}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=153002a54054a8dbc0005a9e63ef96af}{%
+           family={{BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP and OIML}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{153002a54054a8dbc0005a9e63ef96af}
+      \strng{fullhash}{153002a54054a8dbc0005a9e63ef96af}
+      \strng{bibnamehash}{153002a54054a8dbc0005a9e63ef96af}
+      \strng{authorbibnamehash}{153002a54054a8dbc0005a9e63ef96af}
+      \strng{authornamehash}{153002a54054a8dbc0005a9e63ef96af}
+      \strng{authorfullhash}{153002a54054a8dbc0005a9e63ef96af}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Guide to the Expression of Uncertainty in Measurement JCGM 100:2008 (GUM 1995 with minor corrections)}}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb http://www.bipm.org/utils/common/documents/jcgm/JCGM 100 2008 E.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.bipm.org/utils/common/documents/jcgm/JCGM%20100%202008%20E.pdf
+      \endverb
+    \endentry
+    \entry{VIM}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=153002a54054a8dbc0005a9e63ef96af}{%
+           family={{BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP and OIML}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{153002a54054a8dbc0005a9e63ef96af}
+      \strng{fullhash}{153002a54054a8dbc0005a9e63ef96af}
+      \strng{bibnamehash}{153002a54054a8dbc0005a9e63ef96af}
+      \strng{authorbibnamehash}{153002a54054a8dbc0005a9e63ef96af}
+      \strng{authornamehash}{153002a54054a8dbc0005a9e63ef96af}
+      \strng{authorfullhash}{153002a54054a8dbc0005a9e63ef96af}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{International Vocabulary of Metrology Basic and General Concepts and Associated Terms (VIM) JCGM 200:2012}}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb http://www.bipm.org/utils/common/documents/jcgm/JCGM 200 2012.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.bipm.org/utils/common/documents/jcgm/JCGM%20200%202012.pdf
+      \endverb
+    \endentry
+    \entry{GUM_S1}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=153002a54054a8dbc0005a9e63ef96af}{%
+           family={{BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP and OIML}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{153002a54054a8dbc0005a9e63ef96af}
+      \strng{fullhash}{153002a54054a8dbc0005a9e63ef96af}
+      \strng{bibnamehash}{153002a54054a8dbc0005a9e63ef96af}
+      \strng{authorbibnamehash}{153002a54054a8dbc0005a9e63ef96af}
+      \strng{authornamehash}{153002a54054a8dbc0005a9e63ef96af}
+      \strng{authorfullhash}{153002a54054a8dbc0005a9e63ef96af}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Supplement 1 to the “Guide to the Expression of Uncertainty in Measurement" – Propagation of distributions using a Monte Carlo method JCGM 101:2008}}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb http://www.bipm.org/utils/common/documents/jcgm/JCGM 101 2008 E.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.bipm.org/utils/common/documents/jcgm/JCGM%20101%202008%20E.pdf
+      \endverb
+    \endentry
+    \entry{GUM_S2}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=153002a54054a8dbc0005a9e63ef96af}{%
+           family={{BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP and OIML}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{153002a54054a8dbc0005a9e63ef96af}
+      \strng{fullhash}{153002a54054a8dbc0005a9e63ef96af}
+      \strng{bibnamehash}{153002a54054a8dbc0005a9e63ef96af}
+      \strng{authorbibnamehash}{153002a54054a8dbc0005a9e63ef96af}
+      \strng{authornamehash}{153002a54054a8dbc0005a9e63ef96af}
+      \strng{authorfullhash}{153002a54054a8dbc0005a9e63ef96af}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Supplement 2 to the “Guide to the Expression of Uncertainty in Measurement" – Extension to any number of output quantities JCGM 102:2011}}
+      \field{year}{2011}
+      \verb{urlraw}
+      \verb http://www.bipm.org/utils/common/documents/jcgm/JCGM 102 2011 E.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.bipm.org/utils/common/documents/jcgm/JCGM%20102%202011%20E.pdf
+      \endverb
+    \endentry
+    \entry{Neyman_1937}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2bb11e5586326328fbc96d17f330491c}{%
+           family={Neyman},
+           familyi={N\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society}%
+      }
+      \strng{namehash}{2bb11e5586326328fbc96d17f330491c}
+      \strng{fullhash}{2bb11e5586326328fbc96d17f330491c}
+      \strng{bibnamehash}{2bb11e5586326328fbc96d17f330491c}
+      \strng{authorbibnamehash}{2bb11e5586326328fbc96d17f330491c}
+      \strng{authornamehash}{2bb11e5586326328fbc96d17f330491c}
+      \strng{authorfullhash}{2bb11e5586326328fbc96d17f330491c}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences}
+      \field{month}{8}
+      \field{number}{767}
+      \field{title}{Outline of a Theory of Statistical Estimation Based on the Classical Theory of Probability}
+      \field{volume}{236}
+      \field{year}{1937}
+      \field{pages}{333\bibrangedash 380}
+      \range{pages}{48}
+      \verb{doi}
+      \verb 10.1098/rsta.1937.0005
+      \endverb
+    \endentry
+    \entry{White_2016}{article}{}
+      \name{author}{1}{}{%
+        {{hash=09ab89fbe0d8caeca2f9c775956a9f92}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={D\bibnamedelima R},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{09ab89fbe0d8caeca2f9c775956a9f92}
+      \strng{fullhash}{09ab89fbe0d8caeca2f9c775956a9f92}
+      \strng{bibnamehash}{09ab89fbe0d8caeca2f9c775956a9f92}
+      \strng{authorbibnamehash}{09ab89fbe0d8caeca2f9c775956a9f92}
+      \strng{authornamehash}{09ab89fbe0d8caeca2f9c775956a9f92}
+      \strng{authorfullhash}{09ab89fbe0d8caeca2f9c775956a9f92}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Metrologia}
+      \field{month}{6}
+      \field{number}{4}
+      \field{title}{In pursuit of a fit-for-purpose uncertainty guide}
+      \field{volume}{53}
+      \field{year}{2016}
+      \field{pages}{S107\bibrangedash S124}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/0026-1394/53/4/s107
+      \endverb
+    \endentry
+    \entry{Kacker_2006}{article}{}
+      \name{author}{3}{}{%
+        {{hash=8064799d529f9cb423c7e010b7ebcd36}{%
+           family={Kacker},
+           familyi={K\bibinitperiod},
+           given={Raghu},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0ac40471bd8e40a666f5a0560ccaa91f}{%
+           family={Toman},
+           familyi={T\bibinitperiod},
+           given={Blaza},
+           giveni={B\bibinitperiod}}}%
+        {{hash=a85e92eb7e83824dbba27d1d5202aacf}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Ding},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{b547873b0738ed1bda922d6d8c415807}
+      \strng{fullhash}{b547873b0738ed1bda922d6d8c415807}
+      \strng{bibnamehash}{b547873b0738ed1bda922d6d8c415807}
+      \strng{authorbibnamehash}{b547873b0738ed1bda922d6d8c415807}
+      \strng{authornamehash}{b547873b0738ed1bda922d6d8c415807}
+      \strng{authorfullhash}{b547873b0738ed1bda922d6d8c415807}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Metrologia}
+      \field{month}{8}
+      \field{number}{4}
+      \field{title}{Comparison of {ISO}-{GUM}, draft {GUM} Supplement 1 and Bayesian statistics using simple linear calibration}
+      \field{volume}{43}
+      \field{year}{2006}
+      \field{pages}{S167\bibrangedash S177}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/0026-1394/43/4/s02
+      \endverb
+    \endentry
+    \entry{Kacker_2005}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4c667114d6adf65853302ddb2e91975e}{%
+           family={Kacker},
+           familyi={K\bibinitperiod},
+           given={Raghu\bibnamedelima N},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{4c667114d6adf65853302ddb2e91975e}
+      \strng{fullhash}{4c667114d6adf65853302ddb2e91975e}
+      \strng{bibnamehash}{4c667114d6adf65853302ddb2e91975e}
+      \strng{authorbibnamehash}{4c667114d6adf65853302ddb2e91975e}
+      \strng{authornamehash}{4c667114d6adf65853302ddb2e91975e}
+      \strng{authorfullhash}{4c667114d6adf65853302ddb2e91975e}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Metrologia}
+      \field{month}{11}
+      \field{number}{1}
+      \field{title}{Bayesian alternative to the {ISO}-{GUM}{'}s use of the Welch{–}Satterthwaite formula}
+      \field{volume}{43}
+      \field{year}{2005}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1088/0026-1394/43/1/001
+      \endverb
+    \endentry
+    \entry{Kacker_2003}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6b5d3e83002af000c3327f6ae66db6f5}{%
+           family={Kacker},
+           familyi={K\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=540cdd13b96ebe8a6352345eccc518c6}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{286d31450eaa2533e4ba5fb7ca8eb17f}
+      \strng{fullhash}{286d31450eaa2533e4ba5fb7ca8eb17f}
+      \strng{bibnamehash}{286d31450eaa2533e4ba5fb7ca8eb17f}
+      \strng{authorbibnamehash}{286d31450eaa2533e4ba5fb7ca8eb17f}
+      \strng{authornamehash}{286d31450eaa2533e4ba5fb7ca8eb17f}
+      \strng{authorfullhash}{286d31450eaa2533e4ba5fb7ca8eb17f}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Metrologia}
+      \field{month}{9}
+      \field{number}{5}
+      \field{title}{On use of Bayesian statistics to make the Guide to the Expression of Uncertainty in Measurement consistent}
+      \field{volume}{40}
+      \field{year}{2003}
+      \field{pages}{235\bibrangedash 248}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1088/0026-1394/40/5/305
+      \endverb
+    \endentry
+    \entry{Bich_2014}{article}{}
+      \name{author}{1}{}{%
+        {{hash=eb5c1fc4680b5068ff8cd784d879d5bb}{%
+           family={Bich},
+           familyi={B\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{eb5c1fc4680b5068ff8cd784d879d5bb}
+      \strng{fullhash}{eb5c1fc4680b5068ff8cd784d879d5bb}
+      \strng{bibnamehash}{eb5c1fc4680b5068ff8cd784d879d5bb}
+      \strng{authorbibnamehash}{eb5c1fc4680b5068ff8cd784d879d5bb}
+      \strng{authornamehash}{eb5c1fc4680b5068ff8cd784d879d5bb}
+      \strng{authorfullhash}{eb5c1fc4680b5068ff8cd784d879d5bb}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Metrologia}
+      \field{month}{7}
+      \field{number}{4}
+      \field{title}{Revision of the `Guide to the Expression of Uncertainty in Measurement'. Why and how}
+      \field{volume}{51}
+      \field{year}{2014}
+      \field{pages}{S155\bibrangedash S158}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/0026-1394/51/4/s155
+      \endverb
+    \endentry
+    \entry{Stant_2016}{article}{}
       \name{author}{3}{}{%
         {{hash=6ff9819fe8e84453f16bbc72eb6e563b}{%
            family={Stant},
@@ -49,9 +434,8 @@
            given={N.M.},
            giveni={N\bibinitperiod}}}%
       }
-      \list{publisher}{2}{%
-        {Institution of Engineering}%
-        {Technology ({IET})}%
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
       }
       \strng{namehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{fullhash}{3a9f4547a55f2042eaa64f38f6c0058a}
@@ -59,20 +443,100 @@
       \strng{authorbibnamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{authornamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
       \strng{authorfullhash}{3a9f4547a55f2042eaa64f38f6c0058a}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IET Microwaves Antennas Propag.}
-      \field{month}{2}
+      \field{journaltitle}{Measurement}
+      \field{month}{12}
+      \field{title}{Comparing methods for evaluating measurement uncertainty given in the {JCGM} `Evaluation of Measurement Data' documents}
+      \field{volume}{94}
+      \field{year}{2016}
+      \field{pages}{847\bibrangedash 851}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/j.measurement.2016.08.015
+      \endverb
+    \endentry
+    \entry{Elster_2007}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0e7b2880b6aecdcbe33418704a6bdd3a}{%
+           family={Elster},
+           familyi={E\bibinitperiod},
+           given={Clemens},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b03218d79d3183332ad505c6641ba468}{%
+           family={Wöger},
+           familyi={W\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=42b8aead4e26cbddfe115b15d3196cf5}{%
+           family={Cox},
+           familyi={C\bibinitperiod},
+           given={Maurice\bibnamedelima G},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{211d25aea3496e67ea695fe2c11d6b57}
+      \strng{fullhash}{211d25aea3496e67ea695fe2c11d6b57}
+      \strng{bibnamehash}{211d25aea3496e67ea695fe2c11d6b57}
+      \strng{authorbibnamehash}{211d25aea3496e67ea695fe2c11d6b57}
+      \strng{authornamehash}{211d25aea3496e67ea695fe2c11d6b57}
+      \strng{authorfullhash}{211d25aea3496e67ea695fe2c11d6b57}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Metrologia}
+      \field{month}{5}
       \field{number}{3}
-      \field{title}{Evaluating residual errors in waveguide {VNAs} from microwave to submillimetre-wave frequencies}
-      \field{volume}{11}
-      \field{year}{2017}
-      \field{pages}{324\bibrangedash 329}
+      \field{title}{Draft {GUM} Supplement 1 and Bayesian analysis}
+      \field{volume}{44}
+      \field{year}{2007}
+      \field{pages}{L31\bibrangedash L32}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/0026-1394/44/3/n03
+      \endverb
+    \endentry
+    \entry{Klauenberg_2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0539d51207697138ec0e9233ad07a6ac}{%
+           family={Klauenberg},
+           familyi={K\bibinitperiod},
+           given={Katy},
+           giveni={K\bibinitperiod}}}%
+        {{hash=0e7b2880b6aecdcbe33418704a6bdd3a}{%
+           family={Elster},
+           familyi={E\bibinitperiod},
+           given={Clemens},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{173ee91f6ee05fd1188abd5b68cd51fc}
+      \strng{fullhash}{173ee91f6ee05fd1188abd5b68cd51fc}
+      \strng{bibnamehash}{173ee91f6ee05fd1188abd5b68cd51fc}
+      \strng{authorbibnamehash}{173ee91f6ee05fd1188abd5b68cd51fc}
+      \strng{authornamehash}{173ee91f6ee05fd1188abd5b68cd51fc}
+      \strng{authorfullhash}{173ee91f6ee05fd1188abd5b68cd51fc}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Metrologia}
+      \field{month}{4}
+      \field{number}{3}
+      \field{title}{The multivariate normal mean – sensitivity of its objective Bayesian estimates}
+      \field{volume}{49}
+      \field{year}{2012}
+      \field{pages}{395\bibrangedash 400}
       \range{pages}{6}
       \verb{doi}
-      \verb 10.1049/iet-map.2016.0455
+      \verb 10.1088/0026-1394/49/3/395
       \endverb
     \endentry
   \enddatalist

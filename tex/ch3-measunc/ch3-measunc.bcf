@@ -1982,7 +1982,33 @@
   </bcf:bibdata>
   <bcf:section number="1">
     <bcf:citekey order="1">UKAS</bcf:citekey>
-    <bcf:citekey order="2">Stant_2017</bcf:citekey>
+    <bcf:citekey order="2">SI</bcf:citekey>
+    <bcf:citekey order="3">GUM_1993</bcf:citekey>
+    <bcf:citekey order="4">GUM_2008</bcf:citekey>
+    <bcf:citekey order="5">VIM</bcf:citekey>
+    <bcf:citekey order="6">GUM_S1</bcf:citekey>
+    <bcf:citekey order="6">GUM_S2</bcf:citekey>
+    <bcf:citekey order="7">Neyman_1937</bcf:citekey>
+    <bcf:citekey order="8">White_2016</bcf:citekey>
+    <bcf:citekey order="9">Kacker_2006</bcf:citekey>
+    <bcf:citekey order="9">Kacker_2005</bcf:citekey>
+    <bcf:citekey order="9">Kacker_2003</bcf:citekey>
+    <bcf:citekey order="9">Bich_2014</bcf:citekey>
+    <bcf:citekey order="10">Stant_2016</bcf:citekey>
+    <bcf:citekey order="11">GUM_S1</bcf:citekey>
+    <bcf:citekey order="11">GUM_S2</bcf:citekey>
+    <bcf:citekey order="12">Elster_2007</bcf:citekey>
+    <bcf:citekey order="13">Neyman_1937</bcf:citekey>
+    <bcf:citekey order="14">GUM_2008</bcf:citekey>
+    <bcf:citekey order="15">GUM_S1</bcf:citekey>
+    <bcf:citekey order="15">GUM_S2</bcf:citekey>
+    <bcf:citekey order="16">Klauenberg_2012</bcf:citekey>
+    <bcf:citekey order="17">GUM_S2</bcf:citekey>
+    <bcf:citekey order="18">VIM</bcf:citekey>
+    <bcf:citekey order="19">GUM_2008</bcf:citekey>
+    <bcf:citekey order="20">GUM_S2</bcf:citekey>
+    <bcf:citekey order="21">GUM_2008</bcf:citekey>
+    <bcf:citekey order="22">GUM_S2</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
