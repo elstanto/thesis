@@ -158,27 +158,131 @@ R=\frac VI\cos\theta, \quad X=\frac VI\sin\theta, \quad Z=\frac VI
 Six sets of indication values \cite{VIM} ($n = 6$) of $V$; $I$; $\phi$ are obtained independently by measurement. The version of this example given in the GUM uses only $n = 5$ sets, but one additional set of values of $V$; $I$; $\phi$ has been added for the GUM-S2 example to allow (\ref{ch3_eqn_ux_supp_multiv}) to be defined for $N = 3$ input quantities, a condition which was explained at the end of the previous section. These values, together with their arithmetic means and standard uncertainties as calculated from the two approaches using (\ref{ch3_eqn_ux_gum}) and the matrix form of (\ref{ch3_eqn_ux_supp_multiv}) (which is applicable to measurements involving multiple input quantities), are presented in Table \ref{ch3_tbl_gum_example}. The ratios of the standard uncertainties from each approach is also included in the table, which are identical for all these input quantities due to their dependence only on $n$ and $N$, which are also equal for all these input quantities (e.g. when $n = 6$ and $N = 3$, $\sqrt{(\nu/(\nu-2))}=\sqrt{((n-N)/(n-N-2))}=\sqrt{3}$. This explains why standard uncertainties evaluated with Category A methods using the minimum number of observations following the GUM-S1/S2 approach are always 1.732 times larger than the standard uncertainties calculated following the GUM approach.
 
 \begin{table}[]
-	\begin{tabular}{llll}
-		Value             & $V$/V  & $I$/A   & $\phi$/rad   \\ \hline
+	\begin{tabular}{llll} \toprule
+		Value             & $V$/V  & $I$/A   & $\phi$/rad   \\ \midrule
 		$x_1$             & 5.007  & 19.663  & 1.0456  \\
 		$x_2$             & 4.994  & 19.639  & 1.0438  \\
 		$x_3$             & 5.005  & 19.640  & 1.0468  \\
 		$x_4$             & 4.990  & 19.685  & 1.0428  \\
 		$x_5$             & 4.999  & 19.678  & 1.0433  \\
-		$x_6$             & 4.999  & 19.661  & 1.0445  \\ \hline
-		$\bar{x}$         & 4.9990 & 19.6610 & 1.04446 \\ \hline
+		$x_6$             & 4.999  & 19.661  & 1.0445  \\ \midrule
+		$\bar{x}$         & 4.9990 & 19.6610 & 1.04446 \\ \midrule
 		$u(\bar{x})\textrm{GUM}$   & 0.0026 & 0.0077  & 0.00061 \\
-		$u(\bar{x})\textrm{SUPP}$  & 0.0045 & 0.0134  & 0.0011  \\ \hline
-		$\frac {u(\bar{x})\textrm{GUM}}{u(\bar{x})\textrm{SUPP}}$ & 1.732  & 1.732   & 1.732  
+		$u(\bar{x})\textrm{SUPP}$  & 0.0045 & 0.0134  & 0.0011  \\ \midrule
+		$\frac {u(\bar{x})\textrm{GUM}}{u(\bar{x})\textrm{SUPP}}$ & 1.732  & 1.732   & 1.732 \\ \bottomrule
 	\end{tabular}
 \caption{The indication values from the example ``Simultaneous Resistance and Reactance Measurement'' and their statistical properties as evaluated by the approaches given in \cite[Example H.2]{GUM_2008} and \cite[Example 9.4]{GUM_S2}.}
 \label{ch3_tbl_gum_example}
 \end{table}
 
+This difference in the input quantity uncertainties calculated from the two approaches propagates through the measurement model and therefore significantly affects the combined standard uncertainties of the measurands. Table 3.2 presents the combined standard uncertainties of the measurands for the described example as evaluated by both approaches, together with a ratio of the uncertainty values. For all three measurands the combined standard uncertainty calculated using the GUM-S1/S2 method is more than double the equivalent values calculated using the GUM method. For other measurement models with higher sensitivities to the input quantities, this difference could be even greater.
+
+\begin{table}[]
+	\begin{tabular}{llll} \toprule
+		Method             & $u(R)$/$\Omega$  & $u(X)$/$\Omega$   & $u(Z)$/$\Omega$   \\ \midrule
+		GUM                & 0.058 & 0.241 & 0.193 \\
+		GUM-S2             & 0.130 & 0.540 & 0.431 \\ \midrule
+		$\frac {\textrm{GUM-S2}}{\textrm{GUM}}$ & 2.241  & 2.241   & 2.233 \\ \bottomrule
+	\end{tabular}
+	\caption{A comparison of the results obtained for the example ``Simultaneous Resistance and Reactance Measurement'' using the approaches given in \cite[Example H.2]{GUM_2008} and \cite[Example 9.4]{GUM_S2}.}
+	\label{ch3_tbl_gum_compare}
+\end{table}
+
+\paragraph{Comparison of GUM and GUM Supplements approach using microwave scattering parameters example}
+
+High-frequency electromagnetic metrology often involves using multiple complex-valued quantities. Common input quantities for this type of measurement, measured using instruments such as vector network analysers (VNA), are scattering parameters (S-parameters), as described in Chapter 2. Because each S-parameter is a complex-valued quantity ($S = (S_{\textrm{Re}}, S_{\textrm{Im}})$), there are $2m^2$ input quantities required in a measurement model which uses the complete device response. All these quantities are correlated, so a multivariate distribution should be used to represent them. It has been shown previously that for a Category A evaluation of uncertainty, both the number of repeat observations and the number of input quantities have a significant effect on the difference in uncertainty as calculated from the two approaches presented in the GUM and the GUM-S1/S2. Table \ref{ch3_tbl_sparams} shows the ratio of uncertainties calculated from both approaches when applied to a measurement using scattering parameters obtained from the minimum number of repeat observations, $n$, for devices with $m$ ports.
+
+\begin{table}[]
+	\begin{tabular}{llp{5cm}l} \toprule
+		Ports, $m$         & Input quantities, $N$ & Required minimum number of repeat observations, $n$, for $u(\bar{x})_{SUPP}$ to be defined & $\frac {u(\bar{x})\textrm{GUM}}{u(\bar{x})\textrm{SUPP}}$ \\ \midrule
+		     1 &      2 &      5 & 1.732 \\
+		     2 &      8 &     11 & 1.732 \\
+		     3 &     18 &     21 & 1.732 \\
+		     4 &     32 &     35 & 1.732 \\
+		     \multicolumn{1}{l}{\vdots}&\multicolumn{1}{l}{\vdots}&\multicolumn{1}{l}{\vdots}&1.732\\
+		     8 &    128 &    131 & 1.732 \\ \bottomrule
+	\end{tabular}
+	\caption{The difference in standard uncertainties obtained using the GUM ($u(\bar{x})_{GUM}$) and the GUM-S1/S2 ($u(\bar{x})_{SUPP}$) approaches to measure a full set of scattering parameters for microwave devices with various numbers of ports, $m$. Each device has $2m^2$ input quantities, $N$, and requires a minimum of $N + 3$ repeat observations, $n$, in order for $u(\bar{x})_{SUPP}$ to be defined.}
+	\label{ch3_tbl_sparams}
+\end{table}
+
+It can be seen that for devices with multiple ports, n can become large in order for \ref{ch3_eqn_ux_supp_multiv} to be defined and calculate the standard uncertainty. It is likely that the user will not always have the time or resources available to perform such a quantity of measurements. In microwave measurement environments, connections are typically made by hand using coaxial connectors. A typical measurement may include a Category A evaluation of uncertainty due to connection repeatability. Considering the specific example of a 4-port device, this requirement would result in the need for a minimum of $35 \times 4 = 140$ repeat coaxial connections to be made in order to perform a Category A evaluation of the standard uncertainty using the GUM-S1/S2 approach. By contrast, the classical approach used in the GUM is defined with just 2 repeat observations, which would require only $2 \times 4 = 8$ repeat coaxial connections to be made. Figure \ref{ch3_fig_gum_sparams} shows the minimum number of repeat observations required when using the GUM-S1/S2 approach, n, in order to be able to calculate a Category A evaluation of the standard uncertainty of a full set of S-parameters for a microwave device with m ports. In all cases, the standard uncertainty obtained using the GUM-S1/S2 approach is approximately 1.7 times larger than that obtained using the GUM approach.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.65\textwidth]{gum_sparams}
+	\caption{The minimum number of observations, $n$, required to calculate the standard uncertainty of a full set of S-parameters for a microwave device with m ports using the GUM-S2 approach. The number of input quantities, $N$, for each device is also shown. Because $n$ is minimized, $n = N + 3$.}
+	\label{ch3_fig_gum_sparams}
+\end{figure}
+
+\paragraph{Discussion}
+
+The inconsistency of the approaches used in the GUM and its supplements to calculate the standard uncertainty of Category A input quantities of a measurement has two noticeable consequences for the user:
+
+\begin{enumerate}
+	\item There can be a large difference in the standard uncertainties reported by each approach, which has been demonstrated in this chapter using both the example of simultaneous resistance and reactance measurement and a typical microwave measurement. This leads to the question: ``Which approach should be used?''. The answer is not straightforward. The GUM approach is likely to be more attractive to commercial laboratories and test engineers since this leads to achieving smaller uncertainties in their results.
+	\item For situations involving multiple Category A input quantities, the Bayesian approach introduced in the GUM-S1/S2 can require a large number of observations before the standard uncertainty can be defined. Although the standard uncertainty calculated using the GUM approach will become less reliable with fewer observations, it is still possible to obtain a result with only two observations of any number of input quantities. In a commercial laboratory the additional measurements required by the GUM-S1/S2 approach can be impractical, with many laboratories typically using only two or three measurements per device following the GUM approach. For a single input quantity this would require a potential doubling of the number of observations and therefore the test duration, which would either slow throughput or require more test stations to be added. If implemented, the additional time or financial investment would then produce uncertainties that are significantly larger than those obtained using the GUM approach.
+\end{enumerate}
+
+For the work in this thesis, which is based on multivariate electromagnetic measurement problems, the GUM approach is used. In addition, an existing software framework, introduced later, which is included as part of the complete framework presented in this work, also uses the GUM approach for processing Category A uncertainty components.
+
 \subsubsection{Category B Evaluation}
+
+Category B uncertainty components are those which have not been obtained by repeated measurements. The GUM presents a list of possible sources:
+
+\begin{itemize}
+	\item Previous measurement data;
+	\item Experience or knowledge of relevant materials and instruments;
+	\item Manufacturer’s specifications;
+	\item Data provided by calibration and other certificates;
+	\item Reference data from handbooks;
+\end{itemize}
+
+Values obtained from these sources will typically be an estimate accompanied by either a standard uncertainty or an expanded uncertainty. The latter can be converted to a standard uncertainty, the process of which is described in Section 3.6. Category B uncertainty components are not restricted to Gaussian or t-distributions, and could for example be normal (rectangular), beta, or Cauchy distributions. Unless the combined standard uncertainty is determined via a Monte Carlo method, as explained in the following section, the standard uncertainty must be known for the value to be used as an input quantity.
+
 \subsection{Evaluating Combined Standard Uncertainty}
+
+In order to determine the standard uncertainty of the measurand (the combined standard uncertainty) the uncertainties of the input quantities must be propagated through the measurement model. The GUM offers several methods to achieve this, which will be described in this section.
+
 \subsubsection{Monte Carlo Methods}
+
+Supplement 1 of the GUM \cite{GUM_S1} covers the use of a Monte Carlo technique to determine combined standard uncertainty in the measurand. The Monte Carlo technique has three important benefits for the propagation of uncertainty:
+
+\begin{enumerate}
+	\item The measurement model does not need to be known explicitly. In some cases, the algorithm used to obtain a measurement result is proprietary and cannot be made available to the metrologist. Alternatively, the measurement model may be very complicated or involve numerical solutions which cannot be differentiated as required by other propagation methods.
+	\item Full knowledge of the probability distributions of the input quantities are used and preserved through the uncertainty propagation. Because the input quantity distributions are sampled directly, the complete probability distribution of the measurand can be obtained (see Figure \ref{ch3_fig_distributions}). This can be very useful when more exotic distributions such as u-shaped distributions are used for input quantities, or if the measurement model is strongly nonlinear, when one cannot make assumptions about the probability distribution of the measurand.
+	\item The uncertainty propagation preserves nonlinearities in the measurement model. Alternative propagation methods presented in the GUM cause the measurement model to be linearised around the estimate. In most cases where a nonlinear measurement model is used, however, the uncertainty values are sufficient small that a linear approximation is valid \cite[5.1.5]{GUM_2008}. Often, an initial Monte Carlo propagation is used to validate this assumption.
+	\item All correlations between input quantities are preserved. For many measurements involving multiple input quantities (especially in electromagnetic measurements), the uncertainties of one or more input quantities may be correlated. This means that when the value of one quantity changes, it affects the values of others. The effect can both increase or decrease the combined standard uncertainty in the measurand significantly. Chapter 4 will discuss the impact of correlations on VNA measurements.
+\end{enumerate}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.65\textwidth]{distributions}
+	\caption{An illustration of the propagation of distributions from three input quantities $g_{X1}$, $g_{X2}$, $g_{X3}$, through the measurement model, $Y$, to the measurand, $g_{Y}$ \cite{GUM_S1}.}
+	\label{ch3_fig_distributions}
+\end{figure}
+
+The primary disadvantage of Monte Carlo methods is the time required to process them. For an accurate evaluation of uncertainty, the number of samples must be sufficiently large. Generally, the GUM recommends 106 samples for a 95\% coverage interval accurate to one or two significant digits \cite[7.2.1]{GUM_S1}. The number of samples increases with the size of the desired coverage interval of similar accuracy. For many measurements today, the processing power of modern computers is sufficient for the duration of uncertainty propagations using Monte Carlo methods to be acceptable. However, in situations where the measurement model is very time-consuming to process, or where the uncertainty evaluation must be very fast, linear propagation techniques may be preferred.
+
+A detailed explanation of the steps involved in performing a Monte Carlo propagation can be found in Section 7 of \cite{GUM_S1}.
+
 \subsubsection{Law of Propagation of Uncertainty}
+
+The primary propagation method presented in the GUM is the Law of Propagation of Uncertainty (LPU). This method uses first-order derivatives of the measurement model, together with the variances (and co-variances) of the input quantities, to determine a value for the combined standard uncertainty. The use of first-order derivates specifies a linearised measurement model, which in many applications is a valid assumption as discussed previously. The LPU provides different equations for combining independent (uncorrelated) and correlated input quantities. For independent input quantities,
+
+\begin{equation}
+u^2_c(\bar{y}) = \sum_{i=1}^{N}(\frac{\partial f}{\partial x_i})^2 u^2(\bar{x}_i),
+\end{equation}
+
+where $u^2_c(\bar{y})$, the combined variance, is the square of the combined standard uncertainty, $f$ is the function describing the measurement model, and $x_i$ is an input quantity with variance $u^2(\bar{x}_i)$. For correlated input quantities,
+
+\begin{equation}
+u^2_c(\bar{y}) = \sum_{i=1}^{N}\sum_{j=1}^{N} \frac{\partial f}{\partial x_i}\frac{\partial f}{\partial x_j} u(\bar{x}_i,\bar{x}_j).
+\label{ch3_eqn_lpu_corr}
+\end{equation}
+
+Supplement 2 to the GUM offers a matrix formulation of (\ref{ch3_eqn_lpu_corr}) \cite[6.2.1.3]{GUM_S2}, which handles the multivariate case where multiple measurands are encountered. If the covariance matrix of dimension $N \times N$ associated with is
+
 \subsubsection{Finite Difference Methods}
 \subsection{Expanded Uncertainty and Coverage Intervals}
 \section{Sensitivity Analysis}
