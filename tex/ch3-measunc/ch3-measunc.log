@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.7.5)  8 JAN 2019 17:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.7.5)  9 JAN 2019 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -861,11 +861,18 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ch3-measunc.bbl' found.
- (./ch3-measunc.bbl)
+ (./ch3-measunc.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 1):
+(biblatex)                Kacker_2005
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 5.
 Package biblatex Info: Reference segment=0 on input line 5.
-
-(c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count391
 \scratchdimen=\dimen172
@@ -970,19 +977,19 @@ line 133.
  [9] [10 <../figs/ch3-measunc/scaling_factor.jpg>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 160.
+               Default added (so using `tbp') on input line 166.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 180.
+               Default added (so using `tbp') on input line 186.
 
 [11] [12]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 195.
+               Default added (so using `tbp') on input line 201.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--197
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
 []\OT1/cmr/m/n/10 Required min-i-mum num-ber
  []
 
@@ -991,41 +998,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--197
 File: ../figs/ch3-measunc/gum_sparams.jpg Graphic file (type jpg)
 <use ../figs/ch3-measunc/gum_sparams.jpg>
 Package pdftex.def Info: ../figs/ch3-measunc/gum_sparams.jpg  used on input lin
-e 213.
+e 219.
 (pdftex.def)             Requested size: 271.86234pt x 191.20602pt.
  [14 <../figs/ch3-measunc/gum_sparams.jpg>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 234.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 242.
 
 
 (c:/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 234.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 242.
  [15] [16]
 <../figs/ch3-measunc/distributions.png, id=71, 370.38374pt x 210.03468pt>
 File: ../figs/ch3-measunc/distributions.png Graphic file (type png)
 <use ../figs/ch3-measunc/distributions.png>
 Package pdftex.def Info: ../figs/ch3-measunc/distributions.png  used on input l
-ine 260.
+ine 268.
 (pdftex.def)             Requested size: 271.86234pt x 154.16692pt.
- [17 <../figs/ch3-measunc/distributions.png>] [18] [19
+ [17 <../figs/ch3-measunc/distributions.png>] [18] [19] [20]
+<../figs/ch3-measunc/sensitivity.png, id=86, 492.33937pt x 435.12563pt>
+File: ../figs/ch3-measunc/sensitivity.png Graphic file (type png)
+<use ../figs/ch3-measunc/sensitivity.png>
+Package pdftex.def Info: ../figs/ch3-measunc/sensitivity.png  used on input lin
+e 360.
+(pdftex.def)             Requested size: 334.60422pt x 295.73544pt.
+ [21] [22 <../figs/ch3-measunc/sensitivity.png>] [23] [24
 
 ]
-Package biblatex Info: Reference section=0 on input line 289.
- [20] (./ch3-measunc.aux)
+Package biblatex Info: Reference section=0 on input line 377.
+ [25] (./ch3-measunc.aux)
 Package logreq Info: Writing requests to 'ch3-measunc.run.xml'.
 \openout1 = `ch3-measunc.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19332 strings out of 492646
- 353313 string characters out of 6133326
- 846910 words of memory out of 5000000
- 23059 multiletter control sequences out of 15000+600000
+ 19347 strings out of 492646
+ 353770 string characters out of 6133326
+ 847106 words of memory out of 5000000
+ 23073 multiletter control sequences out of 15000+600000
  538234 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,16n,67p,2364b,1310s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,16n,67p,2390b,1310s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2018/texmf-d
@@ -1040,10 +1054,10 @@ xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/201
 ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmtt10.pfb>
-Output written on ch3-measunc.pdf (20 pages, 489167 bytes).
+Output written on ch3-measunc.pdf (25 pages, 514756 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
+ 156 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -203,6 +203,44 @@
       \verb http://www.bipm.org/utils/common/documents/jcgm/JCGM%20102%202011%20E.pdf
       \endverb
     \endentry
+    \entry{Metropolis_1949}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2b73f47a1a84dd52f45fe57c381c3786}{%
+           family={Metropolis},
+           familyi={M\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=8d9ac49de0c3f3a38001916b81561993}{%
+           family={Ulam},
+           familyi={U\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Informa {UK} Limited}%
+      }
+      \strng{namehash}{c934f479d57b4c43a1d4c06ef5d6d255}
+      \strng{fullhash}{c934f479d57b4c43a1d4c06ef5d6d255}
+      \strng{bibnamehash}{c934f479d57b4c43a1d4c06ef5d6d255}
+      \strng{authorbibnamehash}{c934f479d57b4c43a1d4c06ef5d6d255}
+      \strng{authornamehash}{c934f479d57b4c43a1d4c06ef5d6d255}
+      \strng{authorfullhash}{c934f479d57b4c43a1d4c06ef5d6d255}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Statistical Association}
+      \field{month}{9}
+      \field{number}{247}
+      \field{title}{The Monte Carlo Method}
+      \field{volume}{44}
+      \field{year}{1949}
+      \field{pages}{335\bibrangedash 341}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.2307/2280232
+      \endverb
+    \endentry
     \entry{Neyman_1937}{article}{}
       \name{author}{1}{}{%
         {{hash=2bb11e5586326328fbc96d17f330491c}{%
@@ -220,8 +258,8 @@
       \strng{authorbibnamehash}{2bb11e5586326328fbc96d17f330491c}
       \strng{authornamehash}{2bb11e5586326328fbc96d17f330491c}
       \strng{authorfullhash}{2bb11e5586326328fbc96d17f330491c}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences}
@@ -235,6 +273,58 @@
       \verb{doi}
       \verb 10.1098/rsta.1937.0005
       \endverb
+    \endentry
+    \entry{Gelman_2013}{book}{}
+      \name{author}{6}{}{%
+        {{hash=1e1eb60e3b6e222217bf8e9b24070b28}{%
+           family={Gelman},
+           familyi={G\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=40c60e4e0832fcac64a68a5249bfc022}{%
+           family={Carlin},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=1d67b4656f9551333d9785747b11cf8b}{%
+           family={Stern},
+           familyi={S\bibinitperiod},
+           given={Hal\bibnamedelima S.},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=d0372712969a665b40376f6322d14e39}{%
+           family={Dunson},
+           familyi={D\bibinitperiod},
+           given={David\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=5d36e97683cbc9d6ef06fc2ec40becb0}{%
+           family={Vehtari},
+           familyi={V\bibinitperiod},
+           given={Aki},
+           giveni={A\bibinitperiod}}}%
+        {{hash=37fe180f849ae0085cba2b45692be375}{%
+           family={Rubin},
+           familyi={R\bibinitperiod},
+           given={Donald\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Chapman}%
+        {Hall}%
+      }
+      \strng{namehash}{30275dd83a96ab5c4858f45e3779b4ad}
+      \strng{fullhash}{e96daf37aee1988c0e89a660219adf57}
+      \strng{bibnamehash}{e96daf37aee1988c0e89a660219adf57}
+      \strng{authorbibnamehash}{e96daf37aee1988c0e89a660219adf57}
+      \strng{authornamehash}{30275dd83a96ab5c4858f45e3779b4ad}
+      \strng{authorfullhash}{e96daf37aee1988c0e89a660219adf57}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3rd ed.}
+      \field{pagetotal}{675}
+      \field{title}{Bayesian Data Analysis}
+      \field{year}{2013}
     \endentry
     \entry{White_2016}{article}{}
       \name{author}{1}{}{%
@@ -253,8 +343,8 @@
       \strng{authorbibnamehash}{09ab89fbe0d8caeca2f9c775956a9f92}
       \strng{authornamehash}{09ab89fbe0d8caeca2f9c775956a9f92}
       \strng{authorfullhash}{09ab89fbe0d8caeca2f9c775956a9f92}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Metrologia}
@@ -296,8 +386,8 @@
       \strng{authorbibnamehash}{b547873b0738ed1bda922d6d8c415807}
       \strng{authornamehash}{b547873b0738ed1bda922d6d8c415807}
       \strng{authorfullhash}{b547873b0738ed1bda922d6d8c415807}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Metrologia}
@@ -310,39 +400,6 @@
       \range{pages}{-1}
       \verb{doi}
       \verb 10.1088/0026-1394/43/4/s02
-      \endverb
-    \endentry
-    \entry{Kacker_2005}{article}{}
-      \name{author}{1}{}{%
-        {{hash=4c667114d6adf65853302ddb2e91975e}{%
-           family={Kacker},
-           familyi={K\bibinitperiod},
-           given={Raghu\bibnamedelima N},
-           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {{IOP} Publishing}%
-      }
-      \strng{namehash}{4c667114d6adf65853302ddb2e91975e}
-      \strng{fullhash}{4c667114d6adf65853302ddb2e91975e}
-      \strng{bibnamehash}{4c667114d6adf65853302ddb2e91975e}
-      \strng{authorbibnamehash}{4c667114d6adf65853302ddb2e91975e}
-      \strng{authornamehash}{4c667114d6adf65853302ddb2e91975e}
-      \strng{authorfullhash}{4c667114d6adf65853302ddb2e91975e}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Metrologia}
-      \field{month}{11}
-      \field{number}{1}
-      \field{title}{Bayesian alternative to the {ISO}-{GUM}{'}s use of the Welch{–}Satterthwaite formula}
-      \field{volume}{43}
-      \field{year}{2005}
-      \field{pages}{1\bibrangedash 11}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1088/0026-1394/43/1/001
       \endverb
     \endentry
     \entry{Kacker_2003}{article}{}
@@ -367,8 +424,8 @@
       \strng{authorbibnamehash}{286d31450eaa2533e4ba5fb7ca8eb17f}
       \strng{authornamehash}{286d31450eaa2533e4ba5fb7ca8eb17f}
       \strng{authorfullhash}{286d31450eaa2533e4ba5fb7ca8eb17f}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Metrologia}
@@ -400,8 +457,8 @@
       \strng{authorbibnamehash}{eb5c1fc4680b5068ff8cd784d879d5bb}
       \strng{authornamehash}{eb5c1fc4680b5068ff8cd784d879d5bb}
       \strng{authorfullhash}{eb5c1fc4680b5068ff8cd784d879d5bb}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Metrologia}
@@ -539,7 +596,46 @@
       \verb 10.1088/0026-1394/49/3/395
       \endverb
     \endentry
+    \entry{Cox_2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b4477e41c41f26665953037cc28a3efc}{%
+           family={Cox},
+           familyi={C\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=67fc67fa131b8e6b4333d144f306ff16}{%
+           family={Shirono},
+           familyi={S\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{d4e6c4e238c076dc65c139a7ec56d1a1}
+      \strng{fullhash}{d4e6c4e238c076dc65c139a7ec56d1a1}
+      \strng{bibnamehash}{d4e6c4e238c076dc65c139a7ec56d1a1}
+      \strng{authorbibnamehash}{d4e6c4e238c076dc65c139a7ec56d1a1}
+      \strng{authornamehash}{d4e6c4e238c076dc65c139a7ec56d1a1}
+      \strng{authorfullhash}{d4e6c4e238c076dc65c139a7ec56d1a1}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Metrologia}
+      \field{month}{8}
+      \field{number}{5}
+      \field{title}{Informative Bayesian Type A uncertainty evaluation, especially applicable to a small number of observations}
+      \field{volume}{54}
+      \field{year}{2017}
+      \field{pages}{642\bibrangedash 652}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1088/1681-7575/aa787f
+      \endverb
+    \endentry
   \enddatalist
+  \missing{Kacker_2005}
 \endrefsection
 \endinput
 
