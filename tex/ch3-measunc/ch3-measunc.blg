@@ -1,5 +1,19 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: ch3-measunc.aux
-I found no \citation commands---while reading file ch3-measunc.aux
-I found no \bibdata command---while reading file ch3-measunc.aux
-I found no \bibstyle command---while reading file ch3-measunc.aux
-(There were 3 error messages)
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'ch3-measunc.blg'
+[53] biber-MSWIN32:313> INFO - === 
+[92] Biber.pm:371> INFO - Reading 'ch3-measunc.bcf'
+[227] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[228] Biber.pm:857> INFO - Found 19 citekeys in bib section 1
+[228] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[263] Biber.pm:3976> INFO - Processing section 1
+[285] Biber.pm:4136> INFO - Looking for bibtex format file '../references.bib' for section 1
+[290] bibtex.pm:1500> INFO - LaTeX decoding ...
+[347] bibtex.pm:1316> INFO - Found BibTeX data source '../references.bib'
+[498] Utils.pm:193> WARN - I didn't find a database entry for 'Kacker_2005' (section 1)
+[524] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[524] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[524] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[524] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[549] bbl.pm:617> INFO - Writing 'ch3-measunc.bbl' with encoding 'UTF-8'
+[559] bbl.pm:720> INFO - Output to ch3-measunc.bbl
+[559] Biber.pm:110> INFO - WARNINGS: 1
