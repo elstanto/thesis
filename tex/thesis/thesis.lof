@@ -22,7 +22,15 @@
 \defcounter {refsection}{4}\relax 
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Egyptian royal cubit rod of Maya (treasurer of King Tutankhamun) 1336--1327 BC. The cubit is thought to be the earliest attested standard measure of length, first used in the 3rd or 4th Millennium BC.}}{20}
 \defcounter {refsection}{4}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces The pyramid shows the number of instances in each tier. Secondary standards are held at NMIs and used to periodically calibrate working standards, which are sent by manufacturers and laboratories. User measurements are made using instruments calibrated with these working standards, so they number the greatest and are at the bottom of the traceability chain.}}{21}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The traceability chain, where the pyramid shows the number of instances of standards in each tier. Secondary standards are held at NMIs and used to periodically calibrate working standards, which are sent by manufacturers and laboratories. User measurements are made using instruments calibrated with these working standards, so they number the greatest and are at the bottom of the traceability chain.}}{21}
+\defcounter {refsection}{4}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Scaling factor to convert from a GUM standard uncertainty to a GUM Supplement.}}{28}
+\defcounter {refsection}{4}\relax 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces The minimum number of observations, $n$, required to calculate the standard uncertainty of a full set of S-parameters for a microwave device with m ports using the GUM-S2 approach. The number of input quantities, $N$, for each device is also shown. Because $n$ is minimized, $n = N + 3$.}}{32}
+\defcounter {refsection}{4}\relax 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces An illustration of the propagation of distributions from three input quantities $g_{X1}$, $g_{X2}$, $g_{X3}$, through the measurement model, $Y$, to the measurand, $g_{Y}$ \cite {GUM_S1}.}}{35}
+\defcounter {refsection}{4}\relax 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces An example of results from a sensitivity analysis which reveal the origins of the complicated behaviour of the combined standard uncertainty with respect to a variable (in this case frequency).}}{40}
 \defcounter {refsection}{5}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{6}\relax 
