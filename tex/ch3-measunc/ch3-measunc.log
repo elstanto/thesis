@@ -1,11 +1,20 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.7.5)  7 JAN 2019 13:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.7.5)  13 JUL 2019 18:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**thesis.tex
-(./thesis.tex
+**ch3-measunc.tex
+(./ch3-measunc.tex
 LaTeX2e <2018-04-01> patch level 5
-(c:/texlive/2018/texmf-dist/tex/latex/base/book.cls
+(c:/texlive/2018/texmf-dist/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2012/05/23 Federico Garcia
+(c:/texlive/2018/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks14
+\verbatim@line=\toks15
+\verbatim@in@stream=\read1
+)
+Preamble taken from file `../thesis/thesis.tex'
+(../thesis/thesis.tex (c:/texlive/2018/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
 (c:/texlive/2018/texmf-dist/tex/latex/base/bk10.clo
 File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
@@ -30,13 +39,7 @@ LaTeX Warning: You have requested package `../preamble',
 Package: preamble 
 (c:/texlive/2018/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2012/05/23 Federico Garcia
-
-(c:/texlive/2018/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks14
-\verbatim@line=\toks15
-\verbatim@in@stream=\read1
-))
+)
 (c:/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2018/03/04 v3.11 programmable bibliographies (PK/MW)
 
@@ -802,10 +805,30 @@ Package: xparse 2018-05-12 L3 Experimental document command parser
 . 
 . Defining command \xshowbibdriver with sig. 'm' on line 193.
 .................................................
+)
+(c:/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen159
+\lightrulewidth=\dimen160
+\cmidrulewidth=\dimen161
+\belowrulesep=\dimen162
+\belowbottomsep=\dimen163
+\aboverulesep=\dimen164
+\abovetopsep=\dimen165
+\cmidrulesep=\dimen166
+\cmidrulekern=\dimen167
+\defaultaddspace=\dimen168
+\@cmidla=\count384
+\@cmidlb=\count385
+\@aboverulesep=\dimen169
+\@belowrulesep=\dimen170
+\@thisruleclass=\count386
+\@lastruleclass=\count387
+\@thisrulewidth=\dimen171
 ))
 (c:/texlive/2018/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count384
+\c@lips@count=\count388
 )
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -813,61 +836,47 @@ Package biblatex Info: ... file 'english.lbx' found.
 (c:/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 )
-\@quotelevel=\count385
-\@quotereset=\count386
- (./thesis.aux)
-\openout1 = `thesis.aux'.
+\@quotelevel=\count389
+\@quotereset=\count390
+))
+(./ch3-measunc.aux)
+\openout1 = `ch3-measunc.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `thesis.bcf'.
+\openout4 = `ch3-measunc.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'thesis.bbl' found.
+Package biblatex Info: ... file 'ch3-measunc.bbl' found.
+ (./ch3-measunc.bbl)
+Package biblatex Info: Reference section=0 on input line 5.
+Package biblatex Info: Reference segment=0 on input line 5.
 
-(./thesis.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 3):
-(biblatex)                Hall2013
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 3):
-(biblatex)                Root2013
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
-Package biblatex Info: Reference section=0 on input line 6.
-Package biblatex Info: Reference segment=0 on input line 6.
- (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count387
-\scratchdimen=\dimen159
+\scratchcounter=\count391
+\scratchdimen=\dimen172
 \scratchbox=\box44
-\nofMPsegments=\count388
-\nofMParguments=\count389
+\nofMPsegments=\count392
+\nofMParguments=\count393
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count390
-\MPscratchDim=\dimen160
-\MPnumerator=\count391
-\makeMPintoPDFobject=\count392
+\MPscratchCnt=\count394
+\MPscratchDim=\dimen173
+\MPnumerator=\count395
+\makeMPintoPDFobject=\count396
 \everyMPtoPDFconversion=\toks25
 ) (c:/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -923,298 +932,124 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(../cover/cover.tex
-<../figs/cover/University_of_Surrey_coat_of_arms.pdf, id=1, 128.48pt x 162.6075
-pt>
-File: ../figs/cover/University_of_Surrey_coat_of_arms.pdf Graphic file (type pd
-f)
-<use ../figs/cover/University_of_Surrey_coat_of_arms.pdf>
-Package pdftex.def Info: ../figs/cover/University_of_Surrey_coat_of_arms.pdf  u
-sed on input line 20.
-(pdftex.def)             Requested size: 125.47737pt x 158.81088pt.
- [1
-
-
-{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../figs/cover/U
-niversity_of_Surrey_coat_of_arms.pdf>])
-(../front-matter/front-matter.tex [1
-
-
-
-] [2
-
-] [3
-
-]
-\blx@maxsegment@1=\count393
-\blx@sectionciteorder@1=\count394
-Package biblatex Info: Reference section=1 on input line 33.
-Package biblatex Info: Setting label 'refsection:1' on input line 33.
-
-Overfull \hbox (25.47263pt too wide) in paragraph at lines 36--36
-[]\OT1/cmr/m/n/10 ||, ``Eval-u-at-ing resid-ual er-rors in waveg-uide net-work 
-anal-y-sers from mi-crowave to submillimetre-
- []
-
-Package biblatex Info: Reference section=0 on input line 37.
-[4
-
-] [5
-
-] (./thesis.toc [6
-
-] [7])
-\tf@toc=\write5
-\openout5 = `thesis.toc'.
-
- [8] (./thesis.lof
-\blx@sectionciteorder@3=\count395
-)
-\tf@lof=\write6
-\openout6 = `thesis.lof'.
-
- [9
-
-] [10] (./thesis.lot)
-\tf@lot=\write7
-\openout7 = `thesis.lot'.
-
-)
-[11
-
-] [1
-
-] (../ch1-introduction/ch1-introduction.tex
-\blx@maxsegment@2=\count396
-\blx@sectionciteorder@2=\count397
-Package biblatex Info: Reference section=2 on input line 3.
-Package biblatex Info: Setting label 'refsection:2' on input line 3.
- [2]
-Chapter 1.
-[3
-
-]
-Package biblatex Info: Reference section=0 on input line 12.
-) (../ch2-rfmwmeas/ch2-rfmwmeas.tex
-\blx@maxsegment@3=\count398
-\blx@sectionciteorder@3=\count399
-Package biblatex Info: Reference section=3 on input line 6.
-Package biblatex Info: Setting label 'refsection:3' on input line 6.
- [4
-
-]
-Chapter 2.
-[5
-
-]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 22.54448pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[6] [7]
-<../figs/ch2-rfmwmeas/ch2_filter.png, id=317, 597.6729pt x 421.3341pt>
-File: ../figs/ch2-rfmwmeas/ch2_filter.png Graphic file (type png)
-<use ../figs/ch2-rfmwmeas/ch2_filter.png>
-Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_filter.png  used on input lin
-e 71.
-(pdftex.def)             Requested size: 334.60422pt x 235.88762pt.
-<../figs/ch2-rfmwmeas/ch2_s2p.png, id=319, 581.92406pt x 94.85437pt>
-File: ../figs/ch2-rfmwmeas/ch2_s2p.png Graphic file (type png)
-<use ../figs/ch2-rfmwmeas/ch2_s2p.png>
-Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_s2p.png  used on input line 7
-8.
-(pdftex.def)             Requested size: 418.25368pt x 68.17639pt.
- [8 <../figs/ch2-rfmwmeas/ch2_filter.png>] [9 <../figs/ch2-rfmwmeas/ch2_s2p.PNG
->]
-<../figs/ch2-rfmwmeas/ch2_comp.png, id=328, 356.0803pt x 331.99031pt>
-File: ../figs/ch2-rfmwmeas/ch2_comp.png Graphic file (type png)
-<use ../figs/ch2-rfmwmeas/ch2_comp.png>
-Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_comp.png  used on input line 
-136.
-(pdftex.def)             Requested size: 167.2989pt x 155.97974pt.
- [10]
-<../figs/ch2-rfmwmeas/ch2_im3.png, id=332, 597.23125pt x 294.09875pt>
-File: ../figs/ch2-rfmwmeas/ch2_im3.png Graphic file (type png)
-<use ../figs/ch2-rfmwmeas/ch2_im3.png>
-Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_im3.png  used on input line 1
-54.
-(pdftex.def)             Requested size: 334.60422pt x 164.77046pt.
- [11 <../figs/ch2-rfmwmeas/ch2_comp.png (PNG copy)>] [12 <../figs/ch2-rfmwmeas/
-ch2_im3.png>]
-<../figs/ch2-rfmwmeas/ch2_refl.png, id=340, 1063.72406pt x 274.02374pt>
-File: ../figs/ch2-rfmwmeas/ch2_refl.png Graphic file (type png)
-<use ../figs/ch2-rfmwmeas/ch2_refl.png>
-Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_refl.png  used on input line 
-173.
-(pdftex.def)             Requested size: 334.60422pt x 86.19667pt.
- [13 <../figs/ch2-rfmwmeas/ch2_refl.png>]
-<../figs/ch2-rfmwmeas/ch2_vna.png, id=346, 205.2468pt x 125.7498pt>
-File: ../figs/ch2-rfmwmeas/ch2_vna.png Graphic file (type png)
-<use ../figs/ch2-rfmwmeas/ch2_vna.png>
-Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_vna.png  used on input line 1
-84.
-(pdftex.def)             Requested size: 334.60422pt x 205.02983pt.
- [14]
-[15 <../figs/ch2-rfmwmeas/ch2_vna.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 203.
-
-
-(c:/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 203.
- [16]
-<../figs/ch2-rfmwmeas/ch2_8term.png, id=357, 615.4995pt x 148.8762pt>
-File: ../figs/ch2-rfmwmeas/ch2_8term.png Graphic file (type png)
-<use ../figs/ch2-rfmwmeas/ch2_8term.png>
-Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_8term.png  used on input line
- 214.
-(pdftex.def)             Requested size: 418.25368pt x 101.17087pt.
- [17 <../figs/ch2-rfmwmeas/ch2_8term.png>]
-Package biblatex Info: Reference section=0 on input line 229.
-) (../ch3-measunc/ch3-measunc.tex
-\blx@maxsegment@4=\count400
-\blx@sectionciteorder@4=\count401
-Package biblatex Info: Reference section=4 on input line 9.
-Package biblatex Info: Setting label 'refsection:4' on input line 9.
- [18
-
-]
+\blx@maxsegment@1=\count397
+\blx@sectionciteorder@1=\count398
+Package biblatex Info: Reference section=1 on input line 9.
+Package biblatex Info: Setting label 'refsection:1' on input line 9.
 Chapter 3.
-[19
+[1
 
-]
-<../figs/ch3-measunc/cubit.jpg, id=369, 781.92125pt x 173.64874pt>
+
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<../figs/ch3-measunc/cubit.jpg, id=8, 781.92125pt x 173.64874pt>
 File: ../figs/ch3-measunc/cubit.jpg Graphic file (type jpg)
 <use ../figs/ch3-measunc/cubit.jpg>
 Package pdftex.def Info: ../figs/ch3-measunc/cubit.jpg  used on input line 21.
 (pdftex.def)             Requested size: 418.25368pt x 92.88658pt.
-<../figs/ch3-measunc/traceability.png, id=370, 254.3904pt x 160.9212pt>
+<../figs/ch3-measunc/traceability.png, id=9, 254.3904pt x 160.9212pt>
 File: ../figs/ch3-measunc/traceability.png Graphic file (type png)
 <use ../figs/ch3-measunc/traceability.png>
 Package pdftex.def Info: ../figs/ch3-measunc/traceability.png  used on input li
 ne 30.
 (pdftex.def)             Requested size: 254.38977pt x 160.9208pt.
- [20 <../figs/ch3-measunc/cubit.jpg>] [21 <../figs/ch3-measunc/traceability.png
->] [22] [23] [24] [25]
-Package biblatex Info: Reference section=0 on input line 84.
-) (../ch4-vnaunc/ch4-vnaunc.tex
-\blx@maxsegment@5=\count402
-\blx@sectionciteorder@5=\count403
-Package biblatex Info: Reference section=5 on input line 3.
-Package biblatex Info: Setting label 'refsection:5' on input line 3.
- [26
+ [2 <../figs/ch3-measunc/cubit.jpg>] [3 <../figs/ch3-measunc/traceability.png>]
+ [4] [5]
+[6] [7] [8]
+<../figs/ch3-measunc/model.png, id=43, 1095.3422pt x 372.64218pt>
+File: ../figs/ch3-measunc/model.png Graphic file (type png)
+<use ../figs/ch3-measunc/model.png>
+Package pdftex.def Info: ../figs/ch3-measunc/model.png  used on input line 117.
 
-]
-Chapter 4.
+(pdftex.def)             Requested size: 271.86234pt x 92.48935pt.
+ [9 <../figs/ch3-measunc/model.PNG>]
+<../figs/ch3-measunc/scaling_factor.jpg, id=48, 241.81541pt x 167.81094pt>
+File: ../figs/ch3-measunc/scaling_factor.jpg Graphic file (type jpg)
+<use ../figs/ch3-measunc/scaling_factor.jpg>
+Package pdftex.def Info: ../figs/ch3-measunc/scaling_factor.jpg  used on input 
+line 142.
+(pdftex.def)             Requested size: 271.86234pt x 188.66393pt.
+ [10] [11 <../figs/ch3-measunc/scaling_factor.jpg>]
 
-Overfull \hbox (0.33437pt too wide) in paragraph at lines 4--4
-|[]\OT1/cmr/bx/n/20.74 Evaluating Un-cer-tainty in Vec-tor Net-
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 175.
+
+[12]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 195.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 210.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
+[]\OT1/cmr/m/n/10 Required min-i-mum num-ber
  []
 
-[27
+[13]
+<../figs/ch3-measunc/gum_sparams.jpg, id=65, 223.60338pt x 157.25952pt>
+File: ../figs/ch3-measunc/gum_sparams.jpg Graphic file (type jpg)
+<use ../figs/ch3-measunc/gum_sparams.jpg>
+Package pdftex.def Info: ../figs/ch3-measunc/gum_sparams.jpg  used on input lin
+e 228.
+(pdftex.def)             Requested size: 271.86234pt x 191.20602pt.
+ [14] [15 <../figs/ch3-measunc/gum_sparams.jpg>] [16]
+<../figs/ch3-measunc/distributions.png, id=75, 1024.57782pt x 594.72188pt>
+File: ../figs/ch3-measunc/distributions.png Graphic file (type png)
+<use ../figs/ch3-measunc/distributions.png>
+Package pdftex.def Info: ../figs/ch3-measunc/distributions.png  used on input l
+ine 269.
+(pdftex.def)             Requested size: 271.86234pt x 157.80019pt.
+ [17] [18 <../figs/ch3-measunc/distributions.png>] [19] [20]
+<../figs/ch3-measunc/sensitivity.png, id=90, 484.05844pt x 406.51875pt>
+File: ../figs/ch3-measunc/sensitivity.png Graphic file (type png)
+<use ../figs/ch3-measunc/sensitivity.png>
+Package pdftex.def Info: ../figs/ch3-measunc/sensitivity.png  used on input lin
+e 359.
+(pdftex.def)             Requested size: 334.60422pt x 281.01927pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[21] [22 <../figs/ch3-measunc/sensitivity.png>] [23] [24
 
 ]
-Overfull \vbox (338.27222pt too high) has occurred while \output is active []
-
-
-[28]
-Package biblatex Info: Reference section=0 on input line 31.
-) (../ch5-nlbmunc/ch5-nlbmunc.tex
-\blx@maxsegment@6=\count404
-\blx@sectionciteorder@6=\count405
-Package biblatex Info: Reference section=6 on input line 3.
-Package biblatex Info: Setting label 'refsection:6' on input line 3.
- [29
-
-]
-Chapter 5.
-
-Overfull \hbox (11.7462pt too wide) in paragraph at lines 4--4
-|[]\OT1/cmr/bx/n/20.74 Propagating Mea-sure-ment Un-cer-tainty
- []
-
-[30
-
-]
-Package biblatex Info: Reference section=0 on input line 15.
-) (../ch6-applications/ch6-applications.tex
-\blx@maxsegment@7=\count406
-\blx@sectionciteorder@7=\count407
-Package biblatex Info: Reference section=7 on input line 3.
-Package biblatex Info: Setting label 'refsection:7' on input line 3.
- [31
-
-]
-Chapter 6.
-
-Overfull \hbox (1.35217pt too wide) in paragraph at lines 4--4
-|[]\OT1/cmr/bx/n/20.74 Applications of Non-lin-ear Be-havioural
- []
-
-
-Overfull \hbox (22.87001pt too wide) in paragraph at lines 4--4
-\OT1/cmr/bx/n/20.74 Mod-els In-cor-po-rat-ing Mea-sure-ment Un-
- []
-
-[32
-
-]
-Overfull \hbox (14.79579pt too wide) in paragraph at lines 7--7
-|[]\OT1/cmr/bx/n/14.4 Prediction of Op-ti-mum Load Match and De-liv-ered Power
- []
-
-[33] [34]
-Package biblatex Info: Reference section=0 on input line 12.
-) (../ch7-conclusions/ch7-conclusions.tex
-\blx@maxsegment@8=\count408
-\blx@sectionciteorder@8=\count409
-Package biblatex Info: Reference section=8 on input line 3.
-Package biblatex Info: Setting label 'refsection:8' on input line 3.
- [35
-
-]
-Chapter 7.
-[36
-
-]
-Package biblatex Info: Reference section=0 on input line 9.
-) [37
-
-] (./thesis.aux)
-Package logreq Info: Writing requests to 'thesis.run.xml'.
-\openout1 = `thesis.run.xml'.
+Package biblatex Info: Reference section=0 on input line 376.
+ [25]
+(./ch3-measunc.aux)
+Package logreq Info: Writing requests to 'ch3-measunc.run.xml'.
+\openout1 = `ch3-measunc.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19448 strings out of 492646
- 356722 string characters out of 6133326
- 844357 words of memory out of 5000000
- 23134 multiletter control sequences out of 15000+600000
- 537881 words of font info for 43 fonts, out of 8000000 for 9000
+ 19365 strings out of 492646
+ 353973 string characters out of 6133326
+ 846171 words of memory out of 5000000
+ 23080 multiletter control sequences out of 15000+600000
+ 542356 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,11n,65p,2391b,1356s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,16n,67p,2390b,1313s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2018
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2018/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2018/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmib10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/
-2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmti10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmtt10.pfb>
-Output written on thesis.pdf (49 pages, 728715 bytes).
+nts/cm/cmmib10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cmex
+tra/cmmib7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
+.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2018/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2018/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2018/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmti10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10
+.pfb>
+Output written on ch3-measunc.pdf (25 pages, 632423 bytes).
 PDF statistics:
- 480 PDF objects out of 1000 (max. 8388607)
- 351 compressed objects within 4 object streams
+ 166 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

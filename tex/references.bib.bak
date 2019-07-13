@@ -354,6 +354,20 @@
   publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
 }
 
+@Article{Kacker_2005,
+  author    = {Raghu N Kacker},
+  title     = {Bayesian alternative to the {ISO}-{GUM}{\textquotesingle}s use of the {W}elch{\textendash}{S}atterthwaite formula},
+  journal   = {Metrologia},
+  year      = {2005},
+  volume    = {43},
+  number    = {1},
+  pages     = {1--11},
+  month     = nov,
+  doi       = {10.1088/0026-1394/43/1/001},
+  groups    = {Ch 3: Measurement Uncertainty},
+  publisher = {{IOP} Publishing},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:

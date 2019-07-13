@@ -354,28 +354,17 @@
   publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
 }
 
-@InProceedings{Ridler2000,
-  author    = {Nick M. Ridler and Martin J. Salter},
-  title     = {Evaluating and expressing uncertainty in complex S-parameter measurements},
-  booktitle = {56th {ARFTG} Conference Digest},
-  year      = {2000},
-  month     = {nov},
-  publisher = {{IEEE}},
-  doi       = {10.1109/arftg.2000.327429},
-  groups    = {Ch 4: VNA Uncertainty},
-}
-
-@Article{RidlerN2002,
-  author    = {Ridler N M and M J Salter},
-  title     = {An approach to the treatment of uncertainty in complex S-parameter measurements},
+@Article{Kacker_2005,
+  author    = {Raghu N Kacker},
+  title     = {Bayesian alternative to the {ISO}-{GUM}{\textquotesingle}s use of the Welch{\textendash}Satterthwaite formula},
   journal   = {Metrologia},
-  year      = {2002},
-  volume    = {39},
-  number    = {3},
-  pages     = {295--302},
-  month     = {jun},
-  doi       = {10.1088/0026-1394/39/3/6},
-  groups    = {Ch 4: VNA Uncertainty},
+  year      = {2005},
+  volume    = {43},
+  number    = {1},
+  pages     = {1--11},
+  month     = nov,
+  doi       = {10.1088/0026-1394/43/1/001},
+  groups    = {Ch 3: Measurement Uncertainty},
   publisher = {{IOP} Publishing},
 }
 

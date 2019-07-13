@@ -258,8 +258,8 @@
       \strng{authorbibnamehash}{2bb11e5586326328fbc96d17f330491c}
       \strng{authornamehash}{2bb11e5586326328fbc96d17f330491c}
       \strng{authorfullhash}{2bb11e5586326328fbc96d17f330491c}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences}
@@ -317,8 +317,8 @@
       \strng{authorbibnamehash}{e96daf37aee1988c0e89a660219adf57}
       \strng{authornamehash}{30275dd83a96ab5c4858f45e3779b4ad}
       \strng{authorfullhash}{e96daf37aee1988c0e89a660219adf57}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{3rd ed.}
@@ -393,13 +393,46 @@
       \field{journaltitle}{Metrologia}
       \field{month}{8}
       \field{number}{4}
-      \field{title}{Comparison of {ISO}-{GUM}, draft {GUM} Supplement 1 and Bayesian statistics using simple linear calibration}
+      \field{title}{Comparison of {ISO}-{GUM}, draft {GUM} Supplement 1 and {B}ayesian statistics using simple linear calibration}
       \field{volume}{43}
       \field{year}{2006}
       \field{pages}{S167\bibrangedash S177}
       \range{pages}{-1}
       \verb{doi}
       \verb 10.1088/0026-1394/43/4/s02
+      \endverb
+    \endentry
+    \entry{Kacker_2005}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4c667114d6adf65853302ddb2e91975e}{%
+           family={Kacker},
+           familyi={K\bibinitperiod},
+           given={Raghu\bibnamedelima N},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{4c667114d6adf65853302ddb2e91975e}
+      \strng{fullhash}{4c667114d6adf65853302ddb2e91975e}
+      \strng{bibnamehash}{4c667114d6adf65853302ddb2e91975e}
+      \strng{authorbibnamehash}{4c667114d6adf65853302ddb2e91975e}
+      \strng{authornamehash}{4c667114d6adf65853302ddb2e91975e}
+      \strng{authorfullhash}{4c667114d6adf65853302ddb2e91975e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Metrologia}
+      \field{month}{11}
+      \field{number}{1}
+      \field{title}{Bayesian alternative to the {ISO}-{GUM}{'}s use of the {W}elch{–}{S}atterthwaite formula}
+      \field{volume}{43}
+      \field{year}{2005}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1088/0026-1394/43/1/001
       \endverb
     \endentry
     \entry{Kacker_2003}{article}{}
@@ -431,7 +464,7 @@
       \field{journaltitle}{Metrologia}
       \field{month}{9}
       \field{number}{5}
-      \field{title}{On use of Bayesian statistics to make the Guide to the Expression of Uncertainty in Measurement consistent}
+      \field{title}{On use of {B}ayesian statistics to make the Guide to the Expression of Uncertainty in Measurement consistent}
       \field{volume}{40}
       \field{year}{2003}
       \field{pages}{235\bibrangedash 248}
@@ -549,7 +582,7 @@
       \field{journaltitle}{Metrologia}
       \field{month}{5}
       \field{number}{3}
-      \field{title}{Draft {GUM} Supplement 1 and Bayesian analysis}
+      \field{title}{Draft {GUM} Supplement 1 and {B}ayesian analysis}
       \field{volume}{44}
       \field{year}{2007}
       \field{pages}{L31\bibrangedash L32}
@@ -587,7 +620,7 @@
       \field{journaltitle}{Metrologia}
       \field{month}{4}
       \field{number}{3}
-      \field{title}{The multivariate normal mean – sensitivity of its objective Bayesian estimates}
+      \field{title}{The multivariate normal mean – sensitivity of its objective {B}ayesian estimates}
       \field{volume}{49}
       \field{year}{2012}
       \field{pages}{395\bibrangedash 400}
@@ -618,14 +651,14 @@
       \strng{authorbibnamehash}{d4e6c4e238c076dc65c139a7ec56d1a1}
       \strng{authornamehash}{d4e6c4e238c076dc65c139a7ec56d1a1}
       \strng{authorfullhash}{d4e6c4e238c076dc65c139a7ec56d1a1}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Metrologia}
       \field{month}{8}
       \field{number}{5}
-      \field{title}{Informative Bayesian Type A uncertainty evaluation, especially applicable to a small number of observations}
+      \field{title}{Informative {B}ayesian Type A uncertainty evaluation, especially applicable to a small number of observations}
       \field{volume}{54}
       \field{year}{2017}
       \field{pages}{642\bibrangedash 652}
@@ -635,7 +668,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{Kacker_2005}
 \endrefsection
 \endinput
 
