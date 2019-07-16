@@ -163,7 +163,7 @@
 
 @Article{Kacker_2003,
   author    = {R Kacker and A Jones},
-  title     = {On use of Bayesian statistics to make the Guide to the Expression of Uncertainty in Measurement consistent},
+  title     = {On use of {B}ayesian statistics to make the Guide to the Expression of Uncertainty in Measurement consistent},
   journal   = {Metrologia},
   year      = {2003},
   volume    = {40},
@@ -177,7 +177,7 @@
 
 @Article{Elster_2007,
   author    = {Clemens Elster and Wolfgang Wöger and Maurice G Cox},
-  title     = {Draft {GUM} Supplement 1 and Bayesian analysis},
+  title     = {Draft {GUM} Supplement 1 and {B}ayesian analysis},
   journal   = {Metrologia},
   year      = {2007},
   volume    = {44},
@@ -191,7 +191,7 @@
 
 @Article{Cox_2017,
   author    = {M Cox and K Shirono},
-  title     = {Informative Bayesian Type A uncertainty evaluation, especially applicable to a small number of observations},
+  title     = {Informative {B}ayesian Type A uncertainty evaluation, especially applicable to a small number of observations},
   journal   = {Metrologia},
   year      = {2017},
   volume    = {54},
@@ -205,7 +205,7 @@
 
 @Article{Kacker_2006,
   author    = {Raghu Kacker and Blaza Toman and Ding Huang},
-  title     = {Comparison of {ISO}-{GUM}, draft {GUM} Supplement 1 and Bayesian statistics using simple linear calibration},
+  title     = {Comparison of {ISO}-{GUM}, draft {GUM} Supplement 1 and {B}ayesian statistics using simple linear calibration},
   journal   = {Metrologia},
   year      = {2006},
   volume    = {43},
@@ -233,7 +233,7 @@
 
 @Article{Klauenberg_2012,
   author    = {Katy Klauenberg and Clemens Elster},
-  title     = {The multivariate normal mean – sensitivity of its objective Bayesian estimates},
+  title     = {The multivariate normal mean – sensitivity of its objective {B}ayesian estimates},
   journal   = {Metrologia},
   year      = {2012},
   volume    = {49},
@@ -366,6 +366,31 @@
   doi       = {10.1088/0026-1394/43/1/001},
   groups    = {Ch 3: Measurement Uncertainty},
   publisher = {{IOP} Publishing},
+}
+
+@Online{KeysightUncTool,
+  url     = {https://www.keysight.com/main/software.jspx?ckey=1000000418:epsg:sud&cc=GB},
+  urldate = {2019-07-16},
+  title   = {Downloadable Vector Network Analyzer Uncertainty Calculator},
+  author  = {{Keysight Technologies}},
+  groups  = {Ch 4: VNA Uncertainty},
+}
+
+@Book{Hiebel2008,
+  title     = {Fundamentals of Vector Network Analysis},
+  publisher = {Rohde \& Schwarz},
+  year      = {2008},
+  author    = {Michael Hiebel},
+  isbn      = {9783939837060},
+  groups    = {Ch 4: VNA Uncertainty},
+}
+
+@Online{AnritsuUncTool,
+  url     = {https://www.anritsu.com/en-GB/test-measurement/support/downloads/software/dwl19572},
+  urldate = {2019-07-16},
+  title   = {Exact Uncertainty Calculator},
+  author  = {{Anritsu}},
+  groups  = {Ch 4: VNA Uncertainty},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
