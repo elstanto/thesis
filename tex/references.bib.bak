@@ -20,6 +20,7 @@
   year      = {2016},
   publisher = {Institution of Engineering and Technology ({IET})},
   doi       = {10.1049/ic.2016.0016},
+  groups    = {Ch 4: VNA Uncertainty},
 }
 
 @Article{Stant_2017,
@@ -32,6 +33,7 @@
   pages     = {324--329},
   month     = feb,
   doi       = {10.1049/iet-map.2016.0455},
+  groups    = {Ch 4: VNA Uncertainty},
   publisher = {Institution of Engineering and Technology ({IET})},
 }
 
@@ -256,7 +258,7 @@
   pagetotal = {675},
 }
 
-@Article{Barmuta2016,
+@Article{Barmuta_2016,
   author    = {Pawel Barmuta and Diogo Ribeiro and Kuangda Wang and Gustavo Avolio and Mohammad Rajabi and Arkadiusz Lewandowski and Gian Piero Gibiino and Jaroslaw Szatkowski and Dominique Schreurs and Paul Hale and Kate Remley and Dylan Williams},
   title     = {Comparing {LSNA} Calibrations: Large-Signal Network Analyzer Round Robin},
   journal   = {{IEEE} Microwave Magazine},
@@ -270,7 +272,7 @@
   publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
 }
 
-@Article{Blockley2006,
+@Article{Blockley_2006,
   author    = {P.S. Blockley and J.B. Scott and D. Gunyan and A.E. Parker},
   title     = {Noise considerations when determining phase of large-signal microwave measurements},
   journal   = {{IEEE} Transactions on Microwave Theory and Techniques},
@@ -284,7 +286,7 @@
   publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
 }
 
-@InProceedings{Jargon2004,
+@InProceedings{Jargon_2004,
   author    = {Jeffrey Jargon and Jolene Splett and Dominic Vecchia and Donald DeGroot},
   title     = {Modeling Warm-Up Drift in Commercial Harmonic Phase Standards},
   booktitle = {2004 Conference on Precision Electromagnetic Measurements},
@@ -295,7 +297,7 @@
   groups    = {Ch 4: VNA Uncertainty},
 }
 
-@InProceedings{Jargona,
+@InProceedings{Jargon_2003,
   author    = {J.A. Jargon and D.C. DeGroot and D.F. Vecchia},
   title     = {Repeatability study of commercial harmonic phase standards measured by a nonlinear vector network analyzer},
   booktitle = {Conference, 2003. Fall 2003. 62nd {ARFTG} Microwave Measurements},
@@ -304,7 +306,7 @@
   groups    = {Ch 4: VNA Uncertainty},
 }
 
-@Article{Lin2012,
+@Article{Lin_2012,
   author    = {Maoliu Lin and Yichi Zhang},
   title     = {Covariance-Matrix-Based Uncertainty Analysis for {NVNA} Measurements},
   journal   = {{IEEE} Transactions on Instrumentation and Measurement},
@@ -318,7 +320,7 @@
   publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
 }
 
-@InProceedings{Wong2008,
+@InProceedings{Wong_2008,
   author    = {Ken Wong},
   title     = {Traceability of vector network analyzer measurements},
   booktitle = {2008 72nd {ARFTG} Microwave Measurement Symposium},
@@ -376,7 +378,7 @@
   groups  = {Ch 4: VNA Uncertainty},
 }
 
-@Book{Hiebel2008,
+@Book{Hiebel_2008,
   title     = {Fundamentals of Vector Network Analysis},
   publisher = {Rohde \& Schwarz},
   year      = {2008},
@@ -391,6 +393,112 @@
   title   = {Exact Uncertainty Calculator},
   author  = {{Anritsu}},
   groups  = {Ch 4: VNA Uncertainty},
+}
+
+@Standard{ISO9000,
+  title        = {ISO 9000: International Standards for Quality Management},
+  organization = {International Organization for Standardization},
+  author       = {{International Organization for Standardization}},
+  revision     = {4},
+  address      = {Genève, Switzerland},
+  year         = {2015},
+  url          = {https://www.iso.org},
+  groups       = {Ch 4: VNA Uncertainty},
+}
+
+@Standard{ISO17025,
+  title        = {ISO 17025: General Requirements for the Competence of Testing and Calibration Laboratories},
+  organization = {International Organization for Standardization},
+  author       = {{International Organization for Standardization}},
+  revision     = {2},
+  address      = {Genève, Switzerland},
+  year         = {2005},
+  url          = {https://www.iso.org},
+  groups       = {Ch 4: VNA Uncertainty},
+}
+
+@Book{SI_2019,
+  title   = {The International System of Units (SI)},
+  year    = {2019},
+  author  = {{International Bureau of Weights and Measures (BIPM)}},
+  edition = {8},
+  groups  = {Ch 4: VNA Uncertainty},
+  url     = {https://www.bipm.org},
+}
+
+@Book{SI_2019B,
+  title   = {A concise summary of the International System of Units, the SI},
+  year    = {2019},
+  author  = {{International Bureau of Weights and Measures (BIPM)}},
+  edition = {8},
+  groups  = {Ch 4: VNA Uncertainty},
+  url     = {https://www.bipm.org},
+}
+
+@TechReport{ANAMET_1996,
+  author      = {R N Clarke and J P Ide and G R Orford and N M Ridler},
+  title       = {Draft EAL Procedure for the Assessment of Vector Network Analysers (VNA), ANAMET Report 002},
+  institution = {National Physical Laboratory},
+  year        = {1996},
+  type        = {techreport},
+  number      = {002},
+  month       = sep,
+  note        = {Available from the National Physical Laboratory},
+  groups      = {Ch 4: VNA Uncertainty},
+}
+
+@TechReport{ANAMET_1998,
+  author      = {J P M de Vreede},
+  title       = {Draft procedure for the assessment of vector network analysers (VNA), ANAMET Report 019},
+  institution = {National Physical Laboratory},
+  year        = {1998},
+  type        = {techreport},
+  number      = {019},
+  month       = oct,
+  note        = {Available from the National Physical Laboratory},
+  groups      = {Ch 4: VNA Uncertainty},
+}
+
+@TechReport{ANAMET_1999,
+  author      = {J P M de Vreede},
+  title       = {Draft EA Guidance Document: Assessment of Calibrated Vector Network Analysers (VNA), ANAMET Report 026},
+  institution = {National Physical Laboratory},
+  year        = {1999},
+  type        = {techreport},
+  number      = {026},
+  month       = aug,
+  note        = {Available from the National Physical Laboratory},
+  groups      = {Ch 4: VNA Uncertainty},
+}
+
+@TechReport{EA_2000,
+  author = {{European co-operation for Accreditation}},
+  title  = {EA Guidelines on the Evaluation of Vector Network Analysers (VNA)},
+  year   = {2000},
+  type   = {techreport},
+  number = {EA-10/12},
+  month  = may,
+  groups = {Ch 4: VNA Uncertainty},
+}
+
+@TechReport{EURAMET_2011,
+  author = {{European Association of National Metrology Institutes (EURAMET)}},
+  title  = {Guidelines on the Evaluation of Vector Network Analysers (VNA), Version 2},
+  year   = {2011},
+  type   = {techreport},
+  number = {cg-12},
+  month  = mar,
+  groups = {Ch 4: VNA Uncertainty},
+}
+
+@InProceedings{Fitzpatrick_1984,
+  author       = {Fitzpatrick, Jim},
+  title        = {Survey of millimeter-wave network analyzers},
+  booktitle    = {23rd ARFTG Conference Digest},
+  year         = {1984},
+  volume       = {5},
+  pages        = {107--119},
+  organization = {IEEE},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
