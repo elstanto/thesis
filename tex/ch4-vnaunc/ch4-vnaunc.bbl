@@ -1,0 +1,668 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{none/global//global/global}
+    \entry{ISO9000}{standard}{}
+      \name{author}{1}{}{%
+        {{hash=c5f376e5f1d5a3451b37fef1431aad6a}{%
+           family={{International Organization for Standardization}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Gen\`{e}ve, Switzerland}%
+      }
+      \list{organization}{1}{%
+        {International Organization for Standardization}%
+      }
+      \strng{namehash}{c5f376e5f1d5a3451b37fef1431aad6a}
+      \strng{fullhash}{c5f376e5f1d5a3451b37fef1431aad6a}
+      \strng{bibnamehash}{c5f376e5f1d5a3451b37fef1431aad6a}
+      \strng{authorbibnamehash}{c5f376e5f1d5a3451b37fef1431aad6a}
+      \strng{authornamehash}{c5f376e5f1d5a3451b37fef1431aad6a}
+      \strng{authorfullhash}{c5f376e5f1d5a3451b37fef1431aad6a}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ISO 9000: International Standards for Quality Management}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://www.iso.org
+      \endverb
+      \verb{url}
+      \verb https://www.iso.org
+      \endverb
+    \endentry
+    \entry{ISO17025}{standard}{}
+      \name{author}{1}{}{%
+        {{hash=c5f376e5f1d5a3451b37fef1431aad6a}{%
+           family={{International Organization for Standardization}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Gen\`{e}ve, Switzerland}%
+      }
+      \list{organization}{1}{%
+        {International Organization for Standardization}%
+      }
+      \strng{namehash}{c5f376e5f1d5a3451b37fef1431aad6a}
+      \strng{fullhash}{c5f376e5f1d5a3451b37fef1431aad6a}
+      \strng{bibnamehash}{c5f376e5f1d5a3451b37fef1431aad6a}
+      \strng{authorbibnamehash}{c5f376e5f1d5a3451b37fef1431aad6a}
+      \strng{authornamehash}{c5f376e5f1d5a3451b37fef1431aad6a}
+      \strng{authorfullhash}{c5f376e5f1d5a3451b37fef1431aad6a}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ISO 17025: General Requirements for the Competence of Testing and Calibration Laboratories}
+      \field{year}{2005}
+      \verb{urlraw}
+      \verb https://www.iso.org
+      \endverb
+      \verb{url}
+      \verb https://www.iso.org
+      \endverb
+    \endentry
+    \entry{SI_2019}{book}{}
+      \name{author}{1}{}{%
+        {{hash=565014049be88bc30344ca7102985c2b}{%
+           family={{International Bureau of Weights and Measures (BIPM)}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{565014049be88bc30344ca7102985c2b}
+      \strng{fullhash}{565014049be88bc30344ca7102985c2b}
+      \strng{bibnamehash}{565014049be88bc30344ca7102985c2b}
+      \strng{authorbibnamehash}{565014049be88bc30344ca7102985c2b}
+      \strng{authornamehash}{565014049be88bc30344ca7102985c2b}
+      \strng{authorfullhash}{565014049be88bc30344ca7102985c2b}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{8}
+      \field{title}{The International System of Units (SI)}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.bipm.org
+      \endverb
+      \verb{url}
+      \verb https://www.bipm.org
+      \endverb
+    \endentry
+    \entry{SI_2019B}{book}{}
+      \name{author}{1}{}{%
+        {{hash=565014049be88bc30344ca7102985c2b}{%
+           family={{International Bureau of Weights and Measures (BIPM)}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{565014049be88bc30344ca7102985c2b}
+      \strng{fullhash}{565014049be88bc30344ca7102985c2b}
+      \strng{bibnamehash}{565014049be88bc30344ca7102985c2b}
+      \strng{authorbibnamehash}{565014049be88bc30344ca7102985c2b}
+      \strng{authornamehash}{565014049be88bc30344ca7102985c2b}
+      \strng{authorfullhash}{565014049be88bc30344ca7102985c2b}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{8}
+      \field{title}{A concise summary of the International System of Units, the SI}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.bipm.org
+      \endverb
+      \verb{url}
+      \verb https://www.bipm.org
+      \endverb
+    \endentry
+    \entry{ANAMET_1996}{report}{}
+      \name{author}{4}{}{%
+        {{hash=9302748608ebdb49ee2c3f4f9befd3ce}{%
+           family={Clarke},
+           familyi={C\bibinitperiod},
+           given={R\bibnamedelima N},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=041be8c06ff51ee91a12b18e12433bc8}{%
+           family={Ide},
+           familyi={I\bibinitperiod},
+           given={J\bibnamedelima P},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=6c50720c10b49fcf4b6a108a207cc78b}{%
+           family={Orford},
+           familyi={O\bibinitperiod},
+           given={G\bibnamedelima R},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=bb882a13af694d641723bb1919f7c115}{%
+           family={Ridler},
+           familyi={R\bibinitperiod},
+           given={N\bibnamedelima M},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {National Physical Laboratory}%
+      }
+      \strng{namehash}{95ff75b04c8a37c2807aa25212762650}
+      \strng{fullhash}{87ede777d9bfae627955937381af2932}
+      \strng{bibnamehash}{87ede777d9bfae627955937381af2932}
+      \strng{authorbibnamehash}{87ede777d9bfae627955937381af2932}
+      \strng{authornamehash}{95ff75b04c8a37c2807aa25212762650}
+      \strng{authorfullhash}{87ede777d9bfae627955937381af2932}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{note}{Available from the National Physical Laboratory}
+      \field{number}{002}
+      \field{title}{Draft EAL Procedure for the Assessment of Vector Network Analysers (VNA), ANAMET Report 002}
+      \field{type}{techreport}
+      \field{year}{1996}
+    \endentry
+    \entry{ANAMET_1998}{report}{}
+      \name{author}{1}{}{%
+        {{hash=13d934189c37b1804a93b29022b07a43}{%
+           family={Vreede},
+           familyi={V\bibinitperiod},
+           given={J\bibnamedelima P\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {National Physical Laboratory}%
+      }
+      \strng{namehash}{13d934189c37b1804a93b29022b07a43}
+      \strng{fullhash}{13d934189c37b1804a93b29022b07a43}
+      \strng{bibnamehash}{13d934189c37b1804a93b29022b07a43}
+      \strng{authorbibnamehash}{13d934189c37b1804a93b29022b07a43}
+      \strng{authornamehash}{13d934189c37b1804a93b29022b07a43}
+      \strng{authorfullhash}{13d934189c37b1804a93b29022b07a43}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{Available from the National Physical Laboratory}
+      \field{number}{019}
+      \field{title}{Draft procedure for the assessment of vector network analysers (VNA), ANAMET Report 019}
+      \field{type}{techreport}
+      \field{year}{1998}
+    \endentry
+    \entry{ANAMET_1999}{report}{}
+      \name{author}{1}{}{%
+        {{hash=13d934189c37b1804a93b29022b07a43}{%
+           family={Vreede},
+           familyi={V\bibinitperiod},
+           given={J\bibnamedelima P\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {National Physical Laboratory}%
+      }
+      \strng{namehash}{13d934189c37b1804a93b29022b07a43}
+      \strng{fullhash}{13d934189c37b1804a93b29022b07a43}
+      \strng{bibnamehash}{13d934189c37b1804a93b29022b07a43}
+      \strng{authorbibnamehash}{13d934189c37b1804a93b29022b07a43}
+      \strng{authornamehash}{13d934189c37b1804a93b29022b07a43}
+      \strng{authorfullhash}{13d934189c37b1804a93b29022b07a43}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{note}{Available from the National Physical Laboratory}
+      \field{number}{026}
+      \field{title}{Draft EA Guidance Document: Assessment of Calibrated Vector Network Analysers (VNA), ANAMET Report 026}
+      \field{type}{techreport}
+      \field{year}{1999}
+    \endentry
+    \entry{EA_2000}{report}{}
+      \name{author}{1}{}{%
+        {{hash=530a702a20fb3fe10fd8f61216779927}{%
+           family={{European co-operation for Accreditation}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{530a702a20fb3fe10fd8f61216779927}
+      \strng{fullhash}{530a702a20fb3fe10fd8f61216779927}
+      \strng{bibnamehash}{530a702a20fb3fe10fd8f61216779927}
+      \strng{authorbibnamehash}{530a702a20fb3fe10fd8f61216779927}
+      \strng{authornamehash}{530a702a20fb3fe10fd8f61216779927}
+      \strng{authorfullhash}{530a702a20fb3fe10fd8f61216779927}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{number}{EA-10/12}
+      \field{title}{EA Guidelines on the Evaluation of Vector Network Analysers (VNA)}
+      \field{type}{techreport}
+      \field{year}{2000}
+    \endentry
+    \entry{EURAMET_2011}{report}{}
+      \name{author}{1}{}{%
+        {{hash=5ebd29594b1e1e588cc824885092a3aa}{%
+           family={{European Association of National Metrology Institutes (EURAMET)}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ebd29594b1e1e588cc824885092a3aa}
+      \strng{fullhash}{5ebd29594b1e1e588cc824885092a3aa}
+      \strng{bibnamehash}{5ebd29594b1e1e588cc824885092a3aa}
+      \strng{authorbibnamehash}{5ebd29594b1e1e588cc824885092a3aa}
+      \strng{authornamehash}{5ebd29594b1e1e588cc824885092a3aa}
+      \strng{authorfullhash}{5ebd29594b1e1e588cc824885092a3aa}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{number}{cg-12}
+      \field{title}{Guidelines on the Evaluation of Vector Network Analysers (VNA), Version 2}
+      \field{type}{techreport}
+      \field{year}{2011}
+    \endentry
+    \entry{Hiebel_2008}{book}{}
+      \name{author}{1}{}{%
+        {{hash=10e1ba552b4e82a98a0aa68ac644466c}{%
+           family={Hiebel},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Rohde \& Schwarz}%
+      }
+      \strng{namehash}{10e1ba552b4e82a98a0aa68ac644466c}
+      \strng{fullhash}{10e1ba552b4e82a98a0aa68ac644466c}
+      \strng{bibnamehash}{10e1ba552b4e82a98a0aa68ac644466c}
+      \strng{authorbibnamehash}{10e1ba552b4e82a98a0aa68ac644466c}
+      \strng{authornamehash}{10e1ba552b4e82a98a0aa68ac644466c}
+      \strng{authorfullhash}{10e1ba552b4e82a98a0aa68ac644466c}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9783939837060}
+      \field{title}{Fundamentals of Vector Network Analysis}
+      \field{year}{2008}
+    \endentry
+    \entry{KeysightUncTool}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d160819e0d002da5823a82cbc4ba5c51}{%
+           family={{Keysight Technologies}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{d160819e0d002da5823a82cbc4ba5c51}
+      \strng{fullhash}{d160819e0d002da5823a82cbc4ba5c51}
+      \strng{bibnamehash}{d160819e0d002da5823a82cbc4ba5c51}
+      \strng{authorbibnamehash}{d160819e0d002da5823a82cbc4ba5c51}
+      \strng{authornamehash}{d160819e0d002da5823a82cbc4ba5c51}
+      \strng{authorfullhash}{d160819e0d002da5823a82cbc4ba5c51}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Downloadable Vector Network Analyzer Uncertainty Calculator}
+      \field{urlday}{16}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.keysight.com/main/software.jspx?ckey=1000000418:epsg:sud&cc=GB
+      \endverb
+      \verb{url}
+      \verb https://www.keysight.com/main/software.jspx?ckey=1000000418:epsg:sud&cc=GB
+      \endverb
+    \endentry
+    \entry{AnritsuUncTool}{online}{}
+      \name{author}{1}{}{%
+        {{hash=841a4a38376ab8f092bf2166d0d6f144}{%
+           family={{Anritsu}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{841a4a38376ab8f092bf2166d0d6f144}
+      \strng{fullhash}{841a4a38376ab8f092bf2166d0d6f144}
+      \strng{bibnamehash}{841a4a38376ab8f092bf2166d0d6f144}
+      \strng{authorbibnamehash}{841a4a38376ab8f092bf2166d0d6f144}
+      \strng{authornamehash}{841a4a38376ab8f092bf2166d0d6f144}
+      \strng{authorfullhash}{841a4a38376ab8f092bf2166d0d6f144}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Exact Uncertainty Calculator}
+      \field{urlday}{16}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.anritsu.com/en-GB/test-measurement/support/downloads/software/dwl19572
+      \endverb
+      \verb{url}
+      \verb https://www.anritsu.com/en-GB/test-measurement/support/downloads/software/dwl19572
+      \endverb
+    \endentry
+    \entry{Stant_2016_Coll}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=6ff9819fe8e84453f16bbc72eb6e563b}{%
+           family={Stant},
+           familyi={S\bibinitperiod},
+           given={L.T.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=cb038ad26a5233006f02e4ca59031e1a}{%
+           family={Aaen},
+           familyi={A\bibinitperiod},
+           given={P.H.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=16824790ca6ea8b51a96b5c59586b87d}{%
+           family={Ridler},
+           familyi={R\bibinitperiod},
+           given={N.M.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Institution of Engineering}%
+        {Technology ({IET})}%
+      }
+      \strng{namehash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{fullhash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{bibnamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{authorbibnamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{authornamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{authorfullhash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IET Colloquium on Millimetre-Wave and Terahertz Engineering \& Technology 2016}
+      \field{title}{Evaluating residual errors in waveguide network analysers from microwave to submillimetre-wave frequencies}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1049/ic.2016.0016
+      \endverb
+    \endentry
+    \entry{Stant_2017}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6ff9819fe8e84453f16bbc72eb6e563b}{%
+           family={Stant},
+           familyi={S\bibinitperiod},
+           given={L.T.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=cb038ad26a5233006f02e4ca59031e1a}{%
+           family={Aaen},
+           familyi={A\bibinitperiod},
+           given={P.H.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=16824790ca6ea8b51a96b5c59586b87d}{%
+           family={Ridler},
+           familyi={R\bibinitperiod},
+           given={N.M.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Institution of Engineering}%
+        {Technology ({IET})}%
+      }
+      \strng{namehash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{fullhash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{bibnamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{authorbibnamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{authornamehash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \strng{authorfullhash}{3a9f4547a55f2042eaa64f38f6c0058a}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IET Microwaves Antennas Propag.}
+      \field{month}{2}
+      \field{number}{3}
+      \field{title}{Evaluating residual errors in waveguide {VNAs} from microwave to submillimetre-wave frequencies}
+      \field{volume}{11}
+      \field{year}{2017}
+      \field{pages}{324\bibrangedash 329}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1049/iet-map.2016.0455
+      \endverb
+    \endentry
+    \entry{Bannister_1989}{book}{}
+      \name{author}{3}{}{%
+        {{hash=008aa35fef47874f8178f559b1a00820}{%
+           family={Bannister},
+           familyi={B\bibinitperiod},
+           given={DJ},
+           giveni={D\bibinitperiod}}}%
+        {{hash=085fb75624f0c486a99ff313523218e8}{%
+           family={Griffin},
+           familyi={G\bibinitperiod},
+           given={EJ},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d118b0c9124c904d33bbd2958f1f3ec1}{%
+           family={Hodgetts},
+           familyi={H\bibinitperiod},
+           given={TE},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {National Physical Laboratory}%
+      }
+      \strng{namehash}{a4164adf85f177338fc0b2585176093f}
+      \strng{fullhash}{a4164adf85f177338fc0b2585176093f}
+      \strng{bibnamehash}{a4164adf85f177338fc0b2585176093f}
+      \strng{authorbibnamehash}{a4164adf85f177338fc0b2585176093f}
+      \strng{authornamehash}{a4164adf85f177338fc0b2585176093f}
+      \strng{authorfullhash}{a4164adf85f177338fc0b2585176093f}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{On the dimensional tolerances of rectangular waveguide for reflectometry at millimetric wavelengths}
+      \field{year}{1989}
+    \endentry
+    \entry{Kerr_1999}{article}{}
+      \name{author}{3}{}{%
+        {{hash=127c8b5cd09eb7ded9b2937262e2753d}{%
+           family={Kerr},
+           familyi={K\bibinitperiod},
+           given={AR},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c408c007d5dd9d1efce49e23ab902045}{%
+           family={Wollack},
+           familyi={W\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=630258ba48a9e018c7bc6927642f008b}{%
+           family={Horner},
+           familyi={H\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{9e3517d74af6b6ee6f2a5a771cfc2d5b}
+      \strng{fullhash}{9e3517d74af6b6ee6f2a5a771cfc2d5b}
+      \strng{bibnamehash}{9e3517d74af6b6ee6f2a5a771cfc2d5b}
+      \strng{authorbibnamehash}{9e3517d74af6b6ee6f2a5a771cfc2d5b}
+      \strng{authornamehash}{9e3517d74af6b6ee6f2a5a771cfc2d5b}
+      \strng{authorfullhash}{9e3517d74af6b6ee6f2a5a771cfc2d5b}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ALMA Memo}
+      \field{title}{Waveguide flanges for ALMA instrumentation}
+      \field{volume}{278}
+      \field{year}{1999}
+    \endentry
+    \entry{Kerr_2010}{article}{}
+      \name{author}{1}{}{%
+        {{hash=127c8b5cd09eb7ded9b2937262e2753d}{%
+           family={Kerr},
+           familyi={K\bibinitperiod},
+           given={AR},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Citeseer}%
+      }
+      \strng{namehash}{127c8b5cd09eb7ded9b2937262e2753d}
+      \strng{fullhash}{127c8b5cd09eb7ded9b2937262e2753d}
+      \strng{bibnamehash}{127c8b5cd09eb7ded9b2937262e2753d}
+      \strng{authorbibnamehash}{127c8b5cd09eb7ded9b2937262e2753d}
+      \strng{authornamehash}{127c8b5cd09eb7ded9b2937262e2753d}
+      \strng{authorfullhash}{127c8b5cd09eb7ded9b2937262e2753d}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Electronics Div. Tech. Note}
+      \field{title}{Mismatch caused by waveguide tolerances, corner radii, and flange misalignment}
+      \field{volume}{215}
+      \field{year}{2010}
+    \endentry
+    \entry{Williams_2011}{article}{}
+      \name{author}{1}{}{%
+        {{hash=212315bef205660798d14d85c4ebf1a5}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Dylan\bibnamedelima F},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{212315bef205660798d14d85c4ebf1a5}
+      \strng{fullhash}{212315bef205660798d14d85c4ebf1a5}
+      \strng{bibnamehash}{212315bef205660798d14d85c4ebf1a5}
+      \strng{authorbibnamehash}{212315bef205660798d14d85c4ebf1a5}
+      \strng{authornamehash}{212315bef205660798d14d85c4ebf1a5}
+      \strng{authorfullhash}{212315bef205660798d14d85c4ebf1a5}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Terahertz Science and Technology}
+      \field{number}{2}
+      \field{title}{500 GHz--750 GHz rectangular-waveguide vector-network-analyzer calibrations}
+      \field{volume}{1}
+      \field{year}{2011}
+      \field{pages}{364\bibrangedash 377}
+      \range{pages}{14}
+    \endentry
+    \entry{Li_2012}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=9a7059c252c191930d9a0ec66bfd8636}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Huilin},
+           giveni={H\bibinitperiod}}}%
+        {{hash=95bdae8448efbb06e2b662693098e7f9}{%
+           family={Kerr},
+           familyi={K\bibinitperiod},
+           given={Anthony\bibnamedelima R},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=0fa3378854e256a30ed8b235a7407306}{%
+           family={Hesler},
+           familyi={H\bibinitperiod},
+           given={Jeffrey\bibnamedelima L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=6fa5630a6e42bdb7b99c283aee6e676b}{%
+           family={Weikle},
+           familyi={W\bibinitperiod},
+           given={Robert\bibnamedelima M},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{5870c4ae41097f6ed9f13a017b9df83d}
+      \strng{fullhash}{cc04e767775a604a1df68a490c57e67b}
+      \strng{bibnamehash}{cc04e767775a604a1df68a490c57e67b}
+      \strng{authorbibnamehash}{cc04e767775a604a1df68a490c57e67b}
+      \strng{authornamehash}{5870c4ae41097f6ed9f13a017b9df83d}
+      \strng{authorfullhash}{cc04e767775a604a1df68a490c57e67b}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{79th ARFTG Microwave Measurement Conference}
+      \field{title}{Repeatability of waveguide flanges with worst-case tolerances in the 500--750 GHz band}
+      \field{year}{2012}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+    \endentry
+    \entry{IEEE1785}{article}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Std 1785.2-2016}
+      \field{month}{9}
+      \field{title}{IEEE Standard for Rectangular Metallic Waveguides and Their Interfaces for Frequencies of 110 GHz and Above--Part 2: Waveguide Interfaces}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 22}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1109/IEEESTD.2016.7564020
+      \endverb
+      \keyw{rectangular waveguides;IEEE Std 1785.2-2016;reflection coefficient;electrical properties;waveguide interface dimensions;rectangular waveguide interfaces;rectangular metallic waveguides;IEEE standard;frequency 110 GHz;IEEE Standards;Rectangular waveguides;Waveguide components;Waveguide theory;Microwave theory and techniques;Metallic waveguides;Millimeter wave communication;IEEE 1785.2(TM);millimeter-wave;rectangular waveguides;submillimeter-wave;terahertz;waveguide fl anges;waveguide interfaces;waveguide tolerances}
+    \endentry
+    \entry{Arsenovic_2014}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=4b5cc2ade72ca06fb69cfecd3e296812}{%
+           family={{Arsenovic}},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=265e0d1520de57f6859da399a58d5d9d}{%
+           family={{Weikle}},
+           familyi={W\bibinitperiod},
+           given={R.\bibnamedelimi M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=bfb4f760dbf091346838038e62e2e621}{%
+           family={{Hesler}},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4561a888f5772ffc13d97d4975d2ee14}
+      \strng{fullhash}{4561a888f5772ffc13d97d4975d2ee14}
+      \strng{bibnamehash}{4561a888f5772ffc13d97d4975d2ee14}
+      \strng{authorbibnamehash}{4561a888f5772ffc13d97d4975d2ee14}
+      \strng{authornamehash}{4561a888f5772ffc13d97d4975d2ee14}
+      \strng{authorfullhash}{4561a888f5772ffc13d97d4975d2ee14}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{84th ARFTG Microwave Measurement Conference}
+      \field{month}{12}
+      \field{title}{Two port calibration insensitive to flange misalignment}
+      \field{year}{2014}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/ARFTG.2014.7013416
+      \endverb
+      \keyw{calibration;flanges;microwave reflectometry;numerical analysis;rectangular waveguides;reflectometers;two port calibration algorithm;flange misalignment;waveguide measurement;waveguide misalignment;SDDL technique;radiating open limits;misalignment resistant calibration;numerical simulation;MRC algorithm;Calibration;Standards;Numerical models;Integrated circuit modeling;Frequency measurement;Measurement uncertainty;Delays}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

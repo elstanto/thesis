@@ -501,6 +501,77 @@
   organization = {IEEE},
 }
 
+@Book{Bannister_1989,
+  title     = {On the dimensional tolerances of rectangular waveguide for reflectometry at millimetric wavelengths},
+  publisher = {National Physical Laboratory},
+  year      = {1989},
+  author    = {Bannister, DJ and Griffin, EJ and Hodgetts, TE},
+  groups    = {Ch 4: VNA Uncertainty},
+}
+
+@Article{Kerr_1999,
+  author  = {Kerr, AR and Wollack, E and Horner, N},
+  title   = {Waveguide flanges for ALMA instrumentation},
+  journal = {ALMA Memo},
+  year    = {1999},
+  volume  = {278},
+  groups  = {Ch 4: VNA Uncertainty},
+}
+
+@Article{Kerr_2010,
+  author    = {Kerr, AR},
+  title     = {Mismatch caused by waveguide tolerances, corner radii, and flange misalignment},
+  journal   = {Electronics Div. Tech. Note},
+  year      = {2010},
+  volume    = {215},
+  groups    = {Ch 4: VNA Uncertainty},
+  publisher = {Citeseer},
+}
+
+@Article{Williams_2011,
+  author    = {Williams, Dylan F},
+  title     = {500 GHz--750 GHz rectangular-waveguide vector-network-analyzer calibrations},
+  journal   = {IEEE Transactions on Terahertz Science and Technology},
+  year      = {2011},
+  volume    = {1},
+  number    = {2},
+  pages     = {364--377},
+  groups    = {Ch 4: VNA Uncertainty},
+  publisher = {IEEE},
+}
+
+@InProceedings{Li_2012,
+  author       = {Li, Huilin and Kerr, Anthony R and Hesler, Jeffrey L and Weikle, Robert M},
+  title        = {Repeatability of waveguide flanges with worst-case tolerances in the 500--750 GHz band},
+  booktitle    = {79th ARFTG Microwave Measurement Conference},
+  year         = {2012},
+  pages        = {1--8},
+  organization = {IEEE},
+  groups       = {Ch 4: VNA Uncertainty},
+}
+
+@Article{IEEE1785,
+  title    = {IEEE Standard for Rectangular Metallic Waveguides and Their Interfaces for Frequencies of 110 GHz and Above--Part 2: Waveguide Interfaces},
+  journal  = {IEEE Std 1785.2-2016},
+  year     = {2016},
+  pages    = {1-22},
+  month    = {Sep.},
+  doi      = {10.1109/IEEESTD.2016.7564020},
+  groups   = {Ch 4: VNA Uncertainty},
+  keywords = {rectangular waveguides;IEEE Std 1785.2-2016;reflection coefficient;electrical properties;waveguide interface dimensions;rectangular waveguide interfaces;rectangular metallic waveguides;IEEE standard;frequency 110 GHz;IEEE Standards;Rectangular waveguides;Waveguide components;Waveguide theory;Microwave theory and techniques;Metallic waveguides;Millimeter wave communication;IEEE 1785.2(TM);millimeter-wave;rectangular waveguides;submillimeter-wave;terahertz;waveguide fl anges;waveguide interfaces;waveguide tolerances},
+}
+
+@InProceedings{Arsenovic_2014,
+  author    = {A. {Arsenovic} and R. M. {Weikle} and J. {Hesler}},
+  title     = {Two port calibration insensitive to flange misalignment},
+  booktitle = {84th ARFTG Microwave Measurement Conference},
+  year      = {2014},
+  pages     = {1-7},
+  month     = {Dec},
+  doi       = {10.1109/ARFTG.2014.7013416},
+  keywords  = {calibration;flanges;microwave reflectometry;numerical analysis;rectangular waveguides;reflectometers;two port calibration algorithm;flange misalignment;waveguide measurement;waveguide misalignment;SDDL technique;radiating open limits;misalignment resistant calibration;numerical simulation;MRC algorithm;Calibration;Standards;Numerical models;Integrated circuit modeling;Frequency measurement;Measurement uncertainty;Delays},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:

@@ -1,0 +1,23 @@
+[0] Config.pm:302> INFO - This is Biber 2.11
+[1] Config.pm:305> INFO - Logfile is 'ch4-vnaunc.blg'
+[56] biber-MSWIN32:313> INFO - === 
+[121] Biber.pm:371> INFO - Reading 'ch4-vnaunc.bcf'
+[249] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[250] Biber.pm:857> INFO - Found 21 citekeys in bib section 1
+[250] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[283] Biber.pm:3976> INFO - Processing section 1
+[311] Biber.pm:4136> INFO - Looking for bibtex format file '../references.bib' for section 1
+[314] bibtex.pm:1454> INFO - Reading ascii input as UTF-8
+[325] bibtex.pm:1500> INFO - LaTeX decoding ...
+[448] bibtex.pm:1316> INFO - Found BibTeX data source '../references.bib'
+[618] Utils.pm:193> WARN - month field 'Sep.' in entry 'IEEE1785' is not an integer - this will probably not sort properly.
+[627] Utils.pm:193> WARN - month field 'Dec' in entry 'Arsenovic_2014' is not an integer - this will probably not sort properly.
+[666] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[666] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[666] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[666] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[706] bbl.pm:617> INFO - Writing 'ch4-vnaunc.bbl' with encoding 'ascii'
+[709] Utils.pm:193> WARN - The entry 'ISO9000' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[711] Utils.pm:193> WARN - The entry 'ISO17025' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[722] bbl.pm:720> INFO - Output to ch4-vnaunc.bbl
+[727] Biber.pm:110> INFO - WARNINGS: 4
