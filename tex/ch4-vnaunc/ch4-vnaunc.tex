@@ -7,7 +7,7 @@
 \onlyinsubfile{\setcounter{chapter}{3}}
 
 \begin{refsection}
-\chapter{Evaluating Uncertainty in Vector Network Analyser Measurements}
+\chapter[Evaluating Uncertainty in VNA Measurements]{Evaluating Uncertainty in Vector Network Analyser Measurements}
 \section{Introduction}
 The dramatic growth of radio-based devices and applications over the last 50 years has led to the VNA becoming a critical instrument in most laboratories. Many of these applications required both accurate and reliable measurements from these VNAs.  This is particularly so in areas such as manufacturing, calibration and testing.  This is often driven by requirements given in international Quality Management documents such as the ISO 9000 series of standards \cite{ISO9000} (for manufacturing and process control) and the ISO 17025 standard \cite{ISO17025} (for calibration and testing).
 
@@ -223,17 +223,117 @@ The investigation studied the effectiveness of the ripple extraction technique w
 \section{Conclusions}
 
 \section{Introduction}
+
+The dramatic growth of radio-based devices and applications over the last 50 years has led to the VNA becoming a critical instrument in most laboratories. Many of these applications required both accurate and reliable measurements from these VNAs.  This is particularly so in areas such as manufacturing, calibration and testing.  This is often driven by requirements given in international Quality Management documents such as the ISO 9000 series of standards \cite{ISO9000} (for manufacturing and process control) and the ISO 17025 standard \cite{ISO17025} (for calibration and testing).
+
+The requirements given in these international standards are for measurements that can be demonstrated as fit-for-purpose (in terms of the achievable level of accuracy, etc) and made traceable to the international system of units \cite{SI_2019, SI_2019B}.  These requirements were not trivial for a VNA due to the complicated nature of the VNA’s operating principles, for example the calibration mathematics. Combined with the available computing power and cost at that time, a full or rigorous evaluation of uncertainty for VNA measurements, per for example the ISO GUM document, was difficult and time-consuming. This led to much work by experts in this field to develop easier methods that addressed these needs in ways that were suitable for use by end-users in the manufacturing, calibration and testing communities.  Much of this work was undertaken by the ANAMET Technology Group (www.npl.co.uk/anamet) during the 1990s.  This resulted in a series of reports \cite{ANAMET_1996, ANAMET_1998, ANAMET_1999} describing the development of a guidance document that gave a procedure for assessing the performance of calibrated VNAs.  The resulting guidance document \cite{EA_2000} was published by the European co-operation for Accreditation (EA, www.european-accreditation.org) so that laboratories operating to the ISO 17025 standard and/or ISO 9000 series of standards could implement the method for their own purposes.  Ownership of this EA document was later transferred to the European Association of National Metrology Institutes (EURAMET) and re-published \cite{EURAMET_2011} as part of their Calibration Guides series of documents. This document, along with the recent updated version, is available as a free download from the EURAMET web-site: www.euramet.org.
+
+In addition to the EURAMET guide, VNA manufacturers have also produced their own advice for users to estimate the combined standard uncertainty in their measurements \cite{Hiebel_2008} and provided software tools in some cases \cite{KeysightUncTool, AnritsuUncTool}. Often this advice is based on the same methods presented in the EURAMET guide.
+
+In more recent years rigorous evaluations of VNA uncertainty have become possible, through both the efforts of NMIs and access to greater computing resources. The difference between the previous approaches (which we will call ``residual error'' evaluations) and rigorous evaluations concerns the way in which uncertainty contributed by the VNA calibration is estimated and included in the measurement model. The two methods will be discussed later in this Chapter. Figure \ref{ch4_fig_vna_model} illustrates the general structure of VNA uncertainty sources and evaluation, from which each component will now be explained.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{vna_model.pdf}
+	\caption{Structure of VNA uncertainty evaluation. Input quantities are shown at the top of the diagram, grouped where applicable. Uncertainties from the calibration are either evaluated directly (rigorous/full evaluation) or are estimated after the calibration has been performed (``residual error'' evaluation). Typically the calibration measurement model is processed as part of the VNA measurement model, but it is shown separately here to distinguish the difference between VNA uncertainty evaluation methods.}
+	\label{ch4_fig_vna_model}
+\end{figure}
+
 \section{VNA Measurement Model Input Quantities}
 \subsection{Calibration Standards}
+
+In order to perform the calibration, or error correction, of a VNA as described in Chapter 2, we must compare measurements of impedance standards to definitions of their true values in order to obtain error coefficients. It is interesting that although sources of error in the calibration cover both systematic and random types, when the calibration is performed and these quantities are measured, any random errors are captured in the evaluated combined uncertainty, which itself is purely systematic.
+
 \subsubsection{Definitions}
+
+Because the definitions of impedance standards are based on prior measurements, and all measurements include uncertainty, they are also included as a source of uncertainty in the VNA measurement model. We will now look at how uncertainty can be included in the three types of standard definition commonly used in VNA calibration routines.
+
+\paragraph{Databased Definitions}
+
+The simplest definition of an impedance standard is the databased definition. The standard is characterised by measurement on a VNA which has been calibrated to a suitable accuracy, i.e. using standards which are at an appropriate position in the traceability chain (closer to the primary standard). The combined standard uncertainty of the characterisation is then provided with the estimates as the definition of the standard.
+
+It is important to characterise the standard across a suitable frequency range, usually the entire range for which it can be applied. In addition to the combined standard uncertainty, the covariances between the real and imaginary components of the measured s-parameters can also be included in the standard definition for more accurate uncertainty evaluations in measurements using the standard [RidlerSalterEtc]. If the standard will be used to calibrate VNAs producing results to be used in time-domain studies or multi-harmonic studies (i.e. nonlinear work), then ideally covariances between s-parameters for each frequency should be included. However, this is something which would consume a lot of data storage and the saving of this information is not supported by VNAs at this time.
+
+\paragraph{Polynomial Model Definitions}
+
+In order to reduce the information required to accompany the standard, one-port models are often defined as coefficients of a polynomial fit between reflection coefficient and frequency. This characterisation is performed by the manufacturer and the coefficients are available in the user manual or specification sheet for the impedance standards. Testing is performed by the manufacturer to ensure that the supplied standards do not deviate from this characterisation. Similar to the databased definition, care must be taken to ensure the characterised polynomial fit is valid across a suitable frequency range.
+
+An example of a short-circuit polynomial fit, as defined in \cite{Keysight_2016}, is
+
+\begin{align}
+	L_\textrm{S} &= L_0 + L_1f + L_2f^2 + L_3f^3, \\
+	Z_\textrm{S} &= j2\pi fL_\textrm{S}, \\
+	\Gamma_\textrm{S} &= \frac{Z_\textrm{S} - Z_\textrm{r}}{Z_\textrm{S} + Z_\textrm{r}},
+\end{align}
+
+where $L_\textrm{S}$ and $Z_\textrm{S}$ are the respective inductance and impedance of the short-circuit, $L_n$ are coefficients provided by the definition of the standard,  $Z_\textrm{r}$ is the reference impedance and $\Gamma_\textrm{S}$ is the reflection coefficient of the short-circuit at frequency $f$. A similar model is used for open-circuits, with the inductive component replaced with a capacitive one.
+
+Although no manufacturers are yet providing uncertainties with the polynomial coefficients supplied in their standard definitions, some have included the ability for future incorporation in the data file structure. In addition to uncertainty originating from the measurement of the standard, there will also be uncertainties relating to the error of the polynomial fit. Because of this, the polynomial definition is typically the least accurate type of standard definition, however it is popular due to the portability of the small number of coefficients which can be defined for the entire set of manufactured models.
+
+\paragraph{Physical Definitions}
+
+Typically understood as the most accurate, physically defined standards use robust geometric models to calculate their impedances from dimensional measurements. Models are available in coaxial transmission line for short-circuits, open-circuits and arbitrary line lengths. Good examples of these models and their derivations can be found in \cites{Keysight_2016}[Appendix C]{Lewandowski_2010}. Matched loads are more difficult to accurately model and so they are typically included as a databased standard, even if the other standards are physically defined. In order to avoid this issue, the TRL calibration can be used, which requires standards that can all be physically defined. This combination of calibration model and standard definition is commonly used by NMIs when performing traceable characterisations of other standards (i.e. databased definitions).
+
+To obtain uncertainties in the reflection coefficients of physically defined standards, which are the measurands which we would then like to use as input quantities to the VNA uncertainty evaluation, an additional uncertainty evaluation must be performed. This takes the estimates and uncertainties of the dimensional measurements of the standards and propagates them through the measurement model (the geometric model relating dimension and frequency to reflection coefficient) to obtain the reflection coefficients with uncertainties required.
+
+Dimensional measurements of the standards are usually supplied by the manufacturer for TRL calibration kits, but like the other definition types can be supplanted by recent measurements performed by NMIs or calibration providers. Another benefit of physically defined impedance standards is that their definition is valid over their entire valid frequency range, removing the risk associated with databased and polynomial definitions.
+
+Covariance information is not required to be supplied by the definition because the dimensional measurements should be uncorrelated (they are separately manufactured parts). During the uncertainty evaluation to obtain the reflection coefficients of the standards, covariances between both the complex impedance components and those at different frequencies are calculated. Therefore physical definitions are well suited to both portability, accuracy and use with time-domain or nonlinear measurements.
+
 \subsubsection{Measurements}
+
+During the calibration procedure the impedance standards are measured. Although the VNA is not yet calibrated, it is still performing a measurement (with reference to an arbitrary impedance) and so all of the sources of uncertainty additional to those from the calibration will be included. Sources such as noise are therefore counted several times during a VNA measurement due to their inclusion in the prior calibration measurements. Because of this, it is important to include correlations where possible for these sources as they will have a greater impact on the combined standard uncertainty of the result.
+
 \subsection{Noise}
+
+Noise plays an important role in RF and microwave engineering. It is a random effect which occurs at a fundamental level and cannot be corrected for, both in communication systems and instrumentation. Wireless transmission systems lose a large amount of signal through propagation and receivers must be designed to handle signals with a considerable amount of noise. Likewise, VNA transmission measurements of devices with high isolation or reflection measurements of devices with low insertion loss also exhibit a low signal-to-noise ratio. To obtain accurate results, it is therefore important for VNA manufacturers to provide instruments with low noise sources and receivers. To ensure that measurements which are more susceptible to noise are accurate, it is also important to quantify the noise associated with the measurements so that it can be included as a contribution to their combined standard uncertainties.
+
+The amount of electrical noise in VNA measurements is a sum of thermal noise and contributions from the VNA components. Thermal noise, caused by the random motion of free electrons in a conducting material by heat, is specified as $4\times 10^{21}$ W/Hz ($-174$ dBm) \cite{Hiebel_2008}. The intermediate frequency bandwidth (IFBW) setting on the VNA controls the frequency range of signals being measured at each discrete point in the sweep, and can typically be set from $1$ Hz to more than $10$ kHz. It is this figure which multiplies the thermal noise to provide a theoretical minimum noise floor if we assumed the VNA did not contribute any noise itself. The disadvantage of a very low IFBW is that the VNA takes longer to perform the measurement, so there is a compromise between speed and accuracy. This provides a good example of where uncertainty evaluation can have a direct perceivable benefit to measurement accuracy - if the IFBW is reduced the uncertainty due to noise should also reduce. By quantifying the uncertainty the engineer can make an informed decision as to what value to set the IFBW, which could have expensive time implications in a test environment.
+
+In addition to the thermal noise, the VNA contributes to the noise level from the source, receiver and other test set components (i.e. local oscillator phase noise). Setting attenuators to lower values will improve noise as resistors add additional thermal noise to the measurement. The noise figure (NF) of a VNA is typically quoted in the specifications, and can be used with the thermal noise to calculate the theoretical noise level of the VNA measurement \cite{Hiebel_2008}:
+
+\begin{equation}
+	L_\textrm{N} = -174 \textrm{dBm} + NF + 10\log(S_\textrm{F})\textrm{dB} + 10\log\left(\frac{B_\textrm{IF}}{\textrm{Hz}}\right)\textrm{dB}
+\end{equation}
+
+For the purposes of uncertainty evaluation, VNA noise level is measured on the instrument itself and is typically included in the measurement model as two input quantities, noise floor and trace noise. It is important that the VNA settings (IFBW, test port power, averaging) are the same as will be used for the DUT measurements, and that no calibration is applied.
+
 \subsubsection{Noise Floor}
+
+The noise floor is a term used to describe the noise present in the measurement with no external signal present. It can be measured with a matched load connected directly to the test port and should not include any noise contribution from the VNA source. Alternatively it can be measured from the transmission measurements of a 2-port VNA while short-circuits or open-circuits are connected for the trace noise measurement described below. Many measurements are made (\cite{EURAMET_2011} suggests a few hundred) and the standard deviation is calculated for each frequency point.
+
 \subsubsection{Trace Noise}
+
+Trace noise includes noise contributions from the VNA source and is a function of the measured power at the receiver. It is measured with a short-circuit or open-circuit connected directly to the test port.
+
 \subsection{Repeatability}
+
+Both the DUT connections and movement of the VNA port extension cables contribute uncertainty to the repeatability of VNA measurements. These errors vary when a different device is connected to the test setup, and are included for both the DUT measurement and the measurements of the impedance standards during calibration.
+
 \subsubsection{Connections}
-\subsubsection{Cables}
+
+Connector repeatability is a fundamental quality of precision RF and microwave connectors. It can have a significant impact on DUT measurements if the response of the connector varies between multiple connections, and this perturbs the reference impedance of the calibrated VNA away from $50$ Ohms if this occurs between connecting calibration standards.
+
+In order to measure connector repeatability uncertainty, a short-circuit can be connected to a calibrated VNA and the reflection coefficient measured. Measurements are then repeated, reconnecting the short at a different azimuthal rotation each time. This should be done at least three times with rotations of $120\deg$, although some guidance recommends up to 16 times\cite{EURAMET_2011}.
+
+\subsubsection{Cable Stability}
+
+When test port cables are flexed, their physical dimensions are perturbed, which in turn affects their s-parameter response. Specialist VNA test port extension cables are provided to mitigate the effects of cable flexure, although they do not remove them. It is therefore advisable to restrict the movement of these cables using clamps and supports, and also to wait a suitable time (typically 30 seconds or more) for stresses in the internal dielectric to settle.
+
+Cable stability can be characterised in different ways depending on the VNA measurement model used. The general method is to perform repeated measurements while moving the cable between a range of positions which cover the maximum extent the cable will move during measurements of the calibration standards and DUTs. Specifically, some methods connect a short-circuit to each test port cable, and others connect the cables together to perform the characterisation (if used for a two-port measurement).
+
 \subsection{Drift}
+
+Drift does not strictly fit into the random or systematic error category, because it can vary over the course of measurements but is not random in nature. The dominant cause of drift is environmental conditions, especially temperature variations. Temperature affects the physical dimensions and s-parameters of RF components in the test setup and also the behaviour of the electronic devices inside the source and receiver - both of which perturb the result of the measurement.
+
+Drift is an important source of uncertainty to include for measurements occurring over a long period of time after calibration, especially those in a test environment or in standards labs while performing a large number of repeat measurements. In order to minimise the effects of drift, the room which the VNA is located in should have good temperature control and all the equipment should have been powered on for at least 24 hours for their internal temperatures to settle.
+
+In order to measure uncertainty due to drift, many repeat measurements are performed over a long period (24 hours or more). This procedure can be automated so that an operator is not required for the entire period. An alternative method of including uncertainty due to drift can be achieved by performing calibration measurements of standards both before and after the DUT measurements. The calibrations can be averaged and a crude standard deviation obtained.
+
+\subsubsection{VNA Linearity}
+
+One source of VNA measurement uncertainty which is still included in some evaluations is that from the nonlinearity of the receivers. However, in modern VNAs automatic level control corrections are sufficiently accurate to allow this error to be neglected \cite{Rytting_2001, Martens_2007}.
+
 \section{Residual Calibration Error VNA Uncertainty Evaluation}
 \subsection{Method}
 \subsection{Application to Waveguide VNAs}

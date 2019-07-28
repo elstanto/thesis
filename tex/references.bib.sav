@@ -573,6 +573,49 @@
   keywords  = {calibration;flanges;microwave reflectometry;numerical analysis;rectangular waveguides;reflectometers;two port calibration algorithm;flange misalignment;waveguide measurement;waveguide misalignment;SDDL technique;radiating open limits;misalignment resistant calibration;numerical simulation;MRC algorithm;Calibration;Standards;Numerical models;Integrated circuit modeling;Frequency measurement;Measurement uncertainty;Delays},
 }
 
+@TechReport{Keysight_2016,
+  author = {{Keysight Technologies}},
+  title  = {Specifying Calibration Standards and Kits for Keysight Vector Network Analyzers},
+  year   = {2016},
+  type   = {techreport},
+  number = {5989-4840EN},
+  month  = jun,
+  groups = {Ch 4: VNA Uncertainty},
+}
+
+@PhdThesis{Lewandowski_2010,
+  author = {Arkadiusz Lewandowski},
+  title  = {Multi-frequency approach to vector-network-analyzer scattering-parameter measurements},
+  school = {Warsaw University of Technology},
+  year   = {2010},
+  groups = {Ch 4: VNA Uncertainty},
+}
+
+@InProceedings{Rytting_2001,
+  author    = {D. K. {Rytting}},
+  title     = {Network Analyzer Accuracy Overview},
+  booktitle = {58th ARFTG Conference Digest},
+  year      = {2001},
+  volume    = {40},
+  pages     = {1-13},
+  month     = {Nov},
+  doi       = {10.1109/ARFTG.2001.327486},
+  groups    = {Ch 4: VNA Uncertainty},
+  keywords  = {Switches;Propagation losses;Noise level;Calibration;Linearity;Radio frequency;Connectors;Cables;Loss measurement;Noise measurement},
+}
+
+@InProceedings{Martens_2007,
+  author    = {J. {Martens}},
+  title     = {On quantifying the effects of receiver linearity on VNA calibrations},
+  booktitle = {2007 70th ARFTG Microwave Measurement Conference (ARFTG)},
+  year      = {2007},
+  pages     = {1-6},
+  month     = {Nov},
+  doi       = {10.1109/ARFTG.2007.8376223},
+  groups    = {Ch 4: VNA Uncertainty},
+  keywords  = {calibration;network analysers;VNA calibrations;receiver linearity effect;receiver nonlinearity effect;1-port calibration techniques;asymmetry-line variance effect;TRL class;multiport calibration techniques;Calibration;Receivers;Reflection;Loss measurement;Distortion measurement;Measurement uncertainty;Linearity;VNA calibration;receiver;linearity},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:

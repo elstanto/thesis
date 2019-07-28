@@ -662,6 +662,112 @@
       \endverb
       \keyw{calibration;flanges;microwave reflectometry;numerical analysis;rectangular waveguides;reflectometers;two port calibration algorithm;flange misalignment;waveguide measurement;waveguide misalignment;SDDL technique;radiating open limits;misalignment resistant calibration;numerical simulation;MRC algorithm;Calibration;Standards;Numerical models;Integrated circuit modeling;Frequency measurement;Measurement uncertainty;Delays}
     \endentry
+    \entry{Keysight_2016}{report}{}
+      \name{author}{1}{}{%
+        {{hash=d160819e0d002da5823a82cbc4ba5c51}{%
+           family={{Keysight Technologies}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{d160819e0d002da5823a82cbc4ba5c51}
+      \strng{fullhash}{d160819e0d002da5823a82cbc4ba5c51}
+      \strng{bibnamehash}{d160819e0d002da5823a82cbc4ba5c51}
+      \strng{authorbibnamehash}{d160819e0d002da5823a82cbc4ba5c51}
+      \strng{authornamehash}{d160819e0d002da5823a82cbc4ba5c51}
+      \strng{authorfullhash}{d160819e0d002da5823a82cbc4ba5c51}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{number}{5989-4840EN}
+      \field{title}{Specifying Calibration Standards and Kits for Keysight Vector Network Analyzers}
+      \field{type}{techreport}
+      \field{year}{2016}
+    \endentry
+    \entry{Lewandowski_2010}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=ccd946e7054ea74992b17669c572d2c5}{%
+           family={Lewandowski},
+           familyi={L\bibinitperiod},
+           given={Arkadiusz},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Warsaw University of Technology}%
+      }
+      \strng{namehash}{ccd946e7054ea74992b17669c572d2c5}
+      \strng{fullhash}{ccd946e7054ea74992b17669c572d2c5}
+      \strng{bibnamehash}{ccd946e7054ea74992b17669c572d2c5}
+      \strng{authorbibnamehash}{ccd946e7054ea74992b17669c572d2c5}
+      \strng{authornamehash}{ccd946e7054ea74992b17669c572d2c5}
+      \strng{authorfullhash}{ccd946e7054ea74992b17669c572d2c5}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Multi-frequency approach to vector-network-analyzer scattering-parameter measurements}
+      \field{type}{phdthesis}
+      \field{year}{2010}
+    \endentry
+    \entry{Rytting_2001}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=d726b5b4b6c5a46e335d419c8ff2ccda}{%
+           family={{Rytting}},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi K.},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{d726b5b4b6c5a46e335d419c8ff2ccda}
+      \strng{fullhash}{d726b5b4b6c5a46e335d419c8ff2ccda}
+      \strng{bibnamehash}{d726b5b4b6c5a46e335d419c8ff2ccda}
+      \strng{authorbibnamehash}{d726b5b4b6c5a46e335d419c8ff2ccda}
+      \strng{authornamehash}{d726b5b4b6c5a46e335d419c8ff2ccda}
+      \strng{authorfullhash}{d726b5b4b6c5a46e335d419c8ff2ccda}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{58th ARFTG Conference Digest}
+      \field{month}{11}
+      \field{title}{Network Analyzer Accuracy Overview}
+      \field{volume}{40}
+      \field{year}{2001}
+      \field{pages}{1\bibrangedash 13}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/ARFTG.2001.327486
+      \endverb
+      \keyw{Switches;Propagation losses;Noise level;Calibration;Linearity;Radio frequency;Connectors;Cables;Loss measurement;Noise measurement}
+    \endentry
+    \entry{Martens_2007}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=bd32ae1155d9bbe121ce1bc310199cfd}{%
+           family={{Martens}},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd32ae1155d9bbe121ce1bc310199cfd}
+      \strng{fullhash}{bd32ae1155d9bbe121ce1bc310199cfd}
+      \strng{bibnamehash}{bd32ae1155d9bbe121ce1bc310199cfd}
+      \strng{authorbibnamehash}{bd32ae1155d9bbe121ce1bc310199cfd}
+      \strng{authornamehash}{bd32ae1155d9bbe121ce1bc310199cfd}
+      \strng{authorfullhash}{bd32ae1155d9bbe121ce1bc310199cfd}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2007 70th ARFTG Microwave Measurement Conference (ARFTG)}
+      \field{month}{11}
+      \field{title}{On quantifying the effects of receiver linearity on VNA calibrations}
+      \field{year}{2007}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ARFTG.2007.8376223
+      \endverb
+      \keyw{calibration;network analysers;VNA calibrations;receiver linearity effect;receiver nonlinearity effect;1-port calibration techniques;asymmetry-line variance effect;TRL class;multiport calibration techniques;Calibration;Receivers;Reflection;Loss measurement;Distortion measurement;Measurement uncertainty;Linearity;VNA calibration;receiver;linearity}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

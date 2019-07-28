@@ -569,7 +569,26 @@
   pages     = {1-7},
   month     = {Dec},
   doi       = {10.1109/ARFTG.2014.7013416},
+  groups    = {Ch 4: VNA Uncertainty},
   keywords  = {calibration;flanges;microwave reflectometry;numerical analysis;rectangular waveguides;reflectometers;two port calibration algorithm;flange misalignment;waveguide measurement;waveguide misalignment;SDDL technique;radiating open limits;misalignment resistant calibration;numerical simulation;MRC algorithm;Calibration;Standards;Numerical models;Integrated circuit modeling;Frequency measurement;Measurement uncertainty;Delays},
+}
+
+@TechReport{Keysight_2016,
+  author = {{Keysight Technologies}},
+  title  = {Specifying Calibration Standards and Kits for Keysight Vector Network Analyzers},
+  year   = {2016},
+  type   = {techreport},
+  number = {5989-4840EN},
+  month  = jun,
+  groups = {Ch 4: VNA Uncertainty},
+}
+
+@PhdThesis{Lewandowski_2010,
+  author = {Arkadiusz Lewandowski},
+  title  = {Multi-frequency approach to vector-network-analyzer scattering-parameter measurements},
+  school = {Warsaw University of Technology},
+  year   = {2010},
+  groups = {Ch 4: VNA Uncertainty},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

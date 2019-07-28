@@ -4,11 +4,11 @@
   <bcf:options component="biber" type="global">
     <bcf:option type="singlevalued">
       <bcf:key>output_encoding</bcf:key>
-      <bcf:value>utf8</bcf:value>
+      <bcf:value>ascii</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>input_encoding</bcf:key>
-      <bcf:value>utf8</bcf:value>
+      <bcf:value>ascii</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>debug</bcf:key>
@@ -2010,6 +2010,27 @@
     <bcf:citekey order="20">Li_2012</bcf:citekey>
     <bcf:citekey order="21">IEEE1785</bcf:citekey>
     <bcf:citekey order="22">Arsenovic_2014</bcf:citekey>
+    <bcf:citekey order="23">ISO9000</bcf:citekey>
+    <bcf:citekey order="24">ISO17025</bcf:citekey>
+    <bcf:citekey order="25">SI_2019</bcf:citekey>
+    <bcf:citekey order="25">SI_2019B</bcf:citekey>
+    <bcf:citekey order="26">ANAMET_1996</bcf:citekey>
+    <bcf:citekey order="26">ANAMET_1998</bcf:citekey>
+    <bcf:citekey order="26">ANAMET_1999</bcf:citekey>
+    <bcf:citekey order="27">EA_2000</bcf:citekey>
+    <bcf:citekey order="28">EURAMET_2011</bcf:citekey>
+    <bcf:citekey order="29">Hiebel_2008</bcf:citekey>
+    <bcf:citekey order="30">KeysightUncTool</bcf:citekey>
+    <bcf:citekey order="30">AnritsuUncTool</bcf:citekey>
+    <bcf:citekey order="31">Keysight_2016</bcf:citekey>
+    <bcf:citekey order="32">Keysight_2016</bcf:citekey>
+    <bcf:citekey order="33">Lewandowski_2010</bcf:citekey>
+    <bcf:citekey order="34">Hiebel_2008</bcf:citekey>
+    <bcf:citekey order="35">Hiebel_2008</bcf:citekey>
+    <bcf:citekey order="36">EURAMET_2011</bcf:citekey>
+    <bcf:citekey order="37">EURAMET_2011</bcf:citekey>
+    <bcf:citekey order="38">Rytting_2001</bcf:citekey>
+    <bcf:citekey order="38">Martens_2007</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">
