@@ -1,25 +1,26 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
-[1] Config.pm:305> INFO - Logfile is 'ch4-vnaunc.blg'
-[50] biber-MSWIN32:313> INFO - === 
-[148] Biber.pm:371> INFO - Reading 'ch4-vnaunc.bcf'
-[283] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
-[283] Biber.pm:857> INFO - Found 25 citekeys in bib section 1
-[284] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
-[319] Biber.pm:3976> INFO - Processing section 1
-[340] Biber.pm:4136> INFO - Looking for bibtex format file '../references.bib' for section 1
-[343] bibtex.pm:1454> INFO - Reading ascii input as UTF-8
-[355] bibtex.pm:1500> INFO - LaTeX decoding ...
-[495] bibtex.pm:1316> INFO - Found BibTeX data source '../references.bib'
-[661] Utils.pm:193> WARN - month field 'Sep.' in entry 'IEEE1785' is not an integer - this will probably not sort properly.
-[671] Utils.pm:193> WARN - month field 'Dec' in entry 'Arsenovic_2014' is not an integer - this will probably not sort properly.
-[684] Utils.pm:193> WARN - month field 'Nov' in entry 'Rytting_2001' is not an integer - this will probably not sort properly.
-[690] Utils.pm:193> WARN - month field 'Nov' in entry 'Martens_2007' is not an integer - this will probably not sort properly.
-[731] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[731] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[731] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[732] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[764] bbl.pm:617> INFO - Writing 'ch4-vnaunc.bbl' with encoding 'ascii'
-[767] Utils.pm:193> WARN - The entry 'ISO9000' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[768] Utils.pm:193> WARN - The entry 'ISO17025' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[782] bbl.pm:720> INFO - Output to ch4-vnaunc.bbl
-[788] Biber.pm:110> INFO - WARNINGS: 6
+[0] Config.pm:305> INFO - Logfile is 'ch4-vnaunc.blg'
+[75] biber-MSWIN32:313> INFO - === 
+[125] Biber.pm:371> INFO - Reading 'ch4-vnaunc.bcf'
+[250] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[250] Biber.pm:857> INFO - Found 27 citekeys in bib section 1
+[250] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[284] Biber.pm:3976> INFO - Processing section 1
+[305] Biber.pm:4136> INFO - Looking for bibtex format file '../references.bib' for section 1
+[307] bibtex.pm:1454> INFO - Reading ascii input as UTF-8
+[320] bibtex.pm:1500> INFO - LaTeX decoding ...
+[457] bibtex.pm:1316> INFO - Found BibTeX data source '../references.bib'
+[573] Utils.pm:193> WARN - month field 'Nov' in entry 'Rytting_2001' is not an integer - this will probably not sort properly.
+[578] Utils.pm:193> WARN - month field 'Nov' in entry 'Martens_2007' is not an integer - this will probably not sort properly.
+[626] Utils.pm:193> WARN - month field 'Sep.' in entry 'IEEE1785' is not an integer - this will probably not sort properly.
+[634] Utils.pm:193> WARN - month field 'Dec' in entry 'Arsenovic_2014' is not an integer - this will probably not sort properly.
+[640] Utils.pm:193> WARN - month field 'Dec' in entry 'Garelli_2012' is not an integer - this will probably not sort properly.
+[744] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[744] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[744] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[745] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[776] bbl.pm:617> INFO - Writing 'ch4-vnaunc.bbl' with encoding 'ascii'
+[779] Utils.pm:193> WARN - The entry 'ISO9000' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[781] Utils.pm:193> WARN - The entry 'ISO17025' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[795] bbl.pm:720> INFO - Output to ch4-vnaunc.bbl
+[801] Biber.pm:110> INFO - WARNINGS: 7
