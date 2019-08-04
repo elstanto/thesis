@@ -827,6 +827,347 @@
       \field{type}{techreport}
       \field{year}{2019}
     \endentry
+    \entry{VNATools}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e58afef0669265d20b34203cb36faadc}{%
+           family={{METAS}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e58afef0669265d20b34203cb36faadc}
+      \strng{fullhash}{e58afef0669265d20b34203cb36faadc}
+      \strng{bibnamehash}{e58afef0669265d20b34203cb36faadc}
+      \strng{authorbibnamehash}{e58afef0669265d20b34203cb36faadc}
+      \strng{authornamehash}{e58afef0669265d20b34203cb36faadc}
+      \strng{authorfullhash}{e58afef0669265d20b34203cb36faadc}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{VNA Tools II}
+      \field{urlday}{16}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.metas.ch/metas/en/home/fabe/hochfrequenz/vna-tools.html
+      \endverb
+      \verb{url}
+      \verb https://www.metas.ch/metas/en/home/fabe/hochfrequenz/vna-tools.html
+      \endverb
+    \endentry
+    \entry{UncLib}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e58afef0669265d20b34203cb36faadc}{%
+           family={{METAS}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e58afef0669265d20b34203cb36faadc}
+      \strng{fullhash}{e58afef0669265d20b34203cb36faadc}
+      \strng{bibnamehash}{e58afef0669265d20b34203cb36faadc}
+      \strng{authorbibnamehash}{e58afef0669265d20b34203cb36faadc}
+      \strng{authornamehash}{e58afef0669265d20b34203cb36faadc}
+      \strng{authorfullhash}{e58afef0669265d20b34203cb36faadc}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{METAS UncLib}
+      \field{urlday}{16}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.metas.ch/metas/en/home/fabe/hochfrequenz/unclib.html
+      \endverb
+      \verb{url}
+      \verb https://www.metas.ch/metas/en/home/fabe/hochfrequenz/unclib.html
+      \endverb
+    \endentry
+    \entry{Wollensack_2012}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=5707e259775f8efd7c093ed59431aa1b}{%
+           family={{Wollensack}},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bdcb04a0e67d52e696abdf01d35ee197}{%
+           family={{Hoffmann}},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=45497ecc9fda6c6266896913315c74f7}{%
+           family={{Ruefenacht}},
+           familyi={R\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=136e9d33da5fc0f7beada21761f72282}{%
+           family={{Zeier}},
+           familyi={Z\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{95ccaa955a9d14f073b0080d77761c41}
+      \strng{fullhash}{19768308398723676b637d8ea4923706}
+      \strng{bibnamehash}{19768308398723676b637d8ea4923706}
+      \strng{authorbibnamehash}{19768308398723676b637d8ea4923706}
+      \strng{authornamehash}{95ccaa955a9d14f073b0080d77761c41}
+      \strng{authorfullhash}{19768308398723676b637d8ea4923706}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{79th ARFTG Microwave Measurement Conference}
+      \field{month}{6}
+      \field{title}{VNA Tools II: S-parameter uncertainty calculation}
+      \field{year}{2012}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ARFTG79.2012.6291183
+      \endverb
+      \keyw{calibration;computerised instrumentation;measurement uncertainty;network analysers;optimisation;S-parameters;S-parameter uncertainty calculation;METAS VNA Tools II software;coaxial S-parameter measurement;calibration;vector network analyzer;METAS UncLib;device under test;uncertainties. linear propagation;eventual post-processing step;calibration computing uncertainty;quick short open load thru algorithm;optimization;numerical inaccuracy;Uncertainty;Calibration;Measurement uncertainty;Standards;Optimization;Transmission line measurements;Vector Network Analyzer;S-parameters;Calibration;Uncertainty;Traceability}
+    \endentry
+    \entry{MUFWebsite}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d160819e0d002da5823a82cbc4ba5c51}{%
+           family={{Keysight Technologies}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{d160819e0d002da5823a82cbc4ba5c51}
+      \strng{fullhash}{d160819e0d002da5823a82cbc4ba5c51}
+      \strng{bibnamehash}{d160819e0d002da5823a82cbc4ba5c51}
+      \strng{authorbibnamehash}{d160819e0d002da5823a82cbc4ba5c51}
+      \strng{authornamehash}{d160819e0d002da5823a82cbc4ba5c51}
+      \strng{authorfullhash}{d160819e0d002da5823a82cbc4ba5c51}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{On-Wafer Calibration Software}
+      \field{urlday}{16}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.nist.gov/services-resources/software/wafer-calibration-software
+      \endverb
+      \verb{url}
+      \verb https://www.nist.gov/services-resources/software/wafer-calibration-software
+      \endverb
+    \endentry
+    \entry{Ginley_2016}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=4e0bbd80d79bc45a409225020ea50d8c}{%
+           family={{Ginley}},
+           familyi={G\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e0bbd80d79bc45a409225020ea50d8c}
+      \strng{fullhash}{4e0bbd80d79bc45a409225020ea50d8c}
+      \strng{bibnamehash}{4e0bbd80d79bc45a409225020ea50d8c}
+      \strng{authorbibnamehash}{4e0bbd80d79bc45a409225020ea50d8c}
+      \strng{authornamehash}{4e0bbd80d79bc45a409225020ea50d8c}
+      \strng{authorfullhash}{4e0bbd80d79bc45a409225020ea50d8c}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 88th ARFTG Microwave Measurement Conference (ARFTG)}
+      \field{month}{12}
+      \field{title}{Kicking the tires of the NIST microwave uncertainty framework, part 1}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ARFTG.2016.7839722
+      \endverb
+      \keyw{measurement uncertainty;microwave measurement;S-parameters;kicking the tires;NIST Microwave Uncertainty Framework;metrology tools;processing measurements;uncertainties;one-port scattering-parameters;two-port scattering-parameters;Uncertainty;NIST;Microwave measurement;Calibration;Monte Carlo methods;Measurement uncertainty;Microwave theory and techniques;Microwave measurements;coaxial connectors;s-parameters;uncertainties}
+    \endentry
+    \entry{Ginley_2017}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=4e0bbd80d79bc45a409225020ea50d8c}{%
+           family={{Ginley}},
+           familyi={G\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e0bbd80d79bc45a409225020ea50d8c}
+      \strng{fullhash}{4e0bbd80d79bc45a409225020ea50d8c}
+      \strng{bibnamehash}{4e0bbd80d79bc45a409225020ea50d8c}
+      \strng{authorbibnamehash}{4e0bbd80d79bc45a409225020ea50d8c}
+      \strng{authornamehash}{4e0bbd80d79bc45a409225020ea50d8c}
+      \strng{authorfullhash}{4e0bbd80d79bc45a409225020ea50d8c}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 90th ARFTG Microwave Measurement Symposium (ARFTG)}
+      \field{month}{11}
+      \field{title}{Kicking the tires of the NIST microwave uncertainty framework, Part 2}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ARFTG.2017.8255877
+      \endverb
+      \keyw{calibration;measurement uncertainty;microwave measurement;S-parameters;NIST microwave uncertainty framework;unbroken measurement chain;scattering-parameter measurement results;multiple links;single link;Uncertainty;NIST;Microwave measurement;Calibration;Systematics;Microwave theory and techniques;Measurement uncertainty;Microwave measurements;coaxial connectors;s-parameters;uncertainties}
+    \endentry
+    \entry{Jargon_2019}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=8c588ad17a21af9757c69d67a2a1b054}{%
+           family={{Jargon}},
+           familyi={J\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d3ba843c131b901b1148ef2be621fe4c}{%
+           family={{Williams}},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi F.},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=02a298cdb2438c80feb628f5cd75ac32}{%
+           family={{Sanders}},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a90ed86721d1e5d81cad1dced2f2e32d}
+      \strng{fullhash}{a90ed86721d1e5d81cad1dced2f2e32d}
+      \strng{bibnamehash}{a90ed86721d1e5d81cad1dced2f2e32d}
+      \strng{authorbibnamehash}{a90ed86721d1e5d81cad1dced2f2e32d}
+      \strng{authornamehash}{a90ed86721d1e5d81cad1dced2f2e32d}
+      \strng{authorfullhash}{a90ed86721d1e5d81cad1dced2f2e32d}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 92nd ARFTG Microwave Measurement Conference (ARFTG)}
+      \field{month}{1}
+      \field{title}{Three-Port Vector-Network-Analyzer Calibrations Using the NIST Microwave Uncertainty Framework}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ARFTG.2019.8637226
+      \endverb
+      \keyw{calibration;measurement uncertainty;microwave measurement;network analysers;wave-parameter measurement;three-port vector-network-analyzer calibrations;VNA;correlated uncertainty propagation;scattering parameters;three-port power splitter;NIST Microwave Uncertainty Framework;Calibration;Uncertainty;Microwave measurement;Microwave theory and techniques;Microprogramming;Power measurement;Standards;calibration;coaxial;power splitter;physical models;three-port;uncertainty;vector network analyzer}
+    \endentry
+    \entry{Dortmans_2019}{article}{}
+      \name{author}{7}{}{%
+        {{hash=c2da3e18f22c0e02394952d97aa057f5}{%
+           family={{Dortmans}},
+           familyi={D\bibinitperiod},
+           given={J.\bibnamedelimi N.\bibnamedelimi H.},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=d3b37221c3db59048e5f67727ebbacf0}{%
+           family={{Quimby}},
+           familyi={Q\bibinitperiod},
+           given={J.\bibnamedelimi T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=abbdf4a2723b5d75432b23298cae871d}{%
+           family={{Remley}},
+           familyi={R\bibinitperiod},
+           given={K.\bibnamedelimi A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d3ba843c131b901b1148ef2be621fe4c}{%
+           family={{Williams}},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi F.},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=607a4e378312fe27af3c63ef965763b5}{%
+           family={{Senic}},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9281707f1dbb315f19e05d0a9a89c7ab}{%
+           family={{Sun}},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=85c955324095efd25f5d06ed537325bb}{%
+           family={{Papazian}},
+           familyi={P\bibinitperiod},
+           given={P.\bibnamedelimi B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b57fb87f2d16dcd4d6485e03c6d16ef}
+      \strng{fullhash}{c83bd8070cfd97532c9d2a59788f3d42}
+      \strng{bibnamehash}{c83bd8070cfd97532c9d2a59788f3d42}
+      \strng{authorbibnamehash}{c83bd8070cfd97532c9d2a59788f3d42}
+      \strng{authornamehash}{2b57fb87f2d16dcd4d6485e03c6d16ef}
+      \strng{authorfullhash}{c83bd8070cfd97532c9d2a59788f3d42}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-926X}
+      \field{journaltitle}{IEEE Transactions on Antennas and Propagation}
+      \field{title}{Design of a Portable Verification Artifact for Millimeter-Wave-Frequency Channel Sounders1}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 1}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1109/TAP.2019.2902623
+      \endverb
+      \keyw{Delays;Antenna measurements;Temperature control;Wireless communication;Metals;Antennas;Reflection;5G technology;channel sounder;millimeter-wave wireless communication;propagation channel;wireless system}
+    \endentry
+    \entry{Sanders_2019}{article}{}
+      \name{author}{6}{}{%
+        {{hash=0489427daac24e22e8953cf6071d5a95}{%
+           family={{Gu}},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e9624de7b2f567e77587eeb44b2a2903}{%
+           family={{Lu}},
+           familyi={L\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=44e8582541dff7ad1ca07214fd50580a}{%
+           family={{Jamroz}},
+           familyi={J\bibinitperiod},
+           given={B.\bibnamedelimi F.},
+           giveni={B\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=d3ba843c131b901b1148ef2be621fe4c}{%
+           family={{Williams}},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi F.},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=8e3e71a70a05210c1627bd0554a9ba44}{%
+           family={{Cui}},
+           familyi={C\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=fb786546f3263c8dc31a5aa3fd0ba8de}{%
+           family={{Sanders}},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd0362f5e5a0d033f9dc2ac94940c710}
+      \strng{fullhash}{93587cadc3fd869390258e8d592a64f0}
+      \strng{bibnamehash}{93587cadc3fd869390258e8d592a64f0}
+      \strng{authorbibnamehash}{93587cadc3fd869390258e8d592a64f0}
+      \strng{authornamehash}{fd0362f5e5a0d033f9dc2ac94940c710}
+      \strng{authorfullhash}{93587cadc3fd869390258e8d592a64f0}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9456}
+      \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{NIST-Traceable Microwave Power Measurement in a Waveguide Calorimeter With Correlated Uncertainties}
+      \field{volume}{68}
+      \field{year}{2019}
+      \field{pages}{2280\bibrangedash 2287}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/TIM.2018.2886731
+      \endverb
+      \keyw{calibration;calorimeters;microwave measurement;network analysers;power measurement;waveguides;waveguide calorimeter;microwave power traceability;vector network analyzer;WR-15 frequency band;wave-parameter approach;NIST-traceable microwave power measurement;calibration technique;correction factor measurement;Uncertainty;Microwave measurement;Calibration;Microwave communication;Microwave FET integrated circuits;Microwave integrated circuits;Microcalorimeter;microwave power;traceability;uncertainty correlation;vector wave parameter}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
