@@ -1,145 +1,117 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630) (preloaded format=pdflatex 2018.3.11)  31 JUL 2019 19:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.4)  6 AUG 2019 21:01
 entering extended mode
-**./ch4-vnaunc.tex
-(ch4-vnaunc.tex
-LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 72 language(s) loaded.
-
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfiles\subfiles.
-cls"
-Document Class: subfiles 2012/05/23 Federico Garcia
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.sty
-"
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks14
-\verbatim@line=\toks15
-\verbatim@in@stream=\read1
-)
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**ch4-vnaunc.tex
+(./ch4-vnaunc.tex
+LaTeX2e <2018-12-01>
+(c:/texlive/2019/texmf-dist/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2018/07/31 Federico Garcia, Gernot Salzer
 Preamble taken from file `../thesis/thesis.tex'
-(../thesis/thesis.tex
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\book.cls"
-Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\bk10.clo"
-File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(../thesis/thesis.tex (c:/texlive/2019/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2018/09/03 v1.4i Standard LaTeX document class
+(c:/texlive/2019/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@chapter=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(../preamble.sty
+) (../preamble.sty
 
 LaTeX Warning: You have requested package `../preamble',
                but the package provides `preamble'.
 
 Package: preamble 
+(c:/texlive/2019/texmf-dist/tex/latex/subfiles/subfiles.sty
+Package: subfiles 2018/07/31 Federico Garcia, Gernot Salzer
 
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfiles\subfiles.
-sty"
-Package: subfiles 2012/05/23 Federico Garcia
+(c:/texlive/2019/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks14
+\verbatim@line=\toks15
+\verbatim@in@stream=\read1
+))
+(c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
+
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
 )
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
-sty"
-Package: biblatex 2018/03/04 v3.11 programmable bibliographies (PK/MW)
 
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexc
-mds.sty"
-Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
-rr.sty"
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluate
-x.sty"
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
-.sty"
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
-ty"
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.
-sty"
-Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count88
+(c:/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count89
 )
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
-y"
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
-.sty"
+(c:/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetke
-ys.sty"
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmd
-s.sty"
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
+(c:/texlive/2019/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count89
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.def"
+\lrq@indent=\count90
+
+(c:/texlive/2019/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) ("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
-"
+))
+(c:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-) ("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
+)
+(c:/texlive/2019/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xstring\xstring.st
-y"
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xstring\xstring.
-tex"
-\@xs@message=\write3
-\integerpart=\count90
-\decimalpart=\count91
-)
-Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
-)
-\c@tabx@nest=\count92
-\c@listtotal=\count93
-\c@listcount=\count94
-\c@liststart=\count95
-\c@liststop=\count96
-\c@citecount=\count97
-\c@citetotal=\count98
-\c@multicitecount=\count99
-\c@multicitetotal=\count100
-\c@instcount=\count101
-\c@maxnames=\count102
-\c@minnames=\count103
-\c@maxitems=\count104
-\c@minitems=\count105
-\c@citecounter=\count106
+\c@tabx@nest=\count91
+\c@listtotal=\count92
+\c@listcount=\count93
+\c@liststart=\count94
+\c@liststop=\count95
+\c@citecount=\count96
+\c@citetotal=\count97
+\c@multicitecount=\count98
+\c@multicitetotal=\count99
+\c@instcount=\count100
+\c@maxnames=\count101
+\c@minnames=\count102
+\c@maxitems=\count103
+\c@minitems=\count104
+\c@citecounter=\count105
+\c@maxcitecounter=\count106
 \c@savedcitecounter=\count107
 \c@uniquelist=\count108
 \c@uniquename=\count109
@@ -147,22 +119,24 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \c@refsegment=\count111
 \c@maxextratitle=\count112
 \c@maxextratitleyear=\count113
-\c@maxextradate=\count114
-\c@maxextraalpha=\count115
-\c@abbrvpenalty=\count116
-\c@highnamepenalty=\count117
-\c@lownamepenalty=\count118
-\c@maxparens=\count119
-\c@parenlevel=\count120
-\blx@tempcnta=\count121
-\blx@tempcntb=\count122
-\blx@tempcntc=\count123
-\blx@maxsection=\count124
-\blx@maxsegment@0=\count125
-\blx@notetype=\count126
-\blx@parenlevel@text=\count127
-\blx@parenlevel@foot=\count128
-\blx@sectionciteorder@0=\count129
+\c@maxextraname=\count114
+\c@maxextradate=\count115
+\c@maxextraalpha=\count116
+\c@abbrvpenalty=\count117
+\c@highnamepenalty=\count118
+\c@lownamepenalty=\count119
+\c@maxparens=\count120
+\c@parenlevel=\count121
+\blx@tempcnta=\count122
+\blx@tempcntb=\count123
+\blx@tempcntc=\count124
+\blx@maxsection=\count125
+\blx@maxsegment@0=\count126
+\blx@notetype=\count127
+\blx@parenlevel@text=\count128
+\blx@parenlevel@foot=\count129
+\blx@sectionciteorder@0=\count130
+\blx@entrysetcounter=\count131
 \labelnumberwidth=\skip43
 \labelalphawidth=\skip44
 \biblabelsep=\skip45
@@ -172,89 +146,88 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \bibparsep=\skip49
 \bibhang=\skip50
 \blx@bcfin=\read2
-\blx@bcfout=\write4
-\c@mincomprange=\count130
-\c@maxcomprange=\count131
-\c@mincompwidth=\count132
+\blx@bcfout=\write3
+\c@mincomprange=\count132
+\c@maxcomprange=\count133
+\c@mincompwidth=\count134
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-dm.de
-f"
-File: blx-dm.def 2018/03/04 v3.11 biblatex localization (PK/MW)
+(c:/texlive/2019/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count133
-\c@savedafterword=\count134
-\c@annotator=\count135
-\c@savedannotator=\count136
-\c@author=\count137
-\c@savedauthor=\count138
-\c@bookauthor=\count139
-\c@savedbookauthor=\count140
-\c@commentator=\count141
-\c@savedcommentator=\count142
-\c@editor=\count143
-\c@savededitor=\count144
-\c@editora=\count145
-\c@savededitora=\count146
-\c@editorb=\count147
-\c@savededitorb=\count148
-\c@editorc=\count149
-\c@savededitorc=\count150
-\c@foreword=\count151
-\c@savedforeword=\count152
-\c@holder=\count153
-\c@savedholder=\count154
-\c@introduction=\count155
-\c@savedintroduction=\count156
-\c@namea=\count157
-\c@savednamea=\count158
-\c@nameb=\count159
-\c@savednameb=\count160
-\c@namec=\count161
-\c@savednamec=\count162
-\c@translator=\count163
-\c@savedtranslator=\count164
-\c@shortauthor=\count165
-\c@savedshortauthor=\count166
-\c@shorteditor=\count167
-\c@savedshorteditor=\count168
-\c@labelname=\count169
-\c@savedlabelname=\count170
-\c@institution=\count171
-\c@savedinstitution=\count172
-\c@lista=\count173
-\c@savedlista=\count174
-\c@listb=\count175
-\c@savedlistb=\count176
-\c@listc=\count177
-\c@savedlistc=\count178
-\c@listd=\count179
-\c@savedlistd=\count180
-\c@liste=\count181
-\c@savedliste=\count182
-\c@listf=\count183
-\c@savedlistf=\count184
-\c@location=\count185
-\c@savedlocation=\count186
-\c@organization=\count187
-\c@savedorganization=\count188
-\c@origlocation=\count189
-\c@savedoriglocation=\count190
-\c@origpublisher=\count191
-\c@savedorigpublisher=\count192
-\c@publisher=\count193
-\c@savedpublisher=\count194
-\c@language=\count195
-\c@savedlanguage=\count196
-\c@origlanguage=\count197
-\c@savedoriglanguage=\count198
-\c@pageref=\count199
-\c@savedpageref=\count266
+\c@afterword=\count135
+\c@savedafterword=\count136
+\c@annotator=\count137
+\c@savedannotator=\count138
+\c@author=\count139
+\c@savedauthor=\count140
+\c@bookauthor=\count141
+\c@savedbookauthor=\count142
+\c@commentator=\count143
+\c@savedcommentator=\count144
+\c@editor=\count145
+\c@savededitor=\count146
+\c@editora=\count147
+\c@savededitora=\count148
+\c@editorb=\count149
+\c@savededitorb=\count150
+\c@editorc=\count151
+\c@savededitorc=\count152
+\c@foreword=\count153
+\c@savedforeword=\count154
+\c@holder=\count155
+\c@savedholder=\count156
+\c@introduction=\count157
+\c@savedintroduction=\count158
+\c@namea=\count159
+\c@savednamea=\count160
+\c@nameb=\count161
+\c@savednameb=\count162
+\c@namec=\count163
+\c@savednamec=\count164
+\c@translator=\count165
+\c@savedtranslator=\count166
+\c@shortauthor=\count167
+\c@savedshortauthor=\count168
+\c@shorteditor=\count169
+\c@savedshorteditor=\count170
+\c@labelname=\count171
+\c@savedlabelname=\count172
+\c@institution=\count173
+\c@savedinstitution=\count174
+\c@lista=\count175
+\c@savedlista=\count176
+\c@listb=\count177
+\c@savedlistb=\count178
+\c@listc=\count179
+\c@savedlistc=\count180
+\c@listd=\count181
+\c@savedlistd=\count182
+\c@liste=\count183
+\c@savedliste=\count184
+\c@listf=\count185
+\c@savedlistf=\count186
+\c@location=\count187
+\c@savedlocation=\count188
+\c@organization=\count189
+\c@savedorganization=\count190
+\c@origlocation=\count191
+\c@savedoriglocation=\count192
+\c@origpublisher=\count193
+\c@savedorigpublisher=\count194
+\c@publisher=\count195
+\c@savedpublisher=\count196
+\c@language=\count197
+\c@savedlanguage=\count198
+\c@origlanguage=\count199
+\c@savedoriglanguage=\count266
+\c@pageref=\count267
+\c@savedpageref=\count268
 \shorthandwidth=\skip51
 \shortjournalwidth=\skip52
 \shortserieswidth=\skip53
@@ -272,65 +245,57 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-compa
-t.def"
-File: blx-compat.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+(c:/texlive/2019/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
-def"
-File: biblatex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
-\c@textcitecount=\count267
-\c@textcitetotal=\count268
-\c@textcitemaxnames=\count269
-\c@biburlnumpenalty=\count270
-\c@biburlucpenalty=\count271
-\c@biburllcpenalty=\count272
-\c@smartand=\count273
+(c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+\c@textcitecount=\count269
+\c@textcitetotal=\count270
+\c@textcitemaxnames=\count271
+\c@biburlnumpenalty=\count272
+\c@biburlucpenalty=\count273
+\c@biburllcpenalty=\count274
+\c@smartand=\count275
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
 
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-ieee\ieee
-.bbx"
-File: ieee.bbx 2017/03/27 v1.2d biblatex bibliography style
+(c:/texlive/2019/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
+File: ieee.bbx 2019/06/19 v1.3a biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\numer
-ic-comp.bbx"
-File: numeric-comp.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
+(c:/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\numer
-ic.bbx"
-File: numeric.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
+(c:/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\stand
-ard.bbx"
-File: standard.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count274
-\c@bbx:relatedtotal=\count275
+(c:/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count276
+\c@bbx:relatedtotal=\count277
 ))))
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
 
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-ieee\ieee
-.cbx"
-File: ieee.cbx 2017/03/27 v1.2d biblatex citation style
+(c:/texlive/2019/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
+File: ieee.cbx 2019/06/19 v1.3a biblatex citation style
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\cbx\numer
-ic-comp.cbx"
-File: numeric-comp.cbx 2018/03/04 v3.11 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count276
-\c@cbx@tempcntb=\count277
+(c:/texlive/2019/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count278
+\c@cbx@tempcntb=\count279
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -349,38 +314,32 @@ Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
-cfg"
+(c:/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
-sty"
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
-sty"
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graph
-ics.cfg"
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdfte
-x.def"
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titlesec\titlesec.
-sty"
-Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box26
+(c:/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/07/16 v2.11 Sectioning titles
+\ttl@box=\box27
 \beforetitleunit=\skip65
 \aftertitleunit=\skip66
 \ttl@plus=\dimen105
@@ -390,22 +349,19 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen108
 \titlewidthfirst=\dimen109
 )
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
-sty"
-Package: geometry 2010/09/12 v5.6 Page Geometry
+(c:/texlive/2019/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
 
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.
-sty"
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.
-sty"
+(c:/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count278
-\Gm@cntv=\count279
-\c@Gm@tempcnt=\count280
+\Gm@cnth=\count280
+\Gm@cntv=\count281
+\c@Gm@tempcnt=\count282
 \Gm@bindingoffset=\dimen110
 \Gm@wd@mp=\dimen111
 \Gm@odd@mp=\dimen112
@@ -415,12 +371,9 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen116
 \Gm@layoutvoffset=\dimen117
 \Gm@dimlist=\toks18
-
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
-cfg"))
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.
-sty"
-Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+)
+(c:/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip67
 \f@nch@O@elh=\skip68
@@ -432,56 +385,50 @@ s
 \f@nch@O@olf=\skip74
 \f@nch@O@orf=\skip75
 )
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
-y"
-Package: amsmath 2017/09/02 v2.17a AMS math features
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip76
 
 For additional information on amsmath, use the `?' option.
-
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
-y"
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
-"
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen118
 ))
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
-"
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen119
 )
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
-"
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count281
-LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count282
-\leftroot@=\count283
-LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count284
-\DOTSCASE@=\count285
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box27
-\strutbox@=\box28
+\inf@bad=\count283
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count284
+\leftroot@=\count285
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count286
+\DOTSCASE@=\count287
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
 \big@size=\dimen120
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count286
-\c@MaxMatrixCols=\count287
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count288
+\c@MaxMatrixCols=\count289
 \dotsspace@=\muskip11
-\c@parentequation=\count288
-\dspbrk@lvl=\count289
+\c@parentequation=\count290
+\dspbrk@lvl=\count291
 \tag@help=\toks20
-\row@=\count290
-\column@=\count291
-\maxfields@=\count292
+\row@=\count292
+\column@=\count293
+\maxfields@=\count294
 \andhelp@=\toks21
 \eqnshift@=\dimen121
 \alignsep@=\dimen122
@@ -493,36 +440,35 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \multlinegap=\skip77
 \multlinetaggap=\skip78
 \mathdisplay@stack=\toks23
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
-) ("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\bm.sty"
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+(c:/texlive/2019/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup4
 \symboldletters=\mathgroup5
 \symboldsymbols=\mathgroup6
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 207.
-) ("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xpatch\xpatch.st
-y"
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
-"
-Package: expl3 2018/03/05 L3 programming layer (loader) 
+)
+(c:/texlive/2019/texmf-dist/tex/latex/xpatch/xpatch.sty
+(c:/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2019-07-25 L3 programming layer (loader) 
 
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3-cod
-e.tex"
-Package: expl3 2018/03/05 L3 programming layer (code)
-\c_max_int=\count293
-\l_tmpa_int=\count294
-\l_tmpb_int=\count295
-\g_tmpa_int=\count296
-\g_tmpb_int=\count297
-\g__intarray_font_int=\count298
-\g__prg_map_int=\count299
-\c_log_iow=\count300
-\l_iow_line_count_int=\count301
-\l__iow_line_target_int=\count302
-\l__iow_one_indent_int=\count303
-\l__iow_indent_int=\count304
+(c:/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2019-07-25 L3 programming layer (code)
+\c_max_int=\count295
+\l_tmpa_int=\count296
+\l_tmpb_int=\count297
+\g_tmpa_int=\count298
+\g_tmpb_int=\count299
+\g__kernel_prg_map_int=\count300
+\c__ior_term_ior=\count301
+\c_log_iow=\count302
+\l_iow_line_count_int=\count303
+\l__iow_line_target_int=\count304
+\l__iow_one_indent_int=\count305
+\l__iow_indent_int=\count306
 \c_zero_dim=\dimen127
 \c_max_dim=\dimen128
 \l_tmpa_dim=\dimen129
@@ -541,375 +487,201 @@ Package: expl3 2018/03/05 L3 programming layer (code)
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count305
-\c__fp_leading_shift_int=\count306
-\c__fp_middle_shift_int=\count307
-\c__fp_trailing_shift_int=\count308
-\c__fp_big_leading_shift_int=\count309
-\c__fp_big_middle_shift_int=\count310
-\c__fp_big_trailing_shift_int=\count311
-\c__fp_Bigg_leading_shift_int=\count312
-\c__fp_Bigg_middle_shift_int=\count313
-\c__fp_Bigg_trailing_shift_int=\count314
-\c__fp_rand_size_int=\count315
-\c__fp_rand_four_int=\count316
-\c__fp_rand_eight_int=\count317
-\l__sort_length_int=\count318
-\l__sort_min_int=\count319
-\l__sort_top_int=\count320
-\l__sort_max_int=\count321
-\l__sort_true_max_int=\count322
-\l__sort_block_int=\count323
-\l__sort_begin_int=\count324
-\l__sort_end_int=\count325
-\l__sort_A_int=\count326
-\l__sort_B_int=\count327
-\l__sort_C_int=\count328
-\l__tl_build_start_index_int=\count329
-\l__tl_build_index_int=\count330
-\l__tl_analysis_normal_int=\count331
-\l__tl_analysis_index_int=\count332
-\l__tl_analysis_nesting_int=\count333
-\l__tl_analysis_type_int=\count334
-\l__regex_internal_a_int=\count335
-\l__regex_internal_b_int=\count336
-\l__regex_internal_c_int=\count337
-\l__regex_balance_int=\count338
-\l__regex_group_level_int=\count339
-\l__regex_mode_int=\count340
-\c__regex_cs_in_class_mode_int=\count341
-\c__regex_cs_mode_int=\count342
-\l__regex_catcodes_int=\count343
-\l__regex_default_catcodes_int=\count344
-\c__regex_catcode_D_int=\count345
-\c__regex_catcode_S_int=\count346
-\c__regex_catcode_L_int=\count347
-\c__regex_catcode_O_int=\count348
-\c__regex_catcode_A_int=\count349
-\c__regex_all_catcodes_int=\count350
-\l__regex_show_lines_int=\count351
-\l__regex_min_state_int=\count352
-\l__regex_max_state_int=\count353
-\l__regex_left_state_int=\count354
-\l__regex_right_state_int=\count355
-\l__regex_capturing_group_int=\count356
-\l__regex_min_pos_int=\count357
-\l__regex_max_pos_int=\count358
-\l__regex_curr_pos_int=\count359
-\l__regex_start_pos_int=\count360
-\l__regex_success_pos_int=\count361
-\l__regex_curr_char_int=\count362
-\l__regex_curr_catcode_int=\count363
-\l__regex_last_char_int=\count364
-\l__regex_case_changed_char_int=\count365
-\l__regex_curr_state_int=\count366
-\l__regex_step_int=\count367
-\l__regex_min_active_int=\count368
-\l__regex_max_active_int=\count369
-\l__regex_replacement_csnames_int=\count370
-\l__regex_match_count_int=\count371
-\l__regex_min_submatch_int=\count372
-\l__regex_submatch_int=\count373
-\l__regex_zeroth_submatch_int=\count374
-\g__regex_trace_regex_int=\count375
-\c_empty_box=\box29
-\l_tmpa_box=\box30
-\l_tmpb_box=\box31
-\g_tmpa_box=\box32
-\g_tmpb_box=\box33
-\l__box_top_dim=\dimen133
-\l__box_bottom_dim=\dimen134
-\l__box_left_dim=\dimen135
-\l__box_right_dim=\dimen136
-\l__box_top_new_dim=\dimen137
-\l__box_bottom_new_dim=\dimen138
-\l__box_left_new_dim=\dimen139
-\l__box_right_new_dim=\dimen140
-\l__box_internal_box=\box34
-\l__coffin_internal_box=\box35
-\l__coffin_internal_dim=\dimen141
-\l__coffin_offset_x_dim=\dimen142
-\l__coffin_offset_y_dim=\dimen143
-\l__coffin_x_dim=\dimen144
-\l__coffin_y_dim=\dimen145
-\l__coffin_x_prime_dim=\dimen146
-\l__coffin_y_prime_dim=\dimen147
-\c_empty_coffin=\box36
-\l__coffin_aligned_coffin=\box37
-\l__coffin_aligned_internal_coffin=\box38
-\l_tmpa_coffin=\box39
-\l_tmpb_coffin=\box40
-\l__coffin_display_coffin=\box41
-\l__coffin_display_coord_coffin=\box42
-\l__coffin_display_pole_coffin=\box43
-\l__coffin_display_offset_dim=\dimen148
-\l__coffin_display_x_dim=\dimen149
-\l__coffin_display_y_dim=\dimen150
-\l__coffin_bounding_shift_dim=\dimen151
-\l__coffin_left_corner_dim=\dimen152
-\l__coffin_right_corner_dim=\dimen153
-\l__coffin_bottom_corner_dim=\dimen154
-\l__coffin_top_corner_dim=\dimen155
-\l__coffin_scaled_total_height_dim=\dimen156
-\l__coffin_scaled_width_dim=\dimen157
+\l_keys_choice_int=\count307
+\l__intarray_loop_int=\count308
+\c__intarray_sp_dim=\dimen133
+\g__intarray_font_int=\count309
+\c__fp_leading_shift_int=\count310
+\c__fp_middle_shift_int=\count311
+\c__fp_trailing_shift_int=\count312
+\c__fp_big_leading_shift_int=\count313
+\c__fp_big_middle_shift_int=\count314
+\c__fp_big_trailing_shift_int=\count315
+\c__fp_Bigg_leading_shift_int=\count316
+\c__fp_Bigg_middle_shift_int=\count317
+\c__fp_Bigg_trailing_shift_int=\count318
+\c__kernel_randint_max_int=\count319
+\g__fp_array_int=\count320
+\l__fp_array_loop_int=\count321
+\l__sort_length_int=\count322
+\l__sort_min_int=\count323
+\l__sort_top_int=\count324
+\l__sort_max_int=\count325
+\l__sort_true_max_int=\count326
+\l__sort_block_int=\count327
+\l__sort_begin_int=\count328
+\l__sort_end_int=\count329
+\l__sort_A_int=\count330
+\l__sort_B_int=\count331
+\l__sort_C_int=\count332
+\l__str_internal_int=\count333
+\c__str_replacement_char_int=\count334
+\l__tl_analysis_normal_int=\count335
+\l__tl_analysis_index_int=\count336
+\l__tl_analysis_nesting_int=\count337
+\l__tl_analysis_type_int=\count338
+\l__regex_internal_a_int=\count339
+\l__regex_internal_b_int=\count340
+\l__regex_internal_c_int=\count341
+\l__regex_balance_int=\count342
+\l__regex_group_level_int=\count343
+\l__regex_mode_int=\count344
+\c__regex_cs_in_class_mode_int=\count345
+\c__regex_cs_mode_int=\count346
+\l__regex_catcodes_int=\count347
+\l__regex_default_catcodes_int=\count348
+\c__regex_catcode_D_int=\count349
+\c__regex_catcode_S_int=\count350
+\c__regex_catcode_L_int=\count351
+\c__regex_catcode_O_int=\count352
+\c__regex_catcode_A_int=\count353
+\c__regex_all_catcodes_int=\count354
+\l__regex_show_lines_int=\count355
+\l__regex_min_state_int=\count356
+\l__regex_max_state_int=\count357
+\l__regex_left_state_int=\count358
+\l__regex_right_state_int=\count359
+\l__regex_capturing_group_int=\count360
+\l__regex_min_pos_int=\count361
+\l__regex_max_pos_int=\count362
+\l__regex_curr_pos_int=\count363
+\l__regex_start_pos_int=\count364
+\l__regex_success_pos_int=\count365
+\l__regex_curr_char_int=\count366
+\l__regex_curr_catcode_int=\count367
+\l__regex_last_char_int=\count368
+\l__regex_case_changed_char_int=\count369
+\l__regex_curr_state_int=\count370
+\l__regex_step_int=\count371
+\l__regex_min_active_int=\count372
+\l__regex_max_active_int=\count373
+\l__regex_replacement_csnames_int=\count374
+\l__regex_match_count_int=\count375
+\l__regex_min_submatch_int=\count376
+\l__regex_submatch_int=\count377
+\l__regex_zeroth_submatch_int=\count378
+\g__regex_trace_regex_int=\count379
+\c_empty_box=\box30
+\l_tmpa_box=\box31
+\l_tmpb_box=\box32
+\g_tmpa_box=\box33
+\g_tmpb_box=\box34
+\l__box_top_dim=\dimen134
+\l__box_bottom_dim=\dimen135
+\l__box_left_dim=\dimen136
+\l__box_right_dim=\dimen137
+\l__box_top_new_dim=\dimen138
+\l__box_bottom_new_dim=\dimen139
+\l__box_left_new_dim=\dimen140
+\l__box_right_new_dim=\dimen141
+\l__box_internal_box=\box35
+\l__coffin_internal_box=\box36
+\l__coffin_internal_dim=\dimen142
+\l__coffin_offset_x_dim=\dimen143
+\l__coffin_offset_y_dim=\dimen144
+\l__coffin_x_dim=\dimen145
+\l__coffin_y_dim=\dimen146
+\l__coffin_x_prime_dim=\dimen147
+\l__coffin_y_prime_dim=\dimen148
+\c_empty_coffin=\box37
+\l__coffin_aligned_coffin=\box38
+\l__coffin_aligned_internal_coffin=\box39
+\l_tmpa_coffin=\box40
+\l_tmpb_coffin=\box41
+\g_tmpa_coffin=\box42
+\g_tmpb_coffin=\box43
+\l__coffin_bounding_shift_dim=\dimen149
+\l__coffin_left_corner_dim=\dimen150
+\l__coffin_right_corner_dim=\dimen151
+\l__coffin_bottom_corner_dim=\dimen152
+\l__coffin_top_corner_dim=\dimen153
+\l__coffin_scaled_total_height_dim=\dimen154
+\l__coffin_scaled_width_dim=\dimen155
+\c__coffin_empty_coffin=\box44
+\l__coffin_display_coffin=\box45
+\l__coffin_display_coord_coffin=\box46
+\l__coffin_display_pole_coffin=\box47
+\l__coffin_display_offset_dim=\dimen156
+\l__coffin_display_x_dim=\dimen157
+\l__coffin_display_y_dim=\dimen158
+\g__file_internal_ior=\read3
+\l__seq_internal_a_int=\count380
+\l__seq_internal_b_int=\count381
 )
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode
-.def"
-File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count376
+(c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2019-04-06 v L3 Experimental backend support: PDF m
+ode
+\l__kernel_color_stack_int=\count382
+\l__pdf_internal_box=\box48
 ))
 Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
 
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xparse\
-xparse.sty"
-Package: xparse 2018/02/21 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count377
-\g__xparse_grabber_int=\count378
-\l__xparse_m_args_int=\count379
-\l__xparse_mandatory_args_int=\count380
-\l__xparse_v_nesting_int=\count381
-)
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpatchcmd with sig. '' on line 125.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpretocmd with sig. '' on line 126.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xapptocmd with sig. '' on line 127.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xshowcmd with sig. '' on line 128.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpatchbibmacro with sig. 'm' on line 131.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpretobibmacro with sig. 'm' on line 133.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xapptobibmacro with sig. 'm' on line 135.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xshowbibmacro with sig. 'm' on line 137.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpatchfieldformat with sig. 'O{*}m' on line 139.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpretofieldformat with sig. 'O{*}m' on line 141.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xapptofieldformat with sig. 'O{*}m' on line 143.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xshowfieldformat with sig. 'O{*}m' on line 145.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpatchnameformat with sig. 'O{*}m' on line 147.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpretonameformat with sig. 'O{*}m' on line 149.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xapptonameformat with sig. 'O{*}m' on line 151.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xshownameformat with sig. 'O{*}m' on line 153.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpatchlistformat with sig. 'O{*}m' on line 155.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpretolistformat with sig. 'O{*}m' on line 157.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xapptolistformat with sig. 'O{*}m' on line 159.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xshowlistformat with sig. 'O{*}m' on line 161.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpatchindexfieldformat with sig. 'O{*}m' on line 163.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpretoindexfieldformat with sig. 'O{*}m' on line 165.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xapptoindexfieldformat with sig. 'O{*}m' on line 167.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xshowindexfieldformat with sig. 'O{*}m' on line 169.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpatchindexnameformat with sig. 'O{*}m' on line 171.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpretoindexnameformat with sig. 'O{*}m' on line 173.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xapptoindexnameformat with sig. 'O{*}m' on line 175.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xshowindexnameformat with sig. 'O{*}m' on line 177.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpatchindexlistformat with sig. 'O{*}m' on line 179.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpretoindexlistformat with sig. 'O{*}m' on line 181.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xappindextolistformat with sig. 'O{*}m' on line 183.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xshowindexlistformat with sig. 'O{*}m' on line 185.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpatchbibdriver with sig. 'm' on line 187.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xpretobibdriver with sig. 'm' on line 189.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xapptobibdriver with sig. 'm' on line 191.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \xshowbibdriver with sig. 'm' on line 193.
-.................................................
-)
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\booktabs\booktabs.
-sty"
-Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen158
-\lightrulewidth=\dimen159
-\cmidrulewidth=\dimen160
-\belowrulesep=\dimen161
-\belowbottomsep=\dimen162
-\aboverulesep=\dimen163
-\abovetopsep=\dimen164
-\cmidrulesep=\dimen165
-\cmidrulekern=\dimen166
-\defaultaddspace=\dimen167
-\@cmidla=\count382
-\@cmidlb=\count383
-\@aboverulesep=\dimen168
-\@belowrulesep=\dimen169
-\@thisruleclass=\count384
-\@lastruleclass=\count385
-\@thisrulewidth=\dimen170
-)
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcaption
-.sty"
-Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
-
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.st
-y"
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
-
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.s
-ty"
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen171
-\captionmargin@=\dimen172
-\captionwidth=\dimen173
-\caption@tempdima=\dimen174
-\caption@indent=\dimen175
-\caption@parindent=\dimen176
-\caption@hangindent=\dimen177
-)
-\c@ContinuedFloat=\count386
-)
-\c@subfigure=\count387
-\c@subtable=\count388
+(c:/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2019-05-28 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count383
+\g__xparse_grabber_int=\count384
+\l__xparse_m_args_int=\count385
+\l__xparse_v_nesting_int=\count386
 ))
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
-Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count389
+(c:/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen159
+\lightrulewidth=\dimen160
+\cmidrulewidth=\dimen161
+\belowrulesep=\dimen162
+\belowbottomsep=\dimen163
+\aboverulesep=\dimen164
+\abovetopsep=\dimen165
+\cmidrulesep=\dimen166
+\cmidrulekern=\dimen167
+\defaultaddspace=\dimen168
+\@cmidla=\count387
+\@cmidlb=\count388
+\@aboverulesep=\dimen169
+\@belowrulesep=\dimen170
+\@thisruleclass=\count389
+\@lastruleclass=\count390
+\@thisrulewidth=\dimen171
 )
+(c:/texlive/2019/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen172
+\captionmargin@=\dimen173
+\captionwidth=\dimen174
+\caption@tempdima=\dimen175
+\caption@indent=\dimen176
+\caption@parindent=\dimen177
+\caption@hangindent=\dimen178
+)
+\c@caption@flags=\count391
+\c@ContinuedFloat=\count392
+)
+\c@subfigure=\count393
+\c@subtable=\count394
+))
+(c:/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+
+(c:/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+))
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\engli
-sh.lbx"
-File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
+(c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
-\@quotelevel=\count390
-\@quotereset=\count391
-)) (ch4-vnaunc.aux)
+\@quotelevel=\count395
+\@quotereset=\count396
+))
+(./ch4-vnaunc.aux)
 \openout1 = `ch4-vnaunc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -924,43 +696,37 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
-Package biblatex Info: No input encoding detected.
-(biblatex)             Assuming 'ascii'.
+Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'ascii'.
-\openout4 = `ch4-vnaunc.bcf'.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `ch4-vnaunc.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ch4-vnaunc.bbl' found.
- (ch4-vnaunc.bbl)
+ (./ch4-vnaunc.bbl)
 Package biblatex Info: Reference section=0 on input line 5.
 Package biblatex Info: Reference segment=0 on input line 5.
 
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
-ii"
+(c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count392
-\scratchdimen=\dimen178
-\scratchbox=\box44
-\nofMPsegments=\count393
-\nofMParguments=\count394
+\scratchcounter=\count397
+\scratchdimen=\dimen179
+\scratchbox=\box49
+\nofMPsegments=\count398
+\nofMParguments=\count399
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count395
-\MPscratchDim=\dimen179
-\MPnumerator=\count396
-\makeMPintoPDFobject=\count397
+\MPscratchCnt=\count400
+\MPscratchDim=\dimen180
+\MPnumerator=\count401
+\makeMPintoPDFobject=\count402
 \everyMPtoPDFconversion=\toks25
-)
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
-base.sty"
+) (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.st
-y"
+(c:/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Users\helgr\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefin
-ekeys.sty"
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -969,7 +735,11 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-)
+
+(c:/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1006,8 +776,8 @@ G,.JBIG2,.JB2,.eps]
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-\blx@maxsegment@1=\count398
-\blx@sectionciteorder@1=\count399
+\blx@maxsegment@1=\count403
+\blx@sectionciteorder@1=\count404
 Package biblatex Info: Reference section=1 on input line 9.
 Package biblatex Info: Setting label 'refsection:1' on input line 9.
 Chapter 4.
@@ -1016,34 +786,30 @@ Overfull \hbox (0.33437pt too wide) in paragraph at lines 10--10
 |[]\OT1/cmr/bx/n/20.74 Evaluating Un-cer-tainty in Vec-tor Net-
  []
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 [1
 
 
-{C:/Users/helgr/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<../figs/ch4-vnaunc/vna_model.pdf, id=7, 874.26625pt x 474.77374pt>
+{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<../figs/ch4-vnaunc/vna_model.pdf, id=8, 874.26625pt x 474.77374pt>
 File: ../figs/ch4-vnaunc/vna_model.pdf Graphic file (type pdf)
 <use ../figs/ch4-vnaunc/vna_model.pdf>
 Package pdftex.def Info: ../figs/ch4-vnaunc/vna_model.pdf  used on input line 2
 4.
 (pdftex.def)             Requested size: 418.25368pt x 227.13538pt.
- [2]
-[3 <../figs/ch4-vnaunc/vna_model.pdf>] [4] [5] [6] [7] [8] [9]
-<../figs/ch4-vnaunc/Ripple1.png, id=41, 324.21124pt x 273.02pt>
+ [2] [3 <../figs/ch4-vnaunc/vna_model.pdf>] [4] [5] [6] [7] [8] [9]
+<../figs/ch4-vnaunc/Ripple1.png, id=42, 324.21124pt x 273.02pt>
 File: ../figs/ch4-vnaunc/Ripple1.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/Ripple1.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/Ripple1.png  used on input line 142
 .
 (pdftex.def)             Requested size: 167.2989pt x 140.8839pt.
-<../figs/ch4-vnaunc/Ripple2.png, id=43, 718.685pt x 274.02374pt>
+<../figs/ch4-vnaunc/Ripple2.png, id=44, 718.685pt x 274.02374pt>
 File: ../figs/ch4-vnaunc/Ripple2.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/Ripple2.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/Ripple2.png  used on input line 148
 .
 (pdftex.def)             Requested size: 334.60422pt x 127.58278pt.
-<../figs/ch4-vnaunc/Ripple3.png, id=44, 718.685pt x 274.02374pt>
+<../figs/ch4-vnaunc/Ripple3.png, id=45, 718.685pt x 274.02374pt>
 File: ../figs/ch4-vnaunc/Ripple3.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/Ripple3.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/Ripple3.png  used on input line 154
@@ -1053,44 +819,41 @@ Package pdftex.def Info: ../figs/ch4-vnaunc/Ripple3.png  used on input line 154
 
 LaTeX Warning: Float too large for page by 1.01921pt on input line 159.
 
-[10] [11 <../figs/ch4-vnaunc/Ripple1.png> <../figs/ch4-vnaunc/Ripple2.png> <../
-figs/ch4-vnaunc/Ripple3.png>]
-<../figs/ch4-vnaunc/dir_smith.png, id=58, 353.82187pt x 389.95688pt>
+[10] [11 <../figs/ch4-vnaunc/Ripple1.PNG> <../figs/ch4-vnaunc/Ripple2.PNG> <../
+figs/ch4-vnaunc/Ripple3.PNG>]
+<../figs/ch4-vnaunc/dir_smith.png, id=59, 353.82187pt x 389.95688pt>
 File: ../figs/ch4-vnaunc/dir_smith.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/dir_smith.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/dir_smith.png  used on input line 1
 71.
 (pdftex.def)             Requested size: 150.57158pt x 165.9526pt.
-<../figs/ch4-vnaunc/dir_xy.png, id=59, 247.3605pt x 174.762pt>
+<../figs/ch4-vnaunc/dir_xy.png, id=60, 247.3605pt x 174.762pt>
 File: ../figs/ch4-vnaunc/dir_xy.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/dir_xy.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/dir_xy.png  used on input line 173.
 
 (pdftex.def)             Requested size: 242.58789pt x 171.38823pt.
  [12] [13 <../figs/ch4-vnaunc/dir_smith.png> <../figs/ch4-vnaunc/dir_xy.png>]
-<../figs/ch4-vnaunc/tpm_smith.png, id=69, 362.85562pt x 396.7322pt>
+<../figs/ch4-vnaunc/tpm_smith.png, id=70, 362.85562pt x 396.7322pt>
 File: ../figs/ch4-vnaunc/tpm_smith.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/tpm_smith.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/tpm_smith.png  used on input line 1
 90.
 (pdftex.def)             Requested size: 150.57158pt x 164.62868pt.
-<../figs/ch4-vnaunc/tpm_xy.png, id=70, 234.2205pt x 165.564pt>
+<../figs/ch4-vnaunc/tpm_xy.png, id=71, 234.2205pt x 165.564pt>
 File: ../figs/ch4-vnaunc/tpm_xy.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/tpm_xy.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/tpm_xy.png  used on input line 192.
 
 (pdftex.def)             Requested size: 242.58789pt x 171.47763pt.
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
  [14 <../figs/ch4-vnaunc/tpm_smith.png> <../figs/ch4-vnaunc/tpm_xy.png>]
-<../figs/ch4-vnaunc/coaxial_load.png, id=76, 233.5635pt x 164.907pt>
+<../figs/ch4-vnaunc/coaxial_load.png, id=77, 233.5635pt x 164.907pt>
 File: ../figs/ch4-vnaunc/coaxial_load.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/coaxial_load.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/coaxial_load.png  used on input lin
 e 209.
 (pdftex.def)             Requested size: 271.86234pt x 191.94647pt.
-<../figs/ch4-vnaunc/coaxial_short.png, id=77, 233.5635pt x 164.907pt>
+<../figs/ch4-vnaunc/coaxial_short.png, id=78, 233.5635pt x 164.907pt>
 File: ../figs/ch4-vnaunc/coaxial_short.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/coaxial_short.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/coaxial_short.png  used on input li
@@ -1101,29 +864,11 @@ ne 216.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 221.
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ” in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ” in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ” in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ” in font cmr10!
 
 Overfull \hbox (13.02484pt too wide) in paragraph at lines 222--229
 [][] 
  []
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ” in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ” in font cmr10!
 [15] [16 <../figs/ch4-vnaunc/coaxial_load.png> <../figs/ch4-vnaunc/coaxial_shor
 t.png>]
 
@@ -1135,12 +880,6 @@ Overfull \hbox (7.511pt too wide) in paragraph at lines 236--244
 [][] 
  []
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ” in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ” in font cmr10!
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 252.
@@ -1150,11 +889,8 @@ Overfull \hbox (7.511pt too wide) in paragraph at lines 253--261
 [][] 
  []
 
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ” in font cmr10!
 [17]
-<../figs/ch4-vnaunc/setup.jpg, id=89, 653.44125pt x 413.29407pt>
+<../figs/ch4-vnaunc/setup.jpg, id=90, 653.44125pt x 413.29407pt>
 File: ../figs/ch4-vnaunc/setup.jpg Graphic file (type jpg)
 <use ../figs/ch4-vnaunc/setup.jpg>
 Package pdftex.def Info: ../figs/ch4-vnaunc/setup.jpg  used on input line 271.
@@ -1164,84 +900,144 @@ Package pdftex.def Info: ../figs/ch4-vnaunc/setup.jpg  used on input line 271.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 276.
 
-<../figs/ch4-vnaunc/wm380.png, id=90, 878.53218pt x 623.32875pt>
+<../figs/ch4-vnaunc/wm380.png, id=91, 878.53218pt x 623.32875pt>
 File: ../figs/ch4-vnaunc/wm380.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/wm380.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/wm380.png  used on input line 289.
 (pdftex.def)             Requested size: 271.86234pt x 192.88751pt.
-[18] [19 <../figs/ch4-vnaunc/setup.jpg>] [20 <../figs/ch4-vnaunc/wm380.png>]
+[18] [19 <../figs/ch4-vnaunc/setup.jpg>] [20 <../figs/ch4-vnaunc/WM380.png>]
 [21]
 Overfull \hbox (5.58931pt too wide) in paragraph at lines 317--317
-|[]\OT1/cmr/bx/n/12 Keysight Techno-lo-gies PNA-X Dy-n-a-mic S-Parameter Un-cer
--tainty
+|[]\OT1/cmr/bx/n/12 Keysight Tech-nolo-gies PNA-X Dy-namic S-Parameter Un-cer-t
+ainty
  []
 
-[22] [23] [24] [25]
+[22] [23] [24] [25] [26]
+<../figs/ch4-vnaunc/comb.png, id=122, 1010.27437pt x 331.2375pt>
+File: ../figs/ch4-vnaunc/comb.png Graphic file (type png)
+<use ../figs/ch4-vnaunc/comb.png>
+Package pdftex.def Info: ../figs/ch4-vnaunc/comb.png  used on input line 367.
+(pdftex.def)             Requested size: 418.25368pt x 137.13246pt.
+<../figs/ch4-vnaunc/combuncA.png, id=123, 190.311pt x 168.1482pt>
+File: ../figs/ch4-vnaunc/combuncA.png Graphic file (type png)
+<use ../figs/ch4-vnaunc/combuncA.png>
+Package pdftex.def Info: ../figs/ch4-vnaunc/combuncA.png  used on input line 37
+6.
+(pdftex.def)             Requested size: 292.77629pt x 258.71808pt.
+<../figs/ch4-vnaunc/combuncP.png, id=124, 190.0701pt x 168.1482pt>
+File: ../figs/ch4-vnaunc/combuncP.png Graphic file (type png)
+<use ../figs/ch4-vnaunc/combuncP.png>
+Package pdftex.def Info: ../figs/ch4-vnaunc/combuncP.png  used on input line 38
+2.
+(pdftex.def)             Requested size: 292.77629pt x 259.01826pt.
+
+
+LaTeX Warning: Float too large for page by 54.20612pt on input line 387.
+
+[27 <../figs/ch4-vnaunc/comb.png>] [28 <../figs/ch4-vnaunc/combuncA.png> <../fi
+gs/ch4-vnaunc/combuncP.png>]
+<../figs/ch4-vnaunc/pmchart.png, id=134, 223.0734pt x 105.2733pt>
+File: ../figs/ch4-vnaunc/pmchart.png Graphic file (type png)
+<use ../figs/ch4-vnaunc/pmchart.png>
+Package pdftex.def Info: ../figs/ch4-vnaunc/pmchart.png  used on input line 397
+.
+(pdftex.def)             Requested size: 292.77629pt x 138.17247pt.
+ [29 <../figs/ch4-vnaunc/pmchart.png>]
+<../figs/ch4-vnaunc/pmsens.png, id=139, 211.5102pt x 189.1065pt>
+File: ../figs/ch4-vnaunc/pmsens.png Graphic file (type png)
+<use ../figs/ch4-vnaunc/pmsens.png>
+Package pdftex.def Info: ../figs/ch4-vnaunc/pmsens.png  used on input line 414.
+
+(pdftex.def)             Requested size: 292.77629pt x 261.77519pt.
+ [30 <../figs/ch4-vnaunc/pmsens.png>]
+<../figs/ch4-vnaunc/linmodel.png, id=144, 246.9225pt x 286.671pt>
+File: ../figs/ch4-vnaunc/linmodel.png Graphic file (type png)
+<use ../figs/ch4-vnaunc/linmodel.png>
+Package pdftex.def Info: ../figs/ch4-vnaunc/linmodel.png  used on input line 42
+7.
+(pdftex.def)             Requested size: 292.77629pt x 339.92667pt.
+ [31 <../figs/ch4-vnaunc/linmodel.png>] [32]
 
 Package biblatex Warning: No driver for entry type 'standard'.
-(biblatex)                Using fallback driver on input line 357.
+(biblatex)                Using fallback driver on input line 434.
 
 
 Package biblatex Warning: No driver for entry type 'standard'.
-(biblatex)                Using fallback driver on input line 357.
+(biblatex)                Using fallback driver on input line 434.
 
-[26
+[33
 
 ]
-Overfull \hbox (19.24397pt too wide) in paragraph at lines 357--357
+Overfull \hbox (19.24397pt too wide) in paragraph at lines 434--434
 \OT1/cmtt/m/n/10 en -[] GB / test -[] measurement / support / downloads / softw
-are / dwl19572$ \OT1/cmr/m/n/10 (vi-si-ted on 07/16/2019). 
+are / dwl19572$ \OT1/cmr/m/n/10 (vis-ited on 07/16/2019). 
  []
 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.434 \printbibliography[title=References]
+                                          
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-Overfull \hbox (9.72485pt too wide) in paragraph at lines 357--357
-[]\OT1/cmr/m/n/10 A. Le-wan-dow-ski, ``Multi-frequency ap-pro-ach to vector-net
-work-analyzer scattering-parameter
+! Missing $ inserted.
+<inserted text> 
+                $
+l.434 \printbibliography[title=References]
+                                          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (9.72485pt too wide) in paragraph at lines 434--434
+[]\OT1/cmr/m/n/10 A. Lewandowski, ``Multi-frequency ap-proach to vector-network
+-analyzer scattering-parameter
  []
 
-
-Overfull \hbox (2.23737pt too wide) in paragraph at lines 357--357
-\OT1/cmr/m/it/10 Wave and Te-ra-hertz En-gi-neer-ing & Techno-logy 2016\OT1/cmr
-/m/n/10 , In-sti-tu-tion of En-gi-neer-ing and Techno-
+[34] [35]
+Overfull \hbox (8.52066pt too wide) in paragraph at lines 434--434
+\OT1/cmr/m/n/10 anal-y-sis,'' \OT1/cmr/m/it/10 IEEE Trans-ac-tions on In-stru-m
+en-ta-tion and Mea-sure-ment\OT1/cmr/m/n/10 , vol. 58, no. 10, pp. 3554{
  []
 
-[27] [28]
-Package biblatex Info: Reference section=0 on input line 358.
- [29] (ch4-vnaunc.aux)
+[36]
+Package biblatex Info: Reference section=0 on input line 435.
+ [37] (./ch4-vnaunc.aux)
 Package logreq Info: Writing requests to 'ch4-vnaunc.run.xml'.
 \openout1 = `ch4-vnaunc.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19803 strings out of 493339
- 379522 string characters out of 3130663
- 858721 words of memory out of 3000000
- 23154 multiletter control sequences out of 15000+200000
- 540289 words of font info for 56 fonts, out of 3000000 for 9000
- 1127 hyphenation exceptions out of 8191
- 58i,13n,47p,10500b,1803s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/helgr/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb><C:/Users/helgr/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmbx12.pfb><C:/Users/helgr/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/helgr/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/helgr/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/h
-elgr/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb
-><C:/Users/helgr/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmmi9.pfb><C:/Users/helgr/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb><C:/Users/helgr/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/helgr/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/helgr/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/helgr/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/User
-s/helgr/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb><C:/Users/helgr/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmsy9.pfb><C:/Users/helgr/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmti10.pfb><C:/Users/helgr/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ch4-vnaunc.pdf (29 pages, 703131 bytes).
+ 21564 strings out of 492609
+ 410424 string characters out of 6132819
+ 884670 words of memory out of 5000000
+ 25293 multiletter control sequences out of 15000+600000
+ 542355 words of font info for 58 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 58i,13n,67p,2100b,1809s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2019/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/
+texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/201
+9/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2019/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2019/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
+10.pfb>
+Output written on ch4-vnaunc.pdf (37 pages, 1194736 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
+ 226 PDF objects out of 1000 (max. 8388607)
+ 135 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

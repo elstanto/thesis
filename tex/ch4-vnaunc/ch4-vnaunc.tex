@@ -312,7 +312,7 @@ The investigation studied the effectiveness of the ripple extraction technique w
 
 A rigorous evaluation of VNA uncertainty can be applied by using a measurement model which includes explicit relationships of the measurands to all input quantities. This is opposed to the residual model where the combined uncertainty from a collection of input quantities (relating to the calibration) is approximated. By including explicit relationships for all input quantities, the uncertainty evaluation can be directly traceable to primary standards.
 
-There are several formulations of rigorous VNA measurement models in use, and all of them are written into a software framework due to their complexity. The differences between the models are due to optimising the same mathematical relationships for different methods of processing. This section will now describe three popular VNA uncertainty frameworks.
+There are several formulations of rigorous VNA measurement models in use, and most of them have been written into a software framework due to their complexity. The differences between the models are due to optimising the same mathematical relationships for different methods of processing. This section will now describe three popular VNA uncertainty frameworks.
 
 \subsection{Keysight Technologies PNA-X Dynamic S-Parameter Uncertainty Option}
 
@@ -349,9 +349,88 @@ The MUF does not propagate uncertainty using covariance information stored in co
 One of the most flexible features of the MUF is that any user can define their own models and post-processors (both are measurement models). This allows the MUF to provide uncertainty evaluations for new methods of electromagnetic wave metrology and communication systems research \cite{Dortmans_2019, Sanders_2019}.
 
 \section{NVNA Uncertainty Evaluation}
+
+It was explained in Chapter 2 that in order to measure nonlinear devices using a VNA, the absolute power and phase of the waves at all test ports must be known. For a VNA to obtain this information, it must undergo additional calibration steps involving a phase reference and power meter. In addition, for mixer-based VNAs (the type used throughout this work), a stable phase reference must be connected to another port of the VNA and measured alongside any DUT measurements. Each of these additional requirements add input quantities to the NVNA measurement model when compared to that of the VNA, and these will now be discussed.
+
 \subsection{Phase Reference}
+
+The phase reference used during calibration contributes both systematic and random error sources. Because it is used as a calibration standard, systematic error due to inaccuracies of the characterisation is a primary concern. This is especially true for the phase calibration where the coefficients calculated from the measurements of the reference it's characterisation have a linear relationship with the calibrated DUT waves. This is different to the relative calibration of the VNA, where at least some of the coefficients are the result of information from several different impedance standards, therefore reducing the impact of a single inaccuracy in the characterisation or measurement of a single standard. In addition, for measurements of nonlinear microwave (and millimetre-wave) devices, harmonics of interest can be well above 10 GHz, where the wavelength in a transmission line is short and connector and cable repeatability errors (i.e. random errors) can have a large effect on the accuracy of the phase calibration.
+
+The second phase reference used during measurements with a mixer-based NVNA recovers the true phases of measured waves after the local oscillator frequency changes. This phase reference does not contribute systematic error because the absolute phase values are mathematically cancelled during calibration (when measuring the first phase reference) and therefore they do not need to be known. Random errors due to connector and cable repeatability are also insignificant when measuring this device because their contributions are also cancelled during calibration and the device is never reconnected or moved afterwards. Instead, for this phase reference the dominant uncertainty contribution is drift, because to quantify the varying local oscillator phase and correct the DUT measurements, the reference phase must be constant. For this reason commercially available phase references will typically use temperature-controlled electronics to minimise the drift of the produced harmonic tones, which improves the issue \cite{Jargon_2003}. Because this phase reference is driven by another source (usually from within the NVNA, e.g. a 10 MHz reference clock), the phase noise and amplitude of this source will also have a significant effect on the uncertainty contribution. Blockley et al. provide an excellent review of this source of uncertainty and it's impact on NVNA measurements \cite{Blockley_2007}. The key finding of this review is that for measurements using an IFBW of 100 Hz or below, the uncertainty contribution of random errors originating from the phase reference is negligible for typical DUT measurements. Although for VNA measurements IFBW settings above 100 Hz can be common for wideband frequency sweeps, the harmonic nature of NVNA measurements means that the IFBW is typically 30 Hz or below, which satisfies the recommendation from \cite{Blockley_2007}
+
+To provide a suitably accurate characterisation of the phase reference a sampling oscilloscope can be used to measure the output of the device \cite{Reader_2008}. This oscilloscope can be calibrated using electro-optic techniques traceable to primary standards \cite{Williams_2006, Hale_2009}. This service is provided by NIST for Keysight phase references and includes information on the uncertainty in the amplitude and phase of each measured harmonic \cite{Keysight_2017}. The covariances between these quantities are not included, however, which can significantly affect the combined uncertainty of some nonlinear DUT measurements, including those involving cross-frequency terms such as behavioural models described later in Chapter 5.
+
+Therefore, for this project two phase references were taken to NIST and re-characterised. The results of this characterisation included covariance information between the tone measurements at different harmonics and therefore can be used in a rigorous evaluation of uncertainty for nonlinear behavioural models. Results of the characterisation are shown in Figures \ref{ch4_fig_comb} and \ref{ch4_fig_combunc}. Due to the considerable effort required to perform a characterisation using an electro-optically calibrated sampling oscilloscope, a new technique was trialled to characterise our phase references using an NVNA. The instrument was calibrated using a phase reference which already had a traceable characterisation including covariance information, from which the our phase references were then measured. This will produce a characterisation with larger uncertainties because an additional measurement has been included in the traceability chain. The results show uncertainties of around 0.5 degrees across the spectrum, with a considerable ripple in measured phase occurring above 35 GHz. The origin of this ripple was not found during the course of the project but occurred during de-embedding steps.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{comb.png}
+	\caption{Time domain representation of the pulse train which creates the harmonic comb in the frequency domain. The pulses repeat every 5 ns when the generator is driven with a 10 MHz stimulus. This figure is used with permission from a report produced by Gustavo Avolio, who performed the measurements at NIST. The results show good agreement between the Keysight characterisation stored on the device memory.}
+	\label{ch4_fig_comb}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\begin{subfigure}{\textwidth}
+		\centering
+		\includegraphics[width=0.7\textwidth]{combuncA.png}
+		\caption{ }
+	\end{subfigure}
+	\\
+	\begin{subfigure}{\textwidth}
+		\centering
+		\includegraphics[width=0.7\textwidth]{combuncP.png}
+		\caption{ }
+	\end{subfigure}
+	\caption{Results of the NIST phase reference characterisation displayed using the MUF measurement viewer software. The device was connected to port one of the NVNA performing the measurement, so the amplitude (a) and phase (b) of the b wave for the fundamental harmonic at port one (b1\_1) is shown.}
+	\label{ch4_fig_combunc}
+\end{figure}
+
 \subsection{Power Meter}
-\subsection{Uncertainty Evaluation using MUF}
+
+Power measurement is a well-established field of electromagnetic wave metrology and is widely applied to measurements in industry as well as academia. Because of this, manufacturers have produced application notes and software to help users evaluate the uncertainty in their power meter measurements \cite{Rohde_2001, Keysight_2017}. The uncertainty evaluation presented in this project is based on the power meter measurement model used by Keysight and described in \cite{Keysight_2017}, due to the use of Keysight power meters and the fact that this model is already included in the MUF software.
+
+The distribution of uncertainty contributions are shown in Figure \ref{ch4_fig_pmchart}. The impedance mismatch between the source to be measured and the power sensor is the dominant source of uncertainty, which is not surprising as it has a direct effect on the amount of power that reaches the sensing element.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{pmchart.png}
+	\caption{This chart shows a typical distribution of uncertainty values for its three largest causes: mismatch, sensor and meter specifications. It reveals why low SWR specifications for the power sensor and source is so crucial \cite{Keysight_2017}.}
+	\label{ch4_fig_pmchart}
+\end{figure}
+
+The measurement model for the power meter can be written as
+
+\begin{equation}
+	P = \frac{M_\textrm{u}(P_\textrm{m}-t)}{K_\textrm{b}m},
+\end{equation}
+
+where $P$ is the power incident to the sensor (the measurand), $M_\textrm{u}$ is the gain due to mismatch of the power sensor, $P_\textrm{m}$ is the value given by the power meter, $t$ is the sum of offset errors including noise and zeroing errors, $K_\textrm{b}$ is the calibration factor of the power sensor, and $m$ is the sum of multiplicative errors including sensor calibration and instrumentation errors.
+
+For an ideal measurement, $M_\textrm{u}$ and $m$ are all equal to one and $t$ is equal to zero. When the model is used with a simple evaluation of uncertainty, the worst-case values for each error can be inserted or the root-sum-of-squares (RSS) calculated to provide a range of values which the result could take. This is the propagation technique suggested in the \cite{Keysight_2017}. The MUF implementation instead sets all the input quantities to their nominal values (e.g. one or zero for the pure error terms) and instead assigns distributions to each of them. The uncertainty propagation then samples each input quantity from their distribution and obtains a sample for the measurand. A sensitivity analysis can also be performed for this model, and an example result is shown in Figure \ref{ch4_fig_pmsens}.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{pmsens.png}
+	\caption{An example sensitivity analysis showing the effect of power meter uncertainties on an X-parameter measurement. The plot shows the amplitude of the X-parameter representing the large-signal output of the amplifier into a matched load versus a swept input power. The values are in units of square-root Watts. The input quantities ROMM, ROPU and InsE all contribute to $m$, ZSEr and ZCOE contribute to $t$, and CFEr represents the error in $K_\textrm{b}$. Mismatch error is not included in the power meter model but is modelled as a cascaded adapter attached to the power sensor instead.}
+	\label{ch4_fig_pmsens}
+\end{figure}
+
+\subsection{Propagation of Uncertainties}
+
+Although there are many guides and software frameworks available for propagating uncertainty through VNA measurements, there are only two published options currently available for NVNA measurements \cite{Lin_2012, MUFWebsite}.
+
+Lin and Zhang published a covariance-based analytical method for linear propagation of uncertainty which allows a GUM-based technique to be applied to NVNA uncertainties \cite{Lin_2012}. Partial derivates with respect to all input quantities have been derived for the NVNA measurement model, which is shown graphically in Figure \ref{ch4_fig_linmodel}. These include the use of Cauchy-Riemann derivatives in order to accommodate ratios of the complex components used to calculate magnitude and phase values for the respective parts of the absolute calibrations.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{linmodel.png}
+	\caption{The NVNA measurement model used in \cite{Lin_2012}.}
+	\label{ch4_fig_linmodel}
+\end{figure}
+
+
+
 \section{Conclusion}
 \addcontentsline{toc}{section}{Bibliography}
 \printbibliography[title=References]
