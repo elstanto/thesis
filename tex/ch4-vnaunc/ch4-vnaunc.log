@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.4)  6 AUG 2019 21:01
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.8.4)  7 AUG 2019 19:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -61,9 +61,10 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode not found.
 )
 (c:/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
@@ -242,6 +243,10 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorttitlewidth=\skip62
 \localshortauthorwidth=\skip63
 \localshorteditorwidth=\skip64
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(c:/texlive/2019/texmf-dist/tex/latex/biblatex/blx-unicode.def)
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -329,10 +334,10 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: xetex.def on input line 99.
 
-(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -500,67 +505,63 @@ Package: expl3 2019-07-25 L3 programming layer (code)
 \c__fp_Bigg_leading_shift_int=\count316
 \c__fp_Bigg_middle_shift_int=\count317
 \c__fp_Bigg_trailing_shift_int=\count318
-\c__kernel_randint_max_int=\count319
-\g__fp_array_int=\count320
-\l__fp_array_loop_int=\count321
-\l__sort_length_int=\count322
-\l__sort_min_int=\count323
-\l__sort_top_int=\count324
-\l__sort_max_int=\count325
-\l__sort_true_max_int=\count326
-\l__sort_block_int=\count327
-\l__sort_begin_int=\count328
-\l__sort_end_int=\count329
-\l__sort_A_int=\count330
-\l__sort_B_int=\count331
-\l__sort_C_int=\count332
-\l__str_internal_int=\count333
-\c__str_replacement_char_int=\count334
-\l__tl_analysis_normal_int=\count335
-\l__tl_analysis_index_int=\count336
-\l__tl_analysis_nesting_int=\count337
-\l__tl_analysis_type_int=\count338
-\l__regex_internal_a_int=\count339
-\l__regex_internal_b_int=\count340
-\l__regex_internal_c_int=\count341
-\l__regex_balance_int=\count342
-\l__regex_group_level_int=\count343
-\l__regex_mode_int=\count344
-\c__regex_cs_in_class_mode_int=\count345
-\c__regex_cs_mode_int=\count346
-\l__regex_catcodes_int=\count347
-\l__regex_default_catcodes_int=\count348
-\c__regex_catcode_D_int=\count349
-\c__regex_catcode_S_int=\count350
-\c__regex_catcode_L_int=\count351
-\c__regex_catcode_O_int=\count352
-\c__regex_catcode_A_int=\count353
-\c__regex_all_catcodes_int=\count354
-\l__regex_show_lines_int=\count355
-\l__regex_min_state_int=\count356
-\l__regex_max_state_int=\count357
-\l__regex_left_state_int=\count358
-\l__regex_right_state_int=\count359
-\l__regex_capturing_group_int=\count360
-\l__regex_min_pos_int=\count361
-\l__regex_max_pos_int=\count362
-\l__regex_curr_pos_int=\count363
-\l__regex_start_pos_int=\count364
-\l__regex_success_pos_int=\count365
-\l__regex_curr_char_int=\count366
-\l__regex_curr_catcode_int=\count367
-\l__regex_last_char_int=\count368
-\l__regex_case_changed_char_int=\count369
-\l__regex_curr_state_int=\count370
-\l__regex_step_int=\count371
-\l__regex_min_active_int=\count372
-\l__regex_max_active_int=\count373
-\l__regex_replacement_csnames_int=\count374
-\l__regex_match_count_int=\count375
-\l__regex_min_submatch_int=\count376
-\l__regex_submatch_int=\count377
-\l__regex_zeroth_submatch_int=\count378
-\g__regex_trace_regex_int=\count379
+\g__fp_array_int=\count319
+\l__fp_array_loop_int=\count320
+\l__sort_length_int=\count321
+\l__sort_min_int=\count322
+\l__sort_top_int=\count323
+\l__sort_max_int=\count324
+\l__sort_true_max_int=\count325
+\l__sort_block_int=\count326
+\l__sort_begin_int=\count327
+\l__sort_end_int=\count328
+\l__sort_A_int=\count329
+\l__sort_B_int=\count330
+\l__sort_C_int=\count331
+\l__str_internal_int=\count332
+\l__tl_analysis_normal_int=\count333
+\l__tl_analysis_index_int=\count334
+\l__tl_analysis_nesting_int=\count335
+\l__tl_analysis_type_int=\count336
+\l__regex_internal_a_int=\count337
+\l__regex_internal_b_int=\count338
+\l__regex_internal_c_int=\count339
+\l__regex_balance_int=\count340
+\l__regex_group_level_int=\count341
+\l__regex_mode_int=\count342
+\c__regex_cs_in_class_mode_int=\count343
+\c__regex_cs_mode_int=\count344
+\l__regex_catcodes_int=\count345
+\l__regex_default_catcodes_int=\count346
+\c__regex_catcode_L_int=\count347
+\c__regex_catcode_O_int=\count348
+\c__regex_catcode_A_int=\count349
+\c__regex_all_catcodes_int=\count350
+\l__regex_show_lines_int=\count351
+\l__regex_min_state_int=\count352
+\l__regex_max_state_int=\count353
+\l__regex_left_state_int=\count354
+\l__regex_right_state_int=\count355
+\l__regex_capturing_group_int=\count356
+\l__regex_min_pos_int=\count357
+\l__regex_max_pos_int=\count358
+\l__regex_curr_pos_int=\count359
+\l__regex_start_pos_int=\count360
+\l__regex_success_pos_int=\count361
+\l__regex_curr_char_int=\count362
+\l__regex_curr_catcode_int=\count363
+\l__regex_last_char_int=\count364
+\l__regex_case_changed_char_int=\count365
+\l__regex_curr_state_int=\count366
+\l__regex_step_int=\count367
+\l__regex_min_active_int=\count368
+\l__regex_max_active_int=\count369
+\l__regex_replacement_csnames_int=\count370
+\l__regex_match_count_int=\count371
+\l__regex_min_submatch_int=\count372
+\l__regex_submatch_int=\count373
+\l__regex_zeroth_submatch_int=\count374
+\g__regex_trace_regex_int=\count375
 \c_empty_box=\box30
 \l_tmpa_box=\box31
 \l_tmpb_box=\box32
@@ -605,23 +606,25 @@ Package: expl3 2019-07-25 L3 programming layer (code)
 \l__coffin_display_x_dim=\dimen157
 \l__coffin_display_y_dim=\dimen158
 \g__file_internal_ior=\read3
-\l__seq_internal_a_int=\count380
-\l__seq_internal_b_int=\count381
+\l__seq_internal_a_int=\count376
+\l__seq_internal_b_int=\count377
 )
-(c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2019-04-06 v L3 Experimental backend support: PDF m
-ode
-\l__kernel_color_stack_int=\count382
+(c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
+File: l3backend-xdvipdfmx.def 2019-04-06 v L3 Experimental backend support: xdv
+ipdfmx
+\g__graphics_track_int=\count378
 \l__pdf_internal_box=\box48
+\g__pdf_backend_object_int=\count379
+\g__pdf_backend_annotation_int=\count380
 ))
 Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
 
 (c:/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2019-05-28 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count383
-\g__xparse_grabber_int=\count384
-\l__xparse_m_args_int=\count385
-\l__xparse_v_nesting_int=\count386
+\l__xparse_current_arg_int=\count381
+\g__xparse_grabber_int=\count382
+\l__xparse_m_args_int=\count383
+\l__xparse_v_nesting_int=\count384
 ))
 (c:/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
@@ -635,12 +638,12 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen166
 \cmidrulekern=\dimen167
 \defaultaddspace=\dimen168
-\@cmidla=\count387
-\@cmidlb=\count388
+\@cmidla=\count385
+\@cmidlb=\count386
 \@aboverulesep=\dimen169
 \@belowrulesep=\dimen170
-\@thisruleclass=\count389
-\@lastruleclass=\count390
+\@thisruleclass=\count387
+\@lastruleclass=\count388
 \@thisrulewidth=\dimen171
 )
 (c:/texlive/2019/texmf-dist/tex/latex/caption/subcaption.sty
@@ -660,11 +663,11 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \caption@parindent=\dimen177
 \caption@hangindent=\dimen178
 )
-\c@caption@flags=\count391
-\c@ContinuedFloat=\count392
+\c@caption@flags=\count389
+\c@ContinuedFloat=\count390
 )
-\c@subfigure=\count393
-\c@subtable=\count394
+\c@subfigure=\count391
+\c@subtable=\count392
 ))
 (c:/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
@@ -678,8 +681,8 @@ Package biblatex Info: ... file 'english.lbx' found.
 (c:/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
-\@quotelevel=\count395
-\@quotereset=\count396
+\@quotelevel=\count393
+\@quotereset=\count394
 ))
 (./ch4-vnaunc.aux)
 \openout1 = `ch4-vnaunc.aux'.
@@ -692,11 +695,14 @@ LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
-Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 \openout3 = `ch4-vnaunc.bcf'.
@@ -707,43 +713,10 @@ Package biblatex Info: ... file 'ch4-vnaunc.bbl' found.
 Package biblatex Info: Reference section=0 on input line 5.
 Package biblatex Info: Reference segment=0 on input line 5.
 
-(c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count397
-\scratchdimen=\dimen179
-\scratchbox=\box49
-\nofMPsegments=\count398
-\nofMParguments=\count399
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count400
-\MPscratchDim=\dimen180
-\MPnumerator=\count401
-\makeMPintoPDFobject=\count402
-\everyMPtoPDFconversion=\toks25
-) (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(c:/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-
-(c:/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: xetex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -776,268 +749,130 @@ e
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-\blx@maxsegment@1=\count403
-\blx@sectionciteorder@1=\count404
+\blx@maxsegment@1=\count395
+\blx@sectionciteorder@1=\count396
 Package biblatex Info: Reference section=1 on input line 9.
 Package biblatex Info: Setting label 'refsection:1' on input line 9.
 Chapter 4.
-
-Overfull \hbox (0.33437pt too wide) in paragraph at lines 10--10
-|[]\OT1/cmr/bx/n/20.74 Evaluating Un-cer-tainty in Vec-tor Net-
- []
-
 [1
 
 
-{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<../figs/ch4-vnaunc/vna_model.pdf, id=8, 874.26625pt x 474.77374pt>
-File: ../figs/ch4-vnaunc/vna_model.pdf Graphic file (type pdf)
-<use ../figs/ch4-vnaunc/vna_model.pdf>
-Package pdftex.def Info: ../figs/ch4-vnaunc/vna_model.pdf  used on input line 2
-4.
-(pdftex.def)             Requested size: 418.25368pt x 227.13538pt.
- [2] [3 <../figs/ch4-vnaunc/vna_model.pdf>] [4] [5] [6] [7] [8] [9]
-<../figs/ch4-vnaunc/Ripple1.png, id=42, 324.21124pt x 273.02pt>
-File: ../figs/ch4-vnaunc/Ripple1.png Graphic file (type png)
-<use ../figs/ch4-vnaunc/Ripple1.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/Ripple1.png  used on input line 142
-.
-(pdftex.def)             Requested size: 167.2989pt x 140.8839pt.
-<../figs/ch4-vnaunc/Ripple2.png, id=44, 718.685pt x 274.02374pt>
-File: ../figs/ch4-vnaunc/Ripple2.png Graphic file (type png)
-<use ../figs/ch4-vnaunc/Ripple2.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/Ripple2.png  used on input line 148
-.
-(pdftex.def)             Requested size: 334.60422pt x 127.58278pt.
-<../figs/ch4-vnaunc/Ripple3.png, id=45, 718.685pt x 274.02374pt>
-File: ../figs/ch4-vnaunc/Ripple3.png Graphic file (type png)
-<use ../figs/ch4-vnaunc/Ripple3.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/Ripple3.png  used on input line 154
-.
-(pdftex.def)             Requested size: 334.60422pt x 127.58278pt.
+]
+File: ../figs/ch4-vnaunc/vna-model.pdf Graphic file (type pdf)
+<use ../figs/ch4-vnaunc/vna-model.pdf>
+ [2] [3] [4] [5] [6] [7] [8] [9]
+File: ../figs/ch4-vnaunc/Ripple1.png Graphic file (type bmp)
+<../figs/ch4-vnaunc/Ripple1.png>
+File: ../figs/ch4-vnaunc/Ripple2.png Graphic file (type bmp)
+<../figs/ch4-vnaunc/Ripple2.png>
+File: ../figs/ch4-vnaunc/Ripple3.png Graphic file (type bmp)
+<../figs/ch4-vnaunc/Ripple3.png>
+ [10] [11]
+File: ../figs/ch4-vnaunc/dir-a.png Graphic file (type bmp)
+<../figs/ch4-vnaunc/dir-a.png>
+File: ../figs/ch4-vnaunc/dir-b.png Graphic file (type bmp)
+<../figs/ch4-vnaunc/dir-b.png>
+File: ../figs/ch4-vnaunc/dir-c.png Graphic file (type bmp)
+<../figs/ch4-vnaunc/dir-c.png>
+ [12] [13]
+File: ../figs/ch4-vnaunc/tpm-a.png Graphic file (type bmp)
+<../figs/ch4-vnaunc/tpm-a.png>
 
-
-LaTeX Warning: Float too large for page by 1.01921pt on input line 159.
-
-[10] [11 <../figs/ch4-vnaunc/Ripple1.PNG> <../figs/ch4-vnaunc/Ripple2.PNG> <../
-figs/ch4-vnaunc/Ripple3.PNG>]
-<../figs/ch4-vnaunc/dir_smith.png, id=59, 353.82187pt x 389.95688pt>
-File: ../figs/ch4-vnaunc/dir_smith.png Graphic file (type png)
-<use ../figs/ch4-vnaunc/dir_smith.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/dir_smith.png  used on input line 1
-71.
-(pdftex.def)             Requested size: 150.57158pt x 165.9526pt.
-<../figs/ch4-vnaunc/dir_xy.png, id=60, 247.3605pt x 174.762pt>
-File: ../figs/ch4-vnaunc/dir_xy.png Graphic file (type png)
-<use ../figs/ch4-vnaunc/dir_xy.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/dir_xy.png  used on input line 173.
-
-(pdftex.def)             Requested size: 242.58789pt x 171.38823pt.
- [12] [13 <../figs/ch4-vnaunc/dir_smith.png> <../figs/ch4-vnaunc/dir_xy.png>]
-<../figs/ch4-vnaunc/tpm_smith.png, id=70, 362.85562pt x 396.7322pt>
-File: ../figs/ch4-vnaunc/tpm_smith.png Graphic file (type png)
-<use ../figs/ch4-vnaunc/tpm_smith.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/tpm_smith.png  used on input line 1
-90.
-(pdftex.def)             Requested size: 150.57158pt x 164.62868pt.
-<../figs/ch4-vnaunc/tpm_xy.png, id=71, 234.2205pt x 165.564pt>
-File: ../figs/ch4-vnaunc/tpm_xy.png Graphic file (type png)
-<use ../figs/ch4-vnaunc/tpm_xy.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/tpm_xy.png  used on input line 192.
-
-(pdftex.def)             Requested size: 242.58789pt x 171.47763pt.
- [14 <../figs/ch4-vnaunc/tpm_smith.png> <../figs/ch4-vnaunc/tpm_xy.png>]
-<../figs/ch4-vnaunc/coaxial_load.png, id=77, 233.5635pt x 164.907pt>
-File: ../figs/ch4-vnaunc/coaxial_load.png Graphic file (type png)
-<use ../figs/ch4-vnaunc/coaxial_load.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/coaxial_load.png  used on input lin
-e 209.
-(pdftex.def)             Requested size: 271.86234pt x 191.94647pt.
-<../figs/ch4-vnaunc/coaxial_short.png, id=78, 233.5635pt x 164.907pt>
-File: ../figs/ch4-vnaunc/coaxial_short.png Graphic file (type png)
-<use ../figs/ch4-vnaunc/coaxial_short.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/coaxial_short.png  used on input li
-ne 216.
-(pdftex.def)             Requested size: 271.86234pt x 191.94647pt.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 221.
-
-
-Overfull \hbox (13.02484pt too wide) in paragraph at lines 222--229
-[][] 
+Underfull \hbox (badness 3780) in paragraph at lines 207--207
+[]\TU/lmr/m/n/9 (a) |Smith chart representation of
  []
 
-[15] [16 <../figs/ch4-vnaunc/coaxial_load.png> <../figs/ch4-vnaunc/coaxial_shor
-t.png>]
+File: ../figs/ch4-vnaunc/tpm-b.png Graphic file (type bmp)
+<../figs/ch4-vnaunc/tpm-b.png>
+[14]
+File: ../figs/ch4-vnaunc/coax.png Graphic file (type bmp)
+<../figs/ch4-vnaunc/coax.png>
+
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 235.
 
 
-Overfull \hbox (7.511pt too wide) in paragraph at lines 236--244
-[][] 
- []
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 250.
 
+[15] [16]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 252.
-
-
-Overfull \hbox (7.511pt too wide) in paragraph at lines 253--261
-[][] 
- []
+               Default added (so using `tbp') on input line 268.
 
 [17]
-<../figs/ch4-vnaunc/setup.jpg, id=90, 653.44125pt x 413.29407pt>
-File: ../figs/ch4-vnaunc/setup.jpg Graphic file (type jpg)
-<use ../figs/ch4-vnaunc/setup.jpg>
-Package pdftex.def Info: ../figs/ch4-vnaunc/setup.jpg  used on input line 271.
-(pdftex.def)             Requested size: 271.86234pt x 171.94897pt.
+File: ../figs/ch4-vnaunc/setup.jpg Graphic file (type bmp)
+<../figs/ch4-vnaunc/setup.jpg>
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 276.
+               Default added (so using `tbp') on input line 297.
 
-<../figs/ch4-vnaunc/wm380.png, id=91, 878.53218pt x 623.32875pt>
-File: ../figs/ch4-vnaunc/wm380.png Graphic file (type png)
-<use ../figs/ch4-vnaunc/wm380.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/wm380.png  used on input line 289.
-(pdftex.def)             Requested size: 271.86234pt x 192.88751pt.
-[18] [19 <../figs/ch4-vnaunc/setup.jpg>] [20 <../figs/ch4-vnaunc/WM380.png>]
-[21]
-Overfull \hbox (5.58931pt too wide) in paragraph at lines 317--317
-|[]\OT1/cmr/bx/n/12 Keysight Tech-nolo-gies PNA-X Dy-namic S-Parameter Un-cer-t
-ainty
- []
-
-[22] [23] [24] [25] [26]
-<../figs/ch4-vnaunc/comb.png, id=122, 1010.27437pt x 331.2375pt>
-File: ../figs/ch4-vnaunc/comb.png Graphic file (type png)
-<use ../figs/ch4-vnaunc/comb.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/comb.png  used on input line 367.
-(pdftex.def)             Requested size: 418.25368pt x 137.13246pt.
-<../figs/ch4-vnaunc/combuncA.png, id=123, 190.311pt x 168.1482pt>
-File: ../figs/ch4-vnaunc/combuncA.png Graphic file (type png)
-<use ../figs/ch4-vnaunc/combuncA.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/combuncA.png  used on input line 37
-6.
-(pdftex.def)             Requested size: 292.77629pt x 258.71808pt.
-<../figs/ch4-vnaunc/combuncP.png, id=124, 190.0701pt x 168.1482pt>
-File: ../figs/ch4-vnaunc/combuncP.png Graphic file (type png)
-<use ../figs/ch4-vnaunc/combuncP.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/combuncP.png  used on input line 38
-2.
-(pdftex.def)             Requested size: 292.77629pt x 259.01826pt.
-
-
-LaTeX Warning: Float too large for page by 54.20612pt on input line 387.
-
-[27 <../figs/ch4-vnaunc/comb.png>] [28 <../figs/ch4-vnaunc/combuncA.png> <../fi
-gs/ch4-vnaunc/combuncP.png>]
-<../figs/ch4-vnaunc/pmchart.png, id=134, 223.0734pt x 105.2733pt>
-File: ../figs/ch4-vnaunc/pmchart.png Graphic file (type png)
-<use ../figs/ch4-vnaunc/pmchart.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/pmchart.png  used on input line 397
-.
-(pdftex.def)             Requested size: 292.77629pt x 138.17247pt.
- [29 <../figs/ch4-vnaunc/pmchart.png>]
-<../figs/ch4-vnaunc/pmsens.png, id=139, 211.5102pt x 189.1065pt>
-File: ../figs/ch4-vnaunc/pmsens.png Graphic file (type png)
-<use ../figs/ch4-vnaunc/pmsens.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/pmsens.png  used on input line 414.
-
-(pdftex.def)             Requested size: 292.77629pt x 261.77519pt.
- [30 <../figs/ch4-vnaunc/pmsens.png>]
-<../figs/ch4-vnaunc/linmodel.png, id=144, 246.9225pt x 286.671pt>
-File: ../figs/ch4-vnaunc/linmodel.png Graphic file (type png)
-<use ../figs/ch4-vnaunc/linmodel.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/linmodel.png  used on input line 42
-7.
-(pdftex.def)             Requested size: 292.77629pt x 339.92667pt.
- [31 <../figs/ch4-vnaunc/linmodel.png>] [32]
+File: ../figs/ch4-vnaunc/wm380.png Graphic file (type bmp)
+<../figs/ch4-vnaunc/wm380.png>
+[18] [19] [20] [21] [22] [23] [24] [25] [26]
+File: ../figs/ch4-vnaunc/comb.png Graphic file (type bmp)
+<../figs/ch4-vnaunc/comb.png>
+File: ../figs/ch4-vnaunc/combuncA.png Graphic file (type bmp)
+<../figs/ch4-vnaunc/combuncA.png>
+File: ../figs/ch4-vnaunc/combuncP.png Graphic file (type bmp)
+<../figs/ch4-vnaunc/combuncP.png>
+ [27] [28]
+File: ../figs/ch4-vnaunc/pmchart.png Graphic file (type bmp)
+<../figs/ch4-vnaunc/pmchart.png>
+File: ../figs/ch4-vnaunc/pmsens.png Graphic file (type bmp)
+<../figs/ch4-vnaunc/pmsens.png>
+ [29] [30]
+File: ../figs/ch4-vnaunc/linmodel.png Graphic file (type bmp)
+<../figs/ch4-vnaunc/linmodel.png>
+File: ../figs/ch4-vnaunc/muflsna.png Graphic file (type bmp)
+<../figs/ch4-vnaunc/muflsna.png>
+ [31] [32]
+[33] [34]
 
 Package biblatex Warning: No driver for entry type 'standard'.
-(biblatex)                Using fallback driver on input line 434.
+(biblatex)                Using fallback driver on input line 476.
 
 
 Package biblatex Warning: No driver for entry type 'standard'.
-(biblatex)                Using fallback driver on input line 434.
+(biblatex)                Using fallback driver on input line 476.
 
-[33
+[35
 
 ]
-Overfull \hbox (19.24397pt too wide) in paragraph at lines 434--434
-\OT1/cmtt/m/n/10 en -[] GB / test -[] measurement / support / downloads / softw
-are / dwl19572$ \OT1/cmr/m/n/10 (vis-ited on 07/16/2019). 
+Overfull \hbox (3.00632pt too wide) in paragraph at lines 476--476
+[][] [] [][][][] [][] [][][][][][][][][][][] [] [][][][][][][] [] [][][][][][][
+][][] [] [][][][][][][][] [] [][][][][][][][]$ \TU/lmr/m/n/10 (visited on 07/16
+/2019). 
  []
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.434 \printbibliography[title=References]
-                                          
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.434 \printbibliography[title=References]
-                                          
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (9.72485pt too wide) in paragraph at lines 434--434
-[]\OT1/cmr/m/n/10 A. Lewandowski, ``Multi-frequency ap-proach to vector-network
--analyzer scattering-parameter
+Overfull \hbox (9.45189pt too wide) in paragraph at lines 476--476
+[]\TU/lmr/m/n/10 A. Lewandowski, “Multi-frequency approach to vector-network-an
+alyzer scattering-parameter
  []
 
-[34] [35]
-Overfull \hbox (8.52066pt too wide) in paragraph at lines 434--434
-\OT1/cmr/m/n/10 anal-y-sis,'' \OT1/cmr/m/it/10 IEEE Trans-ac-tions on In-stru-m
-en-ta-tion and Mea-sure-ment\OT1/cmr/m/n/10 , vol. 58, no. 10, pp. 3554{
+[36] [37]
+Overfull \hbox (7.41966pt too wide) in paragraph at lines 476--476
+\TU/lmr/m/n/10 analysis,” \TU/lmr/m/it/10 IEEE Transactions on Instrumentation 
+and Measurement\TU/lmr/m/n/10 , vol. 58, no. 10, pp. 3554–
  []
 
-[36]
-Package biblatex Info: Reference section=0 on input line 435.
- [37] (./ch4-vnaunc.aux)
+[38]
+Package biblatex Info: Reference section=0 on input line 477.
+ [39] (./ch4-vnaunc.aux)
 Package logreq Info: Writing requests to 'ch4-vnaunc.run.xml'.
 \openout1 = `ch4-vnaunc.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21564 strings out of 492609
- 410424 string characters out of 6132819
- 884670 words of memory out of 5000000
- 25293 multiletter control sequences out of 15000+600000
- 542355 words of font info for 58 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 58i,13n,67p,2100b,1809s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
-live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2019/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/
-texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/201
-9/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2019/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2019/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
-10.pfb>
-Output written on ch4-vnaunc.pdf (37 pages, 1194736 bytes).
-PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
- 135 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 20976 strings out of 492909
+ 403466 string characters out of 6136300
+ 897430 words of memory out of 5000000
+ 24828 multiletter control sequences out of 15000+600000
+ 539790 words of font info for 64 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 58i,11n,57p,1969b,4788s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+Output written on ch4-vnaunc.pdf (39 pages).

@@ -7,7 +7,7 @@
 \onlyinsubfile{\setcounter{chapter}{3}}
 
 \begin{refsection}
-\chapter[Evaluating Uncertainty in VNA Measurements]{Evaluating Uncertainty in Vector Network Analyser Measurements}
+\chapter[Evaluating Uncertainty in VNA Measurements]{Evaluating Uncertainty in Vector \\Network Analyser Measurements}
 
 \section{Introduction}
 
@@ -21,7 +21,7 @@ In more recent years rigorous evaluations of VNA uncertainty have become possibl
 
 \begin{figure}
 	\centering
-	\includegraphics[width=\textwidth]{vna_model.pdf}
+	\includegraphics[width=\textwidth]{vna-model.pdf}
 	\caption{Structure of VNA uncertainty evaluation. Input quantities are shown at the top of the diagram, grouped where applicable. Uncertainties from the calibration are either evaluated directly (rigorous/full evaluation) or are estimated after the calibration has been performed (``residual error'' evaluation). Typically the calibration measurement model is processed as part of the VNA measurement model, but it is shown separately here to distinguish the difference between VNA uncertainty evaluation methods.}
 	\label{ch4_fig_vna_model}
 \end{figure}
@@ -124,77 +124,98 @@ One source of VNA measurement uncertainty which is still included in some evalua
 \section{Simplified Residual Model for VNA Uncertainty Evaluation}
 \subsection{Method}
 
-The EURAMET Guide \cite{EURAMET_2011} presents a process for evaluating the uncertainty of measurements performed on a calibrated VNA, allowing users to verify that values measured using the instrument are of acceptable accuracy. This process involves measuring a selection of dominant contributions to measurement uncertainty and combining them appropriately. Contributions include both systematic errors, which remain constant over the period of measurements, and random errors, which do not.  The error model for voltage reflection coefficient (VRC) measurements performed with a VNA is represented in \cite{EURAMET_2011} by the following equations for one-port (1) and two-port (2) measurements:
+The EURAMET Guide \cite{EURAMET_2011} presents a process for evaluating the uncertainty of measurements performed on a calibrated VNA, allowing users to verify that values measured using the instrument are of acceptable accuracy. This process involves measuring a selection of dominant contributions to measurement uncertainty and combining them appropriately. Contributions include both systematic errors, which remain constant over the period of measurements, and random errors, which do not.  The error model for voltage reflection coefficient ($\Gamma$) measurements performed with a VNA is represented in \cite{EURAMET_2011} by the following equations for one-port (1) and two-port (2) measurements:
 
 \begin{align}
-U_{\textrm{VRC}} &= D + T\Gamma + M\Gamma^2 + R_{\textrm{VRC}}\\
-U_{\textrm{VRC}} &= D + T\Gamma + M\Gamma^2 + R_{\textrm{VRC}} + S_{21}^2\Gamma_L
+U_{\Gamma} &= D + T\Gamma + M\Gamma^2 + R_{\Gamma}\\
+U_{\Gamma} &= D + T\Gamma + M\Gamma^2 + R_{\Gamma} + S_{21}^2\Gamma_L
 \end{align}
 
-where $U_{\textrm{VRC}}$ is the combined uncertainty in the measurement, $D$ is the residual directivity, $T$ represents the effect of tracking and nonlinearity, $M$ is the residual test port match (TPM), $\Gamma$ is the measured voltage reflection coefficient, $R_{\textrm{VRC}}$ is the sum of all the random contributions, $S_{21}$ is the nominal attenuation of the device-under-test (DUT), and $\Gamma_L$ is the residual load match. The most significant systematic error contributors to the measurement uncertainty are, in most cases, the directivity and TPM.
+where $U_{\Gamma}$ is the combined uncertainty in the measurement, $D$ is the residual directivity, $T$ represents the effect of tracking and nonlinearity, $M$ is the residual test port match (TPM), $\Gamma$ is the measured voltage reflection coefficient, $R_{\Gamma}$ is the sum of all the random contributions, $S_{21}$ is the nominal attenuation of the device-under-test (DUT), and $\Gamma_L$ is the residual load match. The most significant systematic error contributors to the measurement uncertainty are, in most cases, the directivity and TPM.
 
-To perform a VRC measurement, a VNA must be able to separate reflected and incident voltage waves by their direction of travel and then sample using complex receivers. However, various components in the signal path may cause a portion of the incident wave to leak into the reflected wave receiver without having reached the DUT. This directivity error should ideally be removed by applying correction terms extracted during the VNA calibration. However, as no calibration will be perfect, some residual directivity error will remain (referred to as effective directivity in \cite{EURAMET_2011}). To measure the residual directivity, a matched load can be connected to the test port being assessed. This should theoretically reflect no amount of the incident wave and therefore the only voltage present at the reflected wave receiver should be due to the residual directivity. In practice, the matched load will not be perfectly matched (for the same reason the calibration will never be perfect) so it is likely the residual directivity will typically be either over- or underestimated. An improved method, used in \cite{EURAMET_2011} and widely accepted for use with coaxial measurements, is the ripple extraction technique. This uses a similar principle to measure the residual directivity, but significantly increases the accuracy of the residual error evaluation. An illustration of its method is provided in Figure \ref{ch4_fig_ripple1}.
+To measure $\Gamma$, the VNA must separate reflected and incident voltage waves and then sample them using complex receivers. However, various components in the signal path may cause a portion of the incident wave to leak into the reflected wave receiver without having reached the DUT. This directivity error should be removed by applying correction terms extracted during the VNA calibration. However, as no calibration will be perfect, some residual directivity error will remain (referred to as effective directivity in \cite{EURAMET_2011}). To measure the residual directivity, a matched load can be connected to the test port being assessed. This should theoretically reflect none of the incident wave and the only voltage present at the reflected wave receiver should be due to the residual directivity. In practise, the match of the load will never be perfect, so it is likely that using this method the residual directivity will typically be either over- or underestimated. An improved method, used in \cite{EURAMET_2011} and widely accepted for use with coaxial measurements, is called the ‘ripple extraction technique’. This uses a similar principle to measure the residual directivity, but significantly improves the accuracy of the residual error evaluation. An illustration of its method is provided in Figure \ref{ch4_fig_ripple1}.
 
 \begin{figure}
 	\centering
 	\begin{subfigure}{\textwidth}
 		\centering
-		\includegraphics[width=0.4\textwidth]{Ripple1.png}
-		\caption{When measured on the calibrated VNA, the VRC of a perfect matched load would reveal the true origin ($O_\textrm{T}$) of the plot as offset from the calibrated origin ($O_\textrm{C}$) by the residual directivity ($D$). If a realistic matched load offset by a line section is instead measured, the VRC as measured by the VNA ($\Gamma_\textrm{M}$) will be the sum of the residual directivity and the true VRC ($\Gamma_\textrm{A}$). }
+		\includegraphics[width=0.32\textwidth]{Ripple1.png}
+		\caption{When measured on the calibrated VNA, a perfect matched load would reveal the actual origin ($O_\textrm{A}$) on a polar plot of $\Gamma$ as offset from the calibrated origin ($O_\textrm{C}$) by the residual directivity ($D$). If a realistic matched load offset by a line section is instead measured, $\Gamma$ as measured by the VNA ($\Gamma_\textrm{M}$) will be the sum of the residual directivity $D$ and the actual $\Gamma$ ($\Gamma_\textrm{A}$). }
 	\end{subfigure}
 	\\
 	\begin{subfigure}{\textwidth}
 		\centering
-		\includegraphics[width=0.8\textwidth]{Ripple2.png}
-		\caption{As $\Gamma_\textrm{M}$ is measured across a swept frequency range, the electrical length of the line increases causing the phase to sweep also. This rotates $\Gamma_\textrm{T}$, resulting in ripples in the plot of $|\Gamma_\textrm{M}|$ against frequency. The magnitude of the ripples is equal to $2D$. }
+		\includegraphics[width=0.75\textwidth]{Ripple2.png}
+		\caption{As $\Gamma_\textrm{M}$ is measured across a swept frequency range, the phase change in the line increases causing the phase of $\Gamma_\textrm{A}$ to sweep also. This rotates $\Gamma_\textrm{A}$, resulting in ripples in the plot of $|\Gamma_\textrm{M}|$ against frequency. The magnitude of the ripples is equal to $2D$. }
 	\end{subfigure}
 	\\
 	\begin{subfigure}{\textwidth}
 		\centering
-		\includegraphics[width=0.8\textwidth]{Ripple3.png}
-		\caption{However, if $\Gamma_\textrm{A} < D$, then the ripple magnitude is now $2\Gamma_\textrm{A}$ instead of $2\Gamma_\textrm{D}$ and the residual directivity as evaluated using the ripple extraction technique would be underestimated.}
+		\includegraphics[width=0.75\textwidth]{Ripple3.png}
+		\caption{However, if $\Gamma_\textrm{A} < D$, then the ripple magnitude is now $2\Gamma_\textrm{A}$ instead of $2D$ and the residual directivity as evaluated using the ripple extraction technique would be underestimated.}
 	\end{subfigure}
-	\caption{An illustration of the ripple technique measuring residual directivity.}
+	\caption{A graphical representation of the ripple extraction technique, including a possible failure mechanism.}
 	\label{ch4_fig_ripple1}
 \end{figure}
 
-To perform the evaluation, a short length of line is connected to the test port, to the end of which is added a matched load covering the frequency range under test. The line section should be traceable to national standards and have a characteristic impedance identical to that of the VNA setup. For these reasons a beadless airline is suggested in \cite{EURAMET_2011}. The load can be either the same as that used for calibration or another with $0.1 \ge \Gamma \ge 0.2$ to ensure that $\Gamma \ge D$. If $\Gamma < D$, then the measured residual directivity will be underestimated as explained by Figure \ref{ch4_fig_ripple1}. If the calibration matched load is used for the measurement, the small reflection from a second connection and any loss in the airline will cause the VRC to be greater than the residual directivity from the original measurement of the load. Alternatively, because $\Gamma < 0.1$ for the matched load used for calibration, using another load with a known higher $\Gamma$ ensures that there is no underestimate. Once the instrument has been configured, $\Gamma$ is measured and the magnitude plotted against frequency using a linear scale. A ripple should be clearly visible on the trace, from which the residual directivity can be calculated from:
+To perform the ripple extraction technique, a short length of line is connected to the test port, to the end of which is added a near-matched load covering the frequency range under test. The critical dimensions of the line section (length and radii) should be traceable to national standards and have a characteristic impedance
+identical to that of the VNA setup. For these reasons a beadless airline is suggested in \cite{EURAMET_2011}. The load can be either the same as that used for calibration or another with $0.1 \ge |\Gamma| \ge 0.2$ (in linear units) to ensure that $|\Gamma| \ge |D|$. If $|\Gamma| < |D|$, then the measured residual directivity will be underestimated as explained by Figure \ref{ch4_fig_ripple1}. If the calibration matched load is used for the measurement, the small reflection from a second connection and any loss in the airline will cause $\Gamma$ to be greater than the residual directivity from the original measurement of the load. Alternatively, because $|\Gamma| < 0.1$ for the matched load used for calibration, using another load with a known higher $|\Gamma|$ ensures that there is no underestimate. Once the instrument has been configured, $\Gamma$ is measured and the magnitude plotted against frequency using a linear scale. A ripple will then be visible on the trace, from which the residual directivity can be calculated from:
 
 \begin{equation}
-D = \frac{\textrm{Maximum Ripple Amplitude}}{2}
+D = \frac{\textrm{MRA}_\textrm{matched-load}}{2}
 \end{equation}
 
-For coaxial measurements as specified in \cite{EURAMET_2011}, there is a high probability that the condition required to avoid underestimation is met. However, in order to assess the suitability of the technique in waveguide a method of assessing this condition has been used. By examining either a complex plot (polar or Smith chart) or a phase plot, the geometric symptom shown in Figure \ref{ch4_fig_ripple1} can be identified. When using a complex plot, the origin should lie within the circumference of the reflection coefficient trace for the residual error to be accurately measured. For any frequency range where it does not, the ripple technique provides an underestimation of the residual error. When using a phase plot, there will be regular wrapping of the reflection coefficient phase for frequency ranges where the residual error is correctly measured, whereas when underestimation occurs the phase will vary by less than 180 degrees per period. An example of both plots are shown in Figure \ref{ch4_fig_dir}. Either of these methods can be used to identify when a calibration and ripple measurement needs to be repeated. If the repeat measurements still fail the test, then the choice of loads may need to be altered.
+For coaxial measurements as specified in \cite{EURAMET_2011}, there is a high probability that the condition required to avoid underestimation of $|D|$ is met. However, in order to assess the suitability of the technique in waveguide a method of assessing this condition has been used. By examining either a complex plot (polar or Smith chart) or a phase plot, the geometric symptom shown in Figure \ref{ch4_fig_ripple1} can be identified. When using a complex plot, the origin should lie within the circumference of the reflection coefficient trace for a valid determination of the residual error to be achieved. For any frequency range where it does not, the ripple technique provides an underestimation of the residual error. When using a phase plot, there will be regular wrapping of the reflection coefficient phase for frequency ranges where the residual error is correctly measured, whereas when underestimation occurs the phase will vary by $<180^\circ$ per period. An example of both plots are shown in Figure \ref{ch4_fig_dir}, where the result from the different load indicates an accurate residual directivity estimate across the entire measured spectrum, but the result from the calibration load shows an underestimate of the residual directivity is likely between 16 and 22 GHz. Either of these methods can be used to identify when a calibration and the ripple extraction technique needs to be repeated. If the repeat measurements still fail the test, then the choice of loads may need to be altered. 
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.36\textwidth]{dir_smith.png}
-	\hfill
-	\includegraphics[width=0.58\textwidth]{dir_xy.png}
-	\caption{Smith chart and phase plot of a residual directivity measurement performed in coaxial transmission line using the calibration load (solid line) and a load from a different calibration kit (dotted line). The intersection of the grid lines on the Smith chart represents the origin of the plot ($\Gamma = 0$). The measurement which used the different load indicate an accurate residual directivity estimate across the entire measured spectrum. The measurement which used the calibration load suggests an underestimate of the residual directivity is likely between 16--22 GHz.}
+	\begin{subfigure}{0.45\textwidth}
+		\centering
+	    \includegraphics[width=0.9\linewidth]{dir-a.png}
+	    \caption{A Smith chart representation, magnified about the origin, of the calibration load result.}
+    \end{subfigure}\hfill%
+	\begin{subfigure}{0.45\textwidth}
+	    \centering
+	    \includegraphics[width=0.9\linewidth]{dir-b.png}
+	    \caption{Similar Smith chart representation of the different load result. The intersection of the two grid lines on the Smith charts represents the origin of the plot ($|\Gamma|=0$), and both are scaled separately for clarity.}
+    \end{subfigure}
+	\par\bigskip
+	\begin{subfigure}{0.6\textwidth}
+	    \centering
+		\includegraphics[width=\linewidth]{dir-c.png}
+		\caption{Phase plot of both results, with the calibration load represented by the red dotted trace and the different load by the black solid trace.}
+	\end{subfigure}
+	\caption{Measurements of residual directivity plotted over the frequency range of 14--24 GHz performed in coaxial transmission line using both the load used for calibration and a load from a different calibration kit.}
 	\label{ch4_fig_dir}
 \end{figure}
 
-TPM is caused by imperfections in the impedance match between components in the VNA setup. This causes delayed reflections that interfere with the DUT measurement and can provide false values. Calibration also corrects for TPM, but as with directivity some residual error will remain. To measure residual TPM, a short circuit is connected to the test port being assessed. This should reflect the entire incident signal and therefore maximise any reflections in the VNA setup. If residual TPM error is present then the measured VRC will be less than 1. However, the short circuit may not provide a perfect reflection and so the ripple extraction technique is favoured for this measurement also.
+TPM is caused by imperfections in the impedance match between components in the VNA setup. This causes delayed reflections that interfere with the DUT measurement and can provide false values. Calibration also corrects for TPM, but as with directivity some residual error will remain. To measure residual TPM, a short circuit is connected to the test port being assessed. This should reflect the entire incident signal and therefore maximise any reflections in the VNA setup. If residual TPM error is present then the measured $\Gamma$ will be $<1$. However, the short circuit may not provide a perfect reflection and so the ripple extraction technique is favoured for this measurement also.
 
 To measure residual TPM using the ripple extraction technique, the same procedure as for residual directivity is followed but the matched load at the end of the line is replaced by a short circuit. A similar plot is acquired and the residual TPM is given by:
 
 \begin{equation}
-M = \frac{\textrm{Maximum Ripple Amplitude}}{2}
+M = \frac{\textrm{MRA}_\textrm{short-circuit}}{2}
 \end{equation}
 
-Because the reflection coefficient for this measurement should be close to 1, there is no risk that this value will be greater than the true residual TPM and cause an underestimate as can be the case for residual directivity. This is shown in Figure \ref{ch4_fig_tpm}, where the origin of the Smith chart is clearly inside the circular trace and the phase consistently wraps across the entire measured spectrum.
+Since the reflection coefficient for this measurement should be close to 1, there is no risk that this value will be greater than the true residual TPM and cause an underestimate as can be the case for residual directivity. This is shown in Figure \ref{ch4_fig_tpm}, where the origin of the Smith chart is clearly inside the circular trace (Figure \ref{ch4_fig_tpm}a) and the phase consistently wraps across the entire measured spectrum (Figure \ref{ch4_fig_tpm}b).
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.36\textwidth]{tpm_smith.png}
-	\hfill
-	\includegraphics[width=0.58\textwidth]{tpm_xy.png}
-	\caption{Smith chart and phase plot of a residual TPM measurement performed in coaxial transmission line using the calibration short circuit (solid line) and a short circuit from a different calibration kit (dotted line). Both measurements indicate an accurate residual TPM estimate across the entire measured spectrum. Residual TPM measurements avoid the risk of underestimation via the mechanism described for residual directivity measurements due to the typical VRC being close to one (far from the origin of the Smith chart).}
+	\begin{subfigure}{0.37\textwidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{tpm-a.png}
+		\caption{Smith chart representation of the result when using the calibration short-circuit. The result when using a short-circuit from a different calibration kit appears almost identical.}
+	\end{subfigure}\hfill%
+	\begin{subfigure}{0.6\textwidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{tpm-b.png}
+		\caption{Phase plot of the results when using the calibration short-circuit (dotted red trace) and the different short-circuit (solid black trace).}
+	\end{subfigure}
+	\caption{Measurements of residual TPM plotted over the frequency range of  14--24 GHz performed in coaxial transmission line.}
 	\label{ch4_fig_tpm}
 \end{figure}
 
-To perform the technique for both described residual error sources requires just three components: A short circuit, matched load, and a short section of line. These components are realizable in both coaxial and rectangular waveguide, so the technique should be physically possible to perform in waveguide setups. The technique can be applied to any type of calibration – for example three-known-loads and thru-reflect-line (TRL). In coaxial, the short-open-load-thru (SOLT) variant of the former is used. However, in waveguide an open circuit is not straightforward to realise or widely adopted, so a common variant of SOLT calibration which uses an offset short (SOSLT) can be used instead.
+To perform the technique for both described residual error sources requires just three components: A short circuit, matched load, and a short section of line. These components are realizable in both coaxial and rectangular waveguide, so the technique should be physically possible to perform in waveguide setups. The technique can be applied to any type of calibration – for example three-known-loads and thru-reflect-line (TRL). In coaxial, the short-open-load-thru (SOLT) variant of the former is used. However, in waveguide an open circuit is not straightforward to realise or widely adopted, so a common variant of SOLT calibration which uses an offset short (SOSLT) will be used instead.
 
 \subsection{Application to Waveguide VNAs}
 
@@ -202,61 +223,57 @@ Although both the EURAMET guide and VNAs using rectangular metal waveguide test 
 
 \subsubsection{Coaxial Transmission Line and Microwave Waveguide}
 
-The ripple extraction technique was first performed on coaxial line in accordance with the EURAMET Guide \cite{EURAMET_2011} instruction as described in the previous section. The guide itself provides a range of typical values for both residual directivity and TPM ripple measurements with which our results can be compared to ensure that the process was followed correctly. All measurements presented in this investigation were acquired using a Keysight 5247A PNA-X instrument fitted with 1.85 mm ports attached to flexible port extender cables with rugged connectors. The coaxial measurement setup used a 7.5 cm beadless airline and the calibration kit matched load and short circuit. Figure \ref{ch4_fig_coax_load} shows the ripple trace obtained by plotting VRC magnitude against frequency for a residual directivity measurement on both ports using a SOLT calibration. Figure \ref{ch4_fig_coax_short} shows a similar ripple measured with a short circuit instead of a matched load, which is caused by the residual TPM. The results of the measurements, along with the expected ranges provided in \cite{EURAMET_2011}, are presented in Table \ref{ch4_table_coax}.
+The ripple extraction technique was first performed on coaxial line in accordance with the EURAMET Guide \cite{EURAMET_2011} instruction as described in the previous section. The guide itself provides a range of typical values for both residual directivity and TPM ripple measurements with which our results can be compared to ensure that the process was followed correctly. All measurements presented in this investigation were acquired using a Keysight 5247A PNA-X instrument fitted with 1.85 mm ports attached to flexible port extender cables with rugged connectors. The coaxial measurement setup used a 75 mm beadless airline and the calibration kit matched load and short circuit. Figure \ref{ch4_fig_coax} shows the ripple trace obtained by plotting $|\Gamma|$ against frequency for residual directivity and TPM measurements using an SOLT calibration. Apart from the dominant ripple, other variations in $|\Gamma|$ are due to the imperfect response of the matched load and the beadless line. The results of the measurements, along with the expected ranges provided in \cite{EURAMET_2011}, are presented in Table \ref{ch4_table_coax}. It can be seen that the measured values for the coaxial line setup fall within the typical ranges specified by \cite{EURAMET_2011}.
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.65\textwidth]{coaxial_load.png}
-	\caption{Magnitude of the reflection measurement of a matched load offset by a short line length in coaxial media. The VNA was calibrated using the SOLT method, and measurements were performed on both port 1 (solid line) and port 2 (dotted line). Variations apart from the dominant ripple are due to the imperfect response of the matched load and the beadless line.}
-	\label{ch4_fig_coax_load}
-\end{figure}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.65\textwidth]{coaxial_short.png}
-	\caption{Magnitude of the reflection measurement of a short circuit offset by a short line length in coaxial transmission line. The VNA was calibrated using the SOLT method, and measurements were performed on both port 1 (solid line) and port 2 (dotted line). The increasing attenuation with frequency is characteristic of the beadless airline.}
-	\label{ch4_fig_coax_short}
+	\includegraphics[width=0.65\textwidth]{coax.png}
+	\caption{Magnitude of the reflection measurement of a matched load and a short-circuit offset by a length of coaxial line. The VNA was calibrated using the SOLT method.}
+	\label{ch4_fig_coax}
 \end{figure}
 
 \begin{table}[]
 	\begin{tabular}{lllll}
-		\hline
-		& \begin{tabular}[c]{@{}l@{}}Port 1 \\   Residual Directivity\end{tabular} & \begin{tabular}[c]{@{}l@{}}Port 2\\   Residual Directivity\end{tabular} & \begin{tabular}[c]{@{}l@{}}Port 1\\   Residual TPM\end{tabular} & \begin{tabular}[c]{@{}l@{}}Port 2\\   Residual TPM\end{tabular} \\ \hline
-		SOLT            & 0.0075                                                                   & 0.0085                                                                  & 0.0135                                                          & 0.0100                                                          \\
-		TRL             & 0.0075                                                                   & 0.0070                                                                  & 0.0015                                                          & 0.0015                                                          \\
-		cg-12 Reference & 0.002—0.02                                                               & 0.002—0.02                                                              & 0.005—0.02                                                      & 0.005—0.02                                                      \\ \hline
-	\end{tabular}
-	\caption{Residual directivity and TPM values of 3.5mm coaxial line VNA calibrations as measured by the ripple extraction method. Both SOLT and TRL calibration techniques were measured.}
+	\hline
+	Cal. type       & \multicolumn{2}{l}{Residual directivity} & \multicolumn{2}{l}{Residual TPM} \\
+	& Port 1              & Port 2             & Port 1          & Port 2         \\ \hline
+	SOLT            & 0.008               & 0.009              & 0.014           & 0.010          \\
+	TRL             & 0.008               & 0.007              & 0.002           & 0.002          \\
+	EURAMET guide \cite{EURAMET_2011} & 0.002--0.02         & 0.002--0.02        & 0.005--0.02     & 0.005--0.02    \\ \hline
+\end{tabular}
+	\caption{Residual directivity and TPM values obtained for 3.5 mm coaxial line VNA calibrations as measured by the ripple extraction method. Both SOLT and TRL calibration techniques were assessed. The range of representative residual error values from \cite{EURAMET_2011} has also been included for comparison.}
 	\label{ch4_table_coax}
 \end{table}
 
-It can be seen that the measured values for the coaxial line setup fall well within the typical ranges. The same method was applied to two types of centimetre band waveguide, WG16 (WR90) and WG20 (WR42). These waveguides have usable frequency ranges of 8.2—12.4 GHz and 18.0—26.5 GHz respectively. In order to avoid the effects of non-propagating (evanescent) modes created by the waveguide test adapter, a section of standard line with length equal to several times the aperture width was attached to each adapter where possible and the measurement planes defined at the end of the lines. The results of the ripple extraction are shown in Table \ref{ch4_table_WG16}:
+ The same method was applied to two types of centimetre band waveguide, WR-90 and WR-42. These waveguides have usable frequency ranges of 8.2--12.4 GHz and 18.0--26.5 GHz respectively. To avoid the effects of non-propagating (evanescent) modes created by the waveguide to coaxial adapter, an appropriate length of straight waveguide was attached to each adapter where possible and the measurement planes defined at the end of the lines. The results of the ripple extraction technique for the two waveguide sizes are shown in Table \ref{ch4_table_WG16}:
 
 \begin{table}[]
-	\begin{tabular}{lllll}
+	\begin{tabular}{lllllll}
 		\hline
-		& \begin{tabular}[c]{@{}l@{}}Port 1\\ Residual Directivity\end{tabular} & \begin{tabular}[c]{@{}l@{}}Port 2\\ Residual Directivity\end{tabular} & \begin{tabular}[c]{@{}l@{}}Port 1\\ Residual TPM\end{tabular} & \begin{tabular}[c]{@{}l@{}}Port 2\\ Residual TPM\end{tabular} \\ \hline
-		WG16 SOSLT & 0.0045                                                                & 0.0040                                                                & 0.0070                                                        & 0.0060                                                        \\
-		WG16 TRL   & 0.0030                                                                & 0.0060                                                                & 0.0020                                                        & 0.0015                                                        \\
-		WG20 SOSLT & 0.0030                                                                & 0.0040                                                                & 0.0095                                                        & 0.0050                                                        \\
-		WG20 TRL   & 0.0020                                                                & 0.0020                                                                & 0.0015                                                        & 0.0010                                                        \\ \hline
+		Frequency, GHz & Waveguide size & Cal. type & \multicolumn{2}{l}{Residual Directivity} & \multicolumn{2}{l}{Residual TPM} \\
+		&                &           & Port 1              & Port 2             & Port 1          & Port 2         \\ \hline
+		8.2--12.4      & WR-90           & SOSLT     & 0.005              & 0.004             & 0.007          & 0.006         \\
+		&              & TRL       & 0.003              & 0.006             & 0.002          & 0.002         \\
+		18--26.5       & WR-42           & SOSLT     & 0.003              & 0.004             & 0.010          & 0.005         \\
+		&              & TRL       & 0.002              & 0.002             & 0.002          & 0.001         \\ \hline 
 	\end{tabular}
-	\caption{Residual directivity and TPM values of WG16 and WG20 waveguide VNA calibrations as measured by the ripple extraction method. Both SOSLT and TRL calibration techniques were measured.}
+	\caption{Residual directivity and TPM values of WR-15 and WR-05 waveguide VNA calibrations as measured by the ripple extraction method. Both SOSLT and TRL techniques were used to calibrate the VNA.}
 	\label{ch4_table_WG16}
 \end{table}
 
 \subsubsection{Millimetre-wave Waveguides}
 
-To perform measurements above the 67 GHz upper limit of the VNA used for the investigation, a range of VDI frequency extender heads were attached to the instrument. These instruments include on their test port a line section of suitable length to allow the dissipation of evanescent modes. To study the performance of the ripple extraction technique at millimetre wavelengths, WG25 (WR15) and WG30 (WR05) waveguides were chosen. These waveguides have operating frequency ranges of 50—75 GHz and 140—220 GHz respectively. The results of the ripple extraction are shown in Table \ref{ch4_table_WG25}:
+To perform measurements at frequencies above 50 GHz, a range of external frequency extender heads were attached to the VNA. These extender heads included a line section attached to each test port of suitable length to avoid effects caused by evanescent modes that may exist close to the test port. To study the performance of the ripple extraction technique at millimetre wavelengths, WR-15 and WR-05 waveguides were chosen. These waveguides have operating frequency ranges of 50--75 GHz and 140--220 GHz respectively. The results of the ripple extraction are shown in Table \ref{ch4_table_WG25}:
 
 \begin{table}[]
-	\begin{tabular}{lllll}
+	\begin{tabular}{lllllll}
 		\hline
-		& \begin{tabular}[c]{@{}l@{}}Port 1\\ Residual Directivity\end{tabular} & \begin{tabular}[c]{@{}l@{}}Port 2\\ Residual Directivity\end{tabular} & \begin{tabular}[c]{@{}l@{}}Port 1\\ Residual TPM\end{tabular} & \begin{tabular}[c]{@{}l@{}}Port 2\\ Residual TPM\end{tabular} \\ \hline
-		WG25 SOSLT & 0.0015                                                                & 0.0015                                                                & 0.0175                                                        & 0.0165                                                        \\
-		WG25 TRL   & 0.0015                                                                & 0.0020                                                                & 0.0090                                                        & 0.0070                                                        \\
-		WG30 SOSLT & 0.0075                                                                & 0.0090                                                                & 0.0185                                                        & 0.0235                                                        \\
-		WG30 TRL   & 0.0070                                                                & 0.0080                                                                & 0.0210                                                        & 0.0150                                                        \\ \hline
+		Frequency, GHz & Waveguide size & Cal. type & \multicolumn{2}{l}{Residual directivity} & \multicolumn{2}{l}{Residual TPM} \\
+		&                &           & Port 1              & Port 2             & Port 1          & Port 2         \\ \hline 
+		50--75         & WR-15          & SOSLT     & 0.002               & 0.002              & 0.018           & 0.017          \\
+		&                & TRL       & 0.002               & 0.002              & 0.009           & 0.007          \\
+		140--220       & WR-05          & SOSLT     & 0.008               & 0.009              & 0.019           & 0.024          \\
+		&                & TRL       & 0.007               & 0.008              & 0.021           & 0.015          \\ \hline
 	\end{tabular}
 	\caption{Residual directivity and TPM values of WG25 and WG30 waveguide VNA calibrations as measured by the ripple extraction method. Both SOSLT and TRL calibration techniques were measured.}
 	\label{ch4_table_WG25}
@@ -264,48 +281,52 @@ To perform measurements above the 67 GHz upper limit of the VNA used for the inv
 
 \subsubsection{Submillimetre-wave Waveguides}
 
-The final part of the investigation studied the ripple extraction technique when applied to sub-millimetre wavelength VNA setups. The waveguide chosen for these measurements was in the 500—750 GHz band (WR1.5) for which only one frequency extender head was available. Therefore, the TRL calibration was omitted and only port one was measured. The line section used was part of the VDI WR1.5 calibration and verification kit and was 2.54 mm (1 inch) in length. Figure \ref{ch4_fig_setup} shows the setup used during the measurement of residual directivity, with a line and match connected to the frequency extender head. The results from the ripple measurements in this waveguide are presented in Table \ref{ch4_table_WR1.5}. The large difference in residual TPM error between calibrations suggests that there is poor connection repeatability between the waveguide components, an issue which is explored further in the following section. This problem also created difficulty in accurately measuring the residual directivity error, as studying the VRC phase revealed that there was no wrapping present and on average only ~90 degree total phase deviation. Figure \ref{ch4_fig_wm380} shows the result of this measurement, which suggests that the residual directivity will be underestimated using the ripple extraction technique with this data. The calibration kit included two sets of standards, so the load was swapped but did not improve the problem. Rotation of the load about 180 degrees, which is possible with the UG-387 flange design, also did not increase the phase deviation. The same issue was found when the measurements were performed using the second calibration, which used the entire second set of calibration standards in the kit. This behaviour suggests that the connection repeatability issue is also likely to blame for the residual directivity underestimation. If the matched load was connected with a flange misalignment that caused more reflection than when the line was subsequently added, then $\Gamma < D$ and the ripple technique will fail.
+The final stage of the investigation studied the ripple extraction technique when applied to submillimetre wavelength VNA setups. The waveguide chosen for these measurements was in the 500--750 GHz band (WR-1.5) for which only one frequency extender head was available. Owing to the requirement for a
+through standard when using the TRL calibration method, only a three-known-loads calibration was performed, which was the one-port version of SOSLT (SOSL). The line section used was $\sim$25.4 mm in length and was part of a calibration and verification kit manufactured by Virginia Diodes, Inc. All waveguide flanges, apart from the short-circuit, used precision alignment dowels located above and below the aperture. Figure \ref{ch4_fig_setup} shows the setup used during the measurement of residual directivity, with a line and match connected to the frequency extender head. 
+
+It can be seen that the residual directivity is significantly smaller than the residual TPM. By
+assessing the phase wrapping of the ripple trace obtained for evaluating residual directivity, as shown in Figure \ref{ch4_fig_wm380}, the ripple extraction technique appears to be subject to the failure mechanism described in the previous Section 4.3.1 and illustrated in Figure \ref{ch4_fig_ripple1}c. The lack of phase wrapping across the entire operating bandwidth shows that the ripple extraction technique was not operating within the required assumptions necessary for the technique to be valid, and therefore provided an underestimate of the residual directivity. The calibration kit used for this experiment included two full sets of standards, so the matched load was swapped and the ripple extraction technique was repeated. The issue was not resolved by this change, so the calibration was repeated, this time using the other matched load. The ripple extraction technique was then performed with the matched load used for the original calibration. However, no combination of these components provided a valid residual directivity value as assessed by the phase wrapping method. A likely cause of this effect is the poor connection repeatability inherent in this waveguide size, using typical precision UG-387 flanges. If the waveguide apertures have a greater misalignment during calibration than when the ripple extraction technique is performed, the effect of the discontinuities can cause the calibration matched load to appear to have a higher $|\Gamma|$ than the one used for the ripple extraction technique (even if the opposite were in fact true). These conditions cause the residual directivity to be underestimated as explained in Section 4.3.1.
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.65\textwidth]{setup.jpg}
-	\caption{The setup used for residual directivity measurements in WR1.5 waveguide.}
+	\caption{Test port setup used for residual directivity measurements in WR-1.5 waveguide.}
 	\label{ch4_fig_setup}
 \end{figure}
 
 \begin{table}[]
-	\begin{tabular}{lll}
+	\begin{tabular}{lllll}
 		\hline
-		& \begin{tabular}[c]{@{}l@{}}Port 1\\ Residual Directivity\end{tabular} & \begin{tabular}[c]{@{}l@{}}Port 1\\ Residual TPM\end{tabular} \\ \hline
-		WR1.5 SOSLT Cal. 1 & 0.0205                                                                & 0.1420                                                        \\
-		WR1.5 SOSLT Cal. 2 & 0.0250                                                                & 0.0650                                                        \\ \hline
+		Frequency, GHz & Waveguide size & Cal. type    & Residual directivity & Residual TPM \\ \hline 
+		500--750       & WR-1.5         & SOSLT Cal. 1 & 0.021                & 0.142        \\
+		&                & SOSLT Cal. 2 & 0.025                & 0.065        \\ \hline 
 	\end{tabular}
-	\caption{Residual directivity and TPM values of two WR1.5 waveguide VNA calibrations as measured by the ripple extraction method. Two similar calibrations were performed using different standards from the same kit.}
+	\caption{Residual directivity and TPM values of two WR-1.5 waveguide VNA calibrations as measured by the ripple extraction method. Two similar types of calibration were performed using different standards from the same kit.}
 	\label{ch4_table_WR1.5}
 \end{table}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.65\textwidth]{wm380.png}
-	\caption{Phase plot for a residual directivity measurement performed in WR1.5 waveguide using a SOLT calibration. The lack of phase wrapping over the entire operating bandwidth indicates that the ripple extraction technique will underestimate the residual error.}
+	\caption{Phase plot for a residual directivity evaluation performed in WR-1.5 waveguide using an SOSLT calibration.}
 	\label{ch4_fig_wm380}
 \end{figure}
 
 \subsubsection{Waveguide Discontinuities}
 
-When a discontinuity is present between two sections of rectangular waveguide, an increased reflection will be seen at the location of the join. There are three types of discontinuity possible in rectangular waveguide: E-plane and H-plane lateral displacements, angular displacement, and corner rounding. A report produced by Bannister \cite{Bannister_1989} presented the effects of these discontinuities at centimetre and millimetre wavelengths with measured data, and subsequent work by Kerr extended this using simulations \cite{Kerr_1999, Kerr_2010}. 
+When a discontinuity is present between two sections of rectangular waveguide, an increased reflection will be seen at the location of the join. There are three types of discontinuity possible in rectangular waveguide: E-plane and H-plane lateral displacements, angular displacement, and corner rounding. A report produced by Bannister \emph{et al.} \cite{Bannister_1989} presented the effects of these discontinuities at centimetre and millimetre wavelengths. Subsequent work by Kerr extended this using simulations \cite{Kerr_1999, Kerr_2010}. 
 
-The error in VRC contributed to by this effect is proportional to wavelength and therefore the aperture size of the waveguide. At submillimetre wavelengths, the error has been shown to be considerable \cite{Williams_2011, Li_2012}. Recently, efforts have been made to improve the connection repeatability for waveguide at these wavelengths, and a new IEEE draft standard \cite{IEEE1785} presents three new connector types which significantly improves the alignment. Another potential improvement attempts to reduce misalignment errors during calibration by replacing the waveguide offset short with a radiating open, and new calibration algorithms have been developed to accompany this \cite{Arsenovic_2014}. The open standard must be very well characterised, and the technique has not yet seen widespread uptake.
+The error in $\Gamma$ contributed to by the effect of such discontinuities is proportional to wavelength, and therefore also the aperture size of the waveguide. At submillimetre wavelengths, the error has been shown to be considerable \cite{Williams_2011, Li_2012}. Recently, efforts have been made to improve the connection repeatability for waveguide at these wavelengths, and a new IEEE draft standard \cite{IEEE1785} presents three new connector types which significantly improves the alignment. Another potential improvement attempts to reduce misalignment errors during calibration by replacing the waveguide offset short with a radiating open, and new calibration algorithms have been developed to accompany this \cite{Arsenovic_2014}. The open standard must be very well characterised, and the technique has not yet seen widespread uptake.
 
 \subsubsection{Discussion}
 
-In centimetre wavelength band waveguides (WG16, WG20) the ripple extraction technique provided similar measurements of residual directivity and TPM than those performed in coaxial line. This is not surprising as providing a good quality match was used for calibration and the connections were well made and aligned, both errors should not have significant contributions outside of the VNA itself. When extended to millimetre wavelength waveguide, the residual errors were larger but still within the recommended values for coaxial lines. At sub-millimetre wavelengths the two calibrations resulted in significant differences in the residual error. A likely cause is the effect of discontinuities in the waveguide components during calibration, especially the matched load and offset short. Additionally, by studying the phase of the measured VRC, it was shown that the residual directivity measurements were underestimating the true value and therefore the ripple technique was failing. This may also be due to the poor repeatability of the waveguide connection causing the VRC of the matched load used for the ripple extraction to be lower than that used for the calibration. Steps were taken to attempt to resolve this issue, but the extent of the misalignment errors prevented an accurate measurement of residual directivity from being performed. New improvements to sub-millimetre wavelength waveguide flanges should significantly reduce this problem and allow the ripple technique to work more consistently with these waveguides.
+In centimetre-wave waveguides (WR-90, WR-42), the ripple extraction technique provided values of residual directivity and TPM similar to those obtained in coaxial line. This is not surprising as providing a good quality match is used for calibration and the connections are well made and aligned, both errors should not have significant contributions outside of the VNA itself. When extended to millimetre-wave waveguide, the residual errors were found to be larger, but still within the recommended values for coaxial lines. At submillimetre wavelengths, the two calibrations that were performed resulted in significant differences in the residual errors. A likely cause for these differences is the effect of discontinuities in the waveguide components (due to poor connection repeatability and demanding mechanical tolerances) used during the calibration, especially the matched load and offset short. Additionally, by studying the phase of the measured $\Gamma$, it was shown that the ripple extraction technique was not operating within required assumptions necessary for the technique to be valid and was therefore underestimating the true value of the residual directivity. The cause of this may also be related to the poor repeatability of the waveguide connection, causing the $\Gamma$ of the matched load used for the ripple extraction to be lower than that used for the calibration. Some effort were made to resolve this issue, but were unsuccessful. New improvements to submillimetre-wave waveguide flanges could significantly reduce this problem and allow the ripple technique to work more consistently with these very small waveguides.
 
-A useful assessment method for the ripple technique was presented earlier in this section and should be performed whenever the technique is used. When viewing the measured VRC on a polar or Smith chart, if the origin of the chart lies within the circumference of the trace, the technique is accurately measuring the residual error. However, if the trace is circling outside of the origin of the chart, the ripple half-height only represents the magnitude of the reflection measurement used for the technique. If the technique has been deemed failed by this assessment, the VNA should be recalibrated and the test attempted again. If it fails after this, then the test artefacts should be connected in a way that exaggerates the mismatch, for example by inverting a connection, and the test performed again. Only when the origin of the Smith chart lies within the reflection trace are the results from the technique accurate.
+A useful assessment method to test the validity of the ripple extraction technique was presented earlier in this paper, and should be performed whenever the technique is used. This assessment method views $\Gamma$ measured during the ripple extraction technique on either a phase plot, a polar plot or a Smith chart. When using a phase plot, this assessment has passed if the phase is seen to be wrapping across the operating bandwidth. When using a polar plot or Smith chart, this assessment has passed if the origin of the chart lies within the circumference of the trace. If the technique is deemed to have failed based on this assessment, the VNA should be recalibrated and the ripple extraction technique should be repeated. If this does not affect the assessment result, then the near-matched load or short-circuit used during the technique should be swapped with another (preferably known to have a higher $\Gamma$) and the ripple extraction technique repeated again. Only when this assessment has passed can the results from the ripple extraction technique be considered reliable.
 
 \subsubsection{Conclusion}
 
-The investigation studied the effectiveness of the ripple extraction technique when applied to rectangular waveguide measurements up to 750 GHz. Typical values of residual directivity and test port match were provided for users to compare against. The effect of discontinuities at waveguide interconnections were explored and some recent efforts to mitigate these problems were mentioned. Finally, the investigation showed that the ripple extraction technique may not currently be a reliable way of measuring residual error in sub-millimetre wavelength systems.
+This paper investigated the effectiveness of the ripple extraction technique when applied to rectangular waveguide measurements at centimetre, millimetre and submillimetre wavelengths. Typical values of residual directivity and TPM in these three ranges have been provided. For centimetre- and millimetre-wave waveguides the ripple extraction technique works as expected. Since the standards used in this investigation are commercially available and the calibration techniques are available on nearly all VNAs, the values of residual error given in this paper are considered representative and suitable for use as reference values by other users of similar types of measurement system, to compare their own values against. This is because the performance of these systems is usually dominated by the quality of the standards and the type of calibration technique that is used. However, this paper has also shown that the ripple extraction technique may not currently be a reliable way of measuring residual error in submillimetre wavelength systems. The effect of discontinuities at submillimetre-wave waveguide interconnections has been considered as a cause of this issue.
 
 \section{Rigorous Models for VNA Uncertainty Evaluation}
 \subsection{Method}
@@ -314,11 +335,11 @@ A rigorous evaluation of VNA uncertainty can be applied by using a measurement m
 
 There are several formulations of rigorous VNA measurement models in use, and most of them have been written into a software framework due to their complexity. The differences between the models are due to optimising the same mathematical relationships for different methods of processing. This section will now describe three popular VNA uncertainty frameworks.
 
-\subsection{Keysight Technologies PNA-X Dynamic S-Parameter Uncertainty Option}
+\subsection{Keysight PNA-X Dynamic S-Parameter Uncertainty}
 
-The Keysight Technologies PNA-X Dynamic S-Parameter Uncertainty Option is an extension to the software provided on Keysight Technologies PNA-X VNAs. This software extension uses a separate graphical window to allow the user to manage sources of uncertainty (input quantities), which are then referenced by the VNA software to evaluate the combined standard uncertainty in the s-parameter measurements it produces.
+The Keysight PNA-X Dynamic S-Parameter Uncertainty option is an extension to the software provided on Keysight PNA-X VNAs. This software extension uses a separate graphical window to allow the user to manage sources of uncertainty (input quantities), which are then referenced by the VNA software to evaluate the combined standard uncertainty in the s-parameter measurements it produces.
 
-Uncertainties for input quantities are provided in the form of calibration kits, cables and test ports. Mechanical standards in calibration kits can be characterised with uncertainty information by either measuring them on another PNA-X with the uncertianty software option, or supplied with that information from the manufacturer if they are Keysight products. Likewise, electronic calibration units from Keysight also include uncertainty characterisations in their definition files and can be loaded directly into the PNA-X software. Cable stability can be measured in a guided process through the uncertainty software and assigned to that cable identity for future use. Likewise, the test-port is used as an identity to store measurements of noise floor and trace noise, which are again measured through a guided process.
+Uncertainties for input quantities are provided in the form of calibration kits, cables and test ports. Mechanical standards in calibration kits can be characterised with uncertainty information by either measuring them on another PNA-X with the uncertainty software option, or supplied with that information from the manufacturer if they are Keysight products. Likewise, electronic calibration units from Keysight also include uncertainty characterisations in their definition files and can be loaded directly into the PNA-X software. Cable stability can be measured in a guided process through the uncertainty software and assigned to that cable identity for future use. Likewise, the test-port is used as an identity to store measurements of noise floor and trace noise, which are again measured through a guided process.
 
 A calibration using uncertainty information is then performed, after which the VNA will perform measurements as normal. However, with the calibration applied it is possible to also view uncertainty information in real-time (i.e. calculated after every sweep) on the display. This can be in the form of error bars and lines showing standard deviations for scalar measurands like magnitude and phase, and also uncertainty ellipses showing standard deviations of complex values on polar plots or Smith charts.
 
@@ -336,7 +357,7 @@ The underlying uncertainty propagation library, UncLib, specialises in linear pr
 
 In addition to the uncertainty evaluation, VNA Tools II allows users to store collections of characterised cables and calibration standards, as well as record all measurements in a journal for both short-term reference and archiving evidence of traceability.
 
-To store uncertainty information for s-parameter measurements, a new file format was invented for VNA Tools II, which uses the ``.sdatcv'' filename extension. This file format stores s-parameter data with covariances between the real and imaginary components for each parameter at a particular frequency. Covariance data of parameters between frequency points is not saved as this can create very large files for typical VNA frequency sweeps, and is not useful when evaluating measurement uncertainty in the frequency domain for devices operating linearly. As mentioned earlier, this file format is also supported by the Keysight Technologies PNA-X Dynamic S-Parameter Uncertainty Option, allowing standards to be used between the two different software frameworks.
+To store uncertainty information for s-parameter measurements, a new file format was invented for VNA Tools II, which uses the ``.sdatcv'' filename extension. This file format stores s-parameter data with covariances between the real and imaginary components for each parameter at a particular frequency. Covariance data of parameters between frequency points is not saved as this can create very large files for typical VNA frequency sweeps, and is not useful when evaluating measurement uncertainty in the frequency domain for devices operating linearly. As mentioned earlier, this file format is also supported by the Keysight PNA-X Dynamic S-Parameter Uncertainty option, allowing standards to be used between the two different software frameworks.
 
 \subsection{NIST Microwave Uncertainty Framework}
 
@@ -346,7 +367,7 @@ Because the MUF was written to support general RF and microwave metrology resear
 
 The MUF does not propagate uncertainty using covariance information stored in conventional matrices. Instead, at first chance it converts uncertainty information into a set of Monte Carlo samples. The order of these samples is carefully preserved throughout subsequent calculations, which has the effect of propagating covariance information throughout the uncertainty evaluation. For example, when a physically-defined impedance standard is modelled with parameters assigned statistical distributions, the MUF will sample from each distribution, evaluate the model and produce a sample to be used as an observation of an input quantity. This sample-based preservation of covariance information is very useful for input quantities with strong correlations - for example the real and imaginary components of a complex s-parameter measurement. Rather than statistically averaging a set of repeat measurements to assign a single covariance value, as outlined in the GUM document, the repeat measurements are preserved so that the distribution of covariance information is also used during the uncertainty evaluation. For most types of uncertainty source in the MUF this benefit is not realised because Monte Carlo samples are synthesised from statistical definitions (e.g. models, parameters), but for large numbers of repeat samples the functionality is available. The side-effect of this benefit is that keeping all of the measurement data, or synthesised Monte Carlo samples, can consume a lot of memory. However, modern computing resources mean that the space requirement is no longer a difficulty.
 
-One of the most flexible features of the MUF is that any user can define their own models and post-processors (both are measurement models). This allows the MUF to provide uncertainty evaluations for new methods of electromagnetic wave metrology and communication systems research \cite{Dortmans_2019, Sanders_2019}.
+One of the most flexible features of the MUF is that any user can define their own models and post-processors (both are measurement models). This allows the MUF to provide uncertainty evaluations for new methods of electromagnetic wave metrology and communication systems research \cite{Dortmans_2019, Gu_2019}.
 
 \section{NVNA Uncertainty Evaluation}
 
@@ -356,7 +377,7 @@ It was explained in Chapter 2 that in order to measure nonlinear devices using a
 
 The phase reference used during calibration contributes both systematic and random error sources. Because it is used as a calibration standard, systematic error due to inaccuracies of the characterisation is a primary concern. This is especially true for the phase calibration where the coefficients calculated from the measurements of the reference it's characterisation have a linear relationship with the calibrated DUT waves. This is different to the relative calibration of the VNA, where at least some of the coefficients are the result of information from several different impedance standards, therefore reducing the impact of a single inaccuracy in the characterisation or measurement of a single standard. In addition, for measurements of nonlinear microwave (and millimetre-wave) devices, harmonics of interest can be well above 10 GHz, where the wavelength in a transmission line is short and connector and cable repeatability errors (i.e. random errors) can have a large effect on the accuracy of the phase calibration.
 
-The second phase reference used during measurements with a mixer-based NVNA recovers the true phases of measured waves after the local oscillator frequency changes. This phase reference does not contribute systematic error because the absolute phase values are mathematically cancelled during calibration (when measuring the first phase reference) and therefore they do not need to be known. Random errors due to connector and cable repeatability are also insignificant when measuring this device because their contributions are also cancelled during calibration and the device is never reconnected or moved afterwards. Instead, for this phase reference the dominant uncertainty contribution is drift, because to quantify the varying local oscillator phase and correct the DUT measurements, the reference phase must be constant. For this reason commercially available phase references will typically use temperature-controlled electronics to minimise the drift of the produced harmonic tones, which improves the issue \cite{Jargon_2003}. Because this phase reference is driven by another source (usually from within the NVNA, e.g. a 10 MHz reference clock), the phase noise and amplitude of this source will also have a significant effect on the uncertainty contribution. Blockley et al. provide an excellent review of this source of uncertainty and it's impact on NVNA measurements \cite{Blockley_2007}. The key finding of this review is that for measurements using an IFBW of 100 Hz or below, the uncertainty contribution of random errors originating from the phase reference is negligible for typical DUT measurements. Although for VNA measurements IFBW settings above 100 Hz can be common for wideband frequency sweeps, the harmonic nature of NVNA measurements means that the IFBW is typically 30 Hz or below, which satisfies the recommendation from \cite{Blockley_2007}
+The second phase reference used during measurements with a mixer-based NVNA recovers the true phases of measured waves after the local oscillator frequency changes. This phase reference does not contribute systematic error because the absolute phase values are mathematically cancelled during calibration (when measuring the first phase reference) and therefore they do not need to be known. Random errors due to connector and cable repeatability are also insignificant when measuring this device because their contributions are also cancelled during calibration and the device is never reconnected or moved afterwards. Instead, for this phase reference the dominant uncertainty contribution is drift, because to quantify the varying local oscillator phase and correct the DUT measurements, the reference phase must be constant. For this reason commercially available phase references will typically use temperature-controlled electronics to minimise the drift of the produced harmonic tones, which improves the issue \cite{Jargon_2003}. Because this phase reference is driven by another source (usually from within the NVNA, e.g. a 10 MHz reference clock), the phase noise and amplitude of this source will also have a significant effect on the uncertainty contribution. Blockley \emph{et al.} provide an excellent review of this source of uncertainty and it's impact on NVNA measurements \cite{Blockley_2007}. The key finding of this review is that for measurements using an IFBW of 100 Hz or below, the uncertainty contribution of random errors originating from the phase reference is negligible for typical DUT measurements. Although for VNA measurements IFBW settings above 100 Hz can be common for wideband frequency sweeps, the harmonic nature of NVNA measurements means that the IFBW is typically 30 Hz or below, which satisfies the recommendation from \cite{Blockley_2007}
 
 To provide a suitably accurate characterisation of the phase reference a sampling oscilloscope can be used to measure the output of the device \cite{Reader_2008}. This oscilloscope can be calibrated using electro-optic techniques traceable to primary standards \cite{Williams_2006, Hale_2009}. This service is provided by NIST for Keysight phase references and includes information on the uncertainty in the amplitude and phase of each measured harmonic \cite{Keysight_2017}. The covariances between these quantities are not included, however, which can significantly affect the combined uncertainty of some nonlinear DUT measurements, including those involving cross-frequency terms such as behavioural models described later in Chapter 5.
 
@@ -373,16 +394,16 @@ Therefore, for this project two phase references were taken to NIST and re-chara
 	\centering
 	\begin{subfigure}{\textwidth}
 		\centering
-		\includegraphics[width=0.7\textwidth]{combuncA.png}
+		\includegraphics[width=0.62\textwidth]{combuncA.png}
 		\caption{ }
 	\end{subfigure}
 	\\
 	\begin{subfigure}{\textwidth}
 		\centering
-		\includegraphics[width=0.7\textwidth]{combuncP.png}
+		\includegraphics[width=0.62\textwidth]{combuncP.png}
 		\caption{ }
 	\end{subfigure}
-	\caption{Results of the NIST phase reference characterisation displayed using the MUF measurement viewer software. The device was connected to port one of the NVNA performing the measurement, so the amplitude (a) and phase (b) of the b wave for the fundamental harmonic at port one (b1\_1) is shown.}
+	\caption{Results of the phase reference characterisation performed at NIST for unit MY51256113 displayed using the MUF measurement viewer software. The device was connected to port one of the NVNA performing the measurement, so the amplitude (a) and phase (b) of the b wave for the fundamental harmonic at port one (b1\_1) is shown.}
 	\label{ch4_fig_combunc}
 \end{figure}
 
@@ -411,7 +432,7 @@ For an ideal measurement, $M_\textrm{u}$ and $m$ are all equal to one and $t$ is
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\textwidth]{pmsens.png}
+	\includegraphics[width=\textwidth]{pmsens.png}
 	\caption{An example sensitivity analysis showing the effect of power meter uncertainties on an X-parameter measurement. The plot shows the amplitude of the X-parameter representing the large-signal output of the amplifier into a matched load versus a swept input power. The values are in units of square-root Watts. The input quantities ROMM, ROPU and InsE all contribute to $m$, ZSEr and ZCOE contribute to $t$, and CFEr represents the error in $K_\textrm{b}$. Mismatch error is not included in the power meter model but is modelled as a cascaded adapter attached to the power sensor instead.}
 	\label{ch4_fig_pmsens}
 \end{figure}
@@ -420,18 +441,37 @@ For an ideal measurement, $M_\textrm{u}$ and $m$ are all equal to one and $t$ is
 
 Although there are many guides and software frameworks available for propagating uncertainty through VNA measurements, there are only two published options currently available for NVNA measurements \cite{Lin_2012, MUFWebsite}.
 
+\subsubsection{Analytical Covariance-Based Propagation}
+
 Lin and Zhang published a covariance-based analytical method for linear propagation of uncertainty which allows a GUM-based technique to be applied to NVNA uncertainties \cite{Lin_2012}. Partial derivates with respect to all input quantities have been derived for the NVNA measurement model, which is shown graphically in Figure \ref{ch4_fig_linmodel}. These include the use of Cauchy-Riemann derivatives in order to accommodate ratios of the complex components used to calculate magnitude and phase values for the respective parts of the absolute calibrations.
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\textwidth]{linmodel.png}
+	\includegraphics[width=0.8\textwidth]{linmodel.png}
 	\caption{The NVNA measurement model used in \cite{Lin_2012}.}
 	\label{ch4_fig_linmodel}
 \end{figure}
 
+\subsubsection{Numerical Propagation}
 
+The MUF includes both s-parameter and wave-parameter measurement models for a VNA. The wave-parameter model was extended at NIST and used to create an NVNA measurement model which can be used to propagate uncertainty for nonlinear device measurements using the numerical methods included in the MUF - namely Monte Carlo and sequential perturbation. This was the approach chosen for the work in this project because there were already published results from this framework and it was actively supported \cite{Avolio_2015}. In addition, the MUF includes preserves information about correlations between frequencies in the form of indexed Monte Carlo samples. This is an alternative to the very large covariance matrices required to otherwise store this information at each step of the propagation (although there have been recent efforts to improve this burden using principal component compression \cite{Humphreys_2015}). This ability is significant when using the results of the measurement to produce time-domain or cross-frequency information as required by nonlinear behavioural models, where without these correlations included the combined uncertainty may be considerably perturbed.
+
+Figure shows a screenshot of the MUF software \textbf{VNA Uncertainty Calculator} with the LSNA tab open. This part of the software allows a user to enter models for the power meter and adapters, and measurements for the power and phase calibrations. The phase reference does not use a model, but instead a characterisation file including covariances as described earlier in this section.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{muflsna.png}
+	\caption{The LSNA calibration tab of the MUF \textbf{VNA Uncertainty Calculator} application. Each file icon represents a ``.meas'' file, which contains an index of Monte Carlo samples generated from a statistical analysis of repeated measurements for each quantity. It is by this method that the MUF propagates distribution information and preserves covariance information. The power meter mismatch and efficiency input boxes are empty as they are included in the model which generated the processed power meter reading file (``PM\_Model'').}
+	\label{ch4_fig_muflsna}
+\end{figure}
 
 \section{Conclusion}
+
+This chapter has studied the application of uncertainty evaluation to measurements performed on both VNA and NVNA instruments. After a brief introduction to typical sources of uncertainty encountered in these measurements, two versions of VNA measurement models were explained. The residual error model provides a less computationally-intensive propagation of uncertainty, which was noticeably beneficial in the years when it was developed, but this concern is now less relevant. It was shown that the residual error model can also suffer from problems during the ripple measurement method used to characterise some of the input quantities, and is also not reliable when used in submillimetre-wave rectangular metallic waveguide. In contrast, the rigorous VNA measurement model provides more accurate values for combined uncertainties, especially as it correctly preserves correlations through the propagation. This can be achieved either via linear propagation methods as defined in the GUM document, or via Monte Carlo techniques as defined in the GUM supplement, both of which were explained in Chapter 3.
+
+The extension of VNA uncertainty to NVNA measurements was also discussed, where there is a requirement to add the absolute power and phase calibrations to the VNA measurement model. Due to NVNA uncertainty evaluation being relatively young in the field of microwave metrology, there are only two available frameworks to provide such evaluations. The single software solution, the MUF, provides multiple propagation methods and includes a sensitivity analysis feature. It can propagate cross-frequency correlations which are important for use in nonlinear behavioural models. For these reasons, the MUF was selected for use in this project as the framework to use to propagate measurement uncertainty into nonlinear behavioural models.
+
+
 \addcontentsline{toc}{section}{Bibliography}
 \printbibliography[title=References]
 \end{refsection}

@@ -1,34 +1,17 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'ch4-vnaunc.blg'
-[29] biber-MSWIN32:315> INFO - === 
-[58] Biber.pm:371> INFO - Reading 'ch4-vnaunc.bcf'
-[147] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[150] Biber.pm:889> INFO - Found 44 citekeys in bib section 1
-[150] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[171] Biber.pm:4093> INFO - Processing section 1
-[183] Biber.pm:4254> INFO - Looking for bibtex format file '../references.bib' for section 1
-[197] bibtex.pm:1523> INFO - LaTeX decoding ...
-[316] bibtex.pm:1340> INFO - Found BibTeX data source '../references.bib'
-[384] Utils.pm:193> WARN - month field 'Nov' in entry 'Rytting_2001' is not an integer - this will probably not sort properly.
-[387] Utils.pm:193> WARN - month field 'Nov' in entry 'Martens_2007' is not an integer - this will probably not sort properly.
-[419] Utils.pm:193> WARN - month field 'Sep.' in entry 'IEEE1785' is not an integer - this will probably not sort properly.
-[424] Utils.pm:193> WARN - month field 'Dec' in entry 'Arsenovic_2014' is not an integer - this will probably not sort properly.
-[428] Utils.pm:193> WARN - month field 'Dec' in entry 'Garelli_2012' is not an integer - this will probably not sort properly.
-[442] Utils.pm:193> WARN - month field 'June' in entry 'Wollensack_2012' is not an integer - this will probably not sort properly.
-[448] Utils.pm:193> WARN - month field 'Dec' in entry 'Ginley_2016' is not an integer - this will probably not sort properly.
-[450] Utils.pm:193> WARN - month field 'Nov' in entry 'Ginley_2017' is not an integer - this will probably not sort properly.
-[455] Utils.pm:193> WARN - month field 'Jan' in entry 'Jargon_2019' is not an integer - this will probably not sort properly.
-[473] Utils.pm:193> WARN - month field 'June' in entry 'Sanders_2019' is not an integer - this will probably not sort properly.
-[479] Utils.pm:193> WARN - month field 'Dec' in entry 'Jargon_2003' is not an integer - this will probably not sort properly.
-[485] Utils.pm:193> WARN - month field 'Oct' in entry 'Blockley_2007' is not an integer - this will probably not sort properly.
-[491] Utils.pm:193> WARN - month field 'Feb' in entry 'Reader_2008' is not an integer - this will probably not sort properly.
-[502] Utils.pm:193> WARN - month field 'Jan' in entry 'Williams_2006' is not an integer - this will probably not sort properly.
-[512] Utils.pm:193> WARN - month field 'Oct' in entry 'Hale_2009' is not an integer - this will probably not sort properly.
-[521] Utils.pm:193> WARN - month field 'jan' in entry 'Lin_2012' is not an integer - this will probably not sort properly.
-[563] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[563] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[563] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[564] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[596] bbl.pm:636> INFO - Writing 'ch4-vnaunc.bbl' with encoding 'UTF-8'
-[611] bbl.pm:739> INFO - Output to ch4-vnaunc.bbl
-[616] Biber.pm:110> INFO - WARNINGS: 16
+[31] biber-MSWIN32:315> INFO - === 
+[61] Biber.pm:371> INFO - Reading 'ch4-vnaunc.bcf'
+[151] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[155] Biber.pm:889> INFO - Found 46 citekeys in bib section 1
+[155] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[176] Biber.pm:4093> INFO - Processing section 1
+[188] Biber.pm:4254> INFO - Looking for bibtex format file '../references.bib' for section 1
+[201] bibtex.pm:1523> INFO - LaTeX decoding ...
+[323] bibtex.pm:1340> INFO - Found BibTeX data source '../references.bib'
+[588] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[588] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[588] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[588] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[621] bbl.pm:636> INFO - Writing 'ch4-vnaunc.bbl' with encoding 'UTF-8'
+[637] bbl.pm:739> INFO - Output to ch4-vnaunc.bbl

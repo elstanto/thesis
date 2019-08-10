@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<CorrectedMeasurement FileName="C:\Users\Laurence\thesis\tex\figs\ch4-vnaunc\muf\HPR_Measurement.meas" CreationTime="07/08/2019 11:47:50" AssemblyVersion="1.4.29.18594" UserName="Laurence">
+  <MenuStripItems>
+    <PlotFillsFormToolStripMenuItem Enabled="True" Checked="False" />
+    <PlotProbabilityDensityFunctionToolStripMenuItem Enabled="True" Checked="False" />
+  </MenuStripItems>
+  <MenuStripTextBoxes>
+    <ConfidenceLimit Enabled="True" Text="95" />
+    <ResampleConfInterval Enabled="True" Text="95" />
+    <NResample Enabled="True" Text="1000" />
+    <HistogramBins Enabled="True" Text="20" />
+    <NumberMCSims Enabled="True" Text="1000" />
+    <CommentIndicatorText Enabled="True" Text="!" />
+    <MDIFBlockIndex Enabled="True" Text="0" />
+    <CreatedByUserName Enabled="True" Text="" />
+    <CreatedByProgram Enabled="True" Text="" />
+    <CreatedByVersion Enabled="True" Text="" />
+    <CreatedByDate Enabled="True" Text="" />
+    <CreatedByFirstFileName Enabled="True" Text="" />
+    <CreatedByUpdatedFileName Enabled="True" Text="" />
+    <CreatedFromFirstFileName Enabled="True" Text="" />
+    <CreatedFromUpdatedFileName Enabled="True" Text="" />
+    <MyVersion Enabled="True" Text="" />
+    <Num_PCA_Components Enabled="True" Text="2" />
+  </MenuStripTextBoxes>
+  <MenuStripComboBoxes />
+  <Controls>
+    <NPortsTextBox ControlType="System.Windows.Forms.TextBox" ControlText="incomplete" FullName="Me_SplitContainer2__NPortsTextBox" Enabled="True" Visible="True" />
+    <MeasurementName ControlType="System.Windows.Forms.TextBox" ControlText="HPR Measurement" FullName="Me_SplitContainer2__MeasurementName" Enabled="True" Visible="True" />
+    <MeasurementDocumentation ControlType="System.Windows.Forms.TextBox" ControlText="" FullName="Me_SplitContainer2__GroupBox5_MeasurementDocumentation" Enabled="True" Visible="True" />
+    <MeasurementConditionsList ControlType="CustomFormControls.FLV_FixedDetailsList" ControlText="The measurement conditions" FullName="Me_SplitContainer2__GroupBox4_Panel4_MeasurementConditionsList" Enabled="True" Visible="True" Count="0" />
+    <MonteCarloPerturbedSParams ControlType="CustomFormControls.FLV_VariableDetailsList" ControlText="File View of the Monte Carlo perturbed measurements" FullName="Me_SplitContainer2__GroupBox3_Panel2_MonteCarloPerturbedSParams" Enabled="True" Visible="True" Count="0" />
+    <MeasSParams ControlType="CustomFormControls.FLV_FixedDetailsList" ControlText="The unperturbed measurement" FullName="Me_SplitContainer2__GroupBox2_Panel3_MeasSParams" Enabled="True" Visible="True" Count="1">
+      <Item Index="0" Text="Unperturbed" Count="2">
+        <SubItem Index="0" Text="Unperturbed" />
+        <SubItem Index="1" Text="" />
+      </Item>
+    </MeasSParams>
+    <PerturbedSParams ControlType="CustomFormControls.FLV_VariableDetailsListMeas" ControlText="File View of the perturbed measurements" FullName="Me_SplitContainer2__GroupBox1_Panel1_PerturbedSParams" Enabled="True" Visible="True" Count="0" />
+    <SmithFrequency ControlType="System.Windows.Forms.ComboBox" ControlText="" FullName="Me_SplitContainer2__SplitContainer1__SmithFrequency" Enabled="False" Visible="True" SelectedIndex="-1" Count="0" />
+  </Controls>
+</CorrectedMeasurement>

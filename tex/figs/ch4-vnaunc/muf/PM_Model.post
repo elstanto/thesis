@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<PostProcessor FileName="C:\Users\Laurence\thesis\tex\figs\ch4-vnaunc\muf\PM_Model.post" CreationTime="07/08/2019 11:55:34" AssemblyVersion="1.4.29.18599" UserName="Laurence">
+  <MenuStripItems>
+    <MatLabToolStripMenuItem Enabled="True" Checked="False" />
+    <SelectResultsDirectory Enabled="True" Checked="False" />
+    <SavemeasFilesInSubdirectories Enabled="True" Checked="True" />
+    <Binary Enabled="True" Checked="False" />
+    <SupressSensitivityAnalysis Enabled="True" Checked="False" />
+    <DoNotRecalculateExistingResultsToolStripMenuItem Enabled="True" Checked="False" />
+    <FrequenciesToolStripMenuItem Enabled="True" Checked="False" />
+    <SetTimesToolStripMenuItem Enabled="True" Checked="False" />
+    <CloseCalculators Enabled="True" Checked="False" />
+    <RunCalculationsInParallel Enabled="True" Checked="True" />
+    <CalibrateToolStripMenuItem Enabled="False" Checked="False" />
+    <AddToInputListToolStripMenuItem Enabled="False" Checked="False" />
+    <CreateMatLabTemplateToolStripMenuItem Enabled="False" Checked="False" />
+    <RunMatLabPostProcessor Enabled="False" Checked="False" />
+    <EstimateUncertaintyFromResiduals Enabled="True" Checked="False" />
+  </MenuStripItems>
+  <MenuStripTextBoxes>
+    <ResultsDirectory Enabled="True" Text="" />
+    <NumberMonteCarloSimulations Enabled="True" Text="1000" />
+    <ExperimentName Enabled="True" Text="" />
+    <GaussianLimit Enabled="True" Text="3.0" />
+    <StartFrequency Enabled="True" Text="1" />
+    <StopFrequency Enabled="True" Text="50" />
+    <StepFrequency Enabled="True" Text="1" />
+    <StartTime Enabled="True" Text="0" />
+    <StopTime Enabled="True" Text="10" />
+    <StepTime Enabled="True" Text="1" />
+    <EpsEffR Enabled="True" Text="1" />
+    <EpsEffI Enabled="True" Text="0" />
+    <GradientStoppingCondition Enabled="True" Text="0.000001" />
+    <NormStoppingCondition Enabled="True" Text="0.0" />
+    <DeltaxStoppingCondition Enabled="True" Text="0.0" />
+    <maxits Enabled="True" Text="0" />
+  </MenuStripTextBoxes>
+  <MenuStripComboBoxes>
+    <MagnitudePhaseInterpolationMethod Enabled="True" SelectedIndex="-1" />
+  </MenuStripComboBoxes>
+  <Controls>
+    <ErrorReportTextBox ControlType="System.Windows.Forms.TextBox" ControlText="" FullName="Me_ErrorReportTextBox" Enabled="True" Visible="False" />
+    <ModelOrigin ControlType="System.Windows.Forms.ComboBox" ControlText="NIST" FullName="Me_TableLayoutPanel1_GroupBox2_ModelOrigin" Enabled="True" Visible="False" SelectedIndex="0" Count="1">
+      <Item Index="0" Text="NIST" />
+    </ModelOrigin>
+    <ModelType ControlType="System.Windows.Forms.ComboBox" ControlText="Mismatch and other power-meter errors" FullName="Me_TableLayoutPanel1_GroupBox2_ModelType" Enabled="True" Visible="True" SelectedIndex="7" Count="20">
+      <Item Index="0" Text="Find S21 from power measurements" />
+      <Item Index="1" Text="Obsolete function: Translate NIST power measurement to uncertainty framework" />
+      <Item Index="2" Text="Determine efficiency of power meter from calibrated PNA measurement" />
+      <Item Index="3" Text="Determine efficiency of power meter from NIST Direct Comparison System" />
+      <Item Index="4" Text="Calculate efficiency from calorimeter measurements and g" />
+      <Item Index="5" Text="Calculate the correction factor g of the type N power meter" />
+      <Item Index="6" Text="Calculate the correction factor for RWG" />
+      <Item Index="7" Text="Mismatch and other power-meter errors" />
+      <Item Index="8" Text="Add uncertainties to voltmeter measurements" />
+      <Item Index="9" Text="Fit a quadratic thermopile response" />
+      <Item Index="10" Text="Calculate power from thermopile measurement and response profile" />
+      <Item Index="11" Text="Calculate DC substituted RF (bolometric) power" />
+      <Item Index="12" Text="Calculate equivalent generator reflection coefficient, GammaG, using 3-port S-parameters" />
+      <Item Index="13" Text="Calculate waveguide correction g for the microcalorimeter-bolometer calibration" />
+      <Item Index="14" Text="Calculate effective efficiency of a microcalorimeter-bolometer" />
+      <Item Index="15" Text="Calculate uncorrected effective efficiency of a microcalorimeter-bolometer" />
+      <Item Index="16" Text="Calculate intrinsic correction factor of a waveguide microcalorimeter" />
+      <Item Index="17" Text="Calculate incident power from wave parameters" />
+      <Item Index="18" Text="Calculate self-calibrated thermistor efficiency" />
+      <Item Index="19" Text="Calculate equivalent generator reflection coefficient, GammaG, using direct calibration method" />
+    </ModelType>
+    <ModelName ControlType="System.Windows.Forms.TextBox" ControlText="Create file with power meter reflection coefficient and errors" FullName="Me_TableLayoutPanel1_GroupBox2_ModelName" Enabled="True" Visible="True" />
+    <ModelGroup ControlType="System.Windows.Forms.ComboBox" ControlText="Power measurements" FullName="Me_TableLayoutPanel1_GroupBox2_ModelGroup" Enabled="True" Visible="True" SelectedIndex="3" Count="9">
+      <Item Index="0" Text="VNA measurements" />
+      <Item Index="1" Text="Adapter removal" />
+      <Item Index="2" Text="Material characterization" />
+      <Item Index="3" Text="Power measurements" />
+      <Item Index="4" Text="Noise measurements" />
+      <Item Index="5" Text="Scope measurements" />
+      <Item Index="6" Text="Antenna measurements" />
+      <Item Index="7" Text="Generic" />
+      <Item Index="8" Text="User post processor" />
+    </ModelGroup>
+    <MultipleMeasurements ControlType="System.Windows.Forms.GroupBox" ControlText="" FullName="Me_TableLayoutPanel1_GroupBox1_MultipleMeasurements" Enabled="True" Visible="False" />
+    <UserTextInput ControlType="System.Windows.Forms.TextBox" ControlText="" FullName="Me_TableLayoutPanel1_GroupBox1_UserTextInput" Enabled="True" Visible="False" />
+    <UserTextInputLabel ControlType="System.Windows.Forms.Label" ControlText="" FullName="Me_TableLayoutPanel1_GroupBox1_UserTextInputLabel" Enabled="True" Visible="False" />
+    <ComboBox1 ControlType="System.Windows.Forms.ComboBox" ControlText="Do not include power-meter match" FullName="Me_TableLayoutPanel1_GroupBox1_ComboBox1" Enabled="True" Visible="True" SelectedIndex="0" Count="3">
+      <Item Index="0" Text="Do not include power-meter match" />
+      <Item Index="1" Text="Include power-meter match in S11" />
+      <Item Index="2" Text="Include power-meter match in S22" />
+    </ComboBox1>
+    <ComboBox2 ControlType="System.Windows.Forms.ComboBox" ControlText="Reserved for future linearity models" FullName="Me_TableLayoutPanel1_GroupBox1_ComboBox2" Enabled="True" Visible="True" SelectedIndex="0" Count="1">
+      <Item Index="0" Text="Reserved for future linearity models" />
+    </ComboBox2>
+    <ComboBox3 ControlType="System.Windows.Forms.ComboBox" ControlText="" FullName="Me_TableLayoutPanel1_GroupBox1_ComboBox3" Enabled="True" Visible="False" SelectedIndex="-1" Count="14">
+      <Item Index="0" Text="Fit over all frequencies." />
+      <Item Index="1" Text="Fit from 5 MHz to 20 MHz, replace measurements below 5 MHz." />
+      <Item Index="2" Text="Fit from 10 MHz to 50 MHz, replace measurements below 10 MHz." />
+      <Item Index="3" Text="Fit from 20 MHz to 100 MHz, replace measurements below 20 MHz." />
+      <Item Index="4" Text="Fit from 50 MHz to 200 MHz, replace measurements below 50 MHz." />
+      <Item Index="5" Text="Fit from 100 MHz to 500 MHz, replace measurements below 100 MHz." />
+      <Item Index="6" Text="Fit from 200 MHz to 1 GHz, replace measurements below 200 MHz." />
+      <Item Index="7" Text="Fit from 500 MHz to 2 GHz, replace measurements below 500 MHz." />
+      <Item Index="8" Text="Fit from 1 GHz to 5 GHz, replace measurements below 1 GHz." />
+      <Item Index="9" Text="Fit from 2 GHz to 10 GHz, replace measurements below 2 GHz." />
+      <Item Index="10" Text="Fit from 5 GHz to 20 GHz, replace measurements below 5 GHz." />
+      <Item Index="11" Text="Fit from 10 GHz to 50 GHz, replace measurements below 10 GHz." />
+      <Item Index="12" Text="Fit from 20 GHz to 100 GHz, replace measurements below 20 GHz." />
+      <Item Index="13" Text="Fit from 50 GHz to 200 GHz, replace measurements below 50 GHz." />
+    </ComboBox3>
+    <DescriptionTextBox ControlType="System.Windows.Forms.TextBox" ControlText="" FullName="Me_TableLayoutPanel1_GroupBox3_DescriptionTextBox" Enabled="True" Visible="True" />
+    <getAllMultipleMeasurementsAtOnceCheckBox ControlType="System.Windows.Forms.CheckBox" ControlText="getAllMultipleMeasurementsAtOnce" FullName="Me_TableLayoutPanel1_GroupBox3_getAllMultipleMeasurementsAtOnceCheckBox" Enabled="True" Visible="False" Checked="False" />
+    <ModelDescription ControlType="System.Windows.Forms.TextBox" ControlText="This post processor assembles a power-meter reflection coefficient and adds power-meter instrument errors to an .s2p file. The instrumentation errors are reflected in the transmission terms of the result, which is intended for use in the calibration section of the VNA Uncertainty calculator.&#xD;&#xA;&#xD;&#xA;Errors follow those in Agilent Application Note 1449-1 Part 3. Approximate values from this publication are included in parentheses.&#xD;&#xA;&#xD;&#xA;The default frequency list is determined from the wave file measured by the power meter.&#xD;&#xA;&#xD;&#xA;Written by Dylan Williams." FullName="Me_TableLayoutPanel1_GroupBox3_ModelDescription" Enabled="True" Visible="True" />
+    <MultipleMeasurementsList ControlType="CustomFormControls.FLV_VariableDetailsList" ControlText="Expandable list of the multiple inputs to be processed by the Post Processor" FullName="Me_TableLayoutPanel1_GroupBox1_MultipleMeasurements_MultipleMeasurementsList" Enabled="True" Visible="False" Count="0" />
+    <PostProcessorMechanisms ControlType="CustomFormControls.FLV_FixedDetailsList" ControlText="List of the input parameters used in the Post Processor" FullName="Me_TableLayoutPanel1_GroupBox1_Panel4_PostProcessorMechanisms" Enabled="True" Visible="True" Count="14">
+      <Item Index="0" Text="Power-meter reflection coefficient (.s1p, .s2p)" Count="3">
+        <SubItem Index="0" Text="Power-meter reflection coefficient (.s1p, .s2p)" />
+        <SubItem Index="1" Text="" />
+        <SubItem Index="2" Text="" />
+      </Item>
+      <Item Index="1" Text="Wave amplitude or power measured by power meter (.w1p, .w2p, .power)" Count="3">
+        <SubItem Index="0" Text="Wave amplitude or power measured by power meter (.w1p, .w2p, .power)" />
+        <SubItem Index="1" Text="" />
+        <SubItem Index="2" Text="" />
+      </Item>
+      <Item Index="2" Text="Power at power-meter full scale (mW, .parameter)" Count="3">
+        <SubItem Index="0" Text="Power at power-meter full scale (mW, .parameter)" />
+        <SubItem Index="1" Text="" />
+        <SubItem Index="2" Text="" />
+      </Item>
+      <Item Index="3" Text="Power at low-range full scale (mW, .parameter)" Count="3">
+        <SubItem Index="0" Text="Power at low-range full scale (mW, .parameter)" />
+        <SubItem Index="1" Text="" />
+        <SubItem Index="2" Text="" />
+      </Item>
+      <Item Index="4" Text="Power at 3-dB compression point (mW, .parameter)" Count="3">
+        <SubItem Index="0" Text="Power at 3-dB compression point (mW, .parameter)" />
+        <SubItem Index="1" Text="" />
+        <SubItem Index="2" Text="" />
+      </Item>
+      <Item Index="5" Text="Percentage of compression corrected by meter (+/-0.2%, .parameter)" Count="3">
+        <SubItem Index="0" Text="Percentage of compression corrected by meter (+/-0.2%, .parameter)" />
+        <SubItem Index="1" Text="" />
+        <SubItem Index="2" Text="" />
+      </Item>
+      <Item Index="6" Text="Reference oscillator mismatch (+/-0.2%, .parameter)" Count="3">
+        <SubItem Index="0" Text="Reference oscillator mismatch (+/-0.2%, .parameter)" />
+        <SubItem Index="1" Text="" />
+        <SubItem Index="2" Text="" />
+      </Item>
+      <Item Index="7" Text="Reference oscillator power uncertainty (+/-0.6%, .parameter)" Count="3">
+        <SubItem Index="0" Text="Reference oscillator power uncertainty (+/-0.6%, .parameter)" />
+        <SubItem Index="1" Text="" />
+        <SubItem Index="2" Text="" />
+      </Item>
+      <Item Index="8" Text="Instrumentation errors, proportion of full scale (+/-0.5%, .parameter)" Count="3">
+        <SubItem Index="0" Text="Instrumentation errors, proportion of full scale (+/-0.5%, .parameter)" />
+        <SubItem Index="1" Text="" />
+        <SubItem Index="2" Text="" />
+      </Item>
+      <Item Index="9" Text="Zero-set error, proportion of low-range full scale (+/-0.5%, .parameter)" Count="3">
+        <SubItem Index="0" Text="Zero-set error, proportion of low-range full scale (+/-0.5%, .parameter)" />
+        <SubItem Index="1" Text="" />
+        <SubItem Index="2" Text="" />
+      </Item>
+      <Item Index="10" Text="Zero carry over, proportion of full scale (+/-0.2%, .parameter)" Count="3">
+        <SubItem Index="0" Text="Zero carry over, proportion of full scale (+/-0.2%, .parameter)" />
+        <SubItem Index="1" Text="" />
+        <SubItem Index="2" Text="" />
+      </Item>
+      <Item Index="11" Text="Unaccounted-for reference-oscillator calibration factor  (1, .parameter)" Count="3">
+        <SubItem Index="0" Text="Unaccounted-for reference-oscillator calibration factor  (1, .parameter)" />
+        <SubItem Index="1" Text="" />
+        <SubItem Index="2" Text="" />
+      </Item>
+      <Item Index="12" Text="Unaccounted-for calibration-factor or efficiency errors (1 +/-0.015, .parameter)" Count="3">
+        <SubItem Index="0" Text="Unaccounted-for calibration-factor or efficiency errors (1 +/-0.015, .parameter)" />
+        <SubItem Index="1" Text="" />
+        <SubItem Index="2" Text="" />
+      </Item>
+      <Item Index="13" Text="Power-meter efficency (.complex)" Count="3">
+        <SubItem Index="0" Text="Power-meter efficency (.complex)" />
+        <SubItem Index="1" Text="" />
+        <SubItem Index="2" Text="" />
+      </Item>
+    </PostProcessorMechanisms>
+  </Controls>
+</PostProcessor>
