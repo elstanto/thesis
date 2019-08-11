@@ -1,0 +1,20 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'ch5-nlbmunc.blg'
+[28] biber-MSWIN32:315> INFO - === 
+[59] Biber.pm:371> INFO - Reading 'ch5-nlbmunc.bcf'
+[147] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[147] Biber.pm:889> INFO - Found 10 citekeys in bib section 1
+[147] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[169] Biber.pm:4093> INFO - Processing section 1
+[181] Biber.pm:4254> INFO - Looking for bibtex format file '../references.bib' for section 1
+[193] bibtex.pm:1523> INFO - LaTeX decoding ...
+[332] bibtex.pm:1340> INFO - Found BibTeX data source '../references.bib'
+[345] Utils.pm:193> WARN - month field 'Nov' in entry 'Verspecht_2013' is not an integer - this will probably not sort properly.
+[365] Utils.pm:193> WARN - month field 'Jul' in entry 'Marks_1991' is not an integer - this will probably not sort properly.
+[413] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[413] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[413] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[413] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[423] bbl.pm:636> INFO - Writing 'ch5-nlbmunc.bbl' with encoding 'UTF-8'
+[427] bbl.pm:739> INFO - Output to ch5-nlbmunc.bbl
+[432] Biber.pm:110> INFO - WARNINGS: 2

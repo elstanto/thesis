@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.8.4)  7 AUG 2019 19:03
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.8.4)  11 AUG 2019 12:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -669,12 +669,6 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \c@subfigure=\count391
 \c@subtable=\count392
 ))
-(c:/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.sty
-Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
-
-(c:/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
-File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
-))
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -867,10 +861,10 @@ Package logreq Info: Writing requests to 'ch4-vnaunc.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20976 strings out of 492909
- 403466 string characters out of 6136300
- 897430 words of memory out of 5000000
- 24828 multiletter control sequences out of 15000+600000
+ 20819 strings out of 492909
+ 399258 string characters out of 6136300
+ 803969 words of memory out of 5000000
+ 24679 multiletter control sequences out of 15000+600000
  539790 words of font info for 64 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  58i,11n,57p,1969b,4788s stack positions out of 5000i,500n,10000p,200000b,80000s

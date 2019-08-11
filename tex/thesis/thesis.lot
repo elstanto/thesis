@@ -6,16 +6,22 @@
 \defcounter {refsection}{4}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{4}\relax 
-\contentsline {table}{\numberline {3.1}{\ignorespaces The indication values from the example ``Simultaneous Resistance and Reactance Measurement'' and their statistical properties as evaluated by the approaches given in \cite [Example H.2]{GUM_2008} and \cite [Example 9.4]{GUM_S2}.}}{30}
+\contentsline {table}{\numberline {3.1}{\ignorespaces The indication values from the example ``Simultaneous Resistance and Reactance Measurement'' and their statistical properties as evaluated by the approaches given in \cite [Example H.2]{GUM_2008} and \cite [Example 9.4]{GUM_S2}.\relax }}{29}% 
 \defcounter {refsection}{4}\relax 
-\contentsline {table}{\numberline {3.2}{\ignorespaces A comparison of the results obtained for the example ``Simultaneous Resistance and Reactance Measurement'' using the approaches given in \cite [Example H.2]{GUM_2008} and \cite [Example 9.4]{GUM_S2}.}}{31}
+\contentsline {table}{\numberline {3.2}{\ignorespaces A comparison of the results obtained for the example ``Simultaneous Resistance and Reactance Measurement'' using the approaches given in \cite [Example H.2]{GUM_2008} and \cite [Example 9.4]{GUM_S2}.\relax }}{29}% 
 \defcounter {refsection}{4}\relax 
-\contentsline {table}{\numberline {3.3}{\ignorespaces The difference in standard uncertainties obtained using the GUM ($u(\mathaccentV {bar}016{x})_{GUM}$) and the GUM-S1/S2 ($u(\mathaccentV {bar}016{x})_{SUPP}$) approaches to measure a full set of scattering parameters for microwave devices with various numbers of ports, $m$. Each device has $2m^2$ input quantities, $N$, and requires a minimum of $N + 3$ repeat observations, $n$, in order for $u(\mathaccentV {bar}016{x})_{SUPP}$ to be defined.}}{31}
+\contentsline {table}{\numberline {3.3}{\ignorespaces The difference in standard uncertainties obtained using the GUM ($u(\mathaccentV {bar}016{x})_{GUM}$) and the GUM-S1/S2 ($u(\mathaccentV {bar}016{x})_{SUPP}$) approaches to measure a full set of scattering parameters for microwave devices with various numbers of ports, $m$. Each device has $2m^2$ input quantities, $N$, and requires a minimum of $N + 3$ repeat observations, $n$, in order for $u(\mathaccentV {bar}016{x})_{SUPP}$ to be defined.\relax }}{30}% 
 \defcounter {refsection}{5}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{5}\relax 
+\contentsline {table}{\numberline {4.1}{\ignorespaces Residual directivity and TPM values obtained for 3.5 mm coaxial line VNA calibrations as measured by the ripple extraction method. Both SOLT and TRL calibration techniques were assessed. The range of representative residual error values from \cite {EURAMET_2011} has also been included for comparison.\relax }}{57}% 
+\defcounter {refsection}{5}\relax 
+\contentsline {table}{\numberline {4.2}{\ignorespaces Residual directivity and TPM values of WR-15 and WR-05 waveguide VNA calibrations as measured by the ripple extraction method. Both SOSLT and TRL techniques were used to calibrate the VNA.\relax }}{57}% 
+\defcounter {refsection}{5}\relax 
+\contentsline {table}{\numberline {4.3}{\ignorespaces Residual directivity and TPM values of WG25 and WG30 waveguide VNA calibrations as measured by the ripple extraction method. Both SOSLT and TRL calibration techniques were measured.\relax }}{58}% 
+\defcounter {refsection}{5}\relax 
+\contentsline {table}{\numberline {4.4}{\ignorespaces Residual directivity and TPM values of two WR-1.5 waveguide VNA calibrations as measured by the ripple extraction method. Two similar types of calibration were performed using different standards from the same kit.\relax }}{60}% 
 \defcounter {refsection}{6}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{7}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{8}\relax 
 \addvspace {10\p@ }

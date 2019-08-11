@@ -1,0 +1,380 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{none/global//global/global}
+    \entry{Verspecht_2013}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=205574896d69566dafa891831fc8b29b}{%
+           family={{Verspecht}},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9a39064a50bbe7122ac6a9986d619a2a}{%
+           family={{Root}},
+           familyi={R\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=23a8f283e804ecd2db10d9938ccaeb92}{%
+           family={{Nielsen}},
+           familyi={N\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{84ec80fbdbcebea74886798d99aa1b05}
+      \strng{fullhash}{84ec80fbdbcebea74886798d99aa1b05}
+      \strng{bibnamehash}{84ec80fbdbcebea74886798d99aa1b05}
+      \strng{authorbibnamehash}{84ec80fbdbcebea74886798d99aa1b05}
+      \strng{authornamehash}{84ec80fbdbcebea74886798d99aa1b05}
+      \strng{authorfullhash}{84ec80fbdbcebea74886798d99aa1b05}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{82nd ARFTG Microwave Measurement Conference}
+      \field{month}{11}
+      \field{title}{Digital predistortion method based on dynamic X-parameters}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ARFTG-2.2013.6737338
+      \endverb
+      \keyw{distortion;microwave power amplifiers;power amplifiers;dynamic X-parameter modeling technique;modulation-induced baseband memory effects;microwave components;digital predistortion method;Kernel;Predistortion;Modulation;Nonlinear distortion;Switches;Bandwidth;Mathematical model;predistortion behavioral model;memory effects;frequency domain;measurements}
+    \endentry
+    \entry{Kaur_2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0d202bc26a56d0671b91fb4937e57ee4}{%
+           family={Kaur},
+           familyi={K\bibinitperiod},
+           given={Rajbir},
+           giveni={R\bibinitperiod}}}%
+        {{hash=103edf0511ddb4cc664ceeb1798b3528}{%
+           family={Patterh},
+           familyi={P\bibinitperiod},
+           given={Manjeet\bibnamedelima Singh},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd5795f049baf1f97222035bddd9981f}
+      \strng{fullhash}{bd5795f049baf1f97222035bddd9981f}
+      \strng{bibnamehash}{bd5795f049baf1f97222035bddd9981f}
+      \strng{authorbibnamehash}{bd5795f049baf1f97222035bddd9981f}
+      \strng{authornamehash}{bd5795f049baf1f97222035bddd9981f}
+      \strng{authorfullhash}{bd5795f049baf1f97222035bddd9981f}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2278-4209}
+      \field{journaltitle}{International Journal of Electronics Communication and Computer Engineering}
+      \field{number}{5}
+      \field{title}{X-Parameter Modeling of Power Amplifier for Pre Distortion Applications}
+      \field{volume}{3}
+      \field{year}{2012}
+      \field{pages}{1045\bibrangedash 1048}
+      \range{pages}{4}
+    \endentry
+    \entry{hittite_amp}{misc}{}
+      \list{organization}{1}{%
+        {Analog Devices}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labeltitlesource}{title}
+      \field{title}{{HMC342LC4} datasheet}
+      \verb{urlraw}
+      \verb http://www.analog.com/media/en/technical-documentation/data-sheets/hmc342.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.analog.com/media/en/technical-documentation/data-sheets/hmc342.pdf
+      \endverb
+    \endentry
+    \entry{Blockley_2007}{article}{}
+      \name{author}{4}{}{%
+        {{hash=5f24363dfe3e4b97687feb21c6975338}{%
+           family={{Blockley}},
+           familyi={B\bibinitperiod},
+           given={P.\bibnamedelimi S.},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=52f76792bc4da010091565298ede6e27}{%
+           family={{Scott}},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=c3be20501e79f3f4d10387696b964a9d}{%
+           family={{Gunyan}},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=da7e68af0363abc825356468306a1c6a}{%
+           family={{Parker}},
+           familyi={P\bibinitperiod},
+           given={A.\bibnamedelimi E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{f5596a41aff4dff9bda16a08b59f2eab}
+      \strng{fullhash}{d1dfb461e23a10997d3dcb1e7b6c69f6}
+      \strng{bibnamehash}{d1dfb461e23a10997d3dcb1e7b6c69f6}
+      \strng{authorbibnamehash}{d1dfb461e23a10997d3dcb1e7b6c69f6}
+      \strng{authornamehash}{f5596a41aff4dff9bda16a08b59f2eab}
+      \strng{authorfullhash}{d1dfb461e23a10997d3dcb1e7b6c69f6}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{The Random Component of Mixer-Based Nonlinear Vector Network Analyzer Measurement Uncertainty}
+      \field{volume}{55}
+      \field{year}{2007}
+      \field{pages}{2231\bibrangedash 2239}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/TMTT.2007.906515
+      \endverb
+      \keyw{covariance matrices;measurement uncertainty;mixers (circuits);nonlinear network analysis;random noise;mixer-based nonlinear vector network analyzer;measurement uncertainty;random noise;approximate covariance matrix;fitting models;Measurement uncertainty;Phase measurement;Distortion measurement;Covariance matrix;Signal analysis;Frequency measurement;Noise measurement;Phase noise;Microwave technology;Dynamic range;Nonlinear systems;phase measurement;uncertainty}
+    \endentry
+    \entry{Engen_1979}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c9f70bdf5ee6e4fa2c6832d4ee8282a8}{%
+           family={Engen},
+           familyi={E\bibinitperiod},
+           given={Glenn\bibnamedelima F.},
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=60d6a7d8a8047b4cc95c0c93492a15a3}{%
+           family={Hoer},
+           familyi={H\bibinitperiod},
+           given={Cletus\bibnamedelima a.},
+           giveni={C\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+      }
+      \strng{namehash}{aed5713ad20e35a4b2bc37169432c412}
+      \strng{fullhash}{aed5713ad20e35a4b2bc37169432c412}
+      \strng{bibnamehash}{aed5713ad20e35a4b2bc37169432c412}
+      \strng{authorbibnamehash}{aed5713ad20e35a4b2bc37169432c412}
+      \strng{authornamehash}{aed5713ad20e35a4b2bc37169432c412}
+      \strng{authorfullhash}{aed5713ad20e35a4b2bc37169432c412}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Trans. Microw. Theory Techn.}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{{``Thru-Reflect-Line'' : An improved technique for calibrating the dual six-port automatic network analyzer}}
+      \field{volume}{27}
+      \field{year}{1979}
+      \field{pages}{987\bibrangedash 993}
+      \range{pages}{7}
+      \verb{file}
+      \verb :home/lstant/Downloads/mtt27-12.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Marks_1991}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6a2301da3cd29f54bd0d18ecaae18f70}{%
+           family={Marks},
+           familyi={M\bibinitperiod},
+           given={R.\bibnamedelimi B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \strng{fullhash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \strng{bibnamehash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \strng{authorbibnamehash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \strng{authornamehash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \strng{authorfullhash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{IEEE Trans. Microw. Theory Techn.}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{A multiline method of network analyzer calibration}
+      \field{volume}{39}
+      \field{year}{1991}
+      \field{pages}{1205\bibrangedash 1215}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/22.85388
+      \endverb
+      \keyw{calibration;microwave measurement;network analysers;TRL method;accuracy;assessment of calibration accuracy;bandwidth;calibration of network analyzers;imperfect connector repeatability;linearized error analysis;multiline method of network analyzer calibration;multiple transmission line standards;random errors reduction;redundant transmission line standards;statistical treatment;thru-reflect-line calibration method;Bandwidth;Calibration;Connectors;Covariance matrix;Error analysis;Frequency;Iterative methods;Transmission line matrix methods;Transmission line theory;Transmission lines}
+    \endentry
+    \entry{Keysight_2017}{report}{}
+      \name{author}{1}{}{%
+        {{hash=0a1dc9ba6382e13835002ad4d9099b4e}{%
+           family={{Keysight Technologies}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{0a1dc9ba6382e13835002ad4d9099b4e}
+      \strng{fullhash}{0a1dc9ba6382e13835002ad4d9099b4e}
+      \strng{bibnamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
+      \strng{authorbibnamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
+      \strng{authornamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
+      \strng{authorfullhash}{0a1dc9ba6382e13835002ad4d9099b4e}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{number}{5989-7619EN}
+      \field{title}{{Fundamentals of RF and Microwave Power Measurements (Part 3)}}
+      \field{type}{techreport}
+      \field{year}{2017}
+    \endentry
+    \entry{Keysight_2014}{report}{}
+      \name{author}{1}{}{%
+        {{hash=0a1dc9ba6382e13835002ad4d9099b4e}{%
+           family={{Keysight Technologies}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{0a1dc9ba6382e13835002ad4d9099b4e}
+      \strng{fullhash}{0a1dc9ba6382e13835002ad4d9099b4e}
+      \strng{bibnamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
+      \strng{authorbibnamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
+      \strng{authornamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
+      \strng{authorfullhash}{0a1dc9ba6382e13835002ad4d9099b4e}
+      \field{extraname}{2}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{number}{5988-9215EN}
+      \field{title}{{U9391C/F/G Comb Generators}}
+      \field{type}{techreport}
+      \field{year}{2014}
+    \endentry
+    \entry{Reader_2008}{article}{}
+      \name{author}{4}{}{%
+        {{hash=a81fae5c42be81671eb5a216e037034b}{%
+           family={{Reader}},
+           familyi={R\bibinitperiod},
+           given={H.\bibnamedelimi C.},
+           giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=894a26e0347e1a769804de4b0068f0f4}{%
+           family={{Williams}},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi F.},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=2394d747e72876113ee35ed4756b1018}{%
+           family={{Hale}},
+           familyi={H\bibinitperiod},
+           given={P.\bibnamedelimi D.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=132a20930442db84e7c091f0c8b5d409}{%
+           family={{Clement}},
+           familyi={C\bibinitperiod},
+           given={T.\bibnamedelimi S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{782f26ad22a046f8cbf76037e857ae6b}
+      \strng{fullhash}{4a468e16d0bb820001967b07304a2fef}
+      \strng{bibnamehash}{4a468e16d0bb820001967b07304a2fef}
+      \strng{authorbibnamehash}{4a468e16d0bb820001967b07304a2fef}
+      \strng{authornamehash}{782f26ad22a046f8cbf76037e857ae6b}
+      \strng{authorfullhash}{4a468e16d0bb820001967b07304a2fef}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Comb-Generator Characterization}
+      \field{volume}{56}
+      \field{year}{2008}
+      \field{pages}{515\bibrangedash 521}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/TMTT.2007.914630
+      \endverb
+      \keyw{attenuators;frequency response;impedance matching;oscilloscopes;signal generators;signal sampling;comb-generator characterization;sampling oscilloscope;time-base distortion;impedance mismatch;inline attenuator;complex frequency response;high-speed measurement;frequency 50 GHz;Distortion measurement;Oscilloscopes;Temperature measurement;Character generation;Sampling methods;Temperature control;Power system harmonics;Power generation;Power measurement;Measurement standards;Comb-generator stability;mismatch correction;sampling-oscilloscope calibration}
+    \endentry
+    \entry{Hale_2009}{article}{}
+      \name{author}{7}{}{%
+        {{hash=2394d747e72876113ee35ed4756b1018}{%
+           family={{Hale}},
+           familyi={H\bibinitperiod},
+           given={P.\bibnamedelimi D.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=58254a954e9680c50d60d84227dc8419}{%
+           family={{Dienstfrey}},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4492e5ca96757f0b8acb0fcce095ce41}{%
+           family={{Wang}},
+           familyi={W\bibinitperiod},
+           given={J.\bibnamedelimi C.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=894a26e0347e1a769804de4b0068f0f4}{%
+           family={{Williams}},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi F.},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=207400fc3d619766bf5fec68e698646e}{%
+           family={{Lewandowski}},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=387fe24d0e7db9a39ab4d56a93b452cc}{%
+           family={{Keenan}},
+           familyi={K\bibinitperiod},
+           given={D.\bibnamedelimi A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=132a20930442db84e7c091f0c8b5d409}{%
+           family={{Clement}},
+           familyi={C\bibinitperiod},
+           given={T.\bibnamedelimi S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee5c7740f39b4e193b30a2a7935c9c13}
+      \strng{fullhash}{c9db4776c1d099417d473676d11b9c7f}
+      \strng{bibnamehash}{c9db4776c1d099417d473676d11b9c7f}
+      \strng{authorbibnamehash}{c9db4776c1d099417d473676d11b9c7f}
+      \strng{authornamehash}{ee5c7740f39b4e193b30a2a7935c9c13}
+      \strng{authorfullhash}{c9db4776c1d099417d473676d11b9c7f}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9456}
+      \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Traceable Waveform Calibration With a Covariance-Based Uncertainty Analysis}
+      \field{volume}{58}
+      \field{year}{2009}
+      \field{pages}{3554\bibrangedash 3568}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1109/TIM.2009.2018012
+      \endverb
+      \keyw{calibration;covariance matrices;electro-optical devices;equivalent circuits;oscilloscopes;pulse generators;traceable waveform calibration;covariance-based uncertainty analysis;step-like pulse generator;voltage calibration;equivalent-circuit model;equivalent-time sampling oscilloscope;electro-optic sampling system;National Institute of Standards and Technology;waveform vector;covariance matrix;parameter-based uncertainty analysis;Calibration;Uncertainty;Sampling methods;Voltage;Pulse generation;Pulse measurements;Time measurement;Oscilloscopes;Physics;NIST;Covariance matrices;deconvolution;oscilloscopes;pulse measurements;signals;uncertainty;waveforms}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
