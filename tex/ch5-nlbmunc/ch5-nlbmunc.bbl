@@ -90,6 +90,914 @@
       \field{pages}{1045\bibrangedash 1048}
       \range{pages}{4}
     \endentry
+    \entry{Verbeyst_1994}{article}{}
+      \name{author}{2}{}{%
+        {{hash=53ad70ecb8cacd297ba08c6ce005024e}{%
+           family={{Verbeyst}},
+           familyi={V\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=3f348ee4d11b8bbdc78dcb247c4098b7}{%
+           family={{Bossche}},
+           familyi={B\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{71604b35977a567749ecefb32c232620}
+      \strng{fullhash}{71604b35977a567749ecefb32c232620}
+      \strng{bibnamehash}{71604b35977a567749ecefb32c232620}
+      \strng{authorbibnamehash}{71604b35977a567749ecefb32c232620}
+      \strng{authornamehash}{71604b35977a567749ecefb32c232620}
+      \strng{authorfullhash}{71604b35977a567749ecefb32c232620}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{VIOMAP, the S-parameter equivalent for weakly nonlinear RF and microwave devices}
+      \field{volume}{42}
+      \field{year}{1994}
+      \field{pages}{2531\bibrangedash 2535}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/22.339793
+      \endverb
+      \keyw{S-parameters;microwave measurement;two-port networks;microwave devices;microwave circuits;cascade networks;nonlinear network analysis;VIOMAP;S-parameter equivalent;weakly nonlinear microwave devices;weakly nonlinear RF devices;Volterra input-output map;cascaded nonlinear two-ports;Scattering parameters;Radio frequency;Microwave devices;Equations;Kernel;Instruments;Microwave theory and techniques;Solids;Stress;Microwave amplifiers}
+    \endentry
+    \entry{Schetzen_2006}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4757e5a80a5a2e7f698c5ba073d41bdc}{%
+           family={Schetzen},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Melbourne, FL, USA}%
+      }
+      \list{publisher}{1}{%
+        {Krieger Publishing Co., Inc.}%
+      }
+      \strng{namehash}{4757e5a80a5a2e7f698c5ba073d41bdc}
+      \strng{fullhash}{4757e5a80a5a2e7f698c5ba073d41bdc}
+      \strng{bibnamehash}{4757e5a80a5a2e7f698c5ba073d41bdc}
+      \strng{authorbibnamehash}{4757e5a80a5a2e7f698c5ba073d41bdc}
+      \strng{authornamehash}{4757e5a80a5a2e7f698c5ba073d41bdc}
+      \strng{authorfullhash}{4757e5a80a5a2e7f698c5ba073d41bdc}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{1575242834}
+      \field{title}{The Volterra and Wiener Theories of Nonlinear Systems}
+      \field{year}{2006}
+    \endentry
+    \entry{Moodi_2010}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=8aef2f9862776e39f216b60e642a942c}{%
+           family={{Moodi}},
+           familyi={M\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=437e4597fadd7242f59dd168b86493f3}{%
+           family={{Bustan}},
+           familyi={B\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{651bd630b8a6657c1b846ed8689d649d}
+      \strng{fullhash}{651bd630b8a6657c1b846ed8689d649d}
+      \strng{bibnamehash}{651bd630b8a6657c1b846ed8689d649d}
+      \strng{authorbibnamehash}{651bd630b8a6657c1b846ed8689d649d}
+      \strng{authornamehash}{651bd630b8a6657c1b846ed8689d649d}
+      \strng{authorfullhash}{651bd630b8a6657c1b846ed8689d649d}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2010 Chinese Control and Decision Conference}
+      \field{issn}{1948-9439}
+      \field{month}{5}
+      \field{title}{On identification of nonlinear systems using Volterra kernels expansion on Laguerre and wavelet function}
+      \field{year}{2010}
+      \field{pages}{1141\bibrangedash 1145}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/CCDC.2010.5498146
+      \endverb
+      \keyw{nonlinear control systems;stochastic processes;Volterra series;wavelet transforms;nonlinear systems;Volterra kernels expansion;Laguerre function;wavelet function;Volterra series;convolution integral;LTI orthonormal function;Nonlinear systems;Kernel;Wavelet packets;Nonlinear dynamical systems;Convolution;Genetic algorithms;Hydraulic actuators;System testing;Least squares methods;Neural networks;Volterra Series;Nonlinear System Modeling;Orthonormal Basis;Wavelet Packets;Hydraulic Actuator}
+    \endentry
+    \entry{Verbeyst_1995b}{article}{}
+      \name{author}{2}{}{%
+        {{hash=53ad70ecb8cacd297ba08c6ce005024e}{%
+           family={{Verbeyst}},
+           familyi={V\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=60accba26b428adbe483773262c52e23}{%
+           family={{Vanden Bossche}},
+           familyi={V\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{96342d20d5fcca684c82c015eceeba84}
+      \strng{fullhash}{96342d20d5fcca684c82c015eceeba84}
+      \strng{bibnamehash}{96342d20d5fcca684c82c015eceeba84}
+      \strng{authorbibnamehash}{96342d20d5fcca684c82c015eceeba84}
+      \strng{authornamehash}{96342d20d5fcca684c82c015eceeba84}
+      \strng{authorfullhash}{96342d20d5fcca684c82c015eceeba84}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9456}
+      \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+      \field{month}{6}
+      \field{number}{3}
+      \field{title}{The Volterra input-output map of a high-frequency amplifier as a practical alternative to load-pull measurements}
+      \field{volume}{44}
+      \field{year}{1995}
+      \field{pages}{662\bibrangedash 665}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/19.387303
+      \endverb
+      \keyw{Volterra equations;HF amplifiers;nonlinear network analysis;S-parameters;network analysers;Volterra input-output map;high-frequency amplifier;load-pull measurements;nonlinear black-box model;Volterra theory;nonlinear behavior;load impedance curves;Smith Chart;Scattering parameters;Frequency;Impedance measurement;Power generation;Power amplifiers;Kernel;Predictive models;Reflection;Solids;Stress}
+    \endentry
+    \entry{Verbeyst_1995}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=53ad70ecb8cacd297ba08c6ce005024e}{%
+           family={{Verbeyst}},
+           familyi={V\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=9c3b560c79c0a082c9ccea0b7bfd8277}{%
+           family={{Bossche}},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi V.},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{45fa59543e9de54e834eddcad7b85791}
+      \strng{fullhash}{45fa59543e9de54e834eddcad7b85791}
+      \strng{bibnamehash}{45fa59543e9de54e834eddcad7b85791}
+      \strng{authorbibnamehash}{45fa59543e9de54e834eddcad7b85791}
+      \strng{authornamehash}{45fa59543e9de54e834eddcad7b85791}
+      \strng{authorfullhash}{45fa59543e9de54e834eddcad7b85791}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{45th ARFTG Conference Digest}
+      \field{month}{5}
+      \field{title}{VIOMAP, 16QAM and Spectral Regrowth: Enhanced Prediction and Predistortion based on Two-Tone Black-Box Model Extraction}
+      \field{volume}{27}
+      \field{year}{1995}
+      \field{pages}{19\bibrangedash 28}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/ARFTG.1995.327101
+      \endverb
+      \keyw{Predistortion;Predictive models;Pollution measurement;Distortion measurement;Frequency measurement;Filters;Narrowband;Power amplifiers;Signal generators;Frequency domain analysis}
+    \endentry
+    \entry{Verbeyst_1996}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=53ad70ecb8cacd297ba08c6ce005024e}{%
+           family={{Verbeyst}},
+           familyi={V\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{53ad70ecb8cacd297ba08c6ce005024e}
+      \strng{fullhash}{53ad70ecb8cacd297ba08c6ce005024e}
+      \strng{bibnamehash}{53ad70ecb8cacd297ba08c6ce005024e}
+      \strng{authorbibnamehash}{53ad70ecb8cacd297ba08c6ce005024e}
+      \strng{authornamehash}{53ad70ecb8cacd297ba08c6ce005024e}
+      \strng{authorfullhash}{53ad70ecb8cacd297ba08c6ce005024e}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{47th ARFTG Conference Digest}
+      \field{month}{6}
+      \field{title}{Using Orthogonal Polynomials as Alternative for VIOMAP to Model Hardly Nonlinear Devices}
+      \field{volume}{29}
+      \field{year}{1996}
+      \field{pages}{112\bibrangedash 120}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/ARFTG.1996.327171
+      \endverb
+      \keyw{Polynomials;Power measurement;Frequency;Distortion measurement;System testing;Microwave measurements;Microwave devices;Microwave amplifiers;Power amplifiers;Narrowband}
+    \endentry
+    \entry{Verspecht_1996}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=205574896d69566dafa891831fc8b29b}{%
+           family={{Verspecht}},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=efd6030a44dca91632fe28f3c92443a7}{%
+           family={{Schreurs}},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=166a4cdcb60a3a8f28f65cd260ac01a0}{%
+           family={{Barel}},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2dd102eaa4a7970a60ec8831e00da31a}{%
+           family={{Nauwelaers}},
+           familyi={N\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{9170935c180e388f54dc57e99b1fdc83}
+      \strng{fullhash}{98e1a6be69011306942e568fe9f221b3}
+      \strng{bibnamehash}{98e1a6be69011306942e568fe9f221b3}
+      \strng{authorbibnamehash}{98e1a6be69011306942e568fe9f221b3}
+      \strng{authornamehash}{9170935c180e388f54dc57e99b1fdc83}
+      \strng{authorfullhash}{98e1a6be69011306942e568fe9f221b3}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{1996 IEEE MTT-S International Microwave Symposium Digest}
+      \field{issn}{0149-645X}
+      \field{month}{6}
+      \field{title}{Black box modelling of hard nonlinear behavior in the frequency domain}
+      \field{volume}{3}
+      \field{year}{1996}
+      \field{pages}{1735\bibrangedash 1738 vol.3}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1109/MWSYM.1996.512277
+      \endverb
+      \keyw{nonlinear network analysis;describing functions;frequency-domain analysis;black box model;nonlinear device;frequency domain;describing functions;hard nonlinearities;Frequency domain analysis;Frequency conversion;Delay effects;Equations;Harmonic distortion;Parametric statistics;Electric variables measurement;Nonlinear systems;Chaos;Microwave Theory and Techniques Society}
+    \endentry
+    \entry{Verspecht_2002}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=f6c09f6325be69ff567afcd01c0d10d5}{%
+           family={Verspecht},
+           familyi={V\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f6c09f6325be69ff567afcd01c0d10d5}
+      \strng{fullhash}{f6c09f6325be69ff567afcd01c0d10d5}
+      \strng{bibnamehash}{f6c09f6325be69ff567afcd01c0d10d5}
+      \strng{authorbibnamehash}{f6c09f6325be69ff567afcd01c0d10d5}
+      \strng{authornamehash}{f6c09f6325be69ff567afcd01c0d10d5}
+      \strng{authorfullhash}{f6c09f6325be69ff567afcd01c0d10d5}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE MIT-S Int. Microwave Symp. Worshop, paper no 95}
+      \field{title}{Everything you've always wanted to know about Hot-S22 (but we're afraid to ask)}
+      \field{year}{2002}
+    \endentry
+    \entry{Verspecht_2005}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=205574896d69566dafa891831fc8b29b}{%
+           family={{Verspecht}},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b1c22d030d32e9e421774b27412c6a03}{%
+           family={{Barataud}},
+           familyi={B\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=78b9542c2f9b81cc511abf3eef6111af}{%
+           family={{Teyssier}},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1d85c9799731576d01fc6b5030d3c35d}{%
+           family={{Nébus}},
+           familyi={N\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{7f20869a55d6051a6f8b97ce0fdef9bd}
+      \strng{fullhash}{45c17bdaa97d61784bae9ecebdc89457}
+      \strng{bibnamehash}{45c17bdaa97d61784bae9ecebdc89457}
+      \strng{authorbibnamehash}{45c17bdaa97d61784bae9ecebdc89457}
+      \strng{authornamehash}{7f20869a55d6051a6f8b97ce0fdef9bd}
+      \strng{authorfullhash}{45c17bdaa97d61784bae9ecebdc89457}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2005 66th ARFTG Microwave Measurement Conference (ARFTG)}
+      \field{month}{12}
+      \field{title}{Hot S-parameter techniques: 6 = 4 + 2}
+      \field{year}{2005}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/ARFTG.2005.8373119
+      \endverb
+      \keyw{signal processing;S-parameters;hot S-parameter techniques;small signal S-parameter approach;Scattering parameters;Stability analysis;Mathematical model;Circuit stability;Frequency measurement;Impedance matching;Probes;hot S-parameters;power amplifier measurements;large-signal characterization}
+    \endentry
+    \entry{Cripps_2006}{book}{}
+      \name{author}{1}{}{%
+        {{hash=322b9e372c9b96a24318228f80b30757}{%
+           family={Cripps},
+           familyi={C\bibinitperiod},
+           given={Steve\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Norwood, MA, USA}%
+      }
+      \list{publisher}{1}{%
+        {Artech House, Inc.}%
+      }
+      \strng{namehash}{322b9e372c9b96a24318228f80b30757}
+      \strng{fullhash}{322b9e372c9b96a24318228f80b30757}
+      \strng{bibnamehash}{322b9e372c9b96a24318228f80b30757}
+      \strng{authorbibnamehash}{322b9e372c9b96a24318228f80b30757}
+      \strng{authornamehash}{322b9e372c9b96a24318228f80b30757}
+      \strng{authorfullhash}{322b9e372c9b96a24318228f80b30757}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{1596930187}
+      \field{title}{RF Power Amplifiers for Wireless Communications, Second Edition (Artech House Microwave Library (Hardcover))}
+      \field{year}{2006}
+    \endentry
+    \entry{Verspecht_2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6b9c74605ac433f9065d7d3d140145c1}{%
+           family={{Verspecht}},
+           familyi={V\bibinitperiod}}}%
+        {{hash=ba8f747e4ab530f267debab27dbf87a4}{%
+           family={{Root}},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{3125116764f1e78032ffdf6c4ad03248}
+      \strng{fullhash}{3125116764f1e78032ffdf6c4ad03248}
+      \strng{bibnamehash}{3125116764f1e78032ffdf6c4ad03248}
+      \strng{authorbibnamehash}{3125116764f1e78032ffdf6c4ad03248}
+      \strng{authornamehash}{3125116764f1e78032ffdf6c4ad03248}
+      \strng{authorfullhash}{3125116764f1e78032ffdf6c4ad03248}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1527-3342}
+      \field{journaltitle}{IEEE Microwave Magazine}
+      \field{month}{6}
+      \field{number}{3}
+      \field{title}{Polyharmonic distortion modeling}
+      \field{volume}{7}
+      \field{year}{2006}
+      \field{pages}{44\bibrangedash 57}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1109/MMW.2006.1638289
+      \endverb
+      \keyw{frequency-domain analysis;harmonic analysis;harmonic distortion;nonlinear systems;S-parameters;S-parameters;PHD modeling approach;black-box frequency-domain model;driven nonlinear systems;distortion simulation;nonlinear components;design verification;Power system modeling;Scattering parameters;Nonlinear systems;Design engineering;Power engineering and energy;Distortion measurement;Microwave measurements;System testing;Frequency measurement;Time domain analysis}
+    \endentry
+    \entry{Verspecht_2005b}{article}{}
+      \name{author}{5}{}{%
+        {{hash=205574896d69566dafa891831fc8b29b}{%
+           family={{Verspecht}},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=894a26e0347e1a769804de4b0068f0f4}{%
+           family={{Williams}},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi F.},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=efd6030a44dca91632fe28f3c92443a7}{%
+           family={{Schreurs}},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=67d9442e0b188189cf1683b0cd867e7d}{%
+           family={{Remley}},
+           familyi={R\bibinitperiod},
+           given={K.\bibnamedelimi A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=7a83ae18caac00befe88d0eb83144525}{%
+           family={{McKinley}},
+           familyi={M\bibinitperiod},
+           given={M.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{96422c38563dfb2e29358d8075052ee7}
+      \strng{fullhash}{bdf6cdda8be3cb9ff629155778eba26e}
+      \strng{bibnamehash}{bdf6cdda8be3cb9ff629155778eba26e}
+      \strng{authorbibnamehash}{bdf6cdda8be3cb9ff629155778eba26e}
+      \strng{authornamehash}{96422c38563dfb2e29358d8075052ee7}
+      \strng{authorfullhash}{bdf6cdda8be3cb9ff629155778eba26e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{Linearization of large-signal scattering functions}
+      \field{volume}{53}
+      \field{year}{2005}
+      \field{pages}{1369\bibrangedash 1376}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/TMTT.2005.845771
+      \endverb
+      \keyw{linearisation techniques;optical phase conjugation;microwave devices;large-signal scattering functions;nonlinear device behavior;scattering parameters;phase-conjugated mixing products;transistor measurements;reflection coefficients;microwave source;large-signal operating state;frequency translation;network analysis;vector signal generator;Scattering parameters;Frequency;Microwave devices;Microwave theory and techniques;Microwave measurements;Reflection;Jacobian matrices;HEMTs;Microwave transistors;Signal analysis;Frequency translation;large signal;network analysis;nonlinear;scattering parameters;vector signal generator}
+    \endentry
+    \entry{Sun_2010}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=3c17377c2ffa1676c810d97c02f8c306}{%
+           family={{Sun}},
+           familyi={S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2efac453cb818e3e871c3147d9153d6d}{%
+           family={{Xu}},
+           familyi={X\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=4d39b02b20c67d43403e326600c8aa57}{%
+           family={{Liang}},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d474977d302a314947b542a6d0c9f452}
+      \strng{fullhash}{d474977d302a314947b542a6d0c9f452}
+      \strng{bibnamehash}{d474977d302a314947b542a6d0c9f452}
+      \strng{authorbibnamehash}{d474977d302a314947b542a6d0c9f452}
+      \strng{authornamehash}{d474977d302a314947b542a6d0c9f452}
+      \strng{authorfullhash}{d474977d302a314947b542a6d0c9f452}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2010 International Conference on Microwave and Millimeter Wave Technology}
+      \field{month}{5}
+      \field{title}{The study of nonlinear scattering functions and X-parameters}
+      \field{year}{2010}
+      \field{pages}{1086\bibrangedash 1089}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ICMMT.2010.5525111
+      \endverb
+      \keyw{microwave circuits;network analysers;nonlinear network analysis;S-parameters;time-domain analysis;nonlinear scattering functions;X-parameters;polyharmonic distortion modeling;first order linear approximation;time-domain extraction system;nonlinear vector networks analyzer;nonlinear microwave device behavior;nonlinear microwave circuit design measurement;Scattering parameters;Microwave devices;Paper technology;Data mining;Power system modeling;Frequency;Sun;Laboratories;Electronic equipment testing;Distortion measurement}
+    \endentry
+    \entry{Widemann_2015}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=4838d5f4e10f00fcba9892d8929f465d}{%
+           family={{Widemann}},
+           familyi={W\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=060d917ccf8d36e321c91cb2307e6892}{%
+           family={{Weber}},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3904bb943f549e653d2715a5ce9efb6e}{%
+           family={{Schatz}},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=118442acd51765dd550bdb580b8d7498}{%
+           family={{Mathis}},
+           familyi={M\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ec10dcee5cb7c277fbed5ea3a2dbd03}
+      \strng{fullhash}{b62f3153e47a66b239c2991795b3f484}
+      \strng{bibnamehash}{b62f3153e47a66b239c2991795b3f484}
+      \strng{authorbibnamehash}{b62f3153e47a66b239c2991795b3f484}
+      \strng{authornamehash}{5ec10dcee5cb7c277fbed5ea3a2dbd03}
+      \strng{authorfullhash}{b62f3153e47a66b239c2991795b3f484}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2015 22nd International Conference Mixed Design of Integrated Circuits Systems (MIXDES)}
+      \field{month}{6}
+      \field{title}{A comparison of the Volterra series-based nonlinear S-parameters and X-parameters}
+      \field{year}{2015}
+      \field{pages}{453\bibrangedash 457}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/MIXDES.2015.7208562
+      \endverb
+      \keyw{analogue circuits;frequency-domain analysis;nonlinear network analysis;S-parameters;Volterra series;nonlinear analog circuits;frequency domain;scattering variables;nonlinear scattering parameters;S-parameters;Volterra series;X-parameters;Scattering;Scattering parameters;Ports (Computers);Nonlinear systems;Harmonic analysis;Frequency-domain analysis;Integrated circuit modeling;X-parameters;poly harmonic distortion;PHD;nonlinear S-parameters;Volterra series}
+    \endentry
+    \entry{Gunyan_2009}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=c3be20501e79f3f4d10387696b964a9d}{%
+           family={{Gunyan}},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a16343d532ba528a1c7b07b20517ec5b}{%
+           family={{Horn}},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5d099836f6a91712f1b8f9de548a019f}{%
+           family={{Xu}},
+           familyi={X\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ba8f747e4ab530f267debab27dbf87a4}{%
+           family={{Root}},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{8da308499705385d0ef843575f2b8356}
+      \strng{fullhash}{37e78b2f9fe4cc90e496de3f30d70518}
+      \strng{bibnamehash}{37e78b2f9fe4cc90e496de3f30d70518}
+      \strng{authorbibnamehash}{37e78b2f9fe4cc90e496de3f30d70518}
+      \strng{authornamehash}{8da308499705385d0ef843575f2b8356}
+      \strng{authorfullhash}{37e78b2f9fe4cc90e496de3f30d70518}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2009 73rd ARFTG Microwave Measurement Conference}
+      \field{month}{6}
+      \field{title}{Nonlinear validation of arbitrary load X-parameter and measurement-based device models}
+      \field{year}{2009}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ARFTG.2009.5278063
+      \endverb
+      \keyw{microwave field effect transistors;Schottky gate field effect transistors;semiconductor device models;S-parameters;nonlinear validation;arbitrary load X-parameter;measurement-based device models;S-parameters;nonlinear components;large-signal condition;small-signal condition;PHD model;measurement-based nonquasi-static device model;tuned-load measurements;Predictive models;MESFETs;Circuit simulation;Power measurement;Spectral analysis;Multiaccess communication;Tuners;Data mining;Impedance;Solid modeling}
+    \endentry
+    \entry{Xie_2012}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=924aa3d6922c6acb9622d8b3473d0de8}{%
+           family={{Xie}},
+           familyi={X\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6987c26bf5f9b6e119893b5d925c7b8c}{%
+           family={{Zhang}},
+           familyi={Z\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b6f1bae43698ee554fe46ebae4fa8241}{%
+           family={{Liu}},
+           familyi={L\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{f8c863929c4bb453d8b97e6f8051f7f6}
+      \strng{fullhash}{f8c863929c4bb453d8b97e6f8051f7f6}
+      \strng{bibnamehash}{f8c863929c4bb453d8b97e6f8051f7f6}
+      \strng{authorbibnamehash}{f8c863929c4bb453d8b97e6f8051f7f6}
+      \strng{authornamehash}{f8c863929c4bb453d8b97e6f8051f7f6}
+      \strng{authorfullhash}{f8c863929c4bb453d8b97e6f8051f7f6}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2012 International Conference on Microwave and Millimeter Wave Technology (ICMMT)}
+      \field{month}{5}
+      \field{title}{Using X-parameters to model mixers}
+      \field{volume}{3}
+      \field{year}{2012}
+      \field{pages}{1\bibrangedash 3}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1109/ICMMT.2012.6230227
+      \endverb
+      \keyw{mixers (circuits);network analysers;S-parameters;X-parameter generator;mixer models;poly-harmonic distortion nonlinear behavioral model;nonlinear vector network analyzer;circuit level design;ADS software;nonlinear simulation;Mixers;Integrated circuit modeling;Radio frequency;Harmonic analysis;Frequency measurement;Generators;Software}
+    \endentry
+    \entry{Verspecht_2009}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{hash=205574896d69566dafa891831fc8b29b}{%
+           family={{Verspecht}},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a16343d532ba528a1c7b07b20517ec5b}{%
+           family={{Horn}},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9fee8a7b20650d958e03f6a2f250f1a2}{%
+           family={{Betts}},
+           familyi={B\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c3be20501e79f3f4d10387696b964a9d}{%
+           family={{Gunyan}},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2102a13d81278a903744d90d3d88e254}{%
+           family={{Pollard}},
+           familyi={P\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=18eea70c553deaf3478443c90aff3cfe}{%
+           family={{Gillease}},
+           familyi={G\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ba8f747e4ab530f267debab27dbf87a4}{%
+           family={{Root}},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc21f8abbfab2ce2c8b21861c463c5f4}
+      \strng{fullhash}{dd0bf8f43f788dea87bade55ec40b302}
+      \strng{bibnamehash}{dd0bf8f43f788dea87bade55ec40b302}
+      \strng{authorbibnamehash}{dd0bf8f43f788dea87bade55ec40b302}
+      \strng{authornamehash}{dc21f8abbfab2ce2c8b21861c463c5f4}
+      \strng{authorfullhash}{dd0bf8f43f788dea87bade55ec40b302}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2009 IEEE MTT-S International Microwave Symposium Digest}
+      \field{issn}{0149-645X}
+      \field{month}{6}
+      \field{title}{Extension of X-parameters to include long-term dynamic memory effects}
+      \field{year}{2009}
+      \field{pages}{741\bibrangedash 744}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/MWSYM.2009.5165803
+      \endverb
+      \keyw{harmonic distortion;microwave circuits;power amplifiers;transient response;long-term dynamic memory effect;microwave component;polyharmonic distortion model;pulsed envelope X-parameter measurement;transient RF response;time-varying RF excitation;wide-bandwidth communication signal;power amplifier;ADS circuit envelope simulator;Pulse amplifiers;Pulse measurements;Radio frequency;Microwave theory and techniques;Radiofrequency identification;Distortion measurement;Microwave measurements;Predictive models;Communication switching;RF signals;behavioral model;memory effects;frequency domain;measurements;X-parameters;NVNA;PHD model}
+    \endentry
+    \entry{Root_2017}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=ba8f747e4ab530f267debab27dbf87a4}{%
+           family={{Root}},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=205574896d69566dafa891831fc8b29b}{%
+           family={{Verspecht}},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5d099836f6a91712f1b8f9de548a019f}{%
+           family={{Xu}},
+           familyi={X\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{96e5732ba878be3af4ee5972efdb9bc2}
+      \strng{fullhash}{96e5732ba878be3af4ee5972efdb9bc2}
+      \strng{bibnamehash}{96e5732ba878be3af4ee5972efdb9bc2}
+      \strng{authorbibnamehash}{96e5732ba878be3af4ee5972efdb9bc2}
+      \strng{authornamehash}{96e5732ba878be3af4ee5972efdb9bc2}
+      \strng{authorfullhash}{96e5732ba878be3af4ee5972efdb9bc2}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 12th European Microwave Integrated Circuits Conference (EuMIC)}
+      \field{month}{10}
+      \field{title}{Closed-form solutions to large-signal PA problems: Wirtinger calculus applied to X-parameter}
+      \field{year}{2017}
+      \field{pages}{212\bibrangedash 215}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.23919/EuMIC.2017.8230697
+      \endverb
+      \keyw{differentiation;power amplifiers;S-parameters;small-to-moderate output mismatch;commercial power amplifier;S-parameters;large-signal PA problems;Wirtinger calculus;powerful new technique;optimum output reflection coefficient;maximum power transfer;large-signal input drive;nonanalytic X-parameter expression;compact closed-form expressions;Optimized production technology;Power measurement;Scattering parameters;Ports (Computers);Calculus;Reflection coefficient;Power amplifiers}
+    \endentry
+    \entry{Gillespie_2018}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=aeb9cc1c9b39970564004d0f8ba744d3}{%
+           family={{Gillespie}},
+           familyi={G\bibinitperiod},
+           given={S.\bibnamedelimi J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=ba8f747e4ab530f267debab27dbf87a4}{%
+           family={{Root}},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=8274186fe056f4cede71c18e543968be}{%
+           family={{Marcu}},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
+           family={{Aaen}},
+           familyi={A\bibinitperiod},
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{26353b6a82e3a3508acd7c405e7f64b2}
+      \strng{fullhash}{03051611b3ec14fef3b682fe859d4765}
+      \strng{bibnamehash}{03051611b3ec14fef3b682fe859d4765}
+      \strng{authorbibnamehash}{03051611b3ec14fef3b682fe859d4765}
+      \strng{authornamehash}{26353b6a82e3a3508acd7c405e7f64b2}
+      \strng{authorfullhash}{03051611b3ec14fef3b682fe859d4765}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 13th European Microwave Integrated Circuits Conference (EuMIC)}
+      \field{month}{9}
+      \field{title}{Electrothermal X-Parameters for Dynamic Modeling of RF and Microwave Power Transistors}
+      \field{year}{2018}
+      \field{pages}{353\bibrangedash 356}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.23919/EuMIC.2018.8539893
+      \endverb
+      \keyw{intermodulation distortion;microwave power transistors;semiconductor device models;thermal resistance;time-domain analysis;temperature hysteresis;intermodulation distortion;dynamic electro-thermal compact time-domain model;pulsed X-parameter measurements;dynamic self-heating effects;RF power transistors;static X -parameter model;thermal resistance;modulated waveform;thermally-induced asymmetry;thermal capacitance;extracted X-parameter data;X-parameter measurements;envelope domain sub-circuit;dynamic thermal X-parameter model;long-term memory;dynamic electro-thermal phenomena;X-parameter behavioral;microwave power transistors;electrothermal X-parameters;Temperature measurement;Integrated circuit modeling;Semiconductor device modeling;Frequency modulation;Radio frequency;Transistors;Mathematical model;behavioural modelling;X-Parameters;electrothermal device modelling;NVNA}
+    \endentry
+    \entry{Woodington_2008}{inproceedings}{}
+      \name{author}{9}{}{%
+        {{hash=daa29ab003dcbc87606432e4d92169d7}{%
+           family={{Woodington}},
+           familyi={W\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=af003993ce9c19980d69bf7efba17fce}{%
+           family={{Williams}},
+           familyi={W\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=5e7bbf0d2a2b478896de68e62a4f508f}{%
+           family={{Qi}},
+           familyi={Q\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=0cf7d83b3c925107374947fe98b35589}{%
+           family={{Williams}},
+           familyi={W\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9e53e21dd8ec04146aa17d374e955c94}{%
+           family={{Pattison}},
+           familyi={P\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4ae80acd94bc7ef782ba8b6ed16d13f7}{%
+           family={{Patterson}},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e1b688ba64c6b156c1fc0802e921b233}{%
+           family={{Lees}},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0b6a7800a0e270f33aaf67bceff8be9f}{%
+           family={{Benedikt}},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3b7163c6702222cb8527bc7cc962c648}{%
+           family={{Tasker}},
+           familyi={T\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{162d99c48ceff078570e5d8378703dd0}
+      \strng{fullhash}{319f3dde97a481ed9eabfc0fee643d25}
+      \strng{bibnamehash}{319f3dde97a481ed9eabfc0fee643d25}
+      \strng{authorbibnamehash}{319f3dde97a481ed9eabfc0fee643d25}
+      \strng{authornamehash}{162d99c48ceff078570e5d8378703dd0}
+      \strng{authorfullhash}{319f3dde97a481ed9eabfc0fee643d25}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2008 IEEE MTT-S International Microwave Symposium Digest}
+      \field{issn}{0149-645X}
+      \field{month}{6}
+      \field{title}{A novel measurement based method enabling rapid extraction of a RF Waveform Look-Up table based behavioral model}
+      \field{year}{2008}
+      \field{pages}{1453\bibrangedash 1456}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/MWSYM.2008.4633053
+      \endverb
+      \keyw{Solid modeling;Load modeling;Impedance;Mathematical model;Radio frequency;Phase measurement;Numerical models;power amplifiers;Poly Harmonic Distortion Model;non-linear device modeling;microwave measurements}
+    \endentry
+    \entry{Qi_2009}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5e7bbf0d2a2b478896de68e62a4f508f}{%
+           family={{Qi}},
+           familyi={Q\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=0b6a7800a0e270f33aaf67bceff8be9f}{%
+           family={{Benedikt}},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3b7163c6702222cb8527bc7cc962c648}{%
+           family={{Tasker}},
+           familyi={T\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{698b97abddf77fcbb965d868fb65b16d}
+      \strng{fullhash}{698b97abddf77fcbb965d868fb65b16d}
+      \strng{bibnamehash}{698b97abddf77fcbb965d868fb65b16d}
+      \strng{authorbibnamehash}{698b97abddf77fcbb965d868fb65b16d}
+      \strng{authornamehash}{698b97abddf77fcbb965d868fb65b16d}
+      \strng{authorfullhash}{698b97abddf77fcbb965d868fb65b16d}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{Nonlinear Data Utilization: From Direct Data Lookup to Behavioral Modeling}
+      \field{volume}{57}
+      \field{year}{2009}
+      \field{pages}{1425\bibrangedash 1432}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/TMTT.2009.2019996
+      \endverb
+      \keyw{circuit CAD;harmonic distortion;table lookup;direct data lookup;large-signal measurement data;nonlinear computer-aided design process;nonlinear CAD simulator;polyharmonic distortion approach;complex large-signal simulations;nonlinear data utilization;Design automation;Distortion measurement;Power amplifiers;Radiofrequency amplifiers;Process design;Density measurement;Computational modeling;Data mining;Power system modeling;Power measurement;Design automation;measurement system data handling;microwave measurements;nonlinear systems;power amplifiers}
+    \endentry
+    \entry{Woodington_2010}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=daa29ab003dcbc87606432e4d92169d7}{%
+           family={{Woodington}},
+           familyi={W\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=653b5168cf6c1de8c9f4c31d1490e062}{%
+           family={{Saini}},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0cf7d83b3c925107374947fe98b35589}{%
+           family={{Williams}},
+           familyi={W\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e1b688ba64c6b156c1fc0802e921b233}{%
+           family={{Lees}},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0b6a7800a0e270f33aaf67bceff8be9f}{%
+           family={{Benedikt}},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3b7163c6702222cb8527bc7cc962c648}{%
+           family={{Tasker}},
+           familyi={T\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b1bee0e338604f5f4ee67eef186dd07f}
+      \strng{fullhash}{fc6a19f6729c44f8d74001179c7b0c17}
+      \strng{bibnamehash}{fc6a19f6729c44f8d74001179c7b0c17}
+      \strng{authorbibnamehash}{fc6a19f6729c44f8d74001179c7b0c17}
+      \strng{authornamehash}{b1bee0e338604f5f4ee67eef186dd07f}
+      \strng{authorfullhash}{fc6a19f6729c44f8d74001179c7b0c17}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2010 IEEE MTT-S International Microwave Symposium}
+      \field{issn}{0149-645X}
+      \field{month}{5}
+      \field{title}{Behavioral model analysis of active harmonic load-pull measurements}
+      \field{year}{2010}
+      \field{pages}{1688\bibrangedash 1691}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/MWSYM.2010.5517261
+      \endverb
+      \keyw{gallium compounds;III-V semiconductors;integrated circuit measurement;integrated circuit modelling;microwave transistors;power amplifiers;wide band gap semiconductors;behavioral model analysis;active harmonic load-pull measurements;nonlinear response;microwave transistors;S parameters;power amplifiers;Harmonic analysis;Scattering parameters;Radiofrequency amplifiers;Power system modeling;Impedance measurement;Microwave transistors;Voltage;Radio frequency;High power amplifiers;Databases;behavioral modeling;S parameters;Load-Pull;power amplifiers}
+    \endentry
     \entry{hittite_amp}{misc}{}
       \list{organization}{1}{%
         {Analog Devices}%
@@ -134,8 +1042,8 @@
       \strng{authorbibnamehash}{d1dfb461e23a10997d3dcb1e7b6c69f6}
       \strng{authornamehash}{f5596a41aff4dff9bda16a08b59f2eab}
       \strng{authorfullhash}{d1dfb461e23a10997d3dcb1e7b6c69f6}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
@@ -171,8 +1079,8 @@
       \strng{authorbibnamehash}{aed5713ad20e35a4b2bc37169432c412}
       \strng{authornamehash}{aed5713ad20e35a4b2bc37169432c412}
       \strng{authorfullhash}{aed5713ad20e35a4b2bc37169432c412}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Trans. Microw. Theory Techn.}
@@ -201,8 +1109,8 @@
       \strng{authorbibnamehash}{6a2301da3cd29f54bd0d18ecaae18f70}
       \strng{authornamehash}{6a2301da3cd29f54bd0d18ecaae18f70}
       \strng{authorfullhash}{6a2301da3cd29f54bd0d18ecaae18f70}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
@@ -232,8 +1140,8 @@
       \strng{authornamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
       \strng{authorfullhash}{0a1dc9ba6382e13835002ad4d9099b4e}
       \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{9}
@@ -255,8 +1163,8 @@
       \strng{authornamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
       \strng{authorfullhash}{0a1dc9ba6382e13835002ad4d9099b4e}
       \field{extraname}{2}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{8}
@@ -294,8 +1202,8 @@
       \strng{authorbibnamehash}{4a468e16d0bb820001967b07304a2fef}
       \strng{authornamehash}{782f26ad22a046f8cbf76037e857ae6b}
       \strng{authorfullhash}{4a468e16d0bb820001967b07304a2fef}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
@@ -356,8 +1264,8 @@
       \strng{authorbibnamehash}{c9db4776c1d099417d473676d11b9c7f}
       \strng{authornamehash}{ee5c7740f39b4e193b30a2a7935c9c13}
       \strng{authorfullhash}{c9db4776c1d099417d473676d11b9c7f}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9456}
