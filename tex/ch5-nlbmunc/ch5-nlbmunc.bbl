@@ -19,77 +19,6 @@
 
 \refsection{1}
   \datalist[entry]{none/global//global/global}
-    \entry{Verspecht_2013}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=205574896d69566dafa891831fc8b29b}{%
-           family={{Verspecht}},
-           familyi={V\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=9a39064a50bbe7122ac6a9986d619a2a}{%
-           family={{Root}},
-           familyi={R\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=23a8f283e804ecd2db10d9938ccaeb92}{%
-           family={{Nielsen}},
-           familyi={N\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{84ec80fbdbcebea74886798d99aa1b05}
-      \strng{fullhash}{84ec80fbdbcebea74886798d99aa1b05}
-      \strng{bibnamehash}{84ec80fbdbcebea74886798d99aa1b05}
-      \strng{authorbibnamehash}{84ec80fbdbcebea74886798d99aa1b05}
-      \strng{authornamehash}{84ec80fbdbcebea74886798d99aa1b05}
-      \strng{authorfullhash}{84ec80fbdbcebea74886798d99aa1b05}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{82nd ARFTG Microwave Measurement Conference}
-      \field{month}{11}
-      \field{title}{Digital predistortion method based on dynamic X-parameters}
-      \field{year}{2013}
-      \field{pages}{1\bibrangedash 6}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/ARFTG-2.2013.6737338
-      \endverb
-      \keyw{distortion;microwave power amplifiers;power amplifiers;dynamic X-parameter modeling technique;modulation-induced baseband memory effects;microwave components;digital predistortion method;Kernel;Predistortion;Modulation;Nonlinear distortion;Switches;Bandwidth;Mathematical model;predistortion behavioral model;memory effects;frequency domain;measurements}
-    \endentry
-    \entry{Kaur_2012}{article}{}
-      \name{author}{2}{}{%
-        {{hash=0d202bc26a56d0671b91fb4937e57ee4}{%
-           family={Kaur},
-           familyi={K\bibinitperiod},
-           given={Rajbir},
-           giveni={R\bibinitperiod}}}%
-        {{hash=103edf0511ddb4cc664ceeb1798b3528}{%
-           family={Patterh},
-           familyi={P\bibinitperiod},
-           given={Manjeet\bibnamedelima Singh},
-           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-      }
-      \strng{namehash}{bd5795f049baf1f97222035bddd9981f}
-      \strng{fullhash}{bd5795f049baf1f97222035bddd9981f}
-      \strng{bibnamehash}{bd5795f049baf1f97222035bddd9981f}
-      \strng{authorbibnamehash}{bd5795f049baf1f97222035bddd9981f}
-      \strng{authornamehash}{bd5795f049baf1f97222035bddd9981f}
-      \strng{authorfullhash}{bd5795f049baf1f97222035bddd9981f}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{2278-4209}
-      \field{journaltitle}{International Journal of Electronics Communication and Computer Engineering}
-      \field{number}{5}
-      \field{title}{X-Parameter Modeling of Power Amplifier for Pre Distortion Applications}
-      \field{volume}{3}
-      \field{year}{2012}
-      \field{pages}{1045\bibrangedash 1048}
-      \range{pages}{4}
-    \endentry
     \entry{Verbeyst_1994}{article}{}
       \name{author}{2}{}{%
         {{hash=53ad70ecb8cacd297ba08c6ce005024e}{%
@@ -110,8 +39,8 @@
       \strng{authornamehash}{71604b35977a567749ecefb32c232620}
       \strng{authorfullhash}{71604b35977a567749ecefb32c232620}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
@@ -148,8 +77,8 @@
       \strng{authorbibnamehash}{4757e5a80a5a2e7f698c5ba073d41bdc}
       \strng{authornamehash}{4757e5a80a5a2e7f698c5ba073d41bdc}
       \strng{authorfullhash}{4757e5a80a5a2e7f698c5ba073d41bdc}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{1575242834}
@@ -175,8 +104,8 @@
       \strng{authorbibnamehash}{651bd630b8a6657c1b846ed8689d649d}
       \strng{authornamehash}{651bd630b8a6657c1b846ed8689d649d}
       \strng{authorfullhash}{651bd630b8a6657c1b846ed8689d649d}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2010 Chinese Control and Decision Conference}
@@ -210,8 +139,8 @@
       \strng{authorbibnamehash}{96342d20d5fcca684c82c015eceeba84}
       \strng{authornamehash}{96342d20d5fcca684c82c015eceeba84}
       \strng{authorfullhash}{96342d20d5fcca684c82c015eceeba84}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9456}
@@ -248,8 +177,8 @@
       \strng{authornamehash}{45fa59543e9de54e834eddcad7b85791}
       \strng{authorfullhash}{45fa59543e9de54e834eddcad7b85791}
       \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{45th ARFTG Conference Digest}
@@ -278,8 +207,8 @@
       \strng{authorbibnamehash}{53ad70ecb8cacd297ba08c6ce005024e}
       \strng{authornamehash}{53ad70ecb8cacd297ba08c6ce005024e}
       \strng{authorfullhash}{53ad70ecb8cacd297ba08c6ce005024e}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{47th ARFTG Conference Digest}
@@ -323,8 +252,8 @@
       \strng{authorbibnamehash}{98e1a6be69011306942e568fe9f221b3}
       \strng{authornamehash}{9170935c180e388f54dc57e99b1fdc83}
       \strng{authorfullhash}{98e1a6be69011306942e568fe9f221b3}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{1996 IEEE MTT-S International Microwave Symposium Digest}
@@ -354,8 +283,8 @@
       \strng{authorbibnamehash}{f6c09f6325be69ff567afcd01c0d10d5}
       \strng{authornamehash}{f6c09f6325be69ff567afcd01c0d10d5}
       \strng{authorfullhash}{f6c09f6325be69ff567afcd01c0d10d5}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{IEEE MIT-S Int. Microwave Symp. Worshop, paper no 95}
@@ -391,8 +320,8 @@
       \strng{authorbibnamehash}{45c17bdaa97d61784bae9ecebdc89457}
       \strng{authornamehash}{7f20869a55d6051a6f8b97ce0fdef9bd}
       \strng{authorfullhash}{45c17bdaa97d61784bae9ecebdc89457}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2005 66th ARFTG Microwave Measurement Conference (ARFTG)}
@@ -426,13 +355,56 @@
       \strng{authorbibnamehash}{322b9e372c9b96a24318228f80b30757}
       \strng{authornamehash}{322b9e372c9b96a24318228f80b30757}
       \strng{authorfullhash}{322b9e372c9b96a24318228f80b30757}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{1596930187}
       \field{title}{RF Power Amplifiers for Wireless Communications, Second Edition (Artech House Microwave Library (Hardcover))}
       \field{year}{2006}
+    \endentry
+    \entry{Root_2013}{book}{}
+      \name{author}{4}{}{%
+        {{hash=981e0559c770879344de0a53fd210cd7}{%
+           family={Root},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=f6c09f6325be69ff567afcd01c0d10d5}{%
+           family={Verspecht},
+           familyi={V\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=15934c57f7d1f0e6652d8149f870f4ce}{%
+           family={Horn},
+           familyi={H\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=873cf16b98e89e22166961c92dd33069}{%
+           family={Marcu},
+           familyi={M\bibinitperiod},
+           given={Mihai},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{42e7875bd057e3b143ace1908460002c}
+      \strng{fullhash}{eade849cc1c1a6bee0aae9f8f17e5f80}
+      \strng{bibnamehash}{eade849cc1c1a6bee0aae9f8f17e5f80}
+      \strng{authorbibnamehash}{eade849cc1c1a6bee0aae9f8f17e5f80}
+      \strng{authornamehash}{42e7875bd057e3b143ace1908460002c}
+      \strng{authorfullhash}{eade849cc1c1a6bee0aae9f8f17e5f80}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{The Cambridge RF and Microwave Engineering Series}
+      \field{title}{X-Parameters: Characterization, Modeling, and Design of Nonlinear RF and Microwave Components}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.1017/CBO9781139042970
+      \endverb
     \endentry
     \entry{Verspecht_2006}{article}{}
       \name{author}{2}{}{%
@@ -604,50 +576,6 @@
       \endverb
       \keyw{analogue circuits;frequency-domain analysis;nonlinear network analysis;S-parameters;Volterra series;nonlinear analog circuits;frequency domain;scattering variables;nonlinear scattering parameters;S-parameters;Volterra series;X-parameters;Scattering;Scattering parameters;Ports (Computers);Nonlinear systems;Harmonic analysis;Frequency-domain analysis;Integrated circuit modeling;X-parameters;poly harmonic distortion;PHD;nonlinear S-parameters;Volterra series}
     \endentry
-    \entry{Gunyan_2009}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=c3be20501e79f3f4d10387696b964a9d}{%
-           family={{Gunyan}},
-           familyi={G\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=a16343d532ba528a1c7b07b20517ec5b}{%
-           family={{Horn}},
-           familyi={H\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=5d099836f6a91712f1b8f9de548a019f}{%
-           family={{Xu}},
-           familyi={X\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=ba8f747e4ab530f267debab27dbf87a4}{%
-           family={{Root}},
-           familyi={R\bibinitperiod},
-           given={D.\bibnamedelimi E.},
-           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-      }
-      \strng{namehash}{8da308499705385d0ef843575f2b8356}
-      \strng{fullhash}{37e78b2f9fe4cc90e496de3f30d70518}
-      \strng{bibnamehash}{37e78b2f9fe4cc90e496de3f30d70518}
-      \strng{authorbibnamehash}{37e78b2f9fe4cc90e496de3f30d70518}
-      \strng{authornamehash}{8da308499705385d0ef843575f2b8356}
-      \strng{authorfullhash}{37e78b2f9fe4cc90e496de3f30d70518}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2009 73rd ARFTG Microwave Measurement Conference}
-      \field{month}{6}
-      \field{title}{Nonlinear validation of arbitrary load X-parameter and measurement-based device models}
-      \field{year}{2009}
-      \field{pages}{1\bibrangedash 4}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1109/ARFTG.2009.5278063
-      \endverb
-      \keyw{microwave field effect transistors;Schottky gate field effect transistors;semiconductor device models;S-parameters;nonlinear validation;arbitrary load X-parameter;measurement-based device models;S-parameters;nonlinear components;large-signal condition;small-signal condition;PHD model;measurement-based nonquasi-static device model;tuned-load measurements;Predictive models;MESFETs;Circuit simulation;Power measurement;Spectral analysis;Multiaccess communication;Tuners;Data mining;Impedance;Solid modeling}
-    \endentry
     \entry{Xie_2012}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=924aa3d6922c6acb9622d8b3473d0de8}{%
@@ -672,8 +600,8 @@
       \strng{authorbibnamehash}{f8c863929c4bb453d8b97e6f8051f7f6}
       \strng{authornamehash}{f8c863929c4bb453d8b97e6f8051f7f6}
       \strng{authorfullhash}{f8c863929c4bb453d8b97e6f8051f7f6}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2012 International Conference on Microwave and Millimeter Wave Technology (ICMMT)}
@@ -830,6 +758,110 @@
       \verb 10.23919/EuMIC.2018.8539893
       \endverb
       \keyw{intermodulation distortion;microwave power transistors;semiconductor device models;thermal resistance;time-domain analysis;temperature hysteresis;intermodulation distortion;dynamic electro-thermal compact time-domain model;pulsed X-parameter measurements;dynamic self-heating effects;RF power transistors;static X -parameter model;thermal resistance;modulated waveform;thermally-induced asymmetry;thermal capacitance;extracted X-parameter data;X-parameter measurements;envelope domain sub-circuit;dynamic thermal X-parameter model;long-term memory;dynamic electro-thermal phenomena;X-parameter behavioral;microwave power transistors;electrothermal X-parameters;Temperature measurement;Integrated circuit modeling;Semiconductor device modeling;Frequency modulation;Radio frequency;Transistors;Mathematical model;behavioural modelling;X-Parameters;electrothermal device modelling;NVNA}
+    \endentry
+    \entry{ADS}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9eb9a1097475d81a03fd20f0a8ec4db5}{%
+           family={AWR},
+           familyi={A\bibinitperiod},
+           given={NI},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{9eb9a1097475d81a03fd20f0a8ec4db5}
+      \strng{fullhash}{9eb9a1097475d81a03fd20f0a8ec4db5}
+      \strng{bibnamehash}{9eb9a1097475d81a03fd20f0a8ec4db5}
+      \strng{authorbibnamehash}{9eb9a1097475d81a03fd20f0a8ec4db5}
+      \strng{authornamehash}{9eb9a1097475d81a03fd20f0a8ec4db5}
+      \strng{authorfullhash}{9eb9a1097475d81a03fd20f0a8ec4db5}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Microwave Office}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.awr.com/software/products/microwave-office
+      \endverb
+      \verb{url}
+      \verb https://www.awr.com/software/products/microwave-office
+      \endverb
+    \endentry
+    \entry{AWR}{online}{}
+      \name{author}{1}{}{%
+        {{hash=53db971e8574a8fca5f4bfc3675960b3}{%
+           family={Technologies},
+           familyi={T\bibinitperiod},
+           given={Keysight},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{53db971e8574a8fca5f4bfc3675960b3}
+      \strng{fullhash}{53db971e8574a8fca5f4bfc3675960b3}
+      \strng{bibnamehash}{53db971e8574a8fca5f4bfc3675960b3}
+      \strng{authorbibnamehash}{53db971e8574a8fca5f4bfc3675960b3}
+      \strng{authornamehash}{53db971e8574a8fca5f4bfc3675960b3}
+      \strng{authorfullhash}{53db971e8574a8fca5f4bfc3675960b3}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Advanced Design System ({ADS})}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.awr.com/software/products/microwave-office
+      \endverb
+      \verb{url}
+      \verb https://www.awr.com/software/products/microwave-office
+      \endverb
+    \endentry
+    \entry{Gunyan_2009}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=c3be20501e79f3f4d10387696b964a9d}{%
+           family={{Gunyan}},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a16343d532ba528a1c7b07b20517ec5b}{%
+           family={{Horn}},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5d099836f6a91712f1b8f9de548a019f}{%
+           family={{Xu}},
+           familyi={X\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ba8f747e4ab530f267debab27dbf87a4}{%
+           family={{Root}},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{8da308499705385d0ef843575f2b8356}
+      \strng{fullhash}{37e78b2f9fe4cc90e496de3f30d70518}
+      \strng{bibnamehash}{37e78b2f9fe4cc90e496de3f30d70518}
+      \strng{authorbibnamehash}{37e78b2f9fe4cc90e496de3f30d70518}
+      \strng{authornamehash}{8da308499705385d0ef843575f2b8356}
+      \strng{authorfullhash}{37e78b2f9fe4cc90e496de3f30d70518}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2009 73rd ARFTG Microwave Measurement Conference}
+      \field{month}{6}
+      \field{title}{Nonlinear validation of arbitrary load X-parameter and measurement-based device models}
+      \field{year}{2009}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ARFTG.2009.5278063
+      \endverb
+      \keyw{microwave field effect transistors;Schottky gate field effect transistors;semiconductor device models;S-parameters;nonlinear validation;arbitrary load X-parameter;measurement-based device models;S-parameters;nonlinear components;large-signal condition;small-signal condition;PHD model;measurement-based nonquasi-static device model;tuned-load measurements;Predictive models;MESFETs;Circuit simulation;Power measurement;Spectral analysis;Multiaccess communication;Tuners;Data mining;Impedance;Solid modeling}
     \endentry
     \entry{Woodington_2008}{inproceedings}{}
       \name{author}{9}{}{%
@@ -998,12 +1030,44 @@
       \endverb
       \keyw{gallium compounds;III-V semiconductors;integrated circuit measurement;integrated circuit modelling;microwave transistors;power amplifiers;wide band gap semiconductors;behavioral model analysis;active harmonic load-pull measurements;nonlinear response;microwave transistors;S parameters;power amplifiers;Harmonic analysis;Scattering parameters;Radiofrequency amplifiers;Power system modeling;Impedance measurement;Microwave transistors;Voltage;Radio frequency;High power amplifiers;Databases;behavioral modeling;S parameters;Load-Pull;power amplifiers}
     \endentry
+    \entry{Bespalko_2016}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=d2f03c3eb6ef303b8dab9103fbb25ac3}{%
+           family={Bespalko},
+           familyi={B\bibinitperiod},
+           given={Dylan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Waterloo}%
+      }
+      \strng{namehash}{d2f03c3eb6ef303b8dab9103fbb25ac3}
+      \strng{fullhash}{d2f03c3eb6ef303b8dab9103fbb25ac3}
+      \strng{bibnamehash}{d2f03c3eb6ef303b8dab9103fbb25ac3}
+      \strng{authorbibnamehash}{d2f03c3eb6ef303b8dab9103fbb25ac3}
+      \strng{authornamehash}{d2f03c3eb6ef303b8dab9103fbb25ac3}
+      \strng{authorfullhash}{d2f03c3eb6ef303b8dab9103fbb25ac3}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Modular Nonlinear Characterization System and Large-Signal Behavioral Modelling of Unmatched Transistors for Streamlined Power Amplifier Design}
+      \field{type}{phdthesis}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb http://hdl.handle.net/10012/10179
+      \endverb
+      \verb{url}
+      \verb http://hdl.handle.net/10012/10179
+      \endverb
+    \endentry
     \entry{hittite_amp}{misc}{}
       \list{organization}{1}{%
         {Analog Devices}%
       }
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labeltitlesource}{title}
       \field{title}{{HMC342LC4} datasheet}
       \verb{urlraw}
@@ -1042,8 +1106,8 @@
       \strng{authorbibnamehash}{d1dfb461e23a10997d3dcb1e7b6c69f6}
       \strng{authornamehash}{f5596a41aff4dff9bda16a08b59f2eab}
       \strng{authorfullhash}{d1dfb461e23a10997d3dcb1e7b6c69f6}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
@@ -1079,8 +1143,8 @@
       \strng{authorbibnamehash}{aed5713ad20e35a4b2bc37169432c412}
       \strng{authornamehash}{aed5713ad20e35a4b2bc37169432c412}
       \strng{authorfullhash}{aed5713ad20e35a4b2bc37169432c412}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Trans. Microw. Theory Techn.}
@@ -1109,8 +1173,8 @@
       \strng{authorbibnamehash}{6a2301da3cd29f54bd0d18ecaae18f70}
       \strng{authornamehash}{6a2301da3cd29f54bd0d18ecaae18f70}
       \strng{authorfullhash}{6a2301da3cd29f54bd0d18ecaae18f70}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
@@ -1140,8 +1204,8 @@
       \strng{authornamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
       \strng{authorfullhash}{0a1dc9ba6382e13835002ad4d9099b4e}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{9}
@@ -1202,8 +1266,8 @@
       \strng{authorbibnamehash}{4a468e16d0bb820001967b07304a2fef}
       \strng{authornamehash}{782f26ad22a046f8cbf76037e857ae6b}
       \strng{authorfullhash}{4a468e16d0bb820001967b07304a2fef}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
@@ -1264,8 +1328,8 @@
       \strng{authorbibnamehash}{c9db4776c1d099417d473676d11b9c7f}
       \strng{authornamehash}{ee5c7740f39b4e193b30a2a7935c9c13}
       \strng{authorfullhash}{c9db4776c1d099417d473676d11b9c7f}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9456}

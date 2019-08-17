@@ -158,8 +158,6 @@ INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
@@ -170,6 +168,13 @@ INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
+OUTPUT ch5-nlbmunc.pdf
+INPUT c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT ../figs/ch5-nlbmunc/dut.png
+INPUT ../figs/ch5-nlbmunc/dut.png
+INPUT ../figs/ch5-nlbmunc/dut.png
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
@@ -184,8 +189,6 @@ INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib8.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib6.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy8.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm
-OUTPUT ch5-nlbmunc.pdf
-INPUT c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm
 INPUT ../figs/ch5-nlbmunc/hots22.PNG
 INPUT ../figs/ch5-nlbmunc/hots22.PNG
@@ -193,6 +196,15 @@ INPUT ../figs/ch5-nlbmunc/hots22.PNG
 INPUT ../figs/ch5-nlbmunc/superposition.png
 INPUT ../figs/ch5-nlbmunc/superposition.png
 INPUT ../figs/ch5-nlbmunc/superposition.png
+INPUT ../figs/ch5-nlbmunc/phasedep.png
+INPUT ../figs/ch5-nlbmunc/phasedep.png
+INPUT ../figs/ch5-nlbmunc/phasedep.png
+INPUT ../figs/ch5-nlbmunc/nvna.png
+INPUT ../figs/ch5-nlbmunc/nvna.png
+INPUT ../figs/ch5-nlbmunc/nvna.png
+INPUT ../figs/ch5-nlbmunc/extract.png
+INPUT ../figs/ch5-nlbmunc/extract.png
+INPUT ../figs/ch5-nlbmunc/extract.png
 INPUT ../figs/ch5-nlbmunc/setup.png
 INPUT ../figs/ch5-nlbmunc/setup.png
 INPUT ../figs/ch5-nlbmunc/setup.png
@@ -217,6 +229,7 @@ INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT ch5-nlbmunc.aux
 INPUT ch5-nlbmunc.run.xml
 OUTPUT ch5-nlbmunc.run.xml
+INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb

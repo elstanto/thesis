@@ -10,16 +10,32 @@
 \chapter[Prop. Meas. Unc. To Nonlinear Behavioural Models]{Propagating Measurement Uncertainty into Nonlinear Behavioural Models}
 \section{Introduction}
 
-A brief coverage of the requirement for behavioural models and the history. Talk about the benefits of adding confidence information to simulations during amplifier design.
+The requirement of behavioural models for nonlinear microwave devices was introduced in Chapter 1 of this dissertation, where it was shown they can provide an intellectual-property-friendly ``black-box'' method to accurately predict device performance.
 
-yield analysis in circuit simulation
-characterisation of amplifiers for digital pre-distortion \cite{Verspecht_2013,Kaur_2012}
+The core aim of a behavioural model is to fit mathematical functions to measurement data in order to reduce the amount of information stored within the extracted model (in contrast to a look-up table approach where the entire measurement dataset is indexed). This reduces both data storage requirements, making the model more portable, and also the computational requirements for accessing the model dataset when used in circuit simulators during design. Nonlinear behavioural models have developed over time and there are several different formulations in use today, of which the most common will be described in this Chapter. The reason there is no single ``best'' model is a question of application. Models which are most efficient and fit functions to more data dimensions may not be accurate for all device behaviours, whereas other models are more versatile but less data-efficient.
 
-Introduce black-box model definition with pseudowave equations.
+Before this project, no prior published work propagated a rigorous evaluation of measurement uncertainty through measurement data into an extracted nonlinear behavioural model. This information is of great use to both the modelling engineer, who can evaluate the sensitivities of their behavioural model to different sources of error in the measurement and extraction procedures, and the design engineer, who can quantify and compare the combined uncertainty in performance characteristics of circuits simulated using the extracted model. Both of these benefits will be presented in this Chapter.
 
-
+%characterisation of amplifiers for digital pre-distortion \cite{Verspecht_2013,Kaur_2012}
 
 \section{Nonlinear Behavioural Models}
+
+We shall first introduce a generic frequency-domain model of the nonlinear device, illustrated in Figure X, which defines the various quantities required to understand the following behavioural models. The power waves $A$ and $B$ at port $n$ can be written as:
+
+\begin{align}
+	A_n &= \frac{V_n + I_n Z_n}{2\sqrt{\Re(Z_n)}} \\
+	B_n &= \frac{V_n - I_n Z^*_n}{2\sqrt{\Re(Z_n)}},
+\end{align}
+
+where $V$ and $I$ are voltages and currents, respectively, and $Z$ is the port impedance - typically 50-Ohms.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.65\textwidth]{dut}
+	\caption[Device-under-test model representation.]{A representation of the different quantities described in nonlinear behavioural models, shown for a typical two-port device-under-test (DUT).}
+	\label{ch5_fig_dut}
+\end{figure}
+
 \subsection{The Volterra ``VIOMAP'' Model}
 
 One of the first examples of a nonlinear behavioural model for microwave amplifiers was the Volterra input-output map, or ``VIOMAP'' \cite{Verbeyst_1994}. This model was developed in the early nineties by Verbeyst and Vanden Bossche of the Hewlett Packard Network Measurement and Description Group (NMDG\footnote{now owned by National Instruments}) at Vrije University in Brussels. In an effort to find an S-parameter equivalent for nonlinear devices, VIOMAP replaces the parameters themselves with a sum of Volterra kernel components at each harmonic frequency\cite{Schetzen_2006, Moodi_2010}.
@@ -28,10 +44,10 @@ Although the VIOMAP model was shown to be cascadable \cite{Verbeyst_1994}, appli
 
 \subsection{Scattering Functions}
 
-Scattering functions, originally termed describing functions from their nonlinear analysis origin, were introduced by Verspecht and reduced the computational overhead for modelling strong nonlinearities when compared to the VIOMAP model \cite{Verspecht_1996}. They are expressed as a function mapping $N$ complex numbers representing the input signal $I$ into the $k^{\textrm{th}}$ spectral component of the output signal $O$:
+Scattering functions, originally termed describing functions from their nonlinear analysis origin, were introduced by Verspecht and reduced the computational overhead for modelling strong nonlinearities when compared to the VIOMAP model \cite{Verspecht_1996}. They are expressed as a function mapping $N$ complex numbers representing the input signal $A$ into the $k^{\textrm{th}}$ spectral component of the output signal $B$:
 
 \begin{equation}
-	O_{k} = F_k(I_1, I_2, \dots, I_N),
+	B_{k} = F_k(A_1, A_2, \dots, A_N),
 	\label{ch5_eqn_scatfunc}
 \end{equation}
 
@@ -49,17 +65,17 @@ Fundamentally, the hot S-parameter model, when used to characterise the distorti
 
 \begin{equation}
 	\begin{bmatrix}
-		b_1(f) \\ 
-		b_2(f) 
+		B_1(f) \\ 
+		B_2(f) 
 	\end{bmatrix}
 	= 
 	\begin{bmatrix}
-		hotS_{11}(f, |a_1|) & hotS_{12}(f, |a_1|) \\
-		hotS_{21}(f, |a_1|) & hotS_{22}(f, |a_1|)
+		hotS_{11}(f, |A_1|) & hotS_{12}(f, |A_1|) \\
+		hotS_{21}(f, |A_1|) & hotS_{22}(f, |A_1|)
 	\end{bmatrix}
 	\begin{bmatrix}
-	a_1(f) \\ 
-	a_2(f) 
+	A_1(f) \\ 
+	A_2(f) 
 	\end{bmatrix}
 \end{equation}
 
@@ -67,24 +83,24 @@ The enhanced version of the model includes two additional parameters which descr
 
 \begin{equation}
 	\begin{bmatrix}
-		b_1(f) \\ 
-		b_2(f) 
+		B_1(f) \\ 
+		B_2(f) 
 	\end{bmatrix}
 	= 
 	\begin{bmatrix}
-		hotS_{11}(f, |a_1|) & hotS_{12}(f, |a_1|) \\
-		hotS_{21}(f, |a_1|) & hotS_{22}(f, |a_1|)
+		hotS_{11}(f, |A_1|) & hotS_{12}(f, |A_1|) \\
+		hotS_{21}(f, |A_1|) & hotS_{22}(f, |A_1|)
 	\end{bmatrix}
 	\begin{bmatrix}
-		a_1(f) \\ 
-		a_2(f) 
+		A_1(f) \\ 
+		A_2(f) 
 	\end{bmatrix}
 	+
 	\begin{bmatrix}
-		T_{12}(f, |a_1|) \\ 
-		T_{22}(f, |a_1|) 
+		T_{12}(f, |A_1|) \\ 
+		T_{22}(f, |A_1|) 
 	\end{bmatrix}
-	e^{j\phi(a_1(f))}a_2^*(f)
+	e^{j\phi(A_1(f))}A_2^*(f)
 	\label{ch5_eqn_hotsp}
 \end{equation}
 
@@ -94,7 +110,7 @@ For an amplifier operating in the nonlinear regime, both the magnitude and phase
 
 The amplifier stability form of hot S-parameters will not be discussed here, but an overview is available in \cite{Verspecht_2005}.
 
-\begin{figure}[t]
+\begin{figure}
 	\centering
 	\includegraphics[width=\linewidth]{hots22}
 	\caption[Performance of hot S-parameter models with different $hotS22$ definitions.]{Performance of hot S-parameter models with different $hotS22$ definitions, showing in polar form the measured (orange) and predicted (yellow) $b_2$ wave for a modulated large-signal $a_1$ wave, with values in Volts. Classic $S_{22}$ means no dependence of $S_{22}$ on $|a_1|$, simple ``Hot S22'' means a linear dependence of $S_{22}$ on $|a_1|$, extended ``Hot S22'' includes dependence of $S_{22}$ on $|a_1|$ and $a_2$, and quadratic ``Hot S22'' includes a second order dependence of $S_{22}$ on $a_2$ \cite{Verspecht_2002}.}
@@ -103,7 +119,7 @@ The amplifier stability form of hot S-parameters will not be discussed here, but
 
 \subsection{X-Parameters}
 
-X-parameters, from Keysight, are the commercial realisation of the poly-harmonic distortion model \cite{Verspecht_2006}, which itself is an application of scattering functions with particular constraints. The most significant constraint is that any output of device which the model is applied to behaves linearly with respect to incident tones at harmonics of the fundamental, which is illustrated in Figure \ref{ch5_fig_superposition}. 
+X-parameters \cite{Root_2013}, from Keysight, are the commercial realisation of the poly-harmonic distortion model \cite{Verspecht_2006}, which itself is an application of scattering functions with particular constraints. The most significant constraint is that any output of device which the model is applied to behaves linearly with respect to incident tones at harmonics of the fundamental, which is illustrated in Figure \ref{ch5_fig_superposition}. 
 
 \begin{figure}
 	\centering
@@ -135,19 +151,112 @@ where $X^\textrm{F}$ (the large-signal term), $X^\textrm{S}$ and $X^\textrm{T}$ 
 
 Two informative comparisons between the performance of scattering functions and X-parameters in modelling nonlinear device behaviour can be found in \cite{Sun_2010,Widemann_2015}.
 
-The X-parameter model is heavily marketed by Keysight to be a complete solution for modelling nonlinear device behaviour. Additions to the model include the ability to measure performance at a full range of load impedances (by making the X-parameters a function of $A_{2,1}$ also) \cite{Gunyan_2009}, mixer characterisation using multi-tone stimuli \cite{Xie_2012}, the inclusion of memory effects \cite{Verspecht_2009}, the prediction of load-pull performance from a single X-parameter measurement at 50-Ohms \cite{Root_2017}, and recently the inclusion of electro-thermal effects \cite{Gillespie_2018}.
+The X-parameter model is heavily marketed by Keysight to be a complete solution for modelling nonlinear device behaviour. Additions to the model include mixer characterisation using multi-tone stimuli \cite{Xie_2012}, the inclusion of memory effects \cite{Verspecht_2009}, the prediction of load-pull performance from a single X-parameter measurement at 50-Ohms \cite{Root_2017}, and recently the inclusion of electro-thermal effects \cite{Gillespie_2018}. The X-parameters themselves are closely related to elements of the Jacobian matrix used within harmonic balance simulations. This feature means that X-parameters can be extracted in a straightforward way from circuit simulations, and existing X-parameter models based on measurements can be included in simulations. At least two circuit simulators support X-parameter models at the time of writing, including Keysight Advanced Design System (ADS) \cite{ADS} and National Instruments AWR Microwave Office \cite{AWR}.
 
 \subsection{The Cardiff Model}
 
-Although X-parameters are sufficient to characterise the nonlinear behaviour of many amplifiers, the standard model\footnote{It is possible to extend the X-parameter model to include higher order mixing products, however this is not supported by commercial measurement or simulation solutions.} only includes third-order mixing products (via the $P^{(.)}$ terms in (\ref{ch5_eqn_xps})). For strongly nonlinear devices, such as unpackaged transistors and amplifiers driven in class F modes, this limitation can be a cause for concern and lead to significant inaccuracies during simulations. The Cardiff model, named after it's origin at Cardiff University, UK, removes this limitation and incorporates $n^{\textrm{th}}$-order mixing products (typically truncated to seventh-order terms) \cite{Woodington_2008,Qi_2009}.
+Although X-parameters are sufficient to characterise the nonlinear behaviour of many amplifiers, the standard model\footnote{It is possible to extend the X-parameter model to include higher order mixing products, however this is not supported by commercial measurement or simulation solutions.} only includes third-order mixing products (via the $P^{(.)}$ terms in (\ref{ch5_eqn_xps})). While the harmonic superposition principle holds, which is the case for weak-to-moderate nonlinear devices with well-matched ports, this is not always true for strongly nonlinear devices such as unpackaged transistors, amplifiers driven in class F modes, or devices with port impedances far from 50-Ohms. In order to avoid this X-parameters can be extracted as a function of both $|A_{1,1}|$ and $A_{2,1}$, but this can increase the model size significantly, especially for load-pull applications with phase and magnitude sweeps of $A_{2,1}$ \cite{Gunyan_2009}. An alternative approach,  The Cardiff model, named after it's origin at Cardiff University, UK, incorporates $n^{\textrm{th}}$-order mixing products (typically truncated to seventh-order terms) and reduces the model dependence for fundamental load-pull to $|A_{1,1}|$ and $|A_{2,1}|$ only \cite{Woodington_2008,Qi_2009}.
 
 The formulation of the Cardiff model is represented differently to that of X-parameters, however, they are a natural extension of that model and are equivalent when used with third-order mixing products. The measurement and extraction process is usually performed with a sampler-based NVNA featuring a real-time sampling oscilloscope and consists of a load-pull measurement \cite{Woodington_2010}.
 
 For this project, X-parameters were chosen as the nonlinear behavioural model for which to focus on developing an uncertainty propagation, due to their current popularity. The framework which has been developed can be extended to include other models, but does not currently support them. Therefore, the Cardiff model will not be discussed in any greater detail here.
 
+\begin{figure}
+	\centering
+	\includegraphics[width=0.65\textwidth]{phasedep}
+	\caption[Relationship of device output against input wave phase for different nonlinear behavioural models.]{The relationship of device output $b_{p,k}$ against varying input wave phase $\angle a_{q,l}$ ($q, l \ne 1, 1$) for different nonlinear behavioural models, showing the effect that higher order mixing products have on the accuracy of the model \cite{Bespalko_2016}.}
+	\label{ch5_fig_phasedep}
+\end{figure}
+
 \section{X-Parameter Extraction Procedure}
-\subsection{Model}
-\subsection{Uncertainty Propagation Using The MUF}
+
+X-parameters can be extracted from either measured or simulated data. A least-squares estimation can be used for both cases, however it is often more efficient to extract X-parameters directly from harmonic balance internal variables when simulating data. This section will describe the process involved for the least squares estimation of X-parameters from measured data, and two implementations developed during this project.
+
+\subsection{Method}
+
+To perform device measurements from which X-parameters can be extracted, an NVNA setup as shown in Chapter 2 must be prepared, with the additional requirement of a second signal source which can be applied at either of two ports. All measurements taken during this project used the following Keysight equipment: an N5247A PNA-X NVNA, N1913A EPM Series Power Meter and two U9391G Comb Generators as phase references. Variables used in this section are in reference to (\ref{ch5_eqn_xps}).
+
+The large-signal X-parameter, $X_\textrm{F}$, is simple to measure as it captures to the response of the device to a single large-signal drive tone at the fundamental frequency on port one ($A_{1,1}$). It is indexed against $|A_{1,1}|$, so this power is swept and measurements at each port $p$ and harmonic $k$ are made. The drive tone amplitude $|A_{1,1}|$ is said to define a large-signal operating point (LSOP) against which all of the X-parameters are indexed.
+
+The small-signal X-parameters, $X_\textrm{S}$ and $X_\textrm{T}$, model the interactions between small-signals incident to the device and $A_{1,1}$. To capture this behaviour, measurements are made with a second tone (``extraction'' or ``tickler'' tone) applied to each port and harmonic in turn. If we ignore the conjugate term X-parameter $X_\textrm{T}$ (which is similar to the simple ``Hot S22'' model in Figure \ref{ch5_fig_hots22}), these measurements are all that is required to extract X-parameters. This equates to $N + N \times Q \times L$ stimulus conditions, where $N$ is the number of LSOPs, $Q$ is the number of ports and $L$ is the number of harmonics. For each stimulus condition, the NVNA measures the device output on all ports at each harmonic. A diagram of the NVNA setup required for these measurements is shown in Figure \ref{ch5_fig_nvna}.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{nvna}
+	\caption[NVNA setup required for X-parameter measurements.]{The NVNA setup required for X-parameter measurements. The switch terminates the unused port to a 50-Ohm load. The phase reference is connected to a spare receiver but not shown.}
+	\label{ch5_fig_nvna}
+\end{figure}
+
+However, to extract the full X-parameter model we must make additional measurements to characterise the phase-dependence of the mixing products between the extraction tones and the LSOP. This is the behaviour captured by the $X_\textrm{T}$ parameters. Two measurement methods were developed to perform this task: offset-frequency and offset-phase. The offset-frequency method is not supported by the current version of the PNA-X firmware and appears to have fallen out of use, so the offset phase method alone will be explained. Further information can be found in \cite{Root_2013}.
+
+Instead of a single extraction tone applied at each port and harmonic, a second measurement must be performed at an orthogonal phase ($\theta+90^{\circ}$) to the initial extraction tone. An illustration of these measurements using phasors is given in Figure \ref{ch5_fig_extract}. After subtracting the large-signal only measurement from these two new measurements, we obtain two small-signal contributions which can be used to solve the following equations:
+
+\begin{align}
+	b^{SS1}_{p,k} &= X^\textrm{S}_{p,k,q,l}a^{SS1}_{q,l} + X^\textrm{T}_{p,k,q,l}(a^{SS1}_{q,l})^*, \\
+	b^{SS2}_{p,k} &= X^\textrm{S}_{p,k,q,l}a^{SS2}_{q,l} + X^\textrm{T}_{p,k,q,l}(a^{SS2}_{q,l})^*.
+\end{align}
+
+Of course, it is advised to make more than two measurements of different extraction tone phases (typically four) and solve for $X_\textrm{S}$ and $X_\textrm{T}$ using a least-squares estimation. The extraction process can in fact be simplified further by using a matrix least-squares arrangement to solve for the entire X-parameter model, which removes the need to subtract the large-signal response from all the extraction tone measurements. If we define a matrix $X$ such that each row contains the NVNA measurements for a single extraction tone stimulus setting (of $QL$ total):
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{extract}
+	\caption[Offset-phase X-parameter extraction procedure.]{An example of the offset-phase method for measuring device response for X-parameter extraction. The red stimulus is with no extraction tone, and the blue and green stimuli are with extraction tones applied at $0^{\circ}$ and $90^{\circ}$, respectively. Although $A_{2,1}$ and $B_{2,1}$ are specified, this effect occurs for all tones other than the fundamental on port one \cite{Verspecht_2006}.}
+	\label{ch5_fig_extract}
+\end{figure}
+
+\begin{equation}
+	X =
+	\begin{bmatrix}
+		1 & a_{(2,1)_1} & a^*_{(2,1)_1} & a_{(1,2)_1} & a^*_{(1,2)_1} & a_{(2,2)_1} & a^*_{(2,2)_1} & \dots \\
+		1 & a_{(2,1)_2} & a^*_{(2,1)_2} & a_{(1,2)_2} & a^*_{(1,2)_2} & a_{(2,2)_2} & a^*_{(2,2)_2} & \dots \\
+		\vdots & \vdots & \vdots & \vdots & \vdots & \vdots & \vdots & \dots \\
+		1 & a_{(2,1)_{QL}} & a^*_{(2,1)_{QL}} & a_{(1,2)_{QL}} & a^*_{(1,2)_{QL}} & a_{(2,2)_{QL}} & a^*_{(2,2)_{QL}} & \dots \\
+	\end{bmatrix}
+\end{equation}
+
+and a vector $y$ of length $QL$ is defined to contain the respective measurements of a single output wave $b_{p,k}$:
+
+\begin{equation}
+	y =
+	\begin{bmatrix}
+		b_{(p,k)_1} \\
+		b_{(p,k)_2} \\
+		\vdots \\
+		b_{(p,k)_{QL}} \\
+	\end{bmatrix},
+\end{equation}
+
+then the X-parameters can be solved for using the following least-squares equation:
+
+\begin{equation}
+	\beta = (X^\top X)^{-1}X^\top y
+\end{equation}
+
+with the vector $\beta$ containing the X-parameters:
+
+\begin{equation}
+	\beta = 
+	\begin{bmatrix}
+		X^\textrm{F}_{p,k} \\
+		X^\textrm{S}_{p,k, 2, 1} \\
+		X^\textrm{T}_{p,k, 2, 1} \\
+		X^\textrm{S}_{p,k, 1, 2} \\
+		X^\textrm{T}_{p,k, 1, 2} \\
+		X^\textrm{S}_{p,k, 2, 2} \\
+		X^\textrm{T}_{p,k, 2, 2} \\
+		\vdots \\
+	\end{bmatrix}.
+\end{equation}
+
+\subsection{Implementation}
+\subsubsection{PNA-X Extraction}
+\subsubsection{MUF Custom Post-Processor}
+
+\section{Evaluation of the Combined Standard Uncertainty of X-Parameters Extracted from Measurement Data}
+
+\section{Propagation of Uncertainty from X-Parameters into Circuit Simulations}
+
 \section{Design and Simulation using Nonlinear Behavioural Models Incorporating Measurement Uncertainty}
 
 The NIST MUF was used to perform the calibration of electromagnetic wave parameters measured using a Keysight Technologies 67 GHz N5247A PNA-X LSNA. The DUT was an internally matched Analog Devices HMC342LC4 low noise amplifier \cite{hittite_amp} mounted on a connectorised evaluation board. This amplifier has a typical gain of 19 dB and a \mbox{1-dB} compression point at approximately 9 dBm output power at 25 GHz. To obtain results showing both the linear and nonlinear regimes of operation, the source power was swept between -22 dBm and -2 dBm in 0.25 dB steps. The fundamental frequency was set at 25 GHz, with a harmonic at 50 GHz also measured. The evaluation board used 2.92 mm precision connectors, connected via adapters to cables with 2.4 mm precision connectors. The calibration plane was located between the cables and the adapters (i.e. the adapters were included as part of the DUT), and the measurement setup had a nominal impedance of 50-$\Omega$. The intermediate frequency bandwidth (IFBW) was set to 10 Hz. The built-in X-parameter measurement routine was used and configured to extract cross-frequency terms between both harmonics using measurements at 4 extraction tone phases (this is the default setting). A photograph of the setup is shown in \figurename{ \ref{ch5_fig_setup}}.

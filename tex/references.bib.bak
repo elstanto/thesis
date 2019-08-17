@@ -1249,8 +1249,47 @@
   pages     = {1453-1456},
   month     = {June},
   doi       = {10.1109/MWSYM.2008.4633053},
+  groups    = {Ch 5: Prop Meas Unc to NLBM},
   issn      = {0149-645X},
   keywords  = {Solid modeling;Load modeling;Impedance;Mathematical model;Radio frequency;Phase measurement;Numerical models;power amplifiers;Poly Harmonic Distortion Model;non-linear device modeling;microwave measurements},
+}
+
+@PhdThesis{Bespalko_2016,
+  author = {Dylan Bespalko},
+  title  = {Modular Nonlinear Characterization System and Large-Signal Behavioral Modelling of Unmatched Transistors for Streamlined Power Amplifier Design},
+  school = {University of Waterloo},
+  year   = {2016},
+  type   = {phdthesis},
+  month  = jan,
+  url    = {http://hdl.handle.net/10012/10179},
+}
+
+@Online{AWR,
+  url     = {https://www.awr.com/software/products/microwave-office},
+  urldate = {2019-08-16},
+  title   = {Advanced Design System ({ADS})},
+  author  = {Keysight Technologies},
+  groups  = {Ch 5: Prop Meas Unc to NLBM},
+}
+
+@Online{ADS,
+  url     = {https://www.awr.com/software/products/microwave-office},
+  urldate = {2019-08-16},
+  title   = {Microwave Office},
+  author  = {NI AWR},
+  groups  = {Ch 5: Prop Meas Unc to NLBM},
+}
+
+@Book{Root_2013,
+  title      = {X-Parameters: Characterization, Modeling, and Design of Nonlinear RF and Microwave Components},
+  publisher  = {Cambridge University Press},
+  year       = {2013},
+  author     = {Root, David E. and Verspecht, Jan and Horn, Jason and Marcu, Mihai},
+  series     = {The Cambridge RF and Microwave Engineering Series},
+  collection = {The Cambridge RF and Microwave Engineering Series},
+  doi        = {10.1017/CBO9781139042970},
+  groups     = {Ch 5: Prop Meas Unc to NLBM},
+  place      = {Cambridge},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
