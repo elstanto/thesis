@@ -1,21 +1,25 @@
-[0] Config.pm:302> INFO - This is Biber 2.11
-[0] Config.pm:305> INFO - Logfile is 'front-matter.blg'
-[43] biber-MSWIN32:313> INFO - === 
-[81] Biber.pm:371> INFO - Reading 'front-matter.bcf'
-[203] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
-[204] Biber.pm:857> INFO - Found 7 citekeys in bib section 1
-[204] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
-[235] Biber.pm:3976> INFO - Processing section 1
-[254] Biber.pm:4136> INFO - Looking for bibtex format file '../references.bib' for section 1
-[256] bibtex.pm:1454> INFO - Reading ascii input as UTF-8
-[261] bibtex.pm:1500> INFO - LaTeX decoding ...
-[403] bibtex.pm:1316> INFO - Found BibTeX data source '../references.bib'
-[450] Utils.pm:193> WARN - month field 'feb' in entry 'Stant_2017' is not an integer - this will probably not sort properly.
-[458] Utils.pm:193> WARN - month field 'dec' in entry 'Stant_2016' is not an integer - this will probably not sort properly.
-[489] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[489] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[489] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[489] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[496] bbl.pm:617> INFO - Writing 'front-matter.bbl' with encoding 'ascii'
-[502] bbl.pm:720> INFO - Output to front-matter.bbl
-[506] Biber.pm:110> INFO - WARNINGS: 2
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'front-matter.blg'
+[36] biber-MSWIN32:315> INFO - === 
+[64] Biber.pm:371> INFO - Reading 'front-matter.bcf'
+[154] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[155] Biber.pm:889> INFO - Found 5 citekeys in bib section 1
+[155] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[155] Biber.pm:889> INFO - Found 3 citekeys in bib section 2
+[155] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[183] Biber.pm:4093> INFO - Processing section 1
+[195] Biber.pm:4254> INFO - Looking for bibtex format file '../references.bib' for section 1
+[211] bibtex.pm:1523> INFO - LaTeX decoding ...
+[411] bibtex.pm:1340> INFO - Found BibTeX data source '../references.bib'
+[470] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[470] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[470] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[470] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[474] Biber.pm:4093> INFO - Processing section 2
+[474] Biber.pm:4254> INFO - Looking for bibtex format file '../references.bib' for section 2
+[493] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[493] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[493] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[493] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[495] bbl.pm:636> INFO - Writing 'front-matter.bbl' with encoding 'UTF-8'
+[499] bbl.pm:739> INFO - Output to front-matter.bbl

@@ -37,13 +37,6 @@
   publisher = {Institution of Engineering and Technology ({IET})},
 }
 
-@Article{Stant_2018,
-  author  = {L.T. Stant and D.E. Root and N.M. Ridler and P.H. Aaen},
-  title   = {Uncertainty evaluation of predicted optimum load match using X-parameters of microwave amplifiers},
-  journal = {IEEE Microw. Wireless Compon. Lett.},
-  year    = {2018},
-}
-
 @Article{Stant_2018_TMTT,
   author  = {L.T. Stant and M.J. Salter and N.M. Ridler and D.F. Williams and P.H. Aaen},
   title   = {Propagating Measurement Uncertainty to Microwave Amplifier Nonlinear Behavioural Models},
@@ -849,12 +842,13 @@
   keywords = {covariance matrices;digital storage oscilloscopes;measurement uncertainty;principal component analysis;signal sampling;time-frequency analysis;principal component analysis;covariance matrix;sampling oscilloscope measurement;real-time measurement;data storage requirement reduction;frequency domain analysis;time domain analysis;compressed matrix;complex frequency components;measurement uncertainty propagation;Covariance matrices;Uncertainty;Frequency-domain analysis;Measurement uncertainty;Instruments;Time-domain analysis;Covariance matrix;Fourier transforms;frequency-domain measurements;measurement uncertainty;principal component analysis (PCA);timebase drift correction;time-domain measurements;timing jitter;uncertainty propagation;Covariance matrix;Fourier transforms;frequency-domain measurements;measurement uncertainty;principal component analysis (PCA);timebase drift correction;time-domain measurements;timing jitter;uncertainty propagation},
 }
 
-@Misc{hittite_amp,
-  title        = {{HMC342LC4} datasheet},
-  groups       = {Ch 5: Prop Meas Unc to NLBM},
-  organization = {{Analog Devices}},
-  timestamp    = {2019-08-11},
+@Online{hittite_amp,
   url          = {http://www.analog.com/media/en/technical-documentation/data-sheets/hmc342.pdf},
+  urldate      = {2019-08-17},
+  title        = {{HMC342LC4} datasheet},
+  organization = {{Analog Devices}},
+  groups       = {Ch 5: Prop Meas Unc to NLBM},
+  timestamp    = {2019-08-11},
 }
 
 @Article{Engen_1979,
@@ -1014,14 +1008,6 @@
   doi       = {10.1109/ARFTG.1996.327171},
   groups    = {Ch 5: Prop Meas Unc to NLBM},
   keywords  = {Polynomials;Power measurement;Frequency;Distortion measurement;System testing;Microwave measurements;Microwave devices;Microwave amplifiers;Power amplifiers;Narrowband},
-}
-
-@InProceedings{Verspecht_2002,
-  author    = {Jan Verspecht},
-  title     = {Everything you've always wanted to know about Hot-S22 (but we're afraid to ask)},
-  booktitle = {IEEE MIT-S Int. Microwave Symp. Worshop, paper no 95},
-  year      = {2002},
-  groups    = {Ch 5: Prop Meas Unc to NLBM},
 }
 
 @Article{Rehnmark_1974,
@@ -1261,22 +1247,23 @@
   year   = {2016},
   type   = {phdthesis},
   month  = jan,
+  groups = {Ch 5: Prop Meas Unc to NLBM},
   url    = {http://hdl.handle.net/10012/10179},
 }
 
-@Online{AWR,
-  url     = {https://www.awr.com/software/products/microwave-office},
+@Online{ADS,
+  url     = {https://www.keysight.com/en/pc-1297113/advanced-design-system-ads},
   urldate = {2019-08-16},
   title   = {Advanced Design System ({ADS})},
   author  = {Keysight Technologies},
   groups  = {Ch 5: Prop Meas Unc to NLBM},
 }
 
-@Online{ADS,
-  url     = {https://www.awr.com/software/products/microwave-office},
+@Online{DCOM,
+  url     = {http://na.support.keysight.com/pna/files/an1408-13.pdf},
   urldate = {2019-08-16},
-  title   = {Microwave Office},
-  author  = {NI AWR},
+  title   = {Introduction to Application Development},
+  author  = {Agilent},
   groups  = {Ch 5: Prop Meas Unc to NLBM},
 }
 
@@ -1292,18 +1279,56 @@
   place      = {Cambridge},
 }
 
-@Article{Verspecht_2006,
-  author   = {{Verspecht} and D. E. {Root}},
-  title    = {Polyharmonic distortion modeling},
-  journal  = {IEEE Microwave Magazine},
-  year     = {2006},
-  volume   = {7},
-  number   = {3},
-  pages    = {44-57},
-  month    = {June},
-  issn     = {1527-3342},
-  doi      = {10.1109/MMW.2006.1638289},
-  keywords = {frequency-domain analysis;harmonic analysis;harmonic distortion;nonlinear systems;S-parameters;S-parameters;PHD modeling approach;black-box frequency-domain model;driven nonlinear systems;distortion simulation;nonlinear components;design verification;Power system modeling;Scattering parameters;Nonlinear systems;Design engineering;Power engineering and energy;Distortion measurement;Microwave measurements;System testing;Frequency measurement;Time domain analysis},
+@Book{Chernick_2008,
+  title     = {Bootstrap Methods: A Guide for Practitioners and Researchers},
+  publisher = {Wiley},
+  year      = {2008},
+  author    = {Chernick, M.R.},
+  series    = {Wiley Series in Probability and Statistics},
+  isbn      = {9780470192566},
+  groups    = {Ch 5: Prop Meas Unc to NLBM},
+  lccn      = {2007029309},
+  url       = {https://books.google.co.uk/books?id=jx5K6IyjhhIC},
+}
+
+@Online{AWR,
+  url     = {https://www.awr.com/software/products/microwave-office},
+  urldate = {2019-08-16},
+  title   = {Microwave Office},
+  author  = {NI AWR},
+  groups  = {Ch 5: Prop Meas Unc to NLBM},
+}
+
+@Unpublished{Stant_2016_pg,
+  author = {Laurence Stant},
+  title  = {Evaluating Measurement Uncertainty in Microwave and Terahertz Frequency Metrology},
+  note   = {6th Annual Postgraduate Research Conference, University of Surrey},
+  month  = apr,
+  year   = {2016},
+}
+
+@Unpublished{Stant_2017_pgi,
+  author = {Laurence Stant},
+  title  = {Comparing Methods For Evaluating Measurement Uncertainty Given In The {JCGM} ‘Evaluation Of Measurement Data’ Documents},
+  note   = {2nd NPL Postgraduate Institute Annual Conference, Teddington, UK},
+  month  = oct,
+  year   = {2017},
+}
+
+@Unpublished{Stant_2017_feps,
+  author = {Laurence Stant},
+  title  = {Comparing Methods For Evaluating Measurement Uncertainty Given In The {JCGM} ‘Evaluation Of Measurement Data’ Documents},
+  note   = {Faculty of Engineering and Physical Sciences Annual Festival of Research, University of Surrey},
+  month  = jun,
+  year   = {2017},
+}
+
+@Online{minicircuits,
+  url          = {http://194.75.38.69/pdfs/ZX60-14012L.pdf},
+  urldate      = {2019-08-18},
+  title        = {{ZX60-14012L} datasheet},
+  organization = {Mini-Circuits},
+  groups       = {Ch 5: Prop Meas Unc to NLBM},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

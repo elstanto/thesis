@@ -112,8 +112,8 @@ The amplifier stability form of hot S-parameters will not be discussed here, but
 
 \begin{figure}
 	\centering
-	\includegraphics[width=\linewidth]{hots22}
-	\caption[Performance of hot S-parameter models with different $hotS22$ definitions.]{Performance of hot S-parameter models with different $hotS22$ definitions, showing in polar form the measured (orange) and predicted (yellow) $b_2$ wave for a modulated large-signal $a_1$ wave, with values in Volts. Classic $S_{22}$ means no dependence of $S_{22}$ on $|a_1|$, simple ``Hot S22'' means a linear dependence of $S_{22}$ on $|a_1|$, extended ``Hot S22'' includes dependence of $S_{22}$ on $|a_1|$ and $a_2$, and quadratic ``Hot S22'' includes a second order dependence of $S_{22}$ on $a_2$ \cite{Verspecht_2002}.}
+	\includegraphics[width=\linewidth]{hots22_recoloured}
+	\caption[Performance of hot S-parameter models with different $hotS22$ definitions.]{Performance of hot S-parameter models with different $hotS22$ definitions, showing in polar form the measured (blue) and predicted (black) $b_2$ wave for a modulated large-signal $a_1$ wave, with values in Volts. Classic $S_{22}$ means no dependence of $S_{22}$ on $|a_1|$, simple ``Hot S22'' means a linear dependence of $S_{22}$ on $|a_1|$, extended ``Hot S22'' includes dependence of $S_{22}$ on $|a_1|$ and $a_2$, and quadratic ``Hot S22'' includes a second order dependence of $S_{22}$ on $a_2$ \cite{Verspecht_2002}.}
 	\label{ch5_fig_hots22}
 \end{figure}
 
@@ -192,53 +192,55 @@ However, to extract the full X-parameter model we must make additional measureme
 Instead of a single extraction tone applied at each port and harmonic, a second measurement must be performed at an orthogonal phase ($\theta+90^{\circ}$) to the initial extraction tone. An illustration of these measurements using phasors is given in Figure \ref{ch5_fig_extract}. After subtracting the large-signal only measurement from these two new measurements, we obtain two small-signal contributions which can be used to solve the following equations:
 
 \begin{align}
-	b^{SS1}_{p,k} &= X^\textrm{S}_{p,k,q,l}a^{SS1}_{q,l} + X^\textrm{T}_{p,k,q,l}(a^{SS1}_{q,l})^*, \\
-	b^{SS2}_{p,k} &= X^\textrm{S}_{p,k,q,l}a^{SS2}_{q,l} + X^\textrm{T}_{p,k,q,l}(a^{SS2}_{q,l})^*.
+	B^{SS1}_{p,k} &= X^\textrm{S}_{p,k,q,l}A^{SS1}_{q,l} + X^\textrm{T}_{p,k,q,l}(A^{SS1}_{q,l})^*, \\
+	B^{SS2}_{p,k} &= X^\textrm{S}_{p,k,q,l}A^{SS2}_{q,l} + X^\textrm{T}_{p,k,q,l}(A^{SS2}_{q,l})^*.
 \end{align}
 
-Of course, it is advised to make more than two measurements of different extraction tone phases (typically four) and solve for $X_\textrm{S}$ and $X_\textrm{T}$ using a least-squares estimation. The extraction process can in fact be simplified further by using a matrix least-squares arrangement to solve for the entire X-parameter model, which removes the need to subtract the large-signal response from all the extraction tone measurements. If we define a matrix $X$ such that each row contains the NVNA measurements for a single extraction tone stimulus setting (of $QL$ total):
+To improve noise errors it is advisable to make more than two measurements of different extraction tone phases (typically four) and solve for $X_\textrm{S}$ and $X_\textrm{T}$ using a least-squares estimation. The extraction tone amplitude should be as low as possible to ensure that the device is responding linearly to the added tone (it is effectively performing a perturbation analysis described in Chapter 3), and Keysight suggests that it should be 16 dB below the largest LSOP signal. The extraction process can in fact be simplified further by using a matrix least-squares arrangement to solve for the entire X-parameter model, which removes the need to subtract the large-signal response from all the extraction tone measurements. If we define a matrix $\bm{A}$ such that each row contains the NVNA measurements for a single extraction tone stimulus (from 1 to $QL$, with 0 being no extraction tone):
 
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{extract}
-	\caption[Offset-phase X-parameter extraction procedure.]{An example of the offset-phase method for measuring device response for X-parameter extraction. The red stimulus is with no extraction tone, and the blue and green stimuli are with extraction tones applied at $0^{\circ}$ and $90^{\circ}$, respectively. Although $A_{2,1}$ and $B_{2,1}$ are specified, this effect occurs for all tones other than the fundamental on port one \cite{Verspecht_2006}.}
+	\caption[Offset-phase X-parameter extraction procedure.]{An example of the offset-phase method for measuring device response for X-parameter extraction. The red square stimulus is with no extraction tone, and the blue diamond and green circle stimuli are with extraction tones applied at $0^{\circ}$ and $90^{\circ}$, respectively. Although $A_{2,1}$ and $B_{2,1}$ are specified, this effect occurs for all tones other than the fundamental on port one \cite{Verspecht_2006}.}
 	\label{ch5_fig_extract}
 \end{figure}
 
 \begin{equation}
-	X =
+	\bm{A} =
 	\begin{bmatrix}
-		1 & a_{(2,1)_1} & a^*_{(2,1)_1} & a_{(1,2)_1} & a^*_{(1,2)_1} & a_{(2,2)_1} & a^*_{(2,2)_1} & \dots \\
-		1 & a_{(2,1)_2} & a^*_{(2,1)_2} & a_{(1,2)_2} & a^*_{(1,2)_2} & a_{(2,2)_2} & a^*_{(2,2)_2} & \dots \\
-		\vdots & \vdots & \vdots & \vdots & \vdots & \vdots & \vdots & \dots \\
-		1 & a_{(2,1)_{QL}} & a^*_{(2,1)_{QL}} & a_{(1,2)_{QL}} & a^*_{(1,2)_{QL}} & a_{(2,2)_{QL}} & a^*_{(2,2)_{QL}} & \dots \\
+		1 & A_{(1,1)_0} & A_{(2,1)_0} & A^*_{(2,1)_0} & A_{(1,2)_0} & A^*_{(1,2)_0} & A_{(2,2)_0} & A^*_{(2,2)_0} & \dots \\
+		1 & A_{(1,1)_1} - A_{(1,1)_0} & A_{(2,1)_1} & A^*_{(2,1)_1} & A_{(1,2)_1} & A^*_{(1,2)_1} & A_{(2,2)_1} & A^*_{(2,2)_1} & \dots \\
+		1 & A_{(1,1)_2} - A_{(1,1)_0} & A_{(2,1)_2} & A^*_{(2,1)_2} & A_{(1,2)_2} & A^*_{(1,2)_2} & A_{(2,2)_2} & A^*_{(2,2)_2} & \dots \\
+		\vdots & \vdots & \vdots & \vdots & \vdots & \vdots & \vdots & \vdots & \dots \\
+		1 & A_{(1,1)_{QL}} - A_{(1,1)_0} & A_{(2,1)_{QL}} & A^*_{(2,1)_{QL}} & A_{(1,2)_{QL}} & A^*_{(1,2)_{QL}} & A_{(2,2)_{QL}} & A^*_{(2,2)_{QL}} & \dots \\
 	\end{bmatrix}
 \end{equation}
 
-and a vector $y$ of length $QL$ is defined to contain the respective measurements of a single output wave $b_{p,k}$:
+and a vector $\bm{b}_{p,k}$ of length $QL$ is defined to contain the respective measurements of a single output wave $b_{p,k}$:
 
 \begin{equation}
-	y =
+	\bm{b}_{p,k} =
 	\begin{bmatrix}
-		b_{(p,k)_1} \\
-		b_{(p,k)_2} \\
+		B_{(p,k)_0} \\
+		B_{(p,k)_1} \\
 		\vdots \\
-		b_{(p,k)_{QL}} \\
+		B_{(p,k)_{QL}} \\
 	\end{bmatrix},
 \end{equation}
 
-then the X-parameters can be solved for using the following least-squares equation:
+then the X-parameters can be solved for using the following least-squares estimation:
 
 \begin{equation}
-	\beta = (X^\top X)^{-1}X^\top y
+	\bm{\hat{X}}_{p,k} = (\bm{A}^\top \bm{A})^{-1}\bm{A}^\top \bm{b}_{p,k}
 \end{equation}
 
-with the vector $\beta$ containing the X-parameters:
+with the vector $\bm{\hat{X}}_{p,k}$ containing X-parameters:
 
 \begin{equation}
-	\beta = 
+	\bm{\hat{X}}_{p,k} = 
 	\begin{bmatrix}
 		X^\textrm{F}_{p,k} \\
+		X^\textrm{S}_{p,k, 1, 1} \\
 		X^\textrm{S}_{p,k, 2, 1} \\
 		X^\textrm{T}_{p,k, 2, 1} \\
 		X^\textrm{S}_{p,k, 1, 2} \\
@@ -249,17 +251,44 @@ with the vector $\beta$ containing the X-parameters:
 	\end{bmatrix}.
 \end{equation}
 
+The parameter $X^\textrm{T}_{p,k, 1, 1}$ will always equal zero for conventional measured X-parameters because the phase normalisation (time shift) which occurs during measurement means that any extraction tone applied to port one at the fundamental will always have the same phase value. Therefore, effectively $X^\textrm{S}_{p,k, 1, 1}$ from measured X-parameters equals $X^\textrm{S}_{p,k, 1, 1} + X^\textrm{T}_{p,k, 1, 1}$ from simulated X-parameters extracted from harmonic balance simulations, where this stage of phase normalisation is not performed. For the latter, the response is correctly separated between the two X-parameters, which means that this phase-dependence information is captured correctly. 
+
 \subsection{Implementation}
+
+The PNA-X NVNA contains a specific firmware for nonlinear measurements and a software option to allow X-parameter measurements to be performed and the model extracted on the NVNA itself. This is adequate for typical user requirements and the processing time is relatively fast (up to a few seconds) compared with the duration of measurements (hours for dense LSOP sweeps with several harmonics). However, to propagate uncertainty into X-parameters using this extraction method with numerical techniques supported by the MUF is very time-consuming, and practically restricts the number of Monte Carlo samples which can be used to perform the uncertainty propagation. For the experiments performed in this project, over 300 sources of error are included from the nonlinear measurements. This means that at least 300 X-parameter extractions must be computed for the sequential perturbation and sensitivity analysis alone. For these reasons, only 1000 Monte Carlo samples were used, which was deemed appropriate by resampling using bootstrap methods \cite{Chernick_2008}.
+
+Once X-parameter measurements have been performed and the parameters themselves automatically extracted, it is possible to save not only the X-parameters (as a ``.xnp'' file), but also the X-parameter measurements (as a ``.xmeas'' file), which contain tables of power wave measurements relating to all sweeps, including those of extraction tone stimuli. This file is then loaded into the MUF as a DUT measurement to be propagated through the calibration measurement model, as described in Chapter 3. The addition of X-parameter measurement file support to the MUF was included as part of this project, with support from the developers. During this work, several further additions and improvements were made to the software, including file access changes which reduced the processing time of all MUF uncertainty evaluations by a factor of at least 100. Once the X-parameter measurements have been perturbed as part of the uncertainty propagation, they are then sent back to the NVNA for X-parameter extraction, which is detailed in the following section.
+
+The NVNA does not need to be calibrated before the X-parameter measurements are performed because the power waves will be instead corrected during the MUF calibration step. However, it does not affect the result if a preliminary calibration is performed, and it can be useful to verify that the calibration standards are in good order and the DUT is behaving as expected.
+
+To address the issue of slow extraction for large numbers of perturbed measurements, an alternative  X-parameter extractor was implemented from scratch as a MUF post-processor (measurement model). This would allow the samples to be run on more powerful hardware than the NVNA onboard computer, and even scale across multiple servers in a compute cluster. The processing flow for both approaches is illustrated in Figure \ref{ch5_fig_uncproc}. Both extraction implementations will now be explained.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\textwidth]{uncproc}
+	\caption[X-parameter uncertainty processing flow.]{Processing flow showing X-parameter extraction methods that are compatible with propagating uncertainty via numerical methods (i.e. Monte Carlo and sequential perturbation). Both the PNA-X and MUF extraction routines are called from a MUF post-processor which allows the user to select the desired approach. Both routines take X-parameter measurement files of the DUT as their input, and return X-parameter files.}
+	\label{ch5_fig_uncproc}
+\end{figure}
+
 \subsubsection{PNA-X Extraction}
+
+The PNA-X X-parameter measurement software is designed to guide the user through all steps of the process: calibration, device measurements and model extraction. Because the model extents (number of ports, harmonics, etc) are defined before measurement, the software will normally perform the X-parameter extraction immediately after the measurements have finished. This is desirable as it presents the user with visible plots of the parameters on the NVNA screen similar to traditional VNA measurements. There is no supported way to provide X-parameter measurements from a file and perform a stand-alone extraction. This is regrettable as it is the only way perturbed samples from the MUF uncertainty propagation can be processed into X-parameters and hence propagate the uncertainty further.
+
+Fortunately, the software includes a somewhat esoteric feature which can be utilised to remove this limitation. Because the PNA-X hardware is limited on the amount of memory it can fit on a physically compact embedded computer, very large sweeps of measurements (as required for X-parameters extracted from load-pull experiments) can require more memory than is present. Therefore, because the X-parameters are extracted from the entire dataset, the software provides the ability to save ``intermediate files''  which are just subsets of the X-parameter measurements in ``.xmeas'' format.  The intention is that once the measurements are complete, the user immediately clicks on the option to ``Extract X-parameters from intermediate files'' and they are presented with the same end results as normal. Because the intermediate files are ASCII-encoded and not binary, it is possible to perform a dummy measurement (which initialises the file location), replace the intermediate file with a perturbed X-parameter measurement file processed by the MUF, and run the command to extract X-parameters. Through experimentation it has been found that the extraction routine only examines the supplied file, so the measurement setup used for the dummy measurement is not important and is chosen to minimise delay (i.e. sweeps containing a single point).
+
+All of these steps can be performed remotely using the DCOM automation interface for the PNA-X \cite{DCOM}. The MUF Post-Processor software accepts a programming function as a measurement model and evaluates it against each numerical sample contained in input files produced by previous MUF processes. Therefore, the automated PNA-X extraction was implemented as a MUF post-processor which would transfer a sample to the PNA-X (via network and tested across the Atlantic!), request an extraction be performed, and retrieve the X-parameter results. The Post-Processor software then automatically builds a MUF Measurement file, which indexes all the propagated perturbed samples for future use or statistical evaluation.
+
 \subsubsection{MUF Custom Post-Processor}
+
+The alternative X-parameter extractor, which is ultimately incorporated into the same MUF post-processor as the PNA-X automation code as a different option, is based on the least-squares estimation presented earlier in this section. It should be said that the PNA-X algorithms may differ from that method, as they are intellectual property of Keysight and not openly available.
+
+The implemented extractor was compared with the output from the PNA-X and mostly showed excellent agreement. There were some discrepancies with terms involving extraction tones applied at the fundamental frequency on port one, but these are expected as it is not known how the Keysight algorithm generates the LSOP value which is subtracted from these measurements. Keysight have also made it known that there is additional pre-processing of the measurements before X-parameter extraction in their algorithm. However, the few differences between extraction algorithms which occur are small enough (e.g. 1 dB at -50 dBm) that it is at least suitable for academic use in this project. With that being said, due to time constraints the MUF X-parameter extractor was only completed shortly before the end of this project, therefore all of the uncertainty propagation used in publications and this dissertation was performed with the PNA-X extractor.
 
 \section{Evaluation of the Combined Standard Uncertainty of X-Parameters Extracted from Measurement Data}
 
-\section{Propagation of Uncertainty from X-Parameters into Circuit Simulations}
+The new uncertainty propagation described in the previous section was successfully applied to both a connectorised microwave amplifier (Mini-Circuits ZX60-14012L+ \cite{minicircuits}) and a surface-mount millimetre-wave amplifier mounted on an evaluation board with coaxial launches (Analog Devices HMC342LC4 \cite{hittite_amp}). Due to millimetre-wave amplifiers being a current research focus because of 5G infrastructure development, this amplifier was chosen as the example for a publication presenting the results of this project \cite{Stant_2018_TMTT}. Parts of this publication will be included in the remaining sections of this chapter. The experiment will now be described.
 
-\section{Design and Simulation using Nonlinear Behavioural Models Incorporating Measurement Uncertainty}
-
-The NIST MUF was used to perform the calibration of electromagnetic wave parameters measured using a Keysight Technologies 67 GHz N5247A PNA-X LSNA. The DUT was an internally matched Analog Devices HMC342LC4 low noise amplifier \cite{hittite_amp} mounted on a connectorised evaluation board. This amplifier has a typical gain of 19 dB and a \mbox{1-dB} compression point at approximately 9 dBm output power at 25 GHz. To obtain results showing both the linear and nonlinear regimes of operation, the source power was swept between -22 dBm and -2 dBm in 0.25 dB steps. The fundamental frequency was set at 25 GHz, with a harmonic at 50 GHz also measured. The evaluation board used 2.92 mm precision connectors, connected via adapters to cables with 2.4 mm precision connectors. The calibration plane was located between the cables and the adapters (i.e. the adapters were included as part of the DUT), and the measurement setup had a nominal impedance of 50-$\Omega$. The intermediate frequency bandwidth (IFBW) was set to 10 Hz. The built-in X-parameter measurement routine was used and configured to extract cross-frequency terms between both harmonics using measurements at 4 extraction tone phases (this is the default setting). A photograph of the setup is shown in \figurename{ \ref{ch5_fig_setup}}.
+The MUF was used to perform the calibration of electromagnetic wave parameters measured using a Keysight  67 GHz N5247A PNA-X NVNA. The DUT \cite{hittite_amp} has a typical gain of 19 dB and a \mbox{1-dB} compression point at approximately 9 dBm output power at 25 GHz. To obtain results showing both the linear and nonlinear regimes of operation, the source power was swept between -22 dBm and -2 dBm in 0.25 dB steps. The fundamental frequency was set at 25 GHz, with a harmonic at 50 GHz also measured. The evaluation board used 2.92 mm precision connectors, connected via adapters to cables with 2.4 mm precision connectors. The calibration plane was located between the cables and the adapters (i.e. the adapters were included as part of the DUT), and the measurement setup had a nominal impedance of 50-$\Omega$. The intermediate frequency bandwidth (IFBW) was set to 10 Hz. The built-in X-parameter measurement routine was used and configured to extract cross-frequency terms between both harmonics using measurements at 4 extraction tone phases (this is the default setting). A photograph of the setup is shown in Figure \ref{ch5_fig_setup}.
 
 \begin{figure}[t]
 	\centering
@@ -268,9 +297,9 @@ The NIST MUF was used to perform the calibration of electromagnetic wave paramet
 	\label{ch5_fig_setup}
 \end{figure}
 
-Uncertainties are propagated through all steps of the calibration by the MUF. We have included uncertainties present in the definitions and measurements of the passive calibration standards, the power meter calibration and measurement, the phase reference characterization and measurement, cable flexure, and connection repeatability of all calibration steps. Uncertainty due to random noise in the high-dynamic range receivers was omitted as it has been shown to be negligible with respect to that arising from other error sources in LSNA measurements \cite{Blockley_2007}.
+Uncertainties are propagated through all steps of the calibration by the MUF. Sources of uncertainty that were included covered the definitions and measurements of the passive calibration standards, the power meter calibration and measurement, the phase reference characterization and measurement, cable flexure, and connection repeatability of all calibration steps. Uncertainty due to random noise in the high-dynamic range receivers was omitted as it has been shown to be negligible with respect to that arising from other error sources in LSNA measurements \cite{Blockley_2007}.
 
-The MUF supports several calibration algorithms, and for this measurement the multiline TRL calibration algorithm \cite{Engen_1979, Marks_1991} was chosen to allow direct dimensional traceability to national measurement standards. The calibration standards used were from a 1.85 mm precision coaxial calibration kit (Rosenberger RPC-1.85 LRL). Table \ref{ch5_table_passivestds} gives the dimensions of the line standards used for the calibration. To include the effect of connector repeatability on the passive calibration, each standard was measured several times with the connector oriented differently. These measurements were passed to a MUF program (``Combine'') which produces a mean value with an associated uncertainty.
+The MUF supports several calibration algorithms, and for this measurement the multiline TRL calibration algorithm \cite{Engen_1979, Marks_1991} was chosen to allow direct dimensional traceability to national measurement standards. The calibration standards used were from a 1.85 mm precision coaxial calibration kit (Rosenberger RPC-1.85 LRL). Table \ref{ch5_table_passivestds} gives the dimensions of the line standards used for the calibration. To include the effect of connector repeatability on the passive calibration, each standard was measured several times with the connector oriented differently. These measurements were passed to the MUF program \textbf{Combine} which produces a mean value with an associated uncertainty.
 
 \begin{table}[]
 	\centering
@@ -285,7 +314,7 @@ The MUF supports several calibration algorithms, and for this measurement the mu
 	\end{tabular}
 \end{table}
 
-The power meter measurement, as part of the absolute calibration, measures the amplitude of the waves. The calibration model for the power meter itself is defined in \cite{Keysight_2017} and includes the reference oscillator mismatch, the reference oscillator power uncertainty, the zero-set error, the zero carry-over error, the instrumentation error, and error in the power sensor calibration factor. The estimates and uncertainties used for these parameters in the calibration are shown in Table \ref{ch5_table_powerunc} and are derived from specifications supplied by the manufacturer. The mismatch of the power sensor was also measured using a calibrated VNA and included in the absolute calibration. Connector repeatability was assessed for this measurement in the same way as for the passive standards.
+The calibration model for the power meter itself is defined in \cite{Keysight_2017} and includes the reference oscillator mismatch, the reference oscillator power uncertainty, the zero-set error, the zero carry-over error, the instrumentation error, and error in the power sensor calibration factor. The estimates and uncertainties used for these parameters in the calibration are shown in Table \ref{ch5_table_powerunc} and are derived from specifications supplied by the manufacturer. The mismatch of the power sensor was also measured using a calibrated VNA and included in the absolute calibration. Connector repeatability was assessed for this measurement in the same way as for the passive standards.
 
 \begin{table}[]
 	\centering
@@ -303,7 +332,7 @@ The power meter measurement, as part of the absolute calibration, measures the a
 	\end{tabular}
 \end{table}
 
-In order to complete the absolute calibration, the phase must also be calibrated. This is performed using a harmonic phase reference, which for this calibration was provided by a Keysight Technologies 67 GHz comb generator\cite{Keysight_2014}. This device supplies a stable and repeatable train of pulses, which creates a frequency comb (aligned to the calibration frequencies) to be measured by the LSNA. The phase uncertainties are given in Table \ref{ch5_table_phaseunc} and were obtained through characterization with a sampling oscilloscope at NIST, which is traceable to national measurement standards via electro-optic calibration \cite{Reader_2008, Hale_2009}.
+The two phase references used for both calibration and synchronisation of the mixer-based NVNA were Keysight 67 GHz comb generators\cite{Keysight_2014}. The phase uncertainties for the calibration phase reference are given in Table \ref{ch5_table_phaseunc} and were obtained through characterization with a sampling oscilloscope at NIST, which is traceable to national measurement standards via electro-optic calibration \cite{Reader_2008, Hale_2009} as described in Chapter 4.
 
 \begin{table}[]
 	\centering
@@ -320,12 +349,11 @@ In order to complete the absolute calibration, the phase must also be calibrated
 
 \subsection{X-Parameter Uncertainties}
 
-In this example we used Monte Carlo with 1000 samples to propagate uncertainty to the X-parameters of the DUT. This required 8 hours of processing for the calibration and a further 8 hours of processing for the X-parameter extraction.
-A histogram is provided in \figurename{ \ref{ch5_fig_hist}} showing good agreement between the Monte Carlo and sensitivity analysis. This level of agreement is typical for all of the extracted X-parameters.
+In this example we used Monte Carlo with 1000 samples to propagate uncertainty to the X-parameters of the DUT. This required 8 hours of processing for the calibration and a further 8 hours of processing for the X-parameter extraction. A histogram is provided in Figure \ref{ch5_fig_hist} showing good agreement between the Monte Carlo and sensitivity analysis. This level of agreement is typical for all of the extracted X-parameters.
 
-The estimated values and standard uncertainties from the Monte Carlo analysis for the magnitude and phase of a sample of X-parameter terms are shown in \figurename{ \ref{ch5_fig_summaryplots}}. It can be seen in all plots that there is a clear change in uncertainty for several X-parameters as the DUT transitions between the linear and nonlinear regimes.
+The estimated values and standard uncertainties from the Monte Carlo analysis for the magnitude and phase of a sample of X-parameter terms are shown in Figure \ref{ch5_fig_summaryplots}. It can be seen in all plots that there is a clear change in uncertainty for several X-parameters as the DUT transitions between the linear and nonlinear regimes.
 
-The phase noise seen at lower powers in the estimate of $X^\textrm{T}_{2,1;2,2}$ is not accompanied by an increase in measurement uncertainty. This suggests that it arises from the extraction routine, which contributes another source of uncertainty not studied in this paper. By design, the $X^\textrm{T}$ parameters are negligible in the linear regime, and so this effect will have little contribution when the model is used.
+The phase noise seen at lower powers in the estimate of $X^\textrm{T}_{2,1;2,2}$ is not accompanied by an increase in measurement uncertainty. This suggests that it arises from the extraction routine, which contributes another source of uncertainty not studied in this project. By design, the $X^\textrm{T}$ parameters are negligible in the linear regime, and so this effect will have little contribution when the model is used.
 
 \begin{figure}
 	\centering
@@ -356,7 +384,66 @@ The phase noise seen at lower powers in the estimate of $X^\textrm{T}_{2,1;2,2}$
 	\label{ch5_fig_summaryplots}
 \end{figure}
 
+\subsection{Sensitivity Analysis for X-parameter Uncertainties}
+
+\figurename{ \ref{fig:sensplots}} shows a sample of the sensitivity analysis results for the X-parameter uncertainty obtained using sequential perturbation. Because over 300 sources of uncertainty were included in the analysis they have been grouped for clarity.
+
+It can be seen that the power calibration has a dominant contribution to the uncertainty in the magnitude of $X^F_{12}$. This is to be expected because the $X^F$ terms represent the absolute electromagnetic waves output from the DUT, and the uncertainties from the power meter in the LSNA calibration (i.e. in the corrected wave measurements) are significantly larger than those from the TRL standards.
+
+The TRL calibration uncertainty is also a dominant contribution to the uncertainty in the magnitude of most of the small-signal $X^\textrm{S}$ and $X^\textrm{T}$ terms. Because these terms are similar to S-parameters, in that they represent a ratio between electromagnetic waves, any correlated error components are cancelled. Both the power and phase calibration errors are correlated for terms concerning a single frequency, but only power calibration errors appear to be correlated for cross-frequency terms. This can be seen from the lack of uncertainty contribution from the phase calibration to the $X^\textrm{T}_{2,1;2,1}$ term.
+
+For these example measurements, it can also be seen that the uncertainty contribution from cable flexure (and reconnection) was significant in all results. This is a well-known issue for electromagnetic measurements at millimeter-wave frequencies and above. This uncertainty contribution could be reduced by further limiting cable movement using mechanical fixturing.
+
+\begin{figure}
+	\centering
+	\begin{subfigure}{0.45\textwidth}
+		\includegraphics[width=\linewidth,height=5cm]{fig5a}			
+		\label{ch5_fig_fb12magsens}
+	\end{subfigure}\hfil%
+	\begin{subfigure}{0.45\textwidth}
+		\includegraphics[width=\linewidth,height=5cm]{fig5b}
+		\label{ch5_fig_fb12phasesens}
+	\end{subfigure}
+	\begin{subfigure}{0.45\textwidth}
+		\includegraphics[width=\linewidth,height=5cm]{fig5c}
+		\label{ch5_fig_s2121magsens}
+	\end{subfigure}\hfil%
+	\begin{subfigure}{0.45\textwidth}
+		\includegraphics[width=\linewidth,height=5cm]{fig5d}	
+		\label{ch5_fig_t2121phasesens}
+	\end{subfigure}
+	\caption{Sensitivity analysis results for a sample of the extracted X-parameters. Harmonic indices 1 and 2 relate to measurement frequencies of 25 and 50 GHz, respectively. Because the uncertainty is expressed as a linear variation of a decibel value, a non-zero horizontal line represents a linear relationship with source power.}
+	\label{ch5_fig_sensplots}
+\end{figure}
+
+\section{Propagation of Uncertainty from X-Parameters into Circuit Simulations}
+
+Once the behavioral model has been extracted from measurements, it can be used in circuit simulators to predict the performance of circuit designs. Because the uncertainty information is stored as a collection of samples, it can be propagated through the circuit simulator by sweeping the sample index and running the simulation for each value. From this array of results, a statistical analysis can be performed to determine the standard uncertainty of the performance metric in question. The sensitivity analysis can be propagated in a similar way, as there is a sample in the model file for the perturbation of each input quantity. It is also possible to evaluate uncertainty in circuit simulations containing multiple DUTs processed using the MUF, for example in a two-stage, balanced, or Doherty amplifier configuration. If the same variable is used to sweep the sample index for all DUTs, then any uncertainty correlations will be preserved. An example would be if multiple DUTs in the circuit were measured on an LSNA using the same calibration.
+The measurement uncertainties which were captured into the X-parameter behavioral model can now be propagated to typical circuit metrics such as forward gain, input or output match, power-added efficiency (PAE), error vector magnitude (EVM) and adjacent channel power ratio (ACPR).
+
+To demonstrate this, an example simulation has been created in Advanced Design System (ADS). The DUT is represented as an X-parameter model, and the simulator sweeps both the Monte Carlo sample index and the source power using the results from the MUF uncertainty evaluation. For this example the X-parameter file from the previous section was used. The schematic of the design is shown in Figure \ref{ch5_fig_schematic}, and typical design plots of gain and PAE are provided in Figure \ref{ch5_fig_adsplot}. It can be seen that although the uncertainties of both parameters increase significantly with source power, the 95\% expanded uncertainties are below 0.2 dB and 0.4\% for gain and PAE, respectively.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{fig6}
+	\caption{An example circuit simulation schematic using an X-parameter model in ADS. The source power and X-parameter Monte Carlo sample index is swept by the Parameter Sweep components, and a harmonic balance simulation is carried out for each value of those sweeps.}
+	\label{ch5_fig_schematic}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\textwidth]{fig7}
+	\caption{Results from the ADS circuit simulation. The higher black trace shows the Monte Carlo samples for the gain of the circuit, whereas the lower red trace shows the PAE. The black trace with circles and red trace with squares show the 95\% expanded uncertainties for gain and PAE, respectively.}
+	\label{ch5_fig_adsplot}
+\end{figure}
+
 \section{Conclusions}
+
+This chapter has presented an overview of the main nonlinear behavioural models used to characterise microwave amplifiers for use in the design process. It is possible to see how over time the models have progressed from general but complicated Volterra and scattering function origins, through to more portable but simpler models such as X-parameters to promote industry usage, and finally the return to more capable solutions via the Cardiff model and X-parameter extensions.
+
+A world-first, rigorous evaluation of combined standard uncertainty in nonlinear behaviour models of microwave and millimetre-wave amplifiers was presented, using a new framework based on the MUF through Monte Carlo and linear sensitivity analysis approaches. Both approaches preserve correlations between errors and provide a rigorous uncertainty evaluation. This has been demonstrated by extracting X-parameters with uncertainties from a typical millimeter-wave amplifier. The resulting model has been incorporated into circuit simulations to obtain gain and PAE results incorporating measurement uncertainty. The extracted amplifier model exhibited 95\% expanded uncertainties of less than 0.2 dB gain and less than 0.4\% PAE. 
+
+To improve confidence in the design process of systems involving nonlinear devices, the uncertainty in both compact and behavioral models is required. This work has produced, for the first time, an evaluation of measurement uncertainty in a popular behavioral model, by developing a framework which can be easily adapted to support alternative models. In addition, the produced portable device model can be used in existing circuit simulators, allowing access to this information for statistical design techniques and to help achieve first pass design success for complicated nonlinear systems.
 
 \addcontentsline{toc}{section}{Bibliography}
 \printbibliography[title=References]

@@ -2038,16 +2038,21 @@
     <bcf:citekey order="30">Root_2013</bcf:citekey>
     <bcf:citekey order="31">Verspecht_2006</bcf:citekey>
     <bcf:citekey order="32">Verspecht_2006</bcf:citekey>
-    <bcf:citekey order="33">hittite_amp</bcf:citekey>
-    <bcf:citekey order="34">Blockley_2007</bcf:citekey>
-    <bcf:citekey order="35">Engen_1979</bcf:citekey>
-    <bcf:citekey order="35">Marks_1991</bcf:citekey>
-    <bcf:citekey order="36">Keysight_2017</bcf:citekey>
-    <bcf:citekey order="37">Keysight_2017</bcf:citekey>
-    <bcf:citekey order="38">Keysight_2017</bcf:citekey>
-    <bcf:citekey order="39">Keysight_2014</bcf:citekey>
-    <bcf:citekey order="40">Reader_2008</bcf:citekey>
-    <bcf:citekey order="40">Hale_2009</bcf:citekey>
+    <bcf:citekey order="33">Chernick_2008</bcf:citekey>
+    <bcf:citekey order="34">DCOM</bcf:citekey>
+    <bcf:citekey order="35">minicircuits</bcf:citekey>
+    <bcf:citekey order="36">hittite_amp</bcf:citekey>
+    <bcf:citekey order="37">Stant_2018_TMTT</bcf:citekey>
+    <bcf:citekey order="38">hittite_amp</bcf:citekey>
+    <bcf:citekey order="39">Blockley_2007</bcf:citekey>
+    <bcf:citekey order="40">Engen_1979</bcf:citekey>
+    <bcf:citekey order="40">Marks_1991</bcf:citekey>
+    <bcf:citekey order="41">Keysight_2017</bcf:citekey>
+    <bcf:citekey order="42">Keysight_2017</bcf:citekey>
+    <bcf:citekey order="43">Keysight_2017</bcf:citekey>
+    <bcf:citekey order="44">Keysight_2014</bcf:citekey>
+    <bcf:citekey order="45">Reader_2008</bcf:citekey>
+    <bcf:citekey order="45">Hale_2009</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

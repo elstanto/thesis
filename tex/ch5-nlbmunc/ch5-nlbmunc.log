@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.4)  17 AUG 2019 01:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.4)  18 AUG 2019 01:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -734,11 +734,11 @@ File: ../figs/ch5-nlbmunc/dut.png Graphic file (type png)
 Package pdftex.def Info: ../figs/ch5-nlbmunc/dut.png  used on input line 34.
 (pdftex.def)             Requested size: 271.86234pt x 101.21866pt.
 [2 <../figs/ch5-nlbmunc/dut.png (PNG copy)>] [3]
-<../figs/ch5-nlbmunc/hots22.png, id=24, 991.45406pt x 501.37312pt>
-File: ../figs/ch5-nlbmunc/hots22.png Graphic file (type png)
-<use ../figs/ch5-nlbmunc/hots22.png>
-Package pdftex.def Info: ../figs/ch5-nlbmunc/hots22.png  used on input line 115
-.
+<../figs/ch5-nlbmunc/hots22_recoloured.png, id=24, 991.45406pt x 501.37312pt>
+File: ../figs/ch5-nlbmunc/hots22_recoloured.png Graphic file (type png)
+<use ../figs/ch5-nlbmunc/hots22_recoloured.png>
+Package pdftex.def Info: ../figs/ch5-nlbmunc/hots22_recoloured.png  used on inp
+ut line 115.
 (pdftex.def)             Requested size: 418.25368pt x 211.5086pt.
 <../figs/ch5-nlbmunc/superposition.png, id=26, 940.26282pt x 464.4853pt>
 File: ../figs/ch5-nlbmunc/superposition.png Graphic file (type png)
@@ -746,8 +746,8 @@ File: ../figs/ch5-nlbmunc/superposition.png Graphic file (type png)
 Package pdftex.def Info: ../figs/ch5-nlbmunc/superposition.png  used on input l
 ine 126.
 (pdftex.def)             Requested size: 271.86234pt x 134.2933pt.
-[4] [5 <../figs/ch5-nlbmunc/hots22.PNG> <../figs/ch5-nlbmunc/superposition.png>
-]
+[4] [5 <../figs/ch5-nlbmunc/hots22_recoloured.PNG> <../figs/ch5-nlbmunc/superpo
+sition.png>]
 Overfull \hbox (10.55261pt too wide) in paragraph at lines 152--153
 []\OT1/cmr/m/n/10 Two in-for-ma-tive com-par-isons be-tween the per-for-mance o
 f scat-ter-ing func-tions and X-parameters
@@ -773,126 +773,216 @@ File: ../figs/ch5-nlbmunc/extract.png Graphic file (type png)
 Package pdftex.def Info: ../figs/ch5-nlbmunc/extract.png  used on input line 20
 3.
 (pdftex.def)             Requested size: 418.25368pt x 183.54124pt.
-[10 <../figs/ch5-nlbmunc/extract.png (PNG copy)>] [11]
-<../figs/ch5-nlbmunc/setup.png, id=60, 685.8423pt x 350.5095pt>
+
+Overfull \hbox (1.50032pt too wide) detected at line 217
+\OML/cmm/b/it/10 A \OT1/cmr/m/n/10 = []
+ []
+
+[10 <../figs/ch5-nlbmunc/extract.png (PNG copy)>] [11] [12]
+<../figs/ch5-nlbmunc/uncproc.png, id=65, 2484.28125pt x 2760.3125pt>
+File: ../figs/ch5-nlbmunc/uncproc.png Graphic file (type png)
+<use ../figs/ch5-nlbmunc/uncproc.png>
+Package pdftex.def Info: ../figs/ch5-nlbmunc/uncproc.png  used on input line 26
+8.
+(pdftex.def)             Requested size: 376.42575pt x 418.2409pt.
+[13] [14 <../figs/ch5-nlbmunc/uncproc.png (PNG copy)>] [15]
+<../figs/ch5-nlbmunc/setup.png, id=76, 685.8423pt x 350.5095pt>
 File: ../figs/ch5-nlbmunc/setup.png Graphic file (type png)
 <use ../figs/ch5-nlbmunc/setup.png>
-Package pdftex.def Info: ../figs/ch5-nlbmunc/setup.png  used on input line 266.
+Package pdftex.def Info: ../figs/ch5-nlbmunc/setup.png  used on input line 295.
 
 (pdftex.def)             Requested size: 418.25368pt x 213.76234pt.
-[12]
+[16 <../figs/ch5-nlbmunc/setup.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 275.
-
-[13 <../figs/ch5-nlbmunc/setup.png>]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 290.
+               Default added (so using `tbp') on input line 304.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 308.
+               Default added (so using `tbp') on input line 319.
 
-[14]
-<../figs/ch5-nlbmunc/hist.png, id=73, 157.0668pt x 138.7584pt>
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 337.
+
+[17]
+<../figs/ch5-nlbmunc/hist.png, id=84, 157.0668pt x 138.7584pt>
 File: ../figs/ch5-nlbmunc/hist.png Graphic file (type png)
 <use ../figs/ch5-nlbmunc/hist.png>
-Package pdftex.def Info: ../figs/ch5-nlbmunc/hist.png  used on input line 332.
+Package pdftex.def Info: ../figs/ch5-nlbmunc/hist.png  used on input line 360.
 (pdftex.def)             Requested size: 334.60422pt x 295.60826pt.
-<../figs/ch5-nlbmunc/fig4a.png, id=74, 256.01648pt x 170.67764pt>
+<../figs/ch5-nlbmunc/fig4a.png, id=85, 256.01648pt x 170.67764pt>
 File: ../figs/ch5-nlbmunc/fig4a.png Graphic file (type png)
 <use ../figs/ch5-nlbmunc/fig4a.png>
-Package pdftex.def Info: ../figs/ch5-nlbmunc/fig4a.png  used on input line 340.
+Package pdftex.def Info: ../figs/ch5-nlbmunc/fig4a.png  used on input line 368.
 
 (pdftex.def)             Requested size: 188.21086pt x 142.26659pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--342
+Underfull \hbox (badness 10000) in paragraph at lines 368--370
 [][]
  []
 
-<../figs/ch5-nlbmunc/fig4b.png, id=75, 256.01648pt x 170.67764pt>
+<../figs/ch5-nlbmunc/fig4b.png, id=86, 256.01648pt x 170.67764pt>
 File: ../figs/ch5-nlbmunc/fig4b.png Graphic file (type png)
 <use ../figs/ch5-nlbmunc/fig4b.png>
-Package pdftex.def Info: ../figs/ch5-nlbmunc/fig4b.png  used on input line 344.
+Package pdftex.def Info: ../figs/ch5-nlbmunc/fig4b.png  used on input line 372.
 
 (pdftex.def)             Requested size: 188.21086pt x 142.26659pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--346
+Underfull \hbox (badness 10000) in paragraph at lines 372--374
 [][]
  []
 
-<../figs/ch5-nlbmunc/fig4c.png, id=76, 256.01648pt x 170.67764pt>
+<../figs/ch5-nlbmunc/fig4c.png, id=87, 256.01648pt x 170.67764pt>
 File: ../figs/ch5-nlbmunc/fig4c.png Graphic file (type png)
 <use ../figs/ch5-nlbmunc/fig4c.png>
-Package pdftex.def Info: ../figs/ch5-nlbmunc/fig4c.png  used on input line 348.
+Package pdftex.def Info: ../figs/ch5-nlbmunc/fig4c.png  used on input line 376.
 
 (pdftex.def)             Requested size: 188.21086pt x 142.26659pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--350
+Underfull \hbox (badness 10000) in paragraph at lines 376--378
 [][]
  []
 
-<../figs/ch5-nlbmunc/fig4d.png, id=77, 256.01648pt x 170.67764pt>
+<../figs/ch5-nlbmunc/fig4d.png, id=88, 256.01648pt x 170.67764pt>
 File: ../figs/ch5-nlbmunc/fig4d.png Graphic file (type png)
 <use ../figs/ch5-nlbmunc/fig4d.png>
-Package pdftex.def Info: ../figs/ch5-nlbmunc/fig4d.png  used on input line 352.
+Package pdftex.def Info: ../figs/ch5-nlbmunc/fig4d.png  used on input line 380.
 
 (pdftex.def)             Requested size: 188.21086pt x 142.26659pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--354
+Underfull \hbox (badness 10000) in paragraph at lines 380--382
 [][]
  []
 
-[15] [16 <../figs/ch5-nlbmunc/hist.png>] [17 <../figs/ch5-nlbmunc/fig4a.png> <.
+
+LaTeX Warning: Reference `fig:sensplots' on page 18 undefined on input line 389
+.
+
+[18] [19 <../figs/ch5-nlbmunc/hist.png>] [20 <../figs/ch5-nlbmunc/fig4a.png> <.
 ./figs/ch5-nlbmunc/fig4b.png> <../figs/ch5-nlbmunc/fig4c.png> <../figs/ch5-nlbm
-unc/fig4d.png>] [18
+unc/fig4d.png>]
+<../figs/ch5-nlbmunc/fig5a.png, id=104, 256.01648pt x 170.67764pt>
+File: ../figs/ch5-nlbmunc/fig5a.png Graphic file (type png)
+<use ../figs/ch5-nlbmunc/fig5a.png>
+Package pdftex.def Info: ../figs/ch5-nlbmunc/fig5a.png  used on input line 400.
+
+(pdftex.def)             Requested size: 188.21086pt x 142.26659pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--402
+[][]
+ []
+
+<../figs/ch5-nlbmunc/fig5b.png, id=105, 256.01648pt x 170.67764pt>
+File: ../figs/ch5-nlbmunc/fig5b.png Graphic file (type png)
+<use ../figs/ch5-nlbmunc/fig5b.png>
+Package pdftex.def Info: ../figs/ch5-nlbmunc/fig5b.png  used on input line 404.
+
+(pdftex.def)             Requested size: 188.21086pt x 142.26659pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--406
+[][]
+ []
+
+<../figs/ch5-nlbmunc/fig5c.png, id=106, 256.01648pt x 170.67764pt>
+File: ../figs/ch5-nlbmunc/fig5c.png Graphic file (type png)
+<use ../figs/ch5-nlbmunc/fig5c.png>
+Package pdftex.def Info: ../figs/ch5-nlbmunc/fig5c.png  used on input line 408.
+
+(pdftex.def)             Requested size: 188.21086pt x 142.26659pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--410
+[][]
+ []
+
+<../figs/ch5-nlbmunc/fig5d.png, id=107, 256.01648pt x 170.67764pt>
+File: ../figs/ch5-nlbmunc/fig5d.png Graphic file (type png)
+<use ../figs/ch5-nlbmunc/fig5d.png>
+Package pdftex.def Info: ../figs/ch5-nlbmunc/fig5d.png  used on input line 412.
+
+(pdftex.def)             Requested size: 188.21086pt x 142.26659pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
+[][]
+ []
+
+[21] [22 <../figs/ch5-nlbmunc/fig5a.png> <../figs/ch5-nlbmunc/fig5b.png> <../fi
+gs/ch5-nlbmunc/fig5c.png> <../figs/ch5-nlbmunc/fig5d.png>]
+<../figs/ch5-nlbmunc/fig6.pdf, id=118, 597.23125pt x 421.575pt>
+File: ../figs/ch5-nlbmunc/fig6.pdf Graphic file (type pdf)
+<use ../figs/ch5-nlbmunc/fig6.pdf>
+Package pdftex.def Info: ../figs/ch5-nlbmunc/fig6.pdf  used on input line 428.
+(pdftex.def)             Requested size: 334.60422pt x 236.18974pt.
+<../figs/ch5-nlbmunc/fig7.pdf, id=119, 597.23125pt x 421.575pt>
+File: ../figs/ch5-nlbmunc/fig7.pdf Graphic file (type pdf)
+<use ../figs/ch5-nlbmunc/fig7.pdf>
+Package pdftex.def Info: ../figs/ch5-nlbmunc/fig7.pdf  used on input line 435.
+(pdftex.def)             Requested size: 334.60422pt x 236.18974pt.
+[23 <../figs/ch5-nlbmunc/fig6.pdf>] [24 <../figs/ch5-nlbmunc/fig7.pdf>] [25] [2
+6
 
 ]
-Overfull \hbox (7.0277pt too wide) in paragraph at lines 362--362
+Overfull \hbox (7.0277pt too wide) in paragraph at lines 449--449
 []\OT1/cmr/m/n/10 G. Sun, Y. Xu, and A. Liang, ``The study of non-lin-ear scat-
 ter-ing func-tions and x-parameters,''
  []
 
-[19] [20]
-Overfull \hbox (8.52066pt too wide) in paragraph at lines 362--362
+[27] [28]
+Overfull \hbox (1.84285pt too wide) in paragraph at lines 449--449
+[]\OT1/cmr/m/n/10 Agilent. In-tro-duc-tion to ap-pli-ca-tion de-vel-op-ment, [O
+n-line]. Avail-able: $\OT1/cmtt/m/n/10 http : / / na . support .
+ []
+
+
+Overfull \hbox (3.49411pt too wide) in paragraph at lines 449--449
+\OT1/cmtt/m/n/10 media / en / technical -[] documentation / data -[] sheets / h
+mc342 . pdf$ \OT1/cmr/m/n/10 (vis-ited on 08/17/2019). 
+ []
+
+
+Overfull \hbox (8.52066pt too wide) in paragraph at lines 449--449
 \OT1/cmr/m/n/10 anal-y-sis,'' \OT1/cmr/m/it/10 IEEE Trans-ac-tions on In-stru-m
 en-ta-tion and Mea-sure-ment\OT1/cmr/m/n/10 , vol. 58, no. 10, pp. 3554{
  []
 
-Package biblatex Info: Reference section=0 on input line 363.
-[21] (./ch5-nlbmunc.aux)
+[29]
+Package biblatex Info: Reference section=0 on input line 450.
+[30] (./ch5-nlbmunc.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'ch5-nlbmunc.run.xml'.
 \openout1 = `ch5-nlbmunc.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21365 strings out of 492609
- 408206 string characters out of 6132819
- 788786 words of memory out of 5000000
- 25109 multiletter control sequences out of 15000+600000
+ 21420 strings out of 492609
+ 409937 string characters out of 6132819
+ 789292 words of memory out of 5000000
+ 25157 multiletter control sequences out of 15000+600000
  542356 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,17n,67p,1824b,1325s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,17n,67p,1824b,1327s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2019/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmmi5.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/
-texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/201
-9/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2019/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10
-.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ch5-nlbmunc.pdf (21 pages, 9018963 bytes).
+nts/cm/cmmi7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+ib10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/
+2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2019/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2019/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsl10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:
+/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on ch5-nlbmunc.pdf (30 pages, 11282883 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
+ 224 PDF objects out of 1000 (max. 8388607)
+ 136 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -287,8 +287,8 @@
       \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{IEEE MIT-S Int. Microwave Symp. Worshop, paper no 95}
-      \field{title}{Everything you've always wanted to know about Hot-S22 (but we're afraid to ask)}
+      \field{booktitle}{Workshop at the International Microwave Symposium}
+      \field{title}{Everything you’ve always wanted to know about hot-s22 (but we’re afraid to ask)}
       \field{year}{2002}
     \endentry
     \entry{Verspecht_2005}{inproceedings}{}
@@ -761,36 +761,6 @@
     \endentry
     \entry{ADS}{online}{}
       \name{author}{1}{}{%
-        {{hash=9eb9a1097475d81a03fd20f0a8ec4db5}{%
-           family={AWR},
-           familyi={A\bibinitperiod},
-           given={NI},
-           giveni={N\bibinitperiod}}}%
-      }
-      \strng{namehash}{9eb9a1097475d81a03fd20f0a8ec4db5}
-      \strng{fullhash}{9eb9a1097475d81a03fd20f0a8ec4db5}
-      \strng{bibnamehash}{9eb9a1097475d81a03fd20f0a8ec4db5}
-      \strng{authorbibnamehash}{9eb9a1097475d81a03fd20f0a8ec4db5}
-      \strng{authornamehash}{9eb9a1097475d81a03fd20f0a8ec4db5}
-      \strng{authorfullhash}{9eb9a1097475d81a03fd20f0a8ec4db5}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Microwave Office}
-      \field{urlday}{16}
-      \field{urlmonth}{8}
-      \field{urlyear}{2019}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.awr.com/software/products/microwave-office
-      \endverb
-      \verb{url}
-      \verb https://www.awr.com/software/products/microwave-office
-      \endverb
-    \endentry
-    \entry{AWR}{online}{}
-      \name{author}{1}{}{%
         {{hash=53db971e8574a8fca5f4bfc3675960b3}{%
            family={Technologies},
            familyi={T\bibinitperiod},
@@ -808,6 +778,36 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Advanced Design System ({ADS})}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.keysight.com/en/pc-1297113/advanced-design-system-ads
+      \endverb
+      \verb{url}
+      \verb https://www.keysight.com/en/pc-1297113/advanced-design-system-ads
+      \endverb
+    \endentry
+    \entry{AWR}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9eb9a1097475d81a03fd20f0a8ec4db5}{%
+           family={AWR},
+           familyi={A\bibinitperiod},
+           given={NI},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{9eb9a1097475d81a03fd20f0a8ec4db5}
+      \strng{fullhash}{9eb9a1097475d81a03fd20f0a8ec4db5}
+      \strng{bibnamehash}{9eb9a1097475d81a03fd20f0a8ec4db5}
+      \strng{authorbibnamehash}{9eb9a1097475d81a03fd20f0a8ec4db5}
+      \strng{authornamehash}{9eb9a1097475d81a03fd20f0a8ec4db5}
+      \strng{authorfullhash}{9eb9a1097475d81a03fd20f0a8ec4db5}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Microwave Office}
       \field{urlday}{16}
       \field{urlmonth}{8}
       \field{urlyear}{2019}
@@ -1062,7 +1062,86 @@
       \verb http://hdl.handle.net/10012/10179
       \endverb
     \endentry
-    \entry{hittite_amp}{misc}{}
+    \entry{Chernick_2008}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5a331a1342cb73df779f5fe0506237ec}{%
+           family={Chernick},
+           familyi={C\bibinitperiod},
+           given={M.R.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{5a331a1342cb73df779f5fe0506237ec}
+      \strng{fullhash}{5a331a1342cb73df779f5fe0506237ec}
+      \strng{bibnamehash}{5a331a1342cb73df779f5fe0506237ec}
+      \strng{authorbibnamehash}{5a331a1342cb73df779f5fe0506237ec}
+      \strng{authornamehash}{5a331a1342cb73df779f5fe0506237ec}
+      \strng{authorfullhash}{5a331a1342cb73df779f5fe0506237ec}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780470192566}
+      \field{series}{Wiley Series in Probability and Statistics}
+      \field{title}{Bootstrap Methods: A Guide for Practitioners and Researchers}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb https://books.google.co.uk/books?id=jx5K6IyjhhIC
+      \endverb
+      \verb{url}
+      \verb https://books.google.co.uk/books?id=jx5K6IyjhhIC
+      \endverb
+    \endentry
+    \entry{DCOM}{online}{}
+      \name{author}{1}{}{%
+        {{hash=120e034137f9e9df522960bd11f1d5af}{%
+           family={Agilent},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{120e034137f9e9df522960bd11f1d5af}
+      \strng{fullhash}{120e034137f9e9df522960bd11f1d5af}
+      \strng{bibnamehash}{120e034137f9e9df522960bd11f1d5af}
+      \strng{authorbibnamehash}{120e034137f9e9df522960bd11f1d5af}
+      \strng{authornamehash}{120e034137f9e9df522960bd11f1d5af}
+      \strng{authorfullhash}{120e034137f9e9df522960bd11f1d5af}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to Application Development}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://na.support.keysight.com/pna/files/an1408-13.pdf
+      \endverb
+      \verb{url}
+      \verb http://na.support.keysight.com/pna/files/an1408-13.pdf
+      \endverb
+    \endentry
+    \entry{minicircuits}{online}{}
+      \list{organization}{1}{%
+        {Mini-Circuits}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labeltitlesource}{title}
+      \field{title}{{ZX60-14012L} datasheet}
+      \field{urlday}{18}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://194.75.38.69/pdfs/ZX60-14012L.pdf
+      \endverb
+      \verb{url}
+      \verb http://194.75.38.69/pdfs/ZX60-14012L.pdf
+      \endverb
+    \endentry
+    \entry{hittite_amp}{online}{}
       \list{organization}{1}{%
         {Analog Devices}%
       }
@@ -1070,12 +1149,59 @@
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labeltitlesource}{title}
       \field{title}{{HMC342LC4} datasheet}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb http://www.analog.com/media/en/technical-documentation/data-sheets/hmc342.pdf
       \endverb
       \verb{url}
       \verb http://www.analog.com/media/en/technical-documentation/data-sheets/hmc342.pdf
       \endverb
+    \endentry
+    \entry{Stant_2018_TMTT}{article}{}
+      \name{author}{5}{}{%
+        {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
+           family={Stant},
+           familyi={S\bibinitperiod},
+           given={L.T.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b837a3146918ad772bf16460ea11c387}{%
+           family={Salter},
+           familyi={S\bibinitperiod},
+           given={M.J.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7456470a8b102ff66439a30d2678b78e}{%
+           family={Ridler},
+           familyi={R\bibinitperiod},
+           given={N.M.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=894a26e0347e1a769804de4b0068f0f4}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={D.F.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
+           family={Aaen},
+           familyi={A\bibinitperiod},
+           given={P.H.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{2e53cf84fdd29e73dafa62eb9f738f9b}
+      \strng{fullhash}{e7b8c1bbb7b21d18b93e1c35618f0b1a}
+      \strng{bibnamehash}{e7b8c1bbb7b21d18b93e1c35618f0b1a}
+      \strng{authorbibnamehash}{e7b8c1bbb7b21d18b93e1c35618f0b1a}
+      \strng{authornamehash}{2e53cf84fdd29e73dafa62eb9f738f9b}
+      \strng{authorfullhash}{e7b8c1bbb7b21d18b93e1c35618f0b1a}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Trans. Microw. Theory Techn.}
+      \field{month}{11}
+      \field{title}{Propagating Measurement Uncertainty to Microwave Amplifier Nonlinear Behavioural Models}
+      \field{year}{2018}
     \endentry
     \entry{Blockley_2007}{article}{}
       \name{author}{4}{}{%
@@ -1143,8 +1269,8 @@
       \strng{authorbibnamehash}{aed5713ad20e35a4b2bc37169432c412}
       \strng{authornamehash}{aed5713ad20e35a4b2bc37169432c412}
       \strng{authorfullhash}{aed5713ad20e35a4b2bc37169432c412}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Trans. Microw. Theory Techn.}
@@ -1173,8 +1299,8 @@
       \strng{authorbibnamehash}{6a2301da3cd29f54bd0d18ecaae18f70}
       \strng{authornamehash}{6a2301da3cd29f54bd0d18ecaae18f70}
       \strng{authorfullhash}{6a2301da3cd29f54bd0d18ecaae18f70}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
@@ -1204,8 +1330,8 @@
       \strng{authornamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
       \strng{authorfullhash}{0a1dc9ba6382e13835002ad4d9099b4e}
       \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{9}
@@ -1227,8 +1353,8 @@
       \strng{authornamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
       \strng{authorfullhash}{0a1dc9ba6382e13835002ad4d9099b4e}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{8}
