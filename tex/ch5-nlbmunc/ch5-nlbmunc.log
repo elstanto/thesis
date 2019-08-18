@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.4)  18 AUG 2019 01:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.4)  18 AUG 2019 22:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -922,21 +922,27 @@ Package pdftex.def Info: ../figs/ch5-nlbmunc/fig7.pdf  used on input line 435.
 6
 
 ]
-Overfull \hbox (7.0277pt too wide) in paragraph at lines 449--449
+Overfull \hbox (9.24991pt too wide) in paragraph at lines 449--449
 []\OT1/cmr/m/n/10 G. Sun, Y. Xu, and A. Liang, ``The study of non-lin-ear scat-
-ter-ing func-tions and x-parameters,''
+ter-ing func-tions and X-parameters,''
  []
 
-[27] [28]
-Overfull \hbox (1.84285pt too wide) in paragraph at lines 449--449
-[]\OT1/cmr/m/n/10 Agilent. In-tro-duc-tion to ap-pli-ca-tion de-vel-op-ment, [O
+[27]
+Overfull \hbox (6.42618pt too wide) in paragraph at lines 449--449
+[]\OT1/cmr/m/n/10 Agilent. In-tro-duc-tion to Ap-pli-ca-tion De-vel-op-ment, [O
 n-line]. Avail-able: $\OT1/cmtt/m/n/10 http : / / na . support .
  []
 
-
+[28]
 Overfull \hbox (3.49411pt too wide) in paragraph at lines 449--449
 \OT1/cmtt/m/n/10 media / en / technical -[] documentation / data -[] sheets / h
 mc342 . pdf$ \OT1/cmr/m/n/10 (vis-ited on 08/17/2019). 
+ []
+
+
+Overfull \hbox (9.98726pt too wide) in paragraph at lines 449--449
+[]\OT1/cmr/m/n/10 ||, (Aug. 2014). U9391C/F/G Comb Gen-er-a-tors, [On-line]. Av
+ail-able: $\OT1/cmtt/m/n/10 http : / / literature .
  []
 
 
@@ -957,12 +963,12 @@ Package logreq Info: Writing requests to 'ch5-nlbmunc.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  21420 strings out of 492609
- 409937 string characters out of 6132819
+ 410076 string characters out of 6132819
  789292 words of memory out of 5000000
  25157 multiletter control sequences out of 15000+600000
  542356 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,17n,67p,1824b,1327s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,17n,67p,1824b,1328s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2019/texmf-d
@@ -979,7 +985,7 @@ c/amsfonts/cm/cmsl10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:
 /texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ch5-nlbmunc.pdf (30 pages, 11282883 bytes).
+Output written on ch5-nlbmunc.pdf (30 pages, 11282453 bytes).
 PDF statistics:
  224 PDF objects out of 1000 (max. 8388607)
  136 compressed objects within 2 object streams

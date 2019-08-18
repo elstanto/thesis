@@ -124,11 +124,11 @@ One source of VNA measurement uncertainty which is still included in some evalua
 \section{Simplified Residual Model for VNA Uncertainty Evaluation}
 \subsection{Method}
 
-The EURAMET Guide \cite{EURAMET_2011} presents a process for evaluating the uncertainty of measurements performed on a calibrated VNA, allowing users to verify that values measured using the instrument are of acceptable accuracy. This process involves measuring a selection of dominant contributions to measurement uncertainty and combining them appropriately. Contributions include both systematic errors, which remain constant over the period of measurements, and random errors, which do not.  The error model for voltage reflection coefficient ($\Gamma$) measurements performed with a VNA is represented in \cite{EURAMET_2011} by the following equations for one-port (1) and two-port (2) measurements:
+The EURAMET Guide \cite{EURAMET_2011} presents a process for evaluating the uncertainty of measurements performed on a calibrated VNA, allowing users to verify that values measured using the instrument are of acceptable accuracy. This process involves measuring a selection of dominant contributions to measurement uncertainty and combining them appropriately. Contributions include both systematic errors, which remain constant over the period of measurements, and random errors, which do not.  The error model for voltage reflection coefficient ($\Gamma$) measurements performed with a VNA is represented in \cite{EURAMET_2011} by the following equations for one-port (\ref{ch4_eqn_1port}) and two-port (\ref{ch4_eqn_2port}) measurements:
 
 \begin{align}
-U_{\Gamma} &= D + T\Gamma + M\Gamma^2 + R_{\Gamma}\\
-U_{\Gamma} &= D + T\Gamma + M\Gamma^2 + R_{\Gamma} + S_{21}^2\Gamma_L
+U_{\Gamma} &= D + T\Gamma + M\Gamma^2 + R_{\Gamma} \label{ch4_eqn_1port} \\
+U_{\Gamma} &= D + T\Gamma + M\Gamma^2 + R_{\Gamma} + S_{21}^2\Gamma_L \label{ch4_eqn_2port}
 \end{align}
 
 where $U_{\Gamma}$ is the combined uncertainty in the measurement, $D$ is the residual directivity, $T$ represents the effect of tracking and nonlinearity, $M$ is the residual test port match (TPM), $\Gamma$ is the measured voltage reflection coefficient, $R_{\Gamma}$ is the sum of all the random contributions, $S_{21}$ is the nominal attenuation of the device-under-test (DUT), and $\Gamma_L$ is the residual load match. The most significant systematic error contributors to the measurement uncertainty are, in most cases, the directivity and TPM.

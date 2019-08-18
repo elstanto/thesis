@@ -47,7 +47,7 @@
       \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
       \field{month}{12}
       \field{number}{12}
-      \field{title}{VIOMAP, the S-parameter equivalent for weakly nonlinear RF and microwave devices}
+      \field{title}{{VIOMAP}, the {S}-parameter equivalent for weakly nonlinear {RF} and microwave devices}
       \field{volume}{42}
       \field{year}{1994}
       \field{pages}{2531\bibrangedash 2535}
@@ -82,7 +82,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{1575242834}
-      \field{title}{The Volterra and Wiener Theories of Nonlinear Systems}
+      \field{title}{The {V}olterra and {W}iener Theories of Nonlinear Systems}
       \field{year}{2006}
     \endentry
     \entry{Moodi_2010}{inproceedings}{}
@@ -108,10 +108,10 @@
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2010 Chinese Control and Decision Conference}
+      \field{booktitle}{Chinese Control and Decision Conference}
       \field{issn}{1948-9439}
       \field{month}{5}
-      \field{title}{On identification of nonlinear systems using Volterra kernels expansion on Laguerre and wavelet function}
+      \field{title}{On identification of nonlinear systems using {V}olterra kernels expansion on Laguerre and wavelet function}
       \field{year}{2010}
       \field{pages}{1141\bibrangedash 1145}
       \range{pages}{5}
@@ -147,7 +147,7 @@
       \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
       \field{month}{6}
       \field{number}{3}
-      \field{title}{The Volterra input-output map of a high-frequency amplifier as a practical alternative to load-pull measurements}
+      \field{title}{The {V}olterra input-output map of a high-frequency amplifier as a practical alternative to load-pull measurements}
       \field{volume}{44}
       \field{year}{1995}
       \field{pages}{662\bibrangedash 665}
@@ -183,7 +183,7 @@
       \field{labeltitlesource}{title}
       \field{booktitle}{45th ARFTG Conference Digest}
       \field{month}{5}
-      \field{title}{VIOMAP, 16QAM and Spectral Regrowth: Enhanced Prediction and Predistortion based on Two-Tone Black-Box Model Extraction}
+      \field{title}{{VIOMAP, 16QAM} and Spectral Regrowth: Enhanced Prediction and Predistortion based on Two-Tone Black-Box Model Extraction}
       \field{volume}{27}
       \field{year}{1995}
       \field{pages}{19\bibrangedash 28}
@@ -213,7 +213,7 @@
       \field{labeltitlesource}{title}
       \field{booktitle}{47th ARFTG Conference Digest}
       \field{month}{6}
-      \field{title}{Using Orthogonal Polynomials as Alternative for VIOMAP to Model Hardly Nonlinear Devices}
+      \field{title}{Using Orthogonal Polynomials as Alternative for {VIOMAP} to Model Hardly Nonlinear Devices}
       \field{volume}{29}
       \field{year}{1996}
       \field{pages}{112\bibrangedash 120}
@@ -256,14 +256,14 @@
       \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{1996 IEEE MTT-S International Microwave Symposium Digest}
+      \field{booktitle}{IEEE MTT-S International Microwave Symposium Digest}
       \field{issn}{0149-645X}
       \field{month}{6}
       \field{title}{Black box modelling of hard nonlinear behavior in the frequency domain}
       \field{volume}{3}
       \field{year}{1996}
-      \field{pages}{1735\bibrangedash 1738 vol.3}
-      \range{pages}{-1}
+      \field{pages}{1735\bibrangedash 1738}
+      \range{pages}{4}
       \verb{doi}
       \verb 10.1109/MWSYM.1996.512277
       \endverb
@@ -324,9 +324,9 @@
       \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2005 66th ARFTG Microwave Measurement Conference (ARFTG)}
+      \field{booktitle}{66th ARFTG Microwave Measurement Conference (ARFTG)}
       \field{month}{12}
-      \field{title}{Hot S-parameter techniques: 6 = 4 + 2}
+      \field{title}{Hot {S}-parameter techniques: 6 = 4 + 2}
       \field{year}{2005}
       \field{pages}{1\bibrangedash 9}
       \range{pages}{9}
@@ -399,7 +399,6 @@
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{series}{The Cambridge RF and Microwave Engineering Series}
       \field{title}{X-Parameters: Characterization, Modeling, and Design of Nonlinear RF and Microwave Components}
       \field{year}{2013}
       \verb{doi}
@@ -521,9 +520,9 @@
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2010 International Conference on Microwave and Millimeter Wave Technology}
+      \field{booktitle}{International Conference on Microwave and Millimeter Wave Technology}
       \field{month}{5}
-      \field{title}{The study of nonlinear scattering functions and X-parameters}
+      \field{title}{The study of nonlinear scattering functions and {X}-parameters}
       \field{year}{2010}
       \field{pages}{1086\bibrangedash 1089}
       \range{pages}{4}
@@ -565,9 +564,9 @@
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2015 22nd International Conference Mixed Design of Integrated Circuits Systems (MIXDES)}
+      \field{booktitle}{22nd International Conference Mixed Design of Integrated Circuits Systems (MIXDES)}
       \field{month}{6}
-      \field{title}{A comparison of the Volterra series-based nonlinear S-parameters and X-parameters}
+      \field{title}{A comparison of the {V}olterra series-based nonlinear {S}-parameters and {X}-parameters}
       \field{year}{2015}
       \field{pages}{453\bibrangedash 457}
       \range{pages}{5}
@@ -604,9 +603,9 @@
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2012 International Conference on Microwave and Millimeter Wave Technology (ICMMT)}
+      \field{booktitle}{International Conference on Microwave and Millimeter Wave Technology (ICMMT)}
       \field{month}{5}
-      \field{title}{Using X-parameters to model mixers}
+      \field{title}{Using {X}-parameters to model mixers}
       \field{volume}{3}
       \field{year}{2012}
       \field{pages}{1\bibrangedash 3}
@@ -664,10 +663,10 @@
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2009 IEEE MTT-S International Microwave Symposium Digest}
+      \field{booktitle}{IEEE MTT-S International Microwave Symposium Digest}
       \field{issn}{0149-645X}
       \field{month}{6}
-      \field{title}{Extension of X-parameters to include long-term dynamic memory effects}
+      \field{title}{Extension of {X}-parameters to include long-term dynamic memory effects}
       \field{year}{2009}
       \field{pages}{741\bibrangedash 744}
       \range{pages}{4}
@@ -704,9 +703,9 @@
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2017 12th European Microwave Integrated Circuits Conference (EuMIC)}
+      \field{booktitle}{12th European Microwave Integrated Circuits Conference (EuMIC)}
       \field{month}{10}
-      \field{title}{Closed-form solutions to large-signal PA problems: Wirtinger calculus applied to X-parameter}
+      \field{title}{Closed-form solutions to large-signal {PA} problems: {W}irtinger calculus applied to {X}-parameters}
       \field{year}{2017}
       \field{pages}{212\bibrangedash 215}
       \range{pages}{4}
@@ -748,9 +747,9 @@
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2018 13th European Microwave Integrated Circuits Conference (EuMIC)}
+      \field{booktitle}{13th European Microwave Integrated Circuits Conference (EuMIC)}
       \field{month}{9}
-      \field{title}{Electrothermal X-Parameters for Dynamic Modeling of RF and Microwave Power Transistors}
+      \field{title}{Electrothermal {X}-Parameters for Dynamic Modeling of {RF} and Microwave Power Transistors}
       \field{year}{2018}
       \field{pages}{353\bibrangedash 356}
       \range{pages}{4}
@@ -760,24 +759,13 @@
       \keyw{intermodulation distortion;microwave power transistors;semiconductor device models;thermal resistance;time-domain analysis;temperature hysteresis;intermodulation distortion;dynamic electro-thermal compact time-domain model;pulsed X-parameter measurements;dynamic self-heating effects;RF power transistors;static X -parameter model;thermal resistance;modulated waveform;thermally-induced asymmetry;thermal capacitance;extracted X-parameter data;X-parameter measurements;envelope domain sub-circuit;dynamic thermal X-parameter model;long-term memory;dynamic electro-thermal phenomena;X-parameter behavioral;microwave power transistors;electrothermal X-parameters;Temperature measurement;Integrated circuit modeling;Semiconductor device modeling;Frequency modulation;Radio frequency;Transistors;Mathematical model;behavioural modelling;X-Parameters;electrothermal device modelling;NVNA}
     \endentry
     \entry{ADS}{online}{}
-      \name{author}{1}{}{%
-        {{hash=53db971e8574a8fca5f4bfc3675960b3}{%
-           family={Technologies},
-           familyi={T\bibinitperiod},
-           given={Keysight},
-           giveni={K\bibinitperiod}}}%
+      \list{organization}{1}{%
+        {Keysight Technologies}%
       }
-      \strng{namehash}{53db971e8574a8fca5f4bfc3675960b3}
-      \strng{fullhash}{53db971e8574a8fca5f4bfc3675960b3}
-      \strng{bibnamehash}{53db971e8574a8fca5f4bfc3675960b3}
-      \strng{authorbibnamehash}{53db971e8574a8fca5f4bfc3675960b3}
-      \strng{authornamehash}{53db971e8574a8fca5f4bfc3675960b3}
-      \strng{authorfullhash}{53db971e8574a8fca5f4bfc3675960b3}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
-      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Advanced Design System ({ADS})}
+      \field{title}{{Advanced Design System (ADS)}}
       \field{urlday}{16}
       \field{urlmonth}{8}
       \field{urlyear}{2019}
@@ -790,24 +778,13 @@
       \endverb
     \endentry
     \entry{AWR}{online}{}
-      \name{author}{1}{}{%
-        {{hash=9eb9a1097475d81a03fd20f0a8ec4db5}{%
-           family={AWR},
-           familyi={A\bibinitperiod},
-           given={NI},
-           giveni={N\bibinitperiod}}}%
+      \list{organization}{1}{%
+        {NI AWR}%
       }
-      \strng{namehash}{9eb9a1097475d81a03fd20f0a8ec4db5}
-      \strng{fullhash}{9eb9a1097475d81a03fd20f0a8ec4db5}
-      \strng{bibnamehash}{9eb9a1097475d81a03fd20f0a8ec4db5}
-      \strng{authorbibnamehash}{9eb9a1097475d81a03fd20f0a8ec4db5}
-      \strng{authornamehash}{9eb9a1097475d81a03fd20f0a8ec4db5}
-      \strng{authorfullhash}{9eb9a1097475d81a03fd20f0a8ec4db5}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
-      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Microwave Office}
+      \field{title}{{Microwave Office}}
       \field{urlday}{16}
       \field{urlmonth}{8}
       \field{urlyear}{2019}
@@ -852,9 +829,9 @@
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2009 73rd ARFTG Microwave Measurement Conference}
+      \field{booktitle}{73rd ARFTG Microwave Measurement Conference}
       \field{month}{6}
-      \field{title}{Nonlinear validation of arbitrary load X-parameter and measurement-based device models}
+      \field{title}{Nonlinear validation of arbitrary load {X}-parameter and measurement-based device models}
       \field{year}{2009}
       \field{pages}{1\bibrangedash 4}
       \range{pages}{4}
@@ -921,10 +898,10 @@
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2008 IEEE MTT-S International Microwave Symposium Digest}
+      \field{booktitle}{IEEE MTT-S International Microwave Symposium Digest}
       \field{issn}{0149-645X}
       \field{month}{6}
-      \field{title}{A novel measurement based method enabling rapid extraction of a RF Waveform Look-Up table based behavioral model}
+      \field{title}{A novel measurement based method enabling rapid extraction of a {RF} Waveform Look-Up table based behavioral model}
       \field{year}{2008}
       \field{pages}{1453\bibrangedash 1456}
       \range{pages}{4}
@@ -1018,7 +995,7 @@
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2010 IEEE MTT-S International Microwave Symposium}
+      \field{booktitle}{IEEE MTT-S International Microwave Symposium}
       \field{issn}{0149-645X}
       \field{month}{5}
       \field{title}{Behavioral model analysis of active harmonic load-pull measurements}
@@ -1067,8 +1044,8 @@
         {{hash=5a331a1342cb73df779f5fe0506237ec}{%
            family={Chernick},
            familyi={C\bibinitperiod},
-           given={M.R.},
-           giveni={M\bibinitperiod}}}%
+           given={M.\bibnamedelimi R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Wiley}%
@@ -1110,7 +1087,7 @@
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Introduction to Application Development}
+      \field{title}{{Introduction to Application Development}}
       \field{urlday}{16}
       \field{urlmonth}{8}
       \field{urlyear}{2019}
@@ -1252,38 +1229,40 @@
     \endentry
     \entry{Engen_1979}{article}{}
       \name{author}{2}{}{%
-        {{hash=c9f70bdf5ee6e4fa2c6832d4ee8282a8}{%
-           family={Engen},
+        {{hash=28213d63bf04f657b8ae3ff503bb6991}{%
+           family={{Engen}},
            familyi={E\bibinitperiod},
-           given={Glenn\bibnamedelima F.},
+           given={G.\bibnamedelimi F.},
            giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=60d6a7d8a8047b4cc95c0c93492a15a3}{%
-           family={Hoer},
+        {{hash=b60c77fe432088562cd4769d535e7c2b}{%
+           family={{Hoer}},
            familyi={H\bibinitperiod},
-           given={Cletus\bibnamedelima a.},
-           giveni={C\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+           given={C.\bibnamedelimi A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
-      \strng{namehash}{aed5713ad20e35a4b2bc37169432c412}
-      \strng{fullhash}{aed5713ad20e35a4b2bc37169432c412}
-      \strng{bibnamehash}{aed5713ad20e35a4b2bc37169432c412}
-      \strng{authorbibnamehash}{aed5713ad20e35a4b2bc37169432c412}
-      \strng{authornamehash}{aed5713ad20e35a4b2bc37169432c412}
-      \strng{authorfullhash}{aed5713ad20e35a4b2bc37169432c412}
+      \strng{namehash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \strng{fullhash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \strng{bibnamehash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \strng{authorbibnamehash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \strng{authornamehash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \strng{authorfullhash}{799f2ecf8f613bc32e8002e07a84cd68}
       \field{sortinit}{4}
       \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Trans. Microw. Theory Techn.}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
       \field{month}{12}
       \field{number}{12}
-      \field{title}{{``Thru-Reflect-Line'' : An improved technique for calibrating the dual six-port automatic network analyzer}}
+      \field{title}{Thru-Reflect-Line: An Improved Technique for Calibrating the Dual Six-Port Automatic Network Analyzer}
       \field{volume}{27}
       \field{year}{1979}
       \field{pages}{987\bibrangedash 993}
       \range{pages}{7}
-      \verb{file}
-      \verb :home/lstant/Downloads/mtt27-12.pdf:pdf
+      \verb{doi}
+      \verb 10.1109/TMTT.1979.1129778
       \endverb
+      \keyw{Calibration;Detectors;Scattering parameters;Senior members;Circuits;Microwave devices;Microwave measurements;Test equipment;Particle measurements}
     \endentry
     \entry{Marks_1991}{article}{}
       \name{author}{1}{}{%
@@ -1304,7 +1283,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
-      \field{journaltitle}{IEEE Trans. Microw. Theory Techn.}
+      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
       \field{month}{7}
       \field{number}{7}
       \field{title}{A multiline method of network analyzer calibration}
@@ -1317,7 +1296,7 @@
       \endverb
       \keyw{calibration;microwave measurement;network analysers;TRL method;accuracy;assessment of calibration accuracy;bandwidth;calibration of network analyzers;imperfect connector repeatability;linearized error analysis;multiline method of network analyzer calibration;multiple transmission line standards;random errors reduction;redundant transmission line standards;statistical treatment;thru-reflect-line calibration method;Bandwidth;Calibration;Connectors;Covariance matrix;Error analysis;Frequency;Iterative methods;Transmission line matrix methods;Transmission line theory;Transmission lines}
     \endentry
-    \entry{Keysight_2017}{report}{}
+    \entry{Keysight_2017}{online}{}
       \name{author}{1}{}{%
         {{hash=0a1dc9ba6382e13835002ad4d9099b4e}{%
            family={{Keysight Technologies}},
@@ -1338,9 +1317,19 @@
       \field{number}{5989-7619EN}
       \field{title}{{Fundamentals of RF and Microwave Power Measurements (Part 3)}}
       \field{type}{techreport}
+      \field{urlday}{18}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
       \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://literature.cdn.keysight.com/litweb/pdf/5988-9215EN.pdf
+      \endverb
+      \verb{url}
+      \verb https://literature.cdn.keysight.com/litweb/pdf/5988-9215EN.pdf
+      \endverb
     \endentry
-    \entry{Keysight_2014}{report}{}
+    \entry{Keysight_2014}{online}{}
       \name{author}{1}{}{%
         {{hash=0a1dc9ba6382e13835002ad4d9099b4e}{%
            family={{Keysight Technologies}},
@@ -1361,7 +1350,17 @@
       \field{number}{5988-9215EN}
       \field{title}{{U9391C/F/G Comb Generators}}
       \field{type}{techreport}
+      \field{urlday}{18}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
       \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://literature.cdn.keysight.com/litweb/pdf/5989-7619EN.pdf
+      \endverb
+      \verb{url}
+      \verb http://literature.cdn.keysight.com/litweb/pdf/5989-7619EN.pdf
+      \endverb
     \endentry
     \entry{Reader_2008}{article}{}
       \name{author}{4}{}{%
