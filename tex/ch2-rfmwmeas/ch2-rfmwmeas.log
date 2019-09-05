@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.4)  5 SEP 2019 20:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.4)  5 SEP 2019 21:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -737,35 +737,35 @@ Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_s2p.png  used on input line 7
 (pdftex.def)             Requested size: 418.25368pt x 68.17639pt.
 [4 <../figs/ch2-rfmwmeas/ch2_filter.png>] [5 <../figs/ch2-rfmwmeas/ch2_s2p.PNG>
 ]
-<../figs/ch2-rfmwmeas/ch2_comp.png, id=35, 356.0803pt x 331.99031pt>
-File: ../figs/ch2-rfmwmeas/ch2_comp.png Graphic file (type png)
-<use ../figs/ch2-rfmwmeas/ch2_comp.png>
-Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_comp.png  used on input line 
-137.
-(pdftex.def)             Requested size: 167.2989pt x 155.97974pt.
+<../figs/ch2-rfmwmeas/ch2_compression.pdf, id=35, 242.42021pt x 188.8363pt>
+File: ../figs/ch2-rfmwmeas/ch2_compression.pdf Graphic file (type pdf)
+<use ../figs/ch2-rfmwmeas/ch2_compression.pdf>
+Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_compression.pdf  used on inpu
+t line 137.
+(pdftex.def)             Requested size: 209.12683pt x 162.90894pt.
 [6]
 <../figs/ch2-rfmwmeas/im3.png, id=39, 3227.05624pt x 1500.60625pt>
 File: ../figs/ch2-rfmwmeas/im3.png Graphic file (type png)
 <use ../figs/ch2-rfmwmeas/im3.png>
 Package pdftex.def Info: ../figs/ch2-rfmwmeas/im3.png  used on input line 155.
 (pdftex.def)             Requested size: 418.25368pt x 194.49033pt.
-[7 <../figs/ch2-rfmwmeas/ch2_comp.png (PNG copy)>] [8 <../figs/ch2-rfmwmeas/im3
-.png (PNG copy)>]
-<../figs/ch2-rfmwmeas/ch2_refl2.png, id=47, 284.7438pt x 70.3428pt>
-File: ../figs/ch2-rfmwmeas/ch2_refl2.png Graphic file (type png)
-<use ../figs/ch2-rfmwmeas/ch2_refl2.png>
-Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_refl2.png  used on input line
- 174.
-(pdftex.def)             Requested size: 334.60422pt x 82.66673pt.
-[9 <../figs/ch2-rfmwmeas/ch2_refl2.png>]
-<../figs/ch2-rfmwmeas/ch2_vna.png, id=52, 205.2468pt x 125.7498pt>
+[7 <../figs/ch2-rfmwmeas/ch2_compression.pdf>] [8 <../figs/ch2-rfmwmeas/im3.png
+ (PNG copy)>]
+<../figs/ch2-rfmwmeas/ch2_reflect.pdf, id=55, 468.75125pt x 149.55875pt>
+File: ../figs/ch2-rfmwmeas/ch2_reflect.pdf Graphic file (type pdf)
+<use ../figs/ch2-rfmwmeas/ch2_reflect.pdf>
+Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_reflect.pdf  used on input li
+ne 174.
+(pdftex.def)             Requested size: 334.60422pt x 106.75797pt.
+[9 <../figs/ch2-rfmwmeas/ch2_reflect.pdf>]
+<../figs/ch2-rfmwmeas/ch2_vna.png, id=60, 205.2468pt x 125.7498pt>
 File: ../figs/ch2-rfmwmeas/ch2_vna.png Graphic file (type png)
 <use ../figs/ch2-rfmwmeas/ch2_vna.png>
 Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_vna.png  used on input line 1
 85.
 (pdftex.def)             Requested size: 250.95476pt x 153.76181pt.
 [10]
-<../figs/ch2-rfmwmeas/ch2_oneport.pdf, id=56, 754.82pt x 211.79124pt>
+<../figs/ch2-rfmwmeas/ch2_oneport.pdf, id=64, 754.82pt x 211.79124pt>
 File: ../figs/ch2-rfmwmeas/ch2_oneport.pdf Graphic file (type pdf)
 <use ../figs/ch2-rfmwmeas/ch2_oneport.pdf>
 Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_oneport.pdf  used on input li
@@ -773,21 +773,21 @@ ne 200.
 (pdftex.def)             Requested size: 418.25368pt x 117.35486pt.
 [11 <../figs/ch2-rfmwmeas/ch2_vna.png>] [12 <../figs/ch2-rfmwmeas/ch2_oneport.p
 df>]
-<../figs/ch2-rfmwmeas/ch2_twoport.pdf, id=65, 768.8725pt x 221.82875pt>
+<../figs/ch2-rfmwmeas/ch2_twoport.pdf, id=73, 768.8725pt x 221.82875pt>
 File: ../figs/ch2-rfmwmeas/ch2_twoport.pdf Graphic file (type pdf)
 <use ../figs/ch2-rfmwmeas/ch2_twoport.pdf>
 Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_twoport.pdf  used on input li
 ne 225.
 (pdftex.def)             Requested size: 418.25368pt x 120.67255pt.
 [13 <../figs/ch2-rfmwmeas/ch2_twoport.pdf>] [14] [15] [16] [17]
-<../figs/ch2-rfmwmeas/ch2_powercal.pdf, id=86, 753.81625pt x 211.79124pt>
+<../figs/ch2-rfmwmeas/ch2_powercal.pdf, id=94, 753.81625pt x 211.79124pt>
 File: ../figs/ch2-rfmwmeas/ch2_powercal.pdf Graphic file (type pdf)
 <use ../figs/ch2-rfmwmeas/ch2_powercal.pdf>
 Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_powercal.pdf  used on input l
 ine 454.
 (pdftex.def)             Requested size: 418.25368pt x 117.50998pt.
 [18 <../figs/ch2-rfmwmeas/ch2_powercal.pdf>]
-<../figs/ch2-rfmwmeas/ch2_phasecal.pdf, id=91, 753.81625pt x 211.79124pt>
+<../figs/ch2-rfmwmeas/ch2_phasecal.pdf, id=99, 753.81625pt x 211.79124pt>
 File: ../figs/ch2-rfmwmeas/ch2_phasecal.pdf Graphic file (type pdf)
 <use ../figs/ch2-rfmwmeas/ch2_phasecal.pdf>
 Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_phasecal.pdf  used on input l
@@ -811,7 +811,7 @@ Package logreq Info: Writing requests to 'ch2-rfmwmeas.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  21280 strings out of 492609
- 396907 string characters out of 6132819
+ 397000 string characters out of 6132819
  789469 words of memory out of 5000000
  25025 multiletter control sequences out of 15000+600000
  542356 words of font info for 58 fonts, out of 8000000 for 9000
@@ -833,10 +833,10 @@ c/amsfonts/cm/cmsl10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:
 /texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ch2-rfmwmeas.pdf (21 pages, 698211 bytes).
+Output written on ch2-rfmwmeas.pdf (21 pages, 609889 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
+ 172 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
