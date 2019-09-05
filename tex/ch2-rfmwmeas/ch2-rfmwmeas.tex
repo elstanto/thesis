@@ -218,7 +218,7 @@ Reflection tracking ($\Delta$) characterises the insertion loss of the couplers 
 
 \subsubsection{8-Term Model}
 
-Devices with two or more ports require transmission measurements in addition to the reflection measurements corrected using the one-port model. Historically, two-port VNAs used a single reference receiver and a test receiver for each channel. This meant that the reference receiver would be shared between ports one and two, requiring a separate error model for each configuration (``forward'' and ``reverse''). This resulted in the 12-term and 10-term models which were the standard two-port VNA error models implemented in firmware. More recently, VNAs have employed dedicated reference receivers for each measurement port. Because the calibrated signal path (reference receiver to DUT) does not change when the stimulus is switched between ports one and two, a simpler error model can be used. This model is called the 8-term model (or error box model) and is illustrated in Figure \ref{ch2_fig_twoport}.
+Devices with two or more ports require transmission measurements in addition to the reflection measurements corrected using the one-port model. Historically, two-port VNAs used a single reference receiver and a test receiver for each channel. This meant that the reference receiver would be shared between ports one and two, requiring a separate error model for each configuration (``forward'' and ``reverse''). This resulted in the 12-term and 10-term models which were the standard two-port VNA error models implemented in firmware. More recently, VNAs have employed dedicated reference receivers for each measurement port. Because the calibrated signal path (reference receiver to DUT) does not change when the stimulus is switched between ports one and two, a simpler error model can be used. This model is called the 8-term model (or error box model) and is illustrated in Figure \ref{ch2_fig_twoport}. The 8-term model also ignores error due to crosstalk between test ports, which is usually appropriate for coaxial and waveguide measurements but not for on-wafer measurements where the probes may couple.
 
 \begin{figure}
 	\centering
@@ -226,6 +226,151 @@ Devices with two or more ports require transmission measurements in addition to 
 	\caption{The 8-term error model for a two-port measurement. Similar to the 3-term model for one-port measurements, an S-parameter model is used capture the error coefficients between the Port 1 receivers ($a_0$, $b_0$) and the DUT ($e_{00}, e_{10}, e_{01}, e_{11}$), and a separate model used between the Port 2 receivers ($a_3$, $b_3$) and the DUT ($e_{22}, e_{32}, e_{23}, e_{33}$).}
 	\label{ch2_fig_twoport}
 \end{figure}
+
+The model defines two error boxes, $\mathbf{E}_\textrm{A}$ and $\mathbf{E}_\textrm{B}$, associated with ports one and two, respectively:
+
+\begin{align}
+	\begin{bmatrix}
+		b_0 \\
+		a_1 \\
+	\end{bmatrix}
+	&=
+	\underbrace{
+		\begin{bmatrix}
+			e^\textrm{A}_{00} & e^\textrm{A}_{01} \\
+			e^\textrm{A}_{10} & e^\textrm{A}_{11} \\
+		\end{bmatrix}
+	}_{\mathbf{E}_\textrm{A}}
+	\begin{bmatrix}
+		a_0 \\
+		b_1 \\
+	\end{bmatrix} \\
+	\begin{bmatrix}
+	b_3 \\
+	a_2 \\
+	\end{bmatrix}
+	&=
+	\underbrace{
+		\begin{bmatrix}
+		e^\textrm{B}_{33} & e^\textrm{B}_{32} \\
+		e^\textrm{B}_{23} & e^\textrm{B}_{22} \\
+		\end{bmatrix}
+	}_{\mathbf{E}_\textrm{B}}
+	\begin{bmatrix}
+	a_3 \\
+	b_2 \\
+	\end{bmatrix}.
+\end{align}
+
+These error boxes can be rewritten as t-parameters (transmission parameters) which allow the error boxes to be cascaded using matrix multiplication with the DUT t-parameters to calculate the equivalent t-parameters of three connected components:
+
+\begin{align}
+\begin{bmatrix}
+b_0 \\
+a_0 \\
+\end{bmatrix}
+=
+&\underbrace{
+	\begin{bmatrix}
+	t^\textrm{A}_{11} & t^\textrm{A}_{12} \\
+	t^\textrm{A}_{21} & t^\textrm{A}_{22} \\
+	\end{bmatrix}
+}_{\mathbf{T}_\textrm{A}}
+\underbrace{
+	\begin{bmatrix}
+	t^\textrm{DUT}_{11} & t^\textrm{DUT}_{12} \\
+	t^\textrm{DUT}_{21} & t^\textrm{DUT}_{22} \\
+	\end{bmatrix}
+}_{\mathbf{T}_\textrm{DUT}}
+\underbrace{
+	\begin{bmatrix}
+	t^\textrm{B}_{11} & t^\textrm{B}_{12} \\
+	t^\textrm{B}_{21} & t^\textrm{B}_{22} \\
+	\end{bmatrix}
+}_{\mathbf{T}_\textrm{B}}
+\begin{bmatrix}
+a_3 \\
+b_3 \\
+\end{bmatrix}
+\end{align}
+
+%\begin{align}
+%\begin{bmatrix}
+%S^\textrm{DUT}_{11} & S^\textrm{DUT}_{12} \\
+%S^\textrm{DUT}_{21} & S^\textrm{DUT}_{22} \\
+%\end{bmatrix}
+%&=
+%\frac{1}{t^\textrm{DUT}_{22}}
+%\begin{bmatrix}
+%t^\textrm{DUT}_{12} & \Delta^\textrm{DUT}_T \\
+%1 & -t^\textrm{DUT}_{21} \\
+%\end{bmatrix} \\
+%\underbrace{
+%	\begin{bmatrix}
+%	t^\textrm{A}_{11} & t^\textrm{A}_{12} \\
+%	t^\textrm{A}_{21} & t^\textrm{A}_{22} \\
+%	\end{bmatrix}
+%}_{\mathbf{T}_\textrm{A}}
+%&=
+%\frac{1}{e^\textrm{A}_{21}}
+%\underbrace{
+%	\begin{bmatrix}
+%	-\Delta^\textrm{A}_\textrm{E} & e^\textrm{A}_{11} \\
+%	-e^\textrm{A}_{22} & 1 \\
+%	\end{bmatrix}
+%}_{\mathbf{X}_\textrm{A}} \\
+%\underbrace{
+%	\begin{bmatrix}
+%	e^\textrm{A}_{11} & e^\textrm{A}_{12} \\
+%	e^\textrm{A}_{21} & e^\textrm{A}_{22} \\
+%	\end{bmatrix}
+%}_{\mathbf{E}_\textrm{A}}
+%&=
+%\frac{1}{t^\textrm{A}_{22}}
+%\begin{bmatrix}
+%t^\textrm{A}_{12} & \Delta^\textrm{A}_\textrm{T} \\
+%1 & -t^\textrm{A}_{21} \\
+%\end{bmatrix} \\
+%\underbrace{
+%	\begin{bmatrix}
+%	t^\textrm{B}_{11} & t^\textrm{B}_{12} \\
+%	t^\textrm{B}_{21} & t^\textrm{B}_{22} \\
+%	\end{bmatrix}
+%}_{\mathbf{T}_\textrm{B}}
+%&=
+%\frac{1}{e^\textrm{B}_{21}}
+%\underbrace{
+%	\begin{bmatrix}
+%	1 & -e^\textrm{B}_{22} \\
+%	e^\textrm{B}_{11} & -\Delta^\textrm{B}_\textrm{E} \\
+%	\end{bmatrix}
+%}_{\mathbf{X}_\textrm{B}} \\
+%\underbrace{
+%	\begin{bmatrix}
+%	e^\textrm{B}_{11} & e^\textrm{B}_{12} \\
+%	e^\textrm{B}_{21} & e^\textrm{B}_{22} \\
+%	\end{bmatrix}
+%}_{\mathbf{E}_\textrm{B}}
+%&=
+%\frac{1}{t^\textrm{B}_{11}}
+%\begin{bmatrix}
+%t^\textrm{B}_{21} & \Delta^\textrm{B}_\textrm{T} \\
+%1 & -t^\textrm{B}_{12} \\
+%\end{bmatrix} \\
+%\end{align}
+
+\begin{align}
+	\begin{bmatrix}
+		b_0 \\
+		a_0 \\
+	\end{bmatrix}
+	&=\mathbf{T}_\textrm{A} \mathbf{T}_\textrm{DUT} \mathbf{T}_\textrm{B}
+	\begin{bmatrix}
+		a_3 \\
+		b_3 \\
+	\end{bmatrix} \\
+	\mathbf{T}_\textrm{M} &= \mathbf{T}_\textrm{A}\mathbf{T}_\textrm{DUT}\mathbf{T}_\textrm{B}
+\end{align}
 
 \subsection{Calibration}
 
