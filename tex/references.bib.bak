@@ -1243,11 +1243,11 @@
 }
 
 @Online{ADS,
-  url     = {https://www.keysight.com/en/pc-1297113/advanced-design-system-ads},
-  urldate = {2019-08-16},
-  title   = {{Advanced Design System (ADS)}},
-  author  = {Keysight Technologies},
-  groups  = {Ch 5: Prop Meas Unc to NLBM},
+  url          = {https://www.keysight.com/en/pc-1297113/advanced-design-system-ads},
+  urldate      = {2019-08-16},
+  title        = {{Advanced Design System (ADS)}},
+  organization = {Keysight Technologies},
+  groups       = {Ch 5: Prop Meas Unc to NLBM},
 }
 
 @Online{DCOM,
@@ -1282,11 +1282,11 @@
 }
 
 @Online{AWR,
-  url     = {https://www.awr.com/software/products/microwave-office},
-  urldate = {2019-08-16},
-  title   = {{Microwave Office}},
-  author  = {NI AWR},
-  groups  = {Ch 5: Prop Meas Unc to NLBM},
+  url          = {https://www.awr.com/software/products/microwave-office},
+  urldate      = {2019-08-16},
+  title        = {{Microwave Office}},
+  organization = {NI AWR},
+  groups       = {Ch 5: Prop Meas Unc to NLBM},
 }
 
 @Unpublished{Stant_2016_pg,
