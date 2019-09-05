@@ -159,7 +159,7 @@ Here, $a$ and $b$ are the incident and scattered waves for the device, $c_i$ are
 
 Finally, the amplitude of scattered waves with multiple incident waves is dependent (nonlinearly) on the phase of incident waves. In the linear regime the superposition principle prevents this, but now there is a nonlinear dependence which can have significant effects on the amplitude of scattered waves. Designers must consider this when building efficient nonlinear amplifiers, which leads to the practice of accurately terminating scattered harmonic frequencies at an optimum phase. This will be covered in more detail in Chapter 5 when we discuss nonlinear device models. 
 
-The result of these differences is that the measurement requirements for nonlinear devices are considerably larger than for linear devices. The nonlinear dependencies on stimulus power and phase means that ratioed measurements no longer fully capture the device response, and absolute measurements of the magnitude and phase of both the incident and scattered waves is required. The production of scattered waves at frequencies different to those in the stimulus demands an additional dimension of measurements. In contrast to These complications must be met with changes to both the measurement system and the method of storing the results.
+The result of these differences is that the measurement requirements for nonlinear devices are considerably larger than for linear devices. The nonlinear dependencies on stimulus power and phase means that ratioed measurements no longer fully capture the device response, and absolute measurements of the magnitude and phase of both the incident and scattered waves is required. The production of scattered waves at frequencies different to those in the stimulus demands an additional dimension of measurements. These complications must be met with changes to both the measurement system and the method of storing the results.
 
 \section{Vector Network Analysers}
 
@@ -204,11 +204,11 @@ The calibration process involves characterising an error model which represents 
 
 The classic one-port error model can be obtained through analysis of the signal flow diagram of a one-port VNA shown in Figure \ref{ch2_fig_oneport}. One can write the relationship between the measured ($\Gamma_\textrm{m}$) and actual ($\Gamma$) reflection coefficients as:
 \begin{equation}
-\Gamma_\textrm{m}=\frac{b_0}{a_0}=\frac{e_{11}-(\overbrace{e_{11}e_{22}-e_{12}e_{21}}^\Delta)\Gamma}{1-e_{22}\Gamma},
+\Gamma_\textrm{m}=\frac{b_0}{a_0}=\frac{e_{00}-(\overbrace{e_{00}e_{11}-e_{01}e_{10}}^\Delta)\Gamma}{1-e_{11}\Gamma},
 \end{equation}
 from which the actual reflection coefficient can be obtained using the measured value and three error coefficients using:
 \begin{equation}
-\Gamma=\frac{\Gamma_\textrm{m}-e_{11}}{e_{22}\Gamma_\textrm{m}-\Delta}.
+\Gamma=\frac{\Gamma_\textrm{m}-e_{00}}{e_{11}\Gamma_\textrm{m}-\Delta}.
 \label{ch2_eqn_oneport1}
 \end{equation}
 
@@ -262,7 +262,7 @@ The model defines two error boxes, $\mathbf{E}_\textrm{A}$ and $\mathbf{E}_\text
 	\end{bmatrix}.
 \end{align}
 
-These error boxes can be rewritten as t-parameters (transmission parameters) which allow the error boxes to be cascaded using matrix multiplication with the DUT t-parameters to calculate the equivalent t-parameters of three connected components:
+These error boxes can be rewritten as T-parameters (transmission parameters) which allow the error boxes to be cascaded using matrix multiplication with the DUT T-parameters to calculate the equivalent T-parameters of the three connected components:
 
 \begin{align}
 \begin{bmatrix}
@@ -272,8 +272,8 @@ a_0 \\
 =
 &\underbrace{
 	\begin{bmatrix}
-	t^\textrm{A}_{11} & t^\textrm{A}_{12} \\
-	t^\textrm{A}_{21} & t^\textrm{A}_{22} \\
+	t^\textrm{A}_{00} & t^\textrm{A}_{01} \\
+	t^\textrm{A}_{10} & t^\textrm{A}_{11} \\
 	\end{bmatrix}
 }_{\mathbf{T}_\textrm{A}}
 \underbrace{
@@ -284,8 +284,8 @@ a_0 \\
 }_{\mathbf{T}_\textrm{DUT}}
 \underbrace{
 	\begin{bmatrix}
-	t^\textrm{B}_{11} & t^\textrm{B}_{12} \\
-	t^\textrm{B}_{21} & t^\textrm{B}_{22} \\
+	t^\textrm{B}_{33} & t^\textrm{B}_{23} \\
+	t^\textrm{B}_{32} & t^\textrm{B}_{22} \\
 	\end{bmatrix}
 }_{\mathbf{T}_\textrm{B}}
 \begin{bmatrix}
@@ -372,6 +372,15 @@ b_3 \\
 	\mathbf{T}_\textrm{M} &= \mathbf{T}_\textrm{A}\mathbf{T}_\textrm{DUT}\mathbf{T}_\textrm{B}
 \end{align}
 
+The T-parameters of the DUT can therefore be calculated by multiplying those of the raw measurements by the inverse of the error boxes:
+
+\begin{equation}
+	\mathbf{T}_\textrm{DUT} = \mathbf{T}_\textrm{A}^{-1}\mathbf{T}_\textrm{M}\mathbf{T}_\textrm{B}^{-1}
+\end{equation}
+which can finally be converted to S-parameters to produce the result of the corrected measurement.
+
+Like the 3-term model (\ref{ch2_eqn_oneport1}), where $e_{01}$ and $e_{10}$ are always used as a product, the 8-term model contains redundant information in the transmission tracking coefficients $e_{32}$ and $e_{01}$. Therefore, the 8-term model is commonly implemented as a 7-term model, but is still referred to by the 8-term name. For nonlinear measurements, as will be seen later in this section, the transmission tracking must be characterised per port and so all 8-terms are used.
+
 \subsection{Calibration}
 
 To characterise the error models, impedance standards with known properties are measured. These properties can be prior measurements of reflection coefficients or s-parameters (data-based standards), polynomial model coefficients (a more compact representation of reflection coefficient), or realisable properties such as length and diameter which can be used in physical models to provide calibrations with good traceability (defined in Chapter 3). More explanation of the different types of calibration standard, along with a comparison of their contributions to measurement uncertainty, is provided in Chapter 4. Whichever type of standard is used, the calibration process (normally implemented in the VNA firmware) will obtain values for the actual s-parameters of the standard, which can be used together with the measured s-parameters and the error model to characterise the error coefficients. This is performed using linear least-squares techniques in typical implementations.
@@ -407,11 +416,71 @@ to find values for $e_{11}$, $e_{22}$ and $\Delta$. These coefficients are then 
 
 \subsubsection{8-Term Model}
 
-\section{Large Signal Network Analysers}
+A great benefit of the 8-term model is the ability to characterise the error coefficients using standards which are only partially known - i.e. their S-parameters cannot be explicitly calculated. Reducing the amount of assumed knowledge of the standards also reduces the number of error sources and their impact on the accuracy of the calibration. Because the calibration fully characterises the VNA, the unknown parameters of the standards can even be calculated as a result, hence these calibrations are called ``self-calibrations''. However, the 8-term model can also be calibrated using classic 12-port routines such as Short-Open-Load-Thru\footnote{The misspelling of through as ``thru'' is a convention in the network analyser community first introduced in \cite{Engen_1979}.} (SOLT).
+
+There are several variations of self-calibration, including Thru-Short-Delay, Thru-Reflect-Line, Line-Reflect-Line and Line-Reflect-Match. Each routine uses a different collection of standards as defined in their name. For coaxial transmission line, which is used for most studies presented in this dissertation, the Thru-Reflect-Line (TRL) calibration is most common.
+
+TRL is the most accurate and widely supported two-port calibration routine implemented on VNAs. Not only does it require fewer parameters of the standards to be known than other non-self-calibrations, but the TRL parameters have excellent traceability because they are derived from physical measurements. This makes it the calibration of choice for National Metrology Institutes (NMIs) when working with primary standards (explained in Chapter 3). Of all three TRL standards, only parameters of the transmission line standard must be known, of which the characteristic impedance becomes the reference impedance of the calibrated VNA.
+
+One notable limitation of the TRL calibration is that it has limited usable bandwidth due to resonance of the line at certain frequencies (when $e^{\gamma(l_\textrm{L}-l_\textrm{T})}=1$, where $\gamma$ is the propagation constant and $l_\textrm{L}$ and $l_\textrm{T}$ are the line and thru length, respectively). For this reason, the multiline-TRL calibration was invented which uses several lines with overlapping usable bandwidths \cite{Marks_1991}.
+
+The mathematical method used for the TRL calibration of the 8-term error model is quite detailed and several resources provide good coverage of the derivation \cite{Engen_1979, Teppati_2013}.
+
+\section{Nonlinear Vector Network Analysers}
+
+To fully characterise devices which exhibit nonlinear behaviour, a nonlinear vector network analyzer (NVNA), also called a large signal network analyser (LSNA), is required. Compared with a standard VNA, these instruments allow the individual incident and scattered waves to be measured, rather than just their ratios. In addition, scattered waves at harmonics of the incident frequency can be measured.
+
+There are two main architectures of NVNA - sampler-based and mixer-based. Sampler-based instruments use a real-time sampling oscilloscope connected to directional couplers, whereas mixer-based NVNAs use a conventional VNA architecture with supplementary equipment described shortly. Traditionally, the oscilloscope system provided a larger measurement bandwidth (useful for communications simulations) and the mixer-based system offered higher dynamic range. The continued development of both technologies is reducing the limitations of each architecture and both are capable of performing a typical characterisation of a microwave power transistor. The mixer-based architecture was used for all experiments presented in this dissertation and will be explained in this section.
+
 \subsection{Absolute 8-Term Error Model}
+
+The 8-term error model used for VNA calibration can be used to correct the raw measurements of individual waves (absolute measurements) instead of just their ratios (relative measurements). As mentioned in the previous section, the 8-term model reduces to seven terms for relative measurements, but for absolute measurements the value of each term in the transmission tracking product $e_{01}e_{32}$ must be known. This is required because the NVNA receiver and source are set at different frequencies while measuring harmonics and so calibrated ratio measurements are not possible. Instead, the power waves are directly measured, requiring each error box to be known independently and all eight error coefficients characterised.
+
+To separate the transmission tracking terms, a single side of the error box must be measured. This cannot be done using passive standards and requires additional equipment - a power meter and phase reference. Typically the relative calibration, using VNA methods, is performed first, followed by the absolute calibration using the power meter and phase reference.
+
 \subsection{Power Meter Calibration}
-\subsection{Phase References}
+
+A calibrated power meter is connected to Port 1 of the NVNA and the source is enabled on that channel, providing the signal flow shown in Figure \ref{ch2_fig_powercal}. The magnitude of $e_{01}$ can be found by:
+
+\begin{equation}
+	|e_{01}| = \frac{|a_0|}{\sqrt{P_\textrm{meter}}}\sqrt{|e_{11}\Gamma^\textrm{M}_\textrm{PM}-\Delta|^2-|\Gamma^\textrm{M}_\textrm{PM}-e_{00}|^2}
+\end{equation}
+where $P_\textrm{meter}$ is the value read from the calibrated power meter and $\Gamma^\textrm{M}_\textrm{PM}$ is the raw reflection coefficient of the power meter ($b_0/a_0$).
+
+Although this example used Port 1, it is possible to connect the power meter to Port 2 and measure the magnitude of $e_{32}$ instead. This can be desirable if the test port connectors are different, or a lot of attenuation is present on a particular port which may reduce calibration accuracy. Once the magnitude of one term has been found, the other can be calculated by dividing it from the product obtained during the relative calibration. Because the magnitude and phase are orthogonal, the two absolute calibration steps can be performed on different ports, although some NVNA firmwares do not allow this.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{ch2_powercal}
+	\caption{Signal flow for the power calibration of an NVNA. The power meter has reflection coefficient $\Gamma_\textrm{PM}$.}
+	\label{ch2_fig_powercal}
+\end{figure}
+
+\subsection{Phase Reference}
+
+To obtain the phase of $e_{01}$, a phase reference is connected to Port 1 as shown in Figure \ref{ch2_fig_phasecal} and a measurement is made using the test receiver. This equipment produces a frequency comb with highly repeatable and known relative phases, driven from a reference controlled by the NVNA. The comb should contain frequency components (tones) at each of the harmonics which the NVNA is required to measure for the DUTs. More information on the phase reference is given in Chapter 4, Section 5.
+
+The phase of $e_{01}$ can be calculated using:
+
+\begin{align}
+	\varphi(e_{01}) &= \varphi\Big(\frac{a_0}{a_\textrm{R}}[\Gamma^\textrm{M}_\textrm{R}-\Gamma^\textrm{M}_\textrm{R}\Gamma_\textrm{R}e_{11}-e_{00}+\Delta\Gamma_\textrm{R}]\Big) \\
+	&=\varphi(a_0) + \varphi(\Gamma^\textrm{M}_\textrm{R}-\Gamma^\textrm{M}_\textrm{R}\Gamma_\textrm{R}e_{11}-e_{00}+\Delta\Gamma_\textrm{R}) - \varphi(a_\textrm{R}) \label{ch2_eqn_phasecal}
+\end{align}
+where $a_\textrm{R}$ is the known signal from the phase reference, $\Gamma^\textrm{M}_\textrm{R}$ is the raw reflection coefficient of the phase reference ($b_0/a_0$) and $\Gamma_\textrm{R}$ is a previously measured and corrected reflection coefficient of the phase reference. It can be seen from (\ref{ch2_eqn_phasecal}) that only the phases (relative to the fundamental driving tone) of the phase reference need to be known, and this information is supplied with the equipment.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{ch2_phasecal}
+	\caption{Signal flow for the phase calibration of an NVNA. The phase reference produces the broadband signal $a_\textrm{R}$ and has reflection coefficient $\Gamma_\textrm{PR}$.}
+	\label{ch2_fig_phasecal}
+\end{figure}
+
 \section{Conclusions}
+
+This chapter has introduced RF and microwave measurement techniques and given a brief overview of the theory behind VNA and NVNA measurements. Once it was established that electromagnetic wave measurements are not as straightforward as those performed with DC or even low frequency AC circuits, fundamental definitions were presented including the power waves used by VNA and NVNAs. Derived properties such as gain and insertion loss were expressed using S-parameters, which were shown to fully model the frequency-dependent response of a linear $n$-port device. By comparison, the additional measurement challenges required to characterise nonlinear devices could not be contained in the S-parameter model, and more capable solutions are required as covered in Chapter 5.
+
+In the second half of the Chapter, the architecture and operation of the VNA was presented. Calibration models to correct for systematic errors in the instrument and test setup were explained along with the calibration methods used to characterise them. Finally, the NVNA was introduced as an instrument for measuring devices with a nonlinear response, namely microwave power amplifiers. Additional requirements for mixer-based NVNA calibration, in contrast with the VNA it is derived from, were described.
+
 \addcontentsline{toc}{section}{Bibliography}
 \printbibliography
 \end{refsection}

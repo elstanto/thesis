@@ -429,6 +429,75 @@
       \verb https://books.google.co.uk/books?id=jhzfMLh9gFoC
       \endverb
     \endentry
+    \entry{Engen_1979}{article}{}
+      \name{author}{2}{}{%
+        {{hash=28213d63bf04f657b8ae3ff503bb6991}{%
+           family={{Engen}},
+           familyi={E\bibinitperiod},
+           given={G.\bibnamedelimi F.},
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=b60c77fe432088562cd4769d535e7c2b}{%
+           family={{Hoer}},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \strng{fullhash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \strng{bibnamehash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \strng{authorbibnamehash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \strng{authornamehash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \strng{authorfullhash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Thru-Reflect-Line: An Improved Technique for Calibrating the Dual Six-Port Automatic Network Analyzer}
+      \field{volume}{27}
+      \field{year}{1979}
+      \field{pages}{987\bibrangedash 993}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/TMTT.1979.1129778
+      \endverb
+      \keyw{Calibration;Detectors;Scattering parameters;Senior members;Circuits;Microwave devices;Microwave measurements;Test equipment;Particle measurements}
+    \endentry
+    \entry{Marks_1991}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6a2301da3cd29f54bd0d18ecaae18f70}{%
+           family={Marks},
+           familyi={M\bibinitperiod},
+           given={R.\bibnamedelimi B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \strng{fullhash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \strng{bibnamehash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \strng{authorbibnamehash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \strng{authornamehash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \strng{authorfullhash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{A multiline method of network analyzer calibration}
+      \field{volume}{39}
+      \field{year}{1991}
+      \field{pages}{1205\bibrangedash 1215}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/22.85388
+      \endverb
+      \keyw{calibration;microwave measurement;network analysers;TRL method;accuracy;assessment of calibration accuracy;bandwidth;calibration of network analyzers;imperfect connector repeatability;linearized error analysis;multiline method of network analyzer calibration;multiple transmission line standards;random errors reduction;redundant transmission line standards;statistical treatment;thru-reflect-line calibration method;Bandwidth;Calibration;Connectors;Covariance matrix;Error analysis;Frequency;Iterative methods;Transmission line matrix methods;Transmission line theory;Transmission lines}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
