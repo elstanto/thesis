@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.9 $
+% $ biblatex bbl format version 3.0 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -21,43 +21,43 @@
   \datalist[entry]{none/global//global/global}
     \entry{Votsi_2020}{inproceedings}{}
       \name{author}{6}{}{%
-        {{hash=e93b0401056658d8c449c668a9409772}{%
+        {{hash=e463724b7a4bbf34fc2addde88088be0}{%
            family={Votsi},
            familyi={V\bibinitperiod},
            given={H.},
            giveni={H\bibinitperiod}}}%
-        {{hash=f00a876f9d1c481b6ffe0e9c80634367}{%
+        {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
            family={Stant},
            familyi={S\bibinitperiod},
            given={L.\bibnamedelimi T.},
            giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=c3919dff1bbaf63996fea89b8da3f76a}{%
+        {{hash=b837a3146918ad772bf16460ea11c387}{%
            family={Salter},
            familyi={S\bibinitperiod},
            given={M.\bibnamedelimi J.},
            giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=26cc40f93cca191e68376e2320530978}{%
+        {{hash=d32559a5fc6b9c48ad950f89259bc465}{%
            family={Li},
            familyi={L\bibinitperiod},
            given={C.},
            giveni={C\bibinitperiod}}}%
-        {{hash=d9f50c82b3f35f41ea3a4a23eee985bc}{%
+        {{hash=7456470a8b102ff66439a30d2678b78e}{%
            family={Ridler},
            familyi={R\bibinitperiod},
            given={N.\bibnamedelimi M.},
            giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=0d69723dc0f7b319726e3c104c380985}{%
+        {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
            family={Aaen},
            familyi={A\bibinitperiod},
            given={P.\bibnamedelimi H.},
            giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
       }
-      \strng{namehash}{8daf827c359294fc967b7080ba3a1510}
-      \strng{fullhash}{195e9c06f498ed1905e648f5859ec33e}
-      \strng{bibnamehash}{195e9c06f498ed1905e648f5859ec33e}
-      \strng{authorbibnamehash}{195e9c06f498ed1905e648f5859ec33e}
-      \strng{authornamehash}{8daf827c359294fc967b7080ba3a1510}
-      \strng{authorfullhash}{195e9c06f498ed1905e648f5859ec33e}
+      \strng{namehash}{d9fabaed563bb2fe2b4a90205886689f}
+      \strng{fullhash}{80ef6aa9d7323ab2ca07117bf8ba0bab}
+      \strng{bibnamehash}{80ef6aa9d7323ab2ca07117bf8ba0bab}
+      \strng{authorbibnamehash}{80ef6aa9d7323ab2ca07117bf8ba0bab}
+      \strng{authornamehash}{d9fabaed563bb2fe2b4a90205886689f}
+      \strng{authorfullhash}{80ef6aa9d7323ab2ca07117bf8ba0bab}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
@@ -65,25 +65,26 @@
       \field{booktitle}{2020 94th ARFTG Microwave Measurement Conference (ARFTG)}
       \field{title}{An Interferometric Characterization Technique for Extreme Impedance Microwave Devices}
       \field{year}{submitted}
+      \true{nocite}
     \endentry
     \entry{Salter_2018}{inproceedings}{}
       \name{author}{4}{}{%
-        {{hash=c3919dff1bbaf63996fea89b8da3f76a}{%
+        {{hash=b837a3146918ad772bf16460ea11c387}{%
            family={Salter},
            familyi={S\bibinitperiod},
            given={M.\bibnamedelimi J.},
            giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=f00a876f9d1c481b6ffe0e9c80634367}{%
+        {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
            family={Stant},
            familyi={S\bibinitperiod},
            given={L.\bibnamedelimi T.},
            giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=d883f8f68eceadaa782646f404541fcc}{%
+        {{hash=26e73ca6fc25eaefa6fbd61adc7786b0}{%
            family={Buisman},
            familyi={B\bibinitperiod},
            given={K.},
            giveni={K\bibinitperiod}}}%
-        {{hash=93dc64fc14b5073d924fb9e95d474801}{%
+        {{hash=23a8f283e804ecd2db10d9938ccaeb92}{%
            family={Nielsen},
            familyi={N\bibinitperiod},
            given={T.},
@@ -92,12 +93,12 @@
       \list{location}{1}{%
         {Brive}%
       }
-      \strng{namehash}{26ab8faa6e5cace8ce88411b487cae99}
-      \strng{fullhash}{3a1cb929105867d77066af18df30f1c9}
-      \strng{bibnamehash}{3a1cb929105867d77066af18df30f1c9}
-      \strng{authorbibnamehash}{3a1cb929105867d77066af18df30f1c9}
-      \strng{authornamehash}{26ab8faa6e5cace8ce88411b487cae99}
-      \strng{authorfullhash}{3a1cb929105867d77066af18df30f1c9}
+      \strng{namehash}{98d27a6ef22ccb5afeab124c49af95b3}
+      \strng{fullhash}{411277369dc417ccc021a357e7a857be}
+      \strng{bibnamehash}{411277369dc417ccc021a357e7a857be}
+      \strng{authorbibnamehash}{411277369dc417ccc021a357e7a857be}
+      \strng{authornamehash}{98d27a6ef22ccb5afeab124c49af95b3}
+      \strng{authorfullhash}{411277369dc417ccc021a357e7a857be}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
@@ -106,63 +107,65 @@
       \field{month}{7}
       \field{title}{An Inter-Laboratory Comparison of {NVNA} Measurements}
       \field{year}{2018}
+      \true{nocite}
     \endentry
     \entry{Stant_2018_TMTT}{article}{}
       \name{author}{5}{}{%
-        {{hash=f00a876f9d1c481b6ffe0e9c80634367}{%
+        {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
            family={Stant},
            familyi={S\bibinitperiod},
            given={L.\bibnamedelimi T.},
            giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=c3919dff1bbaf63996fea89b8da3f76a}{%
+        {{hash=b837a3146918ad772bf16460ea11c387}{%
            family={Salter},
            familyi={S\bibinitperiod},
            given={M.\bibnamedelimi J.},
            giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=d9f50c82b3f35f41ea3a4a23eee985bc}{%
+        {{hash=7456470a8b102ff66439a30d2678b78e}{%
            family={Ridler},
            familyi={R\bibinitperiod},
            given={N.\bibnamedelimi M.},
            giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=d3ba843c131b901b1148ef2be621fe4c}{%
+        {{hash=894a26e0347e1a769804de4b0068f0f4}{%
            family={Williams},
            familyi={W\bibinitperiod},
            given={D.\bibnamedelimi F.},
            giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=0d69723dc0f7b319726e3c104c380985}{%
+        {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
            family={Aaen},
            familyi={A\bibinitperiod},
            given={P.\bibnamedelimi H.},
            giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
       }
-      \strng{namehash}{d98078be957d4cd5a62ad60c1d81fc66}
-      \strng{fullhash}{800d7ecf6cc82f5e4731dd054ece4f3f}
-      \strng{bibnamehash}{800d7ecf6cc82f5e4731dd054ece4f3f}
-      \strng{authorbibnamehash}{800d7ecf6cc82f5e4731dd054ece4f3f}
-      \strng{authornamehash}{d98078be957d4cd5a62ad60c1d81fc66}
-      \strng{authorfullhash}{800d7ecf6cc82f5e4731dd054ece4f3f}
+      \strng{namehash}{2e53cf84fdd29e73dafa62eb9f738f9b}
+      \strng{fullhash}{e7b8c1bbb7b21d18b93e1c35618f0b1a}
+      \strng{bibnamehash}{e7b8c1bbb7b21d18b93e1c35618f0b1a}
+      \strng{authorbibnamehash}{e7b8c1bbb7b21d18b93e1c35618f0b1a}
+      \strng{authornamehash}{2e53cf84fdd29e73dafa62eb9f738f9b}
+      \strng{authorfullhash}{e7b8c1bbb7b21d18b93e1c35618f0b1a}
       \field{sortinit}{3}
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Trans. Microw. Theory Techn.}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
       \field{month}{11}
       \field{title}{Propagating Measurement Uncertainty to Microwave Amplifier Nonlinear Behavioural Models}
       \field{year}{2018}
+      \true{nocite}
     \endentry
     \entry{Stant_2017}{article}{}
       \name{author}{3}{}{%
-        {{hash=f00a876f9d1c481b6ffe0e9c80634367}{%
+        {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
            family={Stant},
            familyi={S\bibinitperiod},
            given={L.\bibnamedelimi T.},
            giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=0d69723dc0f7b319726e3c104c380985}{%
+        {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
            family={Aaen},
            familyi={A\bibinitperiod},
            given={P.\bibnamedelimi H.},
            giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=d9f50c82b3f35f41ea3a4a23eee985bc}{%
+        {{hash=7456470a8b102ff66439a30d2678b78e}{%
            family={Ridler},
            familyi={R\bibinitperiod},
            given={N.\bibnamedelimi M.},
@@ -172,22 +175,24 @@
         {Institution of Engineering}%
         {Technology ({IET})}%
       }
-      \strng{namehash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \strng{fullhash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \strng{bibnamehash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \strng{authorbibnamehash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \strng{authornamehash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \strng{authorfullhash}{f89caf23c88d12cfec647b6af3aa3c31}
+      \strng{namehash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{fullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{bibnamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{authorbibnamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{authornamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{authorfullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \field{extraname}{1}
       \field{sortinit}{4}
       \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IET Microwaves Antennas Propag.}
+      \field{journaltitle}{IET Microw. Antennas Propag.}
       \field{month}{2}
       \field{number}{3}
       \field{title}{Evaluating residual errors in waveguide {VNAs} from microwave to submillimetre-wave frequencies}
       \field{volume}{11}
       \field{year}{2017}
+      \true{nocite}
       \field{pages}{324\bibrangedash 329}
       \range{pages}{6}
       \verb{doi}
@@ -196,17 +201,17 @@
     \endentry
     \entry{Stant_2016}{article}{}
       \name{author}{3}{}{%
-        {{hash=f00a876f9d1c481b6ffe0e9c80634367}{%
+        {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
            family={Stant},
            familyi={S\bibinitperiod},
            given={L.\bibnamedelimi T.},
            giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=0d69723dc0f7b319726e3c104c380985}{%
+        {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
            family={Aaen},
            familyi={A\bibinitperiod},
            given={P.\bibnamedelimi H.},
            giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=d9f50c82b3f35f41ea3a4a23eee985bc}{%
+        {{hash=7456470a8b102ff66439a30d2678b78e}{%
            family={Ridler},
            familyi={R\bibinitperiod},
            given={N.\bibnamedelimi M.},
@@ -215,12 +220,13 @@
       \list{publisher}{1}{%
         {Elsevier {BV}}%
       }
-      \strng{namehash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \strng{fullhash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \strng{bibnamehash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \strng{authorbibnamehash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \strng{authornamehash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \strng{authorfullhash}{f89caf23c88d12cfec647b6af3aa3c31}
+      \strng{namehash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{fullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{bibnamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{authorbibnamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{authornamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{authorfullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \field{extraname}{2}
       \field{sortinit}{5}
       \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
@@ -230,99 +236,26 @@
       \field{title}{Comparing methods for evaluating measurement uncertainty given in the {JCGM} `Evaluation of Measurement Data' documents}
       \field{volume}{94}
       \field{year}{2016}
+      \true{nocite}
       \field{pages}{847\bibrangedash 851}
       \range{pages}{5}
       \verb{doi}
       \verb 10.1016/j.measurement.2016.08.015
       \endverb
     \endentry
-  \enddatalist
-\endrefsection
-
-\refsection{2}
-  \datalist[entry]{none/global//global/global}
-    \entry{Stant_2017_pgi}{unpublished}{}
-      \name{author}{1}{}{%
-        {{hash=f00a876f9d1c481b6ffe0e9c80634367}{%
-           family={Stant},
-           familyi={S\bibinitperiod},
-           given={L.\bibnamedelimi T.},
-           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-      }
-      \strng{namehash}{f00a876f9d1c481b6ffe0e9c80634367}
-      \strng{fullhash}{f00a876f9d1c481b6ffe0e9c80634367}
-      \strng{bibnamehash}{f00a876f9d1c481b6ffe0e9c80634367}
-      \strng{authorbibnamehash}{f00a876f9d1c481b6ffe0e9c80634367}
-      \strng{authornamehash}{f00a876f9d1c481b6ffe0e9c80634367}
-      \strng{authorfullhash}{f00a876f9d1c481b6ffe0e9c80634367}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{note}{2nd NPL Postgraduate Institute Annual Conference, Teddington, UK}
-      \field{title}{Comparing Methods For Evaluating Measurement Uncertainty Given In The {JCGM} ‘Evaluation Of Measurement Data’ Documents}
-      \field{year}{2017}
-    \endentry
-    \entry{Stant_2017_feps}{unpublished}{}
-      \name{author}{1}{}{%
-        {{hash=f00a876f9d1c481b6ffe0e9c80634367}{%
-           family={Stant},
-           familyi={S\bibinitperiod},
-           given={L.\bibnamedelimi T.},
-           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-      }
-      \strng{namehash}{f00a876f9d1c481b6ffe0e9c80634367}
-      \strng{fullhash}{f00a876f9d1c481b6ffe0e9c80634367}
-      \strng{bibnamehash}{f00a876f9d1c481b6ffe0e9c80634367}
-      \strng{authorbibnamehash}{f00a876f9d1c481b6ffe0e9c80634367}
-      \strng{authornamehash}{f00a876f9d1c481b6ffe0e9c80634367}
-      \strng{authorfullhash}{f00a876f9d1c481b6ffe0e9c80634367}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{6}
-      \field{note}{Faculty of Engineering and Physical Sciences Annual Festival of Research, University of Surrey}
-      \field{title}{Comparing Methods For Evaluating Measurement Uncertainty Given In The {JCGM} ‘Evaluation Of Measurement Data’ Documents}
-      \field{year}{2017}
-    \endentry
-    \entry{Stant_2016_pg}{unpublished}{}
-      \name{author}{1}{}{%
-        {{hash=f00a876f9d1c481b6ffe0e9c80634367}{%
-           family={Stant},
-           familyi={S\bibinitperiod},
-           given={L.\bibnamedelimi T.},
-           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-      }
-      \strng{namehash}{f00a876f9d1c481b6ffe0e9c80634367}
-      \strng{fullhash}{f00a876f9d1c481b6ffe0e9c80634367}
-      \strng{bibnamehash}{f00a876f9d1c481b6ffe0e9c80634367}
-      \strng{authorbibnamehash}{f00a876f9d1c481b6ffe0e9c80634367}
-      \strng{authornamehash}{f00a876f9d1c481b6ffe0e9c80634367}
-      \strng{authorfullhash}{f00a876f9d1c481b6ffe0e9c80634367}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{4}
-      \field{note}{6th Annual Postgraduate Research Conference, University of Surrey}
-      \field{title}{Evaluating Measurement Uncertainty in Microwave and Terahertz Frequency Metrology}
-      \field{year}{2016}
-    \endentry
     \entry{Stant_2016_Coll}{inproceedings}{}
       \name{author}{3}{}{%
-        {{hash=f00a876f9d1c481b6ffe0e9c80634367}{%
+        {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
            family={Stant},
            familyi={S\bibinitperiod},
            given={L.\bibnamedelimi T.},
            giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=0d69723dc0f7b319726e3c104c380985}{%
+        {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
            family={Aaen},
            familyi={A\bibinitperiod},
            given={P.\bibnamedelimi H.},
            giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=d9f50c82b3f35f41ea3a4a23eee985bc}{%
+        {{hash=7456470a8b102ff66439a30d2678b78e}{%
            family={Ridler},
            familyi={R\bibinitperiod},
            given={N.\bibnamedelimi M.},
@@ -332,22 +265,105 @@
         {Institution of Engineering}%
         {Technology ({IET})}%
       }
-      \strng{namehash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \strng{fullhash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \strng{bibnamehash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \strng{authorbibnamehash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \strng{authornamehash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \strng{authorfullhash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \strng{namehash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{fullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{bibnamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{authorbibnamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{authornamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{authorfullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \field{extraname}{3}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{IET Colloquium on Millimetre-Wave and Terahertz Engineering \& Technology 2016}
+      \field{month}{3}
       \field{title}{Evaluating residual errors in waveguide network analysers from microwave to submillimetre-wave frequencies}
       \field{year}{2016}
+      \true{nocite}
       \verb{doi}
       \verb 10.1049/ic.2016.0016
       \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{2}
+  \datalist[entry]{none/global//global/global}
+    \entry{Stant_2017_pgi}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
+           family={Stant},
+           familyi={S\bibinitperiod},
+           given={L.\bibnamedelimi T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{fullhash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{bibnamehash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{authorbibnamehash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{authornamehash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{authorfullhash}{0630c65220fb64f5c328dbf26187c4ab}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{2nd NPL Postgraduate Institute Annual Conference, Teddington, UK}
+      \field{title}{Comparing Methods For Evaluating Measurement Uncertainty Given In The {JCGM} ‘Evaluation Of Measurement Data’ Documents}
+      \field{year}{2017}
+      \true{nocite}
+    \endentry
+    \entry{Stant_2017_feps}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
+           family={Stant},
+           familyi={S\bibinitperiod},
+           given={L.\bibnamedelimi T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{fullhash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{bibnamehash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{authorbibnamehash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{authornamehash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{authorfullhash}{0630c65220fb64f5c328dbf26187c4ab}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{note}{Faculty of Engineering and Physical Sciences Annual Festival of Research, University of Surrey}
+      \field{title}{Comparing Methods For Evaluating Measurement Uncertainty Given In The {JCGM} ‘Evaluation Of Measurement Data’ Documents}
+      \field{year}{2017}
+      \true{nocite}
+    \endentry
+    \entry{Stant_2016_pg}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
+           family={Stant},
+           familyi={S\bibinitperiod},
+           given={L.\bibnamedelimi T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{fullhash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{bibnamehash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{authorbibnamehash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{authornamehash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{authorfullhash}{0630c65220fb64f5c328dbf26187c4ab}
+      \field{extraname}{3}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{note}{6th Annual Postgraduate Research Conference, University of Surrey}
+      \field{title}{Evaluating Measurement Uncertainty in Microwave and Terahertz Frequency Metrology}
+      \field{year}{2016}
+      \true{nocite}
     \endentry
   \enddatalist
 \endrefsection

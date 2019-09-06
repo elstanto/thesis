@@ -1504,7 +1504,7 @@
 
 @InProceedings{Casbon_2015,
   author    = {M. A. {Casbon} and P. J. {Tasker}},
-  title     = {Comparison of sampler and VNA based Large Signal Measurement Systems (LSNA) under CW and pulsed operation},
+  title     = {Comparison of sampler and {VNA} based Large Signal Measurement Systems ({LSNA}) under {CW} and pulsed operation},
   booktitle = {85th ARFTG Microw. Meas. Conf. Dig.},
   year      = {2015},
   pages     = {1--3},

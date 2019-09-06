@@ -82,6 +82,7 @@
       <file>front-matter.bcf</file>
     </requires>
     <requires type="editable">
+      <file>../IEEEabrv.bib</file>
       <file>../references.bib</file>
     </requires>
   </external>

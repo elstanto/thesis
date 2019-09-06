@@ -1,0 +1,30 @@
+\ifglsentryexists{vna}{}%
+{%
+\gls@defglossaryentry{vna}%
+{%
+name={VNA},%
+sort={VNA},%
+type={acronym},%
+first={Vector Network Analyser\glsspace (VNA)},%
+firstplural={Vector Network Analysers\glsspace (VNAs)},%
+text={VNA},%
+plural={VNAs},%
+description={Vector Network Analyser},%
+descriptionplural={Vector Network Analyser\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Vector Network Analyser},%
+longplural={Vector Network Analysers},%
+short={VNA},%
+shortplural={VNAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
