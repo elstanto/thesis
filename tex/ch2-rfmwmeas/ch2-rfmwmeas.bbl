@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.9 $
+% $ biblatex bbl format version 3.0 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -21,24 +21,24 @@
   \datalist[entry]{none/global//global/global}
     \entry{Williams_2013}{article}{}
       \name{author}{1}{}{%
-        {{hash=4efc89695741c9c2cad813e0c587214d}{%
+        {{hash=0cf7d83b3c925107374947fe98b35589}{%
            family={{Williams}},
            familyi={W\bibinitperiod},
            given={D.},
            giveni={D\bibinitperiod}}}%
       }
-      \strng{namehash}{4efc89695741c9c2cad813e0c587214d}
-      \strng{fullhash}{4efc89695741c9c2cad813e0c587214d}
-      \strng{bibnamehash}{4efc89695741c9c2cad813e0c587214d}
-      \strng{authorbibnamehash}{4efc89695741c9c2cad813e0c587214d}
-      \strng{authornamehash}{4efc89695741c9c2cad813e0c587214d}
-      \strng{authorfullhash}{4efc89695741c9c2cad813e0c587214d}
+      \strng{namehash}{0cf7d83b3c925107374947fe98b35589}
+      \strng{fullhash}{0cf7d83b3c925107374947fe98b35589}
+      \strng{bibnamehash}{0cf7d83b3c925107374947fe98b35589}
+      \strng{authorbibnamehash}{0cf7d83b3c925107374947fe98b35589}
+      \strng{authornamehash}{0cf7d83b3c925107374947fe98b35589}
+      \strng{authorfullhash}{0cf7d83b3c925107374947fe98b35589}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1527-3342}
-      \field{journaltitle}{IEEE Microwave Magazine}
+      \field{journaltitle}{{IEEE} Microw. Mag.}
       \field{month}{11}
       \field{number}{7}
       \field{title}{Traveling Waves and Power Waves: Building a Solid Foundation for Microwave Circuit Theory}
@@ -53,7 +53,7 @@
     \endentry
     \entry{Marcuvitz_1951}{book}{}
       \name{author}{1}{}{%
-        {{hash=59d223de728b5ceea6b395944757ae05}{%
+        {{hash=fd3ee662d9a492c5a7fee0c1d95a20b2}{%
            family={Marcuvitz},
            familyi={M\bibinitperiod},
            given={N.},
@@ -62,12 +62,12 @@
       \list{publisher}{1}{%
         {McGraw-Hill}%
       }
-      \strng{namehash}{59d223de728b5ceea6b395944757ae05}
-      \strng{fullhash}{59d223de728b5ceea6b395944757ae05}
-      \strng{bibnamehash}{59d223de728b5ceea6b395944757ae05}
-      \strng{authorbibnamehash}{59d223de728b5ceea6b395944757ae05}
-      \strng{authornamehash}{59d223de728b5ceea6b395944757ae05}
-      \strng{authorfullhash}{59d223de728b5ceea6b395944757ae05}
+      \strng{namehash}{fd3ee662d9a492c5a7fee0c1d95a20b2}
+      \strng{fullhash}{fd3ee662d9a492c5a7fee0c1d95a20b2}
+      \strng{bibnamehash}{fd3ee662d9a492c5a7fee0c1d95a20b2}
+      \strng{authorbibnamehash}{fd3ee662d9a492c5a7fee0c1d95a20b2}
+      \strng{authornamehash}{fd3ee662d9a492c5a7fee0c1d95a20b2}
+      \strng{authorfullhash}{fd3ee662d9a492c5a7fee0c1d95a20b2}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
@@ -76,12 +76,6 @@
       \field{series}{Electromagnetics and Radar Series}
       \field{title}{Waveguide Handbook}
       \field{year}{1951}
-      \verb{urlraw}
-      \verb https://books.google.co.uk/books?id=Ao34iFuNZgIC
-      \endverb
-      \verb{url}
-      \verb https://books.google.co.uk/books?id=Ao34iFuNZgIC
-      \endverb
     \endentry
     \entry{Marks_1992}{inproceedings}{}
       \name{author}{2}{}{%
@@ -90,18 +84,18 @@
            familyi={M\bibinitperiod},
            given={Roger},
            giveni={R\bibinitperiod}}}%
-        {{hash=8dcd03dc154a942c55f75f151fb58f28}{%
+        {{hash=cca6f2070bddacc1588932881c2fd7ba}{%
            family={Williams},
            familyi={W\bibinitperiod},
            given={Dylan\bibnamedelima F.},
            giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
       }
-      \strng{namehash}{4d2627c2299f600a4bf07a9179e1c13e}
-      \strng{fullhash}{4d2627c2299f600a4bf07a9179e1c13e}
-      \strng{bibnamehash}{4d2627c2299f600a4bf07a9179e1c13e}
-      \strng{authorbibnamehash}{4d2627c2299f600a4bf07a9179e1c13e}
-      \strng{authornamehash}{4d2627c2299f600a4bf07a9179e1c13e}
-      \strng{authorfullhash}{4d2627c2299f600a4bf07a9179e1c13e}
+      \strng{namehash}{e7bc8a3eb0782999f013eccf954498b3}
+      \strng{fullhash}{e7bc8a3eb0782999f013eccf954498b3}
+      \strng{bibnamehash}{e7bc8a3eb0782999f013eccf954498b3}
+      \strng{authorbibnamehash}{e7bc8a3eb0782999f013eccf954498b3}
+      \strng{authornamehash}{e7bc8a3eb0782999f013eccf954498b3}
+      \strng{authorfullhash}{e7bc8a3eb0782999f013eccf954498b3}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
@@ -112,24 +106,24 @@
     \endentry
     \entry{Kurokawa_1965}{article}{}
       \name{author}{1}{}{%
-        {{hash=bcaeb744de980341eb5e22cd4c377369}{%
+        {{hash=59c319093de84197134f6aa9929ad611}{%
            family={{Kurokawa}},
            familyi={K\bibinitperiod},
            given={K.},
            giveni={K\bibinitperiod}}}%
       }
-      \strng{namehash}{bcaeb744de980341eb5e22cd4c377369}
-      \strng{fullhash}{bcaeb744de980341eb5e22cd4c377369}
-      \strng{bibnamehash}{bcaeb744de980341eb5e22cd4c377369}
-      \strng{authorbibnamehash}{bcaeb744de980341eb5e22cd4c377369}
-      \strng{authornamehash}{bcaeb744de980341eb5e22cd4c377369}
-      \strng{authorfullhash}{bcaeb744de980341eb5e22cd4c377369}
+      \strng{namehash}{59c319093de84197134f6aa9929ad611}
+      \strng{fullhash}{59c319093de84197134f6aa9929ad611}
+      \strng{bibnamehash}{59c319093de84197134f6aa9929ad611}
+      \strng{authorbibnamehash}{59c319093de84197134f6aa9929ad611}
+      \strng{authornamehash}{59c319093de84197134f6aa9929ad611}
+      \strng{authorfullhash}{59c319093de84197134f6aa9929ad611}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
-      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
       \field{month}{3}
       \field{number}{2}
       \field{title}{Power Waves and the Scattering Matrix}
@@ -144,29 +138,29 @@
     \endentry
     \entry{Williams_2001}{article}{}
       \name{author}{2}{}{%
-        {{hash=d3ba843c131b901b1148ef2be621fe4c}{%
+        {{hash=894a26e0347e1a769804de4b0068f0f4}{%
            family={{Williams}},
            familyi={W\bibinitperiod},
            given={D.\bibnamedelimi F.},
            giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=a2fbbb28c908aaab1898ccb3560aebc0}{%
+        {{hash=5672e68dcbc74607a2fe05ec72c26e13}{%
            family={{Alpert}},
            familyi={A\bibinitperiod},
            given={B.\bibnamedelimi K.},
            giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
       }
-      \strng{namehash}{0931d5bd0364a4995b3e9c958631ad8f}
-      \strng{fullhash}{0931d5bd0364a4995b3e9c958631ad8f}
-      \strng{bibnamehash}{0931d5bd0364a4995b3e9c958631ad8f}
-      \strng{authorbibnamehash}{0931d5bd0364a4995b3e9c958631ad8f}
-      \strng{authornamehash}{0931d5bd0364a4995b3e9c958631ad8f}
-      \strng{authorfullhash}{0931d5bd0364a4995b3e9c958631ad8f}
+      \strng{namehash}{d520d1525858204a5b60aed4c1a1d518}
+      \strng{fullhash}{d520d1525858204a5b60aed4c1a1d518}
+      \strng{bibnamehash}{d520d1525858204a5b60aed4c1a1d518}
+      \strng{authorbibnamehash}{d520d1525858204a5b60aed4c1a1d518}
+      \strng{authornamehash}{d520d1525858204a5b60aed4c1a1d518}
+      \strng{authorfullhash}{d520d1525858204a5b60aed4c1a1d518}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
-      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
       \field{month}{4}
       \field{number}{4}
       \field{title}{Causality and waveguide circuit theory}
@@ -181,18 +175,18 @@
     \endentry
     \entry{Smith_1939}{article}{}
       \name{author}{1}{}{%
-        {{hash=62222785ca9c4bb4f0deb05adda96e1a}{%
+        {{hash=9411b995b68a49c924c3f6f1bf17f314}{%
            family={Smith},
            familyi={S\bibinitperiod},
            given={P.\bibnamedelimi H.},
            giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
       }
-      \strng{namehash}{62222785ca9c4bb4f0deb05adda96e1a}
-      \strng{fullhash}{62222785ca9c4bb4f0deb05adda96e1a}
-      \strng{bibnamehash}{62222785ca9c4bb4f0deb05adda96e1a}
-      \strng{authorbibnamehash}{62222785ca9c4bb4f0deb05adda96e1a}
-      \strng{authornamehash}{62222785ca9c4bb4f0deb05adda96e1a}
-      \strng{authorfullhash}{62222785ca9c4bb4f0deb05adda96e1a}
+      \strng{namehash}{9411b995b68a49c924c3f6f1bf17f314}
+      \strng{fullhash}{9411b995b68a49c924c3f6f1bf17f314}
+      \strng{bibnamehash}{9411b995b68a49c924c3f6f1bf17f314}
+      \strng{authorbibnamehash}{9411b995b68a49c924c3f6f1bf17f314}
+      \strng{authornamehash}{9411b995b68a49c924c3f6f1bf17f314}
+      \strng{authorfullhash}{9411b995b68a49c924c3f6f1bf17f314}
       \field{sortinit}{4}
       \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
@@ -208,7 +202,7 @@
     \endentry
     \entry{Pozar_2004}{book}{}
       \name{author}{1}{}{%
-        {{hash=3f8104aa9247dfe15ec98f085a1f324e}{%
+        {{hash=c3d8e666fc5a356e1abefe2a4fea5cad}{%
            family={Pozar},
            familyi={P\bibinitperiod},
            given={D.\bibnamedelimi M.},
@@ -217,12 +211,12 @@
       \list{publisher}{1}{%
         {Wiley}%
       }
-      \strng{namehash}{3f8104aa9247dfe15ec98f085a1f324e}
-      \strng{fullhash}{3f8104aa9247dfe15ec98f085a1f324e}
-      \strng{bibnamehash}{3f8104aa9247dfe15ec98f085a1f324e}
-      \strng{authorbibnamehash}{3f8104aa9247dfe15ec98f085a1f324e}
-      \strng{authornamehash}{3f8104aa9247dfe15ec98f085a1f324e}
-      \strng{authorfullhash}{3f8104aa9247dfe15ec98f085a1f324e}
+      \strng{namehash}{c3d8e666fc5a356e1abefe2a4fea5cad}
+      \strng{fullhash}{c3d8e666fc5a356e1abefe2a4fea5cad}
+      \strng{bibnamehash}{c3d8e666fc5a356e1abefe2a4fea5cad}
+      \strng{authorbibnamehash}{c3d8e666fc5a356e1abefe2a4fea5cad}
+      \strng{authornamehash}{c3d8e666fc5a356e1abefe2a4fea5cad}
+      \strng{authorfullhash}{c3d8e666fc5a356e1abefe2a4fea5cad}
       \field{sortinit}{5}
       \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
@@ -230,12 +224,6 @@
       \field{isbn}{9780471448785}
       \field{title}{Microwave Engineering}
       \field{year}{2004}
-      \verb{urlraw}
-      \verb https://books.google.co.uk/books?id=4wzpQwAACAAJ
-      \endverb
-      \verb{url}
-      \verb https://books.google.co.uk/books?id=4wzpQwAACAAJ
-      \endverb
     \endentry
     \entry{Teppati_2013}{book}{}
       \list{publisher}{1}{%
@@ -253,7 +241,7 @@
     \endentry
     \entry{Dunsmore_2012}{book}{}
       \name{author}{1}{}{%
-        {{hash=4788ae50d1bddbec38d02a4b1e306a70}{%
+        {{hash=f556849382a409f8d88d41a47ee4454e}{%
            family={Dunsmore},
            familyi={D\bibinitperiod},
            given={J.\bibnamedelimi P.},
@@ -262,12 +250,12 @@
       \list{publisher}{1}{%
         {Wiley}%
       }
-      \strng{namehash}{4788ae50d1bddbec38d02a4b1e306a70}
-      \strng{fullhash}{4788ae50d1bddbec38d02a4b1e306a70}
-      \strng{bibnamehash}{4788ae50d1bddbec38d02a4b1e306a70}
-      \strng{authorbibnamehash}{4788ae50d1bddbec38d02a4b1e306a70}
-      \strng{authornamehash}{4788ae50d1bddbec38d02a4b1e306a70}
-      \strng{authorfullhash}{4788ae50d1bddbec38d02a4b1e306a70}
+      \strng{namehash}{f556849382a409f8d88d41a47ee4454e}
+      \strng{fullhash}{f556849382a409f8d88d41a47ee4454e}
+      \strng{bibnamehash}{f556849382a409f8d88d41a47ee4454e}
+      \strng{authorbibnamehash}{f556849382a409f8d88d41a47ee4454e}
+      \strng{authornamehash}{f556849382a409f8d88d41a47ee4454e}
+      \strng{authorfullhash}{f556849382a409f8d88d41a47ee4454e}
       \field{sortinit}{6}
       \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
@@ -275,36 +263,34 @@
       \field{isbn}{9781118391259}
       \field{title}{Handbook of Microwave Component Measurements: with Advanced VNA Techniques}
       \field{year}{2012}
-      \verb{urlraw}
-      \verb https://books.google.co.uk/books?id=NSeJe-rzkugC
-      \endverb
-      \verb{url}
-      \verb https://books.google.co.uk/books?id=NSeJe-rzkugC
-      \endverb
     \endentry
     \entry{Rytting_2008}{inproceedings}{}
       \name{author}{1}{}{%
-        {{hash=9c265977360b5d231965213ee8e41998}{%
+        {{hash=05d5a7a03018917e576e06e5dd355330}{%
            family={{Rytting}},
            familyi={R\bibinitperiod},
            given={D.},
            giveni={D\bibinitperiod}}}%
       }
-      \strng{namehash}{9c265977360b5d231965213ee8e41998}
-      \strng{fullhash}{9c265977360b5d231965213ee8e41998}
-      \strng{bibnamehash}{9c265977360b5d231965213ee8e41998}
-      \strng{authorbibnamehash}{9c265977360b5d231965213ee8e41998}
-      \strng{authornamehash}{9c265977360b5d231965213ee8e41998}
-      \strng{authorfullhash}{9c265977360b5d231965213ee8e41998}
+      \list{location}{1}{%
+        {Atlanta, GA, USA}%
+      }
+      \strng{namehash}{05d5a7a03018917e576e06e5dd355330}
+      \strng{fullhash}{05d5a7a03018917e576e06e5dd355330}
+      \strng{bibnamehash}{05d5a7a03018917e576e06e5dd355330}
+      \strng{authorbibnamehash}{05d5a7a03018917e576e06e5dd355330}
+      \strng{authornamehash}{05d5a7a03018917e576e06e5dd355330}
+      \strng{authorfullhash}{05d5a7a03018917e576e06e5dd355330}
+      \field{extraname}{1}
       \field{sortinit}{6}
       \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2008 71st ARFTG Microwave Measurement Conference}
+      \field{booktitle}{IEEE MTT-S Int. Microw. Symp. Dig.}
       \field{month}{6}
-      \field{title}{ARFTG 50 year network analyzer history}
+      \field{title}{{ARFTG} 50 year network analyzer history}
       \field{year}{2008}
-      \field{pages}{1\bibrangedash 8}
+      \field{pages}{11\bibrangedash 18}
       \range{pages}{8}
       \verb{doi}
       \verb 10.1109/ARFTG.2008.4633319
@@ -313,23 +299,23 @@
     \endentry
     \entry{Parzen_1947}{article}{}
       \name{author}{2}{}{%
-        {{hash=e99f663ed047b84d0083a539013c994e}{%
+        {{hash=2530b871c602c3b04a6d83b752eb08ab}{%
            family={Parzen},
            familyi={P\bibinitperiod},
            given={B.},
            giveni={B\bibinitperiod}}}%
-        {{hash=90d85865fe283a6817d24b85f601ef3c}{%
+        {{hash=574d9da260226944bfbe7fdccb461525}{%
            family={Yalow},
            familyi={Y\bibinitperiod},
            given={A.},
            giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{57a97779651a69a72e77d7fca35829fd}
-      \strng{fullhash}{57a97779651a69a72e77d7fca35829fd}
-      \strng{bibnamehash}{57a97779651a69a72e77d7fca35829fd}
-      \strng{authorbibnamehash}{57a97779651a69a72e77d7fca35829fd}
-      \strng{authornamehash}{57a97779651a69a72e77d7fca35829fd}
-      \strng{authorfullhash}{57a97779651a69a72e77d7fca35829fd}
+      \strng{namehash}{d8f179ae75cb707f1d559e5ab0339169}
+      \strng{fullhash}{d8f179ae75cb707f1d559e5ab0339169}
+      \strng{bibnamehash}{d8f179ae75cb707f1d559e5ab0339169}
+      \strng{authorbibnamehash}{d8f179ae75cb707f1d559e5ab0339169}
+      \strng{authornamehash}{d8f179ae75cb707f1d559e5ab0339169}
+      \strng{authorfullhash}{d8f179ae75cb707f1d559e5ab0339169}
       \field{sortinit}{7}
       \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
@@ -345,19 +331,19 @@
     \endentry
     \entry{mj_multiport}{online}{}
       \name{author}{1}{}{%
-        {{hash=16e4f71d0904b67579ba4dfc906087ad}{%
+        {{hash=617503f92c81ed082c208b4583de2105}{%
            family={{Rohde \& Schwarz}},
            familyi={R\bibinitperiod}}}%
       }
       \list{organization}{1}{%
         {Microwave Journal}%
       }
-      \strng{namehash}{16e4f71d0904b67579ba4dfc906087ad}
-      \strng{fullhash}{16e4f71d0904b67579ba4dfc906087ad}
-      \strng{bibnamehash}{16e4f71d0904b67579ba4dfc906087ad}
-      \strng{authorbibnamehash}{16e4f71d0904b67579ba4dfc906087ad}
-      \strng{authornamehash}{16e4f71d0904b67579ba4dfc906087ad}
-      \strng{authorfullhash}{16e4f71d0904b67579ba4dfc906087ad}
+      \strng{namehash}{617503f92c81ed082c208b4583de2105}
+      \strng{fullhash}{617503f92c81ed082c208b4583de2105}
+      \strng{bibnamehash}{617503f92c81ed082c208b4583de2105}
+      \strng{authorbibnamehash}{617503f92c81ed082c208b4583de2105}
+      \strng{authornamehash}{617503f92c81ed082c208b4583de2105}
+      \strng{authorfullhash}{617503f92c81ed082c208b4583de2105}
       \field{sortinit}{8}
       \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
@@ -380,7 +366,7 @@
     \endentry
     \entry{Root_2013}{book}{}
       \name{author}{4}{}{%
-        {{hash=2a570970a75de0d2431193493deaef1a}{%
+        {{hash=981e0559c770879344de0a53fd210cd7}{%
            family={Root},
            familyi={R\bibinitperiod},
            given={David\bibnamedelima E.},
@@ -404,12 +390,12 @@
       \list{publisher}{1}{%
         {Cambridge University Press}%
       }
-      \strng{namehash}{538e03fa32b6f5bc2b90c0fa4d5be2c0}
-      \strng{fullhash}{8a3f3e96242d7fe3e1193765a1197209}
-      \strng{bibnamehash}{8a3f3e96242d7fe3e1193765a1197209}
-      \strng{authorbibnamehash}{8a3f3e96242d7fe3e1193765a1197209}
-      \strng{authornamehash}{538e03fa32b6f5bc2b90c0fa4d5be2c0}
-      \strng{authorfullhash}{8a3f3e96242d7fe3e1193765a1197209}
+      \strng{namehash}{42e7875bd057e3b143ace1908460002c}
+      \strng{fullhash}{eade849cc1c1a6bee0aae9f8f17e5f80}
+      \strng{bibnamehash}{eade849cc1c1a6bee0aae9f8f17e5f80}
+      \strng{authorbibnamehash}{eade849cc1c1a6bee0aae9f8f17e5f80}
+      \strng{authornamehash}{42e7875bd057e3b143ace1908460002c}
+      \strng{authorfullhash}{eade849cc1c1a6bee0aae9f8f17e5f80}
       \field{sortinit}{9}
       \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
@@ -422,12 +408,12 @@
     \endentry
     \entry{Collier_2007}{book}{}
       \name{author}{2}{}{%
-        {{hash=4956595f15ff8d69f0a236fb878894fa}{%
+        {{hash=d4b4c6d4524cd5f2a054fbb552cb9d24}{%
            family={Collier},
            familyi={C\bibinitperiod},
            given={R.\bibnamedelimi J.},
            giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=eb91b08d4ee3c0f63d0e24752901b6b2}{%
+        {{hash=73988657870cda294be0ec425ab53013}{%
            family={Skinner},
            familyi={S\bibinitperiod},
            given={A.\bibnamedelimi D.},
@@ -437,28 +423,22 @@
         {Institution of Engineering}%
         {Technology}%
       }
-      \strng{namehash}{987ab24300fcdaab80486442fc690f72}
-      \strng{fullhash}{987ab24300fcdaab80486442fc690f72}
-      \strng{bibnamehash}{987ab24300fcdaab80486442fc690f72}
-      \strng{authorbibnamehash}{987ab24300fcdaab80486442fc690f72}
-      \strng{authornamehash}{987ab24300fcdaab80486442fc690f72}
-      \strng{authorfullhash}{987ab24300fcdaab80486442fc690f72}
+      \strng{namehash}{3cd0cafa48380cd888140a1616ed86be}
+      \strng{fullhash}{3cd0cafa48380cd888140a1616ed86be}
+      \strng{bibnamehash}{3cd0cafa48380cd888140a1616ed86be}
+      \strng{authorbibnamehash}{3cd0cafa48380cd888140a1616ed86be}
+      \strng{authornamehash}{3cd0cafa48380cd888140a1616ed86be}
+      \strng{authorfullhash}{3cd0cafa48380cd888140a1616ed86be}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9780863417351}
-      \field{series}{IET electrical measurement series Microwave measurements}
+      \field{series}{IET Electrical Measurement Series}
       \field{title}{Microwave Measurements}
       \field{year}{2007}
-      \verb{urlraw}
-      \verb https://books.google.co.uk/books?id=jhzfMLh9gFoC
-      \endverb
-      \verb{url}
-      \verb https://books.google.co.uk/books?id=jhzfMLh9gFoC
-      \endverb
     \endentry
-    \entry{Rytting_1998}{article}{}
+    \entry{Rytting_2000}{article}{}
       \name{author}{1}{}{%
         {{hash=79e2a031d53d149a6edaec060eb7df6e}{%
            family={Rytting},
@@ -472,17 +452,103 @@
       \strng{authorbibnamehash}{79e2a031d53d149a6edaec060eb7df6e}
       \strng{authornamehash}{79e2a031d53d149a6edaec060eb7df6e}
       \strng{authorfullhash}{79e2a031d53d149a6edaec060eb7df6e}
+      \field{extraname}{2}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{White Paper, September}
+      \field{journaltitle}{ARFTG Short Course on Measurements and Metrology for RF Telecommunications}
+      \field{month}{11}
       \field{title}{Network analyzer error models and calibration methods}
-      \field{year}{1998}
+      \field{year}{2000}
+    \endentry
+    \entry{Rehnmark_1974}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7697a3e2fe90fcae7bd8fd916e09f9b6}{%
+           family={{Rehnmark}},
+           familyi={R\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{7697a3e2fe90fcae7bd8fd916e09f9b6}
+      \strng{fullhash}{7697a3e2fe90fcae7bd8fd916e09f9b6}
+      \strng{bibnamehash}{7697a3e2fe90fcae7bd8fd916e09f9b6}
+      \strng{authorbibnamehash}{7697a3e2fe90fcae7bd8fd916e09f9b6}
+      \strng{authornamehash}{7697a3e2fe90fcae7bd8fd916e09f9b6}
+      \strng{authorfullhash}{7697a3e2fe90fcae7bd8fd916e09f9b6}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{On the Calibration Process of Automatic Network Analyzer Systems}
+      \field{volume}{22}
+      \field{year}{1974}
+      \field{pages}{457\bibrangedash 458}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1109/TMTT.1974.1128250
+      \endverb
+      \keyw{Calibration;Switches;Scattering parameters;Transmission line theory;Hardware;System testing;Measurement standards;Electromagnetic analysis;EMP radiation effects}
+    \endentry
+    \entry{Butler_1991}{article}{}
+      \name{author}{5}{}{%
+        {{hash=675dce160d4ccf76dd63d301a3006ace}{%
+           family={{Butler}},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi V.},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=8df2e443bfedf7ab6e201cf73088e6a7}{%
+           family={{Rytting}},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi K.},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=ffe0bd27550d45da727e799080a8733a}{%
+           family={{Iskander}},
+           familyi={I\bibinitperiod},
+           given={M.\bibnamedelimi F.},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=d4701c993c1aa57a12aee61b5f8ed099}{%
+           family={{Pollard}},
+           familyi={P\bibinitperiod},
+           given={R.\bibnamedelimi D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=60accba26b428adbe483773262c52e23}{%
+           family={{Vanden Bossche}},
+           familyi={V\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f49cd2c1d4a0bb0008e09fa5ca718f8}
+      \strng{fullhash}{40c18995f9b8d0ed6d1f0fca2015ed5f}
+      \strng{bibnamehash}{40c18995f9b8d0ed6d1f0fca2015ed5f}
+      \strng{authorbibnamehash}{40c18995f9b8d0ed6d1f0fca2015ed5f}
+      \strng{authornamehash}{5f49cd2c1d4a0bb0008e09fa5ca718f8}
+      \strng{authorfullhash}{40c18995f9b8d0ed6d1f0fca2015ed5f}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{16-term error model and calibration procedure for on-wafer network analysis measurements}
+      \field{volume}{39}
+      \field{year}{1991}
+      \field{pages}{2211\bibrangedash 2217}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/22.106567
+      \endverb
+      \keyw{calibration;error correction;integrated circuit testing;measurement errors;microwave measurement;MMIC;network analysers;S-parameters;onwafer measurements;vector network measurements;16-term error model;calibration procedure;on-wafer network analysis measurements;error correction;open air devices;coupling error;leaky system;MMIC wafer probe measurements;Calibration;Semiconductor device modeling;MMICs;Probes;Fixtures;Scattering parameters;Cities and towns;Testing;Error correction;Current measurement}
     \endentry
     \entry{Egan_2004}{book}{}
       \name{author}{1}{}{%
-        {{hash=6a506cee2b2dc80a5129d7296ea0ad52}{%
+        {{hash=8e8873bca1599780de3467ba845d1668}{%
            family={Egan},
            familyi={E\bibinitperiod},
            given={W.F.},
@@ -491,52 +557,45 @@
       \list{publisher}{1}{%
         {Wiley}%
       }
-      \strng{namehash}{6a506cee2b2dc80a5129d7296ea0ad52}
-      \strng{fullhash}{6a506cee2b2dc80a5129d7296ea0ad52}
-      \strng{bibnamehash}{6a506cee2b2dc80a5129d7296ea0ad52}
-      \strng{authorbibnamehash}{6a506cee2b2dc80a5129d7296ea0ad52}
-      \strng{authornamehash}{6a506cee2b2dc80a5129d7296ea0ad52}
-      \strng{authorfullhash}{6a506cee2b2dc80a5129d7296ea0ad52}
+      \strng{namehash}{8e8873bca1599780de3467ba845d1668}
+      \strng{fullhash}{8e8873bca1599780de3467ba845d1668}
+      \strng{bibnamehash}{8e8873bca1599780de3467ba845d1668}
+      \strng{authorbibnamehash}{8e8873bca1599780de3467ba845d1668}
+      \strng{authornamehash}{8e8873bca1599780de3467ba845d1668}
+      \strng{authorfullhash}{8e8873bca1599780de3467ba845d1668}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9780471654087}
-      \field{series}{Wiley - IEEE}
       \field{title}{Practical RF System Design}
       \field{year}{2004}
-      \verb{urlraw}
-      \verb https://books.google.co.uk/books?id=5Xe\_lkW7j90C
-      \endverb
-      \verb{url}
-      \verb https://books.google.co.uk/books?id=5Xe%5C_lkW7j90C
-      \endverb
     \endentry
     \entry{Engen_1979}{article}{}
       \name{author}{2}{}{%
-        {{hash=68086f7535d03a5da52b6bd2f96b32d2}{%
+        {{hash=28213d63bf04f657b8ae3ff503bb6991}{%
            family={{Engen}},
            familyi={E\bibinitperiod},
            given={G.\bibnamedelimi F.},
            giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=12a8dd26a70b9036b7e50639a512f3d9}{%
+        {{hash=b60c77fe432088562cd4769d535e7c2b}{%
            family={{Hoer}},
            familyi={H\bibinitperiod},
            given={C.\bibnamedelimi A.},
            giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
-      \strng{namehash}{e2024ce8fc7736009cb1683bf39e2e8d}
-      \strng{fullhash}{e2024ce8fc7736009cb1683bf39e2e8d}
-      \strng{bibnamehash}{e2024ce8fc7736009cb1683bf39e2e8d}
-      \strng{authorbibnamehash}{e2024ce8fc7736009cb1683bf39e2e8d}
-      \strng{authornamehash}{e2024ce8fc7736009cb1683bf39e2e8d}
-      \strng{authorfullhash}{e2024ce8fc7736009cb1683bf39e2e8d}
+      \strng{namehash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \strng{fullhash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \strng{bibnamehash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \strng{authorbibnamehash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \strng{authornamehash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \strng{authorfullhash}{799f2ecf8f613bc32e8002e07a84cd68}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
-      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
       \field{month}{12}
       \field{number}{12}
       \field{title}{Thru-Reflect-Line: An Improved Technique for Calibrating the Dual Six-Port Automatic Network Analyzer}
@@ -551,24 +610,24 @@
     \endentry
     \entry{Marks_1991}{article}{}
       \name{author}{1}{}{%
-        {{hash=6caf037fa5af862bced44444797fa0a2}{%
+        {{hash=6a2301da3cd29f54bd0d18ecaae18f70}{%
            family={Marks},
            familyi={M\bibinitperiod},
            given={R.\bibnamedelimi B.},
            giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
       }
-      \strng{namehash}{6caf037fa5af862bced44444797fa0a2}
-      \strng{fullhash}{6caf037fa5af862bced44444797fa0a2}
-      \strng{bibnamehash}{6caf037fa5af862bced44444797fa0a2}
-      \strng{authorbibnamehash}{6caf037fa5af862bced44444797fa0a2}
-      \strng{authornamehash}{6caf037fa5af862bced44444797fa0a2}
-      \strng{authorfullhash}{6caf037fa5af862bced44444797fa0a2}
+      \strng{namehash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \strng{fullhash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \strng{bibnamehash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \strng{authorbibnamehash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \strng{authornamehash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \strng{authorfullhash}{6a2301da3cd29f54bd0d18ecaae18f70}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
-      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
       \field{month}{7}
       \field{number}{7}
       \field{title}{A multiline method of network analyzer calibration}
@@ -580,6 +639,338 @@
       \verb 10.1109/22.85388
       \endverb
       \keyw{calibration;microwave measurement;network analysers;TRL method;accuracy;assessment of calibration accuracy;bandwidth;calibration of network analyzers;imperfect connector repeatability;linearized error analysis;multiline method of network analyzer calibration;multiple transmission line standards;random errors reduction;redundant transmission line standards;statistical treatment;thru-reflect-line calibration method;Bandwidth;Calibration;Connectors;Covariance matrix;Error analysis;Frequency;Iterative methods;Transmission line matrix methods;Transmission line theory;Transmission lines}
+    \endentry
+    \entry{Sipila_1988}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6d65a4d5c22b526a1da9c1d2d198da90}{%
+           family={{Sipila}},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=399dfd9940fa3c492889aad985fdd0c1}{%
+           family={{Lehtinen}},
+           familyi={L\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=77a1234e3bed5c7d0523a3373c4945cd}{%
+           family={{Porra}},
+           familyi={P\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0d2ca52f78d9ec9de9137f067d32d9e}
+      \strng{fullhash}{c0d2ca52f78d9ec9de9137f067d32d9e}
+      \strng{bibnamehash}{c0d2ca52f78d9ec9de9137f067d32d9e}
+      \strng{authorbibnamehash}{c0d2ca52f78d9ec9de9137f067d32d9e}
+      \strng{authornamehash}{c0d2ca52f78d9ec9de9137f067d32d9e}
+      \strng{authorfullhash}{c0d2ca52f78d9ec9de9137f067d32d9e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{High-frequency periodic time-domain waveform measurement system}
+      \field{volume}{36}
+      \field{year}{1988}
+      \field{pages}{1397\bibrangedash 1405}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/22.6087
+      \endverb
+      \keyw{electric current measurement;error correction;measurement errors;microwave measurement;semiconductor device testing;solid-state microwave devices;voltage measurement;wave analysers;signal processing errors;HF type;semiconductor devices;periodic time-domain waveform measurement system;current waveforms;nonlinear microwave device;high-speed sampling oscilloscope;error correction;measurement-system characterization;circuit model;measurement fixture;Time domain analysis;Microwave measurements;Current measurement;Voltage;Microwave devices;Time measurement;Performance evaluation;Sampling methods;Oscilloscopes;Frequency domain analysis}
+    \endentry
+    \entry{Broeck_1994}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=b7961c7d487f735807471dfbd8b45c61}{%
+           family={{Van den Broeck}},
+           familyi={V\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=205574896d69566dafa891831fc8b29b}{%
+           family={{Verspecht}},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {San Diego, CA, USA}%
+      }
+      \strng{namehash}{467d504cd53e315f979ee20f92823cf2}
+      \strng{fullhash}{467d504cd53e315f979ee20f92823cf2}
+      \strng{bibnamehash}{467d504cd53e315f979ee20f92823cf2}
+      \strng{authorbibnamehash}{467d504cd53e315f979ee20f92823cf2}
+      \strng{authornamehash}{467d504cd53e315f979ee20f92823cf2}
+      \strng{authorfullhash}{467d504cd53e315f979ee20f92823cf2}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE MTT-S Int. Microw. Symp. Dig.}
+      \field{issn}{0149-645X}
+      \field{month}{5}
+      \field{title}{Calibrated vectorial nonlinear-network analyzers}
+      \field{volume}{2}
+      \field{year}{1994}
+      \field{pages}{1069\bibrangedash 1072}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/MWSYM.1994.335170
+      \endverb
+      \keyw{network analysers;microwave measurement;calibration;microwave generation;vectorial nonlinear-network analyzer;nonlinear microwave device-under-test;sinewaves;frequency components;scattered waves;incident waves;absolute calibration procedure;row crest factor;multisine reference generator;broadband sampling oscilloscope;nose-to-nose measurement;Calibration;Microwave devices;Phase detection;Phase frequency detector;Scattering;Statistics;Character generation;Sampling methods;Oscilloscopes}
+    \endentry
+    \entry{Scott_2002}{article}{}
+      \name{author}{8}{}{%
+        {{hash=52f76792bc4da010091565298ede6e27}{%
+           family={{Scott}},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=205574896d69566dafa891831fc8b29b}{%
+           family={{Verspecht}},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0a765a9f2010e23cd93c9f68048406bb}{%
+           family={{Behnia}},
+           familyi={B\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=60accba26b428adbe483773262c52e23}{%
+           family={{Vanden Bossche}},
+           familyi={V\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a1497de12adcb106fc0ef02e8953695a}{%
+           family={{Cognata}},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=53ad70ecb8cacd297ba08c6ce005024e}{%
+           family={{Verbeyst}},
+           familyi={V\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d1f10eaf158bacc475bf8c89fc0cf8af}{%
+           family={{Thorn}},
+           familyi={T\bibinitperiod},
+           given={M.\bibnamedelimi L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=f97d702b78caf5fa23b0a86bc02a4ed5}{%
+           family={{Scherrer}},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{378d59725ef5a01874a14f6666fe8165}
+      \strng{fullhash}{e745682f1ae7e1a9e39f89d39fbec17d}
+      \strng{bibnamehash}{e745682f1ae7e1a9e39f89d39fbec17d}
+      \strng{authorbibnamehash}{e745682f1ae7e1a9e39f89d39fbec17d}
+      \strng{authornamehash}{378d59725ef5a01874a14f6666fe8165}
+      \strng{authorfullhash}{e745682f1ae7e1a9e39f89d39fbec17d}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Enhanced on-wafer time-domain waveform measurement through removal of interconnect dispersion and measurement instrument jitter}
+      \field{volume}{50}
+      \field{year}{2002}
+      \field{pages}{3022\bibrangedash 3028}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/TMTT.2002.805169
+      \endverb
+      \keyw{high-speed integrated circuits;digital integrated circuits;integrated circuit testing;MIMIC;millimetre wave measurement;calibration;jitter;on-wafer time-domain waveform measurement;interconnect dispersion removal;measurement instrument jitter removal;output waveshape;rise time;high-speed digital circuits;vector error correction;calibration;pulse measurements;MM-wave measurements;wafer probes;random jitter;7 ps;50 GHz;Time domain analysis;Dispersion;Instruments;Jitter;Oscilloscopes;Probes;Integrated circuit interconnections;Time measurement;Digital circuits;Prototypes}
+    \endentry
+    \entry{VanMoer_2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=225ce22ca877b1ab2f96fb862239fded}{%
+           family={{Van Moer}},
+           familyi={V\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=0b58796ed5629b7dd13f1de64356ead0}{%
+           family={{Rolain}},
+           familyi={R\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{f6799673e99a73eba156a3b70214feda}
+      \strng{fullhash}{f6799673e99a73eba156a3b70214feda}
+      \strng{bibnamehash}{f6799673e99a73eba156a3b70214feda}
+      \strng{authorbibnamehash}{f6799673e99a73eba156a3b70214feda}
+      \strng{authornamehash}{f6799673e99a73eba156a3b70214feda}
+      \strng{authorfullhash}{f6799673e99a73eba156a3b70214feda}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1527-3342}
+      \field{journaltitle}{{IEEE} Microw. Mag.}
+      \field{number}{6}
+      \field{title}{A large-signal network analyzer: Why is it needed?}
+      \field{volume}{7}
+      \field{year}{2006}
+      \field{pages}{46\bibrangedash 62}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1109/MW-M.2006.250314
+      \endverb
+      \keyw{network analysers;large signal network analyzer;system behavior;LSNA;nonlinear effects;energy transport mechanisms;Power system modeling;Linear systems;Mobile handsets;Radiofrequency integrated circuits;Transfer functions;H infinity control;Nonlinear systems;Electronic mail;Frequency;Instruments}
+    \endentry
+    \entry{Lott_1989}{article}{}
+      \name{author}{1}{}{%
+        {{hash=eb9ff3d2bb5eb18e0c2fa2198903f90a}{%
+           family={{Lott}},
+           familyi={L\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb9ff3d2bb5eb18e0c2fa2198903f90a}
+      \strng{fullhash}{eb9ff3d2bb5eb18e0c2fa2198903f90a}
+      \strng{bibnamehash}{eb9ff3d2bb5eb18e0c2fa2198903f90a}
+      \strng{authorbibnamehash}{eb9ff3d2bb5eb18e0c2fa2198903f90a}
+      \strng{authornamehash}{eb9ff3d2bb5eb18e0c2fa2198903f90a}
+      \strng{authorfullhash}{eb9ff3d2bb5eb18e0c2fa2198903f90a}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Measurement of magnitude and phase of harmonics generated in nonlinear microwave two-ports}
+      \field{volume}{37}
+      \field{year}{1989}
+      \field{pages}{1506\bibrangedash 1511}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/22.40993
+      \endverb
+      \keyw{harmonics;microwave measurement;multiport networks;phase measurement;Schottky gate field effect transistors;semiconductor device testing;solid-state microwave devices;magnitude measurement;phase measurement;EHF;semiconductor microwave devices;MESFET;SHF;nonlinear microwave two-ports;sinusoidal microwave signal;output harmonics;frequency domain;vector network analyzer;phase calibration;millimeter-wave Schottky diode;diode reference circuit;40 GHz;Phase measurement;Schottky diodes;Microwave measurements;Microwave generation;Microwave theory and techniques;Testing;Microwave devices;Frequency measurement;Frequency domain analysis;Harmonic analysis}
+    \endentry
+    \entry{Blockley_2005}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=e2abae4279db62b2f1510eadb581e7d0}{%
+           family={{Blockley}},
+           familyi={B\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c3be20501e79f3f4d10387696b964a9d}{%
+           family={{Gunyan}},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=52f76792bc4da010091565298ede6e27}{%
+           family={{Scott}},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Long Beach, CA, USA}%
+      }
+      \strng{namehash}{17507b00115a26e5698797bf46879a63}
+      \strng{fullhash}{17507b00115a26e5698797bf46879a63}
+      \strng{bibnamehash}{17507b00115a26e5698797bf46879a63}
+      \strng{authorbibnamehash}{17507b00115a26e5698797bf46879a63}
+      \strng{authornamehash}{17507b00115a26e5698797bf46879a63}
+      \strng{authorfullhash}{17507b00115a26e5698797bf46879a63}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE MTT-S Int. Microw. Symp. Dig.}
+      \field{issn}{0149-645X}
+      \field{month}{6}
+      \field{title}{Mixer-based, vector-corrected, vector signal/network analyzer offering 300k{H}z--20{GH}z bandwidth and traceable phase response}
+      \field{year}{2005}
+      \field{pages}{1497\bibrangedash 1500}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/MWSYM.2005.1516977
+      \endverb
+      \keyw{network analysers;bridge instruments;oscilloscopes;mixers (circuits);time-domain analysis;frequency-domain analysis;mixer-based signal/network analyzer;vector-corrected signal/network analyzer;traceable phase response;directional bridges;five-channel receiver;mixer-based receiver;vector-corrected measurements;time-domain;frequency-domain;wideband complex-modulated signal;calibrated sampling oscilloscope;timebase correction;input-impedance induced distortion;300 to 20E6 kHz;Signal analysis;Bandwidth;Instruments;Bridge circuits;Voltage;Time domain analysis;Frequency domain analysis;Laboratories;Broadband amplifiers;Sampling methods}
+    \endentry
+    \entry{Casbon_2015}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=b2f2b0fd4d8412b5c94c7b35936f8212}{%
+           family={{Casbon}},
+           familyi={C\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=3b7163c6702222cb8527bc7cc962c648}{%
+           family={{Tasker}},
+           familyi={T\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{c8c28a4fb8061439c4a63005215e79be}
+      \strng{fullhash}{c8c28a4fb8061439c4a63005215e79be}
+      \strng{bibnamehash}{c8c28a4fb8061439c4a63005215e79be}
+      \strng{authorbibnamehash}{c8c28a4fb8061439c4a63005215e79be}
+      \strng{authornamehash}{c8c28a4fb8061439c4a63005215e79be}
+      \strng{authorfullhash}{c8c28a4fb8061439c4a63005215e79be}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{85th ARFTG Microw. Meas. Conf. Dig.}
+      \field{month}{5}
+      \field{title}{Comparison of sampler and {VNA} based Large Signal Measurement Systems ({LSNA}) under {CW} and pulsed operation}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 3}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1109/ARFTG.2015.7162890
+      \endverb
+      \keyw{calibration;frequency measurement;network analysers;phase measurement;pulse measurement;silicon carbide HFET;RF I-V waveform;pulse mode operation;dual frequency phase differential method;relative phase calibration;sampler based LSNA system;large signal measurement system;VNA;Semiconductor device measurement;Pulse measurements;Harmonic analysis;Calibration;Radio frequency;Phase measurement;Oscilloscopes;Waveform Engineering;fully active harmonic load-pull;power amplifiers}
+    \endentry
+    \entry{Lin_2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f374feb8237cda53dcae672185f581c3}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Maoliu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a382efbfffe467ef00312cf8a967abf3}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yichi},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Institute of Electrical}%
+        {Electronics Engineers ({IEEE})}%
+      }
+      \strng{namehash}{6b053a03dccd541a96059320ae8719ae}
+      \strng{fullhash}{6b053a03dccd541a96059320ae8719ae}
+      \strng{bibnamehash}{6b053a03dccd541a96059320ae8719ae}
+      \strng{authorbibnamehash}{6b053a03dccd541a96059320ae8719ae}
+      \strng{authornamehash}{6b053a03dccd541a96059320ae8719ae}
+      \strng{authorfullhash}{6b053a03dccd541a96059320ae8719ae}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Covariance-Matrix-Based Uncertainty Analysis for {NVNA} Measurements}
+      \field{volume}{61}
+      \field{year}{2012}
+      \field{pages}{93\bibrangedash 102}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/tim.2011.2150650
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

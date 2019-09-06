@@ -1,7 +1,7 @@
 \ProvidesPackage{preamble}
 
 \usepackage{subfiles}
-\usepackage[style=ieee]{biblatex}
+\usepackage[style=ieee, doi=false, isbn=false]{biblatex}
 \usepackage{graphicx}
 \usepackage{titlesec}
 \usepackage[a4paper]{geometry}
@@ -17,6 +17,7 @@
 \rhead{\thepage}
 
 \titleformat{\chapter}[hang]{\bf\huge}{\thechapter}{2pc}{}
+\addbibresource{../IEEEabrv.bib}
 \addbibresource{../references.bib}
 
 \xpatchbibdriver{online}

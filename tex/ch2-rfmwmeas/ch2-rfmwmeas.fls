@@ -218,7 +218,6 @@ INPUT ../figs/ch2-rfmwmeas/ch2_phasecal.pdf
 INPUT ../figs/ch2-rfmwmeas/ch2_phasecal.pdf
 INPUT ../figs/ch2-rfmwmeas/ch2_phasecal.pdf
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT ch2-rfmwmeas.aux
 INPUT ch2-rfmwmeas.run.xml
@@ -226,7 +225,6 @@ OUTPUT ch2-rfmwmeas.run.xml
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb
-INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
