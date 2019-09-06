@@ -10,7 +10,7 @@
 
 To characterise nonlinear behavioural models, the radio frequency (RF) response of a device to electromagnetic wave stimuli must be measured. When compared with DC (and low frequency) measurements, RF and microwave measurements present significant additional challenges. 
 For DC systems, it is desirable to propagate voltages through a circuit with minimal loss in amplitude. To achieve this effectively, components are typically designed with high input impedance and low output impedance. With RF systems, circuit components and interconnects can be of the order of a quarter-wavelength in length, and therefore signals must be treated as electromagnetic waves to account for different behaviour at these frequencies.
-When a travelling wave encounters a discontinuity in impedance, such as a cable connector or on-wafer structure, some of the power in the wave is reflected. The amount of reflected power is proportional to the size of the impedance mismatch between each side of the discontinuity. Hence, for RF systems, the transmission of power is the focus of the circuit designer. The measurement of power flowing through a transmission line is complicated by three key factors. Firstly, because the waves are travelling, the instantaneous voltage at any point on the transmission line will vary between the peak-to-peak values of the wave. Secondly, waves travel in both directions along the transmission line and must be measured separately. Finally, the power of the wave is a complex quantity consisting of both magnitude and phase.
+When a travelling wave encounters a discontinuity in impedance, such as a cable connector or on-wafer structure, some of the power in the wave is reflected. The amount of reflected power is proportional to the size of the impedance mismatch between each side of the discontinuity. Hence, for most RF systems, the transmission of power is the focus of the circuit designer. The measurement of power flowing through a transmission line is complicated by three key factors. Firstly, because the waves are travelling, the instantaneous voltage at any point on the transmission line will vary between the peak-to-peak values of the wave. Secondly, waves travel in both directions along the transmission line and must be measured separately. Finally, the power of the wave is a complex quantity consisting of both magnitude and phase.
 To perform these measurements, a specialist instrument called a vector network analyser (VNA) can be used. In this chapter, the concepts and measurements associated with this instrument are introduced, which will be used later in the thesis to understand the uncertainty contributions from measurements to nonlinear behavioural models.
 
 \section{Electromagnetic Wave Parameters}
@@ -90,7 +90,7 @@ S_{21} & S_{22}
 \end{bmatrix}
 \end{equation}
 
-The most interesting characteristic of a two-port microwave device is often the effect which it has on a transmitted wave in the forward direction ($S_{21}$). If the device increases the magnitude of the incident signal this metric is called gain, otherwise it is called insertion loss. Typically gain is associated with active devices (those which are powered from an external source separate to the incident microwave signals) such as amplifiers, and insertion loss is associated with passive devices (those with no external power source) such as attenuators, splitters and mixers. The power gain (operating gain) and insertion loss relating to $S_{21}$ can be calculated using:
+The most useful characteristic of a two-port microwave device is often the effect which it has on a transmitted wave in the forward direction ($S_{21}$). If the device increases the magnitude of the incident signal this metric is called gain, otherwise it is called insertion loss. Typically gain is associated with active devices (those which are powered from an external source separate to the incident microwave signals) such as amplifiers, and insertion loss is associated with passive devices (those with no external power source) such as attenuators, splitters and mixers. The power gain (operating gain) and insertion loss relating to $S_{21}$ can be calculated using:
 \begin{equation}
 \textrm{Power Gain} = 10 \log_{10} |S_{21}|^2 \textrm{ dB},
 \end{equation}
@@ -163,7 +163,7 @@ The result of these differences is that the measurement requirements for nonline
 
 \section{Vector Network Analysers}
 
-To measure the incident and scattered waves for a DUT and calculate the S-parameters as in (\ref{ch2_eqn_sp}), a vector network analyser (VNA) is typically used. The VNA is a quintessential piece of RF and microwave instrumentation and is found in most if not all such laboratories. Due to the challenging nature of measurements at these frequencies, it is a complicated instrument with many internal parts. This section explains how the VNA functions and the procedures behind its calibration. For a good history of VNA architecture and product development please refer to \cite{Teppati_2013,Dunsmore_2012}.
+To measure the incident and scattered waves for a DUT and calculate the S-parameters as in (\ref{ch2_eqn_sp}), a vector network analyser (VNA) is typically used. The VNA is a quintessential piece of RF and microwave instrumentation and is found in most if not all such laboratories. Due to the challenging nature of measurements at these frequencies, it is a complicated instrument with many internal parts. This section explains how the VNA functions and the procedures behind its calibration. For a good history of VNA architecture and product development please refer to \cite{Teppati_2013,Dunsmore_2012,Rytting_2008}.
 
 \subsection{Architecture}
 
@@ -191,14 +191,14 @@ To perform S-parameter measurements using a VNA, the user must set both the freq
 
 \subsection{Error Models}
 
-The calibration process involves characterising an error model which represents the response of the test-set and any cables and adapters between the VNA and the DUT. These error models are stored in the memory of the VNA and are typically de-embedded from the raw measurements before the results are presented to the user (although the raw measurements can still be obtained for separate post-processing). Because the measurement setup response is frequency dependent, the error model coefficients are characterised across the measurement bandwidth and are either applied at each measurement frequency or linearly interpolated.
+The calibration process involves characterising an error model which represents the response of the test-set and any cables and adapters between the VNA and the DUT. These error models are stored in the memory of the VNA and are typically de-embedded from the raw measurements before the results are presented to the user (although the raw measurements can still be obtained for separate post-processing). Because the measurement setup response is frequency dependent, the error model coefficients are characterised across the measurement bandwidth and are either applied at each measurement frequency or linearly interpolated. A popular review of VNA error models is provided in \cite{Rytting_1998} but two particular models, used in the work presented in this dissertation, will now be described.
 
 \subsubsection{One-Port Model}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{ch2_oneport}
-	\caption{The 3-term error model for a one-port measurement, which sits between the VNA receivers measuring $a_0$ and $b_0$ waves and the DUT with reflection coefficient $\Gamma$. The error box contains coefficients ($e_{00}, e_{10}, e_{01}, e_{11}$) which act like S-parameters, and captures unwanted effects from both the VNA internals and and external test setup (e.g. cables and adapters).}
+	\caption{The three-term error model for a one-port measurement, which sits between the VNA receivers measuring $a_0$ and $b_0$ waves and the DUT with reflection coefficient $\Gamma$. The error box contains coefficients ($e_{00}, e_{10}, e_{01}, e_{11}$) which act like S-parameters, and captures unwanted effects from both the VNA internals and and external test setup (e.g. cables and adapters).}
 	\label{ch2_fig_oneport}
 \end{figure}
 
@@ -216,14 +216,14 @@ The three coefficients relate to unwanted physical effects occurring between the
 Test port match ($e_{11}$) results from the impedance of the VNA test port (either the original test port or the extended measurement plane including any cables or other components in the setup) being different from the characteristic impedance of the measurement, which is typically 50-$\Omega$. This effect will cause some of the incident wave to be reflected at the test port which is not due to the device response.
 Reflection tracking ($\Delta$) characterises the insertion loss of the couplers and other measurement components between the reference receiver and the test receiver.
 
-\subsubsection{8-Term Model}
+\subsubsection{Eight-Term Model}
 
-Devices with two or more ports require transmission measurements in addition to the reflection measurements corrected using the one-port model. Historically, two-port VNAs used a single reference receiver and a test receiver for each channel. This meant that the reference receiver would be shared between ports one and two, requiring a separate error model for each configuration (``forward'' and ``reverse''). This resulted in the 12-term and 10-term models which were the standard two-port VNA error models implemented in firmware. More recently, VNAs have employed dedicated reference receivers for each measurement port. Because the calibrated signal path (reference receiver to DUT) does not change when the stimulus is switched between ports one and two, a simpler error model can be used. This model is called the 8-term model (or error box model) and is illustrated in Figure \ref{ch2_fig_twoport}. The 8-term model also ignores error due to crosstalk between test ports, which is usually appropriate for coaxial and waveguide measurements but not for on-wafer measurements where the probes may couple.
+Devices with two or more ports require transmission measurements in addition to the reflection measurements corrected using the one-port model. Historically, two-port VNAs used a single reference receiver and a test receiver for each channel. This meant that the reference receiver would be shared between ports one and two, requiring a separate error model for each configuration (``forward'' and ``reverse''). This resulted in the 12-term and 10-term models which were the standard two-port VNA error models implemented in firmware. More recently, VNAs have employed dedicated reference receivers for each measurement port. Because the calibrated signal path (reference receiver to DUT) does not change when the stimulus is switched between ports one and two, a simpler error model can be used. This model is called the eight-term model (or error box model) and is illustrated in Figure \ref{ch2_fig_twoport}. The eight-term model also ignores error due to crosstalk between test ports, which is usually appropriate for coaxial and waveguide measurements but not for on-wafer measurements where the probes may couple.
 
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{ch2_twoport}
-	\caption{The 8-term error model for a two-port measurement. Similar to the 3-term model for one-port measurements, an S-parameter model is used capture the error coefficients between the Port 1 receivers ($a_0$, $b_0$) and the DUT ($e_{00}, e_{10}, e_{01}, e_{11}$), and a separate model used between the Port 2 receivers ($a_3$, $b_3$) and the DUT ($e_{22}, e_{32}, e_{23}, e_{33}$).}
+	\caption{The eight-term error model for a two-port measurement. Similar to the three-term model for one-port measurements, an S-parameter model is used capture the error coefficients between the Port 1 receivers ($a_0$, $b_0$) and the DUT ($e_{00}, e_{10}, e_{01}, e_{11}$), and a separate model used between the Port 2 receivers ($a_3$, $b_3$) and the DUT ($e_{22}, e_{32}, e_{23}, e_{33}$).}
 	\label{ch2_fig_twoport}
 \end{figure}
 
@@ -262,7 +262,7 @@ The model defines two error boxes, $\mathbf{E}_\textrm{A}$ and $\mathbf{E}_\text
 	\end{bmatrix}.
 \end{align}
 
-These error boxes can be rewritten as T-parameters (transmission parameters) which allow the error boxes to be cascaded using matrix multiplication with the DUT T-parameters to calculate the equivalent T-parameters of the three connected components:
+These error boxes can be rewritten as T-parameters (transfer parameters) \cite[pp.12--14]{Egan_2004}, which allow the error boxes to be cascaded using matrix multiplication with the DUT T-parameters to calculate the equivalent T-parameters of the three connected components:
 
 \begin{align}
 \begin{bmatrix}
@@ -379,7 +379,7 @@ The T-parameters of the DUT can therefore be calculated by multiplying those of 
 \end{equation}
 which can finally be converted to S-parameters to produce the result of the corrected measurement.
 
-Like the 3-term model (\ref{ch2_eqn_oneport1}), where $e_{01}$ and $e_{10}$ are always used as a product, the 8-term model contains redundant information in the transmission tracking coefficients $e_{32}$ and $e_{01}$. Therefore, the 8-term model is commonly implemented as a 7-term model, but is still referred to by the 8-term name. For nonlinear measurements, as will be seen later in this section, the transmission tracking must be characterised per port and so all 8-terms are used.
+Like the three-term model (\ref{ch2_eqn_oneport1}), where $e_{01}$ and $e_{10}$ are always used as a product, the eight-term model contains redundant information in the transmission tracking coefficients $e_{32}$ and $e_{01}$. Therefore, the eight-term model is commonly implemented as a 7-term model, but is still referred to by the eight-term name. For nonlinear measurements, as will be seen later in this section, the transmission tracking must be characterised per port and so all eight terms are used.
 
 \subsection{Calibration}
 
@@ -387,7 +387,7 @@ To characterise the error models, impedance standards with known properties are 
 
 \subsubsection{One-Port Model}
 
-For the 3-term model used with one-port VNA measurements, there are three coefficients to solve. Therefore, ``three-known-loads'' must be measured in order to find a solution to the error model. Of course, measurements of more standards can be made to reduce error in the knowledge or measurement of a single standard, but in doing so additional knowledge and measurements are introduced which may result in greater error. The three standards should present reflection coefficients at the extremes of possible values in order to provide the most accurate fit for the error coefficients. The most widely used choice is of a short-circuit, open-circuit and load (SOL). The standards are kept together along with their characterisation information in a calibration kit, or ``cal-kit''.
+For the three-term model used with one-port VNA measurements, there are three coefficients to solve. Therefore, ``three-known-loads'' must be measured in order to find a solution to the error model. Of course, measurements of more standards can be made to reduce error in the knowledge or measurement of a single standard, but in doing so additional knowledge and measurements are introduced which may result in greater error. The three standards should present reflection coefficients at the extremes of possible values in order to provide the most accurate fit for the error coefficients. The most widely used choice is of a short-circuit, open-circuit and load (SOL). The standards are kept together along with their characterisation information in a calibration kit, or ``cal-kit''.
 
 To solve the three coefficients for the one-port model it is useful to rewrite (\ref{ch2_eqn_oneport1}) as: 
 \begin{equation}
@@ -414,9 +414,9 @@ which can then be solved using a matrix least-squares estimator and measurements
 \end{equation}
 to find values for $e_{11}$, $e_{22}$ and $\Delta$. These coefficients are then used with (\ref{ch2_eqn_oneport1}) to obtain the actual reflection coefficient of subsequent DUTs from the raw measurements.
 
-\subsubsection{8-Term Model}
+\subsubsection{Eight-Term Model}
 
-A great benefit of the 8-term model is the ability to characterise the error coefficients using standards which are only partially known - i.e. their S-parameters cannot be explicitly calculated. Reducing the amount of assumed knowledge of the standards also reduces the number of error sources and their impact on the accuracy of the calibration. Because the calibration fully characterises the VNA, the unknown parameters of the standards can even be calculated as a result, hence these calibrations are called ``self-calibrations''. However, the 8-term model can also be calibrated using classic 12-port routines such as Short-Open-Load-Thru\footnote{The misspelling of through as ``thru'' is a convention in the network analyser community first introduced in \cite{Engen_1979}.} (SOLT).
+A great benefit of the eight-term model is the ability to characterise the error coefficients using standards which are only partially known - i.e. their S-parameters cannot be explicitly calculated. Reducing the amount of assumed knowledge of the standards also reduces the number of error sources and their impact on the accuracy of the calibration. Because the calibration fully characterises the VNA, the unknown parameters of the standards can even be calculated as a result, hence these calibrations are called ``self-calibrations''. However, the eight-term model can also be calibrated using classic 12-port routines such as Short-Open-Load-Thru\footnote{The misspelling of through as ``thru'' is a convention in the network analyser community first introduced in \cite{Engen_1979}.} (SOLT).
 
 There are several variations of self-calibration, including Thru-Short-Delay, Thru-Reflect-Line, Line-Reflect-Line and Line-Reflect-Match. Each routine uses a different collection of standards as defined in their name. For coaxial transmission line, which is used for most studies presented in this dissertation, the Thru-Reflect-Line (TRL) calibration is most common.
 
@@ -424,7 +424,7 @@ TRL is the most accurate and widely supported two-port calibration routine imple
 
 One notable limitation of the TRL calibration is that it has limited usable bandwidth due to resonance of the line at certain frequencies (when $e^{\gamma(l_\textrm{L}-l_\textrm{T})}=1$, where $\gamma$ is the propagation constant and $l_\textrm{L}$ and $l_\textrm{T}$ are the line and thru length, respectively). For this reason, the multiline-TRL calibration was invented which uses several lines with overlapping usable bandwidths \cite{Marks_1991}.
 
-The mathematical method used for the TRL calibration of the 8-term error model is quite detailed and several resources provide good coverage of the derivation \cite{Engen_1979, Teppati_2013}.
+The mathematical method used for the TRL calibration of the eight-term error model is quite detailed and several resources provide good coverage of the derivation \cite{Engen_1979, Teppati_2013}.
 
 \section{Nonlinear Vector Network Analysers}
 
@@ -432,9 +432,9 @@ To fully characterise devices which exhibit nonlinear behaviour, a nonlinear vec
 
 There are two main architectures of NVNA - sampler-based and mixer-based. Sampler-based instruments use a real-time sampling oscilloscope connected to directional couplers, whereas mixer-based NVNAs use a conventional VNA architecture with supplementary equipment described shortly. Traditionally, the oscilloscope system provided a larger measurement bandwidth (useful for communications simulations) and the mixer-based system offered higher dynamic range. The continued development of both technologies is reducing the limitations of each architecture and both are capable of performing a typical characterisation of a microwave power transistor. The mixer-based architecture was used for all experiments presented in this dissertation and will be explained in this section.
 
-\subsection{Absolute 8-Term Error Model}
+\subsection{Absolute Eight-Term Error Model}
 
-The 8-term error model used for VNA calibration can be used to correct the raw measurements of individual waves (absolute measurements) instead of just their ratios (relative measurements). As mentioned in the previous section, the 8-term model reduces to seven terms for relative measurements, but for absolute measurements the value of each term in the transmission tracking product $e_{01}e_{32}$ must be known. This is required because the NVNA receiver and source are set at different frequencies while measuring harmonics and so calibrated ratio measurements are not possible. Instead, the power waves are directly measured, requiring each error box to be known independently and all eight error coefficients characterised.
+The eight-term error model used for VNA calibration can be used to correct the raw measurements of individual waves (absolute measurements) instead of just their ratios (relative measurements). As mentioned in the previous section, the eight-term model reduces to seven terms for relative measurements, but for absolute measurements the value of each term in the transmission tracking product $e_{01}e_{32}$ must be known. This is required because the NVNA receiver and source are set at different frequencies while measuring harmonics and so calibrated ratio measurements are not possible. Instead, the power waves are directly measured, requiring each error box to be known independently and all eight error coefficients characterised.
 
 To separate the transmission tracking terms, a single side of the error box must be measured. This cannot be done using passive standards and requires additional equipment - a power meter and phase reference. Typically the relative calibration, using VNA methods, is performed first, followed by the absolute calibration using the power meter and phase reference.
 

@@ -1306,7 +1306,7 @@
 }
 
 @Unpublished{Stant_2017_feps,
-  author = {L. T. Stant},
+  author = {LStant},
   title  = {Comparing Methods For Evaluating Measurement Uncertainty Given In The {JCGM} ‘Evaluation Of Measurement Data’ Documents},
   note   = {Faculty of Engineering and Physical Sciences Annual Festival of Research, University of Surrey},
   month  = jun,

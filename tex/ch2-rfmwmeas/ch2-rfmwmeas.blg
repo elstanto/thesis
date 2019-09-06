@@ -1,22 +1,23 @@
-[0] Config.pm:304> INFO - This is Biber 2.12
-[0] Config.pm:307> INFO - Logfile is 'ch2-rfmwmeas.blg'
-[40] biber-MSWIN32:315> INFO - === 
-[67] Biber.pm:371> INFO - Reading 'ch2-rfmwmeas.bcf'
-[156] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[157] Biber.pm:889> INFO - Found 15 citekeys in bib section 1
-[157] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[178] Biber.pm:4093> INFO - Processing section 1
-[189] Biber.pm:4254> INFO - Looking for bibtex format file '../references.bib' for section 1
-[204] bibtex.pm:1523> INFO - LaTeX decoding ...
-[421] bibtex.pm:1340> INFO - Found BibTeX data source '../references.bib'
-[466] Utils.pm:193> WARN - month field 'March' in entry 'Kurokawa_1965' is not an integer - this will probably not sort properly.
-[470] Utils.pm:193> WARN - month field 'April' in entry 'Williams_2001' is not an integer - this will probably not sort properly.
-[499] Utils.pm:193> WARN - month field 'Dec' in entry 'Engen_1979' is not an integer - this will probably not sort properly.
-[502] Utils.pm:193> WARN - month field 'Jul' in entry 'Marks_1991' is not an integer - this will probably not sort properly.
-[530] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[530] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[530] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[530] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[544] bbl.pm:636> INFO - Writing 'ch2-rfmwmeas.bbl' with encoding 'UTF-8'
-[549] bbl.pm:739> INFO - Output to ch2-rfmwmeas.bbl
-[554] Biber.pm:110> INFO - WARNINGS: 4
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'ch2-rfmwmeas.blg'
+[55] biber-MSWIN32:313> INFO - === 
+[100] Biber.pm:371> INFO - Reading 'ch2-rfmwmeas.bcf'
+[236] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[237] Biber.pm:857> INFO - Found 18 citekeys in bib section 1
+[237] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[274] Biber.pm:3976> INFO - Processing section 1
+[299] Biber.pm:4136> INFO - Looking for bibtex format file '../references.bib' for section 1
+[314] bibtex.pm:1500> INFO - LaTeX decoding ...
+[735] bibtex.pm:1316> INFO - Found BibTeX data source '../references.bib'
+[813] Utils.pm:193> WARN - month field 'March' in entry 'Kurokawa_1965' is not an integer - this will probably not sort properly.
+[820] Utils.pm:193> WARN - month field 'April' in entry 'Williams_2001' is not an integer - this will probably not sort properly.
+[840] Utils.pm:193> WARN - month field 'June' in entry 'Rytting_2008' is not an integer - this will probably not sort properly.
+[885] Utils.pm:193> WARN - month field 'Dec' in entry 'Engen_1979' is not an integer - this will probably not sort properly.
+[891] Utils.pm:193> WARN - month field 'Jul' in entry 'Marks_1991' is not an integer - this will probably not sort properly.
+[924] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[924] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[924] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[925] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[952] bbl.pm:617> INFO - Writing 'ch2-rfmwmeas.bbl' with encoding 'UTF-8'
+[962] bbl.pm:720> INFO - Output to ch2-rfmwmeas.bbl
+[963] Biber.pm:110> INFO - WARNINGS: 5
