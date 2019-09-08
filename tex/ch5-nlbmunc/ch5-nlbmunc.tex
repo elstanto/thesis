@@ -293,7 +293,7 @@ The MUF was used to perform the calibration of electromagnetic wave parameters m
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=\linewidth]{setup}
-	\caption{The measurement setup used for extracting X-parameters from the DUT. Shown is the PNA-X LSNA (A), the phase reference comb generator (B), the phase calibration comb generator (C), the power meter (D), and the connected DUT (E).}
+	\caption[The measurement setup used for extracting X-parameters from the DUT.]{The measurement setup used for extracting X-parameters from the DUT. Shown is the PNA-X LSNA (A), the phase reference comb generator (B), the phase calibration comb generator (C), the power meter (D), and the connected DUT (E).}
 	\label{ch5_fig_setup}
 \end{figure}
 
@@ -358,7 +358,7 @@ The phase noise seen at lower powers in the estimate of $X^\textrm{T}_{2,1;2,2}$
 \begin{figure}
 	\centering
 	\includegraphics[width=0.8\textwidth]{hist}
-	\caption{Histogram comparing the Monte Carlo and sequential perturbation uncertainty results for $X^\textrm{S}_{2,1;2,1}$ (25 GHz) of the DUT at -2.4 dBm source power. The vertical line in the center of the plot (A) shows the nominal value (estimate), (B) shows the Monte Carlo average, and (C, D) show the Monte Carlo and sequential perturbation 95\% confidence intervals, respectively.}
+	\caption[Histogram comparing the Monte Carlo and sequential perturbation uncertainty results for the DUT.]{Histogram comparing the Monte Carlo and sequential perturbation uncertainty results for $X^\textrm{S}_{2,1;2,1}$ (25 GHz) of the DUT at -2.4 dBm source power. The vertical line in the center of the plot (A) shows the nominal value (estimate), (B) shows the Monte Carlo average, and (C, D) show the Monte Carlo and sequential perturbation 95\% confidence intervals, respectively.}
 	\label{ch5_fig_hist}
 \end{figure}
 
@@ -380,7 +380,7 @@ The phase noise seen at lower powers in the estimate of $X^\textrm{T}_{2,1;2,2}$
 		\includegraphics[width=\linewidth,height=5cm]{fig4d}	
 		\label{ch5_fig_t212kp}
 	\end{subfigure}
-	\caption{Estimates (solid line and shapes, left scale) and standard uncertainties (dashed line and hollow shapes, right scale) for the magnitude and phase of a sample of the extracted X-parameters. Harmonic indices 1 and 2 relate to measurement frequencies of 25 and 50 GHz, respectively. Uncertainties are a linear variation of the scale value.}
+	\caption[Estimates and standard uncertainties for the magnitude and phase of a sample of the extracted X-parameters.]{Estimates (solid line and shapes, left scale) and standard uncertainties (dashed line and hollow shapes, right scale) for the magnitude and phase of a sample of the extracted X-parameters. Harmonic indices 1 and 2 relate to measurement frequencies of 25 and 50 GHz, respectively. Uncertainties are a linear variation of the scale value.}
 	\label{ch5_fig_summaryplots}
 \end{figure}
 
@@ -412,7 +412,7 @@ For these example measurements, it can also be seen that the uncertainty contrib
 		\includegraphics[width=\linewidth,height=5cm]{fig5d}	
 		\label{ch5_fig_t2121phasesens}
 	\end{subfigure}
-	\caption{Sensitivity analysis results for a sample of the extracted X-parameters. Harmonic indices 1 and 2 relate to measurement frequencies of 25 and 50 GHz, respectively. Because the uncertainty is expressed as a linear variation of a decibel value, a non-zero horizontal line represents a linear relationship with source power.}
+	\caption[Sensitivity analysis results for a sample of the extracted X-parameters.]{Sensitivity analysis results for a sample of the extracted X-parameters. Harmonic indices 1 and 2 relate to measurement frequencies of 25 and 50 GHz, respectively. Because the uncertainty is expressed as a linear variation of a decibel value, a non-zero horizontal line represents a linear relationship with source power.}
 	\label{ch5_fig_sensplots}
 \end{figure}
 
@@ -426,14 +426,14 @@ To demonstrate this, an example simulation has been created in Advanced Design S
 \begin{figure}
 	\centering
 	\includegraphics[width=0.8\textwidth]{fig6}
-	\caption{An example circuit simulation schematic using an X-parameter model in ADS. The source power and X-parameter Monte Carlo sample index is swept by the Parameter Sweep components, and a harmonic balance simulation is carried out for each value of those sweeps.}
+	\caption[An example circuit simulation schematic using an X-parameter model incorporating uncertainties in ADS.]{An example circuit simulation schematic using an X-parameter model in ADS. The source power and X-parameter Monte Carlo sample index is swept by the Parameter Sweep components, and a harmonic balance simulation is carried out for each value of those sweeps.}
 	\label{ch5_fig_schematic}
 \end{figure}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.8\textwidth]{fig7}
-	\caption{Results from the ADS circuit simulation. The higher black trace shows the Monte Carlo samples for the gain of the circuit, whereas the lower red trace shows the PAE. The black trace with circles and red trace with squares show the 95\% expanded uncertainties for gain and PAE, respectively.}
+	\caption[Results from an ADS circuit simulation using an X-parameter model incorporating uncertainties in ADS.]{Results from the ADS circuit simulation. The higher black trace shows the Monte Carlo samples for the gain of the circuit, whereas the lower red trace shows the PAE. The black trace with circles and red trace with squares show the 95\% expanded uncertainties for gain and PAE, respectively.}
 	\label{ch5_fig_adsplot}
 \end{figure}
 

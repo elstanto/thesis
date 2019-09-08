@@ -19,18 +19,66 @@
 
 \refsection{1}
   \datalist[entry]{none/global//global/global}
+    \entry{Votsi_2020}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=e463724b7a4bbf34fc2addde88088be0}{%
+           family={Votsi},
+           familyi={V\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
+           family={Stant},
+           familyi={S\bibinitperiod},
+           given={L.\bibnamedelimi T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=b837a3146918ad772bf16460ea11c387}{%
+           family={Salter},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=d32559a5fc6b9c48ad950f89259bc465}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=7456470a8b102ff66439a30d2678b78e}{%
+           family={Ridler},
+           familyi={R\bibinitperiod},
+           given={N.\bibnamedelimi M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
+           family={Aaen},
+           familyi={A\bibinitperiod},
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{d9fabaed563bb2fe2b4a90205886689f}
+      \strng{fullhash}{80ef6aa9d7323ab2ca07117bf8ba0bab}
+      \strng{bibnamehash}{80ef6aa9d7323ab2ca07117bf8ba0bab}
+      \strng{authorbibnamehash}{80ef6aa9d7323ab2ca07117bf8ba0bab}
+      \strng{authornamehash}{d9fabaed563bb2fe2b4a90205886689f}
+      \strng{authorfullhash}{80ef6aa9d7323ab2ca07117bf8ba0bab}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 94th ARFTG Microwave Measurement Conference (ARFTG)}
+      \field{title}{An Interferometric Characterization Technique for Extreme Impedance Microwave Devices}
+      \field{year}{submitted}
+      \true{nocite}
+    \endentry
     \entry{Salter_2018}{inproceedings}{}
       \name{author}{4}{}{%
         {{hash=b837a3146918ad772bf16460ea11c387}{%
            family={Salter},
            familyi={S\bibinitperiod},
-           given={M.J},
-           giveni={M\bibinitperiod}}}%
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
         {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
            family={Stant},
            familyi={S\bibinitperiod},
-           given={L.T.},
-           giveni={L\bibinitperiod}}}%
+           given={L.\bibnamedelimi T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
         {{hash=26e73ca6fc25eaefa6fbd61adc7786b0}{%
            family={Buisman},
            familyi={B\bibinitperiod},
@@ -51,8 +99,8 @@
       \strng{authorbibnamehash}{411277369dc417ccc021a357e7a857be}
       \strng{authornamehash}{98d27a6ef22ccb5afeab124c49af95b3}
       \strng{authorfullhash}{411277369dc417ccc021a357e7a857be}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2011 Workshop on Integrated Nonlinear Microwave and Millimetre-Wave Circuits}
@@ -66,28 +114,28 @@
         {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
            family={Stant},
            familyi={S\bibinitperiod},
-           given={L.T.},
-           giveni={L\bibinitperiod}}}%
+           given={L.\bibnamedelimi T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
         {{hash=b837a3146918ad772bf16460ea11c387}{%
            family={Salter},
            familyi={S\bibinitperiod},
-           given={M.J.},
-           giveni={M\bibinitperiod}}}%
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
         {{hash=7456470a8b102ff66439a30d2678b78e}{%
            family={Ridler},
            familyi={R\bibinitperiod},
-           given={N.M.},
-           giveni={N\bibinitperiod}}}%
+           given={N.\bibnamedelimi M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
         {{hash=894a26e0347e1a769804de4b0068f0f4}{%
            family={Williams},
            familyi={W\bibinitperiod},
-           given={D.F.},
-           giveni={D\bibinitperiod}}}%
+           given={D.\bibnamedelimi F.},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
         {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
            family={Aaen},
            familyi={A\bibinitperiod},
-           given={P.H.},
-           giveni={P\bibinitperiod}}}%
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
       }
       \strng{namehash}{2e53cf84fdd29e73dafa62eb9f738f9b}
       \strng{fullhash}{e7b8c1bbb7b21d18b93e1c35618f0b1a}
@@ -95,11 +143,11 @@
       \strng{authorbibnamehash}{e7b8c1bbb7b21d18b93e1c35618f0b1a}
       \strng{authornamehash}{2e53cf84fdd29e73dafa62eb9f738f9b}
       \strng{authorfullhash}{e7b8c1bbb7b21d18b93e1c35618f0b1a}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Trans. Microw. Theory Techn.}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
       \field{month}{11}
       \field{title}{Propagating Measurement Uncertainty to Microwave Amplifier Nonlinear Behavioural Models}
       \field{year}{2018}
@@ -110,18 +158,18 @@
         {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
            family={Stant},
            familyi={S\bibinitperiod},
-           given={L.T.},
-           giveni={L\bibinitperiod}}}%
+           given={L.\bibnamedelimi T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
         {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
            family={Aaen},
            familyi={A\bibinitperiod},
-           given={P.H.},
-           giveni={P\bibinitperiod}}}%
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
         {{hash=7456470a8b102ff66439a30d2678b78e}{%
            family={Ridler},
            familyi={R\bibinitperiod},
-           given={N.M.},
-           giveni={N\bibinitperiod}}}%
+           given={N.\bibnamedelimi M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
       \list{publisher}{2}{%
         {Institution of Engineering}%
@@ -134,11 +182,11 @@
       \strng{authornamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
       \strng{authorfullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
       \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IET Microwaves Antennas Propag.}
+      \field{journaltitle}{IET Microw. Antennas Propag.}
       \field{month}{2}
       \field{number}{3}
       \field{title}{Evaluating residual errors in waveguide {VNAs} from microwave to submillimetre-wave frequencies}
@@ -156,18 +204,18 @@
         {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
            family={Stant},
            familyi={S\bibinitperiod},
-           given={L.T.},
-           giveni={L\bibinitperiod}}}%
+           given={L.\bibnamedelimi T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
         {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
            family={Aaen},
            familyi={A\bibinitperiod},
-           given={P.H.},
-           giveni={P\bibinitperiod}}}%
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
         {{hash=7456470a8b102ff66439a30d2678b78e}{%
            family={Ridler},
            familyi={R\bibinitperiod},
-           given={N.M.},
-           giveni={N\bibinitperiod}}}%
+           given={N.\bibnamedelimi M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Elsevier {BV}}%
@@ -179,8 +227,8 @@
       \strng{authornamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
       \strng{authorfullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
       \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Measurement}
@@ -200,18 +248,18 @@
         {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
            family={Stant},
            familyi={S\bibinitperiod},
-           given={L.T.},
-           giveni={L\bibinitperiod}}}%
+           given={L.\bibnamedelimi T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
         {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
            family={Aaen},
            familyi={A\bibinitperiod},
-           given={P.H.},
-           giveni={P\bibinitperiod}}}%
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
         {{hash=7456470a8b102ff66439a30d2678b78e}{%
            family={Ridler},
            familyi={R\bibinitperiod},
-           given={N.M.},
-           giveni={N\bibinitperiod}}}%
+           given={N.\bibnamedelimi M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
       \list{publisher}{2}{%
         {Institution of Engineering}%
@@ -224,11 +272,12 @@
       \strng{authornamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
       \strng{authorfullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
       \field{extraname}{3}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{IET Colloquium on Millimetre-Wave and Terahertz Engineering \& Technology 2016}
+      \field{month}{3}
       \field{title}{Evaluating residual errors in waveguide network analysers from microwave to submillimetre-wave frequencies}
       \field{year}{2016}
       \true{nocite}
@@ -241,88 +290,80 @@
 
 \refsection{2}
   \datalist[entry]{none/global//global/global}
-    \entry{Stant_2016_Coll}{inproceedings}{}
-      \name{author}{3}{}{%
+    \entry{Stant_2017_pgi}{unpublished}{}
+      \name{author}{1}{}{%
         {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
            family={Stant},
            familyi={S\bibinitperiod},
-           given={L.T.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
-           family={Aaen},
-           familyi={A\bibinitperiod},
-           given={P.H.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=7456470a8b102ff66439a30d2678b78e}{%
-           family={Ridler},
-           familyi={R\bibinitperiod},
-           given={N.M.},
-           giveni={N\bibinitperiod}}}%
+           given={L.\bibnamedelimi T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
       }
-      \list{publisher}{2}{%
-        {Institution of Engineering}%
-        {Technology ({IET})}%
-      }
-      \strng{namehash}{45cf6d14ef6364ee8545c3a19ab27e94}
-      \strng{fullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
-      \strng{bibnamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
-      \strng{authorbibnamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
-      \strng{authornamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
-      \strng{authorfullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{namehash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{fullhash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{bibnamehash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{authorbibnamehash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{authornamehash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{authorfullhash}{0630c65220fb64f5c328dbf26187c4ab}
       \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{IET Colloquium on Millimetre-Wave and Terahertz Engineering \& Technology 2016}
-      \field{title}{Evaluating residual errors in waveguide network analysers from microwave to submillimetre-wave frequencies}
-      \field{year}{2016}
-      \verb{doi}
-      \verb 10.1049/ic.2016.0016
-      \endverb
+      \field{month}{10}
+      \field{note}{2nd NPL Postgraduate Institute Annual Conference, Teddington, UK}
+      \field{title}{Comparing Methods For Evaluating Measurement Uncertainty Given In The {JCGM} ‘Evaluation Of Measurement Data’ Documents}
+      \field{year}{2017}
+      \true{nocite}
     \endentry
-    \entry{Stant_2016}{article}{}
-      \name{author}{3}{}{%
+    \entry{Stant_2017_feps}{unpublished}{}
+      \name{author}{1}{}{%
         {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
            family={Stant},
            familyi={S\bibinitperiod},
-           given={L.T.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
-           family={Aaen},
-           familyi={A\bibinitperiod},
-           given={P.H.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=7456470a8b102ff66439a30d2678b78e}{%
-           family={Ridler},
-           familyi={R\bibinitperiod},
-           given={N.M.},
-           giveni={N\bibinitperiod}}}%
+           given={L.\bibnamedelimi T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Elsevier {BV}}%
-      }
-      \strng{namehash}{45cf6d14ef6364ee8545c3a19ab27e94}
-      \strng{fullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
-      \strng{bibnamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
-      \strng{authorbibnamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
-      \strng{authornamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
-      \strng{authorfullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{namehash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{fullhash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{bibnamehash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{authorbibnamehash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{authornamehash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{authorfullhash}{0630c65220fb64f5c328dbf26187c4ab}
       \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Measurement}
-      \field{month}{12}
-      \field{title}{Comparing methods for evaluating measurement uncertainty given in the {JCGM} `Evaluation of Measurement Data' documents}
-      \field{volume}{94}
+      \field{month}{6}
+      \field{note}{Faculty of Engineering and Physical Sciences Annual Festival of Research, University of Surrey}
+      \field{title}{Comparing Methods For Evaluating Measurement Uncertainty Given In The {JCGM} ‘Evaluation Of Measurement Data’ Documents}
+      \field{year}{2017}
+      \true{nocite}
+    \endentry
+    \entry{Stant_2016_pg}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
+           family={Stant},
+           familyi={S\bibinitperiod},
+           given={L.\bibnamedelimi T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{fullhash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{bibnamehash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{authorbibnamehash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{authornamehash}{0630c65220fb64f5c328dbf26187c4ab}
+      \strng{authorfullhash}{0630c65220fb64f5c328dbf26187c4ab}
+      \field{extraname}{3}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{note}{6th Annual Postgraduate Research Conference, University of Surrey}
+      \field{title}{Evaluating Measurement Uncertainty in Microwave and Terahertz Frequency Metrology}
       \field{year}{2016}
-      \field{pages}{847\bibrangedash 851}
-      \range{pages}{5}
-      \verb{doi}
-      \verb 10.1016/j.measurement.2016.08.015
-      \endverb
+      \true{nocite}
     \endentry
   \enddatalist
 \endrefsection
@@ -334,18 +375,18 @@
         {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
            family={Stant},
            familyi={S\bibinitperiod},
-           given={L.T.},
-           giveni={L\bibinitperiod}}}%
+           given={L.\bibnamedelimi T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
         {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
            family={Aaen},
            familyi={A\bibinitperiod},
-           given={P.H.},
-           giveni={P\bibinitperiod}}}%
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
         {{hash=7456470a8b102ff66439a30d2678b78e}{%
            family={Ridler},
            familyi={R\bibinitperiod},
-           given={N.M.},
-           giveni={N\bibinitperiod}}}%
+           given={N.\bibnamedelimi M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
       \list{publisher}{2}{%
         {Institution of Engineering}%
@@ -358,11 +399,12 @@
       \strng{authornamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
       \strng{authorfullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
       \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{IET Colloquium on Millimetre-Wave and Terahertz Engineering \& Technology 2016}
+      \field{month}{3}
       \field{title}{Evaluating residual errors in waveguide network analysers from microwave to submillimetre-wave frequencies}
       \field{year}{2016}
       \verb{doi}
@@ -374,18 +416,18 @@
         {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
            family={Stant},
            familyi={S\bibinitperiod},
-           given={L.T.},
-           giveni={L\bibinitperiod}}}%
+           given={L.\bibnamedelimi T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
         {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
            family={Aaen},
            familyi={A\bibinitperiod},
-           given={P.H.},
-           giveni={P\bibinitperiod}}}%
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
         {{hash=7456470a8b102ff66439a30d2678b78e}{%
            family={Ridler},
            familyi={R\bibinitperiod},
-           given={N.M.},
-           giveni={N\bibinitperiod}}}%
+           given={N.\bibnamedelimi M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Elsevier {BV}}%
@@ -397,8 +439,8 @@
       \strng{authornamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
       \strng{authorfullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
       \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Measurement}
@@ -413,11 +455,967 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{Hall2013}
-  \missing{Root2013}
 \endrefsection
 
 \refsection{4}
+  \datalist[entry]{none/global//global/global}
+    \entry{Williams_2013}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0cf7d83b3c925107374947fe98b35589}{%
+           family={{Williams}},
+           familyi={W\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{0cf7d83b3c925107374947fe98b35589}
+      \strng{fullhash}{0cf7d83b3c925107374947fe98b35589}
+      \strng{bibnamehash}{0cf7d83b3c925107374947fe98b35589}
+      \strng{authorbibnamehash}{0cf7d83b3c925107374947fe98b35589}
+      \strng{authornamehash}{0cf7d83b3c925107374947fe98b35589}
+      \strng{authorfullhash}{0cf7d83b3c925107374947fe98b35589}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1527-3342}
+      \field{journaltitle}{{IEEE} Microw. Mag.}
+      \field{month}{11}
+      \field{number}{7}
+      \field{title}{Traveling Waves and Power Waves: Building a Solid Foundation for Microwave Circuit Theory}
+      \field{volume}{14}
+      \field{year}{2013}
+      \field{pages}{38\bibrangedash 45}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/MMM.2013.2279494
+      \endverb
+      \keyw{electromagnetic field theory;equivalent circuits;Maxwell equations;microwave circuits;transmission lines;solid foundation;microwave electronics;lossy printed transmission lines;Maxwell equations;electromagnetic field solutions;microwave equivalent-circuit theory;power waves;traveling waves;Microwave measurement;Microwave circuits;Transmission line measurements;Power transmission lines;Traveling wave tubes;History;Electromagnetic measurements;Equivalent circuits}
+    \endentry
+    \entry{Marcuvitz_1951}{book}{}
+      \name{author}{1}{}{%
+        {{hash=fd3ee662d9a492c5a7fee0c1d95a20b2}{%
+           family={Marcuvitz},
+           familyi={M\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{fd3ee662d9a492c5a7fee0c1d95a20b2}
+      \strng{fullhash}{fd3ee662d9a492c5a7fee0c1d95a20b2}
+      \strng{bibnamehash}{fd3ee662d9a492c5a7fee0c1d95a20b2}
+      \strng{authorbibnamehash}{fd3ee662d9a492c5a7fee0c1d95a20b2}
+      \strng{authornamehash}{fd3ee662d9a492c5a7fee0c1d95a20b2}
+      \strng{authorfullhash}{fd3ee662d9a492c5a7fee0c1d95a20b2}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780863410581}
+      \field{series}{Electromagnetics and Radar Series}
+      \field{title}{Waveguide Handbook}
+      \field{year}{1951}
+    \endentry
+    \entry{Marks_1992}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=903e247b6b46a88bde9407b0f98ebbcf}{%
+           family={Marks},
+           familyi={M\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod}}}%
+        {{hash=cca6f2070bddacc1588932881c2fd7ba}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Dylan\bibnamedelima F.},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{e7bc8a3eb0782999f013eccf954498b3}
+      \strng{fullhash}{e7bc8a3eb0782999f013eccf954498b3}
+      \strng{bibnamehash}{e7bc8a3eb0782999f013eccf954498b3}
+      \strng{authorbibnamehash}{e7bc8a3eb0782999f013eccf954498b3}
+      \strng{authornamehash}{e7bc8a3eb0782999f013eccf954498b3}
+      \strng{authorfullhash}{e7bc8a3eb0782999f013eccf954498b3}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Journal of research of the National Institute of Standards and Technology}
+      \field{title}{A General Waveguide Circuit Theory}
+      \field{year}{1992}
+    \endentry
+    \entry{Kurokawa_1965}{article}{}
+      \name{author}{1}{}{%
+        {{hash=59c319093de84197134f6aa9929ad611}{%
+           family={{Kurokawa}},
+           familyi={K\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{59c319093de84197134f6aa9929ad611}
+      \strng{fullhash}{59c319093de84197134f6aa9929ad611}
+      \strng{bibnamehash}{59c319093de84197134f6aa9929ad611}
+      \strng{authorbibnamehash}{59c319093de84197134f6aa9929ad611}
+      \strng{authornamehash}{59c319093de84197134f6aa9929ad611}
+      \strng{authorfullhash}{59c319093de84197134f6aa9929ad611}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
+      \field{month}{3}
+      \field{number}{2}
+      \field{title}{Power Waves and the Scattering Matrix}
+      \field{volume}{13}
+      \field{year}{1965}
+      \field{pages}{194\bibrangedash 202}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/TMTT.1965.1125964
+      \endverb
+      \keyw{Scattering;Transmission line matrix methods;Voltage;Impedance;Power transmission lines;Transmission line theory;Distributed parameter circuits;Power amplifiers;Frequency}
+    \endentry
+    \entry{Williams_2001}{article}{}
+      \name{author}{2}{}{%
+        {{hash=894a26e0347e1a769804de4b0068f0f4}{%
+           family={{Williams}},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi F.},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=5672e68dcbc74607a2fe05ec72c26e13}{%
+           family={{Alpert}},
+           familyi={A\bibinitperiod},
+           given={B.\bibnamedelimi K.},
+           giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{d520d1525858204a5b60aed4c1a1d518}
+      \strng{fullhash}{d520d1525858204a5b60aed4c1a1d518}
+      \strng{bibnamehash}{d520d1525858204a5b60aed4c1a1d518}
+      \strng{authorbibnamehash}{d520d1525858204a5b60aed4c1a1d518}
+      \strng{authornamehash}{d520d1525858204a5b60aed4c1a1d518}
+      \strng{authorfullhash}{d520d1525858204a5b60aed4c1a1d518}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{Causality and waveguide circuit theory}
+      \field{volume}{49}
+      \field{year}{2001}
+      \field{pages}{615\bibrangedash 623}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/22.915434
+      \endverb
+      \keyw{waveguide theory;equivalent circuits;time-domain analysis;frequency-domain analysis;waveguide circuit theory;power-normalized waveguide equivalent-circuit theory;network parameters;time domain;frequency domain;power normalization;characteristic impedance;simultaneity;Waveguide theory;Circuit theory;Electromagnetic waveguides;Voltage;Impedance;Circuit simulation;Tellurium;Frequency;Time domain analysis;Magnetic fields}
+    \endentry
+    \entry{Smith_1939}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9411b995b68a49c924c3f6f1bf17f314}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{9411b995b68a49c924c3f6f1bf17f314}
+      \strng{fullhash}{9411b995b68a49c924c3f6f1bf17f314}
+      \strng{bibnamehash}{9411b995b68a49c924c3f6f1bf17f314}
+      \strng{authorbibnamehash}{9411b995b68a49c924c3f6f1bf17f314}
+      \strng{authornamehash}{9411b995b68a49c924c3f6f1bf17f314}
+      \strng{authorfullhash}{9411b995b68a49c924c3f6f1bf17f314}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Electronics}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Transmission line calculator}
+      \field{volume}{12}
+      \field{year}{1939}
+      \field{pages}{29\bibrangedash 31}
+      \range{pages}{3}
+    \endentry
+    \entry{Pozar_2004}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c3d8e666fc5a356e1abefe2a4fea5cad}{%
+           family={Pozar},
+           familyi={P\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{c3d8e666fc5a356e1abefe2a4fea5cad}
+      \strng{fullhash}{c3d8e666fc5a356e1abefe2a4fea5cad}
+      \strng{bibnamehash}{c3d8e666fc5a356e1abefe2a4fea5cad}
+      \strng{authorbibnamehash}{c3d8e666fc5a356e1abefe2a4fea5cad}
+      \strng{authornamehash}{c3d8e666fc5a356e1abefe2a4fea5cad}
+      \strng{authorfullhash}{c3d8e666fc5a356e1abefe2a4fea5cad}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780471448785}
+      \field{title}{Microwave Engineering}
+      \field{year}{2004}
+    \endentry
+    \entry{Teppati_2013}{book}{}
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labeltitlesource}{title}
+      \field{series}{The Cambridge RF and Microwave Engineering Series}
+      \field{title}{Modern RF and Microwave Measurement Techniques}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.1017/CBO9781139567626
+      \endverb
+    \endentry
+    \entry{Dunsmore_2012}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f556849382a409f8d88d41a47ee4454e}{%
+           family={Dunsmore},
+           familyi={D\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{f556849382a409f8d88d41a47ee4454e}
+      \strng{fullhash}{f556849382a409f8d88d41a47ee4454e}
+      \strng{bibnamehash}{f556849382a409f8d88d41a47ee4454e}
+      \strng{authorbibnamehash}{f556849382a409f8d88d41a47ee4454e}
+      \strng{authornamehash}{f556849382a409f8d88d41a47ee4454e}
+      \strng{authorfullhash}{f556849382a409f8d88d41a47ee4454e}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781118391259}
+      \field{title}{Handbook of Microwave Component Measurements: with Advanced VNA Techniques}
+      \field{year}{2012}
+    \endentry
+    \entry{Rytting_2008}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=05d5a7a03018917e576e06e5dd355330}{%
+           family={{Rytting}},
+           familyi={R\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Atlanta, GA, USA}%
+      }
+      \strng{namehash}{05d5a7a03018917e576e06e5dd355330}
+      \strng{fullhash}{05d5a7a03018917e576e06e5dd355330}
+      \strng{bibnamehash}{05d5a7a03018917e576e06e5dd355330}
+      \strng{authorbibnamehash}{05d5a7a03018917e576e06e5dd355330}
+      \strng{authornamehash}{05d5a7a03018917e576e06e5dd355330}
+      \strng{authorfullhash}{05d5a7a03018917e576e06e5dd355330}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE MTT-S Int. Microw. Symp. Dig.}
+      \field{month}{6}
+      \field{title}{{ARFTG} 50 year network analyzer history}
+      \field{year}{2008}
+      \field{pages}{11\bibrangedash 18}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/ARFTG.2008.4633319
+      \endverb
+      \keyw{Microwave measurements;Calibration;Microwave technology;Reflection;Frequency measurement;Impedance;Microwave theory and techniques;Scattering parameters measurement;Microwave measurements;Network analyzers}
+    \endentry
+    \entry{Parzen_1947}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2530b871c602c3b04a6d83b752eb08ab}{%
+           family={Parzen},
+           familyi={P\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=574d9da260226944bfbe7fdccb461525}{%
+           family={Yalow},
+           familyi={Y\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d8f179ae75cb707f1d559e5ab0339169}
+      \strng{fullhash}{d8f179ae75cb707f1d559e5ab0339169}
+      \strng{bibnamehash}{d8f179ae75cb707f1d559e5ab0339169}
+      \strng{authorbibnamehash}{d8f179ae75cb707f1d559e5ab0339169}
+      \strng{authornamehash}{d8f179ae75cb707f1d559e5ab0339169}
+      \strng{authorfullhash}{d8f179ae75cb707f1d559e5ab0339169}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Electrical Communications}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Theory and Design of the Reflectometer}
+      \field{volume}{24}
+      \field{year}{1947}
+      \field{pages}{94\bibrangedash 100}
+      \range{pages}{7}
+    \endentry
+    \entry{mj_multiport}{online}{}
+      \name{author}{1}{}{%
+        {{hash=617503f92c81ed082c208b4583de2105}{%
+           family={{Rohde \& Schwarz}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Microwave Journal}%
+      }
+      \strng{namehash}{617503f92c81ed082c208b4583de2105}
+      \strng{fullhash}{617503f92c81ed082c208b4583de2105}
+      \strng{bibnamehash}{617503f92c81ed082c208b4583de2105}
+      \strng{authorbibnamehash}{617503f92c81ed082c208b4583de2105}
+      \strng{authornamehash}{617503f92c81ed082c208b4583de2105}
+      \strng{authorfullhash}{617503f92c81ed082c208b4583de2105}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{14}
+      \field{month}{3}
+      \field{title}{Vector Network Analysis with Up to 48 Ports}
+      \field{urlday}{18}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.microwavejournal.com/articles/21785-vector-network-analysis-with-up-to-48-ports
+      \endverb
+      \verb{url}
+      \verb http://www.microwavejournal.com/articles/21785-vector-network-analysis-with-up-to-48-ports
+      \endverb
+    \endentry
+    \entry{Root_2013}{book}{}
+      \name{author}{4}{}{%
+        {{hash=981e0559c770879344de0a53fd210cd7}{%
+           family={Root},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=f6c09f6325be69ff567afcd01c0d10d5}{%
+           family={Verspecht},
+           familyi={V\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=15934c57f7d1f0e6652d8149f870f4ce}{%
+           family={Horn},
+           familyi={H\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=873cf16b98e89e22166961c92dd33069}{%
+           family={Marcu},
+           familyi={M\bibinitperiod},
+           given={Mihai},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{42e7875bd057e3b143ace1908460002c}
+      \strng{fullhash}{eade849cc1c1a6bee0aae9f8f17e5f80}
+      \strng{bibnamehash}{eade849cc1c1a6bee0aae9f8f17e5f80}
+      \strng{authorbibnamehash}{eade849cc1c1a6bee0aae9f8f17e5f80}
+      \strng{authornamehash}{42e7875bd057e3b143ace1908460002c}
+      \strng{authorfullhash}{eade849cc1c1a6bee0aae9f8f17e5f80}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{X-Parameters: Characterization, Modeling, and Design of Nonlinear RF and Microwave Components}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.1017/CBO9781139042970
+      \endverb
+    \endentry
+    \entry{Collier_2007}{book}{}
+      \name{author}{2}{}{%
+        {{hash=d4b4c6d4524cd5f2a054fbb552cb9d24}{%
+           family={Collier},
+           familyi={C\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=73988657870cda294be0ec425ab53013}{%
+           family={Skinner},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Institution of Engineering}%
+        {Technology}%
+      }
+      \strng{namehash}{3cd0cafa48380cd888140a1616ed86be}
+      \strng{fullhash}{3cd0cafa48380cd888140a1616ed86be}
+      \strng{bibnamehash}{3cd0cafa48380cd888140a1616ed86be}
+      \strng{authorbibnamehash}{3cd0cafa48380cd888140a1616ed86be}
+      \strng{authornamehash}{3cd0cafa48380cd888140a1616ed86be}
+      \strng{authorfullhash}{3cd0cafa48380cd888140a1616ed86be}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780863417351}
+      \field{series}{IET Electrical Measurement Series}
+      \field{title}{Microwave Measurements}
+      \field{year}{2007}
+    \endentry
+    \entry{Rytting_2000}{article}{}
+      \name{author}{1}{}{%
+        {{hash=79e2a031d53d149a6edaec060eb7df6e}{%
+           family={Rytting},
+           familyi={R\bibinitperiod},
+           given={Doug},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{79e2a031d53d149a6edaec060eb7df6e}
+      \strng{fullhash}{79e2a031d53d149a6edaec060eb7df6e}
+      \strng{bibnamehash}{79e2a031d53d149a6edaec060eb7df6e}
+      \strng{authorbibnamehash}{79e2a031d53d149a6edaec060eb7df6e}
+      \strng{authornamehash}{79e2a031d53d149a6edaec060eb7df6e}
+      \strng{authorfullhash}{79e2a031d53d149a6edaec060eb7df6e}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ARFTG Short Course on Measurements and Metrology for RF Telecommunications}
+      \field{month}{11}
+      \field{title}{Network analyzer error models and calibration methods}
+      \field{year}{2000}
+    \endentry
+    \entry{Rehnmark_1974}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7697a3e2fe90fcae7bd8fd916e09f9b6}{%
+           family={{Rehnmark}},
+           familyi={R\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{7697a3e2fe90fcae7bd8fd916e09f9b6}
+      \strng{fullhash}{7697a3e2fe90fcae7bd8fd916e09f9b6}
+      \strng{bibnamehash}{7697a3e2fe90fcae7bd8fd916e09f9b6}
+      \strng{authorbibnamehash}{7697a3e2fe90fcae7bd8fd916e09f9b6}
+      \strng{authornamehash}{7697a3e2fe90fcae7bd8fd916e09f9b6}
+      \strng{authorfullhash}{7697a3e2fe90fcae7bd8fd916e09f9b6}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{On the Calibration Process of Automatic Network Analyzer Systems}
+      \field{volume}{22}
+      \field{year}{1974}
+      \field{pages}{457\bibrangedash 458}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1109/TMTT.1974.1128250
+      \endverb
+      \keyw{Calibration;Switches;Scattering parameters;Transmission line theory;Hardware;System testing;Measurement standards;Electromagnetic analysis;EMP radiation effects}
+    \endentry
+    \entry{Butler_1991}{article}{}
+      \name{author}{5}{}{%
+        {{hash=675dce160d4ccf76dd63d301a3006ace}{%
+           family={{Butler}},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi V.},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=8df2e443bfedf7ab6e201cf73088e6a7}{%
+           family={{Rytting}},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi K.},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=ffe0bd27550d45da727e799080a8733a}{%
+           family={{Iskander}},
+           familyi={I\bibinitperiod},
+           given={M.\bibnamedelimi F.},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=d4701c993c1aa57a12aee61b5f8ed099}{%
+           family={{Pollard}},
+           familyi={P\bibinitperiod},
+           given={R.\bibnamedelimi D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=60accba26b428adbe483773262c52e23}{%
+           family={{Vanden Bossche}},
+           familyi={V\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f49cd2c1d4a0bb0008e09fa5ca718f8}
+      \strng{fullhash}{40c18995f9b8d0ed6d1f0fca2015ed5f}
+      \strng{bibnamehash}{40c18995f9b8d0ed6d1f0fca2015ed5f}
+      \strng{authorbibnamehash}{40c18995f9b8d0ed6d1f0fca2015ed5f}
+      \strng{authornamehash}{5f49cd2c1d4a0bb0008e09fa5ca718f8}
+      \strng{authorfullhash}{40c18995f9b8d0ed6d1f0fca2015ed5f}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{16-term error model and calibration procedure for on-wafer network analysis measurements}
+      \field{volume}{39}
+      \field{year}{1991}
+      \field{pages}{2211\bibrangedash 2217}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/22.106567
+      \endverb
+      \keyw{calibration;error correction;integrated circuit testing;measurement errors;microwave measurement;MMIC;network analysers;S-parameters;onwafer measurements;vector network measurements;16-term error model;calibration procedure;on-wafer network analysis measurements;error correction;open air devices;coupling error;leaky system;MMIC wafer probe measurements;Calibration;Semiconductor device modeling;MMICs;Probes;Fixtures;Scattering parameters;Cities and towns;Testing;Error correction;Current measurement}
+    \endentry
+    \entry{Egan_2004}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8e8873bca1599780de3467ba845d1668}{%
+           family={Egan},
+           familyi={E\bibinitperiod},
+           given={W.F.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{8e8873bca1599780de3467ba845d1668}
+      \strng{fullhash}{8e8873bca1599780de3467ba845d1668}
+      \strng{bibnamehash}{8e8873bca1599780de3467ba845d1668}
+      \strng{authorbibnamehash}{8e8873bca1599780de3467ba845d1668}
+      \strng{authornamehash}{8e8873bca1599780de3467ba845d1668}
+      \strng{authorfullhash}{8e8873bca1599780de3467ba845d1668}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780471654087}
+      \field{title}{Practical RF System Design}
+      \field{year}{2004}
+    \endentry
+    \entry{Engen_1979}{article}{}
+      \name{author}{2}{}{%
+        {{hash=28213d63bf04f657b8ae3ff503bb6991}{%
+           family={{Engen}},
+           familyi={E\bibinitperiod},
+           given={G.\bibnamedelimi F.},
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=b60c77fe432088562cd4769d535e7c2b}{%
+           family={{Hoer}},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \strng{fullhash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \strng{bibnamehash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \strng{authorbibnamehash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \strng{authornamehash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \strng{authorfullhash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Thru-Reflect-Line: An Improved Technique for Calibrating the Dual Six-Port Automatic Network Analyzer}
+      \field{volume}{27}
+      \field{year}{1979}
+      \field{pages}{987\bibrangedash 993}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/TMTT.1979.1129778
+      \endverb
+      \keyw{Calibration;Detectors;Scattering parameters;Senior members;Circuits;Microwave devices;Microwave measurements;Test equipment;Particle measurements}
+    \endentry
+    \entry{Marks_1991}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6a2301da3cd29f54bd0d18ecaae18f70}{%
+           family={Marks},
+           familyi={M\bibinitperiod},
+           given={R.\bibnamedelimi B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \strng{fullhash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \strng{bibnamehash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \strng{authorbibnamehash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \strng{authornamehash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \strng{authorfullhash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{A multiline method of network analyzer calibration}
+      \field{volume}{39}
+      \field{year}{1991}
+      \field{pages}{1205\bibrangedash 1215}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/22.85388
+      \endverb
+      \keyw{calibration;microwave measurement;network analysers;TRL method;accuracy;assessment of calibration accuracy;bandwidth;calibration of network analyzers;imperfect connector repeatability;linearized error analysis;multiline method of network analyzer calibration;multiple transmission line standards;random errors reduction;redundant transmission line standards;statistical treatment;thru-reflect-line calibration method;Bandwidth;Calibration;Connectors;Covariance matrix;Error analysis;Frequency;Iterative methods;Transmission line matrix methods;Transmission line theory;Transmission lines}
+    \endentry
+    \entry{Sipila_1988}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6d65a4d5c22b526a1da9c1d2d198da90}{%
+           family={{Sipila}},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=399dfd9940fa3c492889aad985fdd0c1}{%
+           family={{Lehtinen}},
+           familyi={L\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=77a1234e3bed5c7d0523a3373c4945cd}{%
+           family={{Porra}},
+           familyi={P\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0d2ca52f78d9ec9de9137f067d32d9e}
+      \strng{fullhash}{c0d2ca52f78d9ec9de9137f067d32d9e}
+      \strng{bibnamehash}{c0d2ca52f78d9ec9de9137f067d32d9e}
+      \strng{authorbibnamehash}{c0d2ca52f78d9ec9de9137f067d32d9e}
+      \strng{authornamehash}{c0d2ca52f78d9ec9de9137f067d32d9e}
+      \strng{authorfullhash}{c0d2ca52f78d9ec9de9137f067d32d9e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{High-frequency periodic time-domain waveform measurement system}
+      \field{volume}{36}
+      \field{year}{1988}
+      \field{pages}{1397\bibrangedash 1405}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/22.6087
+      \endverb
+      \keyw{electric current measurement;error correction;measurement errors;microwave measurement;semiconductor device testing;solid-state microwave devices;voltage measurement;wave analysers;signal processing errors;HF type;semiconductor devices;periodic time-domain waveform measurement system;current waveforms;nonlinear microwave device;high-speed sampling oscilloscope;error correction;measurement-system characterization;circuit model;measurement fixture;Time domain analysis;Microwave measurements;Current measurement;Voltage;Microwave devices;Time measurement;Performance evaluation;Sampling methods;Oscilloscopes;Frequency domain analysis}
+    \endentry
+    \entry{Broeck_1994}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=b7961c7d487f735807471dfbd8b45c61}{%
+           family={{Van den Broeck}},
+           familyi={V\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=205574896d69566dafa891831fc8b29b}{%
+           family={{Verspecht}},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {San Diego, CA, USA}%
+      }
+      \strng{namehash}{467d504cd53e315f979ee20f92823cf2}
+      \strng{fullhash}{467d504cd53e315f979ee20f92823cf2}
+      \strng{bibnamehash}{467d504cd53e315f979ee20f92823cf2}
+      \strng{authorbibnamehash}{467d504cd53e315f979ee20f92823cf2}
+      \strng{authornamehash}{467d504cd53e315f979ee20f92823cf2}
+      \strng{authorfullhash}{467d504cd53e315f979ee20f92823cf2}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE MTT-S Int. Microw. Symp. Dig.}
+      \field{issn}{0149-645X}
+      \field{month}{5}
+      \field{title}{Calibrated vectorial nonlinear-network analyzers}
+      \field{volume}{2}
+      \field{year}{1994}
+      \field{pages}{1069\bibrangedash 1072}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/MWSYM.1994.335170
+      \endverb
+      \keyw{network analysers;microwave measurement;calibration;microwave generation;vectorial nonlinear-network analyzer;nonlinear microwave device-under-test;sinewaves;frequency components;scattered waves;incident waves;absolute calibration procedure;row crest factor;multisine reference generator;broadband sampling oscilloscope;nose-to-nose measurement;Calibration;Microwave devices;Phase detection;Phase frequency detector;Scattering;Statistics;Character generation;Sampling methods;Oscilloscopes}
+    \endentry
+    \entry{Scott_2002}{article}{}
+      \name{author}{8}{}{%
+        {{hash=52f76792bc4da010091565298ede6e27}{%
+           family={{Scott}},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=205574896d69566dafa891831fc8b29b}{%
+           family={{Verspecht}},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0a765a9f2010e23cd93c9f68048406bb}{%
+           family={{Behnia}},
+           familyi={B\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=60accba26b428adbe483773262c52e23}{%
+           family={{Vanden Bossche}},
+           familyi={V\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a1497de12adcb106fc0ef02e8953695a}{%
+           family={{Cognata}},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=53ad70ecb8cacd297ba08c6ce005024e}{%
+           family={{Verbeyst}},
+           familyi={V\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d1f10eaf158bacc475bf8c89fc0cf8af}{%
+           family={{Thorn}},
+           familyi={T\bibinitperiod},
+           given={M.\bibnamedelimi L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=f97d702b78caf5fa23b0a86bc02a4ed5}{%
+           family={{Scherrer}},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{378d59725ef5a01874a14f6666fe8165}
+      \strng{fullhash}{e745682f1ae7e1a9e39f89d39fbec17d}
+      \strng{bibnamehash}{e745682f1ae7e1a9e39f89d39fbec17d}
+      \strng{authorbibnamehash}{e745682f1ae7e1a9e39f89d39fbec17d}
+      \strng{authornamehash}{378d59725ef5a01874a14f6666fe8165}
+      \strng{authorfullhash}{e745682f1ae7e1a9e39f89d39fbec17d}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Enhanced on-wafer time-domain waveform measurement through removal of interconnect dispersion and measurement instrument jitter}
+      \field{volume}{50}
+      \field{year}{2002}
+      \field{pages}{3022\bibrangedash 3028}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/TMTT.2002.805169
+      \endverb
+      \keyw{high-speed integrated circuits;digital integrated circuits;integrated circuit testing;MIMIC;millimetre wave measurement;calibration;jitter;on-wafer time-domain waveform measurement;interconnect dispersion removal;measurement instrument jitter removal;output waveshape;rise time;high-speed digital circuits;vector error correction;calibration;pulse measurements;MM-wave measurements;wafer probes;random jitter;7 ps;50 GHz;Time domain analysis;Dispersion;Instruments;Jitter;Oscilloscopes;Probes;Integrated circuit interconnections;Time measurement;Digital circuits;Prototypes}
+    \endentry
+    \entry{VanMoer_2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=225ce22ca877b1ab2f96fb862239fded}{%
+           family={{Van Moer}},
+           familyi={V\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=0b58796ed5629b7dd13f1de64356ead0}{%
+           family={{Rolain}},
+           familyi={R\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{f6799673e99a73eba156a3b70214feda}
+      \strng{fullhash}{f6799673e99a73eba156a3b70214feda}
+      \strng{bibnamehash}{f6799673e99a73eba156a3b70214feda}
+      \strng{authorbibnamehash}{f6799673e99a73eba156a3b70214feda}
+      \strng{authornamehash}{f6799673e99a73eba156a3b70214feda}
+      \strng{authorfullhash}{f6799673e99a73eba156a3b70214feda}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1527-3342}
+      \field{journaltitle}{{IEEE} Microw. Mag.}
+      \field{number}{6}
+      \field{title}{A large-signal network analyzer: Why is it needed?}
+      \field{volume}{7}
+      \field{year}{2006}
+      \field{pages}{46\bibrangedash 62}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1109/MW-M.2006.250314
+      \endverb
+      \keyw{network analysers;large signal network analyzer;system behavior;LSNA;nonlinear effects;energy transport mechanisms;Power system modeling;Linear systems;Mobile handsets;Radiofrequency integrated circuits;Transfer functions;H infinity control;Nonlinear systems;Electronic mail;Frequency;Instruments}
+    \endentry
+    \entry{Lott_1989}{article}{}
+      \name{author}{1}{}{%
+        {{hash=eb9ff3d2bb5eb18e0c2fa2198903f90a}{%
+           family={{Lott}},
+           familyi={L\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb9ff3d2bb5eb18e0c2fa2198903f90a}
+      \strng{fullhash}{eb9ff3d2bb5eb18e0c2fa2198903f90a}
+      \strng{bibnamehash}{eb9ff3d2bb5eb18e0c2fa2198903f90a}
+      \strng{authorbibnamehash}{eb9ff3d2bb5eb18e0c2fa2198903f90a}
+      \strng{authornamehash}{eb9ff3d2bb5eb18e0c2fa2198903f90a}
+      \strng{authorfullhash}{eb9ff3d2bb5eb18e0c2fa2198903f90a}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Measurement of magnitude and phase of harmonics generated in nonlinear microwave two-ports}
+      \field{volume}{37}
+      \field{year}{1989}
+      \field{pages}{1506\bibrangedash 1511}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/22.40993
+      \endverb
+      \keyw{harmonics;microwave measurement;multiport networks;phase measurement;Schottky gate field effect transistors;semiconductor device testing;solid-state microwave devices;magnitude measurement;phase measurement;EHF;semiconductor microwave devices;MESFET;SHF;nonlinear microwave two-ports;sinusoidal microwave signal;output harmonics;frequency domain;vector network analyzer;phase calibration;millimeter-wave Schottky diode;diode reference circuit;40 GHz;Phase measurement;Schottky diodes;Microwave measurements;Microwave generation;Microwave theory and techniques;Testing;Microwave devices;Frequency measurement;Frequency domain analysis;Harmonic analysis}
+    \endentry
+    \entry{Blockley_2005}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=e2abae4279db62b2f1510eadb581e7d0}{%
+           family={{Blockley}},
+           familyi={B\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c3be20501e79f3f4d10387696b964a9d}{%
+           family={{Gunyan}},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=52f76792bc4da010091565298ede6e27}{%
+           family={{Scott}},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Long Beach, CA, USA}%
+      }
+      \strng{namehash}{17507b00115a26e5698797bf46879a63}
+      \strng{fullhash}{17507b00115a26e5698797bf46879a63}
+      \strng{bibnamehash}{17507b00115a26e5698797bf46879a63}
+      \strng{authorbibnamehash}{17507b00115a26e5698797bf46879a63}
+      \strng{authornamehash}{17507b00115a26e5698797bf46879a63}
+      \strng{authorfullhash}{17507b00115a26e5698797bf46879a63}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE MTT-S Int. Microw. Symp. Dig.}
+      \field{issn}{0149-645X}
+      \field{month}{6}
+      \field{title}{Mixer-based, vector-corrected, vector signal/network analyzer offering 300k{H}z--20{GH}z bandwidth and traceable phase response}
+      \field{year}{2005}
+      \field{pages}{1497\bibrangedash 1500}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/MWSYM.2005.1516977
+      \endverb
+      \keyw{network analysers;bridge instruments;oscilloscopes;mixers (circuits);time-domain analysis;frequency-domain analysis;mixer-based signal/network analyzer;vector-corrected signal/network analyzer;traceable phase response;directional bridges;five-channel receiver;mixer-based receiver;vector-corrected measurements;time-domain;frequency-domain;wideband complex-modulated signal;calibrated sampling oscilloscope;timebase correction;input-impedance induced distortion;300 to 20E6 kHz;Signal analysis;Bandwidth;Instruments;Bridge circuits;Voltage;Time domain analysis;Frequency domain analysis;Laboratories;Broadband amplifiers;Sampling methods}
+    \endentry
+    \entry{Casbon_2015}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=b2f2b0fd4d8412b5c94c7b35936f8212}{%
+           family={{Casbon}},
+           familyi={C\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=3b7163c6702222cb8527bc7cc962c648}{%
+           family={{Tasker}},
+           familyi={T\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{c8c28a4fb8061439c4a63005215e79be}
+      \strng{fullhash}{c8c28a4fb8061439c4a63005215e79be}
+      \strng{bibnamehash}{c8c28a4fb8061439c4a63005215e79be}
+      \strng{authorbibnamehash}{c8c28a4fb8061439c4a63005215e79be}
+      \strng{authornamehash}{c8c28a4fb8061439c4a63005215e79be}
+      \strng{authorfullhash}{c8c28a4fb8061439c4a63005215e79be}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{85th ARFTG Microw. Meas. Conf. Dig.}
+      \field{month}{5}
+      \field{title}{Comparison of sampler and {VNA} based Large Signal Measurement Systems ({LSNA}) under {CW} and pulsed operation}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 3}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1109/ARFTG.2015.7162890
+      \endverb
+      \keyw{calibration;frequency measurement;network analysers;phase measurement;pulse measurement;silicon carbide HFET;RF I-V waveform;pulse mode operation;dual frequency phase differential method;relative phase calibration;sampler based LSNA system;large signal measurement system;VNA;Semiconductor device measurement;Pulse measurements;Harmonic analysis;Calibration;Radio frequency;Phase measurement;Oscilloscopes;Waveform Engineering;fully active harmonic load-pull;power amplifiers}
+    \endentry
+    \entry{Lin_2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f374feb8237cda53dcae672185f581c3}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Maoliu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a382efbfffe467ef00312cf8a967abf3}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yichi},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Institute of Electrical}%
+        {Electronics Engineers ({IEEE})}%
+      }
+      \strng{namehash}{6b053a03dccd541a96059320ae8719ae}
+      \strng{fullhash}{6b053a03dccd541a96059320ae8719ae}
+      \strng{bibnamehash}{6b053a03dccd541a96059320ae8719ae}
+      \strng{authorbibnamehash}{6b053a03dccd541a96059320ae8719ae}
+      \strng{authornamehash}{6b053a03dccd541a96059320ae8719ae}
+      \strng{authorfullhash}{6b053a03dccd541a96059320ae8719ae}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Covariance-Matrix-Based Uncertainty Analysis for {NVNA} Measurements}
+      \field{volume}{61}
+      \field{year}{2012}
+      \field{pages}{93\bibrangedash 102}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/tim.2011.2150650
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{5}
   \datalist[entry]{none/global//global/global}
     \entry{UKAS}{online}{}
       \name{author}{1}{}{%
@@ -915,18 +1913,18 @@
         {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
            family={Stant},
            familyi={S\bibinitperiod},
-           given={L.T.},
-           giveni={L\bibinitperiod}}}%
+           given={L.\bibnamedelimi T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
         {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
            family={Aaen},
            familyi={A\bibinitperiod},
-           given={P.H.},
-           giveni={P\bibinitperiod}}}%
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
         {{hash=7456470a8b102ff66439a30d2678b78e}{%
            family={Ridler},
            familyi={R\bibinitperiod},
-           given={N.M.},
-           giveni={N\bibinitperiod}}}%
+           given={N.\bibnamedelimi M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Elsevier {BV}}%
@@ -1074,7 +2072,7 @@
   \enddatalist
 \endrefsection
 
-\refsection{5}
+\refsection{6}
   \datalist[entry]{none/global//global/global}
     \entry{ISO9000}{standard}{}
       \name{author}{1}{}{%
@@ -1537,18 +2535,18 @@
         {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
            family={Stant},
            familyi={S\bibinitperiod},
-           given={L.T.},
-           giveni={L\bibinitperiod}}}%
+           given={L.\bibnamedelimi T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
         {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
            family={Aaen},
            familyi={A\bibinitperiod},
-           given={P.H.},
-           giveni={P\bibinitperiod}}}%
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
         {{hash=7456470a8b102ff66439a30d2678b78e}{%
            family={Ridler},
            familyi={R\bibinitperiod},
-           given={N.M.},
-           giveni={N\bibinitperiod}}}%
+           given={N.\bibnamedelimi M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
       \list{publisher}{2}{%
         {Institution of Engineering}%
@@ -1566,6 +2564,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{IET Colloquium on Millimetre-Wave and Terahertz Engineering \& Technology 2016}
+      \field{month}{3}
       \field{title}{Evaluating residual errors in waveguide network analysers from microwave to submillimetre-wave frequencies}
       \field{year}{2016}
       \verb{doi}
@@ -1577,18 +2576,18 @@
         {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
            family={Stant},
            familyi={S\bibinitperiod},
-           given={L.T.},
-           giveni={L\bibinitperiod}}}%
+           given={L.\bibnamedelimi T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
         {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
            family={Aaen},
            familyi={A\bibinitperiod},
-           given={P.H.},
-           giveni={P\bibinitperiod}}}%
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
         {{hash=7456470a8b102ff66439a30d2678b78e}{%
            family={Ridler},
            familyi={R\bibinitperiod},
-           given={N.M.},
-           giveni={N\bibinitperiod}}}%
+           given={N.\bibnamedelimi M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
       \list{publisher}{2}{%
         {Institution of Engineering}%
@@ -1605,7 +2604,7 @@
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IET Microwaves Antennas Propag.}
+      \field{journaltitle}{IET Microw. Antennas Propag.}
       \field{month}{2}
       \field{number}{3}
       \field{title}{Evaluating residual errors in waveguide {VNAs} from microwave to submillimetre-wave frequencies}
@@ -1731,7 +2730,7 @@
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Terahertz Science and Technology}
+      \field{journaltitle}{{IEEE} Trans. {THz} Sci. Technol.}
       \field{number}{2}
       \field{title}{500 GHz--750 GHz rectangular-waveguide vector-network-analyzer calibrations}
       \field{volume}{1}
@@ -1859,7 +2858,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
-      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
       \field{month}{12}
       \field{number}{12}
       \field{title}{A Unified Theory for $S$-Parameter Uncertainty Evaluation}
@@ -2174,7 +3173,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-926X}
-      \field{journaltitle}{IEEE Transactions on Antennas and Propagation}
+      \field{journaltitle}{{IEEE} Trans. Antennas Propag.}
       \field{title}{Design of a Portable Verification Artifact for Millimeter-Wave-Frequency Channel Sounders1}
       \field{year}{2019}
       \field{pages}{1\bibrangedash 1}
@@ -2228,7 +3227,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9456}
-      \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+      \field{journaltitle}{{IEEE} Trans. Instrum. Meas.}
       \field{month}{6}
       \field{number}{6}
       \field{title}{{NIST}-Traceable Microwave Power Measurement in a Waveguide Calorimeter With Correlated Uncertainties}
@@ -2314,7 +3313,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
-      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
       \field{month}{10}
       \field{number}{10}
       \field{title}{The Random Component of Mixer-Based Nonlinear Vector Network Analyzer Measurement Uncertainty}
@@ -2361,7 +3360,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
-      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
       \field{month}{2}
       \field{number}{2}
       \field{title}{Comb-Generator Characterization}
@@ -2428,7 +3427,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
-      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
       \field{month}{1}
       \field{number}{1}
       \field{title}{Covariance-based uncertainty analysis of the NIST electrooptic sampling system}
@@ -2490,7 +3489,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9456}
-      \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+      \field{journaltitle}{{IEEE} Trans. Instrum. Meas.}
       \field{month}{10}
       \field{number}{10}
       \field{title}{Traceable Waveform Calibration With a Covariance-Based Uncertainty Analysis}
@@ -2503,7 +3502,7 @@
       \endverb
       \keyw{calibration;covariance matrices;electro-optical devices;equivalent circuits;oscilloscopes;pulse generators;traceable waveform calibration;covariance-based uncertainty analysis;step-like pulse generator;voltage calibration;equivalent-circuit model;equivalent-time sampling oscilloscope;electro-optic sampling system;National Institute of Standards and Technology;waveform vector;covariance matrix;parameter-based uncertainty analysis;Calibration;Uncertainty;Sampling methods;Voltage;Pulse generation;Pulse measurements;Time measurement;Oscilloscopes;Physics;NIST;Covariance matrices;deconvolution;oscilloscopes;pulse measurements;signals;uncertainty;waveforms}
     \endentry
-    \entry{Keysight_2017}{report}{}
+    \entry{Keysight_2017}{online}{}
       \name{author}{1}{}{%
         {{hash=0a1dc9ba6382e13835002ad4d9099b4e}{%
            family={{Keysight Technologies}},
@@ -2524,7 +3523,17 @@
       \field{number}{5989-7619EN}
       \field{title}{{Fundamentals of RF and Microwave Power Measurements (Part 3)}}
       \field{type}{techreport}
+      \field{urlday}{18}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
       \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://literature.cdn.keysight.com/litweb/pdf/5988-9215EN.pdf
+      \endverb
+      \verb{url}
+      \verb https://literature.cdn.keysight.com/litweb/pdf/5988-9215EN.pdf
+      \endverb
     \endentry
     \entry{Rohde_2001}{report}{}
       \name{author}{1}{}{%
@@ -2575,7 +3584,7 @@
       \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{{IEEE} Transactions on Instrumentation and Measurement}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
       \field{month}{1}
       \field{number}{1}
       \field{title}{Covariance-Matrix-Based Uncertainty Analysis for {NVNA} Measurements}
@@ -2631,7 +3640,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
-      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
       \field{month}{7}
       \field{number}{7}
       \field{title}{Evaluation of Uncertainty in Temporal Waveforms of Microwave Transistors}
@@ -2688,7 +3697,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9456}
-      \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+      \field{journaltitle}{{IEEE} Trans. Instrum. Meas.}
       \field{month}{2}
       \field{number}{2}
       \field{title}{Principal Component Compression Method for Covariance Matrices Used for Uncertainty Propagation}
@@ -2704,113 +3713,1482 @@
   \enddatalist
 \endrefsection
 
-\refsection{6}
+\refsection{7}
   \datalist[entry]{none/global//global/global}
-    \entry{Stant_2016_Coll}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
-           family={Stant},
-           familyi={S\bibinitperiod},
-           given={L.T.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
-           family={Aaen},
-           familyi={A\bibinitperiod},
-           given={P.H.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=7456470a8b102ff66439a30d2678b78e}{%
-           family={Ridler},
-           familyi={R\bibinitperiod},
-           given={N.M.},
-           giveni={N\bibinitperiod}}}%
+    \entry{Verbeyst_1994}{article}{}
+      \name{author}{2}{}{%
+        {{hash=53ad70ecb8cacd297ba08c6ce005024e}{%
+           family={{Verbeyst}},
+           familyi={V\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=3f348ee4d11b8bbdc78dcb247c4098b7}{%
+           family={{Bossche}},
+           familyi={B\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
       }
-      \list{publisher}{2}{%
-        {Institution of Engineering}%
-        {Technology ({IET})}%
-      }
-      \strng{namehash}{45cf6d14ef6364ee8545c3a19ab27e94}
-      \strng{fullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
-      \strng{bibnamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
-      \strng{authorbibnamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
-      \strng{authornamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
-      \strng{authorfullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{namehash}{71604b35977a567749ecefb32c232620}
+      \strng{fullhash}{71604b35977a567749ecefb32c232620}
+      \strng{bibnamehash}{71604b35977a567749ecefb32c232620}
+      \strng{authorbibnamehash}{71604b35977a567749ecefb32c232620}
+      \strng{authornamehash}{71604b35977a567749ecefb32c232620}
+      \strng{authorfullhash}{71604b35977a567749ecefb32c232620}
       \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{IET Colloquium on Millimetre-Wave and Terahertz Engineering \& Technology 2016}
-      \field{title}{Evaluating residual errors in waveguide network analysers from microwave to submillimetre-wave frequencies}
-      \field{year}{2016}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{{VIOMAP}, the {S}-parameter equivalent for weakly nonlinear {RF} and microwave devices}
+      \field{volume}{42}
+      \field{year}{1994}
+      \field{pages}{2531\bibrangedash 2535}
+      \range{pages}{5}
       \verb{doi}
-      \verb 10.1049/ic.2016.0016
+      \verb 10.1109/22.339793
       \endverb
+      \keyw{S-parameters;microwave measurement;two-port networks;microwave devices;microwave circuits;cascade networks;nonlinear network analysis;VIOMAP;S-parameter equivalent;weakly nonlinear microwave devices;weakly nonlinear RF devices;Volterra input-output map;cascaded nonlinear two-ports;Scattering parameters;Radio frequency;Microwave devices;Equations;Kernel;Instruments;Microwave theory and techniques;Solids;Stress;Microwave amplifiers}
     \endentry
-    \entry{Stant_2016}{article}{}
-      \name{author}{3}{}{%
-        {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
-           family={Stant},
+    \entry{Schetzen_2006}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4757e5a80a5a2e7f698c5ba073d41bdc}{%
+           family={Schetzen},
            familyi={S\bibinitperiod},
-           given={L.T.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
-           family={Aaen},
-           familyi={A\bibinitperiod},
-           given={P.H.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=7456470a8b102ff66439a30d2678b78e}{%
-           family={Ridler},
-           familyi={R\bibinitperiod},
-           given={N.M.},
-           giveni={N\bibinitperiod}}}%
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Melbourne, FL, USA}%
       }
       \list{publisher}{1}{%
-        {Elsevier {BV}}%
+        {Krieger Publishing Co., Inc.}%
       }
-      \strng{namehash}{45cf6d14ef6364ee8545c3a19ab27e94}
-      \strng{fullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
-      \strng{bibnamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
-      \strng{authorbibnamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
-      \strng{authornamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
-      \strng{authorfullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{namehash}{4757e5a80a5a2e7f698c5ba073d41bdc}
+      \strng{fullhash}{4757e5a80a5a2e7f698c5ba073d41bdc}
+      \strng{bibnamehash}{4757e5a80a5a2e7f698c5ba073d41bdc}
+      \strng{authorbibnamehash}{4757e5a80a5a2e7f698c5ba073d41bdc}
+      \strng{authornamehash}{4757e5a80a5a2e7f698c5ba073d41bdc}
+      \strng{authorfullhash}{4757e5a80a5a2e7f698c5ba073d41bdc}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{1575242834}
+      \field{title}{The {V}olterra and {W}iener Theories of Nonlinear Systems}
+      \field{year}{2006}
+    \endentry
+    \entry{Moodi_2010}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=8aef2f9862776e39f216b60e642a942c}{%
+           family={{Moodi}},
+           familyi={M\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=437e4597fadd7242f59dd168b86493f3}{%
+           family={{Bustan}},
+           familyi={B\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{651bd630b8a6657c1b846ed8689d649d}
+      \strng{fullhash}{651bd630b8a6657c1b846ed8689d649d}
+      \strng{bibnamehash}{651bd630b8a6657c1b846ed8689d649d}
+      \strng{authorbibnamehash}{651bd630b8a6657c1b846ed8689d649d}
+      \strng{authornamehash}{651bd630b8a6657c1b846ed8689d649d}
+      \strng{authorfullhash}{651bd630b8a6657c1b846ed8689d649d}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Chinese Control and Decision Conference}
+      \field{issn}{1948-9439}
+      \field{month}{5}
+      \field{title}{On identification of nonlinear systems using {V}olterra kernels expansion on Laguerre and wavelet function}
+      \field{year}{2010}
+      \field{pages}{1141\bibrangedash 1145}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/CCDC.2010.5498146
+      \endverb
+      \keyw{nonlinear control systems;stochastic processes;Volterra series;wavelet transforms;nonlinear systems;Volterra kernels expansion;Laguerre function;wavelet function;Volterra series;convolution integral;LTI orthonormal function;Nonlinear systems;Kernel;Wavelet packets;Nonlinear dynamical systems;Convolution;Genetic algorithms;Hydraulic actuators;System testing;Least squares methods;Neural networks;Volterra Series;Nonlinear System Modeling;Orthonormal Basis;Wavelet Packets;Hydraulic Actuator}
+    \endentry
+    \entry{Verbeyst_1995b}{article}{}
+      \name{author}{2}{}{%
+        {{hash=53ad70ecb8cacd297ba08c6ce005024e}{%
+           family={{Verbeyst}},
+           familyi={V\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=60accba26b428adbe483773262c52e23}{%
+           family={{Vanden Bossche}},
+           familyi={V\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{96342d20d5fcca684c82c015eceeba84}
+      \strng{fullhash}{96342d20d5fcca684c82c015eceeba84}
+      \strng{bibnamehash}{96342d20d5fcca684c82c015eceeba84}
+      \strng{authorbibnamehash}{96342d20d5fcca684c82c015eceeba84}
+      \strng{authornamehash}{96342d20d5fcca684c82c015eceeba84}
+      \strng{authorfullhash}{96342d20d5fcca684c82c015eceeba84}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9456}
+      \field{journaltitle}{{IEEE} Trans. Instrum. Meas.}
+      \field{month}{6}
+      \field{number}{3}
+      \field{title}{The {V}olterra input-output map of a high-frequency amplifier as a practical alternative to load-pull measurements}
+      \field{volume}{44}
+      \field{year}{1995}
+      \field{pages}{662\bibrangedash 665}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/19.387303
+      \endverb
+      \keyw{Volterra equations;HF amplifiers;nonlinear network analysis;S-parameters;network analysers;Volterra input-output map;high-frequency amplifier;load-pull measurements;nonlinear black-box model;Volterra theory;nonlinear behavior;load impedance curves;Smith Chart;Scattering parameters;Frequency;Impedance measurement;Power generation;Power amplifiers;Kernel;Predictive models;Reflection;Solids;Stress}
+    \endentry
+    \entry{Verbeyst_1995}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=53ad70ecb8cacd297ba08c6ce005024e}{%
+           family={{Verbeyst}},
+           familyi={V\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=9c3b560c79c0a082c9ccea0b7bfd8277}{%
+           family={{Bossche}},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi V.},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{45fa59543e9de54e834eddcad7b85791}
+      \strng{fullhash}{45fa59543e9de54e834eddcad7b85791}
+      \strng{bibnamehash}{45fa59543e9de54e834eddcad7b85791}
+      \strng{authorbibnamehash}{45fa59543e9de54e834eddcad7b85791}
+      \strng{authornamehash}{45fa59543e9de54e834eddcad7b85791}
+      \strng{authorfullhash}{45fa59543e9de54e834eddcad7b85791}
       \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{45th ARFTG Conference Digest}
+      \field{month}{5}
+      \field{title}{{VIOMAP, 16QAM} and Spectral Regrowth: Enhanced Prediction and Predistortion based on Two-Tone Black-Box Model Extraction}
+      \field{volume}{27}
+      \field{year}{1995}
+      \field{pages}{19\bibrangedash 28}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/ARFTG.1995.327101
+      \endverb
+      \keyw{Predistortion;Predictive models;Pollution measurement;Distortion measurement;Frequency measurement;Filters;Narrowband;Power amplifiers;Signal generators;Frequency domain analysis}
+    \endentry
+    \entry{Verbeyst_1996}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=53ad70ecb8cacd297ba08c6ce005024e}{%
+           family={{Verbeyst}},
+           familyi={V\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{53ad70ecb8cacd297ba08c6ce005024e}
+      \strng{fullhash}{53ad70ecb8cacd297ba08c6ce005024e}
+      \strng{bibnamehash}{53ad70ecb8cacd297ba08c6ce005024e}
+      \strng{authorbibnamehash}{53ad70ecb8cacd297ba08c6ce005024e}
+      \strng{authornamehash}{53ad70ecb8cacd297ba08c6ce005024e}
+      \strng{authorfullhash}{53ad70ecb8cacd297ba08c6ce005024e}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{47th ARFTG Conference Digest}
+      \field{month}{6}
+      \field{title}{Using Orthogonal Polynomials as Alternative for {VIOMAP} to Model Hardly Nonlinear Devices}
+      \field{volume}{29}
+      \field{year}{1996}
+      \field{pages}{112\bibrangedash 120}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/ARFTG.1996.327171
+      \endverb
+      \keyw{Polynomials;Power measurement;Frequency;Distortion measurement;System testing;Microwave measurements;Microwave devices;Microwave amplifiers;Power amplifiers;Narrowband}
+    \endentry
+    \entry{Verspecht_1996}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=205574896d69566dafa891831fc8b29b}{%
+           family={{Verspecht}},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=efd6030a44dca91632fe28f3c92443a7}{%
+           family={{Schreurs}},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=166a4cdcb60a3a8f28f65cd260ac01a0}{%
+           family={{Barel}},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2dd102eaa4a7970a60ec8831e00da31a}{%
+           family={{Nauwelaers}},
+           familyi={N\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{9170935c180e388f54dc57e99b1fdc83}
+      \strng{fullhash}{98e1a6be69011306942e568fe9f221b3}
+      \strng{bibnamehash}{98e1a6be69011306942e568fe9f221b3}
+      \strng{authorbibnamehash}{98e1a6be69011306942e568fe9f221b3}
+      \strng{authornamehash}{9170935c180e388f54dc57e99b1fdc83}
+      \strng{authorfullhash}{98e1a6be69011306942e568fe9f221b3}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE MTT-S International Microwave Symposium Digest}
+      \field{issn}{0149-645X}
+      \field{month}{6}
+      \field{title}{Black box modelling of hard nonlinear behavior in the frequency domain}
+      \field{volume}{3}
+      \field{year}{1996}
+      \field{pages}{1735\bibrangedash 1738}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/MWSYM.1996.512277
+      \endverb
+      \keyw{nonlinear network analysis;describing functions;frequency-domain analysis;black box model;nonlinear device;frequency domain;describing functions;hard nonlinearities;Frequency domain analysis;Frequency conversion;Delay effects;Equations;Harmonic distortion;Parametric statistics;Electric variables measurement;Nonlinear systems;Chaos;Microwave Theory and Techniques Society}
+    \endentry
+    \entry{Verspecht_2002}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=f6c09f6325be69ff567afcd01c0d10d5}{%
+           family={Verspecht},
+           familyi={V\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f6c09f6325be69ff567afcd01c0d10d5}
+      \strng{fullhash}{f6c09f6325be69ff567afcd01c0d10d5}
+      \strng{bibnamehash}{f6c09f6325be69ff567afcd01c0d10d5}
+      \strng{authorbibnamehash}{f6c09f6325be69ff567afcd01c0d10d5}
+      \strng{authornamehash}{f6c09f6325be69ff567afcd01c0d10d5}
+      \strng{authorfullhash}{f6c09f6325be69ff567afcd01c0d10d5}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Workshop at the International Microwave Symposium}
+      \field{title}{Everything you’ve always wanted to know about hot-s22 (but we’re afraid to ask)}
+      \field{year}{2002}
+    \endentry
+    \entry{Verspecht_2005}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=205574896d69566dafa891831fc8b29b}{%
+           family={{Verspecht}},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b1c22d030d32e9e421774b27412c6a03}{%
+           family={{Barataud}},
+           familyi={B\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=78b9542c2f9b81cc511abf3eef6111af}{%
+           family={{Teyssier}},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1d85c9799731576d01fc6b5030d3c35d}{%
+           family={{Nébus}},
+           familyi={N\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{7f20869a55d6051a6f8b97ce0fdef9bd}
+      \strng{fullhash}{45c17bdaa97d61784bae9ecebdc89457}
+      \strng{bibnamehash}{45c17bdaa97d61784bae9ecebdc89457}
+      \strng{authorbibnamehash}{45c17bdaa97d61784bae9ecebdc89457}
+      \strng{authornamehash}{7f20869a55d6051a6f8b97ce0fdef9bd}
+      \strng{authorfullhash}{45c17bdaa97d61784bae9ecebdc89457}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{66th ARFTG Microwave Measurement Conference (ARFTG)}
+      \field{month}{12}
+      \field{title}{Hot {S}-parameter techniques: 6 = 4 + 2}
+      \field{year}{2005}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/ARFTG.2005.8373119
+      \endverb
+      \keyw{signal processing;S-parameters;hot S-parameter techniques;small signal S-parameter approach;Scattering parameters;Stability analysis;Mathematical model;Circuit stability;Frequency measurement;Impedance matching;Probes;hot S-parameters;power amplifier measurements;large-signal characterization}
+    \endentry
+    \entry{Cripps_2006}{book}{}
+      \name{author}{1}{}{%
+        {{hash=322b9e372c9b96a24318228f80b30757}{%
+           family={Cripps},
+           familyi={C\bibinitperiod},
+           given={Steve\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Norwood, MA, USA}%
+      }
+      \list{publisher}{1}{%
+        {Artech House, Inc.}%
+      }
+      \strng{namehash}{322b9e372c9b96a24318228f80b30757}
+      \strng{fullhash}{322b9e372c9b96a24318228f80b30757}
+      \strng{bibnamehash}{322b9e372c9b96a24318228f80b30757}
+      \strng{authorbibnamehash}{322b9e372c9b96a24318228f80b30757}
+      \strng{authornamehash}{322b9e372c9b96a24318228f80b30757}
+      \strng{authorfullhash}{322b9e372c9b96a24318228f80b30757}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{1596930187}
+      \field{title}{RF Power Amplifiers for Wireless Communications, Second Edition (Artech House Microwave Library (Hardcover))}
+      \field{year}{2006}
+    \endentry
+    \entry{Root_2013}{book}{}
+      \name{author}{4}{}{%
+        {{hash=981e0559c770879344de0a53fd210cd7}{%
+           family={Root},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=f6c09f6325be69ff567afcd01c0d10d5}{%
+           family={Verspecht},
+           familyi={V\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=15934c57f7d1f0e6652d8149f870f4ce}{%
+           family={Horn},
+           familyi={H\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=873cf16b98e89e22166961c92dd33069}{%
+           family={Marcu},
+           familyi={M\bibinitperiod},
+           given={Mihai},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{42e7875bd057e3b143ace1908460002c}
+      \strng{fullhash}{eade849cc1c1a6bee0aae9f8f17e5f80}
+      \strng{bibnamehash}{eade849cc1c1a6bee0aae9f8f17e5f80}
+      \strng{authorbibnamehash}{eade849cc1c1a6bee0aae9f8f17e5f80}
+      \strng{authornamehash}{42e7875bd057e3b143ace1908460002c}
+      \strng{authorfullhash}{eade849cc1c1a6bee0aae9f8f17e5f80}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Measurement}
-      \field{month}{12}
-      \field{title}{Comparing methods for evaluating measurement uncertainty given in the {JCGM} `Evaluation of Measurement Data' documents}
-      \field{volume}{94}
-      \field{year}{2016}
-      \field{pages}{847\bibrangedash 851}
+      \field{title}{X-Parameters: Characterization, Modeling, and Design of Nonlinear RF and Microwave Components}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.1017/CBO9781139042970
+      \endverb
+    \endentry
+    \entry{Verspecht_2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6b9c74605ac433f9065d7d3d140145c1}{%
+           family={{Verspecht}},
+           familyi={V\bibinitperiod}}}%
+        {{hash=ba8f747e4ab530f267debab27dbf87a4}{%
+           family={{Root}},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{3125116764f1e78032ffdf6c4ad03248}
+      \strng{fullhash}{3125116764f1e78032ffdf6c4ad03248}
+      \strng{bibnamehash}{3125116764f1e78032ffdf6c4ad03248}
+      \strng{authorbibnamehash}{3125116764f1e78032ffdf6c4ad03248}
+      \strng{authornamehash}{3125116764f1e78032ffdf6c4ad03248}
+      \strng{authorfullhash}{3125116764f1e78032ffdf6c4ad03248}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1527-3342}
+      \field{journaltitle}{{IEEE} Microw. Mag.}
+      \field{month}{6}
+      \field{number}{3}
+      \field{title}{Polyharmonic distortion modeling}
+      \field{volume}{7}
+      \field{year}{2006}
+      \field{pages}{44\bibrangedash 57}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1109/MMW.2006.1638289
+      \endverb
+      \keyw{frequency-domain analysis;harmonic analysis;harmonic distortion;nonlinear systems;S-parameters;S-parameters;PHD modeling approach;black-box frequency-domain model;driven nonlinear systems;distortion simulation;nonlinear components;design verification;Power system modeling;Scattering parameters;Nonlinear systems;Design engineering;Power engineering and energy;Distortion measurement;Microwave measurements;System testing;Frequency measurement;Time domain analysis}
+    \endentry
+    \entry{Verspecht_2005b}{article}{}
+      \name{author}{5}{}{%
+        {{hash=205574896d69566dafa891831fc8b29b}{%
+           family={{Verspecht}},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=894a26e0347e1a769804de4b0068f0f4}{%
+           family={{Williams}},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi F.},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=efd6030a44dca91632fe28f3c92443a7}{%
+           family={{Schreurs}},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=67d9442e0b188189cf1683b0cd867e7d}{%
+           family={{Remley}},
+           familyi={R\bibinitperiod},
+           given={K.\bibnamedelimi A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=7a83ae18caac00befe88d0eb83144525}{%
+           family={{McKinley}},
+           familyi={M\bibinitperiod},
+           given={M.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{96422c38563dfb2e29358d8075052ee7}
+      \strng{fullhash}{bdf6cdda8be3cb9ff629155778eba26e}
+      \strng{bibnamehash}{bdf6cdda8be3cb9ff629155778eba26e}
+      \strng{authorbibnamehash}{bdf6cdda8be3cb9ff629155778eba26e}
+      \strng{authornamehash}{96422c38563dfb2e29358d8075052ee7}
+      \strng{authorfullhash}{bdf6cdda8be3cb9ff629155778eba26e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{Linearization of large-signal scattering functions}
+      \field{volume}{53}
+      \field{year}{2005}
+      \field{pages}{1369\bibrangedash 1376}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/TMTT.2005.845771
+      \endverb
+      \keyw{linearisation techniques;optical phase conjugation;microwave devices;large-signal scattering functions;nonlinear device behavior;scattering parameters;phase-conjugated mixing products;transistor measurements;reflection coefficients;microwave source;large-signal operating state;frequency translation;network analysis;vector signal generator;Scattering parameters;Frequency;Microwave devices;Microwave theory and techniques;Microwave measurements;Reflection;Jacobian matrices;HEMTs;Microwave transistors;Signal analysis;Frequency translation;large signal;network analysis;nonlinear;scattering parameters;vector signal generator}
+    \endentry
+    \entry{Sun_2010}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=3c17377c2ffa1676c810d97c02f8c306}{%
+           family={{Sun}},
+           familyi={S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2efac453cb818e3e871c3147d9153d6d}{%
+           family={{Xu}},
+           familyi={X\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=4d39b02b20c67d43403e326600c8aa57}{%
+           family={{Liang}},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d474977d302a314947b542a6d0c9f452}
+      \strng{fullhash}{d474977d302a314947b542a6d0c9f452}
+      \strng{bibnamehash}{d474977d302a314947b542a6d0c9f452}
+      \strng{authorbibnamehash}{d474977d302a314947b542a6d0c9f452}
+      \strng{authornamehash}{d474977d302a314947b542a6d0c9f452}
+      \strng{authorfullhash}{d474977d302a314947b542a6d0c9f452}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Microwave and Millimeter Wave Technology}
+      \field{month}{5}
+      \field{title}{The study of nonlinear scattering functions and {X}-parameters}
+      \field{year}{2010}
+      \field{pages}{1086\bibrangedash 1089}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ICMMT.2010.5525111
+      \endverb
+      \keyw{microwave circuits;network analysers;nonlinear network analysis;S-parameters;time-domain analysis;nonlinear scattering functions;X-parameters;polyharmonic distortion modeling;first order linear approximation;time-domain extraction system;nonlinear vector networks analyzer;nonlinear microwave device behavior;nonlinear microwave circuit design measurement;Scattering parameters;Microwave devices;Paper technology;Data mining;Power system modeling;Frequency;Sun;Laboratories;Electronic equipment testing;Distortion measurement}
+    \endentry
+    \entry{Widemann_2015}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=4838d5f4e10f00fcba9892d8929f465d}{%
+           family={{Widemann}},
+           familyi={W\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=060d917ccf8d36e321c91cb2307e6892}{%
+           family={{Weber}},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3904bb943f549e653d2715a5ce9efb6e}{%
+           family={{Schatz}},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=118442acd51765dd550bdb580b8d7498}{%
+           family={{Mathis}},
+           familyi={M\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ec10dcee5cb7c277fbed5ea3a2dbd03}
+      \strng{fullhash}{b62f3153e47a66b239c2991795b3f484}
+      \strng{bibnamehash}{b62f3153e47a66b239c2991795b3f484}
+      \strng{authorbibnamehash}{b62f3153e47a66b239c2991795b3f484}
+      \strng{authornamehash}{5ec10dcee5cb7c277fbed5ea3a2dbd03}
+      \strng{authorfullhash}{b62f3153e47a66b239c2991795b3f484}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{22nd International Conference Mixed Design of Integrated Circuits Systems (MIXDES)}
+      \field{month}{6}
+      \field{title}{A comparison of the {V}olterra series-based nonlinear {S}-parameters and {X}-parameters}
+      \field{year}{2015}
+      \field{pages}{453\bibrangedash 457}
       \range{pages}{5}
       \verb{doi}
-      \verb 10.1016/j.measurement.2016.08.015
+      \verb 10.1109/MIXDES.2015.7208562
       \endverb
+      \keyw{analogue circuits;frequency-domain analysis;nonlinear network analysis;S-parameters;Volterra series;nonlinear analog circuits;frequency domain;scattering variables;nonlinear scattering parameters;S-parameters;Volterra series;X-parameters;Scattering;Scattering parameters;Ports (Computers);Nonlinear systems;Harmonic analysis;Frequency-domain analysis;Integrated circuit modeling;X-parameters;poly harmonic distortion;PHD;nonlinear S-parameters;Volterra series}
+    \endentry
+    \entry{Xie_2012}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=924aa3d6922c6acb9622d8b3473d0de8}{%
+           family={{Xie}},
+           familyi={X\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6987c26bf5f9b6e119893b5d925c7b8c}{%
+           family={{Zhang}},
+           familyi={Z\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b6f1bae43698ee554fe46ebae4fa8241}{%
+           family={{Liu}},
+           familyi={L\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{f8c863929c4bb453d8b97e6f8051f7f6}
+      \strng{fullhash}{f8c863929c4bb453d8b97e6f8051f7f6}
+      \strng{bibnamehash}{f8c863929c4bb453d8b97e6f8051f7f6}
+      \strng{authorbibnamehash}{f8c863929c4bb453d8b97e6f8051f7f6}
+      \strng{authornamehash}{f8c863929c4bb453d8b97e6f8051f7f6}
+      \strng{authorfullhash}{f8c863929c4bb453d8b97e6f8051f7f6}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Microwave and Millimeter Wave Technology (ICMMT)}
+      \field{month}{5}
+      \field{title}{Using {X}-parameters to model mixers}
+      \field{volume}{3}
+      \field{year}{2012}
+      \field{pages}{1\bibrangedash 3}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1109/ICMMT.2012.6230227
+      \endverb
+      \keyw{mixers (circuits);network analysers;S-parameters;X-parameter generator;mixer models;poly-harmonic distortion nonlinear behavioral model;nonlinear vector network analyzer;circuit level design;ADS software;nonlinear simulation;Mixers;Integrated circuit modeling;Radio frequency;Harmonic analysis;Frequency measurement;Generators;Software}
+    \endentry
+    \entry{Verspecht_2009}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{hash=205574896d69566dafa891831fc8b29b}{%
+           family={{Verspecht}},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a16343d532ba528a1c7b07b20517ec5b}{%
+           family={{Horn}},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9fee8a7b20650d958e03f6a2f250f1a2}{%
+           family={{Betts}},
+           familyi={B\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c3be20501e79f3f4d10387696b964a9d}{%
+           family={{Gunyan}},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2102a13d81278a903744d90d3d88e254}{%
+           family={{Pollard}},
+           familyi={P\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=18eea70c553deaf3478443c90aff3cfe}{%
+           family={{Gillease}},
+           familyi={G\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ba8f747e4ab530f267debab27dbf87a4}{%
+           family={{Root}},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc21f8abbfab2ce2c8b21861c463c5f4}
+      \strng{fullhash}{dd0bf8f43f788dea87bade55ec40b302}
+      \strng{bibnamehash}{dd0bf8f43f788dea87bade55ec40b302}
+      \strng{authorbibnamehash}{dd0bf8f43f788dea87bade55ec40b302}
+      \strng{authornamehash}{dc21f8abbfab2ce2c8b21861c463c5f4}
+      \strng{authorfullhash}{dd0bf8f43f788dea87bade55ec40b302}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE MTT-S International Microwave Symposium Digest}
+      \field{issn}{0149-645X}
+      \field{month}{6}
+      \field{title}{Extension of {X}-parameters to include long-term dynamic memory effects}
+      \field{year}{2009}
+      \field{pages}{741\bibrangedash 744}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/MWSYM.2009.5165803
+      \endverb
+      \keyw{harmonic distortion;microwave circuits;power amplifiers;transient response;long-term dynamic memory effect;microwave component;polyharmonic distortion model;pulsed envelope X-parameter measurement;transient RF response;time-varying RF excitation;wide-bandwidth communication signal;power amplifier;ADS circuit envelope simulator;Pulse amplifiers;Pulse measurements;Radio frequency;Microwave theory and techniques;Radiofrequency identification;Distortion measurement;Microwave measurements;Predictive models;Communication switching;RF signals;behavioral model;memory effects;frequency domain;measurements;X-parameters;NVNA;PHD model}
+    \endentry
+    \entry{Root_2017}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=ba8f747e4ab530f267debab27dbf87a4}{%
+           family={{Root}},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=205574896d69566dafa891831fc8b29b}{%
+           family={{Verspecht}},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5d099836f6a91712f1b8f9de548a019f}{%
+           family={{Xu}},
+           familyi={X\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{96e5732ba878be3af4ee5972efdb9bc2}
+      \strng{fullhash}{96e5732ba878be3af4ee5972efdb9bc2}
+      \strng{bibnamehash}{96e5732ba878be3af4ee5972efdb9bc2}
+      \strng{authorbibnamehash}{96e5732ba878be3af4ee5972efdb9bc2}
+      \strng{authornamehash}{96e5732ba878be3af4ee5972efdb9bc2}
+      \strng{authorfullhash}{96e5732ba878be3af4ee5972efdb9bc2}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{12th European Microwave Integrated Circuits Conference (EuMIC)}
+      \field{month}{10}
+      \field{title}{Closed-form solutions to large-signal {PA} problems: {W}irtinger calculus applied to {X}-parameters}
+      \field{year}{2017}
+      \field{pages}{212\bibrangedash 215}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.23919/EuMIC.2017.8230697
+      \endverb
+      \keyw{differentiation;power amplifiers;S-parameters;small-to-moderate output mismatch;commercial power amplifier;S-parameters;large-signal PA problems;Wirtinger calculus;powerful new technique;optimum output reflection coefficient;maximum power transfer;large-signal input drive;nonanalytic X-parameter expression;compact closed-form expressions;Optimized production technology;Power measurement;Scattering parameters;Ports (Computers);Calculus;Reflection coefficient;Power amplifiers}
+    \endentry
+    \entry{Gillespie_2018}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=aeb9cc1c9b39970564004d0f8ba744d3}{%
+           family={{Gillespie}},
+           familyi={G\bibinitperiod},
+           given={S.\bibnamedelimi J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=ba8f747e4ab530f267debab27dbf87a4}{%
+           family={{Root}},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=8274186fe056f4cede71c18e543968be}{%
+           family={{Marcu}},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
+           family={{Aaen}},
+           familyi={A\bibinitperiod},
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{26353b6a82e3a3508acd7c405e7f64b2}
+      \strng{fullhash}{03051611b3ec14fef3b682fe859d4765}
+      \strng{bibnamehash}{03051611b3ec14fef3b682fe859d4765}
+      \strng{authorbibnamehash}{03051611b3ec14fef3b682fe859d4765}
+      \strng{authornamehash}{26353b6a82e3a3508acd7c405e7f64b2}
+      \strng{authorfullhash}{03051611b3ec14fef3b682fe859d4765}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{13th European Microwave Integrated Circuits Conference (EuMIC)}
+      \field{month}{9}
+      \field{title}{Electrothermal {X}-Parameters for Dynamic Modeling of {RF} and Microwave Power Transistors}
+      \field{year}{2018}
+      \field{pages}{353\bibrangedash 356}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.23919/EuMIC.2018.8539893
+      \endverb
+      \keyw{intermodulation distortion;microwave power transistors;semiconductor device models;thermal resistance;time-domain analysis;temperature hysteresis;intermodulation distortion;dynamic electro-thermal compact time-domain model;pulsed X-parameter measurements;dynamic self-heating effects;RF power transistors;static X -parameter model;thermal resistance;modulated waveform;thermally-induced asymmetry;thermal capacitance;extracted X-parameter data;X-parameter measurements;envelope domain sub-circuit;dynamic thermal X-parameter model;long-term memory;dynamic electro-thermal phenomena;X-parameter behavioral;microwave power transistors;electrothermal X-parameters;Temperature measurement;Integrated circuit modeling;Semiconductor device modeling;Frequency modulation;Radio frequency;Transistors;Mathematical model;behavioural modelling;X-Parameters;electrothermal device modelling;NVNA}
+    \endentry
+    \entry{ADS}{online}{}
+      \list{organization}{1}{%
+        {Keysight Technologies}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labeltitlesource}{title}
+      \field{title}{{Advanced Design System (ADS)}}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.keysight.com/en/pc-1297113/advanced-design-system-ads
+      \endverb
+      \verb{url}
+      \verb https://www.keysight.com/en/pc-1297113/advanced-design-system-ads
+      \endverb
+    \endentry
+    \entry{AWR}{online}{}
+      \list{organization}{1}{%
+        {NI AWR}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labeltitlesource}{title}
+      \field{title}{{Microwave Office}}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.awr.com/software/products/microwave-office
+      \endverb
+      \verb{url}
+      \verb https://www.awr.com/software/products/microwave-office
+      \endverb
+    \endentry
+    \entry{Gunyan_2009}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=c3be20501e79f3f4d10387696b964a9d}{%
+           family={{Gunyan}},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a16343d532ba528a1c7b07b20517ec5b}{%
+           family={{Horn}},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5d099836f6a91712f1b8f9de548a019f}{%
+           family={{Xu}},
+           familyi={X\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ba8f747e4ab530f267debab27dbf87a4}{%
+           family={{Root}},
+           familyi={R\bibinitperiod},
+           given={D.\bibnamedelimi E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{8da308499705385d0ef843575f2b8356}
+      \strng{fullhash}{37e78b2f9fe4cc90e496de3f30d70518}
+      \strng{bibnamehash}{37e78b2f9fe4cc90e496de3f30d70518}
+      \strng{authorbibnamehash}{37e78b2f9fe4cc90e496de3f30d70518}
+      \strng{authornamehash}{8da308499705385d0ef843575f2b8356}
+      \strng{authorfullhash}{37e78b2f9fe4cc90e496de3f30d70518}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{73rd ARFTG Microwave Measurement Conference}
+      \field{month}{6}
+      \field{title}{Nonlinear validation of arbitrary load {X}-parameter and measurement-based device models}
+      \field{year}{2009}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ARFTG.2009.5278063
+      \endverb
+      \keyw{microwave field effect transistors;Schottky gate field effect transistors;semiconductor device models;S-parameters;nonlinear validation;arbitrary load X-parameter;measurement-based device models;S-parameters;nonlinear components;large-signal condition;small-signal condition;PHD model;measurement-based nonquasi-static device model;tuned-load measurements;Predictive models;MESFETs;Circuit simulation;Power measurement;Spectral analysis;Multiaccess communication;Tuners;Data mining;Impedance;Solid modeling}
+    \endentry
+    \entry{Woodington_2008}{inproceedings}{}
+      \name{author}{9}{}{%
+        {{hash=daa29ab003dcbc87606432e4d92169d7}{%
+           family={{Woodington}},
+           familyi={W\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=af003993ce9c19980d69bf7efba17fce}{%
+           family={{Williams}},
+           familyi={W\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=5e7bbf0d2a2b478896de68e62a4f508f}{%
+           family={{Qi}},
+           familyi={Q\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=0cf7d83b3c925107374947fe98b35589}{%
+           family={{Williams}},
+           familyi={W\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9e53e21dd8ec04146aa17d374e955c94}{%
+           family={{Pattison}},
+           familyi={P\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4ae80acd94bc7ef782ba8b6ed16d13f7}{%
+           family={{Patterson}},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e1b688ba64c6b156c1fc0802e921b233}{%
+           family={{Lees}},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0b6a7800a0e270f33aaf67bceff8be9f}{%
+           family={{Benedikt}},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3b7163c6702222cb8527bc7cc962c648}{%
+           family={{Tasker}},
+           familyi={T\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{162d99c48ceff078570e5d8378703dd0}
+      \strng{fullhash}{319f3dde97a481ed9eabfc0fee643d25}
+      \strng{bibnamehash}{319f3dde97a481ed9eabfc0fee643d25}
+      \strng{authorbibnamehash}{319f3dde97a481ed9eabfc0fee643d25}
+      \strng{authornamehash}{162d99c48ceff078570e5d8378703dd0}
+      \strng{authorfullhash}{319f3dde97a481ed9eabfc0fee643d25}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE MTT-S International Microwave Symposium Digest}
+      \field{issn}{0149-645X}
+      \field{month}{6}
+      \field{title}{A novel measurement based method enabling rapid extraction of a {RF} Waveform Look-Up table based behavioral model}
+      \field{year}{2008}
+      \field{pages}{1453\bibrangedash 1456}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/MWSYM.2008.4633053
+      \endverb
+      \keyw{Solid modeling;Load modeling;Impedance;Mathematical model;Radio frequency;Phase measurement;Numerical models;power amplifiers;Poly Harmonic Distortion Model;non-linear device modeling;microwave measurements}
+    \endentry
+    \entry{Qi_2009}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5e7bbf0d2a2b478896de68e62a4f508f}{%
+           family={{Qi}},
+           familyi={Q\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=0b6a7800a0e270f33aaf67bceff8be9f}{%
+           family={{Benedikt}},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3b7163c6702222cb8527bc7cc962c648}{%
+           family={{Tasker}},
+           familyi={T\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{698b97abddf77fcbb965d868fb65b16d}
+      \strng{fullhash}{698b97abddf77fcbb965d868fb65b16d}
+      \strng{bibnamehash}{698b97abddf77fcbb965d868fb65b16d}
+      \strng{authorbibnamehash}{698b97abddf77fcbb965d868fb65b16d}
+      \strng{authornamehash}{698b97abddf77fcbb965d868fb65b16d}
+      \strng{authorfullhash}{698b97abddf77fcbb965d868fb65b16d}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{Nonlinear Data Utilization: From Direct Data Lookup to Behavioral Modeling}
+      \field{volume}{57}
+      \field{year}{2009}
+      \field{pages}{1425\bibrangedash 1432}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/TMTT.2009.2019996
+      \endverb
+      \keyw{circuit CAD;harmonic distortion;table lookup;direct data lookup;large-signal measurement data;nonlinear computer-aided design process;nonlinear CAD simulator;polyharmonic distortion approach;complex large-signal simulations;nonlinear data utilization;Design automation;Distortion measurement;Power amplifiers;Radiofrequency amplifiers;Process design;Density measurement;Computational modeling;Data mining;Power system modeling;Power measurement;Design automation;measurement system data handling;microwave measurements;nonlinear systems;power amplifiers}
+    \endentry
+    \entry{Woodington_2010}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=daa29ab003dcbc87606432e4d92169d7}{%
+           family={{Woodington}},
+           familyi={W\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=653b5168cf6c1de8c9f4c31d1490e062}{%
+           family={{Saini}},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0cf7d83b3c925107374947fe98b35589}{%
+           family={{Williams}},
+           familyi={W\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e1b688ba64c6b156c1fc0802e921b233}{%
+           family={{Lees}},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0b6a7800a0e270f33aaf67bceff8be9f}{%
+           family={{Benedikt}},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3b7163c6702222cb8527bc7cc962c648}{%
+           family={{Tasker}},
+           familyi={T\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b1bee0e338604f5f4ee67eef186dd07f}
+      \strng{fullhash}{fc6a19f6729c44f8d74001179c7b0c17}
+      \strng{bibnamehash}{fc6a19f6729c44f8d74001179c7b0c17}
+      \strng{authorbibnamehash}{fc6a19f6729c44f8d74001179c7b0c17}
+      \strng{authornamehash}{b1bee0e338604f5f4ee67eef186dd07f}
+      \strng{authorfullhash}{fc6a19f6729c44f8d74001179c7b0c17}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE MTT-S International Microwave Symposium}
+      \field{issn}{0149-645X}
+      \field{month}{5}
+      \field{title}{Behavioral model analysis of active harmonic load-pull measurements}
+      \field{year}{2010}
+      \field{pages}{1688\bibrangedash 1691}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/MWSYM.2010.5517261
+      \endverb
+      \keyw{gallium compounds;III-V semiconductors;integrated circuit measurement;integrated circuit modelling;microwave transistors;power amplifiers;wide band gap semiconductors;behavioral model analysis;active harmonic load-pull measurements;nonlinear response;microwave transistors;S parameters;power amplifiers;Harmonic analysis;Scattering parameters;Radiofrequency amplifiers;Power system modeling;Impedance measurement;Microwave transistors;Voltage;Radio frequency;High power amplifiers;Databases;behavioral modeling;S parameters;Load-Pull;power amplifiers}
+    \endentry
+    \entry{Bespalko_2016}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=d2f03c3eb6ef303b8dab9103fbb25ac3}{%
+           family={Bespalko},
+           familyi={B\bibinitperiod},
+           given={Dylan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Waterloo}%
+      }
+      \strng{namehash}{d2f03c3eb6ef303b8dab9103fbb25ac3}
+      \strng{fullhash}{d2f03c3eb6ef303b8dab9103fbb25ac3}
+      \strng{bibnamehash}{d2f03c3eb6ef303b8dab9103fbb25ac3}
+      \strng{authorbibnamehash}{d2f03c3eb6ef303b8dab9103fbb25ac3}
+      \strng{authornamehash}{d2f03c3eb6ef303b8dab9103fbb25ac3}
+      \strng{authorfullhash}{d2f03c3eb6ef303b8dab9103fbb25ac3}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Modular Nonlinear Characterization System and Large-Signal Behavioral Modelling of Unmatched Transistors for Streamlined Power Amplifier Design}
+      \field{type}{phdthesis}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb http://hdl.handle.net/10012/10179
+      \endverb
+      \verb{url}
+      \verb http://hdl.handle.net/10012/10179
+      \endverb
+    \endentry
+    \entry{Chernick_2008}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5a331a1342cb73df779f5fe0506237ec}{%
+           family={Chernick},
+           familyi={C\bibinitperiod},
+           given={M.\bibnamedelimi R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{5a331a1342cb73df779f5fe0506237ec}
+      \strng{fullhash}{5a331a1342cb73df779f5fe0506237ec}
+      \strng{bibnamehash}{5a331a1342cb73df779f5fe0506237ec}
+      \strng{authorbibnamehash}{5a331a1342cb73df779f5fe0506237ec}
+      \strng{authornamehash}{5a331a1342cb73df779f5fe0506237ec}
+      \strng{authorfullhash}{5a331a1342cb73df779f5fe0506237ec}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780470192566}
+      \field{series}{Wiley Series in Probability and Statistics}
+      \field{title}{Bootstrap Methods: A Guide for Practitioners and Researchers}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb https://books.google.co.uk/books?id=jx5K6IyjhhIC
+      \endverb
+      \verb{url}
+      \verb https://books.google.co.uk/books?id=jx5K6IyjhhIC
+      \endverb
+    \endentry
+    \entry{DCOM}{online}{}
+      \name{author}{1}{}{%
+        {{hash=120e034137f9e9df522960bd11f1d5af}{%
+           family={Agilent},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{120e034137f9e9df522960bd11f1d5af}
+      \strng{fullhash}{120e034137f9e9df522960bd11f1d5af}
+      \strng{bibnamehash}{120e034137f9e9df522960bd11f1d5af}
+      \strng{authorbibnamehash}{120e034137f9e9df522960bd11f1d5af}
+      \strng{authornamehash}{120e034137f9e9df522960bd11f1d5af}
+      \strng{authorfullhash}{120e034137f9e9df522960bd11f1d5af}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Introduction to Application Development}}
+      \field{urlday}{16}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://na.support.keysight.com/pna/files/an1408-13.pdf
+      \endverb
+      \verb{url}
+      \verb http://na.support.keysight.com/pna/files/an1408-13.pdf
+      \endverb
+    \endentry
+    \entry{minicircuits}{online}{}
+      \list{organization}{1}{%
+        {Mini-Circuits}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labeltitlesource}{title}
+      \field{title}{{ZX60-14012L} datasheet}
+      \field{urlday}{18}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://194.75.38.69/pdfs/ZX60-14012L.pdf
+      \endverb
+      \verb{url}
+      \verb http://194.75.38.69/pdfs/ZX60-14012L.pdf
+      \endverb
+    \endentry
+    \entry{hittite_amp}{online}{}
+      \list{organization}{1}{%
+        {Analog Devices}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labeltitlesource}{title}
+      \field{title}{{HMC342LC4} datasheet}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.analog.com/media/en/technical-documentation/data-sheets/hmc342.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.analog.com/media/en/technical-documentation/data-sheets/hmc342.pdf
+      \endverb
+    \endentry
+    \entry{Stant_2018_TMTT}{article}{}
+      \name{author}{5}{}{%
+        {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
+           family={Stant},
+           familyi={S\bibinitperiod},
+           given={L.\bibnamedelimi T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=b837a3146918ad772bf16460ea11c387}{%
+           family={Salter},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7456470a8b102ff66439a30d2678b78e}{%
+           family={Ridler},
+           familyi={R\bibinitperiod},
+           given={N.\bibnamedelimi M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=894a26e0347e1a769804de4b0068f0f4}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi F.},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
+           family={Aaen},
+           familyi={A\bibinitperiod},
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{2e53cf84fdd29e73dafa62eb9f738f9b}
+      \strng{fullhash}{e7b8c1bbb7b21d18b93e1c35618f0b1a}
+      \strng{bibnamehash}{e7b8c1bbb7b21d18b93e1c35618f0b1a}
+      \strng{authorbibnamehash}{e7b8c1bbb7b21d18b93e1c35618f0b1a}
+      \strng{authornamehash}{2e53cf84fdd29e73dafa62eb9f738f9b}
+      \strng{authorfullhash}{e7b8c1bbb7b21d18b93e1c35618f0b1a}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
+      \field{month}{11}
+      \field{title}{Propagating Measurement Uncertainty to Microwave Amplifier Nonlinear Behavioural Models}
+      \field{year}{2018}
+    \endentry
+    \entry{Blockley_2007}{article}{}
+      \name{author}{4}{}{%
+        {{hash=5f24363dfe3e4b97687feb21c6975338}{%
+           family={{Blockley}},
+           familyi={B\bibinitperiod},
+           given={P.\bibnamedelimi S.},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=52f76792bc4da010091565298ede6e27}{%
+           family={{Scott}},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=c3be20501e79f3f4d10387696b964a9d}{%
+           family={{Gunyan}},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=da7e68af0363abc825356468306a1c6a}{%
+           family={{Parker}},
+           familyi={P\bibinitperiod},
+           given={A.\bibnamedelimi E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{f5596a41aff4dff9bda16a08b59f2eab}
+      \strng{fullhash}{d1dfb461e23a10997d3dcb1e7b6c69f6}
+      \strng{bibnamehash}{d1dfb461e23a10997d3dcb1e7b6c69f6}
+      \strng{authorbibnamehash}{d1dfb461e23a10997d3dcb1e7b6c69f6}
+      \strng{authornamehash}{f5596a41aff4dff9bda16a08b59f2eab}
+      \strng{authorfullhash}{d1dfb461e23a10997d3dcb1e7b6c69f6}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{The Random Component of Mixer-Based Nonlinear Vector Network Analyzer Measurement Uncertainty}
+      \field{volume}{55}
+      \field{year}{2007}
+      \field{pages}{2231\bibrangedash 2239}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/TMTT.2007.906515
+      \endverb
+      \keyw{covariance matrices;measurement uncertainty;mixers (circuits);nonlinear network analysis;random noise;mixer-based nonlinear vector network analyzer;measurement uncertainty;random noise;approximate covariance matrix;fitting models;Measurement uncertainty;Phase measurement;Distortion measurement;Covariance matrix;Signal analysis;Frequency measurement;Noise measurement;Phase noise;Microwave technology;Dynamic range;Nonlinear systems;phase measurement;uncertainty}
+    \endentry
+    \entry{Engen_1979}{article}{}
+      \name{author}{2}{}{%
+        {{hash=28213d63bf04f657b8ae3ff503bb6991}{%
+           family={{Engen}},
+           familyi={E\bibinitperiod},
+           given={G.\bibnamedelimi F.},
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=b60c77fe432088562cd4769d535e7c2b}{%
+           family={{Hoer}},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \strng{fullhash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \strng{bibnamehash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \strng{authorbibnamehash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \strng{authornamehash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \strng{authorfullhash}{799f2ecf8f613bc32e8002e07a84cd68}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Thru-Reflect-Line: An Improved Technique for Calibrating the Dual Six-Port Automatic Network Analyzer}
+      \field{volume}{27}
+      \field{year}{1979}
+      \field{pages}{987\bibrangedash 993}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/TMTT.1979.1129778
+      \endverb
+      \keyw{Calibration;Detectors;Scattering parameters;Senior members;Circuits;Microwave devices;Microwave measurements;Test equipment;Particle measurements}
+    \endentry
+    \entry{Marks_1991}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6a2301da3cd29f54bd0d18ecaae18f70}{%
+           family={Marks},
+           familyi={M\bibinitperiod},
+           given={R.\bibnamedelimi B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \strng{fullhash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \strng{bibnamehash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \strng{authorbibnamehash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \strng{authornamehash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \strng{authorfullhash}{6a2301da3cd29f54bd0d18ecaae18f70}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{A multiline method of network analyzer calibration}
+      \field{volume}{39}
+      \field{year}{1991}
+      \field{pages}{1205\bibrangedash 1215}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/22.85388
+      \endverb
+      \keyw{calibration;microwave measurement;network analysers;TRL method;accuracy;assessment of calibration accuracy;bandwidth;calibration of network analyzers;imperfect connector repeatability;linearized error analysis;multiline method of network analyzer calibration;multiple transmission line standards;random errors reduction;redundant transmission line standards;statistical treatment;thru-reflect-line calibration method;Bandwidth;Calibration;Connectors;Covariance matrix;Error analysis;Frequency;Iterative methods;Transmission line matrix methods;Transmission line theory;Transmission lines}
+    \endentry
+    \entry{Keysight_2017}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0a1dc9ba6382e13835002ad4d9099b4e}{%
+           family={{Keysight Technologies}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{0a1dc9ba6382e13835002ad4d9099b4e}
+      \strng{fullhash}{0a1dc9ba6382e13835002ad4d9099b4e}
+      \strng{bibnamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
+      \strng{authorbibnamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
+      \strng{authornamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
+      \strng{authorfullhash}{0a1dc9ba6382e13835002ad4d9099b4e}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{number}{5989-7619EN}
+      \field{title}{{Fundamentals of RF and Microwave Power Measurements (Part 3)}}
+      \field{type}{techreport}
+      \field{urlday}{18}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://literature.cdn.keysight.com/litweb/pdf/5988-9215EN.pdf
+      \endverb
+      \verb{url}
+      \verb https://literature.cdn.keysight.com/litweb/pdf/5988-9215EN.pdf
+      \endverb
+    \endentry
+    \entry{Keysight_2014}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0a1dc9ba6382e13835002ad4d9099b4e}{%
+           family={{Keysight Technologies}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{0a1dc9ba6382e13835002ad4d9099b4e}
+      \strng{fullhash}{0a1dc9ba6382e13835002ad4d9099b4e}
+      \strng{bibnamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
+      \strng{authorbibnamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
+      \strng{authornamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
+      \strng{authorfullhash}{0a1dc9ba6382e13835002ad4d9099b4e}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{number}{5988-9215EN}
+      \field{title}{{U9391C/F/G Comb Generators}}
+      \field{type}{techreport}
+      \field{urlday}{18}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://literature.cdn.keysight.com/litweb/pdf/5989-7619EN.pdf
+      \endverb
+      \verb{url}
+      \verb http://literature.cdn.keysight.com/litweb/pdf/5989-7619EN.pdf
+      \endverb
+    \endentry
+    \entry{Reader_2008}{article}{}
+      \name{author}{4}{}{%
+        {{hash=a81fae5c42be81671eb5a216e037034b}{%
+           family={{Reader}},
+           familyi={R\bibinitperiod},
+           given={H.\bibnamedelimi C.},
+           giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=894a26e0347e1a769804de4b0068f0f4}{%
+           family={{Williams}},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi F.},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=2394d747e72876113ee35ed4756b1018}{%
+           family={{Hale}},
+           familyi={H\bibinitperiod},
+           given={P.\bibnamedelimi D.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=132a20930442db84e7c091f0c8b5d409}{%
+           family={{Clement}},
+           familyi={C\bibinitperiod},
+           given={T.\bibnamedelimi S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{782f26ad22a046f8cbf76037e857ae6b}
+      \strng{fullhash}{4a468e16d0bb820001967b07304a2fef}
+      \strng{bibnamehash}{4a468e16d0bb820001967b07304a2fef}
+      \strng{authorbibnamehash}{4a468e16d0bb820001967b07304a2fef}
+      \strng{authornamehash}{782f26ad22a046f8cbf76037e857ae6b}
+      \strng{authorfullhash}{4a468e16d0bb820001967b07304a2fef}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9480}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Comb-Generator Characterization}
+      \field{volume}{56}
+      \field{year}{2008}
+      \field{pages}{515\bibrangedash 521}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/TMTT.2007.914630
+      \endverb
+      \keyw{attenuators;frequency response;impedance matching;oscilloscopes;signal generators;signal sampling;comb-generator characterization;sampling oscilloscope;time-base distortion;impedance mismatch;inline attenuator;complex frequency response;high-speed measurement;frequency 50 GHz;Distortion measurement;Oscilloscopes;Temperature measurement;Character generation;Sampling methods;Temperature control;Power system harmonics;Power generation;Power measurement;Measurement standards;Comb-generator stability;mismatch correction;sampling-oscilloscope calibration}
+    \endentry
+    \entry{Hale_2009}{article}{}
+      \name{author}{7}{}{%
+        {{hash=2394d747e72876113ee35ed4756b1018}{%
+           family={{Hale}},
+           familyi={H\bibinitperiod},
+           given={P.\bibnamedelimi D.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=58254a954e9680c50d60d84227dc8419}{%
+           family={{Dienstfrey}},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4492e5ca96757f0b8acb0fcce095ce41}{%
+           family={{Wang}},
+           familyi={W\bibinitperiod},
+           given={J.\bibnamedelimi C.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=894a26e0347e1a769804de4b0068f0f4}{%
+           family={{Williams}},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi F.},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=207400fc3d619766bf5fec68e698646e}{%
+           family={{Lewandowski}},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=387fe24d0e7db9a39ab4d56a93b452cc}{%
+           family={{Keenan}},
+           familyi={K\bibinitperiod},
+           given={D.\bibnamedelimi A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=132a20930442db84e7c091f0c8b5d409}{%
+           family={{Clement}},
+           familyi={C\bibinitperiod},
+           given={T.\bibnamedelimi S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee5c7740f39b4e193b30a2a7935c9c13}
+      \strng{fullhash}{c9db4776c1d099417d473676d11b9c7f}
+      \strng{bibnamehash}{c9db4776c1d099417d473676d11b9c7f}
+      \strng{authorbibnamehash}{c9db4776c1d099417d473676d11b9c7f}
+      \strng{authornamehash}{ee5c7740f39b4e193b30a2a7935c9c13}
+      \strng{authorfullhash}{c9db4776c1d099417d473676d11b9c7f}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9456}
+      \field{journaltitle}{{IEEE} Trans. Instrum. Meas.}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Traceable Waveform Calibration With a Covariance-Based Uncertainty Analysis}
+      \field{volume}{58}
+      \field{year}{2009}
+      \field{pages}{3554\bibrangedash 3568}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1109/TIM.2009.2018012
+      \endverb
+      \keyw{calibration;covariance matrices;electro-optical devices;equivalent circuits;oscilloscopes;pulse generators;traceable waveform calibration;covariance-based uncertainty analysis;step-like pulse generator;voltage calibration;equivalent-circuit model;equivalent-time sampling oscilloscope;electro-optic sampling system;National Institute of Standards and Technology;waveform vector;covariance matrix;parameter-based uncertainty analysis;Calibration;Uncertainty;Sampling methods;Voltage;Pulse generation;Pulse measurements;Time measurement;Oscilloscopes;Physics;NIST;Covariance matrices;deconvolution;oscilloscopes;pulse measurements;signals;uncertainty;waveforms}
     \endentry
   \enddatalist
 \endrefsection
 
-\refsection{7}
+\refsection{8}
   \datalist[entry]{none/global//global/global}
     \entry{Stant_2016_Coll}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
            family={Stant},
            familyi={S\bibinitperiod},
-           given={L.T.},
-           giveni={L\bibinitperiod}}}%
+           given={L.\bibnamedelimi T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
         {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
            family={Aaen},
            familyi={A\bibinitperiod},
-           given={P.H.},
-           giveni={P\bibinitperiod}}}%
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
         {{hash=7456470a8b102ff66439a30d2678b78e}{%
            family={Ridler},
            familyi={R\bibinitperiod},
-           given={N.M.},
-           giveni={N\bibinitperiod}}}%
+           given={N.\bibnamedelimi M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
       \list{publisher}{2}{%
         {Institution of Engineering}%
@@ -2828,6 +5206,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{IET Colloquium on Millimetre-Wave and Terahertz Engineering \& Technology 2016}
+      \field{month}{3}
       \field{title}{Evaluating residual errors in waveguide network analysers from microwave to submillimetre-wave frequencies}
       \field{year}{2016}
       \verb{doi}
@@ -2839,18 +5218,18 @@
         {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
            family={Stant},
            familyi={S\bibinitperiod},
-           given={L.T.},
-           giveni={L\bibinitperiod}}}%
+           given={L.\bibnamedelimi T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
         {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
            family={Aaen},
            familyi={A\bibinitperiod},
-           given={P.H.},
-           giveni={P\bibinitperiod}}}%
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
         {{hash=7456470a8b102ff66439a30d2678b78e}{%
            family={Ridler},
            familyi={R\bibinitperiod},
-           given={N.M.},
-           giveni={N\bibinitperiod}}}%
+           given={N.\bibnamedelimi M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Elsevier {BV}}%

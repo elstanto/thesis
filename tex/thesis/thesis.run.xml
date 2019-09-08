@@ -51,7 +51,6 @@
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
-      <file>blx-unicode.def</file>
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
       <file>standard.bbx</file>
@@ -83,6 +82,7 @@
       <file>thesis.bcf</file>
     </requires>
     <requires type="editable">
+      <file>../IEEEabrv.bib</file>
       <file>../references.bib</file>
     </requires>
   </external>

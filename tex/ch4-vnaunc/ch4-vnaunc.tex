@@ -22,7 +22,7 @@ In more recent years rigorous evaluations of VNA uncertainty have become possibl
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{vna-model.pdf}
-	\caption{Structure of VNA uncertainty evaluation. Input quantities are shown at the top of the diagram, grouped where applicable. Uncertainties from the calibration are either evaluated directly (rigorous/full evaluation) or are estimated after the calibration has been performed (``residual error'' evaluation). Typically the calibration measurement model is processed as part of the VNA measurement model, but it is shown separately here to distinguish the difference between VNA uncertainty evaluation methods.}
+	\caption[Structure of VNA uncertainty evaluation.]{Structure of VNA uncertainty evaluation. Input quantities are shown at the top of the diagram, grouped where applicable. Uncertainties from the calibration are either evaluated directly (rigorous/full evaluation) or are estimated after the calibration has been performed (``residual error'' evaluation). Typically the calibration measurement model is processed as part of the VNA measurement model, but it is shown separately here to distinguish the difference between VNA uncertainty evaluation methods.}
 	\label{ch4_fig_vna_model}
 \end{figure}
 
@@ -185,7 +185,7 @@ For coaxial measurements as specified in \cite{EURAMET_2011}, there is a high pr
 		\includegraphics[width=\linewidth]{dir-c.png}
 		\caption{Phase plot of both results, with the calibration load represented by the red dotted trace and the different load by the black solid trace.}
 	\end{subfigure}
-	\caption{Measurements of residual directivity plotted over the frequency range of 14--24 GHz performed in coaxial transmission line using both the load used for calibration and a load from a different calibration kit.}
+	\caption[Measurements of residual directivity performed in coaxial transmission line.]{Measurements of residual directivity plotted over the frequency range of 14--24 GHz performed in coaxial transmission line using both the load used for calibration and a load from a different calibration kit.}
 	\label{ch4_fig_dir}
 \end{figure}
 
@@ -211,7 +211,7 @@ Since the reflection coefficient for this measurement should be close to 1, ther
 		\includegraphics[width=0.9\linewidth]{tpm-b.png}
 		\caption{Phase plot of the results when using the calibration short-circuit (dotted red trace) and the different short-circuit (solid black trace).}
 	\end{subfigure}
-	\caption{Measurements of residual TPM plotted over the frequency range of  14--24 GHz performed in coaxial transmission line.}
+	\caption[Measurements of residual TPM performed in coaxial transmission line.]{Measurements of residual TPM plotted over the frequency range of 14--24 GHz performed in coaxial transmission line.}
 	\label{ch4_fig_tpm}
 \end{figure}
 
@@ -228,7 +228,7 @@ The ripple extraction technique was first performed on coaxial line in accordanc
 \begin{figure}
 	\centering
 	\includegraphics[width=0.65\textwidth]{coax.png}
-	\caption{Magnitude of the reflection measurement of a matched load and a short-circuit offset by a length of coaxial line. The VNA was calibrated using the SOLT method.}
+	\caption[Magnitude of the reflection measurement of a matched load and a short-circuit offset by a length of coaxial line.]{Magnitude of the reflection measurement of a matched load and a short-circuit offset by a length of coaxial line. The VNA was calibrated using the SOLT method.}
 	\label{ch4_fig_coax}
 \end{figure}
 
@@ -241,7 +241,7 @@ The ripple extraction technique was first performed on coaxial line in accordanc
 	TRL             & 0.008               & 0.007              & 0.002           & 0.002          \\
 	EURAMET guide \cite{EURAMET_2011} & 0.002--0.02         & 0.002--0.02        & 0.005--0.02     & 0.005--0.02    \\ \hline
 \end{tabular}
-	\caption{Residual directivity and TPM values obtained for 3.5 mm coaxial line VNA calibrations as measured by the ripple extraction method. Both SOLT and TRL calibration techniques were assessed. The range of representative residual error values from \cite{EURAMET_2011} has also been included for comparison.}
+	\caption[Residual directivity and TPM values obtained for 3.5 mm coaxial line VNA calibrations as measured by the ripple extraction method.]{Residual directivity and TPM values obtained for 3.5 mm coaxial line VNA calibrations as measured by the ripple extraction method. Both SOLT and TRL calibration techniques were assessed. The range of representative residual error values from \cite{EURAMET_2011} has also been included for comparison.}
 	\label{ch4_table_coax}
 \end{table}
 
@@ -257,7 +257,7 @@ The ripple extraction technique was first performed on coaxial line in accordanc
 		18--26.5       & WR-42           & SOSLT     & 0.003              & 0.004             & 0.010          & 0.005         \\
 		&              & TRL       & 0.002              & 0.002             & 0.002          & 0.001         \\ \hline 
 	\end{tabular}
-	\caption{Residual directivity and TPM values of WR-15 and WR-05 waveguide VNA calibrations as measured by the ripple extraction method. Both SOSLT and TRL techniques were used to calibrate the VNA.}
+	\caption[Residual directivity and TPM values of WR-15 and WR-05 waveguide VNA calibrations as measured by the ripple extraction method.]{Residual directivity and TPM values of WR-15 and WR-05 waveguide VNA calibrations as measured by the ripple extraction method. Both SOSLT and TRL techniques were used to calibrate the VNA.}
 	\label{ch4_table_WG16}
 \end{table}
 
@@ -275,7 +275,7 @@ To perform measurements at frequencies above 50 GHz, a range of external frequen
 		140--220       & WR-05          & SOSLT     & 0.008               & 0.009              & 0.019           & 0.024          \\
 		&                & TRL       & 0.007               & 0.008              & 0.021           & 0.015          \\ \hline
 	\end{tabular}
-	\caption{Residual directivity and TPM values of WG25 and WG30 waveguide VNA calibrations as measured by the ripple extraction method. Both SOSLT and TRL calibration techniques were measured.}
+	\caption[Residual directivity and TPM values of WG25 and WG30 waveguide VNA calibrations as measured by the ripple extraction method.]{Residual directivity and TPM values of WG25 and WG30 waveguide VNA calibrations as measured by the ripple extraction method. Both SOSLT and TRL calibration techniques were measured.}
 	\label{ch4_table_WG25}
 \end{table}
 
@@ -301,7 +301,7 @@ assessing the phase wrapping of the ripple trace obtained for evaluating residua
 		500--750       & WR-1.5         & SOSLT Cal. 1 & 0.021                & 0.142        \\
 		&                & SOSLT Cal. 2 & 0.025                & 0.065        \\ \hline 
 	\end{tabular}
-	\caption{Residual directivity and TPM values of two WR-1.5 waveguide VNA calibrations as measured by the ripple extraction method. Two similar types of calibration were performed using different standards from the same kit.}
+	\caption[Residual directivity and TPM values of two WR-1.5 waveguide VNA calibrations as measured by the ripple extraction method.]{Residual directivity and TPM values of two WR-1.5 waveguide VNA calibrations as measured by the ripple extraction method. Two similar types of calibration were performed using different standards from the same kit.}
 	\label{ch4_table_WR1.5}
 \end{table}
 
@@ -386,7 +386,7 @@ Therefore, for this project two phase references were taken to NIST and re-chara
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{comb.png}
-	\caption{Time domain representation of the pulse train which creates the harmonic comb in the frequency domain. The pulses repeat every 5 ns when the generator is driven with a 10 MHz stimulus. This figure is used with permission from a report produced by Gustavo Avolio, who performed the measurements at NIST. The results show good agreement between the Keysight characterisation stored on the device memory.}
+	\caption[Time domain representation of the pulse train which creates the harmonic comb in the frequency domain.]{Time domain representation of the pulse train which creates the harmonic comb in the frequency domain. The pulses repeat every 5 ns when the generator is driven with a 10 MHz stimulus. This figure is used with permission from a report produced by Gustavo Avolio, who performed the measurements at NIST. The results show good agreement between the Keysight characterisation stored on the device memory.}
 	\label{ch4_fig_comb}
 \end{figure}
 
@@ -403,7 +403,7 @@ Therefore, for this project two phase references were taken to NIST and re-chara
 		\includegraphics[width=0.62\textwidth]{combuncP.png}
 		\caption{ }
 	\end{subfigure}
-	\caption{Results of the phase reference characterisation performed at NIST for unit MY51256113 displayed using the MUF measurement viewer software. The device was connected to port one of the NVNA performing the measurement, so the amplitude (a) and phase (b) of the b wave for the fundamental harmonic at port one (b1\_1) is shown.}
+	\caption[Results of the phase reference characterisation performed at NIST for unit MY51256113 displayed using the MUF measurement viewer software.]{Results of the phase reference characterisation performed at NIST for unit MY51256113 displayed using the MUF measurement viewer software. The device was connected to port one of the NVNA performing the measurement, so the amplitude (a) and phase (b) of the b wave for the fundamental harmonic at port one (b1\_1) is shown.}
 	\label{ch4_fig_combunc}
 \end{figure}
 
@@ -416,7 +416,7 @@ The distribution of uncertainty contributions are shown in Figure \ref{ch4_fig_p
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\textwidth]{pmchart.png}
-	\caption{This chart shows a typical distribution of uncertainty values for its three largest causes: mismatch, sensor and meter specifications. It reveals why low SWR specifications for the power sensor and source is so crucial \cite{Keysight_2017}.}
+	\caption[A chart showing dominant uncertainty contributions within the power meter measurement.]{This chart shows a typical distribution of uncertainty values for its three largest causes: mismatch, sensor and meter specifications. It reveals why low SWR specifications for the power sensor and source is so crucial \cite{Keysight_2017}.}
 	\label{ch4_fig_pmchart}
 \end{figure}
 
@@ -433,7 +433,7 @@ For an ideal measurement, $M_\textrm{u}$ and $m$ are all equal to one and $t$ is
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{pmsens.png}
-	\caption{An example sensitivity analysis showing the effect of power meter uncertainties on an X-parameter measurement. The plot shows the amplitude of the X-parameter representing the large-signal output of the amplifier into a matched load versus a swept input power. The values are in units of square-root Watts. The input quantities ROMM, ROPU and InsE all contribute to $m$, ZSEr and ZCOE contribute to $t$, and CFEr represents the error in $K_\textrm{b}$. Mismatch error is not included in the power meter model but is modelled as a cascaded adapter attached to the power sensor instead.}
+	\caption[An example sensitivity analysis showing the effect of power meter uncertainties on an X-parameter measurement.]{An example sensitivity analysis showing the effect of power meter uncertainties on an X-parameter measurement. The plot shows the amplitude of the X-parameter representing the large-signal output of the amplifier into a matched load versus a swept input power. The values are in units of square-root Watts. The input quantities ROMM, ROPU and InsE all contribute to $m$, ZSEr and ZCOE contribute to $t$, and CFEr represents the error in $K_\textrm{b}$. Mismatch error is not included in the power meter model but is modelled as a cascaded adapter attached to the power sensor instead.}
 	\label{ch4_fig_pmsens}
 \end{figure}
 
@@ -461,7 +461,7 @@ Figure shows a screenshot of the MUF software \textbf{VNA Uncertainty Calculator
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{muflsna.png}
-	\caption{The LSNA calibration tab of the MUF \textbf{VNA Uncertainty Calculator} application. Each file icon represents a ``.meas'' file, which contains an index of Monte Carlo samples generated from a statistical analysis of repeated measurements for each quantity. It is by this method that the MUF propagates distribution information and preserves covariance information. The power meter mismatch and efficiency input boxes are empty as they are included in the model which generated the processed power meter reading file (``PM\_Model'').}
+	\caption[The LSNA calibration tab of the MUF VNA Uncertainty Calculator application.]{The LSNA calibration tab of the MUF \textbf{VNA Uncertainty Calculator} application. Each file icon represents a ``.meas'' file, which contains an index of Monte Carlo samples generated from a statistical analysis of repeated measurements for each quantity. It is by this method that the MUF propagates distribution information and preserves covariance information. The power meter mismatch and efficiency input boxes are empty as they are included in the model which generated the processed power meter reading file (``PM\_Model'').}
 	\label{ch4_fig_muflsna}
 \end{figure}
 

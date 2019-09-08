@@ -1,6 +1,0 @@
-PWD C:/Users/Laurence/thesis/tex/front-matter
-INPUT c:/texlive/2019/texmf.cnf
-INPUT c:/texlive/2019/texmf-dist/web2c/texmf.cnf
-INPUT c:/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT INP-00-glossary.tex
-OUTPUT INP-00-glossary.log
