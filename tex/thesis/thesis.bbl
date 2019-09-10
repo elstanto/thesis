@@ -62,9 +62,10 @@
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2020 94th ARFTG Microwave Measurement Conference (ARFTG)}
+      \field{booktitle}{94th ARFTG Microwave Measurement Conference (ARFTG)}
+      \field{month}{1}
       \field{title}{An Interferometric Characterization Technique for Extreme Impedance Microwave Devices}
-      \field{year}{submitted}
+      \field{year}{2020 (submitted)}
       \true{nocite}
     \endentry
     \entry{Salter_2018}{inproceedings}{}
@@ -91,7 +92,7 @@
            giveni={T\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {Brive}%
+        {Brive, France}%
       }
       \strng{namehash}{98d27a6ef22ccb5afeab124c49af95b3}
       \strng{fullhash}{411277369dc417ccc021a357e7a857be}
@@ -103,7 +104,7 @@
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2011 Workshop on Integrated Nonlinear Microwave and Millimetre-Wave Circuits}
+      \field{booktitle}{Workshop on Integrated Nonlinear Microwave and Millimetre-Wave Circuits}
       \field{month}{7}
       \field{title}{An Inter-Laboratory Comparison of {NVNA} Measurements}
       \field{year}{2018}
@@ -312,7 +313,7 @@
       \field{month}{10}
       \field{note}{2nd NPL Postgraduate Institute Annual Conference, Teddington, UK}
       \field{title}{Comparing Methods For Evaluating Measurement Uncertainty Given In The {JCGM} ‘Evaluation Of Measurement Data’ Documents}
-      \field{year}{2017}
+      \field{year}{2017 (Oral \& Poster)}
       \true{nocite}
     \endentry
     \entry{Stant_2017_feps}{unpublished}{}
@@ -337,7 +338,7 @@
       \field{month}{6}
       \field{note}{Faculty of Engineering and Physical Sciences Annual Festival of Research, University of Surrey}
       \field{title}{Comparing Methods For Evaluating Measurement Uncertainty Given In The {JCGM} ‘Evaluation Of Measurement Data’ Documents}
-      \field{year}{2017}
+      \field{year}{2017 (Poster)}
       \true{nocite}
     \endentry
     \entry{Stant_2016_pg}{unpublished}{}
@@ -362,8 +363,49 @@
       \field{month}{4}
       \field{note}{6th Annual Postgraduate Research Conference, University of Surrey}
       \field{title}{Evaluating Measurement Uncertainty in Microwave and Terahertz Frequency Metrology}
-      \field{year}{2016}
+      \field{year}{2016 (Oral)}
       \true{nocite}
+    \endentry
+    \entry{Stant_2016_Coll2}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
+           family={Stant},
+           familyi={S\bibinitperiod},
+           given={L.\bibnamedelimi T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
+           family={Aaen},
+           familyi={A\bibinitperiod},
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=7456470a8b102ff66439a30d2678b78e}{%
+           family={Ridler},
+           familyi={R\bibinitperiod},
+           given={N.\bibnamedelimi M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Institution of Engineering}%
+        {Technology ({IET})}%
+      }
+      \strng{namehash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{fullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{bibnamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{authorbibnamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{authornamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{authorfullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IET Colloquium on Millimetre-Wave and Terahertz Engineering \& Technology 2016}
+      \field{month}{3}
+      \field{title}{Evaluating residual errors in waveguide network analysers from microwave to submillimetre-wave frequencies}
+      \field{year}{2016 (Oral)}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1049/ic.2016.0016
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

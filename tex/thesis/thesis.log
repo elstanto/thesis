@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.4)  8 SEP 2019 17:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.4)  10 SEP 2019 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -866,6 +866,12 @@ f)
 Package pdftex.def Info: ../figs/cover/University_of_Surrey_coat_of_arms.pdf  u
 sed on input line 20.
 (pdftex.def)             Requested size: 125.47737pt x 158.81088pt.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 40.
+(c:/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
 [1
 
 
@@ -894,41 +900,42 @@ Package biblatex Info: Reference section=0 on input line 37.
 \blx@sectionciteorder@2=\count435
 Package biblatex Info: Reference section=2 on input line 38.
 Package biblatex Info: Setting label 'refsection:2' on input line 38.
-Package biblatex Info: Reference section=0 on input line 42.
 [4
 
-] [5
+]
+Package biblatex Info: Reference section=0 on input line 42.
+[5] [6
 
-] (./thesis.toc [6
+] (./thesis.toc [7
 
 ])
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
-[7] (./thesis.lof
+[8] [9] (./thesis.lof
 Overfull \hbox (19.69044pt too wide) in paragraph at lines 61--61
  [][] []\OT1/cmr/m/n/10 Results of the phase ref-er-ence char-ac-ter-i-sa-tion 
 per-formed at NIST for unit MY51256113 
  []
 
 \blx@sectionciteorder@6=\count436
-[8
+[10
 
 ])
 \tf@lof=\write5
 \openout5 = `thesis.lof'.
 
-[9] (./thesis.lot
+[11] (./thesis.lot
 \blx@sectionciteorder@7=\count437
 )
 \tf@lot=\write6
 \openout6 = `thesis.lot'.
 
-[10
+[12
 
-] [11
+] [13
 
-]) [12] (../ch1-introduction/ch1-introduction.tex
+]) [14] (../ch1-introduction/ch1-introduction.tex
 \blx@maxsegment@3=\count438
 \blx@sectionciteorder@3=\count439
 Package biblatex Info: Reference section=3 on input line 3.
@@ -938,7 +945,7 @@ Chapter 1.
 
 
 ]
-Package biblatex Info: Reference section=0 on input line 12.
+Package biblatex Info: Reference section=0 on input line 13.
 ) (../ch2-rfmwmeas/ch2-rfmwmeas.tex
 \blx@maxsegment@4=\count440
 \blx@sectionciteorder@4=\count441
@@ -958,13 +965,13 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [4] [5]
-<../figs/ch2-rfmwmeas/ch2_filter.png, id=311, 597.6729pt x 421.3341pt>
+<../figs/ch2-rfmwmeas/ch2_filter.png, id=318, 597.6729pt x 421.3341pt>
 File: ../figs/ch2-rfmwmeas/ch2_filter.png Graphic file (type png)
 <use ../figs/ch2-rfmwmeas/ch2_filter.png>
 Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_filter.png  used on input lin
 e 72.
 (pdftex.def)             Requested size: 334.60422pt x 235.88762pt.
-<../figs/ch2-rfmwmeas/ch2_s2p.png, id=313, 581.92406pt x 94.85437pt>
+<../figs/ch2-rfmwmeas/ch2_s2p.png, id=320, 581.92406pt x 94.85437pt>
 File: ../figs/ch2-rfmwmeas/ch2_s2p.png Graphic file (type png)
 <use ../figs/ch2-rfmwmeas/ch2_s2p.png>
 Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_s2p.png  used on input line 7
@@ -972,35 +979,35 @@ Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_s2p.png  used on input line 7
 (pdftex.def)             Requested size: 418.25368pt x 68.17639pt.
 [6 <../figs/ch2-rfmwmeas/ch2_filter.png>] [7 <../figs/ch2-rfmwmeas/ch2_s2p.PNG>
 ]
-<../figs/ch2-rfmwmeas/ch2_compression.pdf, id=323, 242.42021pt x 188.8363pt>
+<../figs/ch2-rfmwmeas/ch2_compression.pdf, id=329, 242.42021pt x 188.8363pt>
 File: ../figs/ch2-rfmwmeas/ch2_compression.pdf Graphic file (type pdf)
 <use ../figs/ch2-rfmwmeas/ch2_compression.pdf>
 Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_compression.pdf  used on inpu
 t line 137.
 (pdftex.def)             Requested size: 209.12683pt x 162.90894pt.
 [8]
-<../figs/ch2-rfmwmeas/im3.png, id=327, 3227.05624pt x 1500.60625pt>
+<../figs/ch2-rfmwmeas/im3.png, id=333, 3227.05624pt x 1500.60625pt>
 File: ../figs/ch2-rfmwmeas/im3.png Graphic file (type png)
 <use ../figs/ch2-rfmwmeas/im3.png>
 Package pdftex.def Info: ../figs/ch2-rfmwmeas/im3.png  used on input line 155.
 (pdftex.def)             Requested size: 418.25368pt x 194.49033pt.
 [9 <../figs/ch2-rfmwmeas/ch2_compression.pdf>] [10 <../figs/ch2-rfmwmeas/im3.pn
 g (PNG copy)>]
-<../figs/ch2-rfmwmeas/ch2_reflect.pdf, id=342, 468.75125pt x 149.55875pt>
+<../figs/ch2-rfmwmeas/ch2_reflect.pdf, id=349, 468.75125pt x 149.55875pt>
 File: ../figs/ch2-rfmwmeas/ch2_reflect.pdf Graphic file (type pdf)
 <use ../figs/ch2-rfmwmeas/ch2_reflect.pdf>
 Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_reflect.pdf  used on input li
 ne 174.
 (pdftex.def)             Requested size: 334.60422pt x 106.75797pt.
 [11 <../figs/ch2-rfmwmeas/ch2_reflect.pdf>]
-<../figs/ch2-rfmwmeas/ch2_vna.png, id=347, 205.2468pt x 125.7498pt>
+<../figs/ch2-rfmwmeas/ch2_vna.png, id=354, 205.2468pt x 125.7498pt>
 File: ../figs/ch2-rfmwmeas/ch2_vna.png Graphic file (type png)
 <use ../figs/ch2-rfmwmeas/ch2_vna.png>
 Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_vna.png  used on input line 1
 85.
 (pdftex.def)             Requested size: 250.95476pt x 153.76181pt.
 [12]
-<../figs/ch2-rfmwmeas/ch2_oneport.pdf, id=352, 754.82pt x 211.79124pt>
+<../figs/ch2-rfmwmeas/ch2_oneport.pdf, id=358, 754.82pt x 211.79124pt>
 File: ../figs/ch2-rfmwmeas/ch2_oneport.pdf Graphic file (type pdf)
 <use ../figs/ch2-rfmwmeas/ch2_oneport.pdf>
 Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_oneport.pdf  used on input li
@@ -1008,21 +1015,21 @@ ne 200.
 (pdftex.def)             Requested size: 418.25368pt x 117.35486pt.
 [13 <../figs/ch2-rfmwmeas/ch2_vna.png>] [14 <../figs/ch2-rfmwmeas/ch2_oneport.p
 df>]
-<../figs/ch2-rfmwmeas/ch2_twoport.pdf, id=361, 768.8725pt x 221.82875pt>
+<../figs/ch2-rfmwmeas/ch2_twoport.pdf, id=367, 768.8725pt x 221.82875pt>
 File: ../figs/ch2-rfmwmeas/ch2_twoport.pdf Graphic file (type pdf)
 <use ../figs/ch2-rfmwmeas/ch2_twoport.pdf>
 Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_twoport.pdf  used on input li
 ne 225.
 (pdftex.def)             Requested size: 418.25368pt x 120.67255pt.
 [15 <../figs/ch2-rfmwmeas/ch2_twoport.pdf>] [16] [17] [18] [19]
-<../figs/ch2-rfmwmeas/ch2_powercal.pdf, id=382, 753.81625pt x 211.79124pt>
+<../figs/ch2-rfmwmeas/ch2_powercal.pdf, id=388, 753.81625pt x 211.79124pt>
 File: ../figs/ch2-rfmwmeas/ch2_powercal.pdf Graphic file (type pdf)
 <use ../figs/ch2-rfmwmeas/ch2_powercal.pdf>
 Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_powercal.pdf  used on input l
 ine 456.
 (pdftex.def)             Requested size: 418.25368pt x 117.50998pt.
 [20 <../figs/ch2-rfmwmeas/ch2_powercal.pdf>]
-<../figs/ch2-rfmwmeas/ch2_phasecal.pdf, id=387, 753.81625pt x 211.79124pt>
+<../figs/ch2-rfmwmeas/ch2_phasecal.pdf, id=393, 753.81625pt x 211.79124pt>
 File: ../figs/ch2-rfmwmeas/ch2_phasecal.pdf Graphic file (type pdf)
 <use ../figs/ch2-rfmwmeas/ch2_phasecal.pdf>
 Package pdftex.def Info: ../figs/ch2-rfmwmeas/ch2_phasecal.pdf  used on input l
@@ -1047,12 +1054,12 @@ Chapter 3.
 [26
 
 ]
-<../figs/ch3-measunc/cubit.jpg, id=409, 781.92125pt x 173.64874pt>
+<../figs/ch3-measunc/cubit.jpg, id=415, 781.92125pt x 173.64874pt>
 File: ../figs/ch3-measunc/cubit.jpg Graphic file (type jpg)
 <use ../figs/ch3-measunc/cubit.jpg>
 Package pdftex.def Info: ../figs/ch3-measunc/cubit.jpg  used on input line 21.
 (pdftex.def)             Requested size: 418.25368pt x 92.88658pt.
-<../figs/ch3-measunc/traceability.png, id=410, 254.3904pt x 160.9212pt>
+<../figs/ch3-measunc/traceability.png, id=416, 254.3904pt x 160.9212pt>
 File: ../figs/ch3-measunc/traceability.png Graphic file (type png)
 <use ../figs/ch3-measunc/traceability.png>
 Package pdftex.def Info: ../figs/ch3-measunc/traceability.png  used on input li
@@ -1060,14 +1067,14 @@ ne 30.
 (pdftex.def)             Requested size: 254.38977pt x 160.9208pt.
 [27 <../figs/ch3-measunc/cubit.jpg>] [28 <../figs/ch3-measunc/traceability.png>
 ] [29] [30] [31] [32] [33]
-<../figs/ch3-measunc/model.png, id=434, 1095.3422pt x 372.64218pt>
+<../figs/ch3-measunc/model.png, id=441, 1095.3422pt x 372.64218pt>
 File: ../figs/ch3-measunc/model.png Graphic file (type png)
 <use ../figs/ch3-measunc/model.png>
 Package pdftex.def Info: ../figs/ch3-measunc/model.png  used on input line 117.
 
 (pdftex.def)             Requested size: 271.86234pt x 92.48935pt.
 [34 <../figs/ch3-measunc/model.PNG>]
-<../figs/ch3-measunc/scaling_factor.pdf, id=439, 597.23125pt x 420.57124pt>
+<../figs/ch3-measunc/scaling_factor.pdf, id=447, 597.23125pt x 420.57124pt>
 File: ../figs/ch3-measunc/scaling_factor.pdf Graphic file (type pdf)
 <use ../figs/ch3-measunc/scaling_factor.pdf>
 Package pdftex.def Info: ../figs/ch3-measunc/scaling_factor.pdf  used on input 
@@ -1093,21 +1100,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 212--212
  []
 
 [39]
-<../figs/ch3-measunc/gum_sparams.pdf, id=465, 844.15375pt x 597.23125pt>
+<../figs/ch3-measunc/gum_sparams.pdf, id=471, 844.15375pt x 597.23125pt>
 File: ../figs/ch3-measunc/gum_sparams.pdf Graphic file (type pdf)
 <use ../figs/ch3-measunc/gum_sparams.pdf>
 Package pdftex.def Info: ../figs/ch3-measunc/gum_sparams.pdf  used on input lin
 e 228.
 (pdftex.def)             Requested size: 334.60422pt x 236.72849pt.
 [40 <../figs/ch3-measunc/gum_sparams.pdf>] [41] [42]
-<../figs/ch3-measunc/distributions.png, id=483, 1024.57782pt x 594.72188pt>
+<../figs/ch3-measunc/distributions.png, id=489, 1024.57782pt x 594.72188pt>
 File: ../figs/ch3-measunc/distributions.png Graphic file (type png)
 <use ../figs/ch3-measunc/distributions.png>
 Package pdftex.def Info: ../figs/ch3-measunc/distributions.png  used on input l
 ine 269.
 (pdftex.def)             Requested size: 271.86234pt x 157.80019pt.
 [43 <../figs/ch3-measunc/distributions.png>] [44] [45] [46]
-<../figs/ch3-measunc/sensitivity.png, id=497, 484.05844pt x 406.51875pt>
+<../figs/ch3-measunc/sensitivity.png, id=504, 484.05844pt x 406.51875pt>
 File: ../figs/ch3-measunc/sensitivity.png Graphic file (type png)
 <use ../figs/ch3-measunc/sensitivity.png>
 Package pdftex.def Info: ../figs/ch3-measunc/sensitivity.png  used on input lin
@@ -1127,26 +1134,26 @@ Chapter 4.
 [51
 
 ]
-<../figs/ch4-vnaunc/vna-model.pdf, id=515, 874.26625pt x 474.77374pt>
+<../figs/ch4-vnaunc/vna-model.pdf, id=521, 874.26625pt x 474.77374pt>
 File: ../figs/ch4-vnaunc/vna-model.pdf Graphic file (type pdf)
 <use ../figs/ch4-vnaunc/vna-model.pdf>
 Package pdftex.def Info: ../figs/ch4-vnaunc/vna-model.pdf  used on input line 2
 4.
 (pdftex.def)             Requested size: 418.25368pt x 227.13538pt.
 [52] [53 <../figs/ch4-vnaunc/vna-model.pdf>] [54] [55] [56] [57] [58] [59]
-<../figs/ch4-vnaunc/Ripple1.png, id=542, 170.5572pt x 145.5036pt>
+<../figs/ch4-vnaunc/Ripple1.png, id=549, 170.5572pt x 145.5036pt>
 File: ../figs/ch4-vnaunc/Ripple1.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/Ripple1.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/Ripple1.png  used on input line 142
 .
 (pdftex.def)             Requested size: 133.84424pt x 114.18948pt.
-<../figs/ch4-vnaunc/Ripple2.png, id=543, 429.7656pt x 164.5347pt>
+<../figs/ch4-vnaunc/Ripple2.png, id=550, 429.7656pt x 164.5347pt>
 File: ../figs/ch4-vnaunc/Ripple2.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/Ripple2.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/Ripple2.png  used on input line 148
 .
 (pdftex.def)             Requested size: 313.69025pt x 120.09926pt.
-<../figs/ch4-vnaunc/Ripple3.png, id=544, 382.7901pt x 144.54pt>
+<../figs/ch4-vnaunc/Ripple3.png, id=551, 382.7901pt x 144.54pt>
 File: ../figs/ch4-vnaunc/Ripple3.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/Ripple3.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/Ripple3.png  used on input line 154
@@ -1154,24 +1161,24 @@ Package pdftex.def Info: ../figs/ch4-vnaunc/Ripple3.png  used on input line 154
 (pdftex.def)             Requested size: 313.69025pt x 118.44856pt.
 [60] [61 <../figs/ch4-vnaunc/Ripple1.PNG> <../figs/ch4-vnaunc/Ripple2.PNG> <../
 figs/ch4-vnaunc/Ripple3.PNG>]
-<../figs/ch4-vnaunc/dir-a.png, id=558, 145.0218pt x 145.7445pt>
+<../figs/ch4-vnaunc/dir-a.png, id=564, 145.0218pt x 145.7445pt>
 File: ../figs/ch4-vnaunc/dir-a.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/dir-a.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/dir-a.png  used on input line 174.
 (pdftex.def)             Requested size: 169.39043pt x 170.24016pt.
-<../figs/ch4-vnaunc/dir-b.png, id=559, 146.2263pt x 145.9854pt>
+<../figs/ch4-vnaunc/dir-b.png, id=565, 146.2263pt x 145.9854pt>
 File: ../figs/ch4-vnaunc/dir-b.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/dir-b.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/dir-b.png  used on input line 179.
 (pdftex.def)             Requested size: 169.39043pt x 169.11818pt.
-<../figs/ch4-vnaunc/dir-c.png, id=560, 238.2501pt x 158.5122pt>
+<../figs/ch4-vnaunc/dir-c.png, id=566, 238.2501pt x 158.5122pt>
 File: ../figs/ch4-vnaunc/dir-c.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/dir-c.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/dir-c.png  used on input line 185.
 (pdftex.def)             Requested size: 250.95476pt x 166.97482pt.
 [62] [63 <../figs/ch4-vnaunc/dir-a.PNG> <../figs/ch4-vnaunc/dir-b.PNG> <../figs
 /ch4-vnaunc/dir-c.PNG>]
-<../figs/ch4-vnaunc/tpm-a.png, id=570, 144.2991pt x 144.2991pt>
+<../figs/ch4-vnaunc/tpm-a.png, id=576, 144.2991pt x 144.2991pt>
 File: ../figs/ch4-vnaunc/tpm-a.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/tpm-a.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/tpm-a.png  used on input line 206.
@@ -1181,13 +1188,13 @@ Underfull \hbox (badness 3803) in paragraph at lines 207--207
 []\OT1/cmr/m/n/9 (a) |Smith chart rep-re-sen-ta-tion of
  []
 
-<../figs/ch4-vnaunc/tpm-b.png, id=571, 238.9728pt x 159.4758pt>
+<../figs/ch4-vnaunc/tpm-b.png, id=577, 238.9728pt x 159.4758pt>
 File: ../figs/ch4-vnaunc/tpm-b.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/tpm-b.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/tpm-b.png  used on input line 211.
 (pdftex.def)             Requested size: 225.85774pt x 150.72488pt.
 [64 <../figs/ch4-vnaunc/tpm-a.PNG> <../figs/ch4-vnaunc/tpm-b.PNG>]
-<../figs/ch4-vnaunc/coax.png, id=577, 145.7445pt x 84.5559pt>
+<../figs/ch4-vnaunc/coax.png, id=584, 145.7445pt x 84.5559pt>
 File: ../figs/ch4-vnaunc/coax.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/coax.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/coax.png  used on input line 230.
@@ -1206,7 +1213,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 268.
 
 [67]
-<../figs/ch4-vnaunc/setup.jpg, id=589, 653.44125pt x 413.29407pt>
+<../figs/ch4-vnaunc/setup.jpg, id=595, 653.44125pt x 413.29407pt>
 File: ../figs/ch4-vnaunc/setup.jpg Graphic file (type jpg)
 <use ../figs/ch4-vnaunc/setup.jpg>
 Package pdftex.def Info: ../figs/ch4-vnaunc/setup.jpg  used on input line 292.
@@ -1215,25 +1222,25 @@ Package pdftex.def Info: ../figs/ch4-vnaunc/setup.jpg  used on input line 292.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 297.
 
-<../figs/ch4-vnaunc/wm380.png, id=590, 228.3732pt x 153.4533pt>
+<../figs/ch4-vnaunc/wm380.png, id=596, 228.3732pt x 153.4533pt>
 File: ../figs/ch4-vnaunc/wm380.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/wm380.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/wm380.png  used on input line 310.
 (pdftex.def)             Requested size: 271.86234pt x 182.69829pt.
 [68 <../figs/ch4-vnaunc/setup.jpg>] [69 <../figs/ch4-vnaunc/WM380.png>] [70] [7
 1] [72] [73] [74] [75] [76]
-<../figs/ch4-vnaunc/comb.png, id=620, 1010.27437pt x 331.2375pt>
+<../figs/ch4-vnaunc/comb.png, id=628, 1010.27437pt x 331.2375pt>
 File: ../figs/ch4-vnaunc/comb.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/comb.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/comb.png  used on input line 388.
 (pdftex.def)             Requested size: 418.25368pt x 137.13246pt.
-<../figs/ch4-vnaunc/combuncA.png, id=621, 190.311pt x 168.1482pt>
+<../figs/ch4-vnaunc/combuncA.png, id=629, 190.311pt x 168.1482pt>
 File: ../figs/ch4-vnaunc/combuncA.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/combuncA.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/combuncA.png  used on input line 39
 7.
 (pdftex.def)             Requested size: 259.31523pt x 229.15059pt.
-<../figs/ch4-vnaunc/combuncP.png, id=622, 190.0701pt x 168.1482pt>
+<../figs/ch4-vnaunc/combuncP.png, id=630, 190.0701pt x 168.1482pt>
 File: ../figs/ch4-vnaunc/combuncP.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/combuncP.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/combuncP.png  used on input line 40
@@ -1241,26 +1248,26 @@ Package pdftex.def Info: ../figs/ch4-vnaunc/combuncP.png  used on input line 40
 (pdftex.def)             Requested size: 259.31523pt x 229.41486pt.
 [77 <../figs/ch4-vnaunc/comb.png>] [78 <../figs/ch4-vnaunc/combuncA.png> <../fi
 gs/ch4-vnaunc/combuncP.png>]
-<../figs/ch4-vnaunc/pmchart.png, id=634, 223.0734pt x 105.2733pt>
+<../figs/ch4-vnaunc/pmchart.png, id=640, 223.0734pt x 105.2733pt>
 File: ../figs/ch4-vnaunc/pmchart.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/pmchart.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/pmchart.png  used on input line 418
 .
 (pdftex.def)             Requested size: 292.77629pt x 138.17247pt.
-<../figs/ch4-vnaunc/pmsens.png, id=635, 211.5102pt x 189.1065pt>
+<../figs/ch4-vnaunc/pmsens.png, id=641, 211.5102pt x 189.1065pt>
 File: ../figs/ch4-vnaunc/pmsens.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/pmsens.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/pmsens.png  used on input line 435.
 
 (pdftex.def)             Requested size: 418.25368pt x 373.96745pt.
 [79 <../figs/ch4-vnaunc/pmchart.png>] [80 <../figs/ch4-vnaunc/pmsens.png>]
-<../figs/ch4-vnaunc/linmodel.png, id=644, 246.9225pt x 286.671pt>
+<../figs/ch4-vnaunc/linmodel.png, id=650, 246.9225pt x 286.671pt>
 File: ../figs/ch4-vnaunc/linmodel.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/linmodel.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/linmodel.png  used on input line 45
 0.
 (pdftex.def)             Requested size: 334.60422pt x 388.4895pt.
-<../figs/ch4-vnaunc/muflsna.png, id=645, 174.6525pt x 129.8451pt>
+<../figs/ch4-vnaunc/muflsna.png, id=651, 174.6525pt x 129.8451pt>
 File: ../figs/ch4-vnaunc/muflsna.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/muflsna.png>
 Package pdftex.def Info: ../figs/ch4-vnaunc/muflsna.png  used on input line 463
@@ -1307,19 +1314,19 @@ Overfull \hbox (11.7462pt too wide) in paragraph at lines 10--10
 [90
 
 ]
-<../figs/ch5-nlbmunc/dut.png, id=680, 1887.05pt x 702.625pt>
+<../figs/ch5-nlbmunc/dut.png, id=686, 1887.05pt x 702.625pt>
 File: ../figs/ch5-nlbmunc/dut.png Graphic file (type png)
 <use ../figs/ch5-nlbmunc/dut.png>
 Package pdftex.def Info: ../figs/ch5-nlbmunc/dut.png  used on input line 34.
 (pdftex.def)             Requested size: 271.86234pt x 101.21866pt.
 [91 <../figs/ch5-nlbmunc/dut.png (PNG copy)>] [92]
-<../figs/ch5-nlbmunc/hots22_recoloured.png, id=687, 991.45406pt x 501.37312pt>
+<../figs/ch5-nlbmunc/hots22_recoloured.png, id=693, 991.45406pt x 501.37312pt>
 File: ../figs/ch5-nlbmunc/hots22_recoloured.png Graphic file (type png)
 <use ../figs/ch5-nlbmunc/hots22_recoloured.png>
 Package pdftex.def Info: ../figs/ch5-nlbmunc/hots22_recoloured.png  used on inp
 ut line 115.
 (pdftex.def)             Requested size: 418.25368pt x 211.5086pt.
-<../figs/ch5-nlbmunc/superposition.png, id=688, 940.26282pt x 464.4853pt>
+<../figs/ch5-nlbmunc/superposition.png, id=694, 940.26282pt x 464.4853pt>
 File: ../figs/ch5-nlbmunc/superposition.png Graphic file (type png)
 <use ../figs/ch5-nlbmunc/superposition.png>
 Package pdftex.def Info: ../figs/ch5-nlbmunc/superposition.png  used on input l
@@ -1333,20 +1340,20 @@ f scat-ter-ing func-tions and X-parameters
  []
 
 [95]
-<../figs/ch5-nlbmunc/phasedep.png, id=701, 709.14937pt x 529.22719pt>
+<../figs/ch5-nlbmunc/phasedep.png, id=708, 709.14937pt x 529.22719pt>
 File: ../figs/ch5-nlbmunc/phasedep.png Graphic file (type png)
 <use ../figs/ch5-nlbmunc/phasedep.png>
 Package pdftex.def Info: ../figs/ch5-nlbmunc/phasedep.png  used on input line 1
 66.
 (pdftex.def)             Requested size: 271.86234pt x 202.89307pt.
 [96] [97 <../figs/ch5-nlbmunc/phasedep.png>]
-<../figs/ch5-nlbmunc/nvna.png, id=710, 2539.4875pt x 1560.83125pt>
+<../figs/ch5-nlbmunc/nvna.png, id=716, 2539.4875pt x 1560.83125pt>
 File: ../figs/ch5-nlbmunc/nvna.png Graphic file (type png)
 <use ../figs/ch5-nlbmunc/nvna.png>
 Package pdftex.def Info: ../figs/ch5-nlbmunc/nvna.png  used on input line 185.
 (pdftex.def)             Requested size: 334.60422pt x 205.65407pt.
 [98 <../figs/ch5-nlbmunc/nvna.png (PNG copy)>]
-<../figs/ch5-nlbmunc/extract.png, id=714, 2584.65625pt x 1134.2375pt>
+<../figs/ch5-nlbmunc/extract.png, id=720, 2584.65625pt x 1134.2375pt>
 File: ../figs/ch5-nlbmunc/extract.png Graphic file (type png)
 <use ../figs/ch5-nlbmunc/extract.png>
 Package pdftex.def Info: ../figs/ch5-nlbmunc/extract.png  used on input line 20
@@ -1358,14 +1365,14 @@ Overfull \hbox (1.50032pt too wide) detected at line 217
  []
 
 [99 <../figs/ch5-nlbmunc/extract.png (PNG copy)>] [100] [101]
-<../figs/ch5-nlbmunc/uncproc.png, id=724, 2484.28125pt x 2760.3125pt>
+<../figs/ch5-nlbmunc/uncproc.png, id=731, 2484.28125pt x 2760.3125pt>
 File: ../figs/ch5-nlbmunc/uncproc.png Graphic file (type png)
 <use ../figs/ch5-nlbmunc/uncproc.png>
 Package pdftex.def Info: ../figs/ch5-nlbmunc/uncproc.png  used on input line 26
 8.
 (pdftex.def)             Requested size: 376.42575pt x 418.2409pt.
 [102] [103 <../figs/ch5-nlbmunc/uncproc.png (PNG copy)>] [104]
-<../figs/ch5-nlbmunc/setup.png, id=735, 685.8423pt x 350.5095pt>
+<../figs/ch5-nlbmunc/setup.png, id=741, 685.8423pt x 350.5095pt>
 File: ../figs/ch5-nlbmunc/setup.png Graphic file (type png)
 <use ../figs/ch5-nlbmunc/setup.png>
 Package pdftex.def Info: ../figs/ch5-nlbmunc/setup.png  used on input line 295.
@@ -1385,12 +1392,12 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 337.
 
 [106]
-<../figs/ch5-nlbmunc/hist.png, id=743, 157.0668pt x 138.7584pt>
+<../figs/ch5-nlbmunc/hist.png, id=750, 157.0668pt x 138.7584pt>
 File: ../figs/ch5-nlbmunc/hist.png Graphic file (type png)
 <use ../figs/ch5-nlbmunc/hist.png>
 Package pdftex.def Info: ../figs/ch5-nlbmunc/hist.png  used on input line 360.
 (pdftex.def)             Requested size: 334.60422pt x 295.60826pt.
-<../figs/ch5-nlbmunc/fig4a.png, id=744, 256.01648pt x 170.67764pt>
+<../figs/ch5-nlbmunc/fig4a.png, id=751, 256.01648pt x 170.67764pt>
 File: ../figs/ch5-nlbmunc/fig4a.png Graphic file (type png)
 <use ../figs/ch5-nlbmunc/fig4a.png>
 Package pdftex.def Info: ../figs/ch5-nlbmunc/fig4a.png  used on input line 368.
@@ -1401,7 +1408,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 368--370
 [][]
  []
 
-<../figs/ch5-nlbmunc/fig4b.png, id=745, 256.01648pt x 170.67764pt>
+<../figs/ch5-nlbmunc/fig4b.png, id=752, 256.01648pt x 170.67764pt>
 File: ../figs/ch5-nlbmunc/fig4b.png Graphic file (type png)
 <use ../figs/ch5-nlbmunc/fig4b.png>
 Package pdftex.def Info: ../figs/ch5-nlbmunc/fig4b.png  used on input line 372.
@@ -1412,7 +1419,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 372--374
 [][]
  []
 
-<../figs/ch5-nlbmunc/fig4c.png, id=746, 256.01648pt x 170.67764pt>
+<../figs/ch5-nlbmunc/fig4c.png, id=753, 256.01648pt x 170.67764pt>
 File: ../figs/ch5-nlbmunc/fig4c.png Graphic file (type png)
 <use ../figs/ch5-nlbmunc/fig4c.png>
 Package pdftex.def Info: ../figs/ch5-nlbmunc/fig4c.png  used on input line 376.
@@ -1423,7 +1430,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 376--378
 [][]
  []
 
-<../figs/ch5-nlbmunc/fig4d.png, id=747, 256.01648pt x 170.67764pt>
+<../figs/ch5-nlbmunc/fig4d.png, id=754, 256.01648pt x 170.67764pt>
 File: ../figs/ch5-nlbmunc/fig4d.png Graphic file (type png)
 <use ../figs/ch5-nlbmunc/fig4d.png>
 Package pdftex.def Info: ../figs/ch5-nlbmunc/fig4d.png  used on input line 380.
@@ -1441,7 +1448,7 @@ LaTeX Warning: Reference `fig:sensplots' on page 107 undefined on input line 38
 [107] [108 <../figs/ch5-nlbmunc/hist.png>] [109 <../figs/ch5-nlbmunc/fig4a.png>
  <../figs/ch5-nlbmunc/fig4b.png> <../figs/ch5-nlbmunc/fig4c.png> <../figs/ch5-n
 lbmunc/fig4d.png>]
-<../figs/ch5-nlbmunc/fig5a.png, id=763, 256.01648pt x 170.67764pt>
+<../figs/ch5-nlbmunc/fig5a.png, id=769, 256.01648pt x 170.67764pt>
 File: ../figs/ch5-nlbmunc/fig5a.png Graphic file (type png)
 <use ../figs/ch5-nlbmunc/fig5a.png>
 Package pdftex.def Info: ../figs/ch5-nlbmunc/fig5a.png  used on input line 400.
@@ -1452,7 +1459,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 400--402
 [][]
  []
 
-<../figs/ch5-nlbmunc/fig5b.png, id=764, 256.01648pt x 170.67764pt>
+<../figs/ch5-nlbmunc/fig5b.png, id=770, 256.01648pt x 170.67764pt>
 File: ../figs/ch5-nlbmunc/fig5b.png Graphic file (type png)
 <use ../figs/ch5-nlbmunc/fig5b.png>
 Package pdftex.def Info: ../figs/ch5-nlbmunc/fig5b.png  used on input line 404.
@@ -1463,7 +1470,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 404--406
 [][]
  []
 
-<../figs/ch5-nlbmunc/fig5c.png, id=765, 256.01648pt x 170.67764pt>
+<../figs/ch5-nlbmunc/fig5c.png, id=771, 256.01648pt x 170.67764pt>
 File: ../figs/ch5-nlbmunc/fig5c.png Graphic file (type png)
 <use ../figs/ch5-nlbmunc/fig5c.png>
 Package pdftex.def Info: ../figs/ch5-nlbmunc/fig5c.png  used on input line 408.
@@ -1474,7 +1481,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 408--410
 [][]
  []
 
-<../figs/ch5-nlbmunc/fig5d.png, id=766, 256.01648pt x 170.67764pt>
+<../figs/ch5-nlbmunc/fig5d.png, id=772, 256.01648pt x 170.67764pt>
 File: ../figs/ch5-nlbmunc/fig5d.png Graphic file (type png)
 <use ../figs/ch5-nlbmunc/fig5d.png>
 Package pdftex.def Info: ../figs/ch5-nlbmunc/fig5d.png  used on input line 412.
@@ -1487,12 +1494,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 412--414
 
 [110] [111 <../figs/ch5-nlbmunc/fig5a.png> <../figs/ch5-nlbmunc/fig5b.png> <../
 figs/ch5-nlbmunc/fig5c.png> <../figs/ch5-nlbmunc/fig5d.png>]
-<../figs/ch5-nlbmunc/fig6.pdf, id=777, 597.23125pt x 421.575pt>
+<../figs/ch5-nlbmunc/fig6.pdf, id=783, 597.23125pt x 421.575pt>
 File: ../figs/ch5-nlbmunc/fig6.pdf Graphic file (type pdf)
 <use ../figs/ch5-nlbmunc/fig6.pdf>
 Package pdftex.def Info: ../figs/ch5-nlbmunc/fig6.pdf  used on input line 428.
 (pdftex.def)             Requested size: 334.60422pt x 236.18974pt.
-<../figs/ch5-nlbmunc/fig7.pdf, id=778, 597.23125pt x 421.575pt>
+<../figs/ch5-nlbmunc/fig7.pdf, id=784, 597.23125pt x 421.575pt>
 File: ../figs/ch5-nlbmunc/fig7.pdf Graphic file (type pdf)
 <use ../figs/ch5-nlbmunc/fig7.pdf>
 Package pdftex.def Info: ../figs/ch5-nlbmunc/fig7.pdf  used on input line 435.
@@ -1547,11 +1554,11 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28519 strings out of 492609
- 554355 string characters out of 6132819
- 996575 words of memory out of 5000000
- 32066 multiletter control sequences out of 15000+600000
- 543760 words of font info for 63 fonts, out of 8000000 for 9000
+ 28541 strings out of 492609
+ 554800 string characters out of 6132819
+ 996637 words of memory out of 5000000
+ 32085 multiletter control sequences out of 15000+600000
+ 544017 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,23n,78p,2422b,1931s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
@@ -1574,10 +1581,10 @@ mr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:
 -dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2019/texmf-dist/font
 s/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmtt10.pfb>
-Output written on thesis.pdf (133 pages, 13770652 bytes).
+Output written on thesis.pdf (135 pages, 13772256 bytes).
 PDF statistics:
- 900 PDF objects out of 1000 (max. 8388607)
- 594 compressed objects within 6 object streams
+ 906 PDF objects out of 1000 (max. 8388607)
+ 598 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
  281 words of extra memory for PDF output out of 10000 (max. 10000000)
 

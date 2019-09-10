@@ -1,12 +1,43 @@
 \documentclass[../thesis/thesis.tex]{subfiles}
+\renewcommand{\baselinestretch}{1.5}\selectfont
+\graphicspath{{../figs/ch1-intro/}}
+
 \begin{document}
 \begin{refsection}
 \chapter{Introduction}
-\section{Wireless Communications}
-\section{Amplifier Measurement and Modelling}
-\section{The Role of Uncertainty in Measurement}
+\section{Motivation}
+Lots of mobiles
+Many more transmitters for 5G
+more power efficient - nonlinear amps
+nonlinear amps distort signal and cause issues
+modern design process allows complicated sims to mitigate this
+sims need accurate models of transistors
+physical, compact, behavioural
+model extraction isn't perfect and every little counts nowadays
+incorporate uncertainty to give designers confidence in their work
+\section{Prior Research}
+VNA measurement uncertainty exists for decades, both numerical and analytical approaches
+NVNA measurement uncertainty only recently developed, both numerical and analytical
+Compact model uncertainties only just proposed, numerical - Jerome and Dylan
+Behavioural model uncertainty not done yet
+\section{Objectives}
+This research has explored three main objectives:
+\begin{enumerate}
+	\item Review existing RF and microwave metrology practice to prepare solid foundations for the development of a new uncertainty framework later in the project. This should include respected guidance documents such as the ISO Guide to the Expression of Uncertainty in Measurement \cite{GUM_2008} and EURAMET Guidelines on the Evaluation of Vector Network Analysers \cite{EURAMET_2011}.
+	\item Investigate how microwave measurement techniques can be applied at higher frequencies. This includes millimetre-wave for use in 5G communications, and above. At higher frequencies the small wavelengths can become comparable to the dimensions of test equipment components, which may cause measurement methods proven at lower frequencies to be invalidated. Using resources available at a National Metrology Institute, attempt to apply best practices to higher frequencies (with the potential for future communications use) and observe if they are applicable.
+	\item Development of a software framework to enable a rigorous evaluation of measurement uncertainty in nonlinear behavioural models. This framework must include all significant sources of error in nonlinear measurements required for the behavioural model extraction. The uncertainty should be stored with the extracted model in such a way that it can be used in circuit simulators to aid 
+	the amplifier design process.
+\end{enumerate}
+\section{Contributions}
+This project has contributed the following key results:
+\begin{enumerate}
+	\item A technical review \cite{Stant_2016} of the treatment of input quantities in uncertainty evaluations as prescribed in \cite{GUM_2008} and it's supplements \cite{GUM_S1,GUM_S2}. This work addresses an ambiguity between two current guidance documents which can cause major discrepancies in results, especially when applied to RF measurements.
+	\item An evaluation of the effectiveness of a key VNA coaxial calibration technique used to measure residual error and quantify uncertainty, when applied in rectangular metallic waveguide up to submillimetre-wave frequencies (750 GHz) \cite{Stant_2017}. Similar waveguide is being used in 5G backbone development at 28 GHz and above, so reliable metrology in this transmission medium is important.
+	\item A new software framework for uncertainty evaluation of nonlinear behavioural models, based on the NIST Microwave Uncertainty Framework \cite{MUFWebsite}. This framework provides a rigorous uncertainty evaluation including over 300 sources of error, and preserves all correlations between input quantities. An implementation of the X-parameter model has been demonstrated with two examples: a microwave and a millimetre-wave amplifier \cite{Stant_2018_TMTT}. Information about the uncertainty in these models is stored with them and can be imported and used within circuit simulators.
+\end{enumerate}
+
 \section{Thesis Structure}
-Testing, testing\cite{Stant_2016_Coll, Stant_2016}.
+This chapter has described the motivation for this work, along with the derivation of it's objectives by studying prior research. The following chapter, Chapter 2, provides a good footing in the RF and microwave measurement background required to understand the rest of this dissertation, and introduces VNA and NVNA theory. Chapter 3 defines the role of uncertainty and traceability in measurements and the technical review of the ISO document \cite{Stant_2016}. Chapter 4 explains VNA and NVNA uncertainty methods and presents the results of the investigation into the application of existing RF metrological practices in millimetre- and submillimetre-wave waveguide \cite{Stant_2017}. Chapter 5 describes nonlinear behavioural models and introduces the software framework developed to propagate measurement uncertainty into them \cite{Stant_2018_TMTT}. Finally, conclusions and opportunities for future work are covered in Chapter 6.
 \addcontentsline{toc}{section}{Bibliography}
 \printbibliography
 \end{refsection}

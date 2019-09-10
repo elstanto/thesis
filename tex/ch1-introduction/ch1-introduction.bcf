@@ -2004,8 +2004,18 @@
     <bcf:datasource type="file" datatype="bibtex">../references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="1">
-    <bcf:citekey order="1">Stant_2016_Coll</bcf:citekey>
-    <bcf:citekey order="1">Stant_2016</bcf:citekey>
+    <bcf:citekey order="1">GUM_2008</bcf:citekey>
+    <bcf:citekey order="2">EURAMET_2011</bcf:citekey>
+    <bcf:citekey order="3">Stant_2016</bcf:citekey>
+    <bcf:citekey order="4">GUM_2008</bcf:citekey>
+    <bcf:citekey order="5">GUM_S1</bcf:citekey>
+    <bcf:citekey order="5">GUM_S2</bcf:citekey>
+    <bcf:citekey order="6">Stant_2017</bcf:citekey>
+    <bcf:citekey order="7">MUFWebsite</bcf:citekey>
+    <bcf:citekey order="8">Stant_2018_TMTT</bcf:citekey>
+    <bcf:citekey order="9">Stant_2016</bcf:citekey>
+    <bcf:citekey order="10">Stant_2017</bcf:citekey>
+    <bcf:citekey order="11">Stant_2018_TMTT</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

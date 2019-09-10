@@ -222,6 +222,9 @@ INPUT ../figs/cover/University_of_Surrey_coat_of_arms.pdf
 INPUT ../figs/cover/University_of_Surrey_coat_of_arms.pdf
 OUTPUT thesis.pdf
 INPUT ../figs/cover/University_of_Surrey_coat_of_arms.pdf
+INPUT c:/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+INPUT c:/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT ../front-matter/front-matter.tex
 INPUT ../front-matter/front-matter.tex
