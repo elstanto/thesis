@@ -51,7 +51,7 @@
   title     = {An Inter-Laboratory Comparison of {NVNA} Measurements},
   booktitle = {Workshop on Integrated Nonlinear Microwave and Millimetre-Wave Circuits},
   year      = {2018},
-  address   = {Brive},
+  address   = {Brive, France},
   month     = jul,
   groups    = {Ch 4: VNA Uncertainty},
 }
