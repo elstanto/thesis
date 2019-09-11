@@ -2004,18 +2004,26 @@
     <bcf:datasource type="file" datatype="bibtex">../references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="1">
-    <bcf:citekey order="1">GUM_2008</bcf:citekey>
-    <bcf:citekey order="2">EURAMET_2011</bcf:citekey>
-    <bcf:citekey order="3">Stant_2016</bcf:citekey>
-    <bcf:citekey order="4">GUM_2008</bcf:citekey>
-    <bcf:citekey order="5">GUM_S1</bcf:citekey>
-    <bcf:citekey order="5">GUM_S2</bcf:citekey>
-    <bcf:citekey order="6">Stant_2017</bcf:citekey>
-    <bcf:citekey order="7">MUFWebsite</bcf:citekey>
-    <bcf:citekey order="8">Stant_2018_TMTT</bcf:citekey>
-    <bcf:citekey order="9">Stant_2016</bcf:citekey>
-    <bcf:citekey order="10">Stant_2017</bcf:citekey>
-    <bcf:citekey order="11">Stant_2018_TMTT</bcf:citekey>
+    <bcf:citekey order="1">Ericsson_2019</bcf:citekey>
+    <bcf:citekey order="2">Ericsson_2019</bcf:citekey>
+    <bcf:citekey order="3">Ericsson_2019</bcf:citekey>
+    <bcf:citekey order="4">Cripps_2006</bcf:citekey>
+    <bcf:citekey order="5">Kosaka_2016</bcf:citekey>
+    <bcf:citekey order="5">Bhardwaj_2019</bcf:citekey>
+    <bcf:citekey order="6">blf861a</bcf:citekey>
+    <bcf:citekey order="7">blf861a</bcf:citekey>
+    <bcf:citekey order="8">GUM_2008</bcf:citekey>
+    <bcf:citekey order="9">EURAMET_2011</bcf:citekey>
+    <bcf:citekey order="10">Stant_2016</bcf:citekey>
+    <bcf:citekey order="11">GUM_2008</bcf:citekey>
+    <bcf:citekey order="12">GUM_S1</bcf:citekey>
+    <bcf:citekey order="12">GUM_S2</bcf:citekey>
+    <bcf:citekey order="13">Stant_2017</bcf:citekey>
+    <bcf:citekey order="14">MUFWebsite</bcf:citekey>
+    <bcf:citekey order="15">Stant_2018_TMTT</bcf:citekey>
+    <bcf:citekey order="16">Stant_2016</bcf:citekey>
+    <bcf:citekey order="17">Stant_2017</bcf:citekey>
+    <bcf:citekey order="18">Stant_2018_TMTT</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

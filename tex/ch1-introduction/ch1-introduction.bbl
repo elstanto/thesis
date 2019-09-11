@@ -19,6 +19,168 @@
 
 \refsection{1}
   \datalist[entry]{none/global//global/global}
+    \entry{Ericsson_2019}{online}{}
+      \list{organization}{1}{%
+        {Ericsson}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labeltitlesource}{title}
+      \field{title}{{The Ericsson Mobility Report}}
+      \field{urlday}{11}
+      \field{urlmonth}{9}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ericsson.com/en/mobility-report
+      \endverb
+      \verb{url}
+      \verb https://www.ericsson.com/en/mobility-report
+      \endverb
+    \endentry
+    \entry{Cripps_2006}{book}{}
+      \name{author}{1}{}{%
+        {{hash=322b9e372c9b96a24318228f80b30757}{%
+           family={Cripps},
+           familyi={C\bibinitperiod},
+           given={Steve\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Norwood, MA, USA}%
+      }
+      \list{publisher}{1}{%
+        {Artech House, Inc.}%
+      }
+      \strng{namehash}{322b9e372c9b96a24318228f80b30757}
+      \strng{fullhash}{322b9e372c9b96a24318228f80b30757}
+      \strng{bibnamehash}{322b9e372c9b96a24318228f80b30757}
+      \strng{authorbibnamehash}{322b9e372c9b96a24318228f80b30757}
+      \strng{authornamehash}{322b9e372c9b96a24318228f80b30757}
+      \strng{authorfullhash}{322b9e372c9b96a24318228f80b30757}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd Edition}
+      \field{isbn}{1596930187}
+      \field{title}{RF Power Amplifiers for Wireless Communications}
+      \field{year}{2006}
+    \endentry
+    \entry{Kosaka_2016}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{hash=8c63d81a088214fac766c039ad8034ce}{%
+           family={{Kosaka}},
+           familyi={K\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=f733f8c7541733330c5568717f71c9b4}{%
+           family={{Fujiwara}},
+           familyi={F\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3c781653ecce4d09ead0bf992cc49007}{%
+           family={{Okamura}},
+           familyi={O\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=771da0711a8638dc73b93e14d1214610}{%
+           family={{Chomei}},
+           familyi={C\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=221edc260255b2224af38516420eff23}{%
+           family={{Sasaki}},
+           familyi={S\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=2fcefe87ea1e6703c3dad2d570077764}{%
+           family={{Horiguchi}},
+           familyi={H\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=70bc9ca083861abbed34a47e9fb4857e}{%
+           family={{Katayama}},
+           familyi={K\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c7ebbcf27e16d8bfdb741fe3c6b64ad1}{%
+           family={{Inoue}},
+           familyi={I\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{eefe87ba1188f4bad80288c9993a8e17}
+      \strng{fullhash}{ab2fbe4e8c4bd286157c12f62d479fb9}
+      \strng{bibnamehash}{ab2fbe4e8c4bd286157c12f62d479fb9}
+      \strng{authorbibnamehash}{ab2fbe4e8c4bd286157c12f62d479fb9}
+      \strng{authornamehash}{eefe87ba1188f4bad80288c9993a8e17}
+      \strng{authorfullhash}{ab2fbe4e8c4bd286157c12f62d479fb9}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE International Symposium on Radio-Frequency Integration Technology (RFIT)}
+      \field{month}{8}
+      \field{title}{A high-efficiency and high-gain, plastic packaged {GaN HEMT} for 3.5-{GH}z-band {LTE} base stations}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 3}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1109/RFIT.2016.7578168
+      \endverb
+      \keyw{cellular radio;field effect MMIC;gallium compounds;HEMT integrated circuits;III-V semiconductors;Long Term Evolution;MIM devices;MMIC power amplifiers;plastic packaging;wide band gap semiconductors;ACLR;plastic packaging;single-chain amplifier measurement;power gain mprovement;insertion loss suppression;drain bonding wire length;Doherty amplifier;MIM capacitor;LTE small-cell base-station application;high-efficiency high-gain plastic packaged GaN HEMT;frequency 3.5 GHz;GaN;Gallium nitride;HEMTs;MIM capacitors;Gain;Power amplifiers;Plastics;Impedance;GaN;power amplifier;plastic package;harmonic impedance;MIM capacitor;Doherty amplifier}
+    \endentry
+    \entry{Bhardwaj_2019}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=f4e3e12652195968bee9756b45dca032}{%
+           family={{Bhardwaj}},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=bb345271816726d74b2237a84e8ef10b}{%
+           family={{Kitchen}},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4591c71fe13d7ef7839c8b493cec025}
+      \strng{fullhash}{d4591c71fe13d7ef7839c8b493cec025}
+      \strng{bibnamehash}{d4591c71fe13d7ef7839c8b493cec025}
+      \strng{authorbibnamehash}{d4591c71fe13d7ef7839c8b493cec025}
+      \strng{authornamehash}{d4591c71fe13d7ef7839c8b493cec025}
+      \strng{authorfullhash}{d4591c71fe13d7ef7839c8b493cec025}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE Topical Conference on RF/Microwave Power Amplifiers for Radio and Wireless Applications (PAWR)}
+      \field{month}{1}
+      \field{title}{Broadband Parallel Doherty Power Amplifier in {GaN} for 5{G} Applications}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 3}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1109/PAWR.2019.8708727
+      \endverb
+      \keyw{5G mobile communication;gallium compounds;III-V semiconductors;microwave power amplifiers;wide band gap semiconductors;wideband amplifiers;broadband parallel Doherty power amplifier;wideband parallel symmetric Doherty power amplifier;base-station applications;5G applications;frequency 3.3 GHz to 3.6 GHz;bandwidth 300.0 MHz;gain 9.0 dB;gain 3.0 dB;GaN;Power amplifiers;Bandwidth;Power generation;Impedance;Gallium nitride;Gain;Solid modeling;Base station;Doherty;power amplifier;gallium nitride;load modulation;saturated output power;transmitter}
+    \endentry
+    \entry{blf861a}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labeltitlesource}{title}
+      \field{title}{{BLF861A image}}
+      \field{urlday}{11}
+      \field{urlmonth}{9}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://commons.wikimedia.org/wiki/File:BLF861A.jpg
+      \endverb
+      \verb{url}
+      \verb https://commons.wikimedia.org/wiki/File:BLF861A.jpg
+      \endverb
+    \endentry
     \entry{GUM_2008}{misc}{}
       \name{author}{1}{}{%
         {{hash=b1439abdfe160482b4cdeec639fd2806}{%
@@ -32,8 +194,8 @@
       \strng{authornamehash}{b1439abdfe160482b4cdeec639fd2806}
       \strng{authorfullhash}{b1439abdfe160482b4cdeec639fd2806}
       \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Guide to the Expression of Uncertainty in Measurement JCGM 100:2008 (GUM 1995 with minor corrections)}}
@@ -57,8 +219,8 @@
       \strng{authorbibnamehash}{d14408e8db65c67405e4c3a6ceb06f4a}
       \strng{authornamehash}{d14408e8db65c67405e4c3a6ceb06f4a}
       \strng{authorfullhash}{d14408e8db65c67405e4c3a6ceb06f4a}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{3}
@@ -95,8 +257,8 @@
       \strng{authornamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
       \strng{authorfullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
       \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Measurement}
@@ -123,8 +285,8 @@
       \strng{authornamehash}{b1439abdfe160482b4cdeec639fd2806}
       \strng{authorfullhash}{b1439abdfe160482b4cdeec639fd2806}
       \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Supplement 1 to the “Guide to the Expression of Uncertainty in Measurement" – Propagation of distributions using a Monte Carlo method JCGM 101:2008}}
@@ -149,8 +311,8 @@
       \strng{authornamehash}{b1439abdfe160482b4cdeec639fd2806}
       \strng{authorfullhash}{b1439abdfe160482b4cdeec639fd2806}
       \field{extraname}{3}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Supplement 2 to the “Guide to the Expression of Uncertainty in Measurement" – Extension to any number of output quantities JCGM 102:2011}}
@@ -191,8 +353,8 @@
       \strng{authornamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
       \strng{authorfullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
       \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IET Microw. Antennas Propag.}
@@ -209,18 +371,18 @@
     \endentry
     \entry{MUFWebsite}{online}{}
       \name{author}{1}{}{%
-        {{hash=0a1dc9ba6382e13835002ad4d9099b4e}{%
-           family={{Keysight Technologies}},
-           familyi={K\bibinitperiod}}}%
+        {{hash=8b50a388cab83f8535bbb86a50ba3e23}{%
+           family={{National Institute of Science and Technology}},
+           familyi={N\bibinitperiod}}}%
       }
-      \strng{namehash}{0a1dc9ba6382e13835002ad4d9099b4e}
-      \strng{fullhash}{0a1dc9ba6382e13835002ad4d9099b4e}
-      \strng{bibnamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
-      \strng{authorbibnamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
-      \strng{authornamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
-      \strng{authorfullhash}{0a1dc9ba6382e13835002ad4d9099b4e}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \strng{namehash}{8b50a388cab83f8535bbb86a50ba3e23}
+      \strng{fullhash}{8b50a388cab83f8535bbb86a50ba3e23}
+      \strng{bibnamehash}{8b50a388cab83f8535bbb86a50ba3e23}
+      \strng{authorbibnamehash}{8b50a388cab83f8535bbb86a50ba3e23}
+      \strng{authornamehash}{8b50a388cab83f8535bbb86a50ba3e23}
+      \strng{authorfullhash}{8b50a388cab83f8535bbb86a50ba3e23}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{On-Wafer Calibration Software}
@@ -269,8 +431,8 @@
       \strng{authorbibnamehash}{e7b8c1bbb7b21d18b93e1c35618f0b1a}
       \strng{authornamehash}{2e53cf84fdd29e73dafa62eb9f738f9b}
       \strng{authorfullhash}{e7b8c1bbb7b21d18b93e1c35618f0b1a}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}

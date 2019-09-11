@@ -6,15 +6,34 @@
 \begin{refsection}
 \chapter{Introduction}
 \section{Motivation}
-Lots of mobiles
-Many more transmitters for 5G
-more power efficient - nonlinear amps
-nonlinear amps distort signal and cause issues
-modern design process allows complicated sims to mitigate this
-sims need accurate models of transistors
-physical, compact, behavioural
-model extraction isn't perfect and every little counts nowadays
-incorporate uncertainty to give designers confidence in their work
+
+Telecommunications underpins our modern world. Both business and leisure in developed nations rely on the connectivity of digital devices, and around the world mobile telecoms provides critical services in emergencies. The use of mobile devices continues to rise year-on-year at a rate such that it is predicted there will be 8.4 billion mobile broadband internet subscriptions by 2024 \cite{Ericsson_2019}, as shown in Figure \ref{ch1_fig_ericsson}. To achieve the bandwidth and latency requirements for this increasing number of users, new technologies are in continuous development. The next iteration to be deployed, the fifth-generation cellular network technology (5G), uses substantial hardware innovations to satisfy these requirements. One of the most significant changes in 5G networks is a dramatic increase in the number of base stations required to serve mobile devices. This is a cause for concern due to the energy efficiency of the high power amplifiers in the final stage of the base station, which amplify the output of the network systems to drive the wireless antennas. In addition, the efficiency of the smaller amplifiers in mobile devices is important due to the billions of them in use.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{ch1_ericsson}
+	\caption{The past and predicted future trends of global mobile subscribers \cite{Ericsson_2019}.}
+	\label{ch1_fig_ericsson}
+\end{figure}
+
+We are increasingly aware of the effects of climate change and our responsibility to reduce our impact on the environment in which we live. Energy consumption is a key area where this can be addressed, so it is desirable to improve the efficiency of new cellular amplifiers, especially if many more will soon be deployed. From a communications perspective, the ideal choice is a linear amplifier, however the efficiency of such amplifiers is limited to 50\% \cite{Cripps_2006}. Alternatively, amplifiers operated in the nonlinear regime can use methods which are not fundamentally limited in their efficiency, with recent performance as high as 70\% \cite{Kosaka_2016,Bhardwaj_2019}. The problem with using nonlinear amplifiers for communications is that they distort the signal, causing errors in the received data unless this distortion is corrected for. Fortunately, this correction is available as digital pre-distortion (DPD). To design a nonlinear amplifier using DPD, engineers rely on accurate models of the active device (a radio-frequency (RF) power transistor), an example of which is shown in Figure \ref{ch1_fig_rfpa}. These models are a critical part of the amplifier design process and many large-scale manufacturers have a dedicated team of engineers devoted to developing them. There are three main categories of model in use:
+
+\begin{itemize}
+	\item \emph{Physical models} are defined by the fundamental equations which govern the internal structure and materials of the transistor. They are used in the early stages of the design process when the transistor die itself is developed. Due to their computational complexity they are not used in later packaged amplifier or system simulation stages.
+	\item \emph{Compact models} represent the packaged transistor, which contains the transistor die, any required matching components and parasitic package effects. They are either defined as equivalent-circuit parameters or a simplified set of physical relationships which are applicable at the packaged device terminals. The coefficients of the model are found during extraction, where various measurements are made of the device and the model is fitted to the results. Compact models can be used in circuit simulators to integrate transistors into full amplifier systems, which can contain multiple transistors and passive components.
+	\item \emph{Behavioural models} are entirely measurement based and their form is not dependent on the internal structure of the device. This ``black-box'' approach is very attractive to industry as it minimises the intellectual property which must be shared with users of their product. In addition, less time is spent when compared to validating a custom compact model. Like compact models, behavioural models are used in circuit simulators at the amplifier design stage.
+\end{itemize}
+
+Between the foundry, transistor manufacturer and amplifier designer, all three categories of model may be used for a particular product. It is important in this competitive industry for fast time-to-market and therefore first-pass design success is a popular target for amplifier designers. To enable this, transistor models must be as accurate as possible to ensure the simulated performance matches the physical reality. Measurements of transistors are critical to both compact and behavioural models, which means the quality and confidence of those measurements are a significant factor in increasing device performance.
+
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\textwidth]{ch1_rfpa}
+	\caption{A typical packaged RF power transistor \cite{blf861a}.}
+	\label{ch1_fig_rfpa}
+\end{figure}
 
 \section{Prior Research}
 VNA measurement uncertainty exists for decades, both numerical and analytical approaches

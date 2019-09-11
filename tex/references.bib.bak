@@ -9,7 +9,7 @@
   pages     = {847--851},
   month     = dec,
   doi       = {10.1016/j.measurement.2016.08.015},
-  groups    = {Ch 3: Measurement Uncertainty},
+  groups    = {Ch 3: Measurement Uncertainty, Ch 1: Introduction},
   publisher = {Elsevier {BV}},
 }
 
@@ -34,7 +34,7 @@
   pages     = {324--329},
   month     = feb,
   doi       = {10.1049/iet-map.2016.0455},
-  groups    = {Ch 4: VNA Uncertainty},
+  groups    = {Ch 4: VNA Uncertainty, Ch 1: Introduction},
   publisher = {Institution of Engineering and Technology ({IET})},
 }
 
@@ -44,6 +44,7 @@
   journal = IEEE_J_MTT,
   year    = {2018},
   month   = nov,
+  groups  = {Ch 1: Introduction},
 }
 
 @Conference{Salter_2018,
@@ -87,7 +88,7 @@
   author = {{BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP and OIML}},
   title  = {{Guide to the Expression of Uncertainty in Measurement JCGM 100:2008 (GUM 1995 with minor corrections)}},
   year   = {2008},
-  groups = {Ch 3: Measurement Uncertainty},
+  groups = {Ch 3: Measurement Uncertainty, Ch 1: Introduction},
   url    = {http://www.bipm.org/utils/common/documents/jcgm/JCGM 100 2008 E.pdf},
 }
 
@@ -103,7 +104,7 @@
   author = {{BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP and OIML}},
   title  = {{Supplement 1 to the “Guide to the Expression of Uncertainty in Measurement" – Propagation of distributions using a Monte Carlo method JCGM 101:2008}},
   year   = {2008},
-  groups = {Ch 3: Measurement Uncertainty},
+  groups = {Ch 3: Measurement Uncertainty, Ch 1: Introduction},
   url    = {http://www.bipm.org/utils/common/documents/jcgm/JCGM 101 2008 E.pdf},
 }
 
@@ -445,7 +446,7 @@
   type   = {techreport},
   number = {cg-12},
   month  = mar,
-  groups = {Ch 4: VNA Uncertainty},
+  groups = {Ch 4: VNA Uncertainty, Ch 1: Introduction},
 }
 
 @InProceedings{Fitzpatrick_1984,
@@ -666,8 +667,8 @@
   url     = {https://www.nist.gov/services-resources/software/wafer-calibration-software},
   urldate = {2019-07-16},
   title   = {On-Wafer Calibration Software},
-  author  = {{Keysight Technologies}},
-  groups  = {Ch 4: VNA Uncertainty},
+  author  = {{National Institute of Science and Technology}},
+  groups  = {Ch 4: VNA Uncertainty, Ch 1: Introduction},
 }
 
 @Article{Dortmans_2019,
@@ -1055,12 +1056,14 @@
 }
 
 @Book{Cripps_2006,
-  title     = {RF Power Amplifiers for Wireless Communications, Second Edition (Artech House Microwave Library (Hardcover))},
+  title     = {RF Power Amplifiers for Wireless Communications},
   publisher = {Artech House, Inc.},
   year      = {2006},
   author    = {Cripps, Steve C.},
   address   = {Norwood, MA, USA},
+  edition   = {2nd Edition},
   isbn      = {1596930187},
+  groups    = {Ch 1: Introduction},
 }
 
 @Article{Verspecht_2006,
@@ -1585,6 +1588,45 @@
   groups    = {Ch 4: VNA Uncertainty},
 }
 
+@Online{Ericsson_2019,
+  url          = {https://www.ericsson.com/en/mobility-report},
+  urldate      = {2019-09-11},
+  title        = {{The Ericsson Mobility Report}},
+  organization = {Ericsson},
+  groups       = {Ch 1: Introduction},
+}
+
+@InProceedings{Kosaka_2016,
+  author    = {N. {Kosaka} and S. {Fujiwara} and A. {Okamura} and K. {Chomei} and Y. {Sasaki} and K. {Horiguchi} and H. {Katayama} and A. {Inoue}},
+  title     = {A high-efficiency and high-gain, plastic packaged {GaN HEMT} for 3.5-{GH}z-band {LTE} base stations},
+  booktitle = {IEEE International Symposium on Radio-Frequency Integration Technology (RFIT)},
+  year      = {2016},
+  pages     = {1--3},
+  month     = aug,
+  doi       = {10.1109/RFIT.2016.7578168},
+  groups    = {Ch 1: Introduction},
+  keywords  = {cellular radio;field effect MMIC;gallium compounds;HEMT integrated circuits;III-V semiconductors;Long Term Evolution;MIM devices;MMIC power amplifiers;plastic packaging;wide band gap semiconductors;ACLR;plastic packaging;single-chain amplifier measurement;power gain mprovement;insertion loss suppression;drain bonding wire length;Doherty amplifier;MIM capacitor;LTE small-cell base-station application;high-efficiency high-gain plastic packaged GaN HEMT;frequency 3.5 GHz;GaN;Gallium nitride;HEMTs;MIM capacitors;Gain;Power amplifiers;Plastics;Impedance;GaN;power amplifier;plastic package;harmonic impedance;MIM capacitor;Doherty amplifier},
+}
+
+@InProceedings{Bhardwaj_2019,
+  author    = {S. {Bhardwaj} and J. {Kitchen}},
+  title     = {Broadband Parallel Doherty Power Amplifier in {GaN} for 5{G} Applications},
+  booktitle = {IEEE Topical Conference on RF/Microwave Power Amplifiers for Radio and Wireless Applications (PAWR)},
+  year      = {2019},
+  pages     = {1--3},
+  month     = jan,
+  doi       = {10.1109/PAWR.2019.8708727},
+  groups    = {Ch 1: Introduction},
+  keywords  = {5G mobile communication;gallium compounds;III-V semiconductors;microwave power amplifiers;wide band gap semiconductors;wideband amplifiers;broadband parallel Doherty power amplifier;wideband parallel symmetric Doherty power amplifier;base-station applications;5G applications;frequency 3.3 GHz to 3.6 GHz;bandwidth 300.0 MHz;gain 9.0 dB;gain 3.0 dB;GaN;Power amplifiers;Bandwidth;Power generation;Impedance;Gallium nitride;Gain;Solid modeling;Base station;Doherty;power amplifier;gallium nitride;load modulation;saturated output power;transmitter},
+}
+
+@Online{blf861a,
+  url     = {https://commons.wikimedia.org/wiki/File:BLF861A.jpg},
+  urldate = {2019-09-11},
+  title   = {BLF861A image},
+  groups  = {Ch 1: Introduction},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:
@@ -1593,6 +1635,7 @@
 1 StaticGroup:Ch 3: Measurement Uncertainty\;0\;1\;\;\;\;;
 1 StaticGroup:Ch 4: VNA Uncertainty\;0\;1\;\;\;\;;
 1 StaticGroup:Ch 5: Prop Meas Unc to NLBM\;0\;1\;\;\;\;;
+1 StaticGroup:Ch 1: Introduction\;0\;1\;\;\;\;;
 }
 
 @Comment{jabref-entrytype: Online: req[url;urldate;title] opt[author;organization;date]}
