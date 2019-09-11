@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.4)  11 SEP 2019 19:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.4)  11 SEP 2019 23:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -885,41 +885,53 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 <../figs/ch1-intro/ch1_rfpa.jpg, id=17, 963.6pt x 662.475pt>
 File: ../figs/ch1-intro/ch1_rfpa.jpg Graphic file (type jpg)
 <use ../figs/ch1-intro/ch1_rfpa.jpg>
-Package pdftex.def Info: ../figs/ch1-intro/ch1_rfpa.jpg  used on input line 33.
+Package pdftex.def Info: ../figs/ch1-intro/ch1_rfpa.jpg  used on input line 29.
 
 (pdftex.def)             Requested size: 250.95476pt x 172.52248pt.
-[3 <../figs/ch1-intro/ch1_rfpa.jpg>] [4] [5] [6
+[3 <../figs/ch1-intro/ch1_rfpa.jpg>] [4]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 50.
+
+[5] [6] [7] [8
 
 ]
-Overfull \hbox (6.11006pt too wide) in paragraph at lines 63--63
+Overfull \hbox (1.31148pt too wide) in paragraph at lines 83--83
+[]\OT1/cmr/m/n/10 A. Lewandowski, D. F. Williams, P. D. Hale, J. C. M. Wang, an
+d A. Di-en-st-frey, ``Covariance-
+ []
+
+
+Overfull \hbox (6.11006pt too wide) in paragraph at lines 83--83
 \OT1/cmr/m/n/10 Avail-able: $\OT1/cmtt/m/n/10 https : / / www . nist . gov / se
 rvices -[] resources / software / wafer -[] calibration -[]
  []
 
-Package biblatex Info: Reference section=0 on input line 63.
-[7] (./ch1-introduction.aux)
+[9]
+Package biblatex Info: Reference section=0 on input line 83.
+[10] (./ch1-introduction.aux)
 Package logreq Info: Writing requests to 'ch1-introduction.run.xml'.
 \openout1 = `ch1-introduction.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27695 strings out of 492609
- 504495 string characters out of 6132819
- 990463 words of memory out of 5000000
- 31349 multiletter control sequences out of 15000+600000
+ 27724 strings out of 492609
+ 508691 string characters out of 6132819
+ 992463 words of memory out of 5000000
+ 31378 multiletter control sequences out of 15000+600000
  537328 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,5n,77p,2072b,1378s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,7n,77p,2166b,1355s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
 live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2019/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2019/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmtt10.pfb>
-Output written on ch1-introduction.pdf (7 pages, 454096 bytes).
+Output written on ch1-introduction.pdf (10 pages, 462060 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 65 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
