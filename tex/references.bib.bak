@@ -806,7 +806,7 @@
 }
 
 @Article{Avolio_2015,
-  author   = {G. {Avolio} and A. {Raffo} and J. {Jargon} and P. D. {Hale} and D. M. M. {-P}. {Schreurs} and D. F. {Williams}},
+  author   = {G. {Avolio} and A. {Raffo} and J. {Jargon} and P. D. {Hale} and D. M. M-P. {Schreurs} and D. F. {Williams}},
   title    = {Evaluation of Uncertainty in Temporal Waveforms of Microwave Transistors},
   journal  = IEEE_J_MTT,
   year     = {2015},
@@ -1705,6 +1705,19 @@
   doi       = {10.1109/CSICS.2016.7751072},
   groups    = {Ch 1: Introduction},
   keywords  = {heterojunction bipolar transistors;measurement uncertainty;microwave transistors;semiconductor device models;measurement uncertainty;microwave frequencies;heterojunction bipolar transistors;model-extraction;verification process;extracted model parameters;large-signal operating states;first-pass design success;size 250 nm;Measurement uncertainty;Uncertainty;Current measurement;Transistors;Voltage measurement;Calibration;Time measurement},
+}
+
+@Article{Dahlman_2014,
+  author   = {E. {Dahlman} and G. {Mildh} and S. {Parkvall} and J. {Peisa} and J. {Sachs} and Y. {Selén} and J. {Sköld}},
+  title    = {{5G} wireless access: requirements and realization},
+  journal  = {IEEE Commun. Mag.},
+  year     = {2014},
+  volume   = {52},
+  number   = {12},
+  pages    = {42--47},
+  month    = {December},
+  doi      = {10.1109/MCOM.2014.6979985},
+  keywords = {5G mobile communication;mobile communication;5G wireless access;mobile communication technology;ITU-R;Wireless communication;Next generation networking;Mobile communication;Wireless sensor networks;OFDM;Communication standards;Standards;Telecommunication standards;Communication standards},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
