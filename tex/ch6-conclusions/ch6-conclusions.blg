@@ -1,0 +1,62 @@
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'ch6-conclusions.blg'
+[52] biber-MSWIN32:313> INFO - === 
+[95] Biber.pm:371> INFO - Reading 'ch6-conclusions.bcf'
+[232] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[232] Biber.pm:857> INFO - Found 2 citekeys in bib section 1
+[232] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[269] Biber.pm:3976> INFO - Processing section 1
+[292] Biber.pm:4136> INFO - Looking for bibtex format file '../IEEEabrv.bib' for section 1
+[301] bibtex.pm:1500> INFO - LaTeX decoding ...
+[408] bibtex.pm:1316> INFO - Found BibTeX data source '../IEEEabrv.bib'
+[442] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 98, warning: 2646 characters of junk seen at toplevel
+[442] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 108, warning: 46 characters of junk seen at toplevel
+[443] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 117, warning: 41 characters of junk seen at toplevel
+[443] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 124, warning: 19 characters of junk seen at toplevel
+[443] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 132, warning: 67 characters of junk seen at toplevel
+[443] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 146, warning: 14 characters of junk seen at toplevel
+[443] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 156, warning: 36 characters of junk seen at toplevel
+[443] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 159, warning: 20 characters of junk seen at toplevel
+[443] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 174, warning: 3 characters of junk seen at toplevel
+[444] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 180, warning: 33 characters of junk seen at toplevel
+[444] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 188, warning: 43 characters of junk seen at toplevel
+[444] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 210, warning: 18 characters of junk seen at toplevel
+[444] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 219, warning: 38 characters of junk seen at toplevel
+[444] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 227, warning: 77 characters of junk seen at toplevel
+[444] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 234, warning: 18 characters of junk seen at toplevel
+[444] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 237, warning: 19 characters of junk seen at toplevel
+[444] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 241, warning: 19 characters of junk seen at toplevel
+[445] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 246, warning: 49 characters of junk seen at toplevel
+[445] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 254, warning: 20 characters of junk seen at toplevel
+[445] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 260, warning: 23 characters of junk seen at toplevel
+[445] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 269, warning: 47 characters of junk seen at toplevel
+[445] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 281, warning: 51 characters of junk seen at toplevel
+[445] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 298, warning: 25 characters of junk seen at toplevel
+[445] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 313, warning: 32 characters of junk seen at toplevel
+[445] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 327, warning: 29 characters of junk seen at toplevel
+[446] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 332, warning: 22 characters of junk seen at toplevel
+[446] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 339, warning: 10 characters of junk seen at toplevel
+[446] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 341, warning: 21 characters of junk seen at toplevel
+[446] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 347, warning: 20 characters of junk seen at toplevel
+[446] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 354, warning: 40 characters of junk seen at toplevel
+[446] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 368, warning: 28 characters of junk seen at toplevel
+[446] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 376, warning: 61 characters of junk seen at toplevel
+[446] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 389, warning: 11 characters of junk seen at toplevel
+[447] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 395, warning: 59 characters of junk seen at toplevel
+[447] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 403, warning: 7 characters of junk seen at toplevel
+[447] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 408, warning: 4 characters of junk seen at toplevel
+[447] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 418, warning: 34 characters of junk seen at toplevel
+[447] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 431, warning: 22 characters of junk seen at toplevel
+[447] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 439, warning: 17 characters of junk seen at toplevel
+[447] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 464, warning: 97 characters of junk seen at toplevel
+[447] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\6_qp8XZlmp\IEEEabrv.bib_18392.utf8, line 469, warning: 29 characters of junk seen at toplevel
+[451] Biber.pm:4136> INFO - Looking for bibtex format file '../references.bib' for section 1
+[468] bibtex.pm:1500> INFO - LaTeX decoding ...
+[897] bibtex.pm:1316> INFO - Found BibTeX data source '../references.bib'
+[961] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[962] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[962] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[962] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[965] bbl.pm:617> INFO - Writing 'ch6-conclusions.bbl' with encoding 'UTF-8'
+[967] bbl.pm:720> INFO - Output to ch6-conclusions.bbl
+[968] Biber.pm:110> INFO - WARNINGS: 41
