@@ -9,7 +9,7 @@
   pages     = {847--851},
   month     = dec,
   doi       = {10.1016/j.measurement.2016.08.015},
-  groups    = {Ch 3: Measurement Uncertainty, Ch 1: Introduction},
+  groups    = {Ch 3: Measurement Uncertainty, Ch 1: Introduction, Ch 6: Conclusion},
   publisher = {Elsevier {BV}},
 }
 
@@ -34,7 +34,7 @@
   pages     = {324--329},
   month     = feb,
   doi       = {10.1049/iet-map.2016.0455},
-  groups    = {Ch 4: VNA Uncertainty, Ch 1: Introduction},
+  groups    = {Ch 4: VNA Uncertainty, Ch 1: Introduction, Ch 6: Conclusion},
   publisher = {Institution of Engineering and Technology ({IET})},
 }
 
@@ -45,7 +45,7 @@
   year    = {2018},
   pages   = {815--821},
   month   = nov,
-  groups  = {Ch 1: Introduction},
+  groups  = {Ch 1: Introduction, Ch 6: Conclusion},
 }
 
 @Conference{Salter_2018,
@@ -89,7 +89,7 @@
   author = {{BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP and OIML}},
   title  = {{Guide to the Expression of Uncertainty in Measurement JCGM 100:2008 (GUM 1995 with minor corrections)}},
   year   = {2008},
-  groups = {Ch 3: Measurement Uncertainty, Ch 1: Introduction},
+  groups = {Ch 3: Measurement Uncertainty, Ch 1: Introduction, Ch 6: Conclusion},
   url    = {http://www.bipm.org/utils/common/documents/jcgm/JCGM 100 2008 E.pdf},
 }
 
@@ -105,7 +105,7 @@
   author = {{BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP and OIML}},
   title  = {{Supplement 1 to the “Guide to the Expression of Uncertainty in Measurement" – Propagation of distributions using a Monte Carlo method JCGM 101:2008}},
   year   = {2008},
-  groups = {Ch 3: Measurement Uncertainty, Ch 1: Introduction},
+  groups = {Ch 3: Measurement Uncertainty, Ch 1: Introduction, Ch 6: Conclusion},
   url    = {http://www.bipm.org/utils/common/documents/jcgm/JCGM 101 2008 E.pdf},
 }
 
@@ -113,7 +113,7 @@
   author = {{BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP and OIML}},
   title  = {{Supplement 2 to the “Guide to the Expression of Uncertainty in Measurement" – Extension to any number of output quantities JCGM 102:2011}},
   year   = {2011},
-  groups = {Ch 3: Measurement Uncertainty},
+  groups = {Ch 3: Measurement Uncertainty, Ch 6: Conclusion},
   url    = {http://www.bipm.org/utils/common/documents/jcgm/JCGM 102 2011 E.pdf},
 }
 
@@ -296,7 +296,7 @@
 @InProceedings{Wong_2008,
   author    = {Ken Wong},
   title     = {Traceability of vector network analyzer measurements},
-  booktitle = {2008 72nd {ARFTG} Microwave Measurement Symposium},
+  booktitle = {72nd {ARFTG} Microwave Measurement Conference},
   year      = {2008},
   month     = {dec},
   publisher = {{IEEE}},
@@ -1503,7 +1503,7 @@
 @InProceedings{Votsi_2020,
   author    = {H. Votsi and L. T. Stant and M. J. Salter and C. Li and N. M. Ridler and P. H. Aaen},
   title     = {An Interferometric Characterization Technique for Extreme Impedance Microwave Devices},
-  booktitle = {94th ARFTG Microwave Measurement Conference (ARFTG)},
+  booktitle = {94th ARFTG Microwave Measurement Conference},
   year      = {2020 (submitted)},
   month     = jan,
 }
@@ -1662,7 +1662,7 @@
   volume   = {64},
   number   = {11},
   pages    = {3927--3933},
-  month    = {Nov},
+  month    = nov,
   doi      = {10.1109/TMTT.2016.2602262},
   groups   = {Ch 1: Introduction},
   keywords = {heterojunction bipolar transistors;measurement uncertainty;semiconductor device measurement;semiconductor device models;transistor model verification;heterojunction bipolar transistors;large-signal measurements;correlated measurement uncertainties;model extraction;verification processes;size 250 nm;Measurement uncertainty;Current measurement;Calibration;Uncertainty;Voltage measurement;Heterojunction bipolar transistors;Measurement uncertainty;microwave measurement;model verification;transistor model},
@@ -1688,7 +1688,7 @@
   volume   = {58},
   number   = {7},
   pages    = {1877--1886},
-  month    = {July},
+  month    = jul,
   doi      = {10.1109/TMTT.2010.2049768},
   groups   = {Ch 1: Introduction},
   keywords = {covariance analysis;frequency measurement;network analysers;S-parameters;time measurement;covariance-based vector-network-analyzer uncertainty analysis;time-domain measurements;frequency-domain measurements;scattering-parameter measurements;statistical correlations;Frequency domain analysis;Frequency measurement;Measurement uncertainty;Scattering parameters;Covariance matrix;Circuits;Time domain analysis;NIST;Frequency estimation;Lifting equipment;Covariance matrix;frequency-domain measurements;scattering parameters;time-domain measurements;uncertainty analysis;vector network analyzer (VNA)},
@@ -1715,9 +1715,22 @@
   volume   = {52},
   number   = {12},
   pages    = {42--47},
-  month    = {December},
+  month    = dec,
   doi      = {10.1109/MCOM.2014.6979985},
+  groups   = {Ch 1: Introduction},
   keywords = {5G mobile communication;mobile communication;5G wireless access;mobile communication technology;ITU-R;Wireless communication;Next generation networking;Mobile communication;Wireless sensor networks;OFDM;Communication standards;Standards;Telecommunication standards;Communication standards},
+}
+
+@InProceedings{Ridler_2017,
+  author    = {N. M. {Ridler} and R. A. {Ginley}},
+  title     = {A review of the {IEEE} 1785 standards for rectangular waveguides above 110 {GH}z},
+  booktitle = {89th ARFTG Microwave Measurement Conference (ARFTG)},
+  year      = {2017},
+  pages     = {1--4},
+  month     = {June},
+  doi       = {10.1109/ARFTG.2017.8000830},
+  groups    = {Ch 6: Conclusion},
+  keywords  = {IEEE standards;millimetre waves;rectangular waveguides;terahertz waves;IEEE 1785 standards;rectangular waveguides;millimeter-wave frequencies;terahertz frequencies;frequency bands;waveguide dimensions;waveguide interfaces;Rectangular waveguides;Waveguide components;Uncertainty;Apertures;IEEE Standards;Reflection coefficient;IEEE 1785;millimeter-wave;rectangular waveguides;submillimeter-wave;terahertz;waveguide apertures;waveguide interfaces;waveguide tolerances},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
@@ -1729,6 +1742,7 @@
 1 StaticGroup:Ch 4: VNA Uncertainty\;0\;1\;\;\;\;;
 1 StaticGroup:Ch 5: Prop Meas Unc to NLBM\;0\;1\;\;\;\;;
 1 StaticGroup:Ch 1: Introduction\;0\;1\;\;\;\;;
+1 StaticGroup:Ch 6: Conclusion\;0\;1\;\;\;\;;
 }
 
 @Comment{jabref-entrytype: Online: req[url;urldate;title] opt[author;organization;date]}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.7.5)  12 SEP 2019 14:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.7.5)  13 SEP 2019 16:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1137,31 +1137,38 @@ Chapter 1.
 [1
 
 
-{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package biblatex Info: Reference section=0 on input line 11.
- [2
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+Overfull \hbox (25.47263pt too wide) in paragraph at lines 35--35
+[]\OT1/cmr/m/n/10 ||, ``Eval-u-at-ing resid-ual er-rors in waveg-uide net-work 
+anal-y-sers from mi-crowave to submillimetre-
+ []
+
+[4
 
 ]
-(./ch6-conclusions.aux)
+Package biblatex Info: Reference section=0 on input line 36.
+ [5] (./ch6-conclusions.aux)
 Package logreq Info: Writing requests to 'ch6-conclusions.run.xml'.
 \openout1 = `ch6-conclusions.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26539 strings out of 492646
- 476540 string characters out of 6133326
- 962184 words of memory out of 5000000
- 30175 multiletter control sequences out of 15000+600000
- 533904 words of font info for 29 fonts, out of 8000000 for 9000
+ 26579 strings out of 492646
+ 477874 string characters out of 6133326
+ 965184 words of memory out of 5000000
+ 30204 multiletter control sequences out of 15000+600000
+ 537328 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,4n,67p,2071b,1312s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,4n,67p,2071b,1374s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ch6-conclusions.pdf (2 pages, 47697 bytes).
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2018/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2018/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmtt10.pfb>
+Output written on ch6-conclusions.pdf (5 pages, 88604 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
- 15 compressed objects within 1 object stream
+ 40 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
