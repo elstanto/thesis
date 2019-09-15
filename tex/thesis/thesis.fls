@@ -253,6 +253,12 @@ INPUT thesis.lot
 OUTPUT thesis.lot
 INPUT ../ch1-introduction/ch1-introduction.tex
 INPUT ../ch1-introduction/ch1-introduction.tex
+INPUT ../figs/ch1-intro/ch1_ericsson.png
+INPUT ../figs/ch1-intro/ch1_ericsson.png
+INPUT ../figs/ch1-intro/ch1_ericsson.png
+INPUT ../figs/ch1-intro/ch1_rfpa.jpg
+INPUT ../figs/ch1-intro/ch1_rfpa.jpg
+INPUT ../figs/ch1-intro/ch1_rfpa.jpg
 INPUT ../ch2-rfmwmeas/ch2-rfmwmeas.tex
 INPUT ../ch2-rfmwmeas/ch2-rfmwmeas.tex
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
@@ -301,7 +307,6 @@ INPUT ../figs/ch2-rfmwmeas/ch2_powercal.pdf
 INPUT ../figs/ch2-rfmwmeas/ch2_phasecal.pdf
 INPUT ../figs/ch2-rfmwmeas/ch2_phasecal.pdf
 INPUT ../figs/ch2-rfmwmeas/ch2_phasecal.pdf
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT ../ch3-measunc/ch3-measunc.tex
 INPUT ../ch3-measunc/ch3-measunc.tex
 INPUT ../figs/ch3-measunc/cubit.jpg
@@ -452,6 +457,7 @@ INPUT ../figs/ch5-nlbmunc/fig7.pdf
 INPUT ../figs/ch5-nlbmunc/fig7.pdf
 INPUT ../ch6-conclusions/ch6-conclusions.tex
 INPUT ../ch6-conclusions/ch6-conclusions.tex
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT thesis.aux
 INPUT thesis.run.xml
 OUTPUT thesis.run.xml

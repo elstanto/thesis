@@ -2,232 +2,220 @@
 \defcounter {refsection}{0}\relax 
 \nobreakspace {}\hfill \textbf {Page}\par 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{x}% 
+\contentsline {chapter}{List of Figures}{ix}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Tables}{xii}% 
+\contentsline {chapter}{List of Tables}{xi}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Abbreviations}{xiii}% 
-\defcounter {refsection}{3}\relax 
+\contentsline {chapter}{List of Abbreviations}{xii}% 
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}% 
-\defcounter {refsection}{3}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Motivation}{1}% 
-\defcounter {refsection}{3}\relax 
-\contentsline {section}{\numberline {1.2}Existing Research}{1}% 
-\defcounter {refsection}{3}\relax 
-\contentsline {section}{\numberline {1.3}Objectives}{1}% 
-\defcounter {refsection}{3}\relax 
-\contentsline {section}{\numberline {1.4}Contributions}{1}% 
-\defcounter {refsection}{3}\relax 
-\contentsline {section}{\numberline {1.5}Thesis Structure}{1}% 
-\defcounter {refsection}{3}\relax 
-\contentsline {section}{Bibliography}{1}% 
-\defcounter {refsection}{4}\relax 
-\contentsline {chapter}{\numberline {2}Radio Frequency and Microwave \\Measurements}{3}% 
-\defcounter {refsection}{4}\relax 
-\contentsline {section}{\numberline {2.1}Introduction}{3}% 
-\defcounter {refsection}{4}\relax 
-\contentsline {section}{\numberline {2.2}Electromagnetic Wave Parameters}{4}% 
-\defcounter {refsection}{4}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Wave Definitions}{4}% 
-\defcounter {refsection}{4}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1.1}Travelling Waves}{4}% 
-\defcounter {refsection}{4}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1.2}Equivalent-Circuit Voltage and Current}{4}% 
-\defcounter {refsection}{4}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1.3}Pseudowaves}{4}% 
-\defcounter {refsection}{4}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1.4}Power Waves}{5}% 
-\defcounter {refsection}{4}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Derived Metrics and Figures of Merit}{5}% 
-\defcounter {refsection}{4}\relax 
-\contentsline {section}{\numberline {2.3}Measurements of Nonlinear Devices}{8}% 
-\defcounter {refsection}{4}\relax 
-\contentsline {section}{\numberline {2.4}Vector Network Analysers}{11}% 
-\defcounter {refsection}{4}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Architecture}{11}% 
-\defcounter {refsection}{4}\relax 
-\contentsline {subsection}{\numberline {2.4.2}Error Models}{13}% 
-\defcounter {refsection}{4}\relax 
-\contentsline {subsubsection}{\numberline {2.4.2.1}One-Port Model}{14}% 
-\defcounter {refsection}{4}\relax 
-\contentsline {subsubsection}{\numberline {2.4.2.2}Eight-Term Model}{15}% 
-\defcounter {refsection}{4}\relax 
-\contentsline {subsection}{\numberline {2.4.3}Calibration}{17}% 
-\defcounter {refsection}{4}\relax 
-\contentsline {subsubsection}{\numberline {2.4.3.1}One-Port Model}{17}% 
-\defcounter {refsection}{4}\relax 
-\contentsline {subsubsection}{\numberline {2.4.3.2}Eight-Term Model}{18}% 
-\defcounter {refsection}{4}\relax 
-\contentsline {section}{\numberline {2.5}Nonlinear Vector Network Analysers}{18}% 
-\defcounter {refsection}{4}\relax 
-\contentsline {subsection}{\numberline {2.5.1}Absolute Eight-Term Error Model}{19}% 
-\defcounter {refsection}{4}\relax 
-\contentsline {subsection}{\numberline {2.5.2}Power Meter Calibration}{20}% 
-\defcounter {refsection}{4}\relax 
-\contentsline {subsection}{\numberline {2.5.3}Phase Reference}{20}% 
-\defcounter {refsection}{4}\relax 
-\contentsline {section}{\numberline {2.6}Conclusions}{21}% 
-\defcounter {refsection}{4}\relax 
-\contentsline {section}{Bibliography}{22}% 
-\defcounter {refsection}{5}\relax 
-\contentsline {chapter}{\numberline {3}Measurement Uncertainty}{26}% 
-\defcounter {refsection}{5}\relax 
-\contentsline {section}{\numberline {3.1}Introduction}{26}% 
-\defcounter {refsection}{5}\relax 
-\contentsline {section}{\numberline {3.2}The Measurement Process}{31}% 
-\defcounter {refsection}{5}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Modelling the Measurement}{31}% 
-\defcounter {refsection}{5}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Evaluating Standard Uncertainty of Input Quantities}{32}% 
-\defcounter {refsection}{5}\relax 
-\contentsline {subsubsection}{\numberline {3.2.2.1}Category A Evaluation}{33}% 
-\defcounter {refsection}{5}\relax 
-\contentsline {paragraph}{GUM Method}{33}% 
-\defcounter {refsection}{5}\relax 
-\contentsline {paragraph}{GUM Supplement Method}{35}% 
-\defcounter {refsection}{5}\relax 
-\contentsline {paragraph}{Comparison of GUM and GUM Supplements approach using example H.2/9.4}{36}% 
-\defcounter {refsection}{5}\relax 
-\contentsline {paragraph}{Comparison of GUM and GUM Supplements approach using microwave scattering parameters example}{37}% 
-\defcounter {refsection}{5}\relax 
-\contentsline {paragraph}{Discussion}{40}% 
-\defcounter {refsection}{5}\relax 
-\contentsline {subsubsection}{\numberline {3.2.2.2}Category B Evaluation}{41}% 
-\defcounter {refsection}{5}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Evaluating Combined Standard Uncertainty}{42}% 
-\defcounter {refsection}{5}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3.1}Monte Carlo Methods}{42}% 
-\defcounter {refsection}{5}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3.2}Law of Propagation of Uncertainty}{43}% 
-\defcounter {refsection}{5}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3.3}Finite Difference Methods}{45}% 
-\defcounter {refsection}{5}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Expanded Uncertainty and Coverage Intervals}{45}% 
-\defcounter {refsection}{5}\relax 
-\contentsline {section}{\numberline {3.3}Sensitivity Analysis}{46}% 
-\defcounter {refsection}{5}\relax 
-\contentsline {section}{\numberline {3.4}Conclusions}{47}% 
-\defcounter {refsection}{5}\relax 
-\contentsline {section}{Bibliography}{48}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Prior Research}{4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Objectives}{6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Contributions}{6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.5}Thesis Structure}{7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Radio Frequency and Microwave \\Measurements}{8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Introduction}{8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Electromagnetic Wave Parameters}{9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Wave Definitions}{9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.1.1}Travelling Waves}{9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.1.2}Equivalent-Circuit Voltage and Current}{9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.1.3}Pseudowaves}{9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.1.4}Power Waves}{10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Derived Metrics and Figures of Merit}{10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Measurements of Nonlinear Devices}{13}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Vector Network Analysers}{16}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.1}Architecture}{16}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.2}Error Models}{18}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.2.1}One-Port Model}{19}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.2.2}Eight-Term Model}{20}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.3}Calibration}{22}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.3.1}One-Port Model}{22}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.3.2}Eight-Term Model}{23}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}Nonlinear Vector Network Analysers}{23}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.1}Absolute Eight-Term Error Model}{24}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.2}Power Meter Calibration}{25}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.3}Phase Reference}{25}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.6}Conclusions}{26}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Measurement Uncertainty}{28}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Introduction}{28}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}The Measurement Process}{33}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Modelling the Measurement}{33}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}Evaluating Standard Uncertainty of Input Quantities}{34}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.2.1}Category A Evaluation}{35}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{GUM Method}{35}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{GUM Supplement Method}{37}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Comparison of GUM and GUM Supplements approach using example H.2/9.4}{38}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Comparison of GUM and GUM Supplements approach using microwave scattering parameters example}{39}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Discussion}{42}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.2.2}Category B Evaluation}{43}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.3}Evaluating Combined Standard Uncertainty}{44}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.3.1}Monte Carlo Methods}{44}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.3.2}Law of Propagation of Uncertainty}{45}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.3.3}Finite Difference Methods}{47}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.4}Expanded Uncertainty and Coverage Intervals}{47}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Sensitivity Analysis}{48}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Conclusions}{49}% 
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Evaluating Uncertainty in VNA Measurements}{51}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Introduction}{51}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}VNA Measurement Model Input Quantities}{52}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.1}Calibration Standards}{52}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.2.1.1}Definitions}{52}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Databased Definitions}{54}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Polynomial Model Definitions}{54}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Physical Definitions}{55}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.2.1.2}Measurements}{56}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.2}Noise}{56}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.2.2.1}Noise Floor}{57}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.2.2.2}Trace Noise}{57}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.3}Repeatability}{57}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.2.3.1}Connections}{58}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.2.3.2}Cable Stability}{58}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.4}Drift}{58}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.2.4.1}VNA Linearity}{59}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Simplified Residual Model for VNA Uncertainty Evaluation}{59}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.1}Method}{59}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.2}Application to Waveguide VNAs}{65}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.3.2.1}Coaxial Transmission Line and Microwave Waveguide}{65}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.3.2.2}Millimetre-wave Waveguides}{65}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.3.2.3}Submillimetre-wave Waveguides}{67}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.3.2.4}Waveguide Discontinuities}{68}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.3.2.5}Discussion}{70}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.3.2.6}Conclusion}{71}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}Rigorous Models for VNA Uncertainty Evaluation}{71}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.1}Method}{71}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.2}Keysight PNA-X Dynamic S-Parameter Uncertainty}{72}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.3}METAS VNA Tools II}{73}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.4}NIST Microwave Uncertainty Framework}{74}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}NVNA Uncertainty Evaluation}{75}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5.1}Phase Reference}{75}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5.2}Power Meter}{77}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5.3}Propagation of Uncertainties}{81}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.5.3.1}Analytical Covariance-Based Propagation}{81}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.5.3.2}Numerical Propagation}{81}% 
-\defcounter {refsection}{6}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.6}Conclusion}{84}% 
-\defcounter {refsection}{6}\relax 
-\contentsline {section}{Bibliography}{84}% 
-\defcounter {refsection}{7}\relax 
-\contentsline {chapter}{\numberline {5}Prop. Meas. Unc. To Nonlinear Behavioural Models}{90}% 
-\defcounter {refsection}{7}\relax 
-\contentsline {section}{\numberline {5.1}Introduction}{90}% 
-\defcounter {refsection}{7}\relax 
-\contentsline {section}{\numberline {5.2}Nonlinear Behavioural Models}{91}% 
-\defcounter {refsection}{7}\relax 
-\contentsline {subsection}{\numberline {5.2.1}The Volterra ``VIOMAP'' Model}{91}% 
-\defcounter {refsection}{7}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Scattering Functions}{92}% 
-\defcounter {refsection}{7}\relax 
-\contentsline {subsection}{\numberline {5.2.3}Hot S-parameters}{92}% 
-\defcounter {refsection}{7}\relax 
-\contentsline {subsection}{\numberline {5.2.4}X-Parameters}{93}% 
-\defcounter {refsection}{7}\relax 
-\contentsline {subsection}{\numberline {5.2.5}The Cardiff Model}{96}% 
-\defcounter {refsection}{7}\relax 
-\contentsline {section}{\numberline {5.3}X-Parameter Extraction Procedure}{96}% 
-\defcounter {refsection}{7}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Method}{97}% 
-\defcounter {refsection}{7}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Implementation}{101}% 
-\defcounter {refsection}{7}\relax 
-\contentsline {subsubsection}{\numberline {5.3.2.1}PNA-X Extraction}{102}% 
-\defcounter {refsection}{7}\relax 
-\contentsline {subsubsection}{\numberline {5.3.2.2}MUF Custom Post-Processor}{104}% 
-\defcounter {refsection}{7}\relax 
-\contentsline {section}{\numberline {5.4}Evaluation of the Combined Standard Uncertainty of X-Parameters Extracted from Measurement Data}{104}% 
-\defcounter {refsection}{7}\relax 
-\contentsline {subsection}{\numberline {5.4.1}X-Parameter Uncertainties}{107}% 
-\defcounter {refsection}{7}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Sensitivity Analysis for X-parameter Uncertainties}{110}% 
-\defcounter {refsection}{7}\relax 
-\contentsline {section}{\numberline {5.5}Propagation of Uncertainty from X-Parameters into Circuit Simulations}{110}% 
-\defcounter {refsection}{7}\relax 
-\contentsline {section}{\numberline {5.6}Conclusions}{114}% 
-\defcounter {refsection}{7}\relax 
-\contentsline {section}{Bibliography}{114}% 
-\defcounter {refsection}{8}\relax 
-\contentsline {chapter}{\numberline {6}Conclusions}{119}% 
-\defcounter {refsection}{8}\relax 
-\contentsline {section}{\numberline {6.1}Further Work}{119}% 
-\defcounter {refsection}{8}\relax 
-\contentsline {section}{Bibliography}{119}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Prop. Meas. Unc. To Nonlinear Behavioural Models}{85}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Introduction}{85}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Nonlinear Behavioural Models}{86}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.1}The Volterra ``VIOMAP'' Model}{86}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.2}Scattering Functions}{87}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.3}Hot S-parameters}{87}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.4}X-Parameters}{88}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.5}The Cardiff Model}{91}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}X-Parameter Extraction Procedure}{91}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.1}Method}{92}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.2}Implementation}{96}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.3.2.1}PNA-X Extraction}{97}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.3.2.2}MUF Custom Post-Processor}{99}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Evaluation of the Combined Standard Uncertainty of X-Parameters Extracted from Measurement Data}{99}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.1}X-Parameter Uncertainties}{102}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.2}Sensitivity Analysis for X-parameter Uncertainties}{105}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.5}Propagation of Uncertainty from X-Parameters into Circuit Simulations}{105}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.6}Conclusions}{109}% 
+\defcounter {refsection}{3}\relax 
+\contentsline {chapter}{\numberline {6}Conclusion}{110}% 
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {6.1}Future Work}{111}% 
