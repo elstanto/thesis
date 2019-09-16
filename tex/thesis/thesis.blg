@@ -1,92 +1,92 @@
-[0] Config.pm:304> INFO - This is Biber 2.12
-[0] Config.pm:307> INFO - Logfile is 'thesis.blg'
-[32] biber-MSWIN32:315> INFO - === 
-[63] Biber.pm:371> INFO - Reading 'thesis.bcf'
-[166] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[166] Biber.pm:889> INFO - Found 6 citekeys in bib section 1
-[166] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[166] Biber.pm:889> INFO - Found 4 citekeys in bib section 2
-[203] Biber.pm:889> INFO - Found 134 citekeys in bib section 0
-[203] Biber.pm:889> INFO - Found 9 citekeys in bib section 3
-[203] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[239] Biber.pm:4093> INFO - Processing section 0
-[250] Biber.pm:4254> INFO - Looking for bibtex format file '../IEEEabrv.bib' for section 0
-[260] bibtex.pm:1523> INFO - LaTeX decoding ...
-[326] bibtex.pm:1340> INFO - Found BibTeX data source '../IEEEabrv.bib'
-[350] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 98, warning: 2646 characters of junk seen at toplevel
-[350] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 108, warning: 46 characters of junk seen at toplevel
-[350] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 117, warning: 41 characters of junk seen at toplevel
-[351] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 124, warning: 19 characters of junk seen at toplevel
-[351] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 132, warning: 67 characters of junk seen at toplevel
-[351] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 146, warning: 14 characters of junk seen at toplevel
-[351] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 156, warning: 36 characters of junk seen at toplevel
-[351] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 159, warning: 20 characters of junk seen at toplevel
-[351] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 174, warning: 3 characters of junk seen at toplevel
-[351] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 180, warning: 33 characters of junk seen at toplevel
-[351] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 188, warning: 43 characters of junk seen at toplevel
-[351] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 210, warning: 18 characters of junk seen at toplevel
-[351] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 219, warning: 38 characters of junk seen at toplevel
-[352] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 227, warning: 77 characters of junk seen at toplevel
-[352] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 234, warning: 18 characters of junk seen at toplevel
-[352] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 237, warning: 19 characters of junk seen at toplevel
-[352] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 241, warning: 19 characters of junk seen at toplevel
-[352] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 246, warning: 49 characters of junk seen at toplevel
-[352] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 254, warning: 20 characters of junk seen at toplevel
-[352] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 260, warning: 23 characters of junk seen at toplevel
-[352] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 269, warning: 47 characters of junk seen at toplevel
-[352] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 281, warning: 51 characters of junk seen at toplevel
-[352] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 298, warning: 25 characters of junk seen at toplevel
-[353] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 313, warning: 32 characters of junk seen at toplevel
-[353] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 327, warning: 29 characters of junk seen at toplevel
-[353] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 332, warning: 22 characters of junk seen at toplevel
-[353] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 339, warning: 10 characters of junk seen at toplevel
-[353] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 341, warning: 21 characters of junk seen at toplevel
-[353] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 347, warning: 20 characters of junk seen at toplevel
-[353] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 354, warning: 40 characters of junk seen at toplevel
-[353] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 368, warning: 28 characters of junk seen at toplevel
-[353] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 376, warning: 61 characters of junk seen at toplevel
-[353] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 389, warning: 11 characters of junk seen at toplevel
-[354] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 395, warning: 59 characters of junk seen at toplevel
-[354] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 403, warning: 7 characters of junk seen at toplevel
-[354] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 408, warning: 4 characters of junk seen at toplevel
-[354] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 418, warning: 34 characters of junk seen at toplevel
-[354] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 431, warning: 22 characters of junk seen at toplevel
-[354] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 439, warning: 17 characters of junk seen at toplevel
-[354] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 464, warning: 97 characters of junk seen at toplevel
-[354] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Laurence\AppData\Local\Temp\lVR4VJOnL7\IEEEabrv.bib_8516.utf8, line 469, warning: 29 characters of junk seen at toplevel
-[357] Biber.pm:4254> INFO - Looking for bibtex format file '../references.bib' for section 0
-[379] bibtex.pm:1523> INFO - LaTeX decoding ...
-[629] bibtex.pm:1340> INFO - Found BibTeX data source '../references.bib'
-[1344] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1345] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1345] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1345] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[1431] Biber.pm:4093> INFO - Processing section 1
-[1431] Biber.pm:4254> INFO - Looking for bibtex format file '../IEEEabrv.bib' for section 1
-[1433] Biber.pm:4254> INFO - Looking for bibtex format file '../references.bib' for section 1
-[1443] Utils.pm:193> WARN - year field '2020 (submitted)' in entry 'Votsi_2020' is not an integer - this will probably not sort properly.
-[1484] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1484] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1484] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1484] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[1488] Biber.pm:4093> INFO - Processing section 2
-[1489] Biber.pm:4254> INFO - Looking for bibtex format file '../IEEEabrv.bib' for section 2
-[1491] Biber.pm:4254> INFO - Looking for bibtex format file '../references.bib' for section 2
-[1494] Utils.pm:193> WARN - year field '2017 (Oral \& Poster)' in entry 'Stant_2017_pgi' is not an integer - this will probably not sort properly.
-[1497] Utils.pm:193> WARN - year field '2017 (Poster)' in entry 'Stant_2017_feps' is not an integer - this will probably not sort properly.
-[1500] Utils.pm:193> WARN - year field '2016 (Oral)' in entry 'Stant_2016_pg' is not an integer - this will probably not sort properly.
-[1505] Utils.pm:193> WARN - year field '2016 (Oral)' in entry 'Stant_2016_Coll2' is not an integer - this will probably not sort properly.
-[1515] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1516] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1516] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1516] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[1518] Biber.pm:4093> INFO - Processing section 3
-[1518] Biber.pm:4254> INFO - Looking for bibtex format file '../IEEEabrv.bib' for section 3
-[1521] Biber.pm:4254> INFO - Looking for bibtex format file '../references.bib' for section 3
-[1574] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1574] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1574] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1574] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[1580] bbl.pm:636> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
-[1639] bbl.pm:739> INFO - Output to thesis.bbl
-[1644] Biber.pm:110> INFO - WARNINGS: 46
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'thesis.blg'
+[52] biber-MSWIN32:313> INFO - === 
+[97] Biber.pm:371> INFO - Reading 'thesis.bcf'
+[261] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[261] Biber.pm:857> INFO - Found 6 citekeys in bib section 1
+[261] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[261] Biber.pm:857> INFO - Found 4 citekeys in bib section 2
+[263] Biber.pm:857> INFO - Found 134 citekeys in bib section 0
+[264] Biber.pm:857> INFO - Found 9 citekeys in bib section 3
+[264] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[326] Biber.pm:3976> INFO - Processing section 0
+[349] Biber.pm:4136> INFO - Looking for bibtex format file '../IEEEabrv.bib' for section 0
+[357] bibtex.pm:1500> INFO - LaTeX decoding ...
+[472] bibtex.pm:1316> INFO - Found BibTeX data source '../IEEEabrv.bib'
+[507] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 98, warning: 2646 characters of junk seen at toplevel
+[507] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 108, warning: 46 characters of junk seen at toplevel
+[507] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 117, warning: 41 characters of junk seen at toplevel
+[507] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 124, warning: 19 characters of junk seen at toplevel
+[507] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 132, warning: 67 characters of junk seen at toplevel
+[507] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 146, warning: 14 characters of junk seen at toplevel
+[508] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 156, warning: 36 characters of junk seen at toplevel
+[508] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 159, warning: 20 characters of junk seen at toplevel
+[508] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 174, warning: 3 characters of junk seen at toplevel
+[508] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 180, warning: 33 characters of junk seen at toplevel
+[508] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 188, warning: 43 characters of junk seen at toplevel
+[508] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 210, warning: 18 characters of junk seen at toplevel
+[508] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 219, warning: 38 characters of junk seen at toplevel
+[508] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 227, warning: 77 characters of junk seen at toplevel
+[509] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 234, warning: 18 characters of junk seen at toplevel
+[509] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 237, warning: 19 characters of junk seen at toplevel
+[509] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 241, warning: 19 characters of junk seen at toplevel
+[509] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 246, warning: 49 characters of junk seen at toplevel
+[509] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 254, warning: 20 characters of junk seen at toplevel
+[509] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 260, warning: 23 characters of junk seen at toplevel
+[509] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 269, warning: 47 characters of junk seen at toplevel
+[510] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 281, warning: 51 characters of junk seen at toplevel
+[510] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 298, warning: 25 characters of junk seen at toplevel
+[510] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 313, warning: 32 characters of junk seen at toplevel
+[510] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 327, warning: 29 characters of junk seen at toplevel
+[510] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 332, warning: 22 characters of junk seen at toplevel
+[510] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 339, warning: 10 characters of junk seen at toplevel
+[510] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 341, warning: 21 characters of junk seen at toplevel
+[511] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 347, warning: 20 characters of junk seen at toplevel
+[511] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 354, warning: 40 characters of junk seen at toplevel
+[511] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 368, warning: 28 characters of junk seen at toplevel
+[511] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 376, warning: 61 characters of junk seen at toplevel
+[511] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 389, warning: 11 characters of junk seen at toplevel
+[511] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 395, warning: 59 characters of junk seen at toplevel
+[511] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 403, warning: 7 characters of junk seen at toplevel
+[512] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 408, warning: 4 characters of junk seen at toplevel
+[512] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 418, warning: 34 characters of junk seen at toplevel
+[512] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 431, warning: 22 characters of junk seen at toplevel
+[512] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 439, warning: 17 characters of junk seen at toplevel
+[512] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 464, warning: 97 characters of junk seen at toplevel
+[512] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\kfy63241\AppData\Local\Temp\2uDtupa8dD\IEEEabrv.bib_22264.utf8, line 469, warning: 29 characters of junk seen at toplevel
+[516] Biber.pm:4136> INFO - Looking for bibtex format file '../references.bib' for section 0
+[533] bibtex.pm:1500> INFO - LaTeX decoding ...
+[986] bibtex.pm:1316> INFO - Found BibTeX data source '../references.bib'
+[2212] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2212] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2213] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[2213] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[2354] Biber.pm:3976> INFO - Processing section 1
+[2355] Biber.pm:4136> INFO - Looking for bibtex format file '../IEEEabrv.bib' for section 1
+[2360] Biber.pm:4136> INFO - Looking for bibtex format file '../references.bib' for section 1
+[2379] Utils.pm:193> WARN - year field '2020 (submitted)' in entry 'Votsi_2020' is not an integer - this will probably not sort properly.
+[2450] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2450] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2450] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[2451] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[2458] Biber.pm:3976> INFO - Processing section 2
+[2458] Biber.pm:4136> INFO - Looking for bibtex format file '../IEEEabrv.bib' for section 2
+[2464] Biber.pm:4136> INFO - Looking for bibtex format file '../references.bib' for section 2
+[2472] Utils.pm:193> WARN - year field '2017 (Oral \& Poster)' in entry 'Stant_2017_pgi' is not an integer - this will probably not sort properly.
+[2476] Utils.pm:193> WARN - year field '2017 (Poster)' in entry 'Stant_2017_feps' is not an integer - this will probably not sort properly.
+[2481] Utils.pm:193> WARN - year field '2016 (Oral)' in entry 'Stant_2016_pg' is not an integer - this will probably not sort properly.
+[2490] Utils.pm:193> WARN - year field '2016 (Oral)' in entry 'Stant_2016_Coll2' is not an integer - this will probably not sort properly.
+[2509] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2509] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2509] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[2509] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[2513] Biber.pm:3976> INFO - Processing section 3
+[2514] Biber.pm:4136> INFO - Looking for bibtex format file '../IEEEabrv.bib' for section 3
+[2519] Biber.pm:4136> INFO - Looking for bibtex format file '../references.bib' for section 3
+[2612] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2612] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2613] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[2613] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[2622] bbl.pm:617> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[2715] bbl.pm:720> INFO - Output to thesis.bbl
+[2715] Biber.pm:110> INFO - WARNINGS: 46
