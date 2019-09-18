@@ -1,0 +1,9 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'appendix-b.blg'
+[32] biber-MSWIN32:315> INFO - === 
+[62] Biber.pm:371> INFO - Reading 'appendix-b.bcf'
+[153] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[160] Utils.pm:193> WARN - The file 'appendix-b.bcf' does not contain any citations!
+[167] bbl.pm:636> INFO - Writing 'appendix-b.bbl' with encoding 'UTF-8'
+[167] bbl.pm:739> INFO - Output to appendix-b.bbl
+[171] Biber.pm:110> INFO - WARNINGS: 1
