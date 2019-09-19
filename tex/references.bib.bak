@@ -177,7 +177,7 @@
 }
 
 @Article{Elster_2007,
-  author    = {Clemens Elster and Wolfgang Wöger and Maurice G Cox},
+  author    = {Clemens Elster and Wolfgang {Wöger} and Maurice G Cox},
   title     = {Draft {GUM} Supplement 1 and {B}ayesian analysis},
   journal   = {Metrologia},
   year      = {2007},
@@ -234,7 +234,7 @@
 
 @Article{Klauenberg_2012,
   author    = {Katy Klauenberg and Clemens Elster},
-  title     = {The multivariate normal mean – sensitivity of its objective {B}ayesian estimates},
+  title     = {The multivariate normal mean - sensitivity of its objective {B}ayesian estimates},
   journal   = {Metrologia},
   year      = {2012},
   volume    = {49},
@@ -365,7 +365,7 @@
   organization = {International Organization for Standardization},
   author       = {{International Organization for Standardization}},
   revision     = {4},
-  address      = {Genève, Switzerland},
+  address      = {{Genève}, Switzerland},
   year         = {2015},
   url          = {https://www.iso.org},
   groups       = {Ch 4: VNA Uncertainty},
@@ -376,7 +376,7 @@
   organization = {International Organization for Standardization},
   author       = {{International Organization for Standardization}},
   revision     = {2},
-  address      = {Genève, Switzerland},
+  address      = {{Genève}, Switzerland},
   year         = {2005},
   url          = {https://www.iso.org},
   groups       = {Ch 4: VNA Uncertainty},
@@ -1669,18 +1669,11 @@
   keywords  = {5G mobile communication;gallium compounds;III-V semiconductors;microwave power amplifiers;wide band gap semiconductors;wideband amplifiers;broadband parallel Doherty power amplifier;wideband parallel symmetric Doherty power amplifier;base-station applications;5G applications;frequency 3.3 GHz to 3.6 GHz;bandwidth 300.0 MHz;gain 9.0 dB;gain 3.0 dB;GaN;Power amplifiers;Bandwidth;Power generation;Impedance;Gallium nitride;Gain;Solid modeling;Base station;Doherty;power amplifier;gallium nitride;load modulation;saturated output power;transmitter},
 }
 
-@Online{blf861a,
-  url     = {https://commons.wikimedia.org/wiki/File:BLF861A.jpg},
-  urldate = {2019-09-11},
-  title   = {{BLF861A image}},
-  groups  = {Ch 1: Introduction},
-}
-
 @Book{Aaen_2007,
   title      = {Modeling and Characterization of RF and Microwave Power FETs},
   publisher  = {Cambridge University Press},
   year       = {2007},
-  author     = {Aaen, Peter and Plá, Jaime A. and Wood, John},
+  author     = {Aaen, Peter and {Plá}, Jaime A. and Wood, John},
   series     = {The Cambridge RF and Microwave Engineering Series},
   collection = {The Cambridge RF and Microwave Engineering Series},
   doi        = {10.1017/CBO9780511541124},
@@ -1779,6 +1772,13 @@
   doi       = {10.1109/ARFTG.2017.8000830},
   groups    = {Ch 6: Conclusion},
   keywords  = {IEEE standards;millimetre waves;rectangular waveguides;terahertz waves;IEEE 1785 standards;rectangular waveguides;millimeter-wave frequencies;terahertz frequencies;frequency bands;waveguide dimensions;waveguide interfaces;Rectangular waveguides;Waveguide components;Uncertainty;Apertures;IEEE Standards;Reflection coefficient;IEEE 1785;millimeter-wave;rectangular waveguides;submillimeter-wave;terahertz;waveguide apertures;waveguide interfaces;waveguide tolerances},
+}
+
+@Online{nxp_pic,
+  url     = {https://www.avnet.com/wps/portal/ebv/products/new-products/npi/2017/nxp-mrfx1k80h},
+  urldate = {2019-09-19},
+  title   = {{NXP MRFX1K80H} 65 {V} wideband {RF} power {LDMOS} transistor},
+  groups  = {Ch 1: Introduction},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

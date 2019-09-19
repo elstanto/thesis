@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.9 $
+% $ biblatex bbl format version 3.0 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -17,7 +17,7 @@
 \endgroup
 
 
-\refsection{1}
+\refsection{0}
   \datalist[entry]{none/global//global/global}
     \entry{Ericsson_2019}{online}{}
       \list{organization}{1}{%
@@ -40,7 +40,7 @@
     \endentry
     \entry{Cripps_2006}{book}{}
       \name{author}{1}{}{%
-        {{hash=bf64bc4836a8d4fbb4ab0f21da772a8f}{%
+        {{hash=322b9e372c9b96a24318228f80b30757}{%
            family={Cripps},
            familyi={C\bibinitperiod},
            given={Steve\bibnamedelima C.},
@@ -52,12 +52,12 @@
       \list{publisher}{1}{%
         {Artech House, Inc.}%
       }
-      \strng{namehash}{bf64bc4836a8d4fbb4ab0f21da772a8f}
-      \strng{fullhash}{bf64bc4836a8d4fbb4ab0f21da772a8f}
-      \strng{bibnamehash}{bf64bc4836a8d4fbb4ab0f21da772a8f}
-      \strng{authorbibnamehash}{bf64bc4836a8d4fbb4ab0f21da772a8f}
-      \strng{authornamehash}{bf64bc4836a8d4fbb4ab0f21da772a8f}
-      \strng{authorfullhash}{bf64bc4836a8d4fbb4ab0f21da772a8f}
+      \strng{namehash}{322b9e372c9b96a24318228f80b30757}
+      \strng{fullhash}{322b9e372c9b96a24318228f80b30757}
+      \strng{bibnamehash}{322b9e372c9b96a24318228f80b30757}
+      \strng{authorbibnamehash}{322b9e372c9b96a24318228f80b30757}
+      \strng{authornamehash}{322b9e372c9b96a24318228f80b30757}
+      \strng{authorfullhash}{322b9e372c9b96a24318228f80b30757}
       \field{sortinit}{4}
       \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
@@ -69,42 +69,42 @@
     \endentry
     \entry{Kosaka_2016}{inproceedings}{}
       \name{author}{8}{}{%
-        {{hash=028b5dbd60033ea25f164fa45efd5d02}{%
+        {{hash=8c63d81a088214fac766c039ad8034ce}{%
            family={{Kosaka}},
            familyi={K\bibinitperiod},
            given={N.},
            giveni={N\bibinitperiod}}}%
-        {{hash=49d3d667797f379babd6e762acaf2cc5}{%
+        {{hash=f733f8c7541733330c5568717f71c9b4}{%
            family={{Fujiwara}},
            familyi={F\bibinitperiod},
            given={S.},
            giveni={S\bibinitperiod}}}%
-        {{hash=41f746c8a31d1c65481f700fdd69f2d4}{%
+        {{hash=3c781653ecce4d09ead0bf992cc49007}{%
            family={{Okamura}},
            familyi={O\bibinitperiod},
            given={A.},
            giveni={A\bibinitperiod}}}%
-        {{hash=e5a85d26c3227b19cfec3a84537106ec}{%
+        {{hash=771da0711a8638dc73b93e14d1214610}{%
            family={{Chomei}},
            familyi={C\bibinitperiod},
            given={K.},
            giveni={K\bibinitperiod}}}%
-        {{hash=b367a4fcaf602141dd2140ef32d59da6}{%
+        {{hash=221edc260255b2224af38516420eff23}{%
            family={{Sasaki}},
            familyi={S\bibinitperiod},
            given={Y.},
            giveni={Y\bibinitperiod}}}%
-        {{hash=025a69d1a9c6d5ec74ec23b49ef9b97a}{%
+        {{hash=2fcefe87ea1e6703c3dad2d570077764}{%
            family={{Horiguchi}},
            familyi={H\bibinitperiod},
            given={K.},
            giveni={K\bibinitperiod}}}%
-        {{hash=d9462dcb061d4688038595ded1d963ad}{%
+        {{hash=70bc9ca083861abbed34a47e9fb4857e}{%
            family={{Katayama}},
            familyi={K\bibinitperiod},
            given={H.},
            giveni={H\bibinitperiod}}}%
-        {{hash=213559b7395da3df4a16e899d0206e3b}{%
+        {{hash=c7ebbcf27e16d8bfdb741fe3c6b64ad1}{%
            family={{Inoue}},
            familyi={I\bibinitperiod},
            given={A.},
@@ -113,12 +113,12 @@
       \list{location}{1}{%
         {Taipei, Taiwan}%
       }
-      \strng{namehash}{741e4ffb68dec35a30e189be4bfeaf79}
-      \strng{fullhash}{9702f24d785bcac75114bbcf1ef7472a}
-      \strng{bibnamehash}{9702f24d785bcac75114bbcf1ef7472a}
-      \strng{authorbibnamehash}{9702f24d785bcac75114bbcf1ef7472a}
-      \strng{authornamehash}{741e4ffb68dec35a30e189be4bfeaf79}
-      \strng{authorfullhash}{9702f24d785bcac75114bbcf1ef7472a}
+      \strng{namehash}{eefe87ba1188f4bad80288c9993a8e17}
+      \strng{fullhash}{ab2fbe4e8c4bd286157c12f62d479fb9}
+      \strng{bibnamehash}{ab2fbe4e8c4bd286157c12f62d479fb9}
+      \strng{authorbibnamehash}{ab2fbe4e8c4bd286157c12f62d479fb9}
+      \strng{authornamehash}{eefe87ba1188f4bad80288c9993a8e17}
+      \strng{authorfullhash}{ab2fbe4e8c4bd286157c12f62d479fb9}
       \field{sortinit}{5}
       \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
@@ -136,12 +136,12 @@
     \endentry
     \entry{Bhardwaj_2019}{inproceedings}{}
       \name{author}{2}{}{%
-        {{hash=01c07c7728c3d5479f80760898adf5ff}{%
+        {{hash=f4e3e12652195968bee9756b45dca032}{%
            family={{Bhardwaj}},
            familyi={B\bibinitperiod},
            given={S.},
            giveni={S\bibinitperiod}}}%
-        {{hash=1858c48c6dffd3c6231c7d2baa387e36}{%
+        {{hash=bb345271816726d74b2237a84e8ef10b}{%
            family={{Kitchen}},
            familyi={K\bibinitperiod},
            given={J.},
@@ -150,19 +150,19 @@
       \list{location}{1}{%
         {Orlando, FL, USA}%
       }
-      \strng{namehash}{ebadfc5dc397144fb3989bf03dd7f06b}
-      \strng{fullhash}{ebadfc5dc397144fb3989bf03dd7f06b}
-      \strng{bibnamehash}{ebadfc5dc397144fb3989bf03dd7f06b}
-      \strng{authorbibnamehash}{ebadfc5dc397144fb3989bf03dd7f06b}
-      \strng{authornamehash}{ebadfc5dc397144fb3989bf03dd7f06b}
-      \strng{authorfullhash}{ebadfc5dc397144fb3989bf03dd7f06b}
+      \strng{namehash}{d4591c71fe13d7ef7839c8b493cec025}
+      \strng{fullhash}{d4591c71fe13d7ef7839c8b493cec025}
+      \strng{bibnamehash}{d4591c71fe13d7ef7839c8b493cec025}
+      \strng{authorbibnamehash}{d4591c71fe13d7ef7839c8b493cec025}
+      \strng{authornamehash}{d4591c71fe13d7ef7839c8b493cec025}
+      \strng{authorfullhash}{d4591c71fe13d7ef7839c8b493cec025}
       \field{sortinit}{5}
       \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{IEEE Topical Conf. RF/Microw. Power Amplifiers Radio Wireless Appl. (PAWR)}
       \field{month}{1}
-      \field{title}{Broadband Parallel Doherty Power Amplifier in {GaN} for 5{G} Applications}
+      \field{title}{Broadband Parallel {D}oherty Power Amplifier in {GaN} for 5{G} Applications}
       \field{year}{2019}
       \field{pages}{1\bibrangedash 3}
       \range{pages}{3}
@@ -178,8 +178,8 @@
            familyi={A\bibinitperiod},
            given={Peter},
            giveni={P\bibinitperiod}}}%
-        {{hash=b8918023d27829d931e0955fe05ee21b}{%
-           family={Plá},
+        {{hash=5e6678d01469b34e8301d3993dc7d769}{%
+           family={{Plá}},
            familyi={P\bibinitperiod},
            given={Jaime\bibnamedelima A.},
            giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
@@ -192,12 +192,12 @@
       \list{publisher}{1}{%
         {Cambridge University Press}%
       }
-      \strng{namehash}{3e850d9479e0b013fd19d47eaee75607}
-      \strng{fullhash}{3e850d9479e0b013fd19d47eaee75607}
-      \strng{bibnamehash}{3e850d9479e0b013fd19d47eaee75607}
-      \strng{authorbibnamehash}{3e850d9479e0b013fd19d47eaee75607}
-      \strng{authornamehash}{3e850d9479e0b013fd19d47eaee75607}
-      \strng{authorfullhash}{3e850d9479e0b013fd19d47eaee75607}
+      \strng{namehash}{5af2c77bfeb80a01feee2b8253b42534}
+      \strng{fullhash}{5af2c77bfeb80a01feee2b8253b42534}
+      \strng{bibnamehash}{5af2c77bfeb80a01feee2b8253b42534}
+      \strng{authorbibnamehash}{5af2c77bfeb80a01feee2b8253b42534}
+      \strng{authornamehash}{5af2c77bfeb80a01feee2b8253b42534}
+      \strng{authorfullhash}{5af2c77bfeb80a01feee2b8253b42534}
       \field{sortinit}{6}
       \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
@@ -209,45 +209,45 @@
       \verb 10.1017/CBO9780511541124
       \endverb
     \endentry
-    \entry{blf861a}{online}{}
+    \entry{nxp_pic}{online}{}
       \field{sortinit}{7}
       \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labeltitlesource}{title}
-      \field{title}{{BLF861A image}}
-      \field{urlday}{11}
+      \field{title}{{NXP MRFX1K80H} 65 {V} wideband {RF} power {LDMOS} transistor}
+      \field{urlday}{19}
       \field{urlmonth}{9}
       \field{urlyear}{2019}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://commons.wikimedia.org/wiki/File:BLF861A.jpg
+      \verb https://www.avnet.com/wps/portal/ebv/products/new-products/npi/2017/nxp-mrfx1k80h
       \endverb
       \verb{url}
-      \verb https://commons.wikimedia.org/wiki/File:BLF861A.jpg
+      \verb https://www.avnet.com/wps/portal/ebv/products/new-products/npi/2017/nxp-mrfx1k80h
       \endverb
     \endentry
     \entry{Williams_2016B}{inproceedings}{}
       \name{author}{5}{}{%
-        {{hash=d3ba843c131b901b1148ef2be621fe4c}{%
+        {{hash=894a26e0347e1a769804de4b0068f0f4}{%
            family={{Williams}},
            familyi={W\bibinitperiod},
            given={D.\bibnamedelimi F.},
            giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=6a9bad778863a5a8bca54ed71f46dd09}{%
+        {{hash=49df329a23aec906895ee56f2cedd918}{%
            family={{Chamberlin}},
            familyi={C\bibinitperiod},
            given={R.\bibnamedelimi A.},
            giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=bf5a23930fdd96e7badb2fdadc36307a}{%
+        {{hash=2386e489f61f61ba612b4e137e1eefd7}{%
            family={{Zhao}},
            familyi={Z\bibinitperiod},
            given={W.},
            giveni={W\bibinitperiod}}}%
-        {{hash=511baa4a54e7ebf9a88870ccf22f0149}{%
+        {{hash=b7e1eec3e1021207d9ddbe16282e592a}{%
            family={{Cheron}},
            familyi={C\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod}}}%
-        {{hash=bdd3aa88a297628a9516de9b0f7b8004}{%
+        {{hash=fa913028f68fe66c6789f148ba6e489a}{%
            family={{Urteaga}},
            familyi={U\bibinitperiod},
            given={M.\bibnamedelimi E.},
@@ -256,17 +256,18 @@
       \list{location}{1}{%
         {Austin, TX, USA}%
       }
-      \strng{namehash}{bcab3d13902c1fab38db0273cbe385ba}
-      \strng{fullhash}{f632ad1c5ec9f22e585fa9964c7891d3}
-      \strng{bibnamehash}{f632ad1c5ec9f22e585fa9964c7891d3}
-      \strng{authorbibnamehash}{f632ad1c5ec9f22e585fa9964c7891d3}
-      \strng{authornamehash}{bcab3d13902c1fab38db0273cbe385ba}
-      \strng{authorfullhash}{f632ad1c5ec9f22e585fa9964c7891d3}
+      \strng{namehash}{134c36f409ccaefa5109c7addbc711f7}
+      \strng{fullhash}{09b7156c4e265bf59ab8b397bbed91ec}
+      \strng{bibnamehash}{09b7156c4e265bf59ab8b397bbed91ec}
+      \strng{authorbibnamehash}{09b7156c4e265bf59ab8b397bbed91ec}
+      \strng{authornamehash}{134c36f409ccaefa5109c7addbc711f7}
+      \strng{authorfullhash}{09b7156c4e265bf59ab8b397bbed91ec}
+      \field{extraname}{1}
       \field{sortinit}{9}
       \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{IEEE Compound Semiconductor Integr. Circuit Symp. (CSICS)}
+      \field{booktitle}{IEEE Compound Semicond. Integr. Circuit Symp. (CSICS)}
       \field{month}{10}
       \field{title}{The Role of Measurement Uncertainty in Achieving First-Pass Design Success}
       \field{year}{2016}
@@ -279,60 +280,60 @@
     \endentry
     \entry{Cheron_2018}{inproceedings}{}
       \name{author}{8}{}{%
-        {{hash=511baa4a54e7ebf9a88870ccf22f0149}{%
+        {{hash=b7e1eec3e1021207d9ddbe16282e592a}{%
            family={{Cheron}},
            familyi={C\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod}}}%
-        {{hash=d3ba843c131b901b1148ef2be621fe4c}{%
+        {{hash=894a26e0347e1a769804de4b0068f0f4}{%
            family={{Williams}},
            familyi={W\bibinitperiod},
            given={D.\bibnamedelimi F.},
            giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=2971052887ac5d12046cf3c61f00b88e}{%
+        {{hash=d949d5aaaf7eda8b12672027bee10509}{%
            family={{Łukasik}},
            familyi={Ł\bibinitperiod},
            given={K.},
            giveni={K\bibinitperiod}}}%
-        {{hash=6a9bad778863a5a8bca54ed71f46dd09}{%
+        {{hash=49df329a23aec906895ee56f2cedd918}{%
            family={{Chamberlin}},
            familyi={C\bibinitperiod},
            given={R.\bibnamedelimi A.},
            giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=44e8582541dff7ad1ca07214fd50580a}{%
+        {{hash=503625ca65bac91546ad1c95906e5cb9}{%
            family={{Jamroz}},
            familyi={J\bibinitperiod},
            given={B.\bibnamedelimi F.},
            giveni={B\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=af8b5d18ac2aaf1d7f5b2717face5381}{%
+        {{hash=d0ec4d5d355c5c20ecdc0a970ef2975b}{%
            family={{Grossman}},
            familyi={G\bibinitperiod},
            given={E.\bibnamedelimi N.},
            giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=ff136c6f16a3b7e08cca029f19e0b4e9}{%
+        {{hash=233068c0e9c9b01487103084a621661b}{%
            family={{Wiatr}},
            familyi={W\bibinitperiod},
            given={W.},
            giveni={W\bibinitperiod}}}%
-        {{hash=cb2d9f0b0a612c3f8708b9f97257431c}{%
+        {{hash=efd6030a44dca91632fe28f3c92443a7}{%
            family={{Schreurs}},
            familyi={S\bibinitperiod},
            given={D.},
            giveni={D\bibinitperiod}}}%
       }
-      \strng{namehash}{3a20a932bbfd8e3678afbb7ad427143f}
-      \strng{fullhash}{a2780f3b4d5d54ca52dc0b6e9e4b67bb}
-      \strng{bibnamehash}{a2780f3b4d5d54ca52dc0b6e9e4b67bb}
-      \strng{authorbibnamehash}{a2780f3b4d5d54ca52dc0b6e9e4b67bb}
-      \strng{authornamehash}{3a20a932bbfd8e3678afbb7ad427143f}
-      \strng{authorfullhash}{a2780f3b4d5d54ca52dc0b6e9e4b67bb}
+      \strng{namehash}{d8b2344aa35ac801b0984f99872d3b92}
+      \strng{fullhash}{be03e99246f52db9cd1342d6d3a77a84}
+      \strng{bibnamehash}{be03e99246f52db9cd1342d6d3a77a84}
+      \strng{authorbibnamehash}{be03e99246f52db9cd1342d6d3a77a84}
+      \strng{authornamehash}{d8b2344aa35ac801b0984f99872d3b92}
+      \strng{authorfullhash}{be03e99246f52db9cd1342d6d3a77a84}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Asia-Pacific Microwave Conference (APMC)}
+      \field{booktitle}{Asia-Pacific Microw. Conf. (APMC)}
       \field{month}{11}
-      \field{title}{Propagation of Compact-Modeling Measurement Uncertainty to 220 GHz Power-Amplifier Designs}
+      \field{title}{Propagation of Compact-Modeling Measurement Uncertainty to 220 {GH}z Power-Amplifier Designs}
       \field{year}{2018}
       \field{pages}{744\bibrangedash 746}
       \range{pages}{3}
@@ -343,16 +344,16 @@
     \endentry
     \entry{EA_2000}{report}{}
       \name{author}{1}{}{%
-        {{hash=530a702a20fb3fe10fd8f61216779927}{%
+        {{hash=b3fcd21fc0e3d18984c64138cc1bcaf5}{%
            family={{European co-operation for Accreditation}},
            familyi={E\bibinitperiod}}}%
       }
-      \strng{namehash}{530a702a20fb3fe10fd8f61216779927}
-      \strng{fullhash}{530a702a20fb3fe10fd8f61216779927}
-      \strng{bibnamehash}{530a702a20fb3fe10fd8f61216779927}
-      \strng{authorbibnamehash}{530a702a20fb3fe10fd8f61216779927}
-      \strng{authornamehash}{530a702a20fb3fe10fd8f61216779927}
-      \strng{authorfullhash}{530a702a20fb3fe10fd8f61216779927}
+      \strng{namehash}{b3fcd21fc0e3d18984c64138cc1bcaf5}
+      \strng{fullhash}{b3fcd21fc0e3d18984c64138cc1bcaf5}
+      \strng{bibnamehash}{b3fcd21fc0e3d18984c64138cc1bcaf5}
+      \strng{authorbibnamehash}{b3fcd21fc0e3d18984c64138cc1bcaf5}
+      \strng{authornamehash}{b3fcd21fc0e3d18984c64138cc1bcaf5}
+      \strng{authorfullhash}{b3fcd21fc0e3d18984c64138cc1bcaf5}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
@@ -365,16 +366,16 @@
     \endentry
     \entry{EURAMET_2011}{report}{}
       \name{author}{1}{}{%
-        {{hash=5ebd29594b1e1e588cc824885092a3aa}{%
+        {{hash=d14408e8db65c67405e4c3a6ceb06f4a}{%
            family={{European Association of National Metrology Institutes (EURAMET)}},
            familyi={E\bibinitperiod}}}%
       }
-      \strng{namehash}{5ebd29594b1e1e588cc824885092a3aa}
-      \strng{fullhash}{5ebd29594b1e1e588cc824885092a3aa}
-      \strng{bibnamehash}{5ebd29594b1e1e588cc824885092a3aa}
-      \strng{authorbibnamehash}{5ebd29594b1e1e588cc824885092a3aa}
-      \strng{authornamehash}{5ebd29594b1e1e588cc824885092a3aa}
-      \strng{authorfullhash}{5ebd29594b1e1e588cc824885092a3aa}
+      \strng{namehash}{d14408e8db65c67405e4c3a6ceb06f4a}
+      \strng{fullhash}{d14408e8db65c67405e4c3a6ceb06f4a}
+      \strng{bibnamehash}{d14408e8db65c67405e4c3a6ceb06f4a}
+      \strng{authorbibnamehash}{d14408e8db65c67405e4c3a6ceb06f4a}
+      \strng{authornamehash}{d14408e8db65c67405e4c3a6ceb06f4a}
+      \strng{authorfullhash}{d14408e8db65c67405e4c3a6ceb06f4a}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
@@ -387,16 +388,17 @@
     \endentry
     \entry{GUM_2008}{misc}{}
       \name{author}{1}{}{%
-        {{hash=153002a54054a8dbc0005a9e63ef96af}{%
+        {{hash=b1439abdfe160482b4cdeec639fd2806}{%
            family={{BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP and OIML}},
            familyi={B\bibinitperiod}}}%
       }
-      \strng{namehash}{153002a54054a8dbc0005a9e63ef96af}
-      \strng{fullhash}{153002a54054a8dbc0005a9e63ef96af}
-      \strng{bibnamehash}{153002a54054a8dbc0005a9e63ef96af}
-      \strng{authorbibnamehash}{153002a54054a8dbc0005a9e63ef96af}
-      \strng{authornamehash}{153002a54054a8dbc0005a9e63ef96af}
-      \strng{authorfullhash}{153002a54054a8dbc0005a9e63ef96af}
+      \strng{namehash}{b1439abdfe160482b4cdeec639fd2806}
+      \strng{fullhash}{b1439abdfe160482b4cdeec639fd2806}
+      \strng{bibnamehash}{b1439abdfe160482b4cdeec639fd2806}
+      \strng{authorbibnamehash}{b1439abdfe160482b4cdeec639fd2806}
+      \strng{authornamehash}{b1439abdfe160482b4cdeec639fd2806}
+      \strng{authorfullhash}{b1439abdfe160482b4cdeec639fd2806}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
@@ -412,33 +414,36 @@
     \endentry
     \entry{Hoffman_2007}{inproceedings}{}
       \name{author}{4}{}{%
-        {{hash=9874e102503fce2e2db493dcf0a389c0}{%
+        {{hash=3b7f740e3de87f9fd169e254c63a7fc5}{%
            family={{Hoffmann}},
            familyi={H\bibinitperiod},
            given={J.\bibnamedelimi P.},
            giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=f5093a8ffa8673c60cce8080df7149f7}{%
+        {{hash=0d9b75f1bb08a466bdca454625b6f4f7}{%
            family={{Leuchtmann}},
            familyi={L\bibinitperiod},
            given={P.},
            giveni={P\bibinitperiod}}}%
-        {{hash=725fa30033a71e86c4403b6ca2a0f57c}{%
+        {{hash=50d1be16333af1af6b2c308f6c115f3b}{%
            family={{Schaub}},
            familyi={S\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod}}}%
-        {{hash=7f1bab6acdd1ab8048d188e6dcb0bb33}{%
+        {{hash=5cfaa0ab029a57c467222e52683e11a7}{%
            family={{Vahldieck}},
            familyi={V\bibinitperiod},
            given={R.},
            giveni={R\bibinitperiod}}}%
       }
-      \strng{namehash}{ae3a4e93d864ea063407f0ed67e9b9fb}
-      \strng{fullhash}{b5d622335ff1d99854f11450d659a22d}
-      \strng{bibnamehash}{b5d622335ff1d99854f11450d659a22d}
-      \strng{authorbibnamehash}{b5d622335ff1d99854f11450d659a22d}
-      \strng{authornamehash}{ae3a4e93d864ea063407f0ed67e9b9fb}
-      \strng{authorfullhash}{b5d622335ff1d99854f11450d659a22d}
+      \list{location}{1}{%
+        {Honolulu, HI, USA}%
+      }
+      \strng{namehash}{a85a66bda5c518b114e3d42926b26fc1}
+      \strng{fullhash}{e0ca3b9b357863583235b25e49072612}
+      \strng{bibnamehash}{e0ca3b9b357863583235b25e49072612}
+      \strng{authorbibnamehash}{e0ca3b9b357863583235b25e49072612}
+      \strng{authornamehash}{a85a66bda5c518b114e3d42926b26fc1}
+      \strng{authorfullhash}{e0ca3b9b357863583235b25e49072612}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
@@ -484,38 +489,38 @@
     \endentry
     \entry{Lewandowski_2010B}{article}{}
       \name{author}{5}{}{%
-        {{hash=325310ac58ce5afc2f781daa6fb596c8}{%
+        {{hash=207400fc3d619766bf5fec68e698646e}{%
            family={{Lewandowski}},
            familyi={L\bibinitperiod},
            given={A.},
            giveni={A\bibinitperiod}}}%
-        {{hash=d3ba843c131b901b1148ef2be621fe4c}{%
+        {{hash=894a26e0347e1a769804de4b0068f0f4}{%
            family={{Williams}},
            familyi={W\bibinitperiod},
            given={D.\bibnamedelimi F.},
            giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=b4574a2edba8852bbb820259af3ba680}{%
+        {{hash=2394d747e72876113ee35ed4756b1018}{%
            family={{Hale}},
            familyi={H\bibinitperiod},
            given={P.\bibnamedelimi D.},
            giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=829a7538e2fa9ee12193d2435b171267}{%
+        {{hash=4492e5ca96757f0b8acb0fcce095ce41}{%
            family={{Wang}},
            familyi={W\bibinitperiod},
            given={J.\bibnamedelimi C.\bibnamedelimi M.},
            giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=fd33da109ad7f4ccb92da3972aaf583a}{%
+        {{hash=58254a954e9680c50d60d84227dc8419}{%
            family={{Dienstfrey}},
            familyi={D\bibinitperiod},
            given={A.},
            giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{cf512255eefb83d946d2868fbe2a9938}
-      \strng{fullhash}{f0dbfb908e0b05299828f0cd3774e0d0}
-      \strng{bibnamehash}{f0dbfb908e0b05299828f0cd3774e0d0}
-      \strng{authorbibnamehash}{f0dbfb908e0b05299828f0cd3774e0d0}
-      \strng{authornamehash}{cf512255eefb83d946d2868fbe2a9938}
-      \strng{authorfullhash}{f0dbfb908e0b05299828f0cd3774e0d0}
+      \strng{namehash}{f8f661e69ed2e00b785550d90450f470}
+      \strng{fullhash}{4e4aa5c601c02192f5f76dadb484ae86}
+      \strng{bibnamehash}{4e4aa5c601c02192f5f76dadb484ae86}
+      \strng{authorbibnamehash}{4e4aa5c601c02192f5f76dadb484ae86}
+      \strng{authornamehash}{f8f661e69ed2e00b785550d90450f470}
+      \strng{authorfullhash}{4e4aa5c601c02192f5f76dadb484ae86}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
@@ -574,16 +579,16 @@
     \endentry
     \entry{MUFWebsite}{online}{}
       \name{author}{1}{}{%
-        {{hash=de1c9ba771ed998067e14fdbc2a24980}{%
+        {{hash=8b50a388cab83f8535bbb86a50ba3e23}{%
            family={{National Institute of Science and Technology}},
            familyi={N\bibinitperiod}}}%
       }
-      \strng{namehash}{de1c9ba771ed998067e14fdbc2a24980}
-      \strng{fullhash}{de1c9ba771ed998067e14fdbc2a24980}
-      \strng{bibnamehash}{de1c9ba771ed998067e14fdbc2a24980}
-      \strng{authorbibnamehash}{de1c9ba771ed998067e14fdbc2a24980}
-      \strng{authornamehash}{de1c9ba771ed998067e14fdbc2a24980}
-      \strng{authorfullhash}{de1c9ba771ed998067e14fdbc2a24980}
+      \strng{namehash}{8b50a388cab83f8535bbb86a50ba3e23}
+      \strng{fullhash}{8b50a388cab83f8535bbb86a50ba3e23}
+      \strng{bibnamehash}{8b50a388cab83f8535bbb86a50ba3e23}
+      \strng{authorbibnamehash}{8b50a388cab83f8535bbb86a50ba3e23}
+      \strng{authornamehash}{8b50a388cab83f8535bbb86a50ba3e23}
+      \strng{authorfullhash}{8b50a388cab83f8535bbb86a50ba3e23}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
@@ -602,43 +607,43 @@
     \endentry
     \entry{Avolio_2015}{article}{}
       \name{author}{6}{}{%
-        {{hash=d56cd6f2c352193393ab7b8c0f7e6a88}{%
+        {{hash=2c9260b2bfe690e6c644c2336e72b1da}{%
            family={{Avolio}},
            familyi={A\bibinitperiod},
            given={G.},
            giveni={G\bibinitperiod}}}%
-        {{hash=b0888e31095149f18763e79a737f959e}{%
+        {{hash=68ae3260fe2c1ccb04f715795e69be21}{%
            family={{Raffo}},
            familyi={R\bibinitperiod},
            given={A.},
            giveni={A\bibinitperiod}}}%
-        {{hash=eff9df2e93a0cc06572edabeea8ba4f3}{%
+        {{hash=d8cfabf8f058aad0677ddbafc013a3b4}{%
            family={{Jargon}},
            familyi={J\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod}}}%
-        {{hash=b4574a2edba8852bbb820259af3ba680}{%
+        {{hash=2394d747e72876113ee35ed4756b1018}{%
            family={{Hale}},
            familyi={H\bibinitperiod},
            given={P.\bibnamedelimi D.},
            giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=e5307976a3646cd93f73ceee8ddc4e27}{%
+        {{hash=d75ae326fd30ec177ba33c8f73635296}{%
            family={{Schreurs}},
            familyi={S\bibinitperiod},
            given={D.\bibnamedelimi M.\bibnamedelimi M-P.},
            giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim M\bibinithyphendelim P\bibinitperiod}}}%
-        {{hash=d3ba843c131b901b1148ef2be621fe4c}{%
+        {{hash=894a26e0347e1a769804de4b0068f0f4}{%
            family={{Williams}},
            familyi={W\bibinitperiod},
            given={D.\bibnamedelimi F.},
            giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
       }
-      \strng{namehash}{f5da083caea1d4c56a3cd5445f31a471}
-      \strng{fullhash}{bec8c41be2f5afdb094492ad5791fbae}
-      \strng{bibnamehash}{bec8c41be2f5afdb094492ad5791fbae}
-      \strng{authorbibnamehash}{bec8c41be2f5afdb094492ad5791fbae}
-      \strng{authornamehash}{f5da083caea1d4c56a3cd5445f31a471}
-      \strng{authorfullhash}{bec8c41be2f5afdb094492ad5791fbae}
+      \strng{namehash}{50f07fa9b755695f624b026191a3241f}
+      \strng{fullhash}{287e659704dda15f0b8f71bee1479b9d}
+      \strng{bibnamehash}{287e659704dda15f0b8f71bee1479b9d}
+      \strng{authorbibnamehash}{287e659704dda15f0b8f71bee1479b9d}
+      \strng{authornamehash}{50f07fa9b755695f624b026191a3241f}
+      \strng{authorfullhash}{287e659704dda15f0b8f71bee1479b9d}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
@@ -659,38 +664,39 @@
     \endentry
     \entry{Williams_2016}{article}{}
       \name{author}{5}{}{%
-        {{hash=d3ba843c131b901b1148ef2be621fe4c}{%
+        {{hash=894a26e0347e1a769804de4b0068f0f4}{%
            family={{Williams}},
            familyi={W\bibinitperiod},
            given={D.\bibnamedelimi F.},
            giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=6a9bad778863a5a8bca54ed71f46dd09}{%
+        {{hash=49df329a23aec906895ee56f2cedd918}{%
            family={{Chamberlin}},
            familyi={C\bibinitperiod},
            given={R.\bibnamedelimi A.},
            giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=bf5a23930fdd96e7badb2fdadc36307a}{%
+        {{hash=2386e489f61f61ba612b4e137e1eefd7}{%
            family={{Zhao}},
            familyi={Z\bibinitperiod},
            given={W.},
            giveni={W\bibinitperiod}}}%
-        {{hash=511baa4a54e7ebf9a88870ccf22f0149}{%
+        {{hash=b7e1eec3e1021207d9ddbe16282e592a}{%
            family={{Cheron}},
            familyi={C\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod}}}%
-        {{hash=bdd3aa88a297628a9516de9b0f7b8004}{%
+        {{hash=fa913028f68fe66c6789f148ba6e489a}{%
            family={{Urteaga}},
            familyi={U\bibinitperiod},
            given={M.\bibnamedelimi E.},
            giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
       }
-      \strng{namehash}{bcab3d13902c1fab38db0273cbe385ba}
-      \strng{fullhash}{f632ad1c5ec9f22e585fa9964c7891d3}
-      \strng{bibnamehash}{f632ad1c5ec9f22e585fa9964c7891d3}
-      \strng{authorbibnamehash}{f632ad1c5ec9f22e585fa9964c7891d3}
-      \strng{authornamehash}{bcab3d13902c1fab38db0273cbe385ba}
-      \strng{authorfullhash}{f632ad1c5ec9f22e585fa9964c7891d3}
+      \strng{namehash}{134c36f409ccaefa5109c7addbc711f7}
+      \strng{fullhash}{09b7156c4e265bf59ab8b397bbed91ec}
+      \strng{bibnamehash}{09b7156c4e265bf59ab8b397bbed91ec}
+      \strng{authorbibnamehash}{09b7156c4e265bf59ab8b397bbed91ec}
+      \strng{authornamehash}{134c36f409ccaefa5109c7addbc711f7}
+      \strng{authorfullhash}{09b7156c4e265bf59ab8b397bbed91ec}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
@@ -710,48 +716,48 @@
     \endentry
     \entry{Dahlman_2014}{article}{}
       \name{author}{7}{}{%
-        {{hash=8d2adb75e9fc288c708031ec5f0a64a5}{%
+        {{hash=f8f748cea6862b2e99b19e380c934a06}{%
            family={{Dahlman}},
            familyi={D\bibinitperiod},
            given={E.},
            giveni={E\bibinitperiod}}}%
-        {{hash=cb0f80ecdb4fb238d5ef9a5a3e9d92d5}{%
+        {{hash=eefcdd45f0550f7da4eca1649298c069}{%
            family={{Mildh}},
            familyi={M\bibinitperiod},
            given={G.},
            giveni={G\bibinitperiod}}}%
-        {{hash=5b63edae8f2cb7760559611159bac40b}{%
+        {{hash=4e822b4be25bdff471a48d7a9d08c8b8}{%
            family={{Parkvall}},
            familyi={P\bibinitperiod},
            given={S.},
            giveni={S\bibinitperiod}}}%
-        {{hash=e044c0a037fd017810df630199407b14}{%
+        {{hash=554a2147703aaf51381cd4485eb5aff3}{%
            family={{Peisa}},
            familyi={P\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod}}}%
-        {{hash=59a36e7d6ebd2c66e0c995279b8ed92d}{%
+        {{hash=0172775c37b339b905d0e72fbfe9a9e3}{%
            family={{Sachs}},
            familyi={S\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod}}}%
-        {{hash=7b32b83631ba8924ae877f437d45fbb8}{%
+        {{hash=b567fa2fe0c3db8dd65ff75d0f0f2c85}{%
            family={{Selén}},
            familyi={S\bibinitperiod},
            given={Y.},
            giveni={Y\bibinitperiod}}}%
-        {{hash=cd122fc01aacc9c3264073ee85b442cd}{%
+        {{hash=0fdf7e234cf999fa1cd66c94fb6b2e19}{%
            family={{Sköld}},
            familyi={S\bibinitperiod},
            given={J.},
            giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{195ae4c78e6471e14f4e1cc638e8ca69}
-      \strng{fullhash}{f5a234f522cb636c3c6630d49f47fdf9}
-      \strng{bibnamehash}{f5a234f522cb636c3c6630d49f47fdf9}
-      \strng{authorbibnamehash}{f5a234f522cb636c3c6630d49f47fdf9}
-      \strng{authornamehash}{195ae4c78e6471e14f4e1cc638e8ca69}
-      \strng{authorfullhash}{f5a234f522cb636c3c6630d49f47fdf9}
+      \strng{namehash}{0f3813e207c46aceef348c99bf3de050}
+      \strng{fullhash}{e9a633693b7c0fcbde1832bcf0083dbc}
+      \strng{bibnamehash}{e9a633693b7c0fcbde1832bcf0083dbc}
+      \strng{authorbibnamehash}{e9a633693b7c0fcbde1832bcf0083dbc}
+      \strng{authornamehash}{0f3813e207c46aceef348c99bf3de050}
+      \strng{authorfullhash}{e9a633693b7c0fcbde1832bcf0083dbc}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
@@ -771,17 +777,17 @@
     \endentry
     \entry{Stant_2016}{article}{}
       \name{author}{3}{}{%
-        {{hash=f00a876f9d1c481b6ffe0e9c80634367}{%
+        {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
            family={Stant},
            familyi={S\bibinitperiod},
            given={L.\bibnamedelimi T.},
            giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=0d69723dc0f7b319726e3c104c380985}{%
+        {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
            family={Aaen},
            familyi={A\bibinitperiod},
            given={P.\bibnamedelimi H.},
            giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=d9f50c82b3f35f41ea3a4a23eee985bc}{%
+        {{hash=7456470a8b102ff66439a30d2678b78e}{%
            family={Ridler},
            familyi={R\bibinitperiod},
            given={N.\bibnamedelimi M.},
@@ -790,12 +796,13 @@
       \list{publisher}{1}{%
         {Elsevier {BV}}%
       }
-      \strng{namehash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \strng{fullhash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \strng{bibnamehash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \strng{authorbibnamehash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \strng{authornamehash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \strng{authorfullhash}{f89caf23c88d12cfec647b6af3aa3c31}
+      \strng{namehash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{fullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{bibnamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{authorbibnamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{authornamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{authorfullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
@@ -813,21 +820,22 @@
     \endentry
     \entry{GUM_S1}{misc}{}
       \name{author}{1}{}{%
-        {{hash=153002a54054a8dbc0005a9e63ef96af}{%
+        {{hash=b1439abdfe160482b4cdeec639fd2806}{%
            family={{BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP and OIML}},
            familyi={B\bibinitperiod}}}%
       }
-      \strng{namehash}{153002a54054a8dbc0005a9e63ef96af}
-      \strng{fullhash}{153002a54054a8dbc0005a9e63ef96af}
-      \strng{bibnamehash}{153002a54054a8dbc0005a9e63ef96af}
-      \strng{authorbibnamehash}{153002a54054a8dbc0005a9e63ef96af}
-      \strng{authornamehash}{153002a54054a8dbc0005a9e63ef96af}
-      \strng{authorfullhash}{153002a54054a8dbc0005a9e63ef96af}
+      \strng{namehash}{b1439abdfe160482b4cdeec639fd2806}
+      \strng{fullhash}{b1439abdfe160482b4cdeec639fd2806}
+      \strng{bibnamehash}{b1439abdfe160482b4cdeec639fd2806}
+      \strng{authorbibnamehash}{b1439abdfe160482b4cdeec639fd2806}
+      \strng{authornamehash}{b1439abdfe160482b4cdeec639fd2806}
+      \strng{authorfullhash}{b1439abdfe160482b4cdeec639fd2806}
+      \field{extraname}{2}
       \field{sortinit}{3}
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{Supplement 1 to the “Guide to the Expression of Uncertainty in Measurement" – Propagation of distributions using a Monte Carlo method JCGM 101:2008}}
+      \field{title}{{Supplement 1 to the “Guide to the Expression of Uncertainty in Measurement" - Propagation of distributions using a Monte Carlo method JCGM 101:2008}}
       \field{year}{2008}
       \verb{urlraw}
       \verb http://www.bipm.org/utils/common/documents/jcgm/JCGM 101 2008 E.pdf
@@ -838,21 +846,22 @@
     \endentry
     \entry{GUM_S2}{misc}{}
       \name{author}{1}{}{%
-        {{hash=153002a54054a8dbc0005a9e63ef96af}{%
+        {{hash=b1439abdfe160482b4cdeec639fd2806}{%
            family={{BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP and OIML}},
            familyi={B\bibinitperiod}}}%
       }
-      \strng{namehash}{153002a54054a8dbc0005a9e63ef96af}
-      \strng{fullhash}{153002a54054a8dbc0005a9e63ef96af}
-      \strng{bibnamehash}{153002a54054a8dbc0005a9e63ef96af}
-      \strng{authorbibnamehash}{153002a54054a8dbc0005a9e63ef96af}
-      \strng{authornamehash}{153002a54054a8dbc0005a9e63ef96af}
-      \strng{authorfullhash}{153002a54054a8dbc0005a9e63ef96af}
+      \strng{namehash}{b1439abdfe160482b4cdeec639fd2806}
+      \strng{fullhash}{b1439abdfe160482b4cdeec639fd2806}
+      \strng{bibnamehash}{b1439abdfe160482b4cdeec639fd2806}
+      \strng{authorbibnamehash}{b1439abdfe160482b4cdeec639fd2806}
+      \strng{authornamehash}{b1439abdfe160482b4cdeec639fd2806}
+      \strng{authorfullhash}{b1439abdfe160482b4cdeec639fd2806}
+      \field{extraname}{3}
       \field{sortinit}{3}
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{Supplement 2 to the “Guide to the Expression of Uncertainty in Measurement" – Extension to any number of output quantities JCGM 102:2011}}
+      \field{title}{{Supplement 2 to the “Guide to the Expression of Uncertainty in Measurement" - Extension to any number of output quantities JCGM 102:2011}}
       \field{year}{2011}
       \verb{urlraw}
       \verb http://www.bipm.org/utils/common/documents/jcgm/JCGM 102 2011 E.pdf
@@ -863,17 +872,17 @@
     \endentry
     \entry{Stant_2017}{article}{}
       \name{author}{3}{}{%
-        {{hash=f00a876f9d1c481b6ffe0e9c80634367}{%
+        {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
            family={Stant},
            familyi={S\bibinitperiod},
            given={L.\bibnamedelimi T.},
            giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=0d69723dc0f7b319726e3c104c380985}{%
+        {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
            family={Aaen},
            familyi={A\bibinitperiod},
            given={P.\bibnamedelimi H.},
            giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=d9f50c82b3f35f41ea3a4a23eee985bc}{%
+        {{hash=7456470a8b102ff66439a30d2678b78e}{%
            family={Ridler},
            familyi={R\bibinitperiod},
            given={N.\bibnamedelimi M.},
@@ -883,12 +892,13 @@
         {Institution of Engineering}%
         {Technology ({IET})}%
       }
-      \strng{namehash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \strng{fullhash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \strng{bibnamehash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \strng{authorbibnamehash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \strng{authornamehash}{f89caf23c88d12cfec647b6af3aa3c31}
-      \strng{authorfullhash}{f89caf23c88d12cfec647b6af3aa3c31}
+      \strng{namehash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{fullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{bibnamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{authorbibnamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{authornamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \strng{authorfullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
+      \field{extraname}{2}
       \field{sortinit}{3}
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
@@ -907,45 +917,47 @@
     \endentry
     \entry{Stant_2018_TMTT}{article}{}
       \name{author}{5}{}{%
-        {{hash=f00a876f9d1c481b6ffe0e9c80634367}{%
+        {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
            family={Stant},
            familyi={S\bibinitperiod},
            given={L.\bibnamedelimi T.},
            giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=c3919dff1bbaf63996fea89b8da3f76a}{%
+        {{hash=b837a3146918ad772bf16460ea11c387}{%
            family={Salter},
            familyi={S\bibinitperiod},
            given={M.\bibnamedelimi J.},
            giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=d9f50c82b3f35f41ea3a4a23eee985bc}{%
+        {{hash=7456470a8b102ff66439a30d2678b78e}{%
            family={Ridler},
            familyi={R\bibinitperiod},
            given={N.\bibnamedelimi M.},
            giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=d3ba843c131b901b1148ef2be621fe4c}{%
+        {{hash=894a26e0347e1a769804de4b0068f0f4}{%
            family={Williams},
            familyi={W\bibinitperiod},
            given={D.\bibnamedelimi F.},
            giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=0d69723dc0f7b319726e3c104c380985}{%
+        {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
            family={Aaen},
            familyi={A\bibinitperiod},
            given={P.\bibnamedelimi H.},
            giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
       }
-      \strng{namehash}{d98078be957d4cd5a62ad60c1d81fc66}
-      \strng{fullhash}{800d7ecf6cc82f5e4731dd054ece4f3f}
-      \strng{bibnamehash}{800d7ecf6cc82f5e4731dd054ece4f3f}
-      \strng{authorbibnamehash}{800d7ecf6cc82f5e4731dd054ece4f3f}
-      \strng{authornamehash}{d98078be957d4cd5a62ad60c1d81fc66}
-      \strng{authorfullhash}{800d7ecf6cc82f5e4731dd054ece4f3f}
+      \strng{namehash}{2e53cf84fdd29e73dafa62eb9f738f9b}
+      \strng{fullhash}{e7b8c1bbb7b21d18b93e1c35618f0b1a}
+      \strng{bibnamehash}{e7b8c1bbb7b21d18b93e1c35618f0b1a}
+      \strng{authorbibnamehash}{e7b8c1bbb7b21d18b93e1c35618f0b1a}
+      \strng{authornamehash}{2e53cf84fdd29e73dafa62eb9f738f9b}
+      \strng{authorfullhash}{e7b8c1bbb7b21d18b93e1c35618f0b1a}
       \field{sortinit}{3}
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
       \field{month}{11}
+      \field{number}{2}
       \field{title}{Propagating Measurement Uncertainty to Microwave Amplifier Nonlinear Behavioural Models}
+      \field{volume}{67}
       \field{year}{2018}
       \field{pages}{815\bibrangedash 821}
       \range{pages}{7}
