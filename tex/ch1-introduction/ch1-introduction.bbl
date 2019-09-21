@@ -171,6 +171,61 @@
       \endverb
       \keyw{5G mobile communication;gallium compounds;III-V semiconductors;microwave power amplifiers;wide band gap semiconductors;wideband amplifiers;broadband parallel Doherty power amplifier;wideband parallel symmetric Doherty power amplifier;base-station applications;5G applications;frequency 3.3 GHz to 3.6 GHz;bandwidth 300.0 MHz;gain 9.0 dB;gain 3.0 dB;GaN;Power amplifiers;Bandwidth;Power generation;Impedance;Gallium nitride;Gain;Solid modeling;Base station;Doherty;power amplifier;gallium nitride;load modulation;saturated output power;transmitter}
     \endentry
+    \entry{Camarchia_2015}{article}{}
+      \name{author}{6}{}{%
+        {{hash=4202d7a3d1f3f8d65c83237eaf6a7467}{%
+           family={Camarchia},
+           familyi={C\bibinitperiod},
+           given={Vittorio},
+           giveni={V\bibinitperiod}}}%
+        {{hash=a89a79d5b19c7a18f50bf4e161a68222}{%
+           family={Pirola},
+           familyi={P\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=482c2c7075404e4b1776d04be631900e}{%
+           family={Quaglia},
+           familyi={Q\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7a9966da1800535edd2b95c70791844a}{%
+           family={Jee},
+           familyi={J\bibinitperiod},
+           given={Seunghoon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b01aea547727f439612761a45543dd6d}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={Yunsung},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=4d1086c36030d585f9d8924ea65142e6}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Bumman},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{534d80b2cc2183bfd9605cad8486dbf9}
+      \strng{fullhash}{d37fe33e323dd6a15a77a04a193dc82e}
+      \strng{bibnamehash}{d37fe33e323dd6a15a77a04a193dc82e}
+      \strng{authorbibnamehash}{d37fe33e323dd6a15a77a04a193dc82e}
+      \strng{authornamehash}{534d80b2cc2183bfd9605cad8486dbf9}
+      \strng{authorfullhash}{d37fe33e323dd6a15a77a04a193dc82e}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{The Doherty power amplifier: Review of recent solutions and trends}
+      \field{volume}{63}
+      \field{year}{2015}
+      \field{pages}{559\bibrangedash 571}
+      \range{pages}{13}
+    \endentry
     \entry{Aaen_2007}{book}{}
       \name{author}{3}{}{%
         {{hash=2cf4a20f3f16ddd18f17926148390443}{%
@@ -198,8 +253,8 @@
       \strng{authorbibnamehash}{5af2c77bfeb80a01feee2b8253b42534}
       \strng{authornamehash}{5af2c77bfeb80a01feee2b8253b42534}
       \strng{authorfullhash}{5af2c77bfeb80a01feee2b8253b42534}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{series}{The Cambridge RF and Microwave Engineering Series}
@@ -210,8 +265,8 @@
       \endverb
     \endentry
     \entry{nxp_pic}{online}{}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labeltitlesource}{title}
       \field{title}{{NXP MRFX1K80H} 65 {V} wideband {RF} power {LDMOS} transistor}
       \field{urlday}{19}
@@ -263,8 +318,8 @@
       \strng{authornamehash}{134c36f409ccaefa5109c7addbc711f7}
       \strng{authorfullhash}{09b7156c4e265bf59ab8b397bbed91ec}
       \field{extraname}{1}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{IEEE Compound Semicond. Integr. Circuit Symp. (CSICS)}
@@ -915,6 +970,47 @@
       \verb 10.1049/iet-map.2016.0455
       \endverb
     \endentry
+    \entry{Song_2018}{article}{}
+      \name{author}{3}{}{%
+        {{hash=595a3b9daf2838911d5e8dc95dfa20be}{%
+           family={{Song}},
+           familyi={S\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=08758bafdb9130ec0225725f9dd89522}{%
+           family={{Hamada}},
+           familyi={H\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b38dd16fffcaa24505e7b5ad02d40952}{%
+           family={{Yaita}},
+           familyi={Y\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{91f6b15d8ba951fb2c800206bfac24cd}
+      \strng{fullhash}{91f6b15d8ba951fb2c800206bfac24cd}
+      \strng{bibnamehash}{91f6b15d8ba951fb2c800206bfac24cd}
+      \strng{authorbibnamehash}{91f6b15d8ba951fb2c800206bfac24cd}
+      \strng{authornamehash}{91f6b15d8ba951fb2c800206bfac24cd}
+      \strng{authorfullhash}{91f6b15d8ba951fb2c800206bfac24cd}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Communications Magazine}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{Prototype of KIOSK Data Downloading System at 300 GHz: Design, Technical Feasibility, and Results}
+      \field{volume}{56}
+      \field{year}{2018}
+      \field{pages}{130\bibrangedash 136}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/MCOM.2018.1000939
+      \endverb
+      \keyw{forward error correction;radiocommunication;wireless channels;semiconductor device technologies;electromagnetic spectrum;wireless systems;forward error correction algorithms;KIOSK data downloading system;frequency 300.0 GHz;Wireless communication;Bandwidth;Receiving antennas;Transmitting antennas;Data transfer;Semiconductor devices;Heterogeneous networks}
+    \endentry
     \entry{Stant_2018_TMTT}{article}{}
       \name{author}{5}{}{%
         {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
@@ -961,6 +1057,22 @@
       \field{year}{2018}
       \field{pages}{815\bibrangedash 821}
       \range{pages}{7}
+    \endentry
+    \entry{Williams_Author}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labeltitlesource}{title}
+      \field{title}{Dylan Williams IEEE Xplore Author Details}
+      \field{urlday}{21}
+      \field{urlmonth}{9}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/author/37085349096
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/author/37085349096
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

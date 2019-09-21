@@ -17,7 +17,7 @@
 \endgroup
 
 
-\refsection{1}
+\refsection{0}
   \datalist[entry]{none/global//global/global}
     \entry{ISO9000}{standard}{}
       \name{author}{1}{}{%
@@ -26,7 +26,7 @@
            familyi={I\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {Genève, Switzerland}%
+        {{Genève}, Switzerland}%
       }
       \list{organization}{1}{%
         {International Organization for Standardization}%
@@ -58,7 +58,7 @@
            familyi={I\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {Genève, Switzerland}%
+        {{Genève}, Switzerland}%
       }
       \list{organization}{1}{%
         {International Organization for Standardization}%
@@ -424,6 +424,9 @@
            given={D.\bibnamedelimi K.},
            giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
       }
+      \list{location}{1}{%
+        {San Francisco, CA, USA}%
+      }
       \strng{namehash}{8df2e443bfedf7ab6e201cf73088e6a7}
       \strng{fullhash}{8df2e443bfedf7ab6e201cf73088e6a7}
       \strng{bibnamehash}{8df2e443bfedf7ab6e201cf73088e6a7}
@@ -434,7 +437,7 @@
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{58th ARFTG Conference Digest}
+      \field{booktitle}{58th ARFTG Microw. Meas. Conf. Dig.}
       \field{month}{11}
       \field{title}{Network Analyzer Accuracy Overview}
       \field{volume}{40}
@@ -454,6 +457,9 @@
            given={J.},
            giveni={J\bibinitperiod}}}%
       }
+      \list{location}{1}{%
+        {Tempe, AZ, USA}%
+      }
       \strng{namehash}{1bc9d15216e85a8b7b882538d3e463ed}
       \strng{fullhash}{1bc9d15216e85a8b7b882538d3e463ed}
       \strng{bibnamehash}{1bc9d15216e85a8b7b882538d3e463ed}
@@ -464,7 +470,7 @@
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2007 70th ARFTG Microwave Measurement Conference (ARFTG)}
+      \field{booktitle}{70th ARFTG Microw. Meas. Conf.}
       \field{month}{11}
       \field{title}{On quantifying the effects of receiver linearity on {VNA} calibrations}
       \field{year}{2007}
@@ -480,18 +486,21 @@
         {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
            family={Stant},
            familyi={S\bibinitperiod},
-           given={L.T.},
-           giveni={L\bibinitperiod}}}%
+           given={L.\bibnamedelimi T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
         {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
            family={Aaen},
            familyi={A\bibinitperiod},
-           given={P.H.},
-           giveni={P\bibinitperiod}}}%
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
         {{hash=7456470a8b102ff66439a30d2678b78e}{%
            family={Ridler},
            familyi={R\bibinitperiod},
-           given={N.M.},
-           giveni={N\bibinitperiod}}}%
+           given={N.\bibnamedelimi M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London, U.K.}%
       }
       \list{publisher}{2}{%
         {Institution of Engineering}%
@@ -508,7 +517,8 @@
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{IET Colloquium on Millimetre-Wave and Terahertz Engineering \& Technology 2016}
+      \field{booktitle}{IET Colloq. on Millimetre-Wave and Terahertz Eng. \& Technol.}
+      \field{month}{3}
       \field{title}{Evaluating residual errors in waveguide network analysers from microwave to submillimetre-wave frequencies}
       \field{year}{2016}
       \verb{doi}
@@ -520,18 +530,18 @@
         {{hash=0630c65220fb64f5c328dbf26187c4ab}{%
            family={Stant},
            familyi={S\bibinitperiod},
-           given={L.T.},
-           giveni={L\bibinitperiod}}}%
+           given={L.\bibnamedelimi T.},
+           giveni={L\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
         {{hash=f9bb9d8aebfb32022225b2978a74cbc5}{%
            family={Aaen},
            familyi={A\bibinitperiod},
-           given={P.H.},
-           giveni={P\bibinitperiod}}}%
+           given={P.\bibnamedelimi H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
         {{hash=7456470a8b102ff66439a30d2678b78e}{%
            family={Ridler},
            familyi={R\bibinitperiod},
-           given={N.M.},
-           giveni={N\bibinitperiod}}}%
+           given={N.\bibnamedelimi M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
       \list{publisher}{2}{%
         {Institution of Engineering}%
@@ -548,7 +558,7 @@
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IET Microwaves Antennas Propag.}
+      \field{journaltitle}{IET Microw. Antennas Propag.}
       \field{month}{2}
       \field{number}{3}
       \field{title}{Evaluating residual errors in waveguide {VNAs} from microwave to submillimetre-wave frequencies}
@@ -674,9 +684,10 @@
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Terahertz Science and Technology}
+      \field{journaltitle}{{IEEE} Trans. {THz} Sci. Technol.}
+      \field{month}{11}
       \field{number}{2}
-      \field{title}{500 GHz--750 GHz rectangular-waveguide vector-network-analyzer calibrations}
+      \field{title}{500 {GH}z--750 {GH}z rectangular-waveguide vector-network-analyzer calibrations}
       \field{volume}{1}
       \field{year}{2011}
       \field{pages}{364\bibrangedash 377}
@@ -705,6 +716,9 @@
            given={Robert\bibnamedelima M},
            giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
+      \list{location}{1}{%
+        {Montreal, QC, Canada}%
+      }
       \list{organization}{1}{%
         {IEEE}%
       }
@@ -718,8 +732,9 @@
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{79th ARFTG Microwave Measurement Conference}
-      \field{title}{Repeatability of waveguide flanges with worst-case tolerances in the 500--750 GHz band}
+      \field{booktitle}{79th ARFTG Microw. Meas. Conf.}
+      \field{month}{6}
+      \field{title}{Repeatability of waveguide flanges with worst-case tolerances in the 500--750 {GH}z band}
       \field{year}{2012}
       \field{pages}{1\bibrangedash 8}
       \range{pages}{8}
@@ -730,7 +745,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Std 1785.2-2016}
       \field{month}{9}
-      \field{title}{{IEEE} Standard for Rectangular Metallic Waveguides and Their Interfaces for Frequencies of 110 GHz and Above--Part 2: Waveguide Interfaces}
+      \field{title}{{IEEE} Standard for Rectangular Metallic Waveguides and Their Interfaces for Frequencies of 110 {GH}z and Above--Part 2: Waveguide Interfaces}
       \field{year}{2016}
       \field{pages}{1\bibrangedash 22}
       \range{pages}{22}
@@ -757,6 +772,9 @@
            given={J.},
            giveni={J\bibinitperiod}}}%
       }
+      \list{location}{1}{%
+        {Boulder, CO, USA}%
+      }
       \strng{namehash}{4a4df16b294c04dd5eaadf5456b57ccb}
       \strng{fullhash}{4a4df16b294c04dd5eaadf5456b57ccb}
       \strng{bibnamehash}{4a4df16b294c04dd5eaadf5456b57ccb}
@@ -767,7 +785,7 @@
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{84th ARFTG Microwave Measurement Conference}
+      \field{booktitle}{84th ARFTG Microw. Meas. Conf.}
       \field{month}{12}
       \field{title}{Two port calibration insensitive to flange misalignment}
       \field{year}{2014}
@@ -802,10 +820,10 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
-      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
       \field{month}{12}
       \field{number}{12}
-      \field{title}{A Unified Theory for $S$-Parameter Uncertainty Evaluation}
+      \field{title}{A Unified Theory for {S}-Parameter Uncertainty Evaluation}
       \field{volume}{60}
       \field{year}{2012}
       \field{pages}{3844\bibrangedash 3855}
@@ -919,6 +937,9 @@
            given={M.},
            giveni={M\bibinitperiod}}}%
       }
+      \list{location}{1}{%
+        {Montreal, QC, Canada}%
+      }
       \strng{namehash}{e26d19405911ff2d23c8b546a708308d}
       \strng{fullhash}{a706dafdd7a35962ce0dc7391dfce711}
       \strng{bibnamehash}{a706dafdd7a35962ce0dc7391dfce711}
@@ -929,9 +950,9 @@
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{79th ARFTG Microwave Measurement Conference}
+      \field{booktitle}{79th ARFTG Microw. Meas. Conf.}
       \field{month}{6}
-      \field{title}{{VNA} Tools {II}: S-parameter uncertainty calculation}
+      \field{title}{{VNA} Tools {II}: {S}-parameter uncertainty calculation}
       \field{year}{2012}
       \field{pages}{1\bibrangedash 5}
       \range{pages}{5}
@@ -942,17 +963,16 @@
     \endentry
     \entry{MUFWebsite}{online}{}
       \name{author}{1}{}{%
-        {{hash=0a1dc9ba6382e13835002ad4d9099b4e}{%
-           family={{Keysight Technologies}},
-           familyi={K\bibinitperiod}}}%
+        {{hash=8b50a388cab83f8535bbb86a50ba3e23}{%
+           family={{National Institute of Science and Technology}},
+           familyi={N\bibinitperiod}}}%
       }
-      \strng{namehash}{0a1dc9ba6382e13835002ad4d9099b4e}
-      \strng{fullhash}{0a1dc9ba6382e13835002ad4d9099b4e}
-      \strng{bibnamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
-      \strng{authorbibnamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
-      \strng{authornamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
-      \strng{authorfullhash}{0a1dc9ba6382e13835002ad4d9099b4e}
-      \field{extraname}{4}
+      \strng{namehash}{8b50a388cab83f8535bbb86a50ba3e23}
+      \strng{fullhash}{8b50a388cab83f8535bbb86a50ba3e23}
+      \strng{bibnamehash}{8b50a388cab83f8535bbb86a50ba3e23}
+      \strng{authorbibnamehash}{8b50a388cab83f8535bbb86a50ba3e23}
+      \strng{authornamehash}{8b50a388cab83f8535bbb86a50ba3e23}
+      \strng{authorfullhash}{8b50a388cab83f8535bbb86a50ba3e23}
       \field{sortinit}{4}
       \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
@@ -977,6 +997,9 @@
            given={R.\bibnamedelimi A.},
            giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
+      \list{location}{1}{%
+        {Austin, TX, USA}%
+      }
       \strng{namehash}{ab71610fa5e906b2b72b4e9f9c0d6540}
       \strng{fullhash}{ab71610fa5e906b2b72b4e9f9c0d6540}
       \strng{bibnamehash}{ab71610fa5e906b2b72b4e9f9c0d6540}
@@ -988,9 +1011,9 @@
       \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2016 88th ARFTG Microwave Measurement Conference (ARFTG)}
+      \field{booktitle}{88th ARFTG Microw. Meas. Conf.}
       \field{month}{12}
-      \field{title}{Kicking the tires of the NIST microwave uncertainty framework, part 1}
+      \field{title}{Kicking the tires of the {NIST} microwave uncertainty framework, part 1}
       \field{year}{2016}
       \field{pages}{1\bibrangedash 4}
       \range{pages}{4}
@@ -1007,6 +1030,9 @@
            given={R.\bibnamedelimi A.},
            giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
+      \list{location}{1}{%
+        {Boulder, CO, USA}%
+      }
       \strng{namehash}{ab71610fa5e906b2b72b4e9f9c0d6540}
       \strng{fullhash}{ab71610fa5e906b2b72b4e9f9c0d6540}
       \strng{bibnamehash}{ab71610fa5e906b2b72b4e9f9c0d6540}
@@ -1018,9 +1044,9 @@
       \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2017 90th ARFTG Microwave Measurement Symposium (ARFTG)}
+      \field{booktitle}{90th ARFTG Microw. Meas. Conf.}
       \field{month}{11}
-      \field{title}{Kicking the tires of the NIST microwave uncertainty framework, Part 2}
+      \field{title}{Kicking the tires of the {NIST} microwave uncertainty framework, Part 2}
       \field{year}{2017}
       \field{pages}{1\bibrangedash 4}
       \range{pages}{4}
@@ -1047,6 +1073,9 @@
            given={A.},
            giveni={A\bibinitperiod}}}%
       }
+      \list{location}{1}{%
+        {Orlando, FL, USA}%
+      }
       \strng{namehash}{97b94cb0c8e4bbaa90a3373f9c863b00}
       \strng{fullhash}{97b94cb0c8e4bbaa90a3373f9c863b00}
       \strng{bibnamehash}{97b94cb0c8e4bbaa90a3373f9c863b00}
@@ -1057,9 +1086,9 @@
       \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2019 92nd ARFTG Microwave Measurement Conference (ARFTG)}
+      \field{booktitle}{92nd ARFTG Microw. Meas. Conf.}
       \field{month}{1}
-      \field{title}{Three-Port Vector-Network-Analyzer Calibrations Using the NIST Microwave Uncertainty Framework}
+      \field{title}{Three-Port Vector-Network-Analyzer Calibrations Using the {NIST} Microwave Uncertainty Framework}
       \field{year}{2019}
       \field{pages}{1\bibrangedash 4}
       \range{pages}{4}
@@ -1117,11 +1146,14 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-926X}
-      \field{journaltitle}{IEEE Transactions on Antennas and Propagation}
-      \field{title}{Design of a Portable Verification Artifact for Millimeter-Wave-Frequency Channel Sounders1}
+      \field{journaltitle}{{IEEE} Trans. Antennas Propag.}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{Design of a Portable Verification Artifact for Millimeter-Wave-Frequency Channel Sounders}
+      \field{volume}{67}
       \field{year}{2019}
-      \field{pages}{1\bibrangedash 1}
-      \range{pages}{1}
+      \field{pages}{6149\bibrangedash 6158}
+      \range{pages}{10}
       \verb{doi}
       \verb 10.1109/TAP.2019.2902623
       \endverb
@@ -1171,7 +1203,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9456}
-      \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+      \field{journaltitle}{{IEEE} Trans. Instrum. Meas.}
       \field{month}{6}
       \field{number}{6}
       \field{title}{{NIST}-Traceable Microwave Power Measurement in a Waveguide Calorimeter With Correlated Uncertainties}
@@ -1202,6 +1234,9 @@
            given={D.\bibnamedelimi F.},
            giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
       }
+      \list{location}{1}{%
+        {Boulder, CO, USA}%
+      }
       \strng{namehash}{7abf612d0c6908fc7457dba9c4fe084a}
       \strng{fullhash}{7abf612d0c6908fc7457dba9c4fe084a}
       \strng{bibnamehash}{7abf612d0c6908fc7457dba9c4fe084a}
@@ -1212,7 +1247,7 @@
       \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Conference, 2003. Fall 2003. 62nd ARFTG Microwave Measurements}
+      \field{booktitle}{62nd ARFTG Microw. Meas. Conf.}
       \field{month}{12}
       \field{title}{Repeatability study of commercial harmonic phase standards measured by a nonlinear vector network analyzer}
       \field{year}{2003}
@@ -1257,7 +1292,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
-      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
       \field{month}{10}
       \field{number}{10}
       \field{title}{The Random Component of Mixer-Based Nonlinear Vector Network Analyzer Measurement Uncertainty}
@@ -1304,7 +1339,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
-      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
       \field{month}{2}
       \field{number}{2}
       \field{title}{Comb-Generator Characterization}
@@ -1371,10 +1406,10 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
-      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
       \field{month}{1}
       \field{number}{1}
-      \field{title}{Covariance-based uncertainty analysis of the NIST electrooptic sampling system}
+      \field{title}{Covariance-based uncertainty analysis of the {NIST} electrooptic sampling system}
       \field{volume}{54}
       \field{year}{2006}
       \field{pages}{481\bibrangedash 491}
@@ -1433,7 +1468,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9456}
-      \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+      \field{journaltitle}{{IEEE} Trans. Instrum. Meas.}
       \field{month}{10}
       \field{number}{10}
       \field{title}{Traceable Waveform Calibration With a Covariance-Based Uncertainty Analysis}
@@ -1446,7 +1481,7 @@
       \endverb
       \keyw{calibration;covariance matrices;electro-optical devices;equivalent circuits;oscilloscopes;pulse generators;traceable waveform calibration;covariance-based uncertainty analysis;step-like pulse generator;voltage calibration;equivalent-circuit model;equivalent-time sampling oscilloscope;electro-optic sampling system;National Institute of Standards and Technology;waveform vector;covariance matrix;parameter-based uncertainty analysis;Calibration;Uncertainty;Sampling methods;Voltage;Pulse generation;Pulse measurements;Time measurement;Oscilloscopes;Physics;NIST;Covariance matrices;deconvolution;oscilloscopes;pulse measurements;signals;uncertainty;waveforms}
     \endentry
-    \entry{Keysight_2017}{report}{}
+    \entry{Keysight_2017}{online}{}
       \name{author}{1}{}{%
         {{hash=0a1dc9ba6382e13835002ad4d9099b4e}{%
            family={{Keysight Technologies}},
@@ -1458,7 +1493,7 @@
       \strng{authorbibnamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
       \strng{authornamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
       \strng{authorfullhash}{0a1dc9ba6382e13835002ad4d9099b4e}
-      \field{extraname}{5}
+      \field{extraname}{4}
       \field{sortinit}{4}
       \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
@@ -1467,7 +1502,17 @@
       \field{number}{5989-7619EN}
       \field{title}{{Fundamentals of RF and Microwave Power Measurements (Part 3)}}
       \field{type}{techreport}
+      \field{urlday}{18}
+      \field{urlmonth}{8}
+      \field{urlyear}{2019}
       \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://literature.cdn.keysight.com/litweb/pdf/5988-9215EN.pdf
+      \endverb
+      \verb{url}
+      \verb https://literature.cdn.keysight.com/litweb/pdf/5988-9215EN.pdf
+      \endverb
     \endentry
     \entry{Rohde_2001}{report}{}
       \name{author}{1}{}{%
@@ -1518,7 +1563,7 @@
       \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{{IEEE} Transactions on Instrumentation and Measurement}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
       \field{month}{1}
       \field{number}{1}
       \field{title}{Covariance-Matrix-Based Uncertainty Analysis for {NVNA} Measurements}
@@ -1555,8 +1600,8 @@
         {{hash=d75ae326fd30ec177ba33c8f73635296}{%
            family={{Schreurs}},
            familyi={S\bibinitperiod},
-           given={D.\bibnamedelimi M.\bibnamedelimi M.\bibnamedelimi -P.},
-           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinithyphendelim P\bibinitperiod}}}%
+           given={D.\bibnamedelimi M.\bibnamedelimi M-P.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim M\bibinithyphendelim P\bibinitperiod}}}%
         {{hash=894a26e0347e1a769804de4b0068f0f4}{%
            family={{Williams}},
            familyi={W\bibinitperiod},
@@ -1574,7 +1619,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
-      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
+      \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
       \field{month}{7}
       \field{number}{7}
       \field{title}{Evaluation of Uncertainty in Temporal Waveforms of Microwave Transistors}
@@ -1631,7 +1676,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9456}
-      \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+      \field{journaltitle}{{IEEE} Trans. Instrum. Meas.}
       \field{month}{2}
       \field{number}{2}
       \field{title}{Principal Component Compression Method for Covariance Matrices Used for Uncertainty Propagation}

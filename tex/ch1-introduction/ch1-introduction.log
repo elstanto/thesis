@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.4)  19 SEP 2019 20:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.4)  21 SEP 2019 12:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1065,7 +1065,7 @@ Package pdftex.def Info: ../figs/ch1-intro/ch1_rfpa.jpg  used on input line 29.
 [3 <../figs/ch1-intro/ch1_rfpa.jpg>] [4]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 50.
+               Default added (so using `tbp') on input line 49.
 
 [5] [6] [7] (./ch1-introduction.aux)
 Package logreq Info: Writing requests to 'ch1-introduction.run.xml'.
@@ -1073,20 +1073,20 @@ Package logreq Info: Writing requests to 'ch1-introduction.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29510 strings out of 492609
- 533884 string characters out of 6132819
+ 29514 strings out of 492609
+ 534403 string characters out of 6132819
  1013613 words of memory out of 5000000
- 33144 multiletter control sequences out of 15000+600000
+ 33148 multiletter control sequences out of 15000+600000
  537495 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,7n,77p,2166b,979s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,7n,77p,2093b,979s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/tex
 live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2019/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2019/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/publ
 ic/cm-super/sfrm1000.pfb>
-Output written on ch1-introduction.pdf (7 pages, 720610 bytes).
+Output written on ch1-introduction.pdf (7 pages, 721146 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream

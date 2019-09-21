@@ -17,7 +17,7 @@
 \endgroup
 
 
-\refsection{1}
+\refsection{0}
   \datalist[entry]{none/global//global/global}
     \entry{Williams_2013}{article}{}
       \name{author}{1}{}{%
@@ -100,8 +100,11 @@
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Journal of research of the National Institute of Standards and Technology}
+      \field{booktitle}{J. Res. Natl. Inst. Stan.}
+      \field{month}{10}
+      \field{number}{5}
       \field{title}{A General Waveguide Circuit Theory}
+      \field{volume}{97}
       \field{year}{1992}
     \endentry
     \entry{Kurokawa_1965}{article}{}
@@ -226,14 +229,38 @@
       \field{year}{2004}
     \endentry
     \entry{Teppati_2013}{book}{}
+      \name{editor}{3}{}{%
+        {{hash=04fa09ab902a00b1162faac105bc662a}{%
+           family={Teppati},
+           familyi={T\bibinitperiod},
+           given={Valeria},
+           giveni={V\bibinitperiod}}}%
+        {{hash=204a9d4d96883b3dad2819bac493f2c4}{%
+           family={Ferrero},
+           familyi={F\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=60e64e56a8b4b10630db73a011e33347}{%
+           family={Sayed},
+           familyi={S\bibinitperiod},
+           given={Mohamed},
+           giveni={M\bibinitperiod}}}%
+      }
       \list{publisher}{1}{%
         {Cambridge University Press}%
       }
+      \strng{namehash}{e6a694958a8c298a8d1773d076b50e44}
+      \strng{fullhash}{e6a694958a8c298a8d1773d076b50e44}
+      \strng{bibnamehash}{e6a694958a8c298a8d1773d076b50e44}
+      \strng{editorbibnamehash}{e6a694958a8c298a8d1773d076b50e44}
+      \strng{editornamehash}{e6a694958a8c298a8d1773d076b50e44}
+      \strng{editorfullhash}{e6a694958a8c298a8d1773d076b50e44}
       \field{sortinit}{6}
       \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{editor}
       \field{labeltitlesource}{title}
       \field{series}{The Cambridge RF and Microwave Engineering Series}
-      \field{title}{Modern RF and Microwave Measurement Techniques}
+      \field{title}{Modern {RF} and Microwave Measurement Techniques}
       \field{year}{2013}
       \verb{doi}
       \verb 10.1017/CBO9781139567626
@@ -320,7 +347,7 @@
       \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Electrical Communications}
+      \field{journaltitle}{Elec. Commun.}
       \field{month}{3}
       \field{number}{1}
       \field{title}{Theory and Design of the Reflectometer}
@@ -407,7 +434,7 @@
       \endverb
     \endentry
     \entry{Collier_2007}{book}{}
-      \name{author}{2}{}{%
+      \name{editor}{2}{}{%
         {{hash=d4b4c6d4524cd5f2a054fbb552cb9d24}{%
            family={Collier},
            familyi={C\bibinitperiod},
@@ -426,12 +453,12 @@
       \strng{namehash}{3cd0cafa48380cd888140a1616ed86be}
       \strng{fullhash}{3cd0cafa48380cd888140a1616ed86be}
       \strng{bibnamehash}{3cd0cafa48380cd888140a1616ed86be}
-      \strng{authorbibnamehash}{3cd0cafa48380cd888140a1616ed86be}
-      \strng{authornamehash}{3cd0cafa48380cd888140a1616ed86be}
-      \strng{authorfullhash}{3cd0cafa48380cd888140a1616ed86be}
+      \strng{editorbibnamehash}{3cd0cafa48380cd888140a1616ed86be}
+      \strng{editornamehash}{3cd0cafa48380cd888140a1616ed86be}
+      \strng{editorfullhash}{3cd0cafa48380cd888140a1616ed86be}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
-      \field{labelnamesource}{author}
+      \field{labelnamesource}{editor}
       \field{labeltitlesource}{title}
       \field{isbn}{9780863417351}
       \field{series}{IET Electrical Measurement Series}
@@ -457,7 +484,7 @@
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{ARFTG Short Course on Measurements and Metrology for RF Telecommunications}
+      \field{journaltitle}{ARFTG Short Course on Meas. and Metrology for RF Telecommun.}
       \field{month}{11}
       \field{title}{Network analyzer error models and calibration methods}
       \field{year}{2000}
@@ -813,6 +840,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{1527-3342}
       \field{journaltitle}{{IEEE} Microw. Mag.}
+      \field{month}{11}
       \field{number}{6}
       \field{title}{A large-signal network analyzer: Why is it needed?}
       \field{volume}{7}
@@ -911,6 +939,9 @@
            familyi={T\bibinitperiod},
            given={P.\bibnamedelimi J.},
            giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Phoenix, AZ, USA}%
       }
       \strng{namehash}{c8c28a4fb8061439c4a63005215e79be}
       \strng{fullhash}{c8c28a4fb8061439c4a63005215e79be}

@@ -1997,13 +1997,6 @@
     <bcf:datasource type="file" datatype="bibtex">../references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-  </bcf:section>
-  <!-- SECTION 1 -->
-  <bcf:bibdata section="1">
-    <bcf:datasource type="file" datatype="bibtex">../IEEEabrv.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">../references.bib</bcf:datasource>
-  </bcf:bibdata>
-  <bcf:section number="1">
     <bcf:citekey order="1">Williams_2013</bcf:citekey>
     <bcf:citekey order="1">Marcuvitz_1951</bcf:citekey>
     <bcf:citekey order="1">Marks_1992</bcf:citekey>
@@ -2039,9 +2032,6 @@
     <bcf:citekey order="22">Lin_2012</bcf:citekey>
     <bcf:citekey order="23">Lin_2012</bcf:citekey>
   </bcf:section>
-  <!-- SECTION 0 (cont.) -->
-  <bcf:section number="0">
-  </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
     <bcf:sort order="1">
@@ -2049,13 +2039,4 @@
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
-  <bcf:datalist section="1"
-                name="none/global//global/global"
-                type="entry"
-                sortingtemplatename="none"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global">
-  </bcf:datalist>
 </bcf:controlfile>
