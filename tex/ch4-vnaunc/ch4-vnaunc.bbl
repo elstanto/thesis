@@ -368,6 +368,95 @@
       \verb https://www.anritsu.com/en-GB/test-measurement/support/downloads/software/dwl19572
       \endverb
     \endentry
+    \entry{Maury_Insight}{online}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labeltitlesource}{title}
+      \field{title}{Insight {VNA} Calibration and Measurement Software}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.maurymw.com/pdf/datasheets/4T-023.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.maurymw.com/pdf/datasheets/4T-023.pdf
+      \endverb
+    \endentry
+    \entry{Ridler_2002}{article}{}
+      \name{author}{2}{}{%
+        {{hash=97740e0d53820d0473ac9afbf328678c}{%
+           family={Ridler},
+           familyi={R\bibinitperiod},
+           given={Nick\bibnamedelima M.},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=e94485cf52041ef60391bf8a013c31ef}{%
+           family={Salter},
+           familyi={S\bibinitperiod},
+           given={Martin\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{3decf729ca6ba83a88d4bdf1f3996e5e}
+      \strng{fullhash}{3decf729ca6ba83a88d4bdf1f3996e5e}
+      \strng{bibnamehash}{3decf729ca6ba83a88d4bdf1f3996e5e}
+      \strng{authorbibnamehash}{3decf729ca6ba83a88d4bdf1f3996e5e}
+      \strng{authornamehash}{3decf729ca6ba83a88d4bdf1f3996e5e}
+      \strng{authorfullhash}{3decf729ca6ba83a88d4bdf1f3996e5e}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents methods for evaluating, expressing and using the uncertainty associated with complex S-parameter measurements. The methods are based on internationally recommended guidelines, published by the International Organization for Standardization (ISO), with extensions to accommodate the complex nature of the measurands. The treatment of measurements from both one-port and multi-port devices is presented and this is used to propagate uncertainty from complex-valued S-parameters to radio frequency (rf) and microwave quantities derived from these. A simple example, involving the comparison loss correction used during a microwave power meter calibration, is included to demonstrate the principles of propagating the uncertainty in complex S-parameter measurements.}
+      \field{journaltitle}{Metrologia}
+      \field{month}{6}
+      \field{number}{3}
+      \field{title}{An approach to the treatment of uncertainty in complex {S}-parameter measurements}
+      \field{volume}{39}
+      \field{year}{2002}
+      \field{pages}{295\bibrangedash 302}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1088/0026-1394/39/3/6
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1088%2F0026-1394%2F39%2F3%2F6
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088%2F0026-1394%2F39%2F3%2F6
+      \endverb
+    \endentry
+    \entry{MUFWebsite}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8b50a388cab83f8535bbb86a50ba3e23}{%
+           family={{National Institute of Science and Technology}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b50a388cab83f8535bbb86a50ba3e23}
+      \strng{fullhash}{8b50a388cab83f8535bbb86a50ba3e23}
+      \strng{bibnamehash}{8b50a388cab83f8535bbb86a50ba3e23}
+      \strng{authorbibnamehash}{8b50a388cab83f8535bbb86a50ba3e23}
+      \strng{authornamehash}{8b50a388cab83f8535bbb86a50ba3e23}
+      \strng{authorfullhash}{8b50a388cab83f8535bbb86a50ba3e23}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{On-Wafer Calibration Software}
+      \field{urlday}{16}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.nist.gov/services-resources/software/wafer-calibration-software
+      \endverb
+      \verb{url}
+      \verb https://www.nist.gov/services-resources/software/wafer-calibration-software
+      \endverb
+    \endentry
     \entry{Keysight_2016}{report}{}
       \name{author}{1}{}{%
         {{hash=0a1dc9ba6382e13835002ad4d9099b4e}{%
@@ -381,8 +470,8 @@
       \strng{authornamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
       \strng{authorfullhash}{0a1dc9ba6382e13835002ad4d9099b4e}
       \field{extraname}{2}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{7}
@@ -390,6 +479,55 @@
       \field{title}{Specifying Calibration Standards and Kits for Keysight Vector Network Analyzers}
       \field{type}{techreport}
       \field{year}{2016}
+    \endentry
+    \entry{Jargon_2002}{article}{}
+      \name{author}{3}{}{%
+        {{hash=074553aa0434aad35552c7d4c3e14e08}{%
+           family={Jargon},
+           familyi={J\bibinitperiod},
+           given={Jeffrey\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=cd53f5c800c947dfe09c09406fadb135}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={K.\bibnamedelimi C.},
+           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=71c924f65c421e1a3c9a074cefe70178}{%
+           family={DeGroot},
+           familyi={D\bibinitperiod},
+           given={Donald\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{a8f317c8332adf6ee219bec4206e25a9}
+      \strng{fullhash}{a8f317c8332adf6ee219bec4206e25a9}
+      \strng{bibnamehash}{a8f317c8332adf6ee219bec4206e25a9}
+      \strng{authorbibnamehash}{a8f317c8332adf6ee219bec4206e25a9}
+      \strng{authornamehash}{a8f317c8332adf6ee219bec4206e25a9}
+      \strng{authorfullhash}{a8f317c8332adf6ee219bec4206e25a9}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of RF and Microwave Computer-Aided Engineering}
+      \field{number}{1}
+      \field{title}{Applications of artificial neural networks to {RF} and microwave measurements}
+      \field{volume}{12}
+      \field{year}{2002}
+      \field{pages}{3\bibrangedash 24}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1002/mmce.10014
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/mmce.10014
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/mmce.10014
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/mmce.10014
+      \endverb
+      \keyw{application,artificial neural network,calibration,measurement,microwave,model,network analyzer,standards}
     \endentry
     \entry{Lewandowski_2010}{thesis}{}
       \name{author}{1}{}{%
@@ -433,8 +571,8 @@
       \strng{authorbibnamehash}{8df2e443bfedf7ab6e201cf73088e6a7}
       \strng{authornamehash}{8df2e443bfedf7ab6e201cf73088e6a7}
       \strng{authorfullhash}{8df2e443bfedf7ab6e201cf73088e6a7}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{58th ARFTG Microw. Meas. Conf. Dig.}
@@ -466,8 +604,8 @@
       \strng{authorbibnamehash}{1bc9d15216e85a8b7b882538d3e463ed}
       \strng{authornamehash}{1bc9d15216e85a8b7b882538d3e463ed}
       \strng{authorfullhash}{1bc9d15216e85a8b7b882538d3e463ed}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{70th ARFTG Microw. Meas. Conf.}
@@ -815,8 +953,8 @@
       \strng{authorbibnamehash}{eba4b036d3d237071304c26970c681c3}
       \strng{authornamehash}{eba4b036d3d237071304c26970c681c3}
       \strng{authorfullhash}{eba4b036d3d237071304c26970c681c3}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
@@ -846,8 +984,8 @@
       \strng{authornamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
       \strng{authorfullhash}{0a1dc9ba6382e13835002ad4d9099b4e}
       \field{extraname}{3}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{6}
@@ -869,8 +1007,8 @@
       \strng{authornamehash}{e58afef0669265d20b34203cb36faadc}
       \strng{authorfullhash}{e58afef0669265d20b34203cb36faadc}
       \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{VNA} Tools {II}}
@@ -898,8 +1036,8 @@
       \strng{authornamehash}{e58afef0669265d20b34203cb36faadc}
       \strng{authorfullhash}{e58afef0669265d20b34203cb36faadc}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{METAS UncLib}
@@ -946,8 +1084,8 @@
       \strng{authorbibnamehash}{a706dafdd7a35962ce0dc7391dfce711}
       \strng{authornamehash}{e26d19405911ff2d23c8b546a708308d}
       \strng{authorfullhash}{a706dafdd7a35962ce0dc7391dfce711}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{79th ARFTG Microw. Meas. Conf.}
@@ -960,34 +1098,6 @@
       \verb 10.1109/ARFTG79.2012.6291183
       \endverb
       \keyw{calibration;computerised instrumentation;measurement uncertainty;network analysers;optimisation;S-parameters;S-parameter uncertainty calculation;METAS VNA Tools II software;coaxial S-parameter measurement;calibration;vector network analyzer;METAS UncLib;device under test;uncertainties. linear propagation;eventual post-processing step;calibration computing uncertainty;quick short open load thru algorithm;optimization;numerical inaccuracy;Uncertainty;Calibration;Measurement uncertainty;Standards;Optimization;Transmission line measurements;Vector Network Analyzer;S-parameters;Calibration;Uncertainty;Traceability}
-    \endentry
-    \entry{MUFWebsite}{online}{}
-      \name{author}{1}{}{%
-        {{hash=8b50a388cab83f8535bbb86a50ba3e23}{%
-           family={{National Institute of Science and Technology}},
-           familyi={N\bibinitperiod}}}%
-      }
-      \strng{namehash}{8b50a388cab83f8535bbb86a50ba3e23}
-      \strng{fullhash}{8b50a388cab83f8535bbb86a50ba3e23}
-      \strng{bibnamehash}{8b50a388cab83f8535bbb86a50ba3e23}
-      \strng{authorbibnamehash}{8b50a388cab83f8535bbb86a50ba3e23}
-      \strng{authornamehash}{8b50a388cab83f8535bbb86a50ba3e23}
-      \strng{authorfullhash}{8b50a388cab83f8535bbb86a50ba3e23}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{On-Wafer Calibration Software}
-      \field{urlday}{16}
-      \field{urlmonth}{7}
-      \field{urlyear}{2019}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.nist.gov/services-resources/software/wafer-calibration-software
-      \endverb
-      \verb{url}
-      \verb https://www.nist.gov/services-resources/software/wafer-calibration-software
-      \endverb
     \endentry
     \entry{Ginley_2016}{inproceedings}{}
       \name{author}{1}{}{%
@@ -1287,8 +1397,8 @@
       \strng{authorbibnamehash}{d1dfb461e23a10997d3dcb1e7b6c69f6}
       \strng{authornamehash}{f5596a41aff4dff9bda16a08b59f2eab}
       \strng{authorfullhash}{d1dfb461e23a10997d3dcb1e7b6c69f6}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
@@ -1334,8 +1444,8 @@
       \strng{authorbibnamehash}{4a468e16d0bb820001967b07304a2fef}
       \strng{authornamehash}{782f26ad22a046f8cbf76037e857ae6b}
       \strng{authorfullhash}{4a468e16d0bb820001967b07304a2fef}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
@@ -1401,8 +1511,8 @@
       \strng{authorbibnamehash}{aa03c997ee59cc80297d5906642f0c3a}
       \strng{authornamehash}{b36fc6b8617b901c7df563888443ac59}
       \strng{authorfullhash}{aa03c997ee59cc80297d5906642f0c3a}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
@@ -1463,8 +1573,8 @@
       \strng{authorbibnamehash}{c9db4776c1d099417d473676d11b9c7f}
       \strng{authornamehash}{ee5c7740f39b4e193b30a2a7935c9c13}
       \strng{authorfullhash}{c9db4776c1d099417d473676d11b9c7f}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9456}
@@ -1494,8 +1604,8 @@
       \strng{authornamehash}{0a1dc9ba6382e13835002ad4d9099b4e}
       \strng{authorfullhash}{0a1dc9ba6382e13835002ad4d9099b4e}
       \field{extraname}{4}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{9}
@@ -1526,8 +1636,8 @@
       \strng{authorbibnamehash}{617503f92c81ed082c208b4583de2105}
       \strng{authornamehash}{617503f92c81ed082c208b4583de2105}
       \strng{authorfullhash}{617503f92c81ed082c208b4583de2105}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{6}
@@ -1559,8 +1669,8 @@
       \strng{authorbibnamehash}{6b053a03dccd541a96059320ae8719ae}
       \strng{authornamehash}{6b053a03dccd541a96059320ae8719ae}
       \strng{authorfullhash}{6b053a03dccd541a96059320ae8719ae}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
@@ -1614,8 +1724,8 @@
       \strng{authorbibnamehash}{287e659704dda15f0b8f71bee1479b9d}
       \strng{authornamehash}{50f07fa9b755695f624b026191a3241f}
       \strng{authorfullhash}{287e659704dda15f0b8f71bee1479b9d}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
@@ -1671,8 +1781,8 @@
       \strng{authorbibnamehash}{f5b754df53ddc4734c10350f4640c8fe}
       \strng{authornamehash}{cb115c018f0a501fa00236abc09d729d}
       \strng{authorfullhash}{f5b754df53ddc4734c10350f4640c8fe}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9456}

@@ -5,27 +5,27 @@
 \begin{document}
 %\begin{refsection}
 \setcounter{chapter}{1}
-\chapter{Radio Frequency and Microwave \\Measurements}
+\chapter{Radio Frequency and Microwave Measurements}
 \section{Introduction}
 
 To characterise nonlinear behavioural models, the radio frequency (RF) response of a device to electromagnetic wave stimuli must be measured. When compared with DC (and low frequency) measurements, RF and microwave measurements present significant additional challenges. 
-For DC systems, it is desirable to propagate voltages through a circuit with minimal loss in amplitude. To achieve this effectively, components are typically designed with high input impedance and low output impedance. With RF systems, circuit components and interconnects can be of the order of a quarter-wavelength in length, and therefore signals must be treated as electromagnetic waves to account for different behaviour at these frequencies.
-When a travelling wave encounters a discontinuity in impedance, such as a cable connector or on-wafer structure, some of the power in the wave is reflected. The amount of reflected power is proportional to the size of the impedance mismatch between each side of the discontinuity. Hence, for most RF systems, the transmission of power is the focus of the circuit designer. The measurement of power flowing through a transmission line is complicated by three key factors. Firstly, because the waves are travelling, the instantaneous voltage at any point on the transmission line will vary between the peak-to-peak values of the wave. Secondly, waves travel in both directions along the transmission line and must be measured separately. Finally, the power of the wave is a complex quantity consisting of both magnitude and phase.
-To perform these measurements, a specialist instrument called a vector network analyser (VNA) can be used. In this chapter, the concepts and measurements associated with this instrument are introduced, which will be used later in the thesis to understand the uncertainty contributions from measurements to nonlinear behavioural models.
+For DC systems, it is desirable to propagate voltages through a circuit with minimal loss in amplitude. To achieve this effectively, components are typically designed with high input impedance and low output impedance to ensure there is ample power to drive connected components. With RF systems, circuit components and interconnects can be of the order of a quarter-wavelength in length, and therefore signals must be treated as electromagnetic waves to account for different behaviour at these frequencies.
+When a travelling electromagnetic wave encounters a discontinuity in impedance, such as a cable connector or on-wafer structure, some of the power in the wave is reflected. The amount of reflected power depends on the impedance mismatch between each side of the discontinuity. Hence for most RF systems, because the transmission of power is the focus of the circuit designer the impedance is carefully maintained, typically at 50-$\Omega$. The measurement of power flowing through a transmission line is complicated by three key factors. Firstly, because the waves are travelling, the instantaneous voltage at any point on the transmission line will vary between the peak-to-peak values of the wave. Secondly, waves travel in both directions along the transmission line and must be measured separately. Finally, the power of the wave is a complex quantity consisting of both magnitude and phase.
+To perform these measurements a vector network analyser (VNA) can be used. In this chapter, the concepts and measurements associated with this instrument are introduced, which will be used later in the thesis to understand the uncertainty contributions from measurements to nonlinear behavioural models.
 
 \section{Electromagnetic Wave Parameters}
 \subsection{Wave Definitions}
 
-To describe the power of electromagnetic waves propagated through a transmission line, several definitions are in use in industry and academia for either accuracy or convenience. To avoid confusion in this document, these will now be defined. Information presented in this section has been obtained from \cite{Williams_2013,Marcuvitz_1951,Marks_1992,Kurokawa_1965,Williams_2001}.
+To describe the propagation of electromagnetic waves within transmission lines, the terminology that follows is defined. Information presented in this section has been obtained from \cite{Williams_2013,Marcuvitz_1951,Marks_1992,Kurokawa_1965,Williams_2001}.
 
 \subsubsection{Travelling Waves}
 
-Travelling waves represent a solution to Maxwell's equations along a transmission line. They are physical and measurable via slotted line experiments or ``thru-reflect-line'' calibrations (explained later in this Chapter). Travelling waves are defined by the total transverse electric and magnetic fields $\bm{E}_\textrm{t}$ and $\bm{H}_\textrm{t}$ of a single propagating mode at each frequency:
+Travelling waves are a solution to Maxwell's equations along a transmission line. They are physical and measurable via slotted line experiments or ``thru-reflect-line'' calibrations (explained later in this Chapter). Travelling waves are defined by the total transverse electric and magnetic fields $\bm{E}_\textrm{t}$ and $\bm{H}_\textrm{t}$ of a single propagating mode at each frequency:
 \begin{equation}
 \bm{E}_\textrm{t}=c^+e^{-\gamma z}\bm{e}_\textrm{t}+c^-e^{+\gamma z}\bm{e}_\textrm{t},\quad
 \bm{H}_\textrm{t}=c^+e^{-\gamma z}\bm{h}_\textrm{t}-c^-e^{+\gamma z}\bm{h}_\textrm{t}
 \end{equation}
-where, following the notation of \cite{Williams_2001}, $\bm{e}_\textrm{t}$ and $\bm{h}_\textrm{t}$ are the un-normalized electric and magnetic fields of the modal solution of Maxwell’s equations in transmission line, $\gamma=a+ib$ is the complex propagation constant of the mode, $z$ is the direction of propagation, and $c^+$ and $c^-$ are complex quantities representing the un-normalized forward and backward amplitude of the mode, respectively.
+where, following the notation of \cite{Williams_2001}, $\bm{e}_\textrm{t}$ and $\bm{h}_\textrm{t}$ are the un-normalized electric and magnetic fields of the modal solution of Maxwell’s equations in transmission line, $\gamma=a+jb$ is the complex propagation constant of the mode, $z$ is the direction of propagation, and $c^+$ and $c^-$ are complex quantities representing the un-normalized forward and backward amplitude of the mode, respectively.
 
 \subsubsection{Equivalent-Circuit Voltage and Current}
 
@@ -38,7 +38,7 @@ where $v_0$ and $i_0$ are normalisation constants that allow $v$ and $i$ to take
 
 \subsubsection{Pseudowaves}
 
-Equivalent voltages and currents cannot be used in lossy transmission lines where the electric and magnetic fields are out of phase. To account for this and provide a solution which can be used with conventional circuit design methodologies (e.g. Smith chart techniques \cite{Smith_1939}) and simulators, pseudowaves can be used. This representation is defined with a reference impedance, $Z_\textrm{ref}$, which can be chosen by the user, but is typically 50-$\Omega$ in conventional measurements. The forward and backward pseudowaves $a$ and $b$ can be written as:
+Equivalent voltages and currents cannot be conveniently used when modelling lossy transmission lines where the electric and magnetic fields are out of phase \cite{Williams_1990}. To account for this and provide a solution which can be used with conventional circuit design methodologies (e.g. Smith chart techniques \cite{Smith_1939}) and simulators, pseudowaves can be used. This representation is defined with a reference impedance, $Z_\textrm{ref}$, which can be chosen by the user, but is typically 50-$\Omega$ in conventional measurements. The forward and backward pseudowaves $a$ and $b$ can be written as:
 \begin{equation}
 a(Z_\textrm{ref})=\bigg[\dfrac{|v_0|}{v_0}\dfrac{\sqrt{\Re(Z_\textrm{ref})}}{2|Z_\textrm{ref}|}\bigg](v+iZ_\textrm{ref}),\quad b(Z_\textrm{ref})=\bigg[\dfrac{|v_0|}{v_0}\dfrac{\sqrt{\Re(Z_\textrm{ref})}}{2|Z_\textrm{ref}|}\bigg](v-iZ_\textrm{ref})
 \end{equation}
@@ -56,7 +56,7 @@ P(\textrm{dBm}) = 10\log_{10}(P(\sqrt{W})^2) + 30
 
 \subsection{Derived Metrics and Figures of Merit}
 
-The behaviour of a linear microwave device can be completely defined by the complex ratio of electromagnetic waves which are scattered at each port to those which are incident at each port. The combination of these ratios constitutes the scattering parameters (S-parameters) of a microwave device and are used extensively in the design and measurement of microwave systems \cite{Pozar_2004}. The formal definitions of the S-parameters for a two-port device are:
+The behaviour of a linear microwave device can be completely defined by the ratio of electromagnetic waves which are scattered at each port to those which are incident at each port. The combinations of these ratios constitutes the scattering parameters (S-parameters) of a microwave device and are used extensively in the design and measurement of microwave systems \cite{Pozar_2004}. The formal definitions of the S-parameters for a two-port device are:
 \begin{equation}
 S_{11}=\dfrac{b_1}{a_1}\bigg\rvert_{a_2=0},\quad
 S_{12}=\dfrac{b_1}{a_2}\bigg\rvert_{a_1=0},\quad
@@ -65,7 +65,7 @@ S_{22}=\dfrac{b_2}{a_2}\bigg\rvert_{a_1=0},
 \label{ch2_eqn_sp}
 \end{equation}
 where both a and b can be expressed in either pseudowave or power wave representation. The term “scattered” can be interchanged with “transmitted” and “reflected” depending on if the scattered wave is output on a different port, or the same port, to the incident wave, respectively. A signal flow diagram is provided in Figure \ref{ch2_fig_filter} showing the relationship between equivalent-circuit voltage and current, pseudowaves/power waves and S-parameters for a two-port device.
-The S-parameters of all microwave devices will exhibit some degree of frequency dependence. This effect originates from physical processes occurring in the device and can either be a benefit or hindrance to a design. Most passive components (including cables) will have a usable bandwidth which is an unwanted limitation, whereas microwave filters are a ubiquitous component where the same fixed bandwidth is the main purpose of the device. To capture this frequency dependence, S-parameters are measured across a frequency range and stored in a table, usually in Touchstone format (see Figure \ref{ch2_fig_s2p}). An example of the frequency dependence of a filter is shown in Figure \ref{ch2_fig_filter}. For a device operating in the linear regime, if multiple stimuli at different frequencies are incident on the device, they will not interact with each other. The scattered waves will have the same frequency components as if the stimulus at each frequency was applied separately. This is called the frequency superposition principle and does not apply to nonlinear operating regimes, which will be discussed later in this chapter.
+The S-parameters of all microwave devices will exhibit some degree of frequency dependence. This effect originates from physical processes occurring in the device and can either be a benefit or hindrance to a design. Most passive components (including cables) will have a usable bandwidth which is an unwanted limitation, whereas microwave filters are a ubiquitous component where the same fixed bandwidth is the main purpose of the device. To capture this frequency dependence, S-parameters are measured across a frequency range and stored in a table. An example of the frequency dependence of a filter is shown in Figure \ref{ch2_fig_filter}. For a device operating in the linear regime, if multiple stimuli at different frequencies are incident on the device, they will not interact with each other. The scattered waves will have the same frequency components as if the stimulus at each frequency was applied separately and the outputs combined. This is called the frequency superposition principle and it does not apply to nonlinear devices, which will be discussed later in this chapter.
 
 \begin{figure}
 	\centering
@@ -74,14 +74,7 @@ The S-parameters of all microwave devices will exhibit some degree of frequency 
 	\label{ch2_fig_filter}
 \end{figure}
 
-\begin{figure}
-	\centering
-	\includegraphics[width=\textwidth]{ch2_s2p}
-	\caption[The Touchstone file layout.]{An short example Touchstone file showing a two-port measurement at two frequencies. The rows continue to the right of the figure.}
-	\label{ch2_fig_s2p}
-\end{figure}
-
-Scattering parameters are often expressed in matrix form, where the column index is the scattered port, and the row index is the incident port. For a two-port device, the S-parameter matrix would be:
+Scattering parameters are often expressed in matrix form, where the column index is the scattered port, and the row index is the incident port. For a two-port device, the S-parameter matrix is:
 \begin{equation}
 S=
 \begin{bmatrix}
@@ -100,19 +93,19 @@ and:
 \end{equation}
 respectively.
 
-Optimal transmission in microwave systems requires impedance matching between components, and it is inevitable that this matching will not be perfect and so some power will be reflected in a two-port device. Therefore, the match of a device is another important measurement, which is dependent on the voltage reflection coefficient ($\Gamma$) of the device and can be related to the impedance of a source and load by:
+Optimal transmission in microwave systems requires impedance matching between components, and it is inevitable that this matching will not be perfect and so some power will be reflected in a two-port device. Therefore, the match of a device is another important measurement, which is dependent on the voltage reflection coefficient ($\Gamma$) of the device and can be related to the impedance of a source ($Z_\textrm{S}$) and load ($Z_\textrm{L}$) by:
 \begin{equation}
 \Gamma_{xx} = S_{xx} = \dfrac{Z_\textrm{L}-Z_\textrm{S}}{Z_\textrm{L}+Z_\textrm{S}},
 \label{gamma1}
 \end{equation}
 where $x$ is a port index.
-A more thorough definition of voltage reflection coefficient for a two-port device includes any effect from the impedance seen at the other port, and for the case of input match is calculated as:
+For a two-port device, $\Gamma$ includes any effect from the impedance terminating the other port, and for the case of input reflection coefficient is calculated as:
 \begin{equation}
 \Gamma_{11} = S_{11} + \dfrac{S_{12}S_{21}\Gamma_\textrm{L}}
 {1-S_{22}\Gamma_\textrm{L}},
 \label{gamma2}
 \end{equation}
-where $\Gamma_\textrm{L}$ is the voltage reflection coefficient of the load connected to the device. For amplifiers, the amount of isolation (reduction of $S_{12}$) is an important characteristic of the device, whereby a fully isolated amplifier ($S_{12}=0$) is said to be unilateral and equations \ref{gamma1} and \ref{gamma2} are equivalent.
+where $\Gamma_\textrm{L}$ is the voltage reflection coefficient of the load connected to the device.
 
 For active devices, such as amplifiers, it can also be useful to consider the power reflected at the input when calculating the power gain of the device. The transducer gain of a device accounts for this potential loss of power at the input and provides a more portable metric which is not dependent on the impedance of the measurement setup. It is defined as:
 \begin{equation}
@@ -128,9 +121,9 @@ For all devices operating in the linear regime, any reflected or transmitted wav
 
 \section{Measurements of Nonlinear Devices}
 
-Microwave devices operating in the nonlinear regime exhibit three differences from their linear counterparts which are significant to the designer.
+Microwave devices operating in the nonlinear regime exhibit three differences from their linear counterparts which are significant.
 
-Firstly, the amplitude of electromagnetic waves scattered from the device are not linearly dependent on the amplitude of waves incident. This is the cause of features such as gain compression and gain expansion in amplifiers. Some of these effects are solely due to the nonlinear sources inside the device, while others are a symptom of the combined response of the nonlinearity and the power supply. A typical gain compression curve is shown in Figure \ref{ch2_fig_comp}.
+Firstly, the amplitude of electromagnetic waves scattered from the device are not linearly dependent on the amplitude of waves incident. This is the cause of features such as gain compression and gain expansion in amplifiers. Some of these effects are solely due to nonlinear effects inside the device, while others include the response of the power supply. A typical gain compression curve is shown in Figure \ref{ch2_fig_comp}.
 
 \begin{figure}
 	\centering
@@ -139,7 +132,7 @@ Firstly, the amplitude of electromagnetic waves scattered from the device are no
 	\label{ch2_fig_comp}
 \end{figure}
 
-Secondly, the frequency superposition principle does not apply, and instead the frequency spectrum of scattered waves contains components at frequencies other than those incident upon it. Rather than the incident signals purely summing inside the device, they are also multiplied with each other (frequency mixing), as shown by:
+Secondly, the frequency superposition principle does not apply, and instead the frequency spectrum of scattered waves contains components at frequencies other than those incident upon it. Incident tones are multiplied with each other (frequency mixing), as shown by:
 \begin{align}
 b&=c_0+c_1a+c_2a^2+c_3a^3+\cdots,\\
 \alpha=\beta&=2\pi\omega t,\\
@@ -148,7 +141,7 @@ a(t)&=A\cos(\alpha),\\
 a^2(t)&=\dfrac{1}{2}A^2[\cos(2\pi(2\omega)t)+1],\\
 a^3(t)&=\dfrac{1}{4}A^3[\cos(2\pi(3\omega)t)+3\cos(2\pi\omega t)].
 \end{align}
-Here, $a$ and $b$ are the incident and scattered waves for the device, $c_i$ are coefficients of the device's nonlinear transfer function, and $a(t)$ is a wave in the time domain with amplitude $A$ and frequency $\omega$. For stimuli with a single frequency ($\alpha$=$\beta$, as above), integer multiples of that frequency will be scattered from the device (harmonics). For stimuli with multiple tones ($\alpha\ne\beta$), additional products from combinations of the incident tone frequencies will be scattered (intermodulation). If the nonlinear device is incident with a fixed bandwidth of frequencies, such as the case for communications signals, then sidebands will be produced around the harmonics of the oscillator frequencies. This effect can be troublesome in practical designs where the unwanted sidebands overlap with the useful microwave bandwidth, distorting the signal. For this reason, it is important for designers to be able to accurately measure and characterise this nonlinear effect. Figure \ref{ch2_fig_im3} shows example spectra of these effects.
+Here, $a$ and $b$ are the incident and scattered waves for the device, $c_i$ are coefficients of the device's nonlinear transfer function, and $a(t)$ is a wave in the time domain with amplitude $A$ and frequency $\omega$. For stimuli with a single frequency ($\alpha$=$\beta$, as above), integer multiples of that frequency will be scattered from the device (harmonics). For stimuli with multiple tones ($\alpha\ne\beta$), additional products from combinations of the incident tone frequencies will be scattered (intermodulation). If the nonlinear device is incident with a fixed bandwidth of frequencies, such as the case for communications signals, then sidebands will be produced around the harmonics of the oscillator frequencies. This effect can be troublesome when the undesired sidebands overlap with the useful microwave signal, causing distortion. For this reason, it is important for designers to be able to accurately measure and characterise this nonlinear effect. Figure \ref{ch2_fig_im3} shows example spectra of these effects.
 
 \begin{figure}
 	\centering
@@ -157,17 +150,17 @@ Here, $a$ and $b$ are the incident and scattered waves for the device, $c_i$ are
 	\label{ch2_fig_im3}
 \end{figure}
 
-Finally, the amplitude of scattered waves with multiple incident waves is dependent (nonlinearly) on the phase of incident waves. In the linear regime the superposition principle prevents this, but now there is a nonlinear dependence which can have significant effects on the amplitude of scattered waves. Designers must consider this when building efficient nonlinear amplifiers, which leads to the practice of accurately terminating scattered harmonic frequencies at an optimum phase. This will be covered in more detail in Chapter 5 when we discuss nonlinear device models. 
+Finally, the amplitude of scattered waves when incident waves at multiple ports and harmonics is nonlinearly dependent on the phase of incident waves. This was not the case while the superposition principle held in the linear regime, but this nonlinear relationship can have significant effects on the amplitude of scattered waves. Designers must consider this when building efficient nonlinear amplifiers, which leads to the practice of accurately terminating scattered harmonic frequencies at an optimum phase - a process called ``waveform engineering''. This will be covered in more detail in Chapter 5 when we discuss nonlinear device models. 
 
-The result of these differences is that the measurement requirements for nonlinear devices are considerably larger than for linear devices. The nonlinear dependencies on stimulus power and phase means that ratioed measurements no longer fully capture the device response, and absolute measurements of the magnitude and phase of both the incident and scattered waves is required. The production of scattered waves at frequencies different to those in the stimulus demands an additional dimension of measurements. These complications must be met with changes to both the measurement system and the method of storing the results.
+The result of these differences is that the measurement requirements for nonlinear devices are considerably larger than for linear devices. The nonlinear dependencies on stimulus power and phase means that ratioed measurements no longer fully capture the device response, and absolute measurements of the magnitude and phase of both the incident and scattered waves are required. The production of scattered waves at frequencies different to those in the stimulus demands an additional dimension of measurements. These complications must be met with changes to both the measurement system and the method of storing the results.
 
 \section{Vector Network Analysers}
 
-To measure the incident and scattered waves for a DUT and calculate the S-parameters as in (\ref{ch2_eqn_sp}), a vector network analyser (VNA) is typically used. The VNA is a quintessential piece of RF and microwave instrumentation and is found in most RF and microwave laboratories. Due to the challenging nature of measurements at these frequencies, it is a complicated instrument with many internal parts. This section explains how the VNA functions and the procedures behind its calibration. For a good history of VNA architecture and product development please refer to \cite{Teppati_2013,Dunsmore_2012,Rytting_2008}.
+To measure the incident and scattered waves for a device and calculate the S-parameters as in (\ref{ch2_eqn_sp}), a vector network analyser (VNA) is typically used. Due to the challenging nature of measurements at these frequencies, it is a complicated instrument with many internal parts. This section explains how the VNA functions and the procedures behind its calibration. For a good history of VNA architecture and product development please refer to \cite{Teppati_2013,Dunsmore_2012,Rytting_2008}.
 
 \subsection{Architecture}
 
-The origin of the VNA lies in an early instrument called a reflectometer. Designed in 1947 by Parzen and Yalow \cite{Parzen_1947}, it became an invaluable tool for characterising transmission lines used in telecommunication systems. Shown in Figure \ref{ch2_fig_refl}, the incident signal is generated by a swept signal source and passes through the directional coupler before arriving at the DUT. The voltage reflection coefficient of the DUT will cause an amount of incident power to be reflected, which passes back through the coupler before being absorbed by the source (which has very low reflection). The directional couplers allow the waves travelling between the source and the DUT to be sampled by complex receivers, filtering the two waves by their direction of travel thus allowing the incident and scattered waves to be separated for measurement. 
+The origin of the VNA lies in an early instrument called a reflectometer. Designed in 1947 by Parzen and Yalow \cite{Parzen_1947}, it became an invaluable tool for characterising transmission lines used in telecommunication systems. Shown in Figure \ref{ch2_fig_refl}, the incident signal is generated by a swept signal source and passes through the directional coupler before arriving at the device-under-test (DUT). The voltage reflection coefficient of the DUT will cause an amount of incident power to be reflected, which passes back through the coupler before being absorbed by the source (which has very low reflection). The directional couplers allow the waves travelling between the source and the DUT to be sampled by complex receivers, filtering the two waves by their direction of travel thus allowing the incident and scattered waves to be separated for measurement. 
 
 \begin{figure}
 	\centering
@@ -176,18 +169,18 @@ The origin of the VNA lies in an early instrument called a reflectometer. Design
 	\label{ch2_fig_refl}
 \end{figure}
 
-The limitation of a single reflectometer is that it can only measure waves at one port of a DUT, therefore preventing transmission measurements. By adding a second reflectometer and synchronising the stimuli and measurements, it is possible to measure all S-parameters of a two-port device. This is the fundamental structure of a VNA, and most variations consist of changing the number of sources or receivers to optimise the instrument for cost or performance. Many older designs use an economical single source which is switched between both ports, whereas now the price of sources has fallen, there are instruments available with two independent sources, which allows two-tone and some types of nonlinear measurements. These more versatile units often also expose more  connections between internal components (e.g. the couplers and receivers) to allow the user to perform non-standard measurements or to add attenuation or preamplification for higher stimulus powers.
+The limitation of a single reflectometer is that it can only measure waves at one port of a DUT, therefore preventing transmission measurements. By adding a second reflectometer and synchronising the stimuli and measurements, it is possible to measure all S-parameters of a two-port device. This is the fundamental structure of a VNA, and most variations consist of changing the number of sources or receivers to optimise the instrument for cost or performance. Many older designs use an economical single source which is switched between both ports, whereas now the price of sources has fallen, there are instruments available with two independent sources, which allows more advanced methods such as two-tone measurements. These more versatile units often also expose more  connections between internal components (e.g. the couplers and receivers) to allow the user to perform non-standard measurements or to add attenuation or preamplification for higher stimulus powers.
 Modern VNAs also offer the option of measuring more than two ports, which are referred to as “multi-port” measurements. Several manufacturers offer four-port instruments which include four reflectometers (with usually two sources), although with external switching networks it is possible to expand this up to 48 ports \cite{mj_multiport}.
 The basic block diagram of a modern two-port double-reflectometer VNA is shown in Figure \ref{ch2_fig_vna}. To measure both stimulus conditions for the two-port S-parameter equations in (\ref{ch2_eqn_sp}), the sources alternate between delivering power and acting as a load for each measurement. As the source is swept the a and b waves for all ports are measured against frequency, from which the VNA software calculates the S-parameters. The receivers sampling the incident waves are known as the reference receivers and those sampling the scattered waves are called measurement or test receivers. The components in direct path between the source and the DUT (e.g. couplers) are historically called the test-set, which used to be interchangeable depending on the type of transmission line and test port connector family used.
 
-\begin{figure}
+\begin{figure}[t]
 	\centering
 	\includegraphics[width=0.6\textwidth]{ch2_vna}
-	\caption[Structure of a two-source mixer-based VNA.]{A modern two-source mixer-based VNA, which employs heterodyning to allow measurements at microwave frequencies. Two directional couplers are located between each source and the DUT and are connected back to back. These sample waves travelling in both directions and are connected to mixers which downconvert the microwave frequencies (R) into intermediate frequencies (I) which can be sampled by the complex receivers. The shared local oscillator (LO) feeding the mixers preserves phase coherence between the receivers. This configuration is known as a two-port double-reflectometer VNA. Figure adapted by author from \cite{Root_2013}.}
+	\caption[Structure of a two-source mixer-based VNA.]{A modern two-source mixer-based VNA, which employs heterodyning to allow measurements at microwave frequencies. Two directional couplers are located between each source and the DUT and are connected back to back. These sample the waves travelling in both directions and are connected to mixers which downconvert the microwave frequencies (R) into intermediate frequencies (I) which can be sampled by the complex receivers. The shared local oscillator (LO) feeding the mixers preserves phase coherence between the receivers. This configuration is known as a two-port double-reflectometer VNA. Figure adapted by author from \cite{Root_2013}.}
 	\label{ch2_fig_vna}
 \end{figure}
 
-To perform S-parameter measurements using a VNA, the user must set both the frequency span and number of frequency points. They may also change settings of intermediate frequency bandwidth (IFBW) and numerical averaging, both of which reduce measurement noise by applying digital filtering but can consequently increase acquisition time. The user will then perform a calibration, which corrects for any response present in the measurement setup that is not caused by the DUT. During calibration, physical ``measurement planes'' are defined at the closest interface to the DUT. All ``corrected'' measurements performed after the calibration will capture the s-parameter response between these planes, including any adapters or other components between them and the DUT. After calibration, it is good practice to check that it was successful by measuring some known devices (verification \cite{Collier_2007}), or to use techniques such as ripple extraction (discussed in Chapter 4) to measure the residual uncertainty. This process characterises any remaining error which the calibration failed to correct.
+To perform S-parameter measurements using a VNA, the user must set both the frequency span and number of frequency points. They may also change settings of intermediate frequency bandwidth (IFBW) and numerical averaging, both of which reduce measurement noise by applying digital filtering but can consequently increase acquisition time. The user will then perform a calibration, which corrects for any response present in the measurement setup that is not caused by the DUT. During calibration, physical ``measurement planes'' are defined at the closest interface to the DUT. All ``corrected'' measurements performed after the calibration will capture the S-parameter response between these planes, including any adapters or other components between them and the DUT. After calibration, it is good practice to check that it was successful by measuring some known devices (verification \cite{Collier_2007}), or to use techniques such as ripple extraction (discussed in Chapter 4) to measure the residual uncertainty. This process characterises any remaining error which the calibration failed to correct.
 
 \subsection{Error Models}
 
@@ -383,7 +376,7 @@ Like the three-term model (\ref{ch2_eqn_oneport1}), where $e_{01}$ and $e_{10}$ 
 
 \subsection{Calibration}
 
-To characterise the error models, impedance standards with known properties are measured. These properties can be prior measurements of reflection coefficients or s-parameters (data-based standards), polynomial model coefficients (a more compact representation of reflection coefficient), or realisable properties such as length and diameter which can be used in physical models to provide calibrations with good traceability (defined in Chapter 3). More explanation of the different types of calibration standard, along with a comparison of their contributions to measurement uncertainty, is provided in Chapter 4. Whichever type of standard is used, the calibration process (normally implemented in the VNA firmware) will obtain values for the actual s-parameters of the standard, which can be used together with the measured s-parameters and the error model to characterise the error coefficients. This is performed using linear least-squares techniques in typical implementations.
+To characterise the error models, impedance standards with known properties are measured. These properties can be prior measurements of reflection coefficients or S-parameters (data-based standards), polynomial model coefficients (a more compact representation of reflection coefficient), or realisable properties such as length and diameter which can be used in physical models to provide calibrations with good traceability (defined in Chapter 3). More explanation of the different types of calibration standard, along with a comparison of their contributions to measurement uncertainty, is provided in Chapter 4. Whichever type of standard is used, the calibration process (normally implemented in the VNA firmware) will obtain values for the actual S-parameters of the standard, which can be used together with the measured S-parameters and the error model to characterise the error coefficients. This is performed using linear least-squares techniques in typical implementations.
 
 \subsubsection{One-Port Model}
 
@@ -428,7 +421,7 @@ The mathematical method used for the TRL calibration of the eight-term error mod
 
 \section{Nonlinear Vector Network Analysers}
 
-To fully characterise devices which exhibit nonlinear behaviour, a nonlinear vector network analyzer (NVNA), also called a large signal network analyser (LSNA), is required. Compared with a standard VNA, these instruments allow the individual incident and scattered waves to be measured, rather than just their ratios. In addition, scattered waves at harmonics of the incident frequency can be measured.
+To characterise devices which exhibit nonlinear behaviour, a nonlinear vector network analyzer (NVNA), also called a large signal network analyser (LSNA), is required. Compared with a standard VNA, these instruments allow the individual incident and scattered waves to be measured, rather than just their ratios. In addition, scattered waves at harmonics of the incident frequency can be measured.
 
 There are two main architectures of NVNA - sampler-based and mixer-based. Sampler-based instruments use a real-time sampling oscilloscope connected to directional couplers \cite{Sipila_1988, Broeck_1994, Scott_2002, VanMoer_2006}, whereas mixer-based NVNAs use a conventional VNA architecture with supplementary equipment \cite{Lott_1989, Blockley_2005}. The oscilloscope system provides a large measurement bandwidth, which is useful for communications simulations, but because of this more noise and spurious content is also captured and reduced the dynamic range. In contrast, the mixer-based system must sweep between samples of small bandwidths (i.e. a single harmonic) and requires a longer measurement time. Additionally, on some mixer-based NVNAs phase coherence is lost between measurements at different frequencies due to the source design, requiring a dedicated phase reference to be continuously measured on a separate test receiver channel.
 
@@ -477,6 +470,7 @@ where $a_\textrm{R}$ is the known signal from the phase reference, $\Gamma^\text
 	\label{ch2_fig_phasecal}
 \end{figure}
 
+\newpage
 \section{Conclusions}
 
 This chapter has introduced RF and microwave measurement techniques and given a brief overview of the theory behind VNA and NVNA measurements. Once it was established that electromagnetic wave measurements are not as straightforward as those performed with DC or even low frequency AC circuits, fundamental definitions were presented including the power waves used by VNA and NVNAs. Derived properties such as gain and insertion loss were expressed using S-parameters, which were shown to fully model the frequency-dependent response of a linear $n$-port device. By comparison, the additional measurement challenges required to characterise nonlinear devices could not be contained in the S-parameter model, and more capable solutions are required as covered in Chapter 5.

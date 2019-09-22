@@ -176,6 +176,41 @@
       \endverb
       \keyw{waveguide theory;equivalent circuits;time-domain analysis;frequency-domain analysis;waveguide circuit theory;power-normalized waveguide equivalent-circuit theory;network parameters;time domain;frequency domain;power normalization;characteristic impedance;simultaneity;Waveguide theory;Circuit theory;Electromagnetic waveguides;Voltage;Impedance;Circuit simulation;Tellurium;Frequency;Time domain analysis;Magnetic fields}
     \endentry
+    \entry{Williams_1990}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=0cf7d83b3c925107374947fe98b35589}{%
+           family={{Williams}},
+           familyi={W\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2a2491d6b4b5dc85b4c48472c1da3c88}{%
+           family={{Marks}},
+           familyi={M\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac460c9362417f882f5e1bc3a0067a19}
+      \strng{fullhash}{ac460c9362417f882f5e1bc3a0067a19}
+      \strng{bibnamehash}{ac460c9362417f882f5e1bc3a0067a19}
+      \strng{authorbibnamehash}{ac460c9362417f882f5e1bc3a0067a19}
+      \strng{authornamehash}{ac460c9362417f882f5e1bc3a0067a19}
+      \strng{authorfullhash}{ac460c9362417f882f5e1bc3a0067a19}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{36th ARFTG Microw. Meas. Conf. Dig.}
+      \field{month}{11}
+      \field{title}{The Interpretation and Use of S-Parameters in Lossy Lines}
+      \field{volume}{18}
+      \field{year}{1990}
+      \field{pages}{84\bibrangedash 90}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/ARFTG.1990.323999
+      \endverb
+      \keyw{Scattering parameters;Transmission line measurements;Impedance measurement;Propagation constant;Magnetic field measurement;NIST;Coaxial components;Coplanar waveguides;Coplanar transmission lines;Microwave devices}
+    \endentry
     \entry{Smith_1939}{article}{}
       \name{author}{1}{}{%
         {{hash=9411b995b68a49c924c3f6f1bf17f314}{%
@@ -190,8 +225,8 @@
       \strng{authorbibnamehash}{9411b995b68a49c924c3f6f1bf17f314}
       \strng{authornamehash}{9411b995b68a49c924c3f6f1bf17f314}
       \strng{authorfullhash}{9411b995b68a49c924c3f6f1bf17f314}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Electronics}
@@ -220,8 +255,8 @@
       \strng{authorbibnamehash}{c3d8e666fc5a356e1abefe2a4fea5cad}
       \strng{authornamehash}{c3d8e666fc5a356e1abefe2a4fea5cad}
       \strng{authorfullhash}{c3d8e666fc5a356e1abefe2a4fea5cad}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9780471448785}
@@ -255,8 +290,8 @@
       \strng{editorbibnamehash}{e6a694958a8c298a8d1773d076b50e44}
       \strng{editornamehash}{e6a694958a8c298a8d1773d076b50e44}
       \strng{editorfullhash}{e6a694958a8c298a8d1773d076b50e44}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{editor}
       \field{labeltitlesource}{title}
       \field{series}{The Cambridge RF and Microwave Engineering Series}
@@ -283,8 +318,8 @@
       \strng{authorbibnamehash}{f556849382a409f8d88d41a47ee4454e}
       \strng{authornamehash}{f556849382a409f8d88d41a47ee4454e}
       \strng{authorfullhash}{f556849382a409f8d88d41a47ee4454e}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9781118391259}
@@ -309,8 +344,8 @@
       \strng{authornamehash}{05d5a7a03018917e576e06e5dd355330}
       \strng{authorfullhash}{05d5a7a03018917e576e06e5dd355330}
       \field{extraname}{1}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{IEEE MTT-S Int. Microw. Symp. Dig.}
@@ -343,8 +378,8 @@
       \strng{authorbibnamehash}{d8f179ae75cb707f1d559e5ab0339169}
       \strng{authornamehash}{d8f179ae75cb707f1d559e5ab0339169}
       \strng{authorfullhash}{d8f179ae75cb707f1d559e5ab0339169}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Elec. Commun.}
@@ -371,8 +406,8 @@
       \strng{authorbibnamehash}{617503f92c81ed082c208b4583de2105}
       \strng{authornamehash}{617503f92c81ed082c208b4583de2105}
       \strng{authorfullhash}{617503f92c81ed082c208b4583de2105}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{14}
@@ -423,8 +458,8 @@
       \strng{authorbibnamehash}{eade849cc1c1a6bee0aae9f8f17e5f80}
       \strng{authornamehash}{42e7875bd057e3b143ace1908460002c}
       \strng{authorfullhash}{eade849cc1c1a6bee0aae9f8f17e5f80}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{X-Parameters: Characterization, Modeling, and Design of Nonlinear RF and Microwave Components}
@@ -691,8 +726,8 @@
       \strng{authorbibnamehash}{c0d2ca52f78d9ec9de9137f067d32d9e}
       \strng{authornamehash}{c0d2ca52f78d9ec9de9137f067d32d9e}
       \strng{authorfullhash}{c0d2ca52f78d9ec9de9137f067d32d9e}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
@@ -731,8 +766,8 @@
       \strng{authorbibnamehash}{467d504cd53e315f979ee20f92823cf2}
       \strng{authornamehash}{467d504cd53e315f979ee20f92823cf2}
       \strng{authorfullhash}{467d504cd53e315f979ee20f92823cf2}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{IEEE MTT-S Int. Microw. Symp. Dig.}
@@ -797,8 +832,8 @@
       \strng{authorbibnamehash}{e745682f1ae7e1a9e39f89d39fbec17d}
       \strng{authornamehash}{378d59725ef5a01874a14f6666fe8165}
       \strng{authorfullhash}{e745682f1ae7e1a9e39f89d39fbec17d}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
@@ -834,8 +869,8 @@
       \strng{authorbibnamehash}{f6799673e99a73eba156a3b70214feda}
       \strng{authornamehash}{f6799673e99a73eba156a3b70214feda}
       \strng{authorfullhash}{f6799673e99a73eba156a3b70214feda}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1527-3342}

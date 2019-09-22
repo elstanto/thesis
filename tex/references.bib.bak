@@ -1811,7 +1811,80 @@
   pages    = {130--136},
   month    = jun,
   doi      = {10.1109/MCOM.2018.1000939},
+  groups   = {Ch 1: Introduction},
   keywords = {forward error correction;radiocommunication;wireless channels;semiconductor device technologies;electromagnetic spectrum;wireless systems;forward error correction algorithms;KIOSK data downloading system;frequency 300.0 GHz;Wireless communication;Bandwidth;Receiving antennas;Transmitting antennas;Data transfer;Semiconductor devices;Heterogeneous networks},
+}
+
+@InProceedings{Williams_1990,
+  author    = {D. {Williams} and R. {Marks}},
+  title     = {The Interpretation and Use of S-Parameters in Lossy Lines},
+  booktitle = {36th ARFTG Microw. Meas. Conf. Dig.},
+  year      = {1990},
+  volume    = {18},
+  pages     = {84--90},
+  month     = nov,
+  doi       = {10.1109/ARFTG.1990.323999},
+  groups    = {Ch 1: Introduction},
+  keywords  = {Scattering parameters;Transmission line measurements;Impedance measurement;Propagation constant;Magnetic field measurement;NIST;Coaxial components;Coplanar waveguides;Coplanar transmission lines;Microwave devices},
+}
+
+@Online{Maury_Insight,
+  url     = {https://www.maurymw.com/pdf/datasheets/4T-023.pdf},
+  urldate = {2019-09-22},
+  title   = {Insight {VNA} Calibration and Measurement Software},
+  groups  = {Ch 4: VNA Uncertainty},
+}
+
+@Article{Ridler_2002,
+  author    = {Nick M. Ridler and Martin J. Salter},
+  title     = {An approach to the treatment of uncertainty in complex {S}-parameter measurements},
+  journal   = {Metrologia},
+  year      = {2002},
+  volume    = {39},
+  number    = {3},
+  pages     = {295--302},
+  month     = jun,
+  abstract  = {This paper presents methods for evaluating, expressing and using the uncertainty associated with complex S-parameter measurements. The methods are based on internationally recommended guidelines, published by the International Organization for Standardization (ISO), with extensions to accommodate the complex nature of the measurands. The treatment of measurements from both one-port and multi-port devices is presented and this is used to propagate uncertainty from complex-valued S-parameters to radio frequency (rf) and microwave quantities derived from these. A simple example, involving the comparison loss correction used during a microwave power meter calibration, is included to demonstrate the principles of propagating the uncertainty in complex S-parameter measurements.},
+  doi       = {10.1088/0026-1394/39/3/6},
+  groups    = {Ch 4: VNA Uncertainty},
+  publisher = {{IOP} Publishing},
+  url       = {https://doi.org/10.1088%2F0026-1394%2F39%2F3%2F6},
+}
+
+@Article{Jargon_2002,
+  author   = {Jargon, Jeffrey A. and Gupta, K. C. and DeGroot, Donald C.},
+  title    = {Applications of artificial neural networks to {RF} and microwave measurements},
+  journal  = {International Journal of RF and Microwave Computer-Aided Engineering},
+  year     = {2002},
+  volume   = {12},
+  number   = {1},
+  pages    = {3--24},
+  doi      = {10.1002/mmce.10014},
+  eprint   = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/mmce.10014},
+  keywords = {application, artificial neural network, calibration, measurement, microwave, model, network analyzer, standards},
+  url      = {https://onlinelibrary.wiley.com/doi/abs/10.1002/mmce.10014},
+}
+
+@Online{broadcom,
+  url          = {https://www.broadcom.com/docs/AV02-0488EN},
+  urldate      = {2019-09-22},
+  title        = {{ATF-54143} Data Sheet},
+  organization = {Broadcom},
+}
+
+@InProceedings{Long_2016,
+  author    = {Christian J. Long and Nate Orloff and Jasper Drisko and Dylan Williams and Ari Feldman and Rich Chamberlin and Dazhen Gu and Ratna Khatri and Ron Ginley and James C. Booth},
+  title     = {On-Wafer Metrology at {NIST}},
+  booktitle = {{ARFTG} On-Wafer Users’ Forum},
+  year      = {2016},
+  address   = {Austin, TX, USA},
+  month     = dec,
+}
+
+@Standard{ISO_5725,
+  title        = {Accuracy (trueness and precision) of measurement methods and results},
+  organization = {ISO},
+  number       = {5725-1:1994},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

@@ -2,102 +2,100 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces The past and predicted future trends of global mobile subscribers \cite {Ericsson_2019}.\relax }}{2}% 
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The past and predicted trends of global mobile subscribers \cite {Ericsson_2019}.\relax }}{2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces A typical packaged RF power transistor \cite {blf861a}.\relax }}{3}% 
+\contentsline {figure}{\numberline {1.2}{\ignorespaces A typical packaged RF power transistor \cite {nxp_pic}.\relax }}{3}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.1}{\ignorespaces The frequency dependence of a bandstop filter.}}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces The Touchstone file layout.}}{12}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces An illustration of gain compression.}}{13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces An illustration of gain compression.}}{14}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Intermodulation products from two interacting tones.}}{15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Intermodulation products from two interacting tones.}}{15}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Structure of a one-port reflectometer.}}{16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Structure of a one-port reflectometer.}}{16}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Structure of a two-source mixer-based VNA.}}{17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Structure of a two-source mixer-based VNA.}}{18}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces The three-term VNA error model.}}{18}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces The three-term VNA error model.}}{19}% 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces The eight-term VNA error model.}}{20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces The eight-term VNA error model.}}{20}% 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces The power calibration of an NVNA.}}{25}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces The power calibration of an NVNA.}}{25}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.10}{\ignorespaces The phase calibration of an NVNA.}}{26}% 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces The phase calibration of an NVNA.}}{26}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Egyptian royal cubit rod of Maya.}}{29}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Egyptian royal cubit rod of Maya.}}{28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces An illustration of measurement traceability.}}{30}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces An illustration of measurement traceability.}}{29}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Propagation of measurement uncertainty.}}{36}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Propagation of measurement uncertainty.}}{35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Scaling factor to convert from a GUM standard uncertainty to a GUM Supplement.\relax }}{38}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Scaling factor to convert from a GUM standard uncertainty to a GUM Supplement.\relax }}{37}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Plot of minimum observations for valid GUM Supplement uncertainty evaluation.}}{42}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Plot of minimum observations for valid GUM Supplement uncertainty evaluation.}}{41}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Propagation of probability distributions used in GUM Supplement 1.}}{45}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Propagation of probability distributions used in GUM Supplement 1.}}{44}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Sensitivity analysis example results.}}{49}% 
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Structure of VNA uncertainty evaluation.}}{53}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces A graphical representation of the ripple extraction technique, including a possible failure mechanism.\relax }}{61}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Measurements of residual directivity performed in coaxial transmission line.}}{63}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Measurements of residual TPM performed in coaxial transmission line.}}{64}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Magnitude of the reflection measurement of a matched load and a short-circuit offset by a length of coaxial line.}}{66}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Test port setup used for residual directivity measurements in WR-1.5 waveguide.\relax }}{68}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Phase plot for a residual directivity evaluation performed in WR-1.5 waveguide using an SOSLT calibration.\relax }}{69}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Time domain representation of the pulse train which creates the harmonic comb in the frequency domain.}}{77}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Results of the phase reference characterisation performed at NIST for unit MY51256113 displayed using the MUF measurement viewer software.}}{78}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces A chart showing dominant uncertainty contributions within the power meter measurement.}}{79}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.11}{\ignorespaces An example sensitivity analysis showing the effect of power meter uncertainties on an X-parameter measurement.}}{80}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.12}{\ignorespaces The NVNA measurement model used in \cite {Lin_2012}.\relax }}{82}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.13}{\ignorespaces The LSNA calibration tab of the MUF VNA Uncertainty Calculator application.}}{83}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Sensitivity analysis example results.}}{48}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Device-under-test model representation.}}{86}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Structure of VNA uncertainty evaluation.}}{52}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Performance of hot S-parameter models with different $hotS22$ definitions.}}{89}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces A graphical representation of the ripple extraction technique, including a possible failure mechanism.\relax }}{60}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces The harmonic superposition principle.}}{89}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Measurements of residual directivity performed in coaxial transmission line.}}{62}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Relationship of device output against input wave phase for different nonlinear behavioural models.}}{92}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Measurements of residual TPM performed in coaxial transmission line.}}{63}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces NVNA setup required for X-parameter measurements.}}{93}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Magnitude of the reflection measurement of a matched load and a short-circuit offset by a length of coaxial line.}}{65}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Offset-phase X-parameter extraction procedure.}}{94}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Test port setup used for residual directivity measurements in WR-1.5 waveguide.\relax }}{67}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces X-parameter uncertainty processing flow.}}{98}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Phase plot for a residual directivity evaluation performed in WR-1.5 waveguide using an SOSLT calibration.\relax }}{68}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Time domain representation of the pulse train which creates the harmonic comb in the frequency domain.}}{76}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Results of the phase reference characterisation performed at NIST for unit MY51256113 displayed using the MUF measurement viewer software.}}{77}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces A chart showing dominant uncertainty contributions within the power meter measurement.}}{78}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces An example sensitivity analysis showing the effect of power meter uncertainties on an X-parameter measurement.}}{79}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces The NVNA measurement model used in \cite {Lin_2012}.\relax }}{81}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.13}{\ignorespaces The LSNA calibration tab of the MUF VNA Uncertainty Calculator application.}}{82}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Device-under-test model representation.}}{85}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Performance of hot S-parameter models with different $hotS22$ definitions.}}{88}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces The harmonic superposition principle.}}{88}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Relationship of device output against input wave phase for different nonlinear behavioural models.}}{91}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces NVNA setup required for X-parameter measurements.}}{92}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Offset-phase X-parameter extraction procedure.}}{93}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces X-parameter uncertainty processing flow.}}{97}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.8}{\ignorespaces The measurement setup used for extracting X-parameters from the DUT.}}{100}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Histogram comparing the Monte Carlo and sequential perturbation uncertainty results for the DUT.}}{103}% 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Histogram comparing the Monte Carlo and sequential perturbation uncertainty results for the DUT.}}{102}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Estimates and standard uncertainties for the magnitude and phase of a sample of the extracted X-parameters.}}{104}% 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Estimates and standard uncertainties for the magnitude and phase of a sample of the extracted X-parameters.}}{103}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Sensitivity analysis results for a sample of the extracted X-parameters.}}{106}% 
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Sensitivity analysis results for a sample of the extracted X-parameters.}}{105}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.12}{\ignorespaces An example circuit simulation schematic using an X-parameter model incorporating uncertainties in ADS.}}{107}% 
+\contentsline {figure}{\numberline {5.12}{\ignorespaces An example circuit simulation schematic using an X-parameter model incorporating uncertainties in ADS.}}{106}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Results from an ADS circuit simulation using an X-parameter model incorporating uncertainties in ADS.}}{108}% 
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Results from an ADS circuit simulation using an X-parameter model incorporating uncertainties in ADS.}}{107}% 
 \defcounter {refsection}{3}\relax 
 \addvspace {10\p@ }

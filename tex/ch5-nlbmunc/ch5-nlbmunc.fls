@@ -290,6 +290,7 @@ INPUT ../figs/ch5-nlbmunc/uncproc.png
 INPUT ../figs/ch5-nlbmunc/setup.png
 INPUT ../figs/ch5-nlbmunc/setup.png
 INPUT ../figs/ch5-nlbmunc/setup.png
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT ../figs/ch5-nlbmunc/hist.png
 INPUT ../figs/ch5-nlbmunc/hist.png
 INPUT ../figs/ch5-nlbmunc/hist.png
@@ -326,6 +327,7 @@ INPUT ../figs/ch5-nlbmunc/fig7.pdf
 INPUT ch5-nlbmunc.aux
 INPUT ch5-nlbmunc.run.xml
 OUTPUT ch5-nlbmunc.run.xml
+INPUT c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
@@ -341,3 +343,4 @@ INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb

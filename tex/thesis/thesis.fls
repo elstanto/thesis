@@ -279,9 +279,6 @@ INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ../figs/ch2-rfmwmeas/ch2_filter.png
 INPUT ../figs/ch2-rfmwmeas/ch2_filter.png
 INPUT ../figs/ch2-rfmwmeas/ch2_filter.png
-INPUT ../figs/ch2-rfmwmeas/ch2_s2p.PNG
-INPUT ../figs/ch2-rfmwmeas/ch2_s2p.PNG
-INPUT ../figs/ch2-rfmwmeas/ch2_s2p.PNG
 INPUT ../figs/ch2-rfmwmeas/ch2_compression.pdf
 INPUT ../figs/ch2-rfmwmeas/ch2_compression.pdf
 INPUT ../figs/ch2-rfmwmeas/ch2_compression.pdf

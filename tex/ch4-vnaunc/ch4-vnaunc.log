@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.4)  21 SEP 2019 00:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.4)  22 SEP 2019 15:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1056,136 +1056,137 @@ Package pdftex.def Info: ../figs/ch4-vnaunc/vna-model.pdf  used on input line 2
 4.
 (pdftex.def)             Requested size: 418.25368pt x 227.13538pt.
 [2] [3 <../figs/ch4-vnaunc/vna-model.pdf>] [4] [5] [6] [7] [8] [9]
-<../figs/ch4-vnaunc/Ripple1.png, id=42, 170.5572pt x 145.5036pt>
+<../figs/ch4-vnaunc/Ripple1.png, id=43, 170.5572pt x 145.5036pt>
 File: ../figs/ch4-vnaunc/Ripple1.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/Ripple1.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/Ripple1.png  used on input line 142
+Package pdftex.def Info: ../figs/ch4-vnaunc/Ripple1.png  used on input line 136
 .
 (pdftex.def)             Requested size: 133.84424pt x 114.18948pt.
-<../figs/ch4-vnaunc/Ripple2.png, id=44, 429.7656pt x 164.5347pt>
+<../figs/ch4-vnaunc/Ripple2.png, id=45, 429.7656pt x 164.5347pt>
 File: ../figs/ch4-vnaunc/Ripple2.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/Ripple2.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/Ripple2.png  used on input line 148
+Package pdftex.def Info: ../figs/ch4-vnaunc/Ripple2.png  used on input line 142
 .
 (pdftex.def)             Requested size: 313.69025pt x 120.09926pt.
-<../figs/ch4-vnaunc/Ripple3.png, id=45, 382.7901pt x 144.54pt>
+<../figs/ch4-vnaunc/Ripple3.png, id=46, 382.7901pt x 144.54pt>
 File: ../figs/ch4-vnaunc/Ripple3.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/Ripple3.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/Ripple3.png  used on input line 154
+Package pdftex.def Info: ../figs/ch4-vnaunc/Ripple3.png  used on input line 148
 .
 (pdftex.def)             Requested size: 313.69025pt x 118.44856pt.
 [10] [11 <../figs/ch4-vnaunc/Ripple1.PNG> <../figs/ch4-vnaunc/Ripple2.PNG> <../
 figs/ch4-vnaunc/Ripple3.PNG>]
-<../figs/ch4-vnaunc/dir-a.png, id=59, 145.0218pt x 145.7445pt>
+<../figs/ch4-vnaunc/dir-a.png, id=60, 145.0218pt x 145.7445pt>
 File: ../figs/ch4-vnaunc/dir-a.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/dir-a.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/dir-a.png  used on input line 174.
+Package pdftex.def Info: ../figs/ch4-vnaunc/dir-a.png  used on input line 167.
 (pdftex.def)             Requested size: 169.39043pt x 170.24016pt.
-<../figs/ch4-vnaunc/dir-b.png, id=60, 146.2263pt x 145.9854pt>
+<../figs/ch4-vnaunc/dir-b.png, id=61, 146.2263pt x 145.9854pt>
 File: ../figs/ch4-vnaunc/dir-b.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/dir-b.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/dir-b.png  used on input line 179.
+Package pdftex.def Info: ../figs/ch4-vnaunc/dir-b.png  used on input line 172.
 (pdftex.def)             Requested size: 169.39043pt x 169.11818pt.
-<../figs/ch4-vnaunc/dir-c.png, id=61, 238.2501pt x 158.5122pt>
+<../figs/ch4-vnaunc/dir-c.png, id=62, 238.2501pt x 158.5122pt>
 File: ../figs/ch4-vnaunc/dir-c.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/dir-c.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/dir-c.png  used on input line 185.
+Package pdftex.def Info: ../figs/ch4-vnaunc/dir-c.png  used on input line 178.
 (pdftex.def)             Requested size: 250.95476pt x 166.97482pt.
 [12] [13 <../figs/ch4-vnaunc/dir-a.PNG> <../figs/ch4-vnaunc/dir-b.PNG> <../figs
 /ch4-vnaunc/dir-c.PNG>]
-<../figs/ch4-vnaunc/tpm-a.png, id=73, 144.2991pt x 144.2991pt>
+<../figs/ch4-vnaunc/tpm-a.png, id=74, 144.2991pt x 144.2991pt>
 File: ../figs/ch4-vnaunc/tpm-a.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/tpm-a.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/tpm-a.png  used on input line 206.
+Package pdftex.def Info: ../figs/ch4-vnaunc/tpm-a.png  used on input line 199.
 (pdftex.def)             Requested size: 139.27568pt x 139.27637pt.
 
-Underfull \hbox (badness 3803) in paragraph at lines 207--207
+Underfull \hbox (badness 3803) in paragraph at lines 200--200
 []\OT1/cmr/m/n/9 (a) |Smith chart rep-re-sen-ta-tion of
  []
 
-<../figs/ch4-vnaunc/tpm-b.png, id=74, 238.9728pt x 159.4758pt>
+<../figs/ch4-vnaunc/tpm-b.png, id=75, 238.9728pt x 159.4758pt>
 File: ../figs/ch4-vnaunc/tpm-b.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/tpm-b.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/tpm-b.png  used on input line 211.
+Package pdftex.def Info: ../figs/ch4-vnaunc/tpm-b.png  used on input line 204.
 (pdftex.def)             Requested size: 225.85774pt x 150.72488pt.
 [14 <../figs/ch4-vnaunc/tpm-a.PNG> <../figs/ch4-vnaunc/tpm-b.PNG>]
-<../figs/ch4-vnaunc/coax.png, id=80, 145.7445pt x 84.5559pt>
+<../figs/ch4-vnaunc/coax.png, id=81, 145.7445pt x 84.5559pt>
 File: ../figs/ch4-vnaunc/coax.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/coax.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/coax.png  used on input line 230.
+Package pdftex.def Info: ../figs/ch4-vnaunc/coax.png  used on input line 223.
 (pdftex.def)             Requested size: 271.86234pt x 157.75224pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 235.
+               Default added (so using `tbp') on input line 228.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 250.
+               Default added (so using `tbp') on input line 243.
 
 [15] [16 <../figs/ch4-vnaunc/coax.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 268.
+               Default added (so using `tbp') on input line 261.
 
 [17]
-<../figs/ch4-vnaunc/setup.jpg, id=91, 653.44125pt x 413.29407pt>
+<../figs/ch4-vnaunc/setup.jpg, id=92, 653.44125pt x 413.29407pt>
 File: ../figs/ch4-vnaunc/setup.jpg Graphic file (type jpg)
 <use ../figs/ch4-vnaunc/setup.jpg>
-Package pdftex.def Info: ../figs/ch4-vnaunc/setup.jpg  used on input line 292.
+Package pdftex.def Info: ../figs/ch4-vnaunc/setup.jpg  used on input line 285.
 (pdftex.def)             Requested size: 271.86234pt x 171.94897pt.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 297.
+               Default added (so using `tbp') on input line 290.
 
-<../figs/ch4-vnaunc/wm380.png, id=92, 228.3732pt x 153.4533pt>
+<../figs/ch4-vnaunc/wm380.png, id=93, 228.3732pt x 153.4533pt>
 File: ../figs/ch4-vnaunc/wm380.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/wm380.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/wm380.png  used on input line 310.
+Package pdftex.def Info: ../figs/ch4-vnaunc/wm380.png  used on input line 303.
 (pdftex.def)             Requested size: 271.86234pt x 182.69829pt.
 [18 <../figs/ch4-vnaunc/setup.jpg>] [19 <../figs/ch4-vnaunc/WM380.png>] [20] [2
-1] [22] [23] [24] [25] [26]
-<../figs/ch4-vnaunc/comb.png, id=124, 1010.27437pt x 331.2375pt>
+1] [22] [23] [24] [25]
+<../figs/ch4-vnaunc/comb.png, id=122, 1010.27437pt x 331.2375pt>
 File: ../figs/ch4-vnaunc/comb.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/comb.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/comb.png  used on input line 388.
+Package pdftex.def Info: ../figs/ch4-vnaunc/comb.png  used on input line 379.
 (pdftex.def)             Requested size: 418.25368pt x 137.13246pt.
-<../figs/ch4-vnaunc/combuncA.png, id=125, 190.311pt x 168.1482pt>
+<../figs/ch4-vnaunc/combuncA.png, id=123, 187.6611pt x 165.7392pt>
 File: ../figs/ch4-vnaunc/combuncA.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/combuncA.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/combuncA.png  used on input line 39
-7.
-(pdftex.def)             Requested size: 259.31523pt x 229.15059pt.
-<../figs/ch4-vnaunc/combuncP.png, id=126, 190.0701pt x 168.1482pt>
+Package pdftex.def Info: ../figs/ch4-vnaunc/combuncA.png  used on input line 38
+9.
+(pdftex.def)             Requested size: 259.31523pt x 229.0263pt.
+<../figs/ch4-vnaunc/combuncP.png, id=124, 187.4202pt x 165.7392pt>
 File: ../figs/ch4-vnaunc/combuncP.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/combuncP.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/combuncP.png  used on input line 40
-3.
-(pdftex.def)             Requested size: 259.31523pt x 229.41486pt.
-[27 <../figs/ch4-vnaunc/comb.png>] [28 <../figs/ch4-vnaunc/combuncA.png> <../fi
-gs/ch4-vnaunc/combuncP.png>]
-<../figs/ch4-vnaunc/pmchart.png, id=136, 223.0734pt x 105.2733pt>
+Package pdftex.def Info: ../figs/ch4-vnaunc/combuncP.png  used on input line 39
+5.
+(pdftex.def)             Requested size: 259.31523pt x 229.33232pt.
+[26]
+<../figs/ch4-vnaunc/pmchart.png, id=129, 223.0734pt x 105.2733pt>
 File: ../figs/ch4-vnaunc/pmchart.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/pmchart.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/pmchart.png  used on input line 418
+Package pdftex.def Info: ../figs/ch4-vnaunc/pmchart.png  used on input line 410
 .
 (pdftex.def)             Requested size: 292.77629pt x 138.17247pt.
-<../figs/ch4-vnaunc/pmsens.png, id=137, 211.5102pt x 189.1065pt>
+[27 <../figs/ch4-vnaunc/comb.png>] [28 <../figs/ch4-vnaunc/combuncA.png> <../fi
+gs/ch4-vnaunc/combuncP.png>]
+<../figs/ch4-vnaunc/pmsens.png, id=139, 210.0648pt x 187.1793pt>
 File: ../figs/ch4-vnaunc/pmsens.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/pmsens.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/pmsens.png  used on input line 435.
+Package pdftex.def Info: ../figs/ch4-vnaunc/pmsens.png  used on input line 425.
 
-(pdftex.def)             Requested size: 418.25368pt x 373.96745pt.
+(pdftex.def)             Requested size: 418.25368pt x 372.68971pt.
 [29 <../figs/ch4-vnaunc/pmchart.png>] [30 <../figs/ch4-vnaunc/pmsens.png>]
-<../figs/ch4-vnaunc/linmodel.png, id=146, 246.9225pt x 286.671pt>
+<../figs/ch4-vnaunc/linmodel.png, id=148, 246.9225pt x 286.671pt>
 File: ../figs/ch4-vnaunc/linmodel.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/linmodel.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/linmodel.png  used on input line 45
+Package pdftex.def Info: ../figs/ch4-vnaunc/linmodel.png  used on input line 44
 0.
 (pdftex.def)             Requested size: 334.60422pt x 388.4895pt.
-<../figs/ch4-vnaunc/muflsna.png, id=147, 174.6525pt x 129.8451pt>
+<../figs/ch4-vnaunc/muflsna.png, id=149, 174.6525pt x 129.8451pt>
 File: ../figs/ch4-vnaunc/muflsna.png Graphic file (type png)
 <use ../figs/ch4-vnaunc/muflsna.png>
-Package pdftex.def Info: ../figs/ch4-vnaunc/muflsna.png  used on input line 463
+Package pdftex.def Info: ../figs/ch4-vnaunc/muflsna.png  used on input line 453
 .
 (pdftex.def)             Requested size: 418.25368pt x 310.99657pt.
 [31] [32 <../figs/ch4-vnaunc/linmodel.png>] [33 <../figs/ch4-vnaunc/muflsna.png
@@ -1195,31 +1196,33 @@ Package logreq Info: Writing requests to 'ch4-vnaunc.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29684 strings out of 492609
- 542258 string characters out of 6132819
+ 29712 strings out of 492609
+ 542761 string characters out of 6132819
  1016595 words of memory out of 5000000
- 33290 multiletter control sequences out of 15000+600000
- 541886 words of font info for 56 fonts, out of 8000000 for 9000
+ 33310 multiletter control sequences out of 15000+600000
+ 544280 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,11n,77p,2087b,1734s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
-live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.
-pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/tex
-live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2019/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2019/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmti10.pfb>
-Output written on ch4-vnaunc.pdf (34 pages, 1808461 bytes).
+{c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/t
+exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2019/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsl10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.p
+fb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/te
+xlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on ch4-vnaunc.pdf (34 pages, 1823063 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
+ 221 PDF objects out of 1000 (max. 8388607)
+ 130 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
