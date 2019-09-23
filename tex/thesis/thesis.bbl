@@ -3017,15 +3017,6 @@
       \verb{doi}
       \verb 10.1002/mmce.10014
       \endverb
-      \verb{eprint}
-      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/mmce.10014
-      \endverb
-      \verb{urlraw}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/mmce.10014
-      \endverb
-      \verb{url}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/mmce.10014
-      \endverb
       \keyw{application,artificial neural network,calibration,measurement,microwave,model,network analyzer,standards}
     \endentry
     \entry{Lewandowski_2010}{thesis}{}
