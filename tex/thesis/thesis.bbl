@@ -376,6 +376,9 @@
            given={D.},
            giveni={D\bibinitperiod}}}%
       }
+      \list{location}{1}{%
+        {Kyoto, Japan}%
+      }
       \strng{namehash}{d8b2344aa35ac801b0984f99872d3b92}
       \strng{fullhash}{be03e99246f52db9cd1342d6d3a77a84}
       \strng{bibnamehash}{be03e99246f52db9cd1342d6d3a77a84}
@@ -1245,6 +1248,9 @@
            familyi={M\bibinitperiod},
            given={R.},
            giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Monterey, CA, USA}%
       }
       \strng{namehash}{ac460c9362417f882f5e1bc3a0067a19}
       \strng{fullhash}{ac460c9362417f882f5e1bc3a0067a19}
@@ -3007,7 +3013,8 @@
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of RF and Microwave Computer-Aided Engineering}
+      \field{journaltitle}{Int. J. of RF and Microw. Computer-Aided Eng.}
+      \field{month}{1}
       \field{number}{1}
       \field{title}{Applications of artificial neural networks to {RF} and microwave measurements}
       \field{volume}{12}
@@ -3217,6 +3224,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{ALMA Memo}
+      \field{month}{11}
       \field{title}{Waveguide flanges for {ALMA} instrumentation}
       \field{volume}{278}
       \field{year}{1999}
@@ -3243,6 +3251,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Electronics Div. Tech. Note}
+      \field{month}{1}
       \field{title}{Mismatch caused by waveguide tolerances, corner radii, and flange misalignment}
       \field{volume}{215}
       \field{year}{2010}
@@ -4392,6 +4401,9 @@
            given={Jan},
            giveni={J\bibinitperiod}}}%
       }
+      \list{location}{1}{%
+        {Seattle, WA, USA}%
+      }
       \strng{namehash}{f6c09f6325be69ff567afcd01c0d10d5}
       \strng{fullhash}{f6c09f6325be69ff567afcd01c0d10d5}
       \strng{bibnamehash}{f6c09f6325be69ff567afcd01c0d10d5}
@@ -4403,6 +4415,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Workshop at the Int. Microw. Symp.}
+      \field{month}{6}
       \field{title}{Everything you’ve always wanted to know about hot-{S}22 (but we’re afraid to ask)}
       \field{year}{2002}
     \endentry

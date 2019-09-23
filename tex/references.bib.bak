@@ -482,6 +482,7 @@
   journal = {ALMA Memo},
   year    = {1999},
   volume  = {278},
+  month   = nov,
   groups  = {Ch 4: VNA Uncertainty},
 }
 
@@ -491,6 +492,7 @@
   journal   = {Electronics Div. Tech. Note},
   year      = {2010},
   volume    = {215},
+  month     = jan,
   groups    = {Ch 4: VNA Uncertainty},
   publisher = {Citeseer},
 }
@@ -1082,6 +1084,8 @@
   title     = {Everything you’ve always wanted to know about hot-{S}22 (but we’re afraid to ask)},
   booktitle = {Workshop at the Int. Microw. Symp.},
   year      = {2002},
+  address   = {Seattle, WA, USA},
+  month     = jun,
   groups    = {Ch 5: Prop Meas Unc to NLBM},
 }
 
@@ -1687,6 +1691,7 @@
   booktitle = {Asia-Pacific Microw. Conf. (APMC)},
   year      = {2018},
   pages     = {744--746},
+  address   = {Kyoto, Japan},
   month     = nov,
   doi       = {10.23919/APMC.2018.8617137},
   groups    = {Ch 1: Introduction},
@@ -1822,6 +1827,7 @@
   year      = {1990},
   volume    = {18},
   pages     = {84--90},
+  address   = {Monterey, CA, USA},
   month     = nov,
   doi       = {10.1109/ARFTG.1990.323999},
   groups    = {Ch 1: Introduction},
@@ -1854,11 +1860,12 @@
 @Article{Jargon_2002,
   author   = {Jargon, Jeffrey A. and Gupta, K. C. and DeGroot, Donald C.},
   title    = {Applications of artificial neural networks to {RF} and microwave measurements},
-  journal  = {International Journal of RF and Microwave Computer-Aided Engineering},
+  journal  = {Int. J. of RF and Microw. Computer-Aided Eng.},
   year     = {2002},
   volume   = {12},
   number   = {1},
   pages    = {3--24},
+  month    = jan,
   doi      = {10.1002/mmce.10014},
   keywords = {application, artificial neural network, calibration, measurement, microwave, model, network analyzer, standards},
 }
