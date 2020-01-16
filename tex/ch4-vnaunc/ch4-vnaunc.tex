@@ -77,13 +77,12 @@ Noise plays an important role in RF and microwave engineering and a lot of effor
 
 The amount of electrical noise in VNA measurements is a sum of thermal noise and contributions from the VNA components. Thermal noise, caused by the random motion of free electrons in a conducting material by heat, is specified as $4\times 10^{21}$ W/Hz ($-174$ dBm/Hz) \cite{Hiebel_2008}. The intermediate frequency bandwidth (IFBW) setting on the VNA controls the frequency range of signals being measured at each discrete point in the sweep, and can typically be set from $1$ Hz to more than $10$ kHz. It is this figure which multiplies the thermal noise to provide a theoretical minimum noise floor if we were to assume the VNA did not contribute any noise itself. The disadvantage of a very low IFBW is that the VNA takes longer to perform the measurement, so there is a compromise between speed and accuracy. This provides a good example of where uncertainty evaluation can have a direct benefit to measurement accuracy - if the IFBW is reduced the uncertainty due to noise should also reduce. By quantifying the uncertainty the engineer can make an informed decision as to what value to set the IFBW, which could have time implications, especially important in a manufacturing environment.
 
-In addition to the thermal noise, the VNA contributes noise from the source, receiver and other test set components (i.e. local oscillator phase noise). Setting attenuators to lower values will improve noise as resistors add additional thermal noise to the measurement. The noise figure (NF) of a VNA is typically quoted in the specifications, and can be used with the thermal noise to calculate the theoretical noise level of the VNA measurement \cite{Hiebel_2008}:
+In addition to the thermal noise, the VNA contributes noise from the source, receiver and other test set components (i.e. local oscillator phase noise). Setting attenuators to lower values will improve noise as resistors add additional thermal noise to the measurement. The noise figure (NF) of a VNA is typically quoted in the specifications, and can be used with the thermal noise to calculate the theoretical noise level $L_\textrm{N}$ of the VNA measurement \cite{Hiebel_2008}:
 
 \begin{equation}
-	L_\textrm{N} = -174 \textrm{dBm} + NF + 10\log(S_\textrm{F})\textrm{dB} + 10\log\left(\frac{B_\textrm{IF}}{\textrm{Hz}}\right)\textrm{dB}
+	L_\textrm{N} = -174 \textrm{dBm} + NF + 10\log(S_\textrm{F})\textrm{dB} + 10\log\left(\frac{\textrm{IFBW}}{\textrm{Hz}}\right)\textrm{dB}
 \end{equation}
-
-For the purposes of uncertainty evaluation, VNA noise level is measured on the instrument itself and is typically included in the measurement model as two input quantities, noise floor and trace noise. It is important that the VNA settings (IFBW, test port power, averaging) are the same as will be used for the DUT measurements, and that no calibration is applied.
+where $S_\textrm{F}$ is the IF filter shape factor, relative to an ideal rectangular filter. For the purposes of uncertainty evaluation, VNA noise level is measured on the instrument itself and is typically included in the measurement model as two input quantities, noise floor and trace noise. It is important that the VNA settings (IFBW, test port power, averaging) are the same as will be used for the DUT measurements, and that no calibration is applied.
 
 Noise floor describes the noise present in the measurement with no external signal present. It can be measured with a matched load connected directly to the test port and should not include any noise contribution from the VNA source. Alternatively it can be measured from the transmission measurements of a 2-port VNA while short-circuits or open-circuits are connected for the trace noise measurement described below. Many measurements are made (\cite{EURAMET_2011} suggests a few hundred) and the standard deviation is calculated for each frequency point.
 
@@ -178,7 +177,7 @@ For coaxial measurements as specified in \cite{EURAMET_2011}, there is a high pr
 		\includegraphics[width=\linewidth]{dir-c.png}
 		\caption{Phase plot of both results, with the calibration load represented by the red dotted trace and the different load by the black solid trace.}
 	\end{subfigure}
-	\caption[Measurements of residual directivity performed in coaxial transmission line.]{Measurements of residual directivity plotted over the frequency range of 14--24 GHz performed in coaxial transmission line using both the load used for calibration and a load from a different calibration kit.}
+	\caption[Measurements of residual directivity performed in coaxial transmission line.]{Measurements of residual directivity plotted over the frequency range of 14--24 GHz performed in coaxial transmission line using both the load used for calibration and a load from a different calibration kit. The magnitude of the reflection coefficient in both cases is around 10 milliunits.}
 	\label{ch4_fig_dir}
 \end{figure}
 
@@ -423,7 +422,7 @@ For an ideal measurement, $M_\textrm{u}$ and $m$ are all equal to one and $t$ is
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{pmsens.png}
-	\caption[An example sensitivity analysis showing the effect of power meter uncertainties on an X-parameter measurement.]{An example sensitivity analysis showing the effect of power meter uncertainties on an X-parameter measurement. The plot shows the amplitude of the X-parameter representing the large-signal output of the amplifier into a matched load versus a swept input power. The values are in units of square-root Watts. The input quantities ROMM, ROPU and InsE all contribute to $m$, ZSEr and ZCOE contribute to $t$, and CFEr represents the error in $K_\textrm{b}$. Mismatch error is not included in the power meter model but is modelled as a cascaded adapter attached to the power sensor instead.}
+	\caption[An example sensitivity analysis showing the effect of power meter uncertainties on an X-parameter measurement.]{An example sensitivity analysis showing the effect of power meter uncertainties on an X-parameter measurement. The plot shows the amplitude of the X-parameter representing the large-signal output of the amplifier into a matched load versus a swept input power. The values are in units of square-root Watts. The input quantities Reference Oscillator Mismatch (ROMM), Reference Oscillator Power Uncertainty (ROPU) and Instrument Error (InsE) all contribute to $m$, Zero Set Error (ZSEr) and Zero Carryover Error (ZCOE) contribute to $t$, and Calibration Factor Error (CFEr) represents the error in $K_\textrm{b}$. Mismatch error is not included in the power meter model but is modelled as a cascaded adapter attached to the power sensor instead.}
 	\label{ch4_fig_pmsens}
 \end{figure}
 
@@ -438,7 +437,7 @@ Lin and Zhang published a covariance-based analytical method for linear propagat
 \begin{figure}
 	\centering
 	\includegraphics[width=0.8\textwidth]{linmodel.png}
-	\caption{The NVNA measurement model used in \cite{Lin_2012}.}
+	\caption{The NVNA measurement model used in \cite{Lin_2012}. Here, Polyharmonic Distortion (PHD) Modeling can be substituted for X-parameters or alternative nonlinear behavioural models.}
 	\label{ch4_fig_linmodel}
 \end{figure}
 

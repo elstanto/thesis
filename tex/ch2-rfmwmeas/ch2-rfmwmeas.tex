@@ -47,9 +47,9 @@ a(Z_\textrm{ref})=\bigg[\dfrac{|v_0|}{v_0}\dfrac{\sqrt{\Re(Z_\textrm{ref})}}{2|Z
 
 Finally, power waves are defined so that the relationship $P = |a|^2 - |b|^2$ is true for any reference impedance, where $P$ is the power transmitted through the transmission line and $a$ and $b$ are the forward and backward power waves, respectively. They are defined as:
 \begin{equation}
-a(Z_\textrm{ref})=\dfrac{v+iZ}{2\sqrt{\Re(Z_\textrm{ref})}},\quad b(Z_\textrm{ref})=\dfrac{v-iZ^*}{2\sqrt{\Re(Z_\textrm{ref})}}.
+a(Z_i)=\dfrac{v+iZ_i}{2\sqrt{\Re(Z_i)}},\quad b(Z_i)=\dfrac{v-iZ_i^*}{2\sqrt{\Re(Z_i)}}.
 \end{equation}
-Data taken from Keysight instruments used later in this work is presented in power wave format, with units of square-root Watts. To convert these values into decibels referenced to 1 milliwatt, the following formula is used:
+where $Z_i$ is the impedance seen at port $i$. Data taken from Keysight instruments used later in this work is presented in power wave format, with units of square-root Watts. To convert these values into decibels referenced to 1 milliwatt, the following formula is used:
 \begin{equation}
 P(\textrm{dBm}) = 10\log_{10}(P(\sqrt{W})^2) + 30
 \end{equation}
@@ -64,7 +64,7 @@ S_{21}=\dfrac{b_2}{a_1}\bigg\rvert_{a_2=0},\quad
 S_{22}=\dfrac{b_2}{a_2}\bigg\rvert_{a_1=0},
 \label{ch2_eqn_sp}
 \end{equation}
-where both a and b can be expressed in either pseudowave or power wave representation. The term “scattered” can be interchanged with “transmitted” and “reflected” depending on if the scattered wave is output on a different port, or the same port, to the incident wave, respectively. A signal flow diagram is provided in Figure \ref{ch2_fig_filter} showing the relationship between equivalent-circuit voltage and current, pseudowaves/power waves and S-parameters for a two-port device.
+where both a and b can be expressed in either pseudowave or power wave representation. The term “scattered” can be interchanged with “transmitted” and “reflected” depending on if the scattered wave is output on a different port, or the same port, to the incident wave, respectively.
 The S-parameters of all microwave devices will exhibit some degree of frequency dependence. This effect originates from physical processes occurring in the device and can either be a benefit or hindrance to a design. Most passive components (including cables) will have a usable bandwidth which is an unwanted limitation, whereas microwave filters are a ubiquitous component where the same fixed bandwidth is the main purpose of the device. To capture this frequency dependence, S-parameters are measured across a frequency range and stored in a table. An example of the frequency dependence of a filter is shown in Figure \ref{ch2_fig_filter}. For a device operating in the linear regime, if multiple stimuli at different frequencies are incident on the device, they will not interact with each other. The scattered waves will have the same frequency components as if the stimulus at each frequency was applied separately and the outputs combined. This is called the frequency superposition principle and it does not apply to nonlinear devices, which will be discussed later in this chapter.
 
 \begin{figure}
@@ -458,10 +458,10 @@ To obtain the phase of $e_{01}$, a phase reference is connected to Port 1 as sho
 The phase of $e_{01}$ can be calculated using:
 
 \begin{align}
-	\varphi(e_{01}) &= \varphi\Big(\frac{a_0}{a_\textrm{R}}[\Gamma^\textrm{M}_\textrm{R}-\Gamma^\textrm{M}_\textrm{R}\Gamma_\textrm{R}e_{11}-e_{00}+\Delta\Gamma_\textrm{R}]\Big) \\
-	&=\varphi(a_0) + \varphi(\Gamma^\textrm{M}_\textrm{R}-\Gamma^\textrm{M}_\textrm{R}\Gamma_\textrm{R}e_{11}-e_{00}+\Delta\Gamma_\textrm{R}) - \varphi(a_\textrm{R}) \label{ch2_eqn_phasecal}
+	\varphi(e_{01}) &= \varphi\Big(\frac{a_0}{a_\textrm{R}}[\Gamma^\textrm{M}_\textrm{PR}-\Gamma^\textrm{M}_\textrm{PR}\Gamma_\textrm{PR}e_{11}-e_{00}+\Delta\Gamma_\textrm{PR}]\Big) \\
+	&=\varphi(a_0) + \varphi(\Gamma^\textrm{M}_\textrm{PR}-\Gamma^\textrm{M}_\textrm{PR}\Gamma_\textrm{PR}e_{11}-e_{00}+\Delta\Gamma_\textrm{PR}) - \varphi(a_\textrm{R}) \label{ch2_eqn_phasecal}
 \end{align}
-where $a_\textrm{R}$ is the known signal from the phase reference, $\Gamma^\textrm{M}_\textrm{R}$ is the raw reflection coefficient of the phase reference ($b_0/a_0$) and $\Gamma_\textrm{R}$ is a previously measured and corrected reflection coefficient of the phase reference \cite{Lin_2012}. It can be seen from (\ref{ch2_eqn_phasecal}) that only the phases (relative to the fundamental driving tone) of the phase reference need to be known, and this information is supplied with the equipment.
+where $a_\textrm{R}$ is the known signal from the phase reference, $\Gamma^\textrm{M}_\textrm{PR}$ is the raw reflection coefficient of the phase reference ($b_0/a_0$) and $\Gamma_\textrm{PR}$ is a previously measured and corrected reflection coefficient of the phase reference \cite{Lin_2012}. It can be seen from (\ref{ch2_eqn_phasecal}) that only the phases (relative to the fundamental driving tone) of the phase reference need to be known, and this information is supplied with the equipment.
 
 \begin{figure}
 	\centering

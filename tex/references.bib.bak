@@ -315,6 +315,7 @@
   title     = {A novel design and characterization for 67 {GH}z {NLTL}-based harmonic phase reference},
   booktitle = {Proc. 3rd Asia-Pacific Conf. Ant. Propag. (APCAP)},
   year      = {2014},
+  address   = {Harbin, China},
   month     = jul,
   publisher = {{IEEE}},
   doi       = {10.1109/apcap.2014.6992765},

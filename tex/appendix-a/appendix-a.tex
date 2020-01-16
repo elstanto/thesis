@@ -1,8 +1,8 @@
 \documentclass[../thesis/thesis.tex]{subfiles}
 \begin{document}
 \addcontentsline{toc}{chapter}{Appendix A}
-\markboth{Appendix A}{}
 \chapter*{Appendix A: X-Parameter Extractor Code}
+\markboth{Appendix A}{}
 The code to extract X-parameters within the MUF was implemented as a post-processor in VB.net. The user is given the choice to perform the extraction using the PNA-X or an algorithm which has been implemented within the post-processor. This algorithm can perform the extraction much faster as it can be run on more powerful hardware than the PNA-X and also parallelised (e.g. on compute clusters). This is useful for uncertainty propagation where large numbers of samples need to be processed.
 
 The code listing below contains the functions used to perform the extraction using the PNA-X. This involves ensuring the measurement files have been transferred to storage which the instrument can access (e.g. a network-mounted drive), and that the PNA-X NVNA DCOM library (available from Keysight) has been registered on the computer executing the code.

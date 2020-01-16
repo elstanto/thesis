@@ -161,7 +161,7 @@ For this project, X-parameters were chosen as the nonlinear behavioural model fo
 \begin{figure}
 	\centering
 	\includegraphics[width=0.65\textwidth]{phasedep}
-	\caption[Relationship of device output against input wave phase for different nonlinear behavioural models.]{The relationship of device output $b_{p,k}$ against varying input wave phase $\angle a_{q,l}$ ($q, l \ne 1, 1$) for different nonlinear behavioural models, showing the effect that higher order mixing products have on the accuracy of the model \cite{Bespalko_2016}.}
+	\caption[Relationship of device output against input wave phase for different nonlinear behavioural models.]{The relationship of device output $b_{p,k}$ against varying input wave phase $\angle a_{q,l}$ ($q, l \ne 1, 1$) for different nonlinear behavioural models, showing the effect that higher order mixing products have on the accuracy of the model \cite{Bespalko_2016}. The PHD model is equivalent to X-parameters in this case.}
 	\label{ch5_fig_phasedep}
 \end{figure}
 
@@ -204,7 +204,7 @@ To improve noise errors it is advisable to make more than two measurements of di
 \begin{equation}
 	\bm{A} =
 	\begin{bmatrix}
-		1 & A_{(1,1)_0} & A_{(2,1)_0} & A^*_{(2,1)_0} & A_{(1,2)_0} & A^*_{(1,2)_0} & A_{(2,2)_0} & A^*_{(2,2)_0} & \dots \\
+		1 & 0 & A_{(2,1)_0} & A^*_{(2,1)_0} & A_{(1,2)_0} & A^*_{(1,2)_0} & A_{(2,2)_0} & A^*_{(2,2)_0} & \dots \\
 		1 & A_{(1,1)_1} - A_{(1,1)_0} & A_{(2,1)_1} & A^*_{(2,1)_1} & A_{(1,2)_1} & A^*_{(1,2)_1} & A_{(2,2)_1} & A^*_{(2,2)_1} & \dots \\
 		1 & A_{(1,1)_2} - A_{(1,1)_0} & A_{(2,1)_2} & A^*_{(2,1)_2} & A_{(1,2)_2} & A^*_{(1,2)_2} & A_{(2,2)_2} & A^*_{(2,2)_2} & \dots \\
 		\vdots & \vdots & \vdots & \vdots & \vdots & \vdots & \vdots & \vdots & \dots \\
@@ -293,7 +293,7 @@ The MUF was used to perform the calibration of electromagnetic wave parameters m
 	\label{ch5_fig_setup}
 \end{figure}
 
-Uncertainties are propagated through all steps of the calibration by the MUF. Sources of uncertainty that were included covered the definitions and measurements of the passive calibration standards, the power meter calibration and measurement, the phase reference characterization and measurement, cable flexure, and connection repeatability of all calibration steps. Uncertainty due to random noise in the high-dynamic range receivers was omitted as it has been shown to be negligible with respect to that arising from other error sources in LSNA measurements \cite{Blockley_2007}.
+Uncertainties are propagated through all steps of the calibration by the MUF. Sources of uncertainty that were included covered the definitions and measurements of the passive calibration standards, the power meter calibration and measurement, the phase reference characterization and measurement, cable flexure, and connection repeatability of all calibration steps. Uncertainty due to random noise in the high-dynamic range receivers was omitted as it has been shown to be negligible with respect to that arising from other error sources in LSNA measurements \cite{Blockley_2007}. A partial list of the names of included uncertainty sources is provided in Appendix B.
 
 The MUF supports several calibration algorithms, and for this measurement the multiline TRL calibration algorithm \cite{Engen_1979, Marks_1991} was chosen to allow direct dimensional traceability to national measurement standards. The calibration standards used were from a 1.85 mm precision coaxial calibration kit (Rosenberger RPC-1.85 LRL). Table \ref{ch5_table_passivestds} gives the dimensions of the line standards used for the calibration. To include the effect of connector repeatability on the passive calibration, each standard was measured three times with the connector rotated 120\textdegree. These measurements were passed to the MUF program Combine which produces a mean value with an associated uncertainty.
 
@@ -417,7 +417,7 @@ For these example measurements, it can also be seen that the uncertainty contrib
 Once the behavioural model has been extracted from measurements, it can be used in circuit simulators to predict the performance of circuit designs. Because the uncertainty information is stored as a collection of samples, it can be propagated through the circuit simulator by sweeping the sample index and running the simulation for each value. From this array of results, a statistical analysis can be performed to determine the standard uncertainty of the performance metric in question. The sensitivity analysis can be propagated in a similar way, as there is a sample in the model file for the perturbation of each input quantity. It is also possible to evaluate uncertainty in circuit simulations containing multiple DUTs processed using the MUF, for example in a two-stage, balanced, or Doherty amplifier configuration. If the same variable is used to sweep the sample index for all DUTs, then any uncertainty correlations will be preserved. An example would be if multiple DUTs in the circuit were measured on an LSNA using the same calibration.
 The measurement uncertainties which were captured into the X-parameter behavioral model can now be propagated to typical circuit metrics such as forward gain, input or output match, power-added efficiency (PAE), error vector magnitude (EVM) and adjacent channel power ratio (ACPR).
 
-To demonstrate this, an example simulation has been created in Advanced Design System (ADS). The DUT is represented as an X-parameter model, and the simulator sweeps both the Monte Carlo sample index and the source power using the results from the MUF uncertainty evaluation. For this example the X-parameter file from the previous section was used. The schematic of the design is shown in Figure \ref{ch5_fig_schematic}, and typical design plots of gain and PAE are provided in Figure \ref{ch5_fig_adsplot}. It can be seen that although the uncertainties of both parameters increase significantly with source power, the 95\% expanded uncertainties are below 0.2 dB and 0.4\% for gain and PAE, respectively.
+To demonstrate this, an example simulation has been created in Advanced Design System (ADS). The DUT is represented as an X-parameter model, and the simulator sweeps both the Monte Carlo sample index and the source power using the results from the MUF uncertainty evaluation. For this example the X-parameter file from the previous section was used. The schematic of the design is shown in Figure \ref{ch5_fig_schematic}, and typical design plots of gain and PAE are provided in Figure \ref{ch5_fig_adsplot}. It can be seen that although the uncertainties of both parameters increase significantly with source power, the 95\% expanded uncertainties are below 0.2 dB and 0.4\% for gain and PAE, respectively. It should be noted that the PAE result only includes uncertainty from the RF component and that the DC values were provided from a single observation.
 
 \begin{figure}
 	\centering

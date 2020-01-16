@@ -2293,17 +2293,17 @@
   </bcf:bibdata>
   <bcf:section number="3">
     <bcf:citekey order="1">GUM_2008</bcf:citekey>
-    <bcf:citekey order="2">GUM_S1</bcf:citekey>
-    <bcf:citekey order="2">GUM_S2</bcf:citekey>
-    <bcf:citekey order="3">Stant_2016</bcf:citekey>
-    <bcf:citekey order="4">Stant_2016_Coll</bcf:citekey>
-    <bcf:citekey order="4">Stant_2017</bcf:citekey>
-    <bcf:citekey order="5">Stant_2018_TMTT</bcf:citekey>
-    <bcf:citekey order="6">Ridler_2017</bcf:citekey>
-    <bcf:citekey order="7">Qi_2009</bcf:citekey>
-    <bcf:citekey order="8">Long_2016</bcf:citekey>
-    <bcf:citekey order="9">ISO5725</bcf:citekey>
-    <bcf:citekey order="10">Lin_2012</bcf:citekey>
+    <bcf:citekey order="2">Stant_2016</bcf:citekey>
+    <bcf:citekey order="3">GUM_2008</bcf:citekey>
+    <bcf:citekey order="4">EURAMET_2011</bcf:citekey>
+    <bcf:citekey order="5">Stant_2016_Coll</bcf:citekey>
+    <bcf:citekey order="5">Stant_2017</bcf:citekey>
+    <bcf:citekey order="6">Stant_2018_TMTT</bcf:citekey>
+    <bcf:citekey order="7">Ridler_2017</bcf:citekey>
+    <bcf:citekey order="8">Qi_2009</bcf:citekey>
+    <bcf:citekey order="9">Long_2016</bcf:citekey>
+    <bcf:citekey order="10">ISO5725</bcf:citekey>
+    <bcf:citekey order="11">Lin_2012</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

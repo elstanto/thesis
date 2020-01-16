@@ -5312,7 +5312,7 @@
       \field{booktitle}{94th ARFTG Microw. Meas. Conf.}
       \field{month}{1}
       \field{title}{An Interferometric Characterization Technique for Extreme Impedance Microwave Devices}
-      \field{year}{2020 (submitted)}
+      \field{year}{2020 (accepted)}
       \true{nocite}
     \endentry
     \entry{Salter_2018}{inproceedings}{}
@@ -5681,7 +5681,6 @@
       \strng{authorbibnamehash}{b1439abdfe160482b4cdeec639fd2806}
       \strng{authornamehash}{b1439abdfe160482b4cdeec639fd2806}
       \strng{authorfullhash}{b1439abdfe160482b4cdeec639fd2806}
-      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
@@ -5693,58 +5692,6 @@
       \endverb
       \verb{url}
       \verb http://www.bipm.org/utils/common/documents/jcgm/JCGM%20100%202008%20E.pdf
-      \endverb
-    \endentry
-    \entry{GUM_S1}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=b1439abdfe160482b4cdeec639fd2806}{%
-           family={{BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP and OIML}},
-           familyi={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{b1439abdfe160482b4cdeec639fd2806}
-      \strng{fullhash}{b1439abdfe160482b4cdeec639fd2806}
-      \strng{bibnamehash}{b1439abdfe160482b4cdeec639fd2806}
-      \strng{authorbibnamehash}{b1439abdfe160482b4cdeec639fd2806}
-      \strng{authornamehash}{b1439abdfe160482b4cdeec639fd2806}
-      \strng{authorfullhash}{b1439abdfe160482b4cdeec639fd2806}
-      \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Supplement 1 to the “Guide to the Expression of Uncertainty in Measurement" - Propagation of distributions using a Monte Carlo method JCGM 101:2008}}
-      \field{year}{2008}
-      \verb{urlraw}
-      \verb http://www.bipm.org/utils/common/documents/jcgm/JCGM 101 2008 E.pdf
-      \endverb
-      \verb{url}
-      \verb http://www.bipm.org/utils/common/documents/jcgm/JCGM%20101%202008%20E.pdf
-      \endverb
-    \endentry
-    \entry{GUM_S2}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=b1439abdfe160482b4cdeec639fd2806}{%
-           family={{BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP and OIML}},
-           familyi={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{b1439abdfe160482b4cdeec639fd2806}
-      \strng{fullhash}{b1439abdfe160482b4cdeec639fd2806}
-      \strng{bibnamehash}{b1439abdfe160482b4cdeec639fd2806}
-      \strng{authorbibnamehash}{b1439abdfe160482b4cdeec639fd2806}
-      \strng{authornamehash}{b1439abdfe160482b4cdeec639fd2806}
-      \strng{authorfullhash}{b1439abdfe160482b4cdeec639fd2806}
-      \field{extraname}{3}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Supplement 2 to the “Guide to the Expression of Uncertainty in Measurement" - Extension to any number of output quantities JCGM 102:2011}}
-      \field{year}{2011}
-      \verb{urlraw}
-      \verb http://www.bipm.org/utils/common/documents/jcgm/JCGM 102 2011 E.pdf
-      \endverb
-      \verb{url}
-      \verb http://www.bipm.org/utils/common/documents/jcgm/JCGM%20102%202011%20E.pdf
       \endverb
     \endentry
     \entry{Stant_2016}{article}{}
@@ -5775,8 +5722,8 @@
       \strng{authornamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
       \strng{authorfullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
       \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Measurement}
@@ -5789,6 +5736,28 @@
       \verb{doi}
       \verb 10.1016/j.measurement.2016.08.015
       \endverb
+    \endentry
+    \entry{EURAMET_2011}{report}{}
+      \name{author}{1}{}{%
+        {{hash=d14408e8db65c67405e4c3a6ceb06f4a}{%
+           family={{European Association of National Metrology Institutes (EURAMET)}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{d14408e8db65c67405e4c3a6ceb06f4a}
+      \strng{fullhash}{d14408e8db65c67405e4c3a6ceb06f4a}
+      \strng{bibnamehash}{d14408e8db65c67405e4c3a6ceb06f4a}
+      \strng{authorbibnamehash}{d14408e8db65c67405e4c3a6ceb06f4a}
+      \strng{authornamehash}{d14408e8db65c67405e4c3a6ceb06f4a}
+      \strng{authorfullhash}{d14408e8db65c67405e4c3a6ceb06f4a}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{number}{cg-12}
+      \field{title}{Guidelines on the Evaluation of Vector Network Analysers ({VNA}), Version 2}
+      \field{type}{techreport}
+      \field{year}{2011}
     \endentry
     \entry{Stant_2016_Coll}{inproceedings}{}
       \name{author}{3}{}{%
@@ -5822,8 +5791,8 @@
       \strng{authornamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
       \strng{authorfullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
       \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{IET Colloq. on Millimetre-Wave and Terahertz Eng. \& Technol.}
@@ -5863,8 +5832,8 @@
       \strng{authornamehash}{45cf6d14ef6364ee8545c3a19ab27e94}
       \strng{authorfullhash}{45cf6d14ef6364ee8545c3a19ab27e94}
       \field{extraname}{3}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IET Microw. Antennas Propag.}
@@ -5913,8 +5882,8 @@
       \strng{authorbibnamehash}{e7b8c1bbb7b21d18b93e1c35618f0b1a}
       \strng{authornamehash}{2e53cf84fdd29e73dafa62eb9f738f9b}
       \strng{authorfullhash}{e7b8c1bbb7b21d18b93e1c35618f0b1a}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{{IEEE} Trans. Microw. Theory Techn.}
@@ -5948,8 +5917,8 @@
       \strng{authorbibnamehash}{bdc9f599c6c920fab64fd3f9eb090423}
       \strng{authornamehash}{bdc9f599c6c920fab64fd3f9eb090423}
       \strng{authorfullhash}{bdc9f599c6c920fab64fd3f9eb090423}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{89th ARFTG Microw. Meas. Conf.}
@@ -5987,8 +5956,8 @@
       \strng{authorbibnamehash}{698b97abddf77fcbb965d868fb65b16d}
       \strng{authornamehash}{698b97abddf77fcbb965d868fb65b16d}
       \strng{authorfullhash}{698b97abddf77fcbb965d868fb65b16d}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9480}
@@ -6067,8 +6036,8 @@
       \strng{authorbibnamehash}{c50b9a68c8183ea0043996a920a49eab}
       \strng{authornamehash}{8bbfcf76089dabcb2b0850f84f59abe3}
       \strng{authorfullhash}{c50b9a68c8183ea0043996a920a49eab}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{{ARFTG} On-Wafer Users’ Forum}
@@ -6094,8 +6063,8 @@
       \strng{authorbibnamehash}{7058e4bd76f877c52b621c942b30613c}
       \strng{authornamehash}{7058e4bd76f877c52b621c942b30613c}
       \strng{authorfullhash}{7058e4bd76f877c52b621c942b30613c}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{ISO} 5725: Accuracy (trueness and precision) of measurement methods and results}

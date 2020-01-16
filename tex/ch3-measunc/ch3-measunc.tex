@@ -160,7 +160,7 @@ u({\boldsymbol x}_n\text{,}{\boldsymbol x}_1)&u({\boldsymbol x}_n\text{,}{\bolds
 \end{bmatrix}
 \end{align}
 
-where $\bm{U_X}$ is the uncertainty matrix, $\bm{x}_i$ is a sample from the array of vectors containing input quantity indications and $\bar{\bm{x}}$ is the arithmetic mean of that array. For this multivariate case, the minimum value of $n$ will increase linearly with $N$, such that the standard uncertainty is undefined unless $n > N + 2$.
+where $\boldsymbol V(\boldsymbol X)$ is the covariance matrix, $\bm{x}_i$ is a sample from the array of vectors containing input quantity indications and $\bar{\bm{x}}$ is the arithmetic mean of that array. For this multivariate case, the minimum value of $n$ will increase linearly with $N$, such that the standard uncertainty is undefined unless $n > N + 2$.
 
 \paragraph{Comparison of GUM and GUM Supplements approach using example H.2/9.4}
 
@@ -332,12 +332,12 @@ The LPU does not provide any information about the shape of the probability dist
 
 \subsubsection{Finite Difference Methods} \label{ch3_sec_fd_methods}
 
-Included in the definition of the LPU is an alternative method of determining the sensitivity coefficients in (\ref{ch3_eqn_sens_matrix}), without the need to know the measurement model, $f$, explicitly. This technique can be described as a finite difference method and involves measuring the change in $Y$ while varying a particular $X_i$ and holding all other input quantities constant. This is often used when there may not be a model available for a particular process but a rudimentary uncertainty analysis is required, or if the computational power is available to recompute the finite differences when the estimates change. Typically, the sum of the estimate and the standard uncertainty of each input quantity $\bar{x}_i + u(\bar{x}_i)$ is used, although a more rigorous version also includes the standard uncertainty subtracted from the estimate $\bar{x}_i + u(\bar{x}_i)$ to check for asymmetry. Because only two points are used to solve for each sensitivity coefficient (the estimate and the estimate plus standard uncertainty), this uncertainty propagation also linearises the measurement model.
+Included in the definition of the LPU is an alternative method of determining the sensitivity coefficients in (\ref{ch3_eqn_sens_matrix}), without the need to know the measurement model, $f$, explicitly. This technique can be described as a finite difference method and involves measuring the change in $Y$ while varying a particular $X_i$ and holding all other input quantities constant. This is often used when there may not be a model available for a particular process but a rudimentary uncertainty analysis is required, or if the computational power is available to recompute the finite differences when the estimates change. Typically, the sum of the estimate and the standard uncertainty of each input quantity $\bar{x}_i + u(\bar{x}_i)$ is used, although a more rigorous version also includes the standard uncertainty subtracted from the estimate $\bar{x}_i - u(\bar{x}_i)$ to check for asymmetry. Because only two points are used to solve for each sensitivity coefficient (the estimate and the estimate plus standard uncertainty), this uncertainty propagation also linearises the measurement model.
 
 If all of the input quantities are considered independent and the standard uncertainty was chosen as the value with which to perturb the input quantities, then by subtracting the estimate of the measurand from each sample and adding the results in quadrature, the combined standard uncertainty in the measurand can be obtained:
 
 \begin{equation}
-u_c(\bar{y}) = \sqrt{\sum_{i=1}^{N}((\bar{x}_i+u(\bar{x}_i))-\bar{x}_i)}
+u_c(\bar{y}) = \sqrt{\sum_{i=1}^{N}\left[\frac{1}{2}\left\lbrace f\left[x_1,\dots,\bar{x}_i+u(\bar{x}_i),\dots,x_N\right]-f\left[x_1,\dots,\bar{x}_i-u(\bar{x}_i),\dots,x_N\right]\right\rbrace\right]^2}
 \end{equation}
 
 \subsection{Expanded Uncertainty and Coverage Intervals}
